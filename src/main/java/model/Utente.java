@@ -1,4 +1,4 @@
-package it.agrounit.model;
+package main.java.model;
 
 public abstract class Utente {
     private String nome;

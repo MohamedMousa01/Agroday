@@ -1,12 +1,9 @@
-package it.agrounit.controller.applicativo;
+package main.java.controllers.grafico.gui;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 
-public class LoginController {
+public class LoginGUIController {
 
     @FXML
     private TextField usernameField;
@@ -15,10 +12,18 @@ public class LoginController {
     private PasswordField passwordField;
 
     @FXML
+    private ToggleButton persistenceToggle;
+
+    @FXML
     private Label messageLabel;
 
     @FXML
     private Button loginButton;
+
+    @FXML
+    private void initialize() {
+        persistenceToggle.setSelected(false);
+        persistenceToggle.setOnAction(e -> { persistenceToggle.setText(persistenceToggle.isSelected() ? "ON" : "OFF"); }); }
 
 
     @FXML
