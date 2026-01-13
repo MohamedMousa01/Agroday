@@ -1,7 +1,15 @@
 
-'main.java.misc.Session#getIdAnnuncio()JK
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java1 1("1*!
-12 2("
-2 2(
-""B
-main.java.misc.SessionHX
+6main.java.model.Annuncio#getTitolo()Ljava/lang/String;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java3 3("1*¥
+14 4(p
+n
+4 4(
+%0java.lang.String"__id*D
+
+__unknown_file ((*&
+main.java.model.Annuncio"
+titolo"$
+4 4(
+
+%0java.lang.StringB
+main.java.model.AnnuncioH

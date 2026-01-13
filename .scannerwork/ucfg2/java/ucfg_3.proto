@@ -1,7 +1,32 @@
 
-'main.java.misc.Session#isPersistence()ZK
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java ( "1*!
-1 ("
- (
-""B
-main.java.misc.SessionHX
+€main.java.engclasses.dao.AgricoltoreDAO#selezionaAgricoltore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Agricoltore;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/AgricoltoreDAO.java& &(2"1*«
+1+! +(2K
+I
++! +(2
+%0java.util.Map"__id*"
+
+__unknown_file (
+""¢
+Ÿ
++! +(>
+%1main.java.model.Utente"__mapGet*1
+
+__unknown_file (
+
+%0java.util.Map*8
+
+__unknown_file (
+
+valorejava.lang.String"*
++ +(?
+
+%1main.java.model.Utente:%
+&3 &(@
+campojava.lang.String:&
+&A &(O
+valorejava.lang.String: 
+
+__unknown_file (
+""B+")
+'main.java.engclasses.dao.AgricoltoreDAOH

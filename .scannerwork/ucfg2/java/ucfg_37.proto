@@ -1,7 +1,146 @@
 
-1main.java.model.Annuncio#getQuantitaDesiderata()IM
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java? ?($"1*!
-1@ @(!"
-@ @("
-""B
-main.java.model.AnnuncioHX
+omain.java.controllers.applicativo.RegistrazioneController#controllaCampo(Ljava/lang/String;Ljava/lang/String;)Zp
+d/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/RegistrazioneController.javaä ä(!"4*“
+2
+é é(õ
+ò
+
+éA é(H
+%7main.java.misc.Session"__id*f
+
+__unknown_file (J*H;
+9main.java.controllers.applicativo.RegistrazioneController"	
+sessionîë
+
+éA é(X
+%8boolean"'main.java.misc.Session#isPersistence()Z*:
+
+__unknown_file (
+
+%7main.java.misc.Session2isPersistence()ì
+ê
+
+é é(Y
+%4main.java.model.Venditore"zmain.java.engclasses.dao.VenditoreDAO#selezionaVenditore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Venditore;*E
+
+__unknown_file ()"'
+%main.java.engclasses.dao.VenditoreDAO*7
+
+__unknown_file (
+
+campojava.lang.String*8
+
+__unknown_file (
+
+valorejava.lang.String*+
+
+__unknown_file (
+
+%8booleanq
+o
+
+é é(Y
+%2main.java.model.Utente"__id*=
+
+__unknown_file (!
+
+%4main.java.model.Venditore*
+1*ﬂ
+3
+ç ç( õ
+ò
+
+çE ç(L
+%5main.java.misc.Session"__id*f
+
+__unknown_file (J*H;
+9main.java.controllers.applicativo.RegistrazioneController"	
+sessionîë
+
+çE ç(\
+%6boolean"'main.java.misc.Session#isPersistence()Z*:
+
+__unknown_file (
+
+%5main.java.misc.Session2isPersistence()û
+õ
+
+ç ç(]!
+%3main.java.model.Agricoltore"Ämain.java.engclasses.dao.AgricoltoreDAO#selezionaAgricoltore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Agricoltore;*G
+
+__unknown_file (+")
+'main.java.engclasses.dao.AgricoltoreDAO*7
+
+__unknown_file (
+
+campojava.lang.String*8
+
+__unknown_file (
+
+valorejava.lang.String*+
+
+__unknown_file (
+
+%6booleans
+q
+
+ç ç(]
+%2main.java.model.Utente"__id*?
+
+__unknown_file (#
+!
+%3main.java.model.Agricoltore*
+1*Ã
+4
+å å(õ
+ò
+
+å å(
+%0main.java.misc.Session"__id*f
+
+__unknown_file (J*H;
+9main.java.controllers.applicativo.RegistrazioneController"	
+sessionîë
+
+å å(/
+%1boolean"'main.java.misc.Session#isAgricoltore()Z*:
+
+__unknown_file (
+
+%0main.java.misc.Session2isAgricoltore()*
+2
+3*£
+1
+å é(Zr
+p
+
+å é(Z 
+utentemain.java.model.Utente"__id*:
+
+__unknown_file (
+
+%2main.java.model.Utenteá
+Ñ
+
+ë ë(
+%9boolean"	__compare*
+
+ë ë(
+!=*0
+
+ë ë("
+ 
+utentemain.java.model.Utente*
+
+ë ë(
+"""
+
+ë ë(
+"":'
+
+ä" ä(/
+campojava.lang.String:(
+
+ä0 ä(=
+valorejava.lang.StringB=;
+9main.java.controllers.applicativo.RegistrazioneControllerHX

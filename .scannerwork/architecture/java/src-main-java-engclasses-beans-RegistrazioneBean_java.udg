@@ -1,0 +1,614 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1768325450235*java2.Bí
+:
+5src/main/java/engclasses/beans/RegistrazioneBean.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+main.java.engclasses.beans7
+1
+,main.java.engclasses.beans.RegistrazioneBean9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(3:1)-(69:2)14
+
+simple-name15
+
+RegistrazioneBean16
+7
+1main.java.engclasses.beans.RegistrazioneBean.nome18
+
+field19
+
+private20
+
+(5:9)-(5:29)21
+
+
+nome22
+:
+4main.java.engclasses.beans.RegistrazioneBean.cognome24
+
+(6:9)-(6:32)25
+
+cognome26
+;
+5main.java.engclasses.beans.RegistrazioneBean.username28
+
+(7:9)-(7:33)29
+
+username30
+8
+2main.java.engclasses.beans.RegistrazioneBean.email32
+
+(8:9)-(8:30)33
+
+email34
+;
+5main.java.engclasses.beans.RegistrazioneBean.password36
+
+(9:9)-(9:33)37
+
+password38
+B
+<main.java.engclasses.beans.RegistrazioneBean.confirmPassword40
+
+(10:9)-(10:40)41
+
+confirmPassword42
+8
+2main.java.engclasses.beans.RegistrazioneBean.citta44
+
+(11:9)-(11:30)45
+
+citta46
+N
+Hmain.java.engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;48
+
+method49
+
+(13:9)-(15:10)50
+
+getNome51
+
+
+references52
+O
+Imain.java.engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)V54
+
+(17:9)-(19:10)55
+
+setNome56
+
+
+uses57
+Q
+Kmain.java.engclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;59
+
+(21:9)-(23:10)60
+
+
+getCognome61
+R
+Lmain.java.engclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V63
+
+(25:9)-(27:10)64
+
+
+setCognome65
+R
+Lmain.java.engclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;67
+
+(29:9)-(31:10)68
+
+getUsername69
+S
+Mmain.java.engclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V71
+
+(33:9)-(35:10)72
+
+setUsername73
+O
+Imain.java.engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;75
+
+(37:9)-(39:10)76
+
+getEmail77
+P
+Jmain.java.engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)V79
+
+(41:9)-(43:10)80
+
+setEmail81
+R
+Lmain.java.engclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;83
+
+(45:10)-(47:10)84
+
+getPassword85
+S
+Mmain.java.engclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V87
+
+(49:9)-(51:10)88
+
+setPassword89
+Y
+Smain.java.engclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;91
+
+(53:9)-(55:10)92
+
+getConfirmPassword93
+Z
+Tmain.java.engclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V95
+
+(57:9)-(59:10)96
+
+setConfirmPassword97
+O
+Imain.java.engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;99
+
+(61:9)-(63:10)100
+
+getCitta101
+Q
+Jmain.java.engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V103
+
+(65:9)-(67:10)104
+
+setCitta105J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jË
+M
+27G
+272819 *
+1 ( 28:5B$
+
+
+11
+20
+
+
+13
+29
+
+
+15
+30
+M
+31G
+313219 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+33
+
+
+15
+34
+M
+39G
+394019 *
+1
+ 
+('28:5B$
+
+
+11
+20
+
+
+13
+41
+
+
+15
+42
+M
+43G
+434419 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+45
+
+
+15
+46
+M
+47G
+474849 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+50
+
+
+15
+51
+M
+66G
+666749 *
+1 ("28:5B$
+
+
+11
+12
+
+
+13
+68
+
+
+15
+69
+M
+74G
+747549 *
+1% %(28:5B$
+
+
+11
+12
+
+
+13
+76
+
+
+15
+77
+M
+82G
+828349 *
+1- -(#28:5B$
+
+
+11
+12
+
+
+13
+84
+
+
+15
+85
+R
+102K
+10210349 *
+1A A(28:5B&
+
+
+11
+12
+
+13
+104
+
+15
+105
+M
+58G
+585949 *
+1 (!28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+M
+86G
+868749 *
+11 1( 28:5B$
+
+
+11
+12
+
+
+13
+88
+
+
+15
+89
+M
+78G
+787949 *
+1) )(28:5B$
+
+
+11
+12
+
+
+13
+80
+
+
+15
+81
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+70G
+707149 *
+1! !( 28:5B$
+
+
+11
+12
+
+
+13
+72
+
+
+15
+73
+O
+98I
+989949 *
+1= =(28:5B&
+
+
+11
+12
+
+13
+100
+
+15
+101
+M
+17G
+171819 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+M
+90G
+909149 *
+15 5()28:5B$
+
+
+11
+12
+
+
+13
+92
+
+
+15
+93
+M
+94G
+949549 *
+19 9('28:5B$
+
+
+11
+12
+
+
+13
+96
+
+
+15
+97
+M
+53G
+535449 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+55
+
+
+15
+56
+M
+62G
+626349 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+64
+
+
+15
+65
+M
+23G
+232419 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+25
+
+
+15
+26
+M
+35G
+353619 *
+1	 	( 28:5B$
+
+
+11
+20
+
+
+13
+37
+
+
+15
+38ré
+
+471752*
+1 (
+
+53857*
+1 (
+
+53852*
+1 (
+
+531752*
+1 (
+
+582352*
+1 (
+
+62857*
+1 (
+
+62852*
+1 (
+
+622352*
+1 (
+
+662752*
+1 (
+
+70857*
+1" "(
+
+70852*
+1" "(
+
+702752*
+1" "(
+
+743152*
+1& &(
+
+78857*
+1* *(
+
+78852*
+1* *(
+
+783152*
+1* *(
+
+823552*
+1. .(
+
+86857*
+12 2(
+
+86852*
+12 2(
+
+863552*
+12 2(
+
+903952*
+16 6(#
+
+94857*
+1: :(
+
+94852*
+1: :(
+
+943952*
+1: :(!
+
+984352*
+1> >(
+
+102857*
+1B B(
+
+102852*
+1B B(
+
+1024352*
+1B B(

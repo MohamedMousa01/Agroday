@@ -1,15 +1,7 @@
 
-9main.java.misc.Session#getRuoloUtente()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java9 9( "1*¨
-19, 9(7s
-q
-9, 9(7
-%0java.lang.String"__id*G
-
-__unknown_file (+*)
-main.java.misc.Session"
-ruoloUtente"$
-9% 9(8
-
-%0java.lang.StringB
-main.java.misc.SessionH
+%main.java.model.Annuncio#getPrezzo()DM
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java; ;("1*!
+1< <("
+< <(
+""B
+main.java.model.AnnuncioHX

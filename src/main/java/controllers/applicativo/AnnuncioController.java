@@ -4,6 +4,8 @@ import main.java.engclasses.beans.AnnuncioBean;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import main.java.engclasses.dao.AnnuncioDAO;
 import main.java.model.Annuncio;
 
 public class AnnuncioController {

@@ -11,7 +11,9 @@ public class Session {
     private boolean persistence; // Modalità di persistenza (buffer o database)
     private long idAnnuncio;
     private List<AnnuncioBean> Annunci;
-    private String ruoloUtente; // es: "consulente", "produttore", "acquirente"
+    private boolean isAgricoltore; // es: "produttore", "acquirente"
+    private String nomeAgricoltore;
+    private String cognomeAgricoltore;
 
 
     public Session(boolean persistence) {
@@ -54,10 +56,12 @@ public class Session {
         this.idAnnuncio = idAnnuncio;
     }
 
-    public String getRuoloUtente() { return ruoloUtente; }
+    public boolean isAgricoltore() {
+        return isAgricoltore;
+    }
 
-    public void setRuoloUtente(String ruoloUtente) {
-        this.ruoloUtente = ruoloUtente;
+    public void setIsOrganizzatore(boolean agricoltore) {
+        isAgricoltore = agricoltore;
     }
 
     public List<AnnuncioBean> getAnnunci() {
@@ -67,5 +71,14 @@ public class Session {
     public void setAnnunci(List<AnnuncioBean> Annunci) {
         this.Annunci = Annunci;
     }
+
+    public String getNomeAgricoltore() { return nomeAgricoltore; }
+
+    public void setNomeAgricoltore(String nomeAgricoltore) { this.nomeAgricoltore = nomeAgricoltore; }
+
+    public String getCognomeAgricoltore() { return cognomeAgricoltore; }
+
+    public void setCognomeAgricoltore (String cognomeAgricoltore) { this.cognomeAgricoltore = cognomeAgricoltore;  }
+
 
 }

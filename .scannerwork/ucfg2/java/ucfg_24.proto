@@ -1,16 +1,22 @@
 
-6main.java.model.Utente#getPassword()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java6 6("1*¥
-17 7(p
-n
-7 7(
-%0java.lang.String"__id*D
+Vmain.java.engclasses.dao.VenditoreDAO#aggiornaVenditore(Lmain/java/model/Venditore;Z)ZZ
+P/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/VenditoreDAO.java/ /(+"1*¬
+13 3(#ˆ
+…
+3 3(7
+%0boolean"Tmain.java.engclasses.dao.VenditoreDAO#aggiornaInBuffer(Lmain/java/model/Venditore;)Z*E
 
-__unknown_file ((*&
-main.java.model.Utente"
-
-password"$
-7 7(
-
-%0java.lang.StringB
-main.java.model.UtenteH
+__unknown_file ()"'
+%main.java.engclasses.dao.VenditoreDAO*M
+
+__unknown_file (1
+/
+venditoreggiornatomain.java.model.Venditore"
+3 3(8
+"":;
+/, /(I/
+venditoreggiornatomain.java.model.Venditore: 
+
+__unknown_file (
+""B)"'
+%main.java.engclasses.dao.VenditoreDAOHX
