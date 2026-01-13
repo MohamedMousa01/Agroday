@@ -1,16 +1,16 @@
 
-?main.java.agrounit.model.Utente#getUsername()Ljava/lang/String;T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/agrounit/model/Utente.java& &("1*®
-1' '(y
-w
-' '(
-%0java.lang.String"__id*M
+6main.java.misc.Session#getUsername()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java% %("1*¥
+1& &(p
+n
+& &(
+%0java.lang.String"__id*D
 
-__unknown_file (1*/!
-main.java.agrounit.model.Utente"
+__unknown_file ((*&
+main.java.misc.Session"
 
 username"$
-' '(
+& &(
 
-%0java.lang.StringB#!
-main.java.agrounit.model.UtenteH
+%0java.lang.StringB
+main.java.misc.SessionH

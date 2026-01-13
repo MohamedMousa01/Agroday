@@ -1,7 +1,15 @@
 
--main.java.agrounit.model.Annuncio#isAttivo()ZV
-L/Users/mohamedmousa/Desktop/prova/src/main/java/agrounit/model/Annuncio.javaD D("1*!
-1E E("
-E E(
-""B%#
-!main.java.agrounit.model.AnnuncioHX
+3main.java.model.Utente#getEmail()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java. .("1*¢
+1/ /(m
+k
+/ /(
+%0java.lang.String"__id*A
+
+__unknown_file (%*#
+main.java.model.Utente"
+email"$
+/ /(
+
+%0java.lang.StringB
+main.java.model.UtenteH

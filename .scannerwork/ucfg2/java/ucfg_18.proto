@@ -1,15 +1,15 @@
 
-Dmain.java.agrounit.model.Annuncio#getDescrizione()Ljava/lang/String;V
-L/Users/mohamedmousa/Desktop/prova/src/main/java/agrounit/model/Annuncio.java4 4( "1*³
-15 5(~
-|
-5 5(
-%0java.lang.String"__id*R
+5main.java.model.Utente#getCognome()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java ("1*¤
+1 (o
+m
+ (
+%0java.lang.String"__id*C
 
-__unknown_file (6*4#
-!main.java.agrounit.model.Annuncio"
-descrizione"$
-5 5(
+__unknown_file ('*%
+main.java.model.Utente"	
+cognome"$
+ (
 
-%0java.lang.StringB%#
-!main.java.agrounit.model.AnnuncioH
+%0java.lang.StringB
+main.java.model.UtenteH

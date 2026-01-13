@@ -1,15 +1,15 @@
 
-Smain.java.agrounit.model.Annuncio#getAutore()Lmain/java/agrounit/model/Agricoltore;V
-L/Users/mohamedmousa/Desktop/prova/src/main/java/agrounit/model/Annuncio.java, ,( "1*Ø
-1- -(Ž
-‹
-- -(*
-%0$main.java.agrounit.model.Agricoltore"__id*M
+2main.java.model.Utente#getNome()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java ("1*¡
+1 (l
+j
+ (
+%0java.lang.String"__id*@
 
-__unknown_file (1*/#
-!main.java.agrounit.model.Annuncio"
-autore"8
-- -(,
-*
-%0$main.java.agrounit.model.AgricoltoreB%#
-!main.java.agrounit.model.AnnuncioH
+__unknown_file ($*"
+main.java.model.Utente"
+nome"$
+ (
+
+%0java.lang.StringB
+main.java.model.UtenteH

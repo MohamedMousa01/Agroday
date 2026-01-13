@@ -1,15 +1,16 @@
 
-<main.java.agrounit.model.Utente#getEmail()Ljava/lang/String;T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/agrounit/model/Utente.java. .("1*«
-1/ /(v
-t
-/ /(
-%0java.lang.String"__id*J
+6main.java.misc.Session#getIdUtente()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java- -("1*¥
+1. .(p
+n
+. .(
+%0java.lang.String"__id*D
 
-__unknown_file (.*,!
-main.java.agrounit.model.Utente"
-email"$
-/ /(
+__unknown_file ((*&
+main.java.misc.Session"
+
+idUtente"$
+. .(
 
-%0java.lang.StringB#!
-main.java.agrounit.model.UtenteH
+%0java.lang.StringB
+main.java.misc.SessionH

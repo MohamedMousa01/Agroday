@@ -1,7 +1,16 @@
 
-:main.java.agrounit.model.Annuncio#getQuantitaDesiderata()IV
-L/Users/mohamedmousa/Desktop/prova/src/main/java/agrounit/model/Annuncio.java< <($"1*!
-1= =(!"
-= =("
-""B%#
-!main.java.agrounit.model.AnnuncioHX
+6main.java.model.Utente#getUsername()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java& &("1*¥
+1' '(p
+n
+' '(
+%0java.lang.String"__id*D
+
+__unknown_file ((*&
+main.java.model.Utente"
+
+username"$
+' '(
+
+%0java.lang.StringB
+main.java.model.UtenteH
