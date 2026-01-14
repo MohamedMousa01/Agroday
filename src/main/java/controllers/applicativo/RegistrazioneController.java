@@ -3,10 +3,13 @@ package main.java.controllers.applicativo;
 
 import main.java.engclasses.beans.RegistrazioneBean;
 import main.java.engclasses.dao.AgricoltoreDAO;
+import main.java.engclasses.dao.UtenteDAOFactory;
 import main.java.engclasses.dao.VenditoreDAO;
 import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
 import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
 import main.java.engclasses.exceptions.RegistrazioneFallitaException;
+import main.java.engclasses.pattern.Factory.UtenteFactory;
+import main.java.engclasses.pattern.Factory.UtenteFactoryProvider;
 import main.java.misc.Session;
 import main.java.model.Agricoltore;
 import main.java.model.Utente;
@@ -31,21 +34,33 @@ public class RegistrazioneController {
 
         String errori = validaRegistrazione(bean);
         //validazione di dati
-        if(!errori.isEmpty()){
+        if(!errori.isEmpty()){                              //se ci sono errori lancio eccezione
             throw new RegistrazioneFallitaException(errori);
         }
-        // registra utente (agricoltore o venditore)
-        Utente utente;
-        if(session.isAgricoltore()){
-            utente = new Agricoltore(idUtente, bean.getNome(), bean.getCognome(), bean.getUsername(), bean.getEmail(), bean.getPassword(), bean.getCitta());
-            salvaDatiSessione(utente);
-            AgricoltoreDAO.aggiungiAgricoltore(utente, persistence);
-        } else {
-            utente = new Venditore(idUtente, bean.getNome(), bean.getCognome(), bean.getUsername(), bean.getEmail(), bean.getPassword());
-            salvaDatiSessione(utente);
-            VenditoreDAO.aggiungiVenditore(utente, persistence);
-        }
+
+        // creo la factory giusta dell'utente che mi serve
+        UtenteFactory factory = UtenteFactoryProvider.getFactory(session);
+        Utente utente = factory.creaUtente(idUtente, bean);
+
+        salvaDatiSessione(utente);
+
+        UtenteDAOFactory.getDAO(utente).aggiungiUtente(utente, persistence);   //chiamo la Factory che mi crea la DAO per l'utente che voglio
+
         return true;
+
+
+//        if(session.isAgricoltore()){          //se l'accesso è dell'agricoltore associo ad utente model Agricoltore
+//            utente = new Agricoltore(idUtente, bean.getNome(), bean.getCognome(), bean.getUsername(), bean.getEmail(), bean.getPassword(), bean.getCitta());
+//            salvaDatiSessione(utente);
+//            AgricoltoreDAO.aggiungiAgricoltore(utente, persistence);
+//        } else {                            //altrimenti creo model Venditore
+//            utente = new Venditore(idUtente, bean.getNome(), bean.getCognome(), bean.getUsername(), bean.getEmail(), bean.getPassword());
+//            salvaDatiSessione(utente);
+//            VenditoreDAO.aggiungiVenditore(utente, persistence);
+//        }
+//        return true;
+
+
     }
 
     private void salvaDatiSessione(Utente utente) {

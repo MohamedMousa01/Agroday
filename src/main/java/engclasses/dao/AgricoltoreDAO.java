@@ -10,27 +10,29 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class AgricoltoreDAO {
+public class AgricoltoreDAO implements UtenteDAO{
 
     // Buffer per memorizzare temporaneamente gli Agricoltori
     private static final Map<String, Utente> bufferAgricoltori = new HashMap<>();
     private static final Set<String> CAMPI_VALIDI = Set.of("username", "idUtente", "email");
     private static final String ERRORE_AGGIORNAMENTO_DB = "Errore durante l'aggiornamento del database";
 
-    private AgricoltoreDAO() {}
+    protected AgricoltoreDAO() {}
 
 
-    public static void aggiungiAgricoltore(Utente agricoltore, boolean persistence) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    public void aggiungiUtente(Utente utente, boolean persistence) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
 //        if (persistence) {
 //            salvaInDb(agricoltore); // Salvataggio nel database
 //        } else {
-            salvaInBuffer(agricoltore); // Salvataggio temporaneo nel buffer
+            salvaInBuffer(utente); // Salvataggio temporaneo nel buffer
 //        }
     }
 
     // Salva un agricoltore nel buffer temporaneo
     private static void salvaInBuffer(Utente agricoltore) {
-        bufferAgricoltori.put(agricoltore.getIdUtente(), agricoltore);
+        bufferAgricoltori.put(agricoltore.getIdUtente(), agricoltore);      //in questo modo nella mappa salvo la chiave
+                                                                            // (ovvero l'idUtente), e il valore tiene il riferimento
+                                                                            //dell'oggetto agricoltore
     }
 
 

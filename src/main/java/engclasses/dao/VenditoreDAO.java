@@ -11,27 +11,28 @@ import java.util.Map;
 import java.util.Set;
 
 
-public class VenditoreDAO {
+public class VenditoreDAO implements UtenteDAO{
 
     // Buffer per memorizzare temporaneamente gli Venditori
     private static final Map<String, Utente> bufferVenditori = new HashMap<>();
     private static final Set<String> CAMPI_VALIDI = Set.of("username", "idUtente", "email");
 
-    private VenditoreDAO() {}
+    protected VenditoreDAO() {}
 
     // Aggiunge un organizzatore, scegliendo tra buffer o database in base al flag 'persistence'
-    public static void aggiungiVenditore(Utente venditore, boolean persistence) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    public void aggiungiUtente(Utente utente, boolean persistence) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
 //        if (persistence) {
 //            salvaInDb(organizzatore); // Salvataggio nel database
 //        } else {
-            salvaInBuffer(venditore); // Salvataggio temporaneo nel buffer
+            salvaInBuffer(utente); // Salvataggio temporaneo nel buffer
 //        }
     }
 
 
     // Salva un venditore nel buffer temporaneo
     private static void salvaInBuffer(Utente venditore) {
-        bufferVenditori.put(venditore.getIdUtente(), venditore);
+        bufferVenditori.put(venditore.getIdUtente(), venditore);        //associo alla chiave idUtente, il valore che tiene il
+                                                                        // riferimento al model/entity utente.
     }
 
     // Seleziona un venditore in base al campo specificato (es. username, idUtente)
