@@ -1,5 +1,8 @@
 package main.java.engclasses.beans;
 
+import main.java.misc.PersistenceType;
+import main.java.misc.TipoUtente;
+
 public class RegistrazioneBean {
 
         private String nome;
@@ -9,6 +12,25 @@ public class RegistrazioneBean {
         private String password;
         private String confirmPassword;
         private String citta;
+
+        private PersistenceType tipoPersistenza;
+        private TipoUtente tipoUtente;
+
+        //_________________________________________________
+
+        public PersistenceType getPersistenceType() {
+            return tipoPersistenza;
+        }
+        public void setPersistenceType(PersistenceType tipoPersistenza){
+            this.tipoPersistenza = tipoPersistenza;
+        }
+
+        public TipoUtente getTipoUtente(){
+            return tipoUtente;
+        }
+        public void setTipoUtente(TipoUtente tipoUtente){
+            this.tipoUtente = tipoUtente;
+        }
 
         public String getNome() {
             return nome;
@@ -42,7 +64,7 @@ public class RegistrazioneBean {
             this.email = email;
         }
 
-         public String getPassword() {
+        public String getPassword() {
             return password;
         }
 

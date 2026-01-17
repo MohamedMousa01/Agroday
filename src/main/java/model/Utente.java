@@ -1,5 +1,7 @@
 package main.java.model;
 
+import main.java.misc.TipoUtente;
+
 public abstract class Utente {
     private String nome;
     private String cognome;
@@ -7,6 +9,8 @@ public abstract class Utente {
     private String email;
     private String password;
     private final String idUtente;
+
+    public abstract TipoUtente getTipo();
 
 
     protected Utente(String nome, String cognome, String username, String email, String password, String idUtente) {
@@ -17,6 +21,8 @@ public abstract class Utente {
         this.password = password;
         this.idUtente = idUtente; // Genera un UUID univoco
     }
+
+
 
     // Getter e Setter
     public String getNome() {

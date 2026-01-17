@@ -2,20 +2,17 @@ package main.java.controllers.applicativo;
 
 
 import main.java.engclasses.beans.RegistrazioneBean;
-import main.java.engclasses.dao.AgricoltoreDAO;
-import main.java.engclasses.dao.UtenteDAOFactory;
-import main.java.engclasses.dao.VenditoreDAO;
+import main.java.engclasses.dao.api.UtenteDAO;
+import main.java.engclasses.dao.factory.DAOFactory;
 import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
 import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
 import main.java.engclasses.exceptions.RegistrazioneFallitaException;
 import main.java.engclasses.pattern.Factory.UtenteFactory;
 import main.java.engclasses.pattern.Factory.UtenteFactoryProvider;
+import main.java.misc.PersistenceType;
 import main.java.misc.Session;
-import main.java.model.Agricoltore;
+import main.java.misc.TipoUtente;
 import main.java.model.Utente;
-import main.java.model.Venditore;
-
-import java.lang.runtime.SwitchBootstraps;
 import java.util.UUID;
 
 public class RegistrazioneController {
@@ -27,7 +24,7 @@ public class RegistrazioneController {
         this.session = session;
     }
 
-    public boolean registraUtente(RegistrazioneBean bean, boolean persistence) throws RegistrazioneFallitaException, DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    public boolean registraUtente(RegistrazioneBean bean) throws RegistrazioneFallitaException, DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
 
         // Genera un ID univoco per l'utente
         this.idUtente = UUID.randomUUID().toString();
@@ -38,47 +35,36 @@ public class RegistrazioneController {
             throw new RegistrazioneFallitaException(errori);
         }
 
+        verificaUnicita(bean);
+
+        //capisco con che tipo di utente ho a che fare, e quale tipo di persistenza è stata scelta
+        TipoUtente tipoUtente = bean.getTipoUtente();
+        PersistenceType tipoPersistenza = bean.getPersistenceType();
+
         // creo la factory giusta dell'utente che mi serve
-        UtenteFactory factory = UtenteFactoryProvider.getFactory(session);
+        UtenteFactory factory = UtenteFactoryProvider.getFactory(tipoUtente);
         Utente utente = factory.creaUtente(idUtente, bean);
 
-        salvaDatiSessione(utente);
+        //salvo in Sessione l'utente, e il tipo di persistenza.  Ma devo salvare il bean o il model????????
+        salvaDatiSessione(utente, tipoPersistenza);
 
-        UtenteDAOFactory.getDAO(utente).aggiungiUtente(utente, persistence);   //chiamo la Factory che mi crea la DAO per l'utente che voglio
+        // ora lavoro nella DAO
+        //factoryDAO mi offre una soluzione polimorfa, getFactory mi creerà la factory giusta in base al parametro di persistenza che recupera dalla Sessione (Memory, File, Database)
+        DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
+        UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
+        dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
 
         return true;
 
-
-//        if(session.isAgricoltore()){          //se l'accesso è dell'agricoltore associo ad utente model Agricoltore
-//            utente = new Agricoltore(idUtente, bean.getNome(), bean.getCognome(), bean.getUsername(), bean.getEmail(), bean.getPassword(), bean.getCitta());
-//            salvaDatiSessione(utente);
-//            AgricoltoreDAO.aggiungiAgricoltore(utente, persistence);
-//        } else {                            //altrimenti creo model Venditore
-//            utente = new Venditore(idUtente, bean.getNome(), bean.getCognome(), bean.getUsername(), bean.getEmail(), bean.getPassword());
-//            salvaDatiSessione(utente);
-//            VenditoreDAO.aggiungiVenditore(utente, persistence);
-//        }
-//        return true;
-
-
     }
 
-    private void salvaDatiSessione(Utente utente) {
-        session.setIdUtente(utente.getIdUtente());
-        session.setUsername(utente.getUsername());
-        session.setNome(utente.getNome());
-
-        if (utente instanceof Agricoltore agr) {
-            session.setCognomeAgricoltore(agr.getCognome());
-            session.setNomeAgricoltore(agr.getNome());
-        }
+    private void salvaDatiSessione(Utente utente, PersistenceType tipoPersistenza) {
+        session.setUtenteLoggato(utente);
+        session.setPersistenceType(tipoPersistenza);
     }
 
     public String validaRegistrazione(RegistrazioneBean bean) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
         StringBuilder errori = new StringBuilder();
-
-        // Recupera utente corrente
-        recuperaUtente();
 
         // Validazione campi
         validaNome(bean.getNome(), errori);
@@ -87,20 +73,9 @@ public class RegistrazioneController {
         validaPassword(bean.getPassword(), bean.getConfirmPassword(), errori);
         validaEmail(bean.getEmail(), errori);
 
-//        if (session.isAgricoltore()) {
-//            validaTitoloDiStudio(bean.getTitoloDiStudio(), errori);
-//        }
         return errori.toString();
     }
 
-    // Metodo per recuperare l'utente corrente
-    private void recuperaUtente() throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
-        if (session.isAgricoltore()) {
-            AgricoltoreDAO.selezionaAgricoltore("idUtente", idUtente, session.isPersistence());
-        } else {
-            VenditoreDAO.selezionaVenditore("idUtente", idUtente, session.isPersistence());
-        }
-    }
 
     // Metodo per validare il nome
     private void validaNome(String nome, StringBuilder errori) {
@@ -121,11 +96,11 @@ public class RegistrazioneController {
     }
 
     // Metodo per validare l'username
-    private void validaUsername(String username, StringBuilder errori) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    private void validaUsername(String username, StringBuilder errori) {
         if (username == null || username.trim().isEmpty()) {
             errori.append("L'username non può essere vuoto.\n");
-        } else if (controllaCampo("username", username)) {
-            errori.append("L'username è già in uso.\n");
+        } else if (!username.matches("^[a-zA-Z0-9_]{4,20}$")) {
+            errori.append("Username non valido (4–20 caratteri alfanumerici).\n");
         }
     }
 
@@ -140,26 +115,31 @@ public class RegistrazioneController {
     }
 
     // Metodo per validare l'email
-    private void validaEmail(String email, StringBuilder errori) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    private void validaEmail(String email, StringBuilder errori) {
         if (email == null || email.trim().isEmpty()) {
             errori.append("L'email non può essere vuota.\n");
         } else if (!email.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$")) {
             errori.append("L'email non è valida.\n");
-        } else if (controllaCampo("email", email)) {
-            errori.append("L'email è già in uso.\n");
         }
     }
 
-    public boolean controllaCampo(String campo, String valore) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
-        // Recupera l'utente (Organizzatore o Partecipante) in base al tipo di sessione
-        Utente utente = session.isAgricoltore()
-                ? AgricoltoreDAO.selezionaAgricoltore(campo, valore, session.isPersistence())
-                : VenditoreDAO.selezionaVenditore(campo, valore, session.isPersistence());
 
-        // Se l'utente non esiste, il campo è disponibile
-        return utente != null;
+
+    private void verificaUnicita(RegistrazioneBean bean)
+            throws DatabaseConnessioneFallitaException,
+            DatabaseOperazioneFallitaException,
+            RegistrazioneFallitaException {
+
+        DAOFactory factory = DAOFactory.getFactory(bean.getPersistenceType());
+        UtenteDAO utenteDAO = factory.getUtenteDAO(bean.getTipoUtente());
+
+        if (utenteDAO.esisteUsername(bean.getUsername())) {
+            throw new RegistrazioneFallitaException("Username già in uso.");
+        }
+
+        if (utenteDAO.esisteEmail(bean.getEmail())) {
+            throw new RegistrazioneFallitaException("Email già in uso.");
+        }
     }
 
-
 }
-
