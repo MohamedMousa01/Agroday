@@ -9,7 +9,9 @@ import main.java.model.Utente;
 public class VenditoreDAOFile extends UtenteDAOFile implements VenditoreDAO {
 
     @Override
-    public void aggiungiUtente(Utente utente, PersistenceType tipo) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    public void aggiungiUtente(Utente utente, PersistenceType tipo)  {
 
     }
+
+
 }

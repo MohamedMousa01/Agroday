@@ -16,38 +16,42 @@ import java.util.List;
 
 public class UtenteDAOFile implements UtenteDAO {
 
-    private static final Path FILE = Paths.get("agricoltori.dat");
+    private static final Path FILE = Paths.get("utenti.dat");
 
     @Override
     public boolean esisteUsername(String username) {
-        List<Agricoltore> agricoltori = caricaDaFile();
-        return agricoltori.stream()
+        List<Utente> utente = caricaDaFile();
+        return utente.stream()
                 .anyMatch(a -> a.getUsername().equalsIgnoreCase(username));
     }
 
     @Override
     public boolean esisteEmail(String email) {
-        List<Agricoltore> agricoltori = caricaDaFile();
-        return agricoltori.stream()
+        List<Utente> utente = caricaDaFile();
+        return utente.stream()
                 .anyMatch(a -> a.getEmail().equalsIgnoreCase(email));
     }
 
     @Override
-    public void aggiungiUtente(Utente utente) {
-        List<Agricoltore> agricoltori = caricaDaFile();
-        agricoltori.add((Agricoltore) utente);
-        salvaSuFile(agricoltori);
+    public void aggiungiUtente(Utente utente, PersistenceType tipo) {
+//        List<Utente> utente = caricaDaFile();
+//        utente.add((Utente) utente);
+//        salvaSuFile(utente);
     }
 
-    @Override
-    public Utente selezionaUtente(String campo, String valore) {
-        return caricaDaFile().stream()
-                .filter(a -> matchCampo(a, campo, valore))
-                .findFirst()
-                .orElse(null);
-    }
 
     @Override
+    public Utente selezionaUtente(String campo, String valore, boolean persistence) {
+
+        return selezionaUtente(campo, valore, persistence); //non ha senso cancella
+    }
+
+
+    public boolean aggiornaUtente(Utente utenteAggiornato, boolean persistence){
+        return true;
+    }
+
+
     public boolean aggiornaUtente(Utente utente) {
         // leggi → modifica → riscrivi
         return true;
@@ -58,7 +62,7 @@ public class UtenteDAOFile implements UtenteDAO {
 
     protected List<Utente> caricaDaFile() {
 
-        Path file = getFilePath();
+        Path file = FILE;
 
         if (!Files.exists(file)) {
             return new ArrayList<>();

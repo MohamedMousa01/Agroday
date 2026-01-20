@@ -6,10 +6,10 @@ import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
 import main.java.misc.PersistenceType;
 import main.java.model.Utente;
 
-public class ConsulenteDAOFile implements ConsulenteDAO {
+public class ConsulenteDAOFile extends UtenteDAOFile implements ConsulenteDAO {
 
     @Override
-    public void aggiungiUtente(Utente utente, PersistenceType tipo) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    public void aggiungiUtente(Utente utente, PersistenceType tipo)  {
 
     }
 }

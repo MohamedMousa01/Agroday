@@ -6,13 +6,15 @@ import main.java.model.Venditore;
 
 public class VenditoreFactory implements UtenteFactory {
 
+    @Override
     public Utente creaUtente(String id, RegistrazioneBean bean){
 
         return new Venditore(id,
-                bean.getNome(),
-                bean.getCognome(),
                 bean.getUsername(),
                 bean.getEmail(),
-                bean.getPassword());
+                bean.getPassword(),
+                bean.getNome(),
+                bean.getCognome(),
+                bean.getCitta());
     }
 }

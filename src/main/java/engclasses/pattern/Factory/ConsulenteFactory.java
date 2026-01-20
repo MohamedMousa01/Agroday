@@ -10,11 +10,11 @@ public class ConsulenteFactory implements UtenteFactory{
     public Utente creaUtente(String id, RegistrazioneBean bean){
 
         return new Agricoltore(id,
-                bean.getNome(),
-                bean.getCognome(),
                 bean.getUsername(),
                 bean.getEmail(),
                 bean.getPassword(),
+                bean.getNome(),
+                bean.getCognome(),
                 bean.getCitta());
 
     }

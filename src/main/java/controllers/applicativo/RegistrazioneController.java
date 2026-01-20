@@ -13,6 +13,8 @@ import main.java.misc.PersistenceType;
 import main.java.misc.Session;
 import main.java.misc.TipoUtente;
 import main.java.model.Utente;
+
+import java.sql.SQLException;
 import java.util.UUID;
 
 public class RegistrazioneController {
@@ -20,7 +22,7 @@ public class RegistrazioneController {
     private final Session session;
     private String idUtente;
 
-    public RegistrazioneController(Session session){
+    public RegistrazioneController(Session session) {
         this.session = session;
     }
 
@@ -28,14 +30,23 @@ public class RegistrazioneController {
 
         // Genera un ID univoco per l'utente
         this.idUtente = UUID.randomUUID().toString();
+        bean.setIdUtente(this.idUtente);
 
         String errori = validaRegistrazione(bean);
+
         //validazione di dati
-        if(!errori.isEmpty()){                              //se ci sono errori lancio eccezione
+        if (!errori.isEmpty()) {                              //se ci sono errori lancio eccezione
             throw new RegistrazioneFallitaException(errori);
         }
 
-        verificaUnicita(bean);
+
+        try {
+            verificaUnicita(bean);
+        } catch (SQLException e) {
+            throw new DatabaseOperazioneFallitaException(
+                    "Errore durante la verifica di unicità", e);
+        }
+
 
         //capisco con che tipo di utente ho a che fare, e quale tipo di persistenza è stata scelta
         TipoUtente tipoUtente = bean.getTipoUtente();
@@ -46,13 +57,22 @@ public class RegistrazioneController {
         Utente utente = factory.creaUtente(idUtente, bean);
 
         //salvo in Sessione l'utente, e il tipo di persistenza.  Ma devo salvare il bean o il model????????
-        salvaDatiSessione(utente, tipoPersistenza);
+        salvaDatiSessione(utente, tipoPersistenza); // vedi se devi salvare anche il tipo di utente, o renderlo intrinseco al model Utente
 
-        // ora lavoro nella DAO
-        //factoryDAO mi offre una soluzione polimorfa, getFactory mi creerà la factory giusta in base al parametro di persistenza che recupera dalla Sessione (Memory, File, Database)
-        DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
-        UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
-        dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
+
+        //try {
+            // ora lavoro nella DAO
+            //factoryDAO mi offre una soluzione polimorfa, getFactory mi creerà la factory giusta in base al parametro di persistenza che recupera dalla Sessione (Memory, File, Database)
+            DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
+            UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
+            dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
+
+            // penso che il parametro session.getPersistenceType() non sia necessario perchè arrivato a quella chiamate
+            //già so con che tipo di persistenza sto avendo a che fare. (dal metodo getFactory(session.getPersistenceType()))
+//        }
+//        catch (SQLException e) {
+//            throw new DatabaseConnessioneFallitaException("database non raggiunto 333", e);
+//        }
 
         return true;
 
@@ -61,6 +81,7 @@ public class RegistrazioneController {
     private void salvaDatiSessione(Utente utente, PersistenceType tipoPersistenza) {
         session.setUtenteLoggato(utente);
         session.setPersistenceType(tipoPersistenza);
+        // in caso mi dovesse servire aggiungo ----> session.setTipoUtente(TipoUtente utente);   prima però aggiungi il setter in Session
     }
 
     public String validaRegistrazione(RegistrazioneBean bean) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
@@ -79,6 +100,7 @@ public class RegistrazioneController {
 
     // Metodo per validare il nome
     private void validaNome(String nome, StringBuilder errori) {
+
         if (nome == null || nome.trim().isEmpty()) {
             errori.append("Il nome non può essere vuoto.\n");
         } else if (!nome.matches("^[a-zA-ZàèéìòùÀÈÉÌÒÙ'\\s]{2,30}$")) {
@@ -124,22 +146,25 @@ public class RegistrazioneController {
     }
 
 
-
     private void verificaUnicita(RegistrazioneBean bean)
             throws DatabaseConnessioneFallitaException,
             DatabaseOperazioneFallitaException,
-            RegistrazioneFallitaException {
+            RegistrazioneFallitaException,
+            SQLException {
 
-        DAOFactory factory = DAOFactory.getFactory(bean.getPersistenceType());
-        UtenteDAO utenteDAO = factory.getUtenteDAO(bean.getTipoUtente());
 
-        if (utenteDAO.esisteUsername(bean.getUsername())) {
-            throw new RegistrazioneFallitaException("Username già in uso.");
-        }
+            DAOFactory factory = DAOFactory.getFactory(bean.getPersistenceType());
+            UtenteDAO utenteDAO = factory.getUtenteDAO(bean.getTipoUtente());
 
-        if (utenteDAO.esisteEmail(bean.getEmail())) {
-            throw new RegistrazioneFallitaException("Email già in uso.");
-        }
+
+            if (utenteDAO.esisteUsername(bean.getUsername())) {
+                throw new RegistrazioneFallitaException("Username già in uso.");
+            }
+
+            if (utenteDAO.esisteEmail(bean.getEmail())) {
+                throw new RegistrazioneFallitaException("Email già in uso.");
+            }
+
+
     }
-
 }

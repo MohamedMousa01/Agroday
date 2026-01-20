@@ -5,6 +5,7 @@ import main.java.misc.TipoUtente;
 
 public class RegistrazioneBean {
 
+        private String id;
         private String nome;
         private String cognome;
         private String username;
@@ -31,6 +32,10 @@ public class RegistrazioneBean {
         public void setTipoUtente(TipoUtente tipoUtente){
             this.tipoUtente = tipoUtente;
         }
+
+        public void setIdUtente(String id){ this.id = id; }
+
+        public String getIdUtente() {return id;}
 
         public String getNome() {
             return nome;

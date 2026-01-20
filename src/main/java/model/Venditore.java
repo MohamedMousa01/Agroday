@@ -9,8 +9,8 @@ public class Venditore extends Utente {
         return TipoUtente.VENDITORE;
     }
 
-    public Venditore(String idUtente, String nome, String cognome, String username, String email, String password) {
-        super(nome, cognome, username, email, password, idUtente);
+    public Venditore(String idUtente, String username,String email, String password, String nome, String cognome, String citta) {
+        super(idUtente, username, email, password, nome, cognome, citta);
 
     }
 }

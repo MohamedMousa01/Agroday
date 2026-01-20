@@ -5,6 +5,8 @@ import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
 import main.java.misc.PersistenceType;
 import main.java.model.Utente;
 
+import java.sql.SQLException;
+
 public interface UtenteDAO {
 
 
