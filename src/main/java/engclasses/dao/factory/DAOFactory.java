@@ -1,10 +1,10 @@
-package main.java.engclasses.dao.factory;
+package engclasses.dao.factory;
 
-import main.java.engclasses.dao.api.AgricoltoreDAO;
-import main.java.engclasses.dao.api.UtenteDAO;
-import main.java.engclasses.dao.api.VenditoreDAO;
-import main.java.misc.PersistenceType;
-import main.java.misc.TipoUtente;
+import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.UtenteDAO;
+import engclasses.dao.api.VenditoreDAO;
+import misc.PersistenceType;
+import misc.TipoUtente;
 
 public abstract class DAOFactory {
 

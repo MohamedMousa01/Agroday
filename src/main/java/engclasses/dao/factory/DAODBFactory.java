@@ -1,15 +1,15 @@
-package main.java.engclasses.dao.factory;
+package engclasses.dao.factory;
 
-import main.java.engclasses.dao.api.AgricoltoreDAO;
-import main.java.engclasses.dao.api.UtenteDAO;
-import main.java.engclasses.dao.api.VenditoreDAO;
-import main.java.engclasses.dao.db.AgricoltoreDAODB;
-import main.java.engclasses.dao.db.ConsulenteDAODB;
-import main.java.engclasses.dao.db.VenditoreDAODB;
-import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
-import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
-import main.java.misc.TipoUtente;
-import main.java.model.Utente;
+import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.UtenteDAO;
+import engclasses.dao.api.VenditoreDAO;
+import engclasses.dao.db.AgricoltoreDAODB;
+import engclasses.dao.db.ConsulenteDAODB;
+import engclasses.dao.db.VenditoreDAODB;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import misc.TipoUtente;
+import model.Utente;
 
 
 public class DAODBFactory extends DAOFactory{

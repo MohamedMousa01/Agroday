@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325449952*java2.BÈ
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668613*java2.B¹
 &
 !src/main/java/model/Annuncio.java2
 	
@@ -8,10 +8,11 @@
 MAIN4
 
 package6
-
-main.java.model7
-
-main.java.model.Annuncio9
+
+
+model7
+
+model.Annuncio9
 
 class10
 
@@ -27,8 +28,8 @@ full-range13
 simple-name15
 
 Annuncio16
-)
-#main.java.model.Annuncio.idAnnuncio18
+
+model.Annuncio.idAnnuncio18
 
 field19
 
@@ -38,14 +39,14 @@ full-range13
 
 
 idAnnuncio22
-%
-main.java.model.Annuncio.autore24
+
+model.Annuncio.autore24
 
 (11:5)-(11:38)25
 
 autore26
-!
-main.java.model.Agricoltore28
+
+model.Agricoltore28
 
 unknown29
 
@@ -53,50 +54,50 @@ idAnnuncio22
 
 
 uses31
-%
-main.java.model.Annuncio.titolo33
+
+model.Annuncio.titolo33
 
 (13:5)-(13:33)34
 
 titolo35
-*
-$main.java.model.Annuncio.descrizione37
+ 
+model.Annuncio.descrizione37
 
 (14:5)-(14:38)38
 
 descrizione39
-%
-main.java.model.Annuncio.prezzo41
+
+model.Annuncio.prezzo41
 
 (15:5)-(15:27)42
 
 prezzo43
-1
-+main.java.model.Annuncio.quantitaDesiderata45
+'
+!model.Annuncio.quantitaDesiderata45
 
 (16:5)-(16:36)46
 
 quantitaDesiderata47
--
-'main.java.model.Annuncio.quantitaTotale49
+#
+model.Annuncio.quantitaTotale49
 
 (17:5)-(17:32)50
 
 quantitaTotale51
-0
-*main.java.model.Annuncio.dataPubblicazione53
+&
+ model.Annuncio.dataPubblicazione53
 
 (18:5)-(18:47)54
 
 dataPubblicazione55
-+
-%main.java.model.Annuncio.dataScadenza57
+!
+model.Annuncio.dataScadenza57
 
 (19:5)-(19:42)58
 
 dataScadenza59
-€
-zmain.java.model.Annuncio#<init>(Lmain/java/model/Agricoltore;Ljava/lang/String;Ljava/lang/String;DILjava/time/LocalDate;)V61
+l
+fmodel.Annuncio#<init>(Lmodel/Agricoltore;Ljava/lang/String;Ljava/lang/String;DILjava/time/LocalDate;)V61
 
 method62
 
@@ -108,72 +109,72 @@ zmain.java.model.Annuncio#<init>(Lmain/java/model/Agricoltore;Ljava/lang/String;
 
 
 references66
-8
-2main.java.model.Annuncio#getId()Ljava/lang/String;68
+.
+(model.Annuncio#getId()Ljava/lang/String;68
 
 (43:5)-(45:6)69
 
 getId70
-G
-Amain.java.model.Annuncio#getAutore()Lmain/java/model/Agricoltore;72
+3
+-model.Annuncio#getAutore()Lmodel/Agricoltore;72
 
 (47:5)-(49:6)73
 
 	getAutore74
 
 returns75
-<
-6main.java.model.Annuncio#getTitolo()Ljava/lang/String;77
+2
+,model.Annuncio#getTitolo()Ljava/lang/String;77
 
 (51:5)-(53:6)78
 
 	getTitolo79
-A
-;main.java.model.Annuncio#getDescrizione()Ljava/lang/String;81
+7
+1model.Annuncio#getDescrizione()Ljava/lang/String;81
 
 (55:5)-(57:6)82
 
 getDescrizione83
-+
-%main.java.model.Annuncio#getPrezzo()D85
+!
+model.Annuncio#getPrezzo()D85
 
 (59:5)-(61:6)86
 
 	getPrezzo87
-7
-1main.java.model.Annuncio#getQuantitaDesiderata()I89
+-
+'model.Annuncio#getQuantitaDesiderata()I89
 
 (63:5)-(65:6)90
 
 getQuantitaDesiderata91
-J
-Dmain.java.model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;93
+@
+:model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;93
 
 (67:5)-(69:6)94
 
 getDataPubblicazione95
-E
-?main.java.model.Annuncio#getDataScadenza()Ljava/time/LocalDate;97
+;
+5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;97
 
 (71:5)-(71:62)98
 
 getDataScadenza99
-,
-%main.java.model.Annuncio#isScaduto()Z101
+"
+model.Annuncio#isScaduto()Z101
 
 (78:5)-(80:6)102
 
 	isScaduto103
-I
-Bmain.java.model.Annuncio#aggiornaQuantitaTotale(Ljava/util/List;)V105
+?
+8model.Annuncio#aggiornaQuantitaTotale(Ljava/util/List;)V105
 
 (83:5)-(91:6)106
 
 aggiornaQuantitaTotale107
-%
-main.java.model.Partecipazione109
-=
-6main.java.model.Partecipazione#getQuantitaRichiesta()I111J
+
+model.Partecipazione109
+3
+,model.Partecipazione#getQuantitaRichiesta()I111J
 
 1
 12
@@ -185,30 +186,25 @@ Bmain.java.model.Annuncio#aggiornaQuantitaTotale(Ljava/util/List;)V105
 5
 5768jÁ
 M
-17G
-171819 *
-1
- 
-($28:5B$
+67G
+676862 *
+1+ +(28:5B$
 
 
 11
-20
+12
 
 
 13
-21
+69
 
 
 15
-22
-
-108
-10810929
+70
 M
-92G
-929362 *
-1C C(*28:5B$
+80G
+808162 *
+17 7(!28:5B$
 
 
 11
@@ -216,25 +212,27 @@ M
 
 
 13
-94
+82
 
 
 15
-95
-R
-100K
-10010162 *
-1N N(28:5B&
+83
+M
+71G
+717262 *
+1/ /(!28:5B$
 
 
 11
 12
-
-13
-102
-
-15
-103
+
+
+13
+73
+
+
+15
+74
 R
 104K
 10410562 *
@@ -253,182 +251,6 @@ R
 27
 272829
 M
-44G
-444519 *
-1 (#28:5B$
-
-
-11
-20
-
-
-13
-46
-
-
-15
-47
-M
-60G
-606162 *
-1 (28:5B$
-
-
-11
-12
-
-
-13
-63
-
-
-15
-16
-M
-32G
-323319 *
-1 ( 28:5B$
-
-
-11
-20
-
-
-13
-34
-
-
-15
-35
-M
-67G
-676862 *
-1+ +(28:5B$
-
-
-11
-12
-
-
-13
-69
-
-
-15
-70
-M
-84G
-848562 *
-1; ;(28:5B$
-
-
-11
-12
-
-
-13
-86
-
-
-15
-87
-M
-88G
-888962 *
-1? ?(%28:5B$
-
-
-11
-12
-
-
-13
-90
-
-
-15
-91
-G
-8B
-8910 *
-1 (:5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
-M
-71G
-717262 *
-1/ /(!28:5B$
-
-
-11
-12
-
-
-13
-73
-
-
-15
-74
-M
-40G
-404119 *
-1 (28:5B$
-
-
-11
-20
-
-
-13
-42
-
-
-15
-43
-M
-48G
-484919 *
-1 (28:5B$
-
-
-11
-20
-
-
-13
-50
-
-
-15
-51
-M
-52G
-525319 *
-1 (.28:5B$
-
-
-11
-20
-
-
-13
-54
-
-
-15
-55
-M
 76G
 767762 *
 13 3(28:5B$
@@ -444,45 +266,12 @@ M
 
 15
 79
-
-110
-11011129
 M
-80G
-808162 *
-17 7(!28:5B$
-
-
-11
-12
-
-
-13
-82
-
-
-15
-83
-M
-96G
-969762 *
-1G G(%28:5B$
-
-
-11
-12
-
-
-13
-98
-
-
-15
-99
-M
-36G
-363719 *
-1 (%28:5B$
+17G
+171819 *
+1
+ 
+($28:5B$
 
 
 11
@@ -490,11 +279,11 @@ M
 
 
 13
-38
+21
 
 
 15
-39
+22
 M
 56G
 565719 *
@@ -512,6 +301,86 @@ M
 15
 59
 M
+96G
+969762 *
+1G G(%28:5B$
+
+
+11
+12
+
+
+13
+98
+
+
+15
+99
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+44G
+444519 *
+1 (#28:5B$
+
+
+11
+20
+
+
+13
+46
+
+
+15
+47
+M
+84G
+848562 *
+1; ;(28:5B$
+
+
+11
+12
+
+
+13
+86
+
+
+15
+87
+M
+60G
+606162 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+63
+
+
+15
+16
+M
 23G
 232419 *
 1 (%28:5B$
@@ -526,7 +395,139 @@ M
 
 
 15
-26r­
+26
+M
+92G
+929362 *
+1C C(*28:5B$
+
+
+11
+12
+
+
+13
+94
+
+
+15
+95
+
+110
+11011129
+M
+36G
+363719 *
+1 (%28:5B$
+
+
+11
+20
+
+
+13
+38
+
+
+15
+39
+M
+88G
+888962 *
+1? ?(%28:5B$
+
+
+11
+12
+
+
+13
+90
+
+
+15
+91
+M
+52G
+525319 *
+1 (.28:5B$
+
+
+11
+20
+
+
+13
+54
+
+
+15
+55
+
+108
+10810929
+M
+32G
+323319 *
+1 ( 28:5B$
+
+
+11
+20
+
+
+13
+34
+
+
+15
+35
+M
+40G
+404119 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+42
+
+
+15
+43
+R
+100K
+10010162 *
+1N N(28:5B&
+
+
+11
+12
+
+13
+102
+
+15
+103
+M
+48G
+484919 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+50
+
+
+15
+51r­
 
 232730*
 1 (

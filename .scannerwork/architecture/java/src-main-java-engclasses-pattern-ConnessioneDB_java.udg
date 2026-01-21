@@ -1,0 +1,162 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668877*java2.B»
+8
+3src/main/java/engclasses/pattern/ConnessioneDB.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.pattern7
+%
+ engclasses.pattern.ConnessioneDB9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(7:5)-(17:6)14
+
+simple-name15
+
+ConnessioneDB16
+*
+$engclasses.pattern.ConnessioneDB.URL18
+
+field19
+
+private20
+
+(9:9)-(10:87)21
+	
+URL22
++
+%engclasses.pattern.ConnessioneDB.USER24
+
+(11:9)-(11:51)25
+
+
+USER26
+/
+)engclasses.pattern.ConnessioneDB.PASSWORD28
+
+(12:9)-(12:59)29
+
+PASSWORD30
+K
+Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;32
+
+method33
+
+(14:9)-(16:10)34
+
+getConnection35
+
+
+references36J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j…
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+17G
+171819 *
+1	% 	((28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+M
+27G
+272819 *
+1% (-28:5B$
+
+
+11
+20
+
+
+13
+29
+
+
+15
+30
+M
+23G
+232419 *
+1% ()28:5B$
+
+
+11
+20
+
+
+13
+25
+
+
+15
+26
+M
+31G
+313233 *
+1" (/28:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+35rQ
+
+311736*
+10 (3
+
+312336*
+15 (9
+
+312736*
+1; (C

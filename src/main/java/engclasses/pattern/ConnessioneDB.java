@@ -1,4 +1,4 @@
-package main.java.engclasses.pattern;
+package engclasses.pattern;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

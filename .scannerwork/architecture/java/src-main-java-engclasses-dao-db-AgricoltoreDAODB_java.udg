@@ -1,0 +1,87 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668758*java2.B¦
+:
+5src/main/java/engclasses/dao/db/AgricoltoreDAODB.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.dao.db7
+'
+"engclasses.dao.db.AgricoltoreDAODB9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(13:1)-(21:2)14
+
+simple-name15
+
+AgricoltoreDAODB16
+#
+engclasses.dao.db.UtenteDAODB18
+
+unknown19
+
+extends20
+'
+!engclasses.dao.api.AgricoltoreDAO22
+
+
+implements23
+
+
+uses24J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jq
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+17
+171819
+
+21
+212219rh
+
+81720*
+1' (2
+
+82123*
+1> (L
+
+81724*
+1' (2
+
+82124*
+1> (L

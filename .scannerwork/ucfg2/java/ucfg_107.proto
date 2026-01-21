@@ -1,0 +1,147 @@
+
+{controllers.applicativo.RegistrazioneController#validaRegistrazione(Lengclasses/beans/RegistrazioneBean;)Ljava/lang/String;n
+d/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/RegistrazioneController.javaW W(%"1*ˆ
+1X X(2DB
+X# X(0
+%0java.lang.StringBuilder"java.lang.StringBuilderr
+p
+X X(2
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderr
+p
+X X(3!
+errorijava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderº·
+[ [(!
+%2java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2	getNome()Ë
+È
+[ [(*
+
+%3void"hcontrollers.applicativo.RegistrazioneController#validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)V*O
+
+__unknown_file (31
+/controllers.applicativo.RegistrazioneController*4
+
+__unknown_file (
+
+%2java.lang.String*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilderÀ½
+\ \('
+%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getCognome()Î
+Ë
+\ \(0
+
+%5void"kcontrollers.applicativo.RegistrazioneController#validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)V*O
+
+__unknown_file (31
+/controllers.applicativo.RegistrazioneController*4
+
+__unknown_file (
+
+%4java.lang.String*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilderÂ¿
+] ]()
+%6java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getUsername()Ï
+Ì
+] ](2
+
+%7void"lcontrollers.applicativo.RegistrazioneController#validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)V*O
+
+__unknown_file (31
+/controllers.applicativo.RegistrazioneController*4
+
+__unknown_file (
+
+%6java.lang.String*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilderÂ¿
+^ ^()
+%8java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getPassword()ÐÍ
+^+ ^(D
+%9java.lang.String"Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getConfirmPassword()˜
+•
+^ ^(M
+%10void"~controllers.applicativo.RegistrazioneController#validaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V*O
+
+__unknown_file (31
+/controllers.applicativo.RegistrazioneController*4
+
+__unknown_file (
+
+%8java.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder½º
+_ _(#
+%11java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getEmail()Î
+Ë
+_ _(,
+%12void"icontrollers.applicativo.RegistrazioneController#validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)V*O
+
+__unknown_file (31
+/controllers.applicativo.RegistrazioneController*5
+
+__unknown_file (
+
+%11java.lang.String*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder©¦
+a a( 
+%13java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder2
+toString()"%
+a a(!
+
+%13java.lang.String:6
+W& W(<*
+bean"engclasses.beans.RegistrazioneBeanB31
+/controllers.applicativo.RegistrazioneControllerH

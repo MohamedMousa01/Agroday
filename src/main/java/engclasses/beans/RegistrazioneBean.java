@@ -1,7 +1,7 @@
-package main.java.engclasses.beans;
+package engclasses.beans;
 
-import main.java.misc.PersistenceType;
-import main.java.misc.TipoUtente;
+import misc.PersistenceType;
+import misc.TipoUtente;
 
 public class RegistrazioneBean {
 

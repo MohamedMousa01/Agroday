@@ -1,11 +1,11 @@
-package main.java.engclasses.dao.db;
+package engclasses.dao.db;
 
-import main.java.engclasses.dao.api.UtenteDAO;
-import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
-import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
-import main.java.engclasses.pattern.ConnessioneDB;
-import main.java.misc.PersistenceType;
-import main.java.model.Utente;
+import engclasses.dao.api.UtenteDAO;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import engclasses.pattern.ConnessioneDB;
+import misc.PersistenceType;
+import model.Utente;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -20,7 +20,7 @@ public class UtenteDAODB implements UtenteDAO {
 
         String sql = """
         SELECT 1
-        FROM MOHAMED
+        FROM UTENTE
         WHERE Username = ?
         LIMIT 1
     """;
@@ -33,6 +33,7 @@ public class UtenteDAODB implements UtenteDAO {
 
             return rs.next();
         } catch (SQLException e) {
+            e.printStackTrace(); // Aggiunto per debug
             throw new DatabaseConnessioneFallitaException(
                     "errore in esisteUsername() di UtenteDAODB", e);
         }
@@ -44,7 +45,7 @@ public class UtenteDAODB implements UtenteDAO {
 
         String sql = """
         SELECT 1
-        FROM MOHAMED
+        FROM UTENTE
         WHERE Email = ?
         LIMIT 1
     """;
@@ -68,7 +69,7 @@ public class UtenteDAODB implements UtenteDAO {
             throws DatabaseOperazioneFallitaException {
 
         String sql = """
-            INSERT INTO MOHAMED (Id, Username, Email, Password, Nome, Cognome, Citta)
+            INSERT INTO UTENTE (Id, Username, Email, Password, Nome, Cognome, Citta)
             VALUES (?, ?, ?, ?, ?, ?, ?)
         """;
 

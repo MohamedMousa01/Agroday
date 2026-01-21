@@ -1,15 +1,15 @@
 
-3main.java.misc.Session#getAnnunci()Ljava/util/List;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaC C(("1*†
-1D D(m
-k
-D D(
-%0java.util.List"__id*C
+Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.javaP P(("1*∫
+1Q Q("Ñ
+Å
+Q Q("
+%0java.lang.String"__id*W
 
-__unknown_file ('*%
-main.java.misc.Session"	
-Annunci""
-D D(
-
-%0java.util.ListB
-main.java.misc.SessionH
+__unknown_file (;*9$
+"engclasses.beans.RegistrazioneBean"
+confirmPassword"$
+Q Q(#
+
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

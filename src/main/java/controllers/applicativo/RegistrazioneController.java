@@ -1,18 +1,18 @@
-package main.java.controllers.applicativo;
+package controllers.applicativo;
 
 
-import main.java.engclasses.beans.RegistrazioneBean;
-import main.java.engclasses.dao.api.UtenteDAO;
-import main.java.engclasses.dao.factory.DAOFactory;
-import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
-import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
-import main.java.engclasses.exceptions.RegistrazioneFallitaException;
-import main.java.engclasses.pattern.Factory.UtenteFactory;
-import main.java.engclasses.pattern.Factory.UtenteFactoryProvider;
-import main.java.misc.PersistenceType;
-import main.java.misc.Session;
-import main.java.misc.TipoUtente;
-import main.java.model.Utente;
+import engclasses.beans.RegistrazioneBean;
+import engclasses.dao.api.UtenteDAO;
+import engclasses.dao.factory.DAOFactory;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import engclasses.exceptions.RegistrazioneFallitaException;
+import engclasses.pattern.Factory.UtenteFactory;
+import engclasses.pattern.Factory.UtenteFactoryProvider;
+import misc.PersistenceType;
+import misc.Session;
+import misc.TipoUtente;
+import model.Utente;
 
 import java.sql.SQLException;
 import java.util.UUID;

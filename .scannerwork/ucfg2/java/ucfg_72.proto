@@ -1,15 +1,15 @@
 
-Hmain.java.engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java ("1*¹
-1 (ƒ
-€
- (
-%0java.lang.String"__id*V
+)misc.Session#getAnnunci()Ljava/util/List;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java1 1(("1*–
+12 2(c
+a
+2 2(
+%0java.util.List"__id*9
 
-__unknown_file (:*8.
-,main.java.engclasses.beans.RegistrazioneBean"
-nome"$
- (
-
-%0java.lang.StringB0.
-,main.java.engclasses.beans.RegistrazioneBeanH
+__unknown_file (*
+misc.Session"	
+Annunci""
+2 2(
+
+%0java.util.ListB
+misc.SessionH

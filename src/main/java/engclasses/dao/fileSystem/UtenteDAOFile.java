@@ -1,9 +1,9 @@
-package main.java.engclasses.dao.fileSystem;
+package engclasses.dao.fileSystem;
 
-import main.java.engclasses.dao.api.UtenteDAO;
-import main.java.misc.PersistenceType;
-import main.java.model.Agricoltore;
-import main.java.model.Utente;
+import engclasses.dao.api.UtenteDAO;
+import misc.PersistenceType;
+import model.Agricoltore;
+import model.Utente;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

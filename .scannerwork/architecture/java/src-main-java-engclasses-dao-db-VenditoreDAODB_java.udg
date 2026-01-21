@@ -1,0 +1,87 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002669155*java2.Bù
+8
+3src/main/java/engclasses/dao/db/VenditoreDAODB.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.dao.db7
+%
+ engclasses.dao.db.VenditoreDAODB9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(9:1)-(12:2)14
+
+simple-name15
+
+VenditoreDAODB16
+#
+engclasses.dao.db.UtenteDAODB18
+
+unknown19
+
+extends20
+%
+engclasses.dao.api.VenditoreDAO22
+
+
+implements23
+
+
+uses24J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jq
+
+17
+171819
+G
+8B
+8910 *
+1	 	(:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+21
+212219rh
+
+81720*
+1	% 	(0
+
+82123*
+1	< 	(H
+
+81724*
+1	% 	(0
+
+82124*
+1	< 	(H

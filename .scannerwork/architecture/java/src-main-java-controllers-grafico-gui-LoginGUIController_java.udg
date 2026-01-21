@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325450285*java2.Bõ
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668963*java2.B›
 
 B
 =src/main/java/controllers/grafico/gui/LoginGUIController.java2
@@ -9,10 +9,10 @@ B
 MAIN4
 
 package6
-&
-!main.java.controllers.grafico.gui7
-9
-4main.java.controllers.grafico.gui.LoginGUIController9
+
+controllers.grafico.gui7
+/
+*controllers.grafico.gui.LoginGUIController9
 
 class10
 
@@ -28,8 +28,8 @@ full-range13
 simple-name15
 
 LoginGUIController16
-H
-Bmain.java.controllers.grafico.gui.LoginGUIController.usernameField18
+>
+8controllers.grafico.gui.LoginGUIController.usernameField18
 
 field19
 
@@ -54,40 +54,40 @@ Bmain.java.controllers.grafico.gui.LoginGUIController.usernameField18
 
 
 uses32
-H
-Bmain.java.controllers.grafico.gui.LoginGUIController.passwordField34
+>
+8controllers.grafico.gui.LoginGUIController.passwordField34
 
 (11:5)-(12:41)35
 
 passwordField36
 
 PasswordField38
-L
-Fmain.java.controllers.grafico.gui.LoginGUIController.persistenceToggle40
+B
+<controllers.grafico.gui.LoginGUIController.persistenceToggle40
 
 (14:5)-(15:44)41
 
 persistenceToggle42
 
 ToggleButton44
-G
-Amain.java.controllers.grafico.gui.LoginGUIController.messageLabel46
+=
+7controllers.grafico.gui.LoginGUIController.messageLabel46
 
 (17:5)-(18:32)47
 
 messageLabel48
 
 Label50
-F
-@main.java.controllers.grafico.gui.LoginGUIController.loginButton52
+<
+6controllers.grafico.gui.LoginGUIController.loginButton52
 
 (20:5)-(21:32)53
 
 loginButton54
 
 Button56
-H
-Bmain.java.controllers.grafico.gui.LoginGUIController#initialize()V58
+>
+8controllers.grafico.gui.LoginGUIController#initialize()V58
 
 method59
 
@@ -98,8 +98,8 @@ initialize61
 
 
 references62
-I
-Cmain.java.controllers.grafico.gui.LoginGUIController#handleLogin()V64
+?
+9controllers.grafico.gui.LoginGUIController#handleLogin()V64
 
 (29:5)-(41:6)65
 
@@ -117,63 +117,9 @@ Cmain.java.controllers.grafico.gui.LoginGUIController#handleLogin()V64
 
 43
 434425
-M
-63G
-636459 *
-1 (28:5B$
-
-
-11
-20
-
-
-13
-65
-
-
-15
-66
 
 30
 303125
-G
-8B
-8910 *
-1 ( :5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
-M
-39G
-394019 *
-1 (+28:5B$
-
-
-11
-20
-
-
-13
-41
-
-
-15
-42
-
-49
-495025
-
-27
-272825
 M
 45G
 454619 *
@@ -191,9 +137,9 @@ M
 15
 48
 M
-51G
-515219 *
-1 (28:5B$
+39G
+394019 *
+1 (+28:5B$
 
 
 11
@@ -201,14 +147,11 @@ M
 
 
 13
-53
+41
 
 
 15
-54
-
-55
-555625
+42
 M
 33G
 333419 *
@@ -225,6 +168,9 @@ M
 
 15
 36
+
+49
+495025
 M
 57G
 575859 *
@@ -241,12 +187,6 @@ M
 
 15
 61
-
-23
-232425
-
-37
-373825
 M
 17G
 171819 *
@@ -262,7 +202,67 @@ M
 
 
 15
-22r—
+22
+
+27
+272825
+
+55
+555625
+
+23
+232425
+M
+51G
+515219 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+53
+
+
+15
+54
+M
+63G
+636459 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+65
+
+
+15
+66
+
+37
+373825
+G
+8B
+8910 *
+1 ( :5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16r—
 
 172326*
 1	 	(

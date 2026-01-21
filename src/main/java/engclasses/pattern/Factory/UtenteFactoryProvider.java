@@ -1,7 +1,7 @@
-package main.java.engclasses.pattern.Factory;
+package engclasses.pattern.Factory;
 
-import main.java.misc.Session;
-import main.java.misc.TipoUtente;
+import misc.Session;
+import misc.TipoUtente;
 
 
 public class UtenteFactoryProvider {

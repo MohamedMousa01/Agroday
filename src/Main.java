@@ -9,7 +9,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("main/resources/RegistrazioneView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/RegistrazioneView.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Login AgroUnit");
         stage.setResizable(false);

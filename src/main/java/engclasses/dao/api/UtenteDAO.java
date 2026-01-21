@@ -1,9 +1,9 @@
-package main.java.engclasses.dao.api;
+package engclasses.dao.api;
 
-import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
-import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
-import main.java.misc.PersistenceType;
-import main.java.model.Utente;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import misc.PersistenceType;
+import model.Utente;
 
 import java.sql.SQLException;
 
@@ -16,7 +16,7 @@ public interface UtenteDAO {
 
     boolean esisteEmail(String email) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException;
 
-    Utente selezionaUtente(String campo, String valore, boolean persistence);
+    Utente selezionaUtente(String username, String password, boolean persistence);
 
     boolean aggiornaUtente(Utente utenteAggiornato, boolean persistence);
 }

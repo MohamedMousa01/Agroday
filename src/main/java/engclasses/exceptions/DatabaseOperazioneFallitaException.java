@@ -1,4 +1,4 @@
-package main.java.engclasses.exceptions;
+package engclasses.exceptions;
 
 public class DatabaseOperazioneFallitaException extends Exception {
     public DatabaseOperazioneFallitaException(String message) {

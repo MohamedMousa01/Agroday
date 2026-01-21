@@ -1,8 +1,8 @@
-package main.java.engclasses.pattern.Factory;
+package engclasses.pattern.Factory;
 
-import main.java.engclasses.beans.RegistrazioneBean;
-import main.java.model.Utente;
-import main.java.model.Venditore;
+import engclasses.beans.RegistrazioneBean;
+import model.Utente;
+import model.Venditore;
 
 public class VenditoreFactory implements UtenteFactory {
 

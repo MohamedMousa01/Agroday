@@ -1,0 +1,190 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002669220*java2.B¤
+?
+:src/main/java/engclasses/dao/factory/DAOMemoryFactory.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.dao.factory7
+,
+'engclasses.dao.factory.DAOMemoryFactory9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(14:1)-(24:2)14
+
+simple-name15
+
+DAOMemoryFactory16
+'
+!engclasses.dao.factory.DAOFactory18
+
+unknown19
+
+extends20
+
+
+uses21
+k
+eengclasses.dao.factory.DAOMemoryFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;23
+
+method24
+
+(16:5)-(23:6)25
+
+getUtenteDAO26
+"
+engclasses.dao.api.UtenteDAO28
+
+returns29
+
+misc.TipoUtente31
+
+	has param32
+
+is type33
+!
+misc.TipoUtente.AGRICOLTORE35
+
+
+references36
+0
+*engclasses.dao.memory.AgricoltoreDAOMemory38
+
+calls39
+
+misc.TipoUtente.VENDITORE41
+.
+(engclasses.dao.memory.VenditoreDAOMemory43
+ 
+misc.TipoUtente.CONSULENTE45
+/
+)engclasses.dao.memory.ConsulenteDAOMemory47J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÌ
+
+37
+373819
+M
+22G
+222324 *
+1 ("28:5B$
+
+
+11
+12
+
+
+13
+25
+
+
+15
+26
+
+46
+464719
+
+42
+424319
+
+30
+303119
+
+17
+171819
+
+40
+404119
+
+34
+343519
+
+27
+272819
+
+44
+444519
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16r®
+
+81720*
+1' (1
+
+81721*
+1' (1
+
+222729*
+1 (
+
+223032*
+1# (-
+
+222721*
+1 (
+
+223033*
+1. (2
+
+223021*
+1# (-
+
+223021*
+1 (
+
+223436*
+1 (
+
+223739*
+1% (9
+
+223021*
+1 (
+
+224036*
+1 (
+
+224239*
+1# (5
+
+223021*
+1 (
+
+224436*
+1 (
+
+224639*
+1$ (7

@@ -1,4 +1,4 @@
-package main.java.engclasses.beans;
+package engclasses.beans;
 
 public class LoginBean {
 

@@ -1,16 +1,15 @@
 
-Dmain.java.engclasses.beans.LoginBean#getPassword()Ljava/lang/String;Y
-O/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/LoginBean.java (!"1*³
-1 (~
-|
- (
-%0java.lang.String"__id*R
+<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;S
+I/Users/mohamedmousa/Desktop/prova/src/main/java/model/Partecipazione.java (%"1*«
+1 (v
+t
+ (
+%0java.lang.String"__id*J
 
-__unknown_file (6*4&
-$main.java.engclasses.beans.LoginBean"
-
-password"$
- (
+__unknown_file (.*,
+model.Partecipazione"
+idPartecipazione"$
+ ( 
 
-%0java.lang.StringB(&
-$main.java.engclasses.beans.LoginBeanH
+%0java.lang.StringB
+model.PartecipazioneH

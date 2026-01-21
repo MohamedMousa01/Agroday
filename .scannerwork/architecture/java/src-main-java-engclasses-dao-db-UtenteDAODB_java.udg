@@ -1,0 +1,388 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668818*java2.B´
+5
+0src/main/java/engclasses/dao/db/UtenteDAODB.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.dao.db7
+"
+engclasses.dao.db.UtenteDAODB9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(16:1)-(108:2)14
+
+simple-name15
+
+UtenteDAODB16
+"
+engclasses.dao.api.UtenteDAO18
+
+unknown19
+
+
+implements20
+
+
+uses21
+G
+Aengclasses.dao.db.UtenteDAODB#esisteUsername(Ljava/lang/String;)Z23
+
+method24
+
+(18:5)-(40:6)25
+
+esisteUsername26
+?
+9engclasses.exceptions.DatabaseConnessioneFallitaException28
+&
+ engclasses.pattern.ConnessioneDB30
+
+
+references31
+K
+Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;33
+
+calls34
+D
+>engclasses.dao.db.UtenteDAODB#esisteEmail(Ljava/lang/String;)Z36
+
+(42:5)-(65:6)37
+
+esisteEmail38
+Y
+Sengclasses.dao.db.UtenteDAODB#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V40
+
+(67:5)-(93:6)41
+
+aggiungiUtente42
+
+model.Utente44
+
+	has param45
+
+misc.PersistenceType47
+
+is type48
+>
+8engclasses.exceptions.DatabaseOperazioneFallitaException50
+2
+,model.Utente#getIdUtente()Ljava/lang/String;52
+2
+,model.Utente#getUsername()Ljava/lang/String;54
+/
+)model.Utente#getEmail()Ljava/lang/String;56
+2
+,model.Utente#getPassword()Ljava/lang/String;58
+.
+(model.Utente#getNome()Ljava/lang/String;60
+1
++model.Utente#getCognome()Ljava/lang/String;62
+/
+)model.Utente#getCitta()Ljava/lang/String;64
+h
+bengclasses.dao.db.UtenteDAODB#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;66
+
+(97:5)-(101:6)67
+
+selezionaUtente68
+
+returns69
+D
+>engclasses.dao.db.UtenteDAODB#aggiornaUtente(Lmodel/Utente;Z)Z71
+
+(103:5)-(106:6)72
+
+aggiornaUtente73J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jì
+
+29
+293019
+
+51
+515219
+M
+65G
+656624 *
+1b b("28:5B$
+
+
+11
+12
+
+
+13
+67
+
+
+15
+68
+
+43
+434419
+
+53
+535419
+
+49
+495019
+
+61
+616219
+M
+70G
+707124 *
+1h h("28:5B$
+
+
+11
+12
+
+
+13
+72
+
+
+15
+73
+
+63
+636419
+
+57
+575819
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+55
+555619
+M
+39G
+394024 *
+1D D(28:5B$
+
+
+11
+12
+
+
+13
+41
+
+
+15
+42
+M
+35G
+353624 *
+1+ +(28:5B$
+
+
+11
+12
+
+
+13
+37
+
+
+15
+38
+
+17
+171819
+
+32
+323319
+
+27
+272819
+
+59
+596019
+
+46
+464719
+M
+22G
+222324 *
+1 ("28:5B$
+
+
+11
+12
+
+
+13
+25
+
+
+15
+26r¡	
+
+81720*
+1% (.
+
+81721*
+1% (.
+
+222721*
+1; (^
+
+222931*
+1  (;
+
+223234*
+1. (;
+
+222921*
+1  (-
+
+222734*
+1% %(:
+
+352721*
+1, ,(7
+
+352931*
+15  5(;
+
+353234*
+15. 5(;
+
+352921*
+15  5(-
+
+352734*
+1= =(:
+
+394345*
+1D  D(&
+
+394645*
+1D/ D(>
+
+394348*
+1D' D(-
+
+394321*
+1D  D(&
+
+394648*
+1D? D(N
+
+394621*
+1D/ D(>
+
+394921*
+1E E(6
+
+392931*
+1L  L(;
+
+393234*
+1L. L(;
+
+392921*
+1L  L(-
+
+394331*
+1O O(/
+
+395134*
+1O$ O(/
+
+394331*
+1P P(/
+
+395334*
+1P$ P(/
+
+394331*
+1Q Q(,
+
+395534*
+1Q$ Q(,
+
+394331*
+1R R(/
+
+395734*
+1R$ R(/
+
+394331*
+1S S(+
+
+395934*
+1S$ S(+
+
+394331*
+1T T(.
+
+396134*
+1T$ T(.
+
+394331*
+1U U(,
+
+396334*
+1U$ U(,
+
+394934*
+1Z Z(9
+
+654369*
+1b b(
+
+654321*
+1b b(
+
+654369*
+1c c(
+
+65831*
+1c c(
+
+704345*
+1h# h()
+
+704348*
+1h* h(:
+
+704321*
+1h# h()

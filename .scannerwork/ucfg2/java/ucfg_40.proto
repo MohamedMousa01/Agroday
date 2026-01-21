@@ -1,15 +1,15 @@
 
-2main.java.misc.Session#getNome()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java ("1*¡
-1$ ((l
-j
-$ ((
-%0java.lang.String"__id*@
+Bengclasses.beans.RegistrazioneBean#getIdUtente()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java& &(!"1*«
+1&, &(.v
+t
+&, &(.
+%0java.lang.String"__id*J
 
-__unknown_file ($*"
-main.java.misc.Session"
-nome"$
- ()
+__unknown_file (.*,$
+"engclasses.beans.RegistrazioneBean"
+id"$
+&% &(/
 
-%0java.lang.StringB
-main.java.misc.SessionH
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

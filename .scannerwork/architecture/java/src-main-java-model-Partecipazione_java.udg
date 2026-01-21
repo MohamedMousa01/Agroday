@@ -1,5 +1,6 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325450304*java2.B‰
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668980*java2.B‘
+
 ,
 'src/main/java/model/Partecipazione.java2
 	
@@ -8,10 +9,11 @@
 MAIN4
 
 package6
-
-main.java.model7
-#
-main.java.model.Partecipazione9
+
+
+model7
+
+model.Partecipazione9
 
 class10
 
@@ -27,8 +29,8 @@ full-range13
 simple-name15
 
 Partecipazione16
-5
-/main.java.model.Partecipazione.idPartecipazione18
++
+%model.Partecipazione.idPartecipazione18
 
 field19
 
@@ -37,27 +39,27 @@ full-range13
 (7:5)-(7:43)21
 
 idPartecipazione22
-/
-)main.java.model.Partecipazione.idAnnuncio24
+%
+model.Partecipazione.idAnnuncio24
 
 (8:5)-(8:37)25
 
 
 idAnnuncio26
-2
-,main.java.model.Partecipazione.idAgricoltore28
+(
+"model.Partecipazione.idAgricoltore28
 
 (9:5)-(9:40)29
 
 idAgricoltore30
-6
-0main.java.model.Partecipazione.quantitaRichiesta32
+,
+&model.Partecipazione.quantitaRichiesta32
 
 (10:5)-(10:35)33
 
 quantitaRichiesta34
-S
-Mmain.java.model.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;I)V36
+I
+Cmodel.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;I)V36
 
 method37
 
@@ -70,32 +72,32 @@ Mmain.java.model.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;I)V
 
 
 references41
-L
-Fmain.java.model.Partecipazione#getIdPartecipazione()Ljava/lang/String;43
+B
+<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;43
 
 (21:5)-(23:6)44
 
 getIdPartecipazione45
-F
-@main.java.model.Partecipazione#getIdAnnuncio()Ljava/lang/String;47
+<
+6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;47
 
 (25:5)-(27:6)48
 
 getIdAnnuncio49
-I
-Cmain.java.model.Partecipazione#getIdAgricoltore()Ljava/lang/String;51
+?
+9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;51
 
 (29:5)-(31:6)52
 
 getIdAgricoltore53
-<
-6main.java.model.Partecipazione#getQuantitaRichiesta()I55
+2
+,model.Partecipazione#getQuantitaRichiesta()I55
 
 (33:5)-(35:6)56
 
 getQuantitaRichiesta57
-=
-7main.java.model.Partecipazione#setQuantitaRichiesta(I)V59
+3
+-model.Partecipazione#setQuantitaRichiesta(I)V59
 
 (38:5)-(43:6)60
 
@@ -110,42 +112,10 @@ Cmain.java.model.Partecipazione#getIdAgricoltore()Ljava/lang/String;51
 
 5
 5768jß
-G
-8B
-8910 *
-1 (:5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
 M
-54G
-545537 *
-1! !($28:5B$
-
-
-11
-12
-
-
-13
-56
-
-
-15
-57
-M
-27G
-272819 *
-1	 	('28:5B$
+17G
+171819 *
+1 (*28:5B$
 
 
 11
@@ -153,27 +123,11 @@ M
 
 
 13
-29
+21
 
 
 15
-30
-M
-50G
-505137 *
-1 (#28:5B$
-
-
-11
-12
-
-
-13
-52
-
-
-15
-53
+22
 M
 35G
 353637 *
@@ -206,26 +160,10 @@ M
 
 15
 49
-M
-17G
-171819 *
-1 (*28:5B$
-
-
-11
-20
-
-
-13
-21
-
-
-15
-22
-M
-58G
-585937 *
-1& &(%28:5B$
+G
+8B
+8910 *
+1 (:5B$
 
 
 11
@@ -233,11 +171,11 @@ M
 
 
 13
-60
+14
 
 
 15
-61
+16
 M
 31G
 313219 *
@@ -273,6 +211,38 @@ M
 15
 26
 M
+27G
+272819 *
+1	 	('28:5B$
+
+
+11
+20
+
+
+13
+29
+
+
+15
+30
+M
+50G
+505137 *
+1 (#28:5B$
+
+
+11
+12
+
+
+13
+52
+
+
+15
+53
+M
 42G
 424337 *
 1 (&28:5B$
@@ -287,7 +257,39 @@ M
 
 
 15
-45r‘
+45
+M
+58G
+585937 *
+1& &(%28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+M
+54G
+545537 *
+1! !($28:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+57r‘
 
 35839*
 1 (

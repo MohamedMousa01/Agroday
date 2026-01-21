@@ -1,4 +1,4 @@
-÷
+˛
 java.lang.Object&
 <init>()java.lang.Object#<init>()V5
 clone()*java.lang.Object#clone()Ljava/lang/Object;J
@@ -15,78 +15,122 @@ hashCode()java.lang.Object#hashCode()I&
 toString()-java.lang.Object#toString()Ljava/lang/String;"
 wait()java.lang.Object#wait()V$
 wait(J)java.lang.Object#wait(J)V&
-wait(JI)java.lang.Object#wait(JI)V|
-(main.java.engclasses.pattern.ViewFactoryjava.lang.Object>
-<init>()2main.java.engclasses.pattern.ViewFactory#<init>()VÍ
-'main.java.engclasses.dao.AgricoltoreDAOjava.lang.Object=
-<init>()1main.java.engclasses.dao.AgricoltoreDAO#<init>()Vì
-3aggiornaAgricoltore(Lmain/java/model/Agricoltore;Z)\main.java.engclasses.dao.AgricoltoreDAO#aggiornaAgricoltore(Lmain/java/model/Agricoltore;Z)Zã
-/aggiornaInBuffer(Lmain/java/model/Agricoltore;)Xmain.java.engclasses.dao.AgricoltoreDAO#aggiornaInBuffer(Lmain/java/model/Agricoltore;)Zâ
-.aggiungiAgricoltore(Lmain/java/model/Utente;Z)Wmain.java.engclasses.dao.AgricoltoreDAO#aggiungiAgricoltore(Lmain/java/model/Utente;Z)V{
-'salvaInBuffer(Lmain/java/model/Utente;)Pmain.java.engclasses.dao.AgricoltoreDAO#salvaInBuffer(Lmain/java/model/Utente;)V¿
-;selezionaAgricoltore(Ljava/lang/String;Ljava/lang/String;Z)Ämain.java.engclasses.dao.AgricoltoreDAO#selezionaAgricoltore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Agricoltore;î	
-main.java.model.Utentejava.lang.ObjectÖ
-t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)åmain.java.model.Utente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)VE
-getCognome()5main.java.model.Utente#getCognome()Ljava/lang/String;A
+wait(JI)java.lang.Object#wait(JI)V&
+wait0(J)java.lang.Object#wait0(J)Vh
+engclasses.pattern.ViewFactoryjava.lang.Object4
+<init>()(engclasses.pattern.ViewFactory#<init>()V<
+(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectÙ
+,engclasses.pattern.Factory.ConsulenteFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectB
+<init>()6engclasses.pattern.Factory.ConsulenteFactory#<init>()V√
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)}engclasses.pattern.Factory.ConsulenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;Ô
+"engclasses.beans.RegistrazioneBeanjava.lang.Object8
+<init>(),engclasses.beans.RegistrazioneBean#<init>()VM
 
-getEmail()3main.java.model.Utente#getEmail()Ljava/lang/String;G
-getIdUtente()6main.java.model.Utente#getIdUtente()Ljava/lang/String;?
-	getNome()2main.java.model.Utente#getNome()Ljava/lang/String;G
-getPassword()6main.java.model.Utente#getPassword()Ljava/lang/String;G
-getUsername()6main.java.model.Utente#getUsername()Ljava/lang/String;X
-setCognome(Ljava/lang/String;)6main.java.model.Utente#setCognome(Ljava/lang/String;)VT
-setEmail(Ljava/lang/String;)4main.java.model.Utente#setEmail(Ljava/lang/String;)VR
-setNome(Ljava/lang/String;)3main.java.model.Utente#setNome(Ljava/lang/String;)VZ
-setPassword(Ljava/lang/String;)7main.java.model.Utente#setPassword(Ljava/lang/String;)VZ
-setUsername(Ljava/lang/String;)7main.java.model.Utente#setUsername(Ljava/lang/String;)VŒ1
-java.util.Mapjava.lang.Objectò
-:compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Zjava.util.Map#compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;§
-@computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)`java.util.Map#computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;™
-CcomputeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)cjava.util.Map#computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;O
-copyOf(Ljava/util/Map;)4java.util.Map#copyOf(Ljava/util/Map;)Ljava/util/Map;}
-+entry(Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;c
-(forEach(Ljava/util/function/BiConsumer;)7java.util.Map#forEach(Ljava/util/function/BiConsumer;)Và
-2getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Rjava.util.Map#getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;∏
-Jmerge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)jjava.util.Map#merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;)
-of()!java.util.Map#of()Ljava/util/Map;q
-(of(Ljava/lang/Object;Ljava/lang/Object;)Ejava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;π
-Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ijava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;Ç
-pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)çjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;À
-îof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)±java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;ì
-∏of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)’java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;€
-‹of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)˘java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;£
-Äof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ùjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;Î
-§of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)¡java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;≥
-»of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Âjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;˚
-Ïof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)âjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;c
-!ofEntries([Ljava/util/Map$Entry;)>java.util.Map#ofEntries([Ljava/util/Map$Entry;)Ljava/util/Map;Ü
-1putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;k
-,remove(Ljava/lang/Object;Ljava/lang/Object;);java.util.Map#remove(Ljava/lang/Object;Ljava/lang/Object;)Z~
--replace(Ljava/lang/Object;Ljava/lang/Object;)Mjava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;ë
-?replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Zi
-+replaceAll(Ljava/util/function/BiFunction;):java.util.Map#replaceAll(Ljava/util/function/BiFunction;)VØ
-main.java.model.Agricoltoremain.java.model.UtenteØ
-Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)£main.java.model.Agricoltore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)VF
+getCitta()?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;Q
+getCognome()Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;a
+getConfirmPassword()Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;M
 
-getCitta()8main.java.model.Agricoltore#getCitta()Ljava/lang/String;z
-'main.java.engclasses.beans.AnnuncioBeanjava.lang.Object=
-<init>()1main.java.engclasses.beans.AnnuncioBean#<init>()V§
-<main.java.controllers.grafico.gui.RegistrazioneGUIControllerjava.lang.ObjectR
-<init>()Fmain.java.controllers.grafico.gui.RegistrazioneGUIController#<init>()Vñ
-main.java.model.Annunciojava.lang.Objectﬁ
-`<init>(Lmain/java/model/Agricoltore;Ljava/lang/String;Ljava/lang/String;DILjava/time/LocalDate;)zmain.java.model.Annuncio#<init>(Lmain/java/model/Agricoltore;Ljava/lang/String;Ljava/lang/String;DILjava/time/LocalDate;)Vn
-(aggiornaQuantitaTotale(Ljava/util/List;)Bmain.java.model.Annuncio#aggiornaQuantitaTotale(Ljava/util/List;)VP
-getAutore()Amain.java.model.Annuncio#getAutore()Lmain/java/model/Agricoltore;^
-getDataPubblicazione()Dmain.java.model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;T
-getDataScadenza()?main.java.model.Annuncio#getDataScadenza()Ljava/time/LocalDate;O
-getDescrizione();main.java.model.Annuncio#getDescrizione()Ljava/lang/String;=
-getId()2main.java.model.Annuncio#getId()Ljava/lang/String;4
-getPrezzo()%main.java.model.Annuncio#getPrezzo()DL
-getQuantitaDesiderata()1main.java.model.Annuncio#getQuantitaDesiderata()IE
-getTitolo()6main.java.model.Annuncio#getTitolo()Ljava/lang/String;4
-isScaduto()%main.java.model.Annuncio#isScaduto()Z(
-java.io.Serializablejava.lang.Object(
-java.lang.Comparablejava.lang.Objectß	
+getEmail()?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;S
+getIdUtente()Bengclasses.beans.RegistrazioneBean#getIdUtente()Ljava/lang/String;K
+	getNome()>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;S
+getPassword()Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;e
+getPersistenceType()Mengclasses.beans.RegistrazioneBean#getPersistenceType()Lmisc/PersistenceType;V
+getTipoUtente()Cengclasses.beans.RegistrazioneBean#getTipoUtente()Lmisc/TipoUtente;S
+getUsername()Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;`
+setCitta(Ljava/lang/String;)@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)Vd
+setCognome(Ljava/lang/String;)Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)Vt
+&setConfirmPassword(Ljava/lang/String;)Jengclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V`
+setEmail(Ljava/lang/String;)@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)Vf
+setIdUtente(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setIdUtente(Ljava/lang/String;)V^
+setNome(Ljava/lang/String;)?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)Vf
+setPassword(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V|
+*setPersistenceType(Lmisc/PersistenceType;)Nengclasses.beans.RegistrazioneBean#setPersistenceType(Lmisc/PersistenceType;)Vh
+ setTipoUtente(Lmisc/TipoUtente;)Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)Vf
+setUsername(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)Vº	
+model.Utentejava.lang.Object†
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)îmodel.Utente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V7
+
+getCitta())model.Utente#getCitta()Ljava/lang/String;;
+getCognome()+model.Utente#getCognome()Ljava/lang/String;7
+
+getEmail())model.Utente#getEmail()Ljava/lang/String;=
+getIdUtente(),model.Utente#getIdUtente()Ljava/lang/String;5
+	getNome()(model.Utente#getNome()Ljava/lang/String;=
+getPassword(),model.Utente#getPassword()Ljava/lang/String;=
+getUsername(),model.Utente#getUsername()Ljava/lang/String;J
+setCitta(Ljava/lang/String;)*model.Utente#setCitta(Ljava/lang/String;)VN
+setCognome(Ljava/lang/String;),model.Utente#setCognome(Ljava/lang/String;)VJ
+setEmail(Ljava/lang/String;)*model.Utente#setEmail(Ljava/lang/String;)VH
+setNome(Ljava/lang/String;))model.Utente#setNome(Ljava/lang/String;)VP
+setPassword(Ljava/lang/String;)-model.Utente#setPassword(Ljava/lang/String;)VP
+setUsername(Ljava/lang/String;)-model.Utente#setUsername(Ljava/lang/String;)VÑ
+model.Agricoltoremodel.Utente•
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ômodel.Agricoltore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V9
+	getTipo(),model.Agricoltore#getTipo()Lmisc/TipoUtente;0
+java.lang.constant.Constablejava.lang.Object(
+java.lang.Comparablejava.lang.Object(
+java.io.Serializablejava.lang.Object£
+java.lang.Enumjava.io.Serializablejava.lang.Comparablejava.lang.Objectjava.lang.constant.ConstableJ
+<init>(Ljava/lang/String;I)+java.lang.Enum#<init>(Ljava/lang/String;I)V3
+clone()(java.lang.Enum#clone()Ljava/lang/Object;J
+compareTo(Ljava/lang/Enum;)+java.lang.Enum#compareTo(Ljava/lang/Enum;)IM
+describeConstable()6java.lang.Enum#describeConstable()Ljava/util/Optional;H
+equals(Ljava/lang/Object;)*java.lang.Enum#equals(Ljava/lang/Object;)Z(
+
+finalize()java.lang.Enum#finalize()VJ
+getDeclaringClass()3java.lang.Enum#getDeclaringClass()Ljava/lang/Class;(
+
+hashCode()java.lang.Enum#hashCode()I1
+name()'java.lang.Enum#name()Ljava/lang/String;&
+	ordinal()java.lang.Enum#ordinal()Ib
+'readObject(Ljava/io/ObjectInputStream;)7java.lang.Enum#readObject(Ljava/io/ObjectInputStream;)V8
+readObjectNoData()"java.lang.Enum#readObjectNoData()V9
+
+toString()+java.lang.Enum#toString()Ljava/lang/String;{
+,valueOf(Ljava/lang/Class;Ljava/lang/String;)Kjava.lang.Enum#valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;°
+misc.PersistenceTypejava.lang.EnumP
+<init>(Ljava/lang/String;I)1misc.PersistenceType#<init>(Ljava/lang/String;I)Ve
+valueOf(Ljava/lang/String;)Fmisc.PersistenceType#valueOf(Ljava/lang/String;)Lmisc/PersistenceType;@
+values()4misc.PersistenceType#values()[Lmisc/PersistenceType;0
+engclasses.dao.api.UtenteDAOjava.lang.ObjectS
+!engclasses.dao.api.AgricoltoreDAOengclasses.dao.api.UtenteDAOjava.lang.Object‘
+'engclasses.dao.fileSystem.UtenteDAOFileengclasses.dao.api.UtenteDAOjava.lang.Object=
+<init>()1engclasses.dao.fileSystem.UtenteDAOFile#<init>()Vi
+aggiornaUtente(Lmodel/Utente;)Gengclasses.dao.fileSystem.UtenteDAOFile#aggiornaUtente(Lmodel/Utente;)Zk
+aggiornaUtente(Lmodel/Utente;Z)Hengclasses.dao.fileSystem.UtenteDAOFile#aggiornaUtente(Lmodel/Utente;Z)Zï
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)]engclasses.dao.fileSystem.UtenteDAOFile#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)VX
+caricaDaFile()Fengclasses.dao.fileSystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;k
+esisteEmail(Ljava/lang/String;)Hengclasses.dao.fileSystem.UtenteDAOFile#esisteEmail(Ljava/lang/String;)Zq
+"esisteUsername(Ljava/lang/String;)Kengclasses.dao.fileSystem.UtenteDAOFile#esisteUsername(Ljava/lang/String;)Zg
+salvaSuFile(Ljava/util/List;)Fengclasses.dao.fileSystem.UtenteDAOFile#salvaSuFile(Ljava/util/List;)V¶
+6selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)lengclasses.dao.fileSystem.UtenteDAOFile#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;˚
+,engclasses.dao.fileSystem.AgricoltoreDAOFile!engclasses.dao.api.AgricoltoreDAO'engclasses.dao.fileSystem.UtenteDAOFileB
+<init>()6engclasses.dao.fileSystem.AgricoltoreDAOFile#<init>()Vp
+aggiornaUtente(Lmodel/Utente;Z)Mengclasses.dao.fileSystem.AgricoltoreDAOFile#aggiornaUtente(Lmodel/Utente;Z)Zö
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)bengclasses.dao.fileSystem.AgricoltoreDAOFile#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V´
+6selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)qengclasses.dao.fileSystem.AgricoltoreDAOFile#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;Q
+engclasses.dao.api.VenditoreDAOengclasses.dao.api.UtenteDAOjava.lang.Objectò
+%engclasses.dao.memory.UtenteDAOMemoryengclasses.dao.api.UtenteDAOjava.lang.Object;
+<init>()/engclasses.dao.memory.UtenteDAOMemory#<init>()Vi
+aggiornaUtente(Lmodel/Utente;Z)Fengclasses.dao.memory.UtenteDAOMemory#aggiornaUtente(Lmodel/Utente;Z)Zì
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)[engclasses.dao.memory.UtenteDAOMemory#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)Vi
+esisteEmail(Ljava/lang/String;)Fengclasses.dao.memory.UtenteDAOMemory#esisteEmail(Ljava/lang/String;)Zo
+"esisteUsername(Ljava/lang/String;)Iengclasses.dao.memory.UtenteDAOMemory#esisteUsername(Ljava/lang/String;)Z§
+6selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)jengclasses.dao.memory.UtenteDAOMemory#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;≤
+(engclasses.dao.memory.VenditoreDAOMemoryengclasses.dao.api.VenditoreDAO%engclasses.dao.memory.UtenteDAOMemory>
+<init>()2engclasses.dao.memory.VenditoreDAOMemory#<init>()VÄ
+model.Annunciojava.lang.Object¿
+V<init>(Lmodel/Agricoltore;Ljava/lang/String;Ljava/lang/String;DILjava/time/LocalDate;)fmodel.Annuncio#<init>(Lmodel/Agricoltore;Ljava/lang/String;Ljava/lang/String;DILjava/time/LocalDate;)Vd
+(aggiornaQuantitaTotale(Ljava/util/List;)8model.Annuncio#aggiornaQuantitaTotale(Ljava/util/List;)V<
+getAutore()-model.Annuncio#getAutore()Lmodel/Agricoltore;T
+getDataPubblicazione():model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;J
+getDataScadenza()5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;E
+getDescrizione()1model.Annuncio#getDescrizione()Ljava/lang/String;3
+getId()(model.Annuncio#getId()Ljava/lang/String;*
+getPrezzo()model.Annuncio#getPrezzo()DB
+getQuantitaDesiderata()'model.Annuncio#getQuantitaDesiderata()I;
+getTitolo(),model.Annuncio#getTitolo()Ljava/lang/String;*
+isScaduto()model.Annuncio#isScaduto()Zß	
 java.util.UUIDjava.io.Serializablejava.lang.Comparablejava.lang.Object(
 
 <init>(JJ)java.util.UUID#<init>(JJ)V(
@@ -227,85 +271,93 @@ Euntil(Ljava/time/temporal/Temporal;Ljava/time/temporal/TemporalUnit;)Zjava.tim
 withMonth(I)5java.time.LocalDate#withMonth(I)Ljava/time/LocalDate;C
 withYear(I)4java.time.LocalDate#withYear(I)Ljava/time/LocalDate;_
 #writeExternal(Ljava/io/DataOutput;)8java.time.LocalDate#writeExternal(Ljava/io/DataOutput;)VF
-writeReplace()4java.time.LocalDate#writeReplace()Ljava/lang/Object;È
-main.java.model.Partecipazionejava.lang.Object~
--<init>(Ljava/lang/String;Ljava/lang/String;I)Mmain.java.model.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;I)VY
-getIdAgricoltore()Cmain.java.model.Partecipazione#getIdAgricoltore()Ljava/lang/String;S
-getIdAnnuncio()@main.java.model.Partecipazione#getIdAnnuncio()Ljava/lang/String;_
-getIdPartecipazione()Fmain.java.model.Partecipazione#getIdPartecipazione()Ljava/lang/String;P
-getQuantitaRichiesta()6main.java.model.Partecipazione#getQuantitaRichiesta()IR
-setQuantitaRichiesta(I)7main.java.model.Partecipazione#setQuantitaRichiesta(I)Væ
-main.java.model.Venditoremain.java.model.Utenteà
-t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)èmain.java.model.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V≈
-%main.java.engclasses.dao.VenditoreDAOjava.lang.Object;
-<init>()/main.java.engclasses.dao.VenditoreDAO#<init>()VÖ
--aggiornaInBuffer(Lmain/java/model/Venditore;)Tmain.java.engclasses.dao.VenditoreDAO#aggiornaInBuffer(Lmain/java/model/Venditore;)Zâ
-/aggiornaVenditore(Lmain/java/model/Venditore;Z)Vmain.java.engclasses.dao.VenditoreDAO#aggiornaVenditore(Lmain/java/model/Venditore;Z)ZÉ
-,aggiungiVenditore(Lmain/java/model/Utente;Z)Smain.java.engclasses.dao.VenditoreDAO#aggiungiVenditore(Lmain/java/model/Utente;Z)Vy
-'salvaInBuffer(Lmain/java/model/Utente;)Nmain.java.engclasses.dao.VenditoreDAO#salvaInBuffer(Lmain/java/model/Utente;)V∑
-9selezionaVenditore(Ljava/lang/String;Ljava/lang/String;Z)zmain.java.engclasses.dao.VenditoreDAO#selezionaVenditore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Venditore;õ
-java.lang.Throwablejava.io.Serializablejava.lang.Object)
-<init>()java.lang.Throwable#<init>()VM
-<init>(Ljava/lang/String;)/java.lang.Throwable#<init>(Ljava/lang/String;)Vw
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Throwable#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V{
-1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Throwable#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
-<init>(Ljava/lang/Throwable;)2java.lang.Throwable#<init>(Ljava/lang/Throwable;)Va
-$addSuppressed(Ljava/lang/Throwable;)9java.lang.Throwable#addSuppressed(Ljava/lang/Throwable;)VQ
-fillInStackTrace();java.lang.Throwable#fillInStackTrace()Ljava/lang/Throwable;S
-fillInStackTrace(I)<java.lang.Throwable#fillInStackTrace(I)Ljava/lang/Throwable;A
+writeReplace()4java.time.LocalDate#writeReplace()Ljava/lang/Object;£
+model.Partecipazionejava.lang.Objectt
+-<init>(Ljava/lang/String;Ljava/lang/String;I)Cmodel.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;I)VO
+getIdAgricoltore()9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;I
+getIdAnnuncio()6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;U
+getIdPartecipazione()<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;F
+getQuantitaRichiesta(),model.Partecipazione#getQuantitaRichiesta()IH
+setQuantitaRichiesta(I)-model.Partecipazione#setQuantitaRichiesta(I)V˛
+model.Venditoremodel.Utente£
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ómodel.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V7
+	getTipo()*model.Venditore#getTipo()Lmisc/TipoUtente;˛
+!engclasses.dao.factory.DAOFactoryjava.lang.Object7
+<init>()+engclasses.dao.factory.DAOFactory#<init>()Vç
+"getFactory(Lmisc/PersistenceType;)gengclasses.dao.factory.DAOFactory#getFactory(Lmisc/PersistenceType;)Lengclasses/dao/factory/DAOFactory;ä
+#engclasses.dao.factory.DAODBFactory!engclasses.dao.factory.DAOFactory9
+<init>()-engclasses.dao.factory.DAODBFactory#<init>()VÑ
+getUtenteDAO(Lmisc/TipoUtente;)aengclasses.dao.factory.DAODBFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;‡
+engclasses.dao.db.UtenteDAODBengclasses.dao.api.UtenteDAOjava.lang.Object3
+<init>()'engclasses.dao.db.UtenteDAODB#<init>()Va
+aggiornaUtente(Lmodel/Utente;Z)>engclasses.dao.db.UtenteDAODB#aggiornaUtente(Lmodel/Utente;Z)Zã
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)Sengclasses.dao.db.UtenteDAODB#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)Va
+esisteEmail(Ljava/lang/String;)>engclasses.dao.db.UtenteDAODB#esisteEmail(Ljava/lang/String;)Zg
+"esisteUsername(Ljava/lang/String;)Aengclasses.dao.db.UtenteDAODB#esisteUsername(Ljava/lang/String;)Zú
+6selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)bengclasses.dao.db.UtenteDAODB#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;†
+"engclasses.dao.db.AgricoltoreDAODB!engclasses.dao.api.AgricoltoreDAOengclasses.dao.db.UtenteDAODB8
+<init>(),engclasses.dao.db.AgricoltoreDAODB#<init>()Vö
+ engclasses.dao.db.VenditoreDAODBengclasses.dao.api.VenditoreDAOengclasses.dao.db.UtenteDAODB6
+<init>()*engclasses.dao.db.VenditoreDAODB#<init>()VR
+ engclasses.dao.api.ConsulenteDAOengclasses.dao.api.UtenteDAOjava.lang.Objectß
+!engclasses.dao.db.ConsulenteDAODB engclasses.dao.api.ConsulenteDAO'engclasses.dao.fileSystem.UtenteDAOFile7
+<init>()+engclasses.dao.db.ConsulenteDAODB#<init>()V÷
+java.lang.Iterablejava.lang.Objectd
+&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
+spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
+java.util.Collectionjava.lang.Iterablejava.lang.ObjectR
+parallelStream()>java.util.Collection#parallelStream()Ljava/util/stream/Stream;j
+(removeIf(Ljava/util/function/Predicate;)>java.util.Collection#removeIf(Ljava/util/function/Predicate;)ZJ
+spliterator()9java.util.Collection#spliterator()Ljava/util/Spliterator;B
+stream()6java.util.Collection#stream()Ljava/util/stream/Stream;~
+)toArray(Ljava/util/function/IntFunction;)Qjava.util.Collection#toArray(Ljava/util/function/IntFunction;)[Ljava/lang/Object;Ø
+java.util.SequencedCollectionjava.lang.Objectjava.util.Collection[
+addFirst(Ljava/lang/Object;);java.util.SequencedCollection#addFirst(Ljava/lang/Object;)VY
+addLast(Ljava/lang/Object;):java.util.SequencedCollection#addLast(Ljava/lang/Object;)VH
 
-getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;T
-getLocalizedMessage();java.lang.Throwable#getLocalizedMessage()Ljava/lang/String;B
-getMessage()2java.lang.Throwable#getMessage()Ljava/lang/String;Z
-getOurStackTrace()Djava.lang.Throwable#getOurStackTrace()[Ljava/lang/StackTraceElement;T
-getStackTrace()Ajava.lang.Throwable#getStackTrace()[Ljava/lang/StackTraceElement;L
-getSuppressed()9java.lang.Throwable#getSuppressed()[Ljava/lang/Throwable;m
- initCause(Ljava/lang/Throwable;)Ijava.lang.Throwable#initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;¡
-ìprintEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)®java.lang.Throwable#printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V;
-printStackTrace()&java.lang.Throwable#printStackTrace()Ve
-&printStackTrace(Ljava/io/PrintStream;);java.lang.Throwable#printStackTrace(Ljava/io/PrintStream;)Ve
-&printStackTrace(Ljava/io/PrintWriter;);java.lang.Throwable#printStackTrace(Ljava/io/PrintWriter;)Vç
-:printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Ojava.lang.Throwable#printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Vg
-'readObject(Ljava/io/ObjectInputStream;)<java.lang.Throwable#readObject(Ljava/io/ObjectInputStream;)VW
-setCause(Ljava/lang/Throwable;)4java.lang.Throwable#setCause(Ljava/lang/Throwable;)Vs
--setStackTrace([Ljava/lang/StackTraceElement;)Bjava.lang.Throwable#setStackTrace([Ljava/lang/StackTraceElement;)V>
+getFirst():java.util.SequencedCollection#getFirst()Ljava/lang/Object;F
+	getLast()9java.util.SequencedCollection#getLast()Ljava/lang/Object;N
+removeFirst()=java.util.SequencedCollection#removeFirst()Ljava/lang/Object;L
+removeLast()<java.util.SequencedCollection#removeLast()Ljava/lang/Object;˛
+java.util.Listjava.lang.Objectjava.util.SequencedCollectionL
+addFirst(Ljava/lang/Object;),java.util.List#addFirst(Ljava/lang/Object;)VJ
+addLast(Ljava/lang/Object;)+java.util.List#addLast(Ljava/lang/Object;)V_
+copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;9
 
-toString()0java.lang.Throwable#toString()Ljava/lang/String;}
-2validateSuppressedExceptionsList(Ljava/util/List;)Gjava.lang.Throwable#validateSuppressedExceptionsList(Ljava/util/List;)Ik
-)writeObject(Ljava/io/ObjectOutputStream;)>java.lang.Throwable#writeObject(Ljava/io/ObjectOutputStream;)VÔ
-java.lang.Exceptionjava.lang.Throwable)
-<init>()java.lang.Exception#<init>()VM
-<init>(Ljava/lang/String;)/java.lang.Exception#<init>(Ljava/lang/String;)Vw
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V{
-1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
-<init>(Ljava/lang/Throwable;)2java.lang.Exception#<init>(Ljava/lang/Throwable;)VÑ
-Cmain.java.engclasses.exceptions.DatabaseConnessioneFallitaExceptionjava.lang.Exceptionß
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)tmain.java.engclasses.exceptions.DatabaseConnessioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V∏
-9main.java.controllers.applicativo.RegistrazioneControllerjava.lang.Object
- <init>(Lmain/java/misc/Session;)[main.java.controllers.applicativo.RegistrazioneController#<init>(Lmain/java/misc/Session;)Vß
-4controllaCampo(Ljava/lang/String;Ljava/lang/String;)omain.java.controllers.applicativo.RegistrazioneController#controllaCampo(Ljava/lang/String;Ljava/lang/String;)Z_
-recuperaUtente()Kmain.java.controllers.applicativo.RegistrazioneController#recuperaUtente()VΩ
-?registraUtente(Lmain/java/engclasses/beans/RegistrazioneBean;Z)zmain.java.controllers.applicativo.RegistrazioneController#registraUtente(Lmain/java/engclasses/beans/RegistrazioneBean;Z)Zï
-+salvaDatiSessione(Lmain/java/model/Utente;)fmain.java.controllers.applicativo.RegistrazioneController#salvaDatiSessione(Lmain/java/model/Utente;)V≥
-:validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)umain.java.controllers.applicativo.RegistrazioneController#validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)VØ
-8validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)smain.java.controllers.applicativo.RegistrazioneController#validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)V≠
-7validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)rmain.java.controllers.applicativo.RegistrazioneController#validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)V⁄
-MvalidaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)àmain.java.controllers.applicativo.RegistrazioneController#validaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V◊
-CvalidaRegistrazione(Lmain/java/engclasses/beans/RegistrazioneBean;)èmain.java.controllers.applicativo.RegistrazioneController#validaRegistrazione(Lmain/java/engclasses/beans/RegistrazioneBean;)Ljava/lang/String;µ
-;validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)vmain.java.controllers.applicativo.RegistrazioneController#validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)VÉ
+getFirst()+java.util.List#getFirst()Ljava/lang/Object;7
+	getLast()*java.util.List#getLast()Ljava/lang/Object;+
+of()#java.util.List#of()Ljava/util/List;O
+of(Ljava/lang/Object;)5java.util.List#of(Ljava/lang/Object;)Ljava/util/List;s
+(of(Ljava/lang/Object;Ljava/lang/Object;)Gjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ó
+:of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Yjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ª
+Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ﬂ
+^of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)}java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Ñ
+pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)èjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;©
+Çof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)°java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Õ
+îof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)≥java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Ò
+¶of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)≈java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ï
+∏of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)◊java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Q
+of([Ljava/lang/Object;)6java.util.List#of([Ljava/lang/Object;)Ljava/util/List;?
+removeFirst().java.util.List#removeFirst()Ljava/lang/Object;=
+removeLast()-java.util.List#removeLast()Ljava/lang/Object;p
+.replaceAll(Ljava/util/function/UnaryOperator;)>java.util.List#replaceAll(Ljava/util/function/UnaryOperator;)V7
+
+reversed())java.util.List#reversed()Ljava/util/List;L
+sort(Ljava/util/Comparator;),java.util.List#sort(Ljava/util/Comparator;)VD
+spliterator()3java.util.List#spliterator()Ljava/util/Spliterator;É
 java.lang.CharSequencejava.lang.ObjectE
 chars():java.lang.CharSequence#chars()Ljava/util/stream/IntStream;O
 codePoints()?java.lang.CharSequence#codePoints()Ljava/util/stream/IntStream;é
 9compare(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Qjava.lang.CharSequence#compare(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I.
-	isEmpty()!java.lang.CharSequence#isEmpty()Z0
-java.lang.constant.Constablejava.lang.Object3
-java.lang.constant.ConstantDescjava.lang.Objectù]
+	isEmpty()!java.lang.CharSequence#isEmpty()Z3
+java.lang.constant.ConstantDescjava.lang.Object°b
 java.lang.Stringjava.io.Serializablejava.lang.CharSequencejava.lang.Comparablejava.lang.Objectjava.lang.constant.Constablejava.lang.constant.ConstantDesc&
 <init>()java.lang.String#<init>()Và
 9<init>(Ljava/lang/AbstractStringBuilder;Ljava/lang/Void;)Kjava.lang.String#<init>(Ljava/lang/AbstractStringBuilder;Ljava/lang/Void;)VJ
 <init>(Ljava/lang/String;),java.lang.String#<init>(Ljava/lang/String;)VV
  <init>(Ljava/lang/StringBuffer;)2java.lang.String#<init>(Ljava/lang/StringBuffer;)VX
-!<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)V*
+!<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)Vb
+&<init>(Ljava/nio/charset/Charset;[BII)8java.lang.String#<init>(Ljava/nio/charset/Charset;[BII)V*
 
 <init>([B)java.lang.String#<init>([B)V,
 <init>([BB)java.lang.String#<init>([BB)V,
@@ -324,7 +376,7 @@ $<init>([BLjava/nio/charset/Charset;)6java.lang.String#<init>([BLjava/nio/chars
 	charAt(I)java.lang.String#charAt(I)C?
 chars()4java.lang.String#chars()Ljava/util/stream/IntStream;F
 checkBoundsBeginEnd(III)*java.lang.String#checkBoundsBeginEnd(III)VF
-checkBoundsOffCount(III)*java.lang.String#checkBoundsOffCount(III)V2
+checkBoundsOffCount(III)*java.lang.String#checkBoundsOffCount(III)I2
 checkIndex(II) java.lang.String#checkIndex(II)V4
 checkOffset(II)!java.lang.String#checkOffset(II)V2
 codePointAt(I) java.lang.String#codePointAt(I)I:
@@ -376,9 +428,11 @@ hashCode()java.lang.String#hashCode()I9
 	indent(I),java.lang.String#indent(I)Ljava/lang/String;*
 
 indexOf(I)java.lang.String#indexOf(I)I,
-indexOf(II)java.lang.String#indexOf(II)IL
+indexOf(II)java.lang.String#indexOf(II)I.
+indexOf(III)java.lang.String#indexOf(III)IL
 indexOf(Ljava/lang/String;)-java.lang.String#indexOf(Ljava/lang/String;)IN
-indexOf(Ljava/lang/String;I).java.lang.String#indexOf(Ljava/lang/String;I)IV
+indexOf(Ljava/lang/String;I).java.lang.String#indexOf(Ljava/lang/String;I)IP
+indexOf(Ljava/lang/String;II)/java.lang.String#indexOf(Ljava/lang/String;II)IV
  indexOf([BBILjava/lang/String;I)2java.lang.String#indexOf([BBILjava/lang/String;I)IB
 indexOfNonWhitespace()(java.lang.String#indexOfNonWhitespace()I7
 intern()+java.lang.String#intern()Ljava/lang/String;,
@@ -409,24 +463,30 @@ $lastIndexOf([BBILjava/lang/String;I)6java.lang.String#lastIndexOf([BBILjava/la
 malformed4([BI)!java.lang.String#malformed4([BI)IL
 matches(Ljava/lang/String;)-java.lang.String#matches(Ljava/lang/String;)ZÅ
 -newStringNoRepl([BLjava/nio/charset/Charset;)Pjava.lang.String#newStringNoRepl([BLjava/nio/charset/Charset;)Ljava/lang/String;É
-.newStringNoRepl1([BLjava/nio/charset/Charset;)Qjava.lang.String#newStringNoRepl1([BLjava/nio/charset/Charset;)Ljava/lang/String;Y
-newStringUTF8NoRepl([BII)<java.lang.String#newStringUTF8NoRepl([BII)Ljava/lang/String;Ñ
+.newStringNoRepl1([BLjava/nio/charset/Charset;)Qjava.lang.String#newStringNoRepl1([BLjava/nio/charset/Charset;)Ljava/lang/String;[
+newStringUTF8NoRepl([BIIZ)=java.lang.String#newStringUTF8NoRepl([BIIZ)Ljava/lang/String;Ñ
 7nonSyncContentEquals(Ljava/lang/AbstractStringBuilder;)Ijava.lang.String#nonSyncContentEquals(Ljava/lang/AbstractStringBuilder;)ZB
 offsetByCodePoints(II)(java.lang.String#offsetByCodePoints(II)IH
 outdent(Ljava/util/List;)+java.lang.String#outdent(Ljava/util/List;)IE
 rangeCheck([CII)1java.lang.String#rangeCheck([CII)Ljava/lang/Void;^
 $regionMatches(ILjava/lang/String;II)6java.lang.String#regionMatches(ILjava/lang/String;II)Z`
 %regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z9
-	repeat(I),java.lang.String#repeat(I)Ljava/lang/String;=
+	repeat(I),java.lang.String#repeat(I)Ljava/lang/String;@
+repeatCopyRest([BIII)'java.lang.String#repeatCopyRest([BIII)V=
 replace(CC).java.lang.String#replace(CC)Ljava/lang/String;ô
 9replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;á
 0replaceAll(Ljava/lang/String;Ljava/lang/String;)Sjava.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;ã
-2replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ujava.lang.String#replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;ü
+2replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ujava.lang.String#replaceFirst(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;@
+replaceNegatives([BI)'java.lang.String#replaceNegatives([BI)Vü
 <resolveConstantDesc(Ljava/lang/invoke/MethodHandles$Lookup;)_java.lang.String#resolveConstantDesc(Ljava/lang/invoke/MethodHandles$Lookup;)Ljava/lang/String;3
 safeTrim([BIZ)!java.lang.String#safeTrim([BIZ)[B(
-	scale(IF)java.lang.String#scale(IF)IZ
+	scale(IF)java.lang.String#scale(IF)I<
+
+split(CIZ).java.lang.String#split(CIZ)[Ljava/lang/String;Z
 split(Ljava/lang/String;)=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;\
-split(Ljava/lang/String;I)>java.lang.String#split(Ljava/lang/String;I)[Ljava/lang/String;R
+split(Ljava/lang/String;I)>java.lang.String#split(Ljava/lang/String;I)[Ljava/lang/String;^
+split(Ljava/lang/String;IZ)?java.lang.String#split(Ljava/lang/String;IZ)[Ljava/lang/String;x
+(splitWithDelimiters(Ljava/lang/String;I)Ljava.lang.String#splitWithDelimiters(Ljava/lang/String;I)[Ljava/lang/String;R
 startsWith(Ljava/lang/String;)0java.lang.String#startsWith(Ljava/lang/String;)ZT
 startsWith(Ljava/lang/String;I)1java.lang.String#startsWith(Ljava/lang/String;I)Z5
 strip()*java.lang.String#strip()Ljava/lang/String;A
@@ -466,48 +526,762 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;]
 valueOf(Z)-java.lang.String#valueOf(Z)Ljava/lang/String;=
 valueOf([C).java.lang.String#valueOf([C)Ljava/lang/String;A
 valueOf([CII)0java.lang.String#valueOf([CII)Ljava/lang/String;M
-valueOfCodePoint(I)6java.lang.String#valueOfCodePoint(I)Ljava/lang/String;Õ
-=main.java.engclasses.exceptions.RegistrazioneFallitaExceptionjava.lang.Exceptionw
-<init>(Ljava/lang/String;)Ymain.java.engclasses.exceptions.RegistrazioneFallitaException#<init>(Ljava/lang/String;)V‹
-main.java.misc.Sessionjava.lang.Object.
-	<init>(Z)!main.java.misc.Session#<init>(Z)VC
-getAnnunci()3main.java.misc.Session#getAnnunci()Ljava/util/List;[
-getCognomeAgricoltore()@main.java.misc.Session#getCognomeAgricoltore()Ljava/lang/String;:
-getIdAnnuncio()'main.java.misc.Session#getIdAnnuncio()JG
-getIdUtente()6main.java.misc.Session#getIdUtente()Ljava/lang/String;?
-	getNome()2main.java.misc.Session#getNome()Ljava/lang/String;U
-getNomeAgricoltore()=main.java.misc.Session#getNomeAgricoltore()Ljava/lang/String;G
-getUsername()6main.java.misc.Session#getUsername()Ljava/lang/String;:
-isAgricoltore()'main.java.misc.Session#isAgricoltore()Z:
-isPersistence()'main.java.misc.Session#isPersistence()ZT
-setAnnunci(Ljava/util/List;)4main.java.misc.Session#setAnnunci(Ljava/util/List;)Vn
-)setCognomeAgricoltore(Ljava/lang/String;)Amain.java.misc.Session#setCognomeAgricoltore(Ljava/lang/String;)V<
-setIdAnnuncio(J)(main.java.misc.Session#setIdAnnuncio(J)VZ
-setIdUtente(Ljava/lang/String;)7main.java.misc.Session#setIdUtente(Ljava/lang/String;)VF
-setIsOrganizzatore(Z)-main.java.misc.Session#setIsOrganizzatore(Z)VR
-setNome(Ljava/lang/String;)3main.java.misc.Session#setNome(Ljava/lang/String;)Vh
-&setNomeAgricoltore(Ljava/lang/String;)>main.java.misc.Session#setNomeAgricoltore(Ljava/lang/String;)V>
-setPersistence(Z))main.java.misc.Session#setPersistence(Z)VZ
-setUsername(Ljava/lang/String;)7main.java.misc.Session#setUsername(Ljava/lang/String;)V´
-,main.java.engclasses.beans.RegistrazioneBeanjava.lang.ObjectB
-<init>()6main.java.engclasses.beans.RegistrazioneBean#<init>()VW
+valueOfCodePoint(I)6java.lang.String#valueOfCodePoint(I)Ljava/lang/String;+
+java.lang.AutoCloseablejava.lang.ObjectH
+java.util.stream.BaseStreamjava.lang.AutoCloseablejava.lang.Objectô
+java.util.stream.Streamjava.lang.Objectjava.util.stream.BaseStreamO
+	builder()Bjava.util.stream.Stream#builder()Ljava/util/stream/Stream$Builder;©
+:concat(Ljava/util/stream/Stream;Ljava/util/stream/Stream;)kjava.util.stream.Stream#concat(Ljava/util/stream/Stream;Ljava/util/stream/Stream;)Ljava/util/stream/Stream;á
+)dropWhile(Ljava/util/function/Predicate;)Zjava.util.stream.Stream#dropWhile(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;C
+empty()8java.util.stream.Stream#empty()Ljava/util/stream/Stream;É
+'generate(Ljava/util/function/Supplier;)Xjava.util.stream.Stream#generate(Ljava/util/function/Supplier;)Ljava/util/stream/Stream;Ï
+[iterate(Ljava/lang/Object;Ljava/util/function/Predicate;Ljava/util/function/UnaryOperator;)åjava.util.stream.Stream#iterate(Ljava/lang/Object;Ljava/util/function/Predicate;Ljava/util/function/UnaryOperator;)Ljava/util/stream/Stream;Ø
+=iterate(Ljava/lang/Object;Ljava/util/function/UnaryOperator;)njava.util.stream.Stream#iterate(Ljava/lang/Object;Ljava/util/function/UnaryOperator;)Ljava/util/stream/Stream;á
+)mapMulti(Ljava/util/function/BiConsumer;)Zjava.util.stream.Stream#mapMulti(Ljava/util/function/BiConsumer;)Ljava/util/stream/Stream;ù
+1mapMultiToDouble(Ljava/util/function/BiConsumer;)hjava.util.stream.Stream#mapMultiToDouble(Ljava/util/function/BiConsumer;)Ljava/util/stream/DoubleStream;î
+.mapMultiToInt(Ljava/util/function/BiConsumer;)bjava.util.stream.Stream#mapMultiToInt(Ljava/util/function/BiConsumer;)Ljava/util/stream/IntStream;ó
+/mapMultiToLong(Ljava/util/function/BiConsumer;)djava.util.stream.Stream#mapMultiToLong(Ljava/util/function/BiConsumer;)Ljava/util/stream/LongStream;a
+of(Ljava/lang/Object;)Gjava.util.stream.Stream#of(Ljava/lang/Object;)Ljava/util/stream/Stream;c
+of([Ljava/lang/Object;)Hjava.util.stream.Stream#of([Ljava/lang/Object;)Ljava/util/stream/Stream;q
+ofNullable(Ljava/lang/Object;)Ojava.util.stream.Stream#ofNullable(Ljava/lang/Object;)Ljava/util/stream/Stream;á
+)takeWhile(Ljava/util/function/Predicate;)Zjava.util.stream.Stream#takeWhile(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;<
+toList()0java.util.stream.Stream#toList()Ljava/util/List;⁄f
+java.nio.file.Filesjava.lang.Object)
+<init>()java.nio.file.Files#<init>()V|
+(asUncheckedRunnable(Ljava/io/Closeable;)Pjava.nio.file.Files#asUncheckedRunnable(Ljava/io/Closeable;)Ljava/lang/Runnable;≠
+Jcopy(Ljava/io/InputStream;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)_java.nio.file.Files#copy(Ljava/io/InputStream;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Jy
+0copy(Ljava/nio/file/Path;Ljava/io/OutputStream;)Ejava.nio.file.Files#copy(Ljava/nio/file/Path;Ljava/io/OutputStream;)Jæ
+Icopy(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)qjava.nio.file.Files#copy(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Ljava/nio/file/Path;«
+WcreateAndCheckIsDirectory(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)ljava.nio.file.Files#createAndCheckIsDirectory(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)V£
+9createBufferedReaderLinesStream(Ljava/io/BufferedReader;)fjava.nio.file.Files#createBufferedReaderLinesStream(Ljava/io/BufferedReader;)Ljava/util/stream/Stream; 
+OcreateDirectories(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)wjava.nio.file.Files#createDirectories(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;∆
+McreateDirectory(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)ujava.nio.file.Files#createDirectory(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;º
+HcreateFile(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)pjava.nio.file.Files#createFile(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;‡
+WcreateFileChannelLinesStream(Ljava/nio/channels/FileChannel;Ljava/nio/charset/Charset;)Ñjava.nio.file.Files#createFileChannelLinesStream(Ljava/nio/channels/FileChannel;Ljava/nio/charset/Charset;)Ljava/util/stream/Stream;î
+4createLink(Ljava/nio/file/Path;Ljava/nio/file/Path;)\java.nio.file.Files#createLink(Ljava/nio/file/Path;Ljava/nio/file/Path;)Ljava/nio/file/Path;ı
+dcreateSymbolicLink(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)åjava.nio.file.Files#createSymbolicLink(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path; 
+OcreateTempDirectory(Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)wjava.nio.file.Files#createTempDirectory(Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;Û
+ccreateTempDirectory(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)ãjava.nio.file.Files#createTempDirectory(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;Â
+\createTempFile(Ljava/lang/String;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ñjava.nio.file.Files#createTempFile(Ljava/lang/String;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;ç
+pcreateTempFile(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)òjava.nio.file.Files#createTempFile(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;Q
+delete(Ljava/nio/file/Path;)1java.nio.file.Files#delete(Ljava/nio/file/Path;)Va
+$deleteIfExists(Ljava/nio/file/Path;)9java.nio.file.Files#deleteIfExists(Ljava/nio/file/Path;)Zá
+7exists(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Ljava.nio.file.Files#exists(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)ZË
+[find(Ljava/nio/file/Path;ILjava/util/function/BiPredicate;[Ljava/nio/file/FileVisitOption;)àjava.nio.file.Files#find(Ljava/nio/file/Path;ILjava/util/function/BiPredicate;[Ljava/nio/file/FileVisitOption;)Ljava/util/stream/Stream;i
+(followLinks([Ljava/nio/file/LinkOption;)=java.nio.file.Files#followLinks([Ljava/nio/file/LinkOption;)Z»
+OgetAttribute(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/LinkOption;)ujava.nio.file.Files#getAttribute(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/LinkOption;)Ljava/lang/Object;
+VgetFileAttributeView(Ljava/nio/file/Path;Ljava/lang/Class;[Ljava/nio/file/LinkOption;)ïjava.nio.file.Files#getFileAttributeView(Ljava/nio/file/Path;Ljava/lang/Class;[Ljava/nio/file/LinkOption;)Ljava/nio/file/attribute/FileAttributeView;u
+"getFileStore(Ljava/nio/file/Path;)Ojava.nio.file.Files#getFileStore(Ljava/nio/file/Path;)Ljava/nio/file/FileStore;¬
+DgetLastModifiedTime(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)zjava.nio.file.Files#getLastModifiedTime(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Ljava/nio/file/attribute/FileTime;±
+9getOwner(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)tjava.nio.file.Files#getOwner(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Ljava/nio/file/attribute/UserPrincipal;∑
+HgetPosixFilePermissions(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)kjava.nio.file.Files#getPosixFilePermissions(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Ljava/util/Set;ì
+=isAccessible(Ljava/nio/file/Path;[Ljava/nio/file/AccessMode;)Rjava.nio.file.Files#isAccessible(Ljava/nio/file/Path;[Ljava/nio/file/AccessMode;)Zë
+<isDirectory(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Qjava.nio.file.Files#isDirectory(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z]
+"isExecutable(Ljava/nio/file/Path;)7java.nio.file.Files#isExecutable(Ljava/nio/file/Path;)ZU
+isHidden(Ljava/nio/file/Path;)3java.nio.file.Files#isHidden(Ljava/nio/file/Path;)ZY
+ isReadable(Ljava/nio/file/Path;)5java.nio.file.Files#isReadable(Ljava/nio/file/Path;)Zï
+>isRegularFile(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Sjava.nio.file.Files#isRegularFile(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)ZÅ
+4isSameFile(Ljava/nio/file/Path;Ljava/nio/file/Path;)Ijava.nio.file.Files#isSameFile(Ljava/nio/file/Path;Ljava/nio/file/Path;)Za
+$isSymbolicLink(Ljava/nio/file/Path;)9java.nio.file.Files#isSymbolicLink(Ljava/nio/file/Path;)ZY
+ isWritable(Ljava/nio/file/Path;)5java.nio.file.Files#isWritable(Ljava/nio/file/Path;)Zg
+lines(Ljava/nio/file/Path;)Hjava.nio.file.Files#lines(Ljava/nio/file/Path;)Ljava/util/stream/Stream;õ
+5lines(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)bjava.nio.file.Files#lines(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/util/stream/Stream;e
+list(Ljava/nio/file/Path;)Gjava.nio.file.Files#list(Ljava/nio/file/Path;)Ljava/util/stream/Stream;}
+2mismatch(Ljava/nio/file/Path;Ljava/nio/file/Path;)Gjava.nio.file.Files#mismatch(Ljava/nio/file/Path;Ljava/nio/file/Path;)Jæ
+Imove(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)qjava.nio.file.Files#move(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Ljava/nio/file/Path;~
+'newBufferedReader(Ljava/nio/file/Path;)Sjava.nio.file.Files#newBufferedReader(Ljava/nio/file/Path;)Ljava/io/BufferedReader;≤
+AnewBufferedReader(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)mjava.nio.file.Files#newBufferedReader(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/io/BufferedReader;È
+\newBufferedWriter(Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)àjava.nio.file.Files#newBufferedWriter(Ljava/nio/file/Path;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/io/BufferedWriter;¥
+BnewBufferedWriter(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)njava.nio.file.Files#newBufferedWriter(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/BufferedWriter;ˆ
+[newByteChannel(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;)ñjava.nio.file.Files#newByteChannel(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/channels/SeekableByteChannel;Ω
+?newByteChannel(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)zjava.nio.file.Files#newByteChannel(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/SeekableByteChannel;á
+(newDirectoryStream(Ljava/nio/file/Path;)[java.nio.file.Files#newDirectoryStream(Ljava/nio/file/Path;)Ljava/nio/file/DirectoryStream;´
+:newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)mjava.nio.file.Files#newDirectoryStream(Ljava/nio/file/Path;Ljava/lang/String;)Ljava/nio/file/DirectoryStream;‘
+NnewDirectoryStream(Ljava/nio/file/Path;Ljava/nio/file/DirectoryStream$Filter;)Åjava.nio.file.Files#newDirectoryStream(Ljava/nio/file/Path;Ljava/nio/file/DirectoryStream$Filter;)Ljava/nio/file/DirectoryStream;´
+?newInputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)hjava.nio.file.Files#newInputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/InputStream;Æ
+@newOutputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)jjava.nio.file.Files#newOutputStream(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/io/OutputStream;ç
+:notExists(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Ojava.nio.file.Files#notExists(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Zv
+&probeContentType(Ljava/nio/file/Path;)Ljava.nio.file.Files#probeContentType(Ljava/nio/file/Path;)Ljava/lang/String;z
+provider(Ljava/nio/file/Path;)Xjava.nio.file.Files#provider(Ljava/nio/file/Path;)Ljava/nio/file/spi/FileSystemProvider;R
+read(Ljava/io/InputStream;I)2java.nio.file.Files#read(Ljava/io/InputStream;I)[B^
+"readAllBytes(Ljava/nio/file/Path;)8java.nio.file.Files#readAllBytes(Ljava/nio/file/Path;)[Bl
+"readAllLines(Ljava/nio/file/Path;)Fjava.nio.file.Files#readAllLines(Ljava/nio/file/Path;)Ljava/util/List;†
+<readAllLines(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)`java.nio.file.Files#readAllLines(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/util/List;Ê
+PreadAttributes(Ljava/nio/file/Path;Ljava/lang/Class;[Ljava/nio/file/LinkOption;)ëjava.nio.file.Files#readAttributes(Ljava/nio/file/Path;Ljava/lang/Class;[Ljava/nio/file/LinkOption;)Ljava/nio/file/attribute/BasicFileAttributes;…
+QreadAttributes(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/LinkOption;)tjava.nio.file.Files#readAttributes(Ljava/nio/file/Path;Ljava/lang/String;[Ljava/nio/file/LinkOption;)Ljava/util/Map;j
+ readString(Ljava/nio/file/Path;)Fjava.nio.file.Files#readString(Ljava/nio/file/Path;)Ljava/lang/String;û
+:readString(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)`java.nio.file.Files#readString(Ljava/nio/file/Path;Ljava/nio/charset/Charset;)Ljava/lang/String;x
+&readSymbolicLink(Ljava/nio/file/Path;)Njava.nio.file.Files#readSymbolicLink(Ljava/nio/file/Path;)Ljava/nio/file/Path;Ô
+asetAttribute(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/Object;[Ljava/nio/file/LinkOption;)âjava.nio.file.Files#setAttribute(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/Object;[Ljava/nio/file/LinkOption;)Ljava/nio/file/Path;¬
+KsetLastModifiedTime(Ljava/nio/file/Path;Ljava/nio/file/attribute/FileTime;)sjava.nio.file.Files#setLastModifiedTime(Ljava/nio/file/Path;Ljava/nio/file/attribute/FileTime;)Ljava/nio/file/Path;∂
+EsetOwner(Ljava/nio/file/Path;Ljava/nio/file/attribute/UserPrincipal;)mjava.nio.file.Files#setOwner(Ljava/nio/file/Path;Ljava/nio/file/attribute/UserPrincipal;)Ljava/nio/file/Path;§
+<setPosixFilePermissions(Ljava/nio/file/Path;Ljava/util/Set;)djava.nio.file.Files#setPosixFilePermissions(Ljava/nio/file/Path;Ljava/util/Set;)Ljava/nio/file/Path;M
+size(Ljava/nio/file/Path;)/java.nio.file.Files#size(Ljava/nio/file/Path;)Jß
+;walk(Ljava/nio/file/Path;I[Ljava/nio/file/FileVisitOption;)hjava.nio.file.Files#walk(Ljava/nio/file/Path;I[Ljava/nio/file/FileVisitOption;)Ljava/util/stream/Stream;•
+:walk(Ljava/nio/file/Path;[Ljava/nio/file/FileVisitOption;)gjava.nio.file.Files#walk(Ljava/nio/file/Path;[Ljava/nio/file/FileVisitOption;)Ljava/util/stream/Stream;¶
+=walkFileTree(Ljava/nio/file/Path;Ljava/nio/file/FileVisitor;)ejava.nio.file.Files#walkFileTree(Ljava/nio/file/Path;Ljava/nio/file/FileVisitor;)Ljava/nio/file/Path;∆
+MwalkFileTree(Ljava/nio/file/Path;Ljava/util/Set;ILjava/nio/file/FileVisitor;)ujava.nio.file.Files#walkFileTree(Ljava/nio/file/Path;Ljava/util/Set;ILjava/nio/file/FileVisitor;)Ljava/nio/file/Path;ı
+dwrite(Ljava/nio/file/Path;Ljava/lang/Iterable;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)åjava.nio.file.Files#write(Ljava/nio/file/Path;Ljava/lang/Iterable;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;¿
+Jwrite(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)rjava.nio.file.Files#write(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;ú
+8write(Ljava/nio/file/Path;[B[Ljava/nio/file/OpenOption;)`java.nio.file.Files#write(Ljava/nio/file/Path;[B[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;â
+nwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)ñjava.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;‘
+TwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)|java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;*
+java.util.RandomAccessjava.lang.Object'
+java.lang.Cloneablejava.lang.Object†
 
-getCitta()Imain.java.engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;[
-getCognome()Kmain.java.engclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;k
-getConfirmPassword()Smain.java.engclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;W
+java.util.AbstractCollectionjava.lang.Objectjava.util.Collection2
+<init>()&java.util.AbstractCollection#<init>()VP
+add(Ljava/lang/Object;)5java.util.AbstractCollection#add(Ljava/lang/Object;)Z^
+addAll(Ljava/util/Collection;)<java.util.AbstractCollection#addAll(Ljava/util/Collection;)Z0
+clear()%java.util.AbstractCollection#clear()VZ
+contains(Ljava/lang/Object;):java.util.AbstractCollection#contains(Ljava/lang/Object;)Zh
+#containsAll(Ljava/util/Collection;)Ajava.util.AbstractCollection#containsAll(Ljava/util/Collection;)Z†
+6finishToArray([Ljava/lang/Object;Ljava/util/Iterator;)fjava.util.AbstractCollection#finishToArray([Ljava/lang/Object;Ljava/util/Iterator;)[Ljava/lang/Object;4
+	isEmpty()'java.util.AbstractCollection#isEmpty()ZV
+remove(Ljava/lang/Object;)8java.util.AbstractCollection#remove(Ljava/lang/Object;)Zd
+!removeAll(Ljava/util/Collection;)?java.util.AbstractCollection#removeAll(Ljava/util/Collection;)Zd
+!retainAll(Ljava/util/Collection;)?java.util.AbstractCollection#retainAll(Ljava/util/Collection;)ZF
+	toArray()9java.util.AbstractCollection#toArray()[Ljava/lang/Object;l
+toArray([Ljava/lang/Object;)Ljava.util.AbstractCollection#toArray([Ljava/lang/Object;)[Ljava/lang/Object;G
 
-getEmail()Imain.java.engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;U
-	getNome()Hmain.java.engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;]
-getPassword()Lmain.java.engclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;]
-getUsername()Lmain.java.engclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;j
-setCitta(Ljava/lang/String;)Jmain.java.engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)Vn
-setCognome(Ljava/lang/String;)Lmain.java.engclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V~
-&setConfirmPassword(Ljava/lang/String;)Tmain.java.engclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)Vj
-setEmail(Ljava/lang/String;)Jmain.java.engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)Vh
-setNome(Ljava/lang/String;)Imain.java.engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)Vp
-setPassword(Ljava/lang/String;)Mmain.java.engclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)Vp
-setUsername(Ljava/lang/String;)Mmain.java.engclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V(
-java.lang.Appendablejava.lang.ObjectÕ6
+toString()9java.util.AbstractCollection#toString()Ljava/lang/String;±
+java.util.AbstractListjava.util.AbstractCollectionjava.util.List,
+<init>() java.util.AbstractList#<init>()VL
+add(ILjava/lang/Object;)0java.util.AbstractList#add(ILjava/lang/Object;)VJ
+add(Ljava/lang/Object;)/java.util.AbstractList#add(Ljava/lang/Object;)ZZ
+addAll(ILjava/util/Collection;)7java.util.AbstractList#addAll(ILjava/util/Collection;)Z*
+clear()java.util.AbstractList#clear()VP
+equals(Ljava/lang/Object;)2java.util.AbstractList#equals(Ljava/lang/Object;)Z0
+
+hashCode()"java.util.AbstractList#hashCode()IR
+indexOf(Ljava/lang/Object;)3java.util.AbstractList#indexOf(Ljava/lang/Object;)IC
+
+iterator()5java.util.AbstractList#iterator()Ljava/util/Iterator;Z
+lastIndexOf(Ljava/lang/Object;)7java.util.AbstractList#lastIndexOf(Ljava/lang/Object;)IO
+listIterator()=java.util.AbstractList#listIterator()Ljava/util/ListIterator;Q
+listIterator(I)>java.util.AbstractList#listIterator(I)Ljava/util/ListIterator;O
+outOfBoundsMsg(I):java.util.AbstractList#outOfBoundsMsg(I)Ljava/lang/String;B
+rangeCheckForAdd(I)+java.util.AbstractList#rangeCheckForAdd(I)V?
+	remove(I)2java.util.AbstractList#remove(I)Ljava/lang/Object;:
+removeRange(II)'java.util.AbstractList#removeRange(II)V]
+set(ILjava/lang/Object;)Ajava.util.AbstractList#set(ILjava/lang/Object;)Ljava/lang/Object;A
+subList(II)2java.util.AbstractList#subList(II)Ljava/util/List;H
+subListRangeCheck(III).java.util.AbstractList#subListRangeCheck(III)V…)
+java.util.ArrayListjava.io.Serializablejava.lang.Cloneablejava.util.AbstractListjava.util.Listjava.util.RandomAccess)
+<init>()java.util.ArrayList#<init>()V+
+	<init>(I)java.util.ArrayList#<init>(I)VU
+<init>(Ljava/util/Collection;)3java.util.ArrayList#<init>(Ljava/util/Collection;)VI
+add(ILjava/lang/Object;)-java.util.ArrayList#add(ILjava/lang/Object;)VG
+add(Ljava/lang/Object;),java.util.ArrayList#add(Ljava/lang/Object;)Zo
++add(Ljava/lang/Object;[Ljava/lang/Object;I)@java.util.ArrayList#add(Ljava/lang/Object;[Ljava/lang/Object;I)VW
+addAll(ILjava/util/Collection;)4java.util.ArrayList#addAll(ILjava/util/Collection;)ZU
+addAll(Ljava/util/Collection;)3java.util.ArrayList#addAll(Ljava/util/Collection;)ZQ
+addFirst(Ljava/lang/Object;)1java.util.ArrayList#addFirst(Ljava/lang/Object;)VO
+addLast(Ljava/lang/Object;)0java.util.ArrayList#addLast(Ljava/lang/Object;)Ve
+&batchRemove(Ljava/util/Collection;ZII);java.util.ArrayList#batchRemove(Ljava/util/Collection;ZII)ZK
+checkForComodification(I).java.util.ArrayList#checkForComodification(I)V;
+checkInvariants()&java.util.ArrayList#checkInvariants()V'
+clear()java.util.ArrayList#clear()V8
+clone()-java.util.ArrayList#clone()Ljava/lang/Object;Q
+contains(Ljava/lang/Object;)1java.util.ArrayList#contains(Ljava/lang/Object;)Zh
+elementAt([Ljava/lang/Object;I)Ejava.util.ArrayList#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;F
+elementData(I)4java.util.ArrayList#elementData(I)Ljava/lang/Object;;
+ensureCapacity(I)&java.util.ArrayList#ensureCapacity(I)VM
+equals(Ljava/lang/Object;)/java.util.ArrayList#equals(Ljava/lang/Object;)Ze
+&equalsArrayList(Ljava/util/ArrayList;);java.util.ArrayList#equalsArrayList(Ljava/util/ArrayList;)ZW
+equalsRange(Ljava/util/List;II)4java.util.ArrayList#equalsRange(Ljava/util/List;II)ZY
+ fastRemove([Ljava/lang/Object;I)5java.util.ArrayList#fastRemove([Ljava/lang/Object;I)Ve
+&forEach(Ljava/util/function/Consumer;);java.util.ArrayList#forEach(Ljava/util/function/Consumer;)V6
+get(I),java.util.ArrayList#get(I)Ljava/lang/Object;>
+
+getFirst()0java.util.ArrayList#getFirst()Ljava/lang/Object;<
+	getLast()/java.util.ArrayList#getLast()Ljava/lang/Object;7
+grow()-java.util.ArrayList#grow()[Ljava/lang/Object;9
+grow(I).java.util.ArrayList#grow(I)[Ljava/lang/Object;-
+
+hashCode()java.util.ArrayList#hashCode()I;
+hashCodeRange(II)&java.util.ArrayList#hashCodeRange(II)IO
+indexOf(Ljava/lang/Object;)0java.util.ArrayList#indexOf(Ljava/lang/Object;)I]
+"indexOfRange(Ljava/lang/Object;II)7java.util.ArrayList#indexOfRange(Ljava/lang/Object;II)I1
+isClear([JI)!java.util.ArrayList#isClear([JI)Z+
+	isEmpty()java.util.ArrayList#isEmpty()Z@
+
+iterator()2java.util.ArrayList#iterator()Ljava/util/Iterator;W
+lastIndexOf(Ljava/lang/Object;)4java.util.ArrayList#lastIndexOf(Ljava/lang/Object;)Ie
+&lastIndexOfRange(Ljava/lang/Object;II);java.util.ArrayList#lastIndexOfRange(Ljava/lang/Object;II)IL
+listIterator():java.util.ArrayList#listIterator()Ljava/util/ListIterator;N
+listIterator(I);java.util.ArrayList#listIterator(I)Ljava/util/ListIterator;*
+nBits(I)java.util.ArrayList#nBits(I)[JL
+outOfBoundsMsg(I)7java.util.ArrayList#outOfBoundsMsg(I)Ljava/lang/String;N
+outOfBoundsMsg(II)8java.util.ArrayList#outOfBoundsMsg(II)Ljava/lang/String;?
+rangeCheckForAdd(I)(java.util.ArrayList#rangeCheckForAdd(I)Vg
+'readObject(Ljava/io/ObjectInputStream;)<java.util.ArrayList#readObject(Ljava/io/ObjectInputStream;)V<
+	remove(I)/java.util.ArrayList#remove(I)Ljava/lang/Object;M
+remove(Ljava/lang/Object;)/java.util.ArrayList#remove(Ljava/lang/Object;)Z[
+!removeAll(Ljava/util/Collection;)6java.util.ArrayList#removeAll(Ljava/util/Collection;)ZD
+removeFirst()3java.util.ArrayList#removeFirst()Ljava/lang/Object;i
+(removeIf(Ljava/util/function/Predicate;)=java.util.ArrayList#removeIf(Ljava/util/function/Predicate;)Zm
+*removeIf(Ljava/util/function/Predicate;II)?java.util.ArrayList#removeIf(Ljava/util/function/Predicate;II)ZB
+removeLast()2java.util.ArrayList#removeLast()Ljava/lang/Object;7
+removeRange(II)$java.util.ArrayList#removeRange(II)Vu
+.replaceAll(Ljava/util/function/UnaryOperator;)Cjava.util.ArrayList#replaceAll(Ljava/util/function/UnaryOperator;)VÉ
+5replaceAllRange(Ljava/util/function/UnaryOperator;II)Jjava.util.ArrayList#replaceAllRange(Ljava/util/function/UnaryOperator;II)V[
+!retainAll(Ljava/util/Collection;)6java.util.ArrayList#retainAll(Ljava/util/Collection;)ZZ
+set(ILjava/lang/Object;)>java.util.ArrayList#set(ILjava/lang/Object;)Ljava/lang/Object;/
+setBit([JI) java.util.ArrayList#setBit([JI)Vg
+'shiftTailOverGap([Ljava/lang/Object;II)<java.util.ArrayList#shiftTailOverGap([Ljava/lang/Object;II)V%
+size()java.util.ArrayList#size()IQ
+sort(Ljava/util/Comparator;)1java.util.ArrayList#sort(Ljava/util/Comparator;)VI
+spliterator()8java.util.ArrayList#spliterator()Ljava/util/Spliterator;>
+subList(II)/java.util.ArrayList#subList(II)Ljava/util/List;=
+	toArray()0java.util.ArrayList#toArray()[Ljava/lang/Object;c
+toArray([Ljava/lang/Object;)Cjava.util.ArrayList#toArray([Ljava/lang/Object;)[Ljava/lang/Object;1
+trimToSize()!java.util.ArrayList#trimToSize()Vk
+)writeObject(Ljava/io/ObjectOutputStream;)>java.util.ArrayList#writeObject(Ljava/io/ObjectOutputStream;)V%
+java.io.DataInputjava.lang.ObjectS
+java.io.ObjectInputjava.io.DataInputjava.lang.AutoCloseablejava.lang.Object1
+java.io.ObjectStreamConstantsjava.lang.Object>
+java.io.Closeablejava.lang.AutoCloseablejava.lang.Object€
+java.io.InputStreamjava.io.Closeablejava.lang.Object)
+<init>()java.io.InputStream#<init>()V/
+available() java.io.InputStream#available()I'
+close()java.io.InputStream#close()V'
+mark(I)java.io.InputStream#mark(I)V7
+markSupported()$java.io.InputStream#markSupported()ZO
+nullInputStream():java.io.InputStream#nullInputStream()Ljava/io/InputStream;)
+read([B)java.io.InputStream#read([B)I-
+
+read([BII)java.io.InputStream#read([BII)I6
+readAllBytes()$java.io.InputStream#readAllBytes()[B4
+readNBytes(I)#java.io.InputStream#readNBytes(I)[B9
+readNBytes([BII)%java.io.InputStream#readNBytes([BII)I'
+reset()java.io.InputStream#reset()V'
+skip(J)java.io.InputStream#skip(J)J3
+skipNBytes(J)"java.io.InputStream#skipNBytes(J)V]
+"transferTo(Ljava/io/OutputStream;)7java.io.InputStream#transferTo(Ljava/io/OutputStream;)JÃ*
+java.io.ObjectInputStreamjava.io.InputStreamjava.io.ObjectInputjava.io.ObjectStreamConstants/
+<init>()#java.io.ObjectInputStream#<init>()VY
+<init>(Ljava/io/InputStream;)8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)Vq
+ auditSubclass(Ljava/lang/Class;)Mjava.io.ObjectInputStream#auditSubclass(Ljava/lang/Class;)Ljava/lang/Boolean;5
+available()&java.io.ObjectInputStream#available()I[
+checkArray(Ljava/lang/Class;I)9java.io.ObjectInputStream#checkArray(Ljava/lang/Class;I)Vp
+ checkResolve(Ljava/lang/Object;)Ljava.io.ObjectInputStream#checkResolve(Ljava/lang/Object;)Ljava/lang/Object;-
+clear()"java.io.ObjectInputStream#clear()Vl
+cloneArray(Ljava/lang/Object;)Jjava.io.ObjectInputStream#cloneArray(Ljava/lang/Object;)Ljava/lang/Object;-
+close()"java.io.ObjectInputStream#close()VE
+defaultReadObject().java.io.ObjectInputStream#defaultReadObject()VK
+enableResolveObject(Z)1java.io.ObjectInputStream#enableResolveObject(Z)Z]
+filterCheck(Ljava/lang/Class;I):java.io.ObjectInputStream#filterCheck(Ljava/lang/Class;I)V/
+freeze()#java.io.ObjectInputStream#freeze()Ve
+getObjectInputFilter()Kjava.io.ObjectInputStream#getObjectInputFilter()Ljava/io/ObjectInputFilter;9
+handleReset()(java.io.ObjectInputStream#handleReset()VC
+isCustomSubclass()-java.io.ObjectInputStream#isCustomSubclass()Zg
+latestUserDefinedLoader()Jjava.io.ObjectInputStream#latestUserDefinedLoader()Ljava/lang/ClassLoader;+
+read()!java.io.ObjectInputStream#read()I3
+
+read([BII)%java.io.ObjectInputStream#read([BII)IH
+readArray(Z)8java.io.ObjectInputStream#readArray(Z)Ljava/lang/Object;9
+readBoolean()(java.io.ObjectInputStream#readBoolean()Z3
+
+readByte()%java.io.ObjectInputStream#readByte()B3
+
+readChar()%java.io.ObjectInputStream#readChar()CG
+readClass(Z)7java.io.ObjectInputStream#readClass(Z)Ljava/lang/Class;Y
+readClassDesc(Z)Ejava.io.ObjectInputStream#readClassDesc(Z)Ljava/io/ObjectStreamClass;c
+readClassDescriptor()Jjava.io.ObjectInputStream#readClassDescriptor()Ljava/io/ObjectStreamClass;7
+readDouble()'java.io.ObjectInputStream#readDouble()DD
+readEnum(Z)5java.io.ObjectInputStream#readEnum(Z)Ljava/lang/Enum;©
+EreadExternalData(Ljava/io/Externalizable;Ljava/io/ObjectStreamClass;)`java.io.ObjectInputStream#readExternalData(Ljava/io/Externalizable;Ljava/io/ObjectStreamClass;)V[
+readFatalException()Cjava.io.ObjectInputStream#readFatalException()Ljava/io/IOException;Z
+readFields()Jjava.io.ObjectInputStream#readFields()Ljava/io/ObjectInputStream$GetField;5
+readFloat()&java.io.ObjectInputStream#readFloat()F9
+readFully([B)(java.io.ObjectInputStream#readFully([B)V=
+readFully([BII)*java.io.ObjectInputStream#readFully([BII)VJ
+readHandle(Z)9java.io.ObjectInputStream#readHandle(Z)Ljava/lang/Object;1
+	readInt()$java.io.ObjectInputStream#readInt()ID
+
+readLine()6java.io.ObjectInputStream#readLine()Ljava/lang/String;3
+
+readLong()%java.io.ObjectInputStream#readLong()J_
+readNonProxyDesc(Z)Hjava.io.ObjectInputStream#readNonProxyDesc(Z)Ljava/io/ObjectStreamClass;D
+
+readNull()6java.io.ObjectInputStream#readNull()Ljava/lang/Object;H
+readObject()8java.io.ObjectInputStream#readObject()Ljava/lang/Object;j
+readObject(Ljava/lang/Class;)Ijava.io.ObjectInputStream#readObject(Ljava/lang/Class;)Ljava/lang/Object;n
+readObject0(Ljava/lang/Class;Z)Kjava.io.ObjectInputStream#readObject0(Ljava/lang/Class;Z)Ljava/lang/Object;X
+readObjectOverride()@java.io.ObjectInputStream#readObjectOverride()Ljava/lang/Object;Z
+readOrdinaryObject(Z)Ajava.io.ObjectInputStream#readOrdinaryObject(Z)Ljava/lang/Object;Y
+readProxyDesc(Z)Ejava.io.ObjectInputStream#readProxyDesc(Z)Ljava/io/ObjectStreamClass;~
+'readRecord(Ljava/io/ObjectStreamClass;)Sjava.io.ObjectInputStream#readRecord(Ljava/io/ObjectStreamClass;)Ljava/lang/Object;ô
+=readSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Xjava.io.ObjectInputStream#readSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)V5
+readShort()&java.io.ObjectInputStream#readShort()SC
+readStreamHeader()-java.io.ObjectInputStream#readStreamHeader()VH
+readString()8java.io.ObjectInputStream#readString()Ljava/lang/String;J
+readString(Z)9java.io.ObjectInputStream#readString(Z)Ljava/lang/String;P
+readTypeString()<java.io.ObjectInputStream#readTypeString()Ljava/lang/String;B
+	readUTF()5java.io.ObjectInputStream#readUTF()Ljava/lang/String;L
+readUnshared():java.io.ObjectInputStream#readUnshared()Ljava/lang/Object;C
+readUnsignedByte()-java.io.ObjectInputStream#readUnsignedByte()IE
+readUnsignedShort().java.io.ObjectInputStream#readUnsignedShort()Iá
+4registerValidation(Ljava/io/ObjectInputValidation;I)Ojava.io.ObjectInputStream#registerValidation(Ljava/io/ObjectInputValidation;I)VÅ
+)resolveClass(Ljava/io/ObjectStreamClass;)Tjava.io.ObjectInputStream#resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;r
+!resolveObject(Ljava/lang/Object;)Mjava.io.ObjectInputStream#resolveObject(Ljava/lang/Object;)Ljava/lang/Object;{
+&resolveProxyClass([Ljava/lang/String;)Qjava.io.ObjectInputStream#resolveProxyClass([Ljava/lang/String;)Ljava/lang/Class;Å
+1setObjectInputFilter(Ljava/io/ObjectInputFilter;)Ljava.io.ObjectInputStream#setObjectInputFilter(Ljava/io/ObjectInputFilter;)V7
+skipBytes(I)'java.io.ObjectInputStream#skipBytes(I)I?
+skipCustomData()+java.io.ObjectInputStream#skipCustomData()V?
+verifySubclass()+java.io.ObjectInputStream#verifySubclass()V&
+java.io.DataOutputjava.lang.ObjectU
+java.io.ObjectOutputjava.io.DataOutputjava.lang.AutoCloseablejava.lang.Object%
+java.io.Flushablejava.lang.ObjectÉ
+java.io.OutputStreamjava.io.Closeablejava.io.Flushablejava.lang.Object*
+<init>()java.io.OutputStream#<init>()V(
+close()java.io.OutputStream#close()V(
+flush()java.io.OutputStream#flush()VS
+nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
+	write([B)java.io.OutputStream#write([B)V0
+write([BII)!java.io.OutputStream#write([BII)Vï'
+java.io.ObjectOutputStreamjava.io.ObjectOutputjava.io.ObjectStreamConstantsjava.io.OutputStream0
+<init>()$java.io.ObjectOutputStream#<init>()V\
+<init>(Ljava/io/OutputStream;):java.io.ObjectOutputStream#<init>(Ljava/io/OutputStream;)V`
+ annotateClass(Ljava/lang/Class;)<java.io.ObjectOutputStream#annotateClass(Ljava/lang/Class;)Vj
+%annotateProxyClass(Ljava/lang/Class;)Ajava.io.ObjectOutputStream#annotateProxyClass(Ljava/lang/Class;)Vr
+ auditSubclass(Ljava/lang/Class;)Njava.io.ObjectOutputStream#auditSubclass(Ljava/lang/Class;)Ljava/lang/Boolean;.
+clear()#java.io.ObjectOutputStream#clear()V.
+close()#java.io.ObjectOutputStream#close()V¢
+AdefaultWriteFields(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)]java.io.ObjectOutputStream#defaultWriteFields(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)VH
+defaultWriteObject()0java.io.ObjectOutputStream#defaultWriteObject()V.
+drain()#java.io.ObjectOutputStream#drain()VL
+enableReplaceObject(Z)2java.io.ObjectOutputStream#enableReplaceObject(Z)Z.
+flush()#java.io.ObjectOutputStream#flush()VH
+getProtocolVersion()0java.io.ObjectOutputStream#getProtocolVersion()ID
+isCustomSubclass().java.io.ObjectOutputStream#isCustomSubclass()ZZ
+putFields()Kjava.io.ObjectOutputStream#putFields()Ljava/io/ObjectOutputStream$PutField;s
+!replaceObject(Ljava/lang/Object;)Njava.io.ObjectOutputStream#replaceObject(Ljava/lang/Object;)Ljava/lang/Object;.
+reset()#java.io.ObjectOutputStream#reset()VJ
+useProtocolVersion(I)1java.io.ObjectOutputStream#useProtocolVersion(I)V@
+verifySubclass(),java.io.ObjectOutputStream#verifySubclass()V0
+write(I)$java.io.ObjectOutputStream#write(I)V2
+	write([B)%java.io.ObjectOutputStream#write([B)V6
+write([BII)'java.io.ObjectOutputStream#write([BII)Vî
+:writeArray(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)Vjava.io.ObjectOutputStream#writeArray(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V>
+writeBoolean(Z)+java.io.ObjectOutputStream#writeBoolean(Z)V8
+writeByte(I)(java.io.ObjectOutputStream#writeByte(I)V\
+writeBytes(Ljava/lang/String;):java.io.ObjectOutputStream#writeBytes(Ljava/lang/String;)V8
+writeChar(I)(java.io.ObjectOutputStream#writeChar(I)V\
+writeChars(Ljava/lang/String;):java.io.ObjectOutputStream#writeChars(Ljava/lang/String;)V\
+writeClass(Ljava/lang/Class;Z):java.io.ObjectOutputStream#writeClass(Ljava/lang/Class;Z)Vx
+,writeClassDesc(Ljava/io/ObjectStreamClass;Z)Hjava.io.ObjectOutputStream#writeClassDesc(Ljava/io/ObjectStreamClass;Z)VÇ
+1writeClassDescriptor(Ljava/io/ObjectStreamClass;)Mjava.io.ObjectOutputStream#writeClassDescriptor(Ljava/io/ObjectStreamClass;)V<
+writeDouble(D)*java.io.ObjectOutputStream#writeDouble(D)Vé
+7writeEnum(Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)Sjava.io.ObjectOutputStream#writeEnum(Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)Vv
++writeExternalData(Ljava/io/Externalizable;)Gjava.io.ObjectOutputStream#writeExternalData(Ljava/io/Externalizable;)Vt
+*writeFatalException(Ljava/io/IOException;)Fjava.io.ObjectOutputStream#writeFatalException(Ljava/io/IOException;)V:
+writeFields())java.io.ObjectOutputStream#writeFields()V:
+writeFloat(F))java.io.ObjectOutputStream#writeFloat(F)V<
+writeHandle(I)*java.io.ObjectOutputStream#writeHandle(I)V6
+writeInt(I)'java.io.ObjectOutputStream#writeInt(I)V8
+writeLong(J)(java.io.ObjectOutputStream#writeLong(J)V~
+/writeNonProxyDesc(Ljava/io/ObjectStreamClass;Z)Kjava.io.ObjectOutputStream#writeNonProxyDesc(Ljava/io/ObjectStreamClass;Z)V6
+writeNull()'java.io.ObjectOutputStream#writeNull()V^
+writeObject(Ljava/lang/Object;);java.io.ObjectOutputStream#writeObject(Ljava/lang/Object;)Vb
+!writeObject0(Ljava/lang/Object;Z)=java.io.ObjectOutputStream#writeObject0(Ljava/lang/Object;Z)Vn
+'writeObjectOverride(Ljava/lang/Object;)Cjava.io.ObjectOutputStream#writeObjectOverride(Ljava/lang/Object;)V¶
+CwriteOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)_java.io.ObjectOutputStream#writeOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)Vx
+,writeProxyDesc(Ljava/io/ObjectStreamClass;Z)Hjava.io.ObjectOutputStream#writeProxyDesc(Ljava/io/ObjectStreamClass;Z)Vú
+>writeRecordData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Zjava.io.ObjectOutputStream#writeRecordData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Vú
+>writeSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Zjava.io.ObjectOutputStream#writeSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)V:
+writeShort(I))java.io.ObjectOutputStream#writeShort(I)VF
+writeStreamHeader()/java.io.ObjectOutputStream#writeStreamHeader()V`
+ writeString(Ljava/lang/String;Z)<java.io.ObjectOutputStream#writeString(Ljava/lang/String;Z)Vf
+#writeTypeString(Ljava/lang/String;)?java.io.ObjectOutputStream#writeTypeString(Ljava/lang/String;)VX
+writeUTF(Ljava/lang/String;)8java.io.ObjectOutputStream#writeUTF(Ljava/lang/String;)Vb
+!writeUnshared(Ljava/lang/Object;)=java.io.ObjectOutputStream#writeUnshared(Ljava/lang/Object;)V∑
+java.lang.Throwablejava.io.Serializablejava.lang.Object)
+<init>()java.lang.Throwable#<init>()VM
+<init>(Ljava/lang/String;)/java.lang.Throwable#<init>(Ljava/lang/String;)Vw
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Throwable#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V{
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Throwable#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
+<init>(Ljava/lang/Throwable;)2java.lang.Throwable#<init>(Ljava/lang/Throwable;)Va
+$addSuppressed(Ljava/lang/Throwable;)9java.lang.Throwable#addSuppressed(Ljava/lang/Throwable;)VQ
+fillInStackTrace();java.lang.Throwable#fillInStackTrace()Ljava/lang/Throwable;S
+fillInStackTrace(I)<java.lang.Throwable#fillInStackTrace(I)Ljava/lang/Throwable;A
+
+getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;T
+getLocalizedMessage();java.lang.Throwable#getLocalizedMessage()Ljava/lang/String;B
+getMessage()2java.lang.Throwable#getMessage()Ljava/lang/String;Z
+getOurStackTrace()Djava.lang.Throwable#getOurStackTrace()[Ljava/lang/StackTraceElement;T
+getStackTrace()Ajava.lang.Throwable#getStackTrace()[Ljava/lang/StackTraceElement;L
+getSuppressed()9java.lang.Throwable#getSuppressed()[Ljava/lang/Throwable;m
+ initCause(Ljava/lang/Throwable;)Ijava.lang.Throwable#initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;ô
+@lockedPrintStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Ujava.lang.Throwable#lockedPrintStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)V¡
+ìprintEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)®java.lang.Throwable#printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V;
+printStackTrace()&java.lang.Throwable#printStackTrace()Ve
+&printStackTrace(Ljava/io/PrintStream;);java.lang.Throwable#printStackTrace(Ljava/io/PrintStream;)Ve
+&printStackTrace(Ljava/io/PrintWriter;);java.lang.Throwable#printStackTrace(Ljava/io/PrintWriter;)Vç
+:printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Ojava.lang.Throwable#printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Vg
+'readObject(Ljava/io/ObjectInputStream;)<java.lang.Throwable#readObject(Ljava/io/ObjectInputStream;)VW
+setCause(Ljava/lang/Throwable;)4java.lang.Throwable#setCause(Ljava/lang/Throwable;)Vs
+-setStackTrace([Ljava/lang/StackTraceElement;)Bjava.lang.Throwable#setStackTrace([Ljava/lang/StackTraceElement;)V>
+
+toString()0java.lang.Throwable#toString()Ljava/lang/String;}
+2validateSuppressedExceptionsList(Ljava/util/List;)Gjava.lang.Throwable#validateSuppressedExceptionsList(Ljava/util/List;)Ik
+)writeObject(Ljava/io/ObjectOutputStream;)>java.lang.Throwable#writeObject(Ljava/io/ObjectOutputStream;)VÔ
+java.lang.Exceptionjava.lang.Throwable)
+<init>()java.lang.Exception#<init>()VM
+<init>(Ljava/lang/String;)/java.lang.Exception#<init>(Ljava/lang/String;)Vw
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V{
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
+<init>(Ljava/lang/Throwable;)2java.lang.Exception#<init>(Ljava/lang/Throwable;)Vö
+java.lang.RuntimeExceptionjava.lang.Exception0
+<init>()$java.lang.RuntimeException#<init>()VT
+<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VÇ
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
+<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)Vπ
+3engclasses.exceptions.RegistrazioneFallitaExceptionjava.lang.Exceptionm
+<init>(Ljava/lang/String;)Oengclasses.exceptions.RegistrazioneFallitaException#<init>(Ljava/lang/String;)V∆
+ engclasses.pattern.ConnessioneDBjava.lang.Object6
+<init>()*engclasses.pattern.ConnessioneDB#<init>()VX
+getConnection()Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;$
+java.sql.Wrapperjava.lang.Object“
+java.sql.Connectionjava.lang.AutoCloseablejava.lang.Objectjava.sql.Wrapper5
+beginRequest()#java.sql.Connection#beginRequest()V1
+endRequest()!java.sql.Connection#endRequest()Ve
+&setShardingKey(Ljava/sql/ShardingKey;);java.sql.Connection#setShardingKey(Ljava/sql/ShardingKey;)Vë
+<setShardingKey(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)Qjava.sql.Connection#setShardingKey(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)Vu
+.setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Cjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Z°
+DsetShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Yjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Z⁄	
+java.sql.Statementjava.lang.AutoCloseablejava.lang.Objectjava.sql.Wrapperu
+&enquoteIdentifier(Ljava/lang/String;Z)Kjava.sql.Statement#enquoteIdentifier(Ljava/lang/String;Z)Ljava/lang/String;m
+"enquoteLiteral(Ljava/lang/String;)Gjava.sql.Statement#enquoteLiteral(Ljava/lang/String;)Ljava/lang/String;w
+'enquoteNCharLiteral(Ljava/lang/String;)Ljava.sql.Statement#enquoteNCharLiteral(Ljava/lang/String;)Ljava/lang/String;?
+executeLargeBatch()(java.sql.Statement#executeLargeBatch()[Jd
+&executeLargeUpdate(Ljava/lang/String;):java.sql.Statement#executeLargeUpdate(Ljava/lang/String;)Jf
+'executeLargeUpdate(Ljava/lang/String;I);java.sql.Statement#executeLargeUpdate(Ljava/lang/String;I)Jh
+(executeLargeUpdate(Ljava/lang/String;[I)<java.sql.Statement#executeLargeUpdate(Ljava/lang/String;[I)Jä
+9executeLargeUpdate(Ljava/lang/String;[Ljava/lang/String;)Mjava.sql.Statement#executeLargeUpdate(Ljava/lang/String;[Ljava/lang/String;)J:
+getLargeMaxRows()%java.sql.Statement#getLargeMaxRows()JB
+getLargeUpdateCount())java.sql.Statement#getLargeUpdateCount()Jd
+&isSimpleIdentifier(Ljava/lang/String;):java.sql.Statement#isSimpleIdentifier(Ljava/lang/String;)Z<
+setLargeMaxRows(J)&java.sql.Statement#setLargeMaxRows(J)Vî
+java.sql.PreparedStatementjava.lang.Objectjava.sql.StatementH
+executeLargeUpdate()0java.sql.PreparedStatement#executeLargeUpdate()JÄ
+0setObject(ILjava/lang/Object;Ljava/sql/SQLType;)Ljava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;)VÇ
+1setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Mjava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Vú
+java.sql.ResultSetjava.lang.AutoCloseablejava.lang.Objectjava.sql.Wrapper~
+3updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)Gjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)VÄ
+4updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Hjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)V†
+DupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;)Xjava.sql.ResultSet#updateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;)V¢
+EupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)Yjava.sql.ResultSet#updateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)V…
+
+java.sql.SQLExceptionjava.lang.Exceptionjava.lang.Iterable+
+<init>()java.sql.SQLException#<init>()VO
+<init>(Ljava/lang/String;)1java.sql.SQLException#<init>(Ljava/lang/String;)Vs
+,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)Vu
+-<init>(Ljava/lang/String;Ljava/lang/String;I)Djava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;I)Vü
+B<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Yjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Vù
+A<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Xjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Vy
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VU
+<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V7
+getErrorCode()%java.sql.SQLException#getErrorCode()IU
+getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;F
+getSQLState()5java.sql.SQLException#getSQLState()Ljava/lang/String;B
+
+iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;m
+)setNextException(Ljava/sql/SQLException;)@java.sql.SQLException#setNextException(Ljava/sql/SQLException;)V
+9engclasses.exceptions.DatabaseConnessioneFallitaExceptionjava.lang.Exceptionù
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)jengclasses.exceptions.DatabaseConnessioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V‚
+8engclasses.exceptions.DatabaseOperazioneFallitaExceptionjava.lang.Exceptionr
+<init>(Ljava/lang/String;)Tengclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;)Vú
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)iengclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vò
+misc.MessageUtilsjava.lang.Object'
+<init>()misc.MessageUtils#<init>()Vë
+=mostraMessaggioConferma(Ljava/lang/String;Ljava/lang/String;)Pmisc.MessageUtils#mostraMessaggioConferma(Ljava/lang/String;Ljava/lang/String;)V£
+FmostraMessaggioConfermaConScelta(Ljava/lang/String;Ljava/lang/String;)Ymisc.MessageUtils#mostraMessaggioConfermaConScelta(Ljava/lang/String;Ljava/lang/String;)Zç
+;mostraMessaggioErrore(Ljava/lang/String;Ljava/lang/String;)Nmisc.MessageUtils#mostraMessaggioErrore(Ljava/lang/String;Ljava/lang/String;)V≈
+java.sql.DriverManagerjava.lang.Object,
+<init>() java.sql.DriverManager#<init>()Vb
+#deregisterDriver(Ljava/sql/Driver;);java.sql.DriverManager#deregisterDriver(Ljava/sql/Driver;)VF
+	drivers()9java.sql.DriverManager#drivers()Ljava/util/stream/Stream;P
+ensureDriversInitialized()2java.sql.DriverManager#ensureDriversInitialized()Vr
+!getConnection(Ljava/lang/String;)Mjava.sql.DriverManager#getConnection(Ljava/lang/String;)Ljava/sql/Connection;∫
+EgetConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;û
+7getConnection(Ljava/lang/String;Ljava/util/Properties;)cjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/util/Properties;)Ljava/sql/Connection;¿
+HgetConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)tjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)Ljava/sql/Connection;f
+getDriver(Ljava/lang/String;)Ejava.sql.DriverManager#getDriver(Ljava/lang/String;)Ljava/sql/Driver;J
+getDrivers():java.sql.DriverManager#getDrivers()Ljava/util/Enumeration;e
+getDrivers(Ljava/lang/Class;)Djava.sql.DriverManager#getDrivers(Ljava/lang/Class;)Ljava/util/List;L
+getLogStream():java.sql.DriverManager#getLogStream()Ljava/io/PrintStream;L
+getLogWriter():java.sql.DriverManager#getLogWriter()Ljava/io/PrintWriter;>
+getLoginTimeout())java.sql.DriverManager#getLoginTimeout()IÇ
+3isDriverAllowed(Ljava/sql/Driver;Ljava/lang/Class;)Kjava.sql.DriverManager#isDriverAllowed(Ljava/sql/Driver;Ljava/lang/Class;)Zé
+9isDriverAllowed(Ljava/sql/Driver;Ljava/lang/ClassLoader;)Qjava.sql.DriverManager#isDriverAllowed(Ljava/sql/Driver;Ljava/lang/ClassLoader;)ZR
+println(Ljava/lang/String;)3java.sql.DriverManager#println(Ljava/lang/String;)V^
+!registerDriver(Ljava/sql/Driver;)9java.sql.DriverManager#registerDriver(Ljava/sql/Driver;)Vå
+8registerDriver(Ljava/sql/Driver;Ljava/sql/DriverAction;)Pjava.sql.DriverManager#registerDriver(Ljava/sql/Driver;Ljava/sql/DriverAction;)Vb
+#setLogStream(Ljava/io/PrintStream;);java.sql.DriverManager#setLogStream(Ljava/io/PrintStream;)Vb
+#setLogWriter(Ljava/io/PrintWriter;);java.sql.DriverManager#setLogWriter(Ljava/io/PrintWriter;)V@
+setLoginTimeout(I)*java.sql.DriverManager#setLoginTimeout(I)Vÿ
+misc.Sessionjava.lang.Object"
+<init>()misc.Session#<init>()V9
+getAnnunci())misc.Session#getAnnunci()Ljava/util/List;9
+getInstance()(misc.Session#getInstance()Lmisc/Session;O
+getPersistenceType()7misc.Session#getPersistenceType()Lmisc/PersistenceType;C
+getUtenteLoggato()-misc.Session#getUtenteLoggato()Lmodel/Utente;J
+setAnnunci(Ljava/util/List;)*misc.Session#setAnnunci(Ljava/util/List;)Vf
+*setPersistenceType(Lmisc/PersistenceType;)8misc.Session#setPersistenceType(Lmisc/PersistenceType;)VR
+ setUtenteLoggato(Lmodel/Utente;).misc.Session#setUtenteLoggato(Lmodel/Utente;)V®
+0engclasses.pattern.Factory.UtenteFactoryProviderjava.lang.ObjectF
+<init>():engclasses.pattern.Factory.UtenteFactoryProvider#<init>()Vô
+getFactory(Lmisc/TipoUtente;)xengclasses.pattern.Factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/Factory/UtenteFactory;˜
+-engclasses.pattern.Factory.AgricoltoreFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectC
+<init>()7engclasses.pattern.Factory.AgricoltoreFactory#<init>()Vƒ
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)~engclasses.pattern.Factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;Ò
++engclasses.pattern.Factory.VenditoreFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectA
+<init>()5engclasses.pattern.Factory.VenditoreFactory#<init>()V¬
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)|engclasses.pattern.Factory.VenditoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;∫
+engclasses.beans.LoginBeanjava.lang.Object0
+<init>()$engclasses.beans.LoginBean#<init>()VK
+getPassword():engclasses.beans.LoginBean#getPassword()Ljava/lang/String;K
+getUsername():engclasses.beans.LoginBean#getUsername()Ljava/lang/String;^
+setPassword(Ljava/lang/String;);engclasses.beans.LoginBean#setPassword(Ljava/lang/String;)V^
+setUsername(Ljava/lang/String;);engclasses.beans.LoginBean#setUsername(Ljava/lang/String;)VÅ
+model.Consulentemodel.Utente§
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)òmodel.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V8
+	getTipo()+model.Consulente#getTipo()Lmisc/TipoUtente;ñ
+*controllers.grafico.gui.LoginGUIControllerjava.lang.Object@
+<init>()4controllers.grafico.gui.LoginGUIController#<init>()VJ
+handleLogin()9controllers.grafico.gui.LoginGUIController#handleLogin()VH
+initialize()8controllers.grafico.gui.LoginGUIController#initialize()V≈
+"java.lang.IllegalArgumentExceptionjava.lang.RuntimeException8
+<init>(),java.lang.IllegalArgumentException#<init>()V\
+<init>(Ljava/lang/String;)>java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)VÜ
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Sjava.lang.IllegalArgumentException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vb
+<init>(Ljava/lang/Throwable;)Ajava.lang.IllegalArgumentException#<init>(Ljava/lang/Throwable;)V”
+*engclasses.dao.fileSystem.VenditoreDAOFileengclasses.dao.api.VenditoreDAO'engclasses.dao.fileSystem.UtenteDAOFile@
+<init>()4engclasses.dao.fileSystem.VenditoreDAOFile#<init>()Vò
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)`engclasses.dao.fileSystem.VenditoreDAOFile#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V`
+engclasses.dao.AnnuncioDAOjava.lang.Object0
+<init>()$engclasses.dao.AnnuncioDAO#<init>()Vñ
+'engclasses.dao.factory.DAOMemoryFactory!engclasses.dao.factory.DAOFactory=
+<init>()1engclasses.dao.factory.DAOMemoryFactory#<init>()Và
+getUtenteDAO(Lmisc/TipoUtente;)eengclasses.dao.factory.DAOMemoryFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;ê
+%engclasses.dao.factory.DAOFileFactory!engclasses.dao.factory.DAOFactory;
+<init>()/engclasses.dao.factory.DAOFileFactory#<init>()VÜ
+getUtenteDAO(Lmisc/TipoUtente;)cengclasses.dao.factory.DAOFileFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;f
+engclasses.beans.AnnuncioBeanjava.lang.Object3
+<init>()'engclasses.beans.AnnuncioBean#<init>()VÇ
+2controllers.grafico.gui.RegistrazioneGUIControllerjava.lang.ObjectH
+<init>()<controllers.grafico.gui.RegistrazioneGUIController#<init>()Vo
+
+creaBean()acontrollers.grafico.gui.RegistrazioneGUIController#creaBean()Lengclasses/beans/RegistrazioneBean;y
+determinaPersistenza()_controllers.grafico.gui.RegistrazioneGUIController#determinaPersistenza()Lmisc/PersistenceType;r
+determinaTipoUtente()Ycontrollers.grafico.gui.RegistrazioneGUIController#determinaTipoUtente()Lmisc/TipoUtente;Z
+handleLoginLink()Econtrollers.grafico.gui.RegistrazioneGUIController#handleLoginLink()Vb
+handleRegistrazione()Icontrollers.grafico.gui.RegistrazioneGUIController#handleRegistrazione()VP
+initialize()@controllers.grafico.gui.RegistrazioneGUIController#initialize()V√
+/controllers.applicativo.RegistrazioneControllerjava.lang.Objecta
+<init>(Lmisc/Session;)Gcontrollers.applicativo.RegistrazioneController#<init>(Lmisc/Session;)Vù
+4registraUtente(Lengclasses/beans/RegistrazioneBean;)econtrollers.applicativo.RegistrazioneController#registraUtente(Lengclasses/beans/RegistrazioneBean;)Z£
+7salvaDatiSessione(Lmodel/Utente;Lmisc/PersistenceType;)hcontrollers.applicativo.RegistrazioneController#salvaDatiSessione(Lmodel/Utente;Lmisc/PersistenceType;)V©
+:validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)kcontrollers.applicativo.RegistrazioneController#validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)V•
+8validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)icontrollers.applicativo.RegistrazioneController#validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)V£
+7validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)hcontrollers.applicativo.RegistrazioneController#validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)Vœ
+MvalidaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)~controllers.applicativo.RegistrazioneController#validaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V∏
+9validaRegistrazione(Lengclasses/beans/RegistrazioneBean;){controllers.applicativo.RegistrazioneController#validaRegistrazione(Lengclasses/beans/RegistrazioneBean;)Ljava/lang/String;´
+;validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)lcontrollers.applicativo.RegistrazioneController#validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)Vü
+5verificaUnicita(Lengclasses/beans/RegistrazioneBean;)fcontrollers.applicativo.RegistrazioneController#verificaUnicita(Lengclasses/beans/RegistrazioneBean;)Vã
+"java.lang.reflect.AnnotatedElementjava.lang.Objectó
+'getAnnotationsByType(Ljava/lang/Class;)ljava.lang.reflect.AnnotatedElement#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;ò
+(getDeclaredAnnotation(Ljava/lang/Class;)ljava.lang.reflect.AnnotatedElement#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;ß
+/getDeclaredAnnotationsByType(Ljava/lang/Class;)tjava.lang.reflect.AnnotatedElement#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;t
+&isAnnotationPresent(Ljava/lang/Class;)Jjava.lang.reflect.AnnotatedElement#isAnnotationPresent(Ljava/lang/Class;)Z\
+$java.lang.reflect.GenericDeclarationjava.lang.Object"java.lang.reflect.AnnotatedElements
+java.lang.reflect.Typejava.lang.ObjectG
+getTypeName()6java.lang.reflect.Type#getTypeName()Ljava/lang/String;3
+java.lang.invoke.TypeDescriptorjava.lang.Object\
+'java.lang.invoke.TypeDescriptor$OfFieldjava.lang.Objectjava.lang.invoke.TypeDescriptor≈|
+java.lang.Classjava.io.Serializablejava.lang.Objectjava.lang.constant.Constable'java.lang.invoke.TypeDescriptor$OfField"java.lang.reflect.AnnotatedElement$java.lang.reflect.GenericDeclarationjava.lang.reflect.Typeu
+0<init>(Ljava/lang/ClassLoader;Ljava/lang/Class;)Ajava.lang.Class#<init>(Ljava/lang/ClassLoader;Ljava/lang/Class;)V=
+accessFlags(),java.lang.Class#accessFlags()Ljava/util/Set;Ö
+8addAll(Ljava/util/Collection;[Ljava/lang/reflect/Field;)Ijava.lang.Class#addAll(Ljava/util/Collection;[Ljava/lang/reflect/Field;)VT
+annotationData()@java.lang.Class#annotationData()Ljava/lang/Class$AnnotationData;É
+7arrayContentsEq([Ljava/lang/Object;[Ljava/lang/Object;)Hjava.lang.Class#arrayContentsEq([Ljava/lang/Object;[Ljava/lang/Object;)Z;
+arrayType(),java.lang.Class#arrayType()Ljava/lang/Class;_
+asSubclass(Ljava/lang/Class;)>java.lang.Class#asSubclass(Ljava/lang/Class;)Ljava/lang/Class;h
+!cannotCastMsg(Ljava/lang/Object;)Cjava.lang.Class#cannotCastMsg(Ljava/lang/Object;)Ljava/lang/String;◊
+acasAnnotationType(Lsun/reflect/annotation/AnnotationType;Lsun/reflect/annotation/AnnotationType;)rjava.lang.Class#casAnnotationType(Lsun/reflect/annotation/AnnotationType;Lsun/reflect/annotation/AnnotationType;)ZV
+cast(Ljava/lang/Object;):java.lang.Class#cast(Ljava/lang/Object;)Ljava/lang/Object;ó
+AcheckMemberAccess(Ljava/lang/SecurityManager;ILjava/lang/Class;Z)Rjava.lang.Class#checkMemberAccess(Ljava/lang/SecurityManager;ILjava/lang/Class;Z)V£
+GcheckPackageAccess(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;Z)Xjava.lang.Class#checkPackageAccess(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;Z)VÒ
+ncheckPackageAccessForPermittedSubclasses(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;[Ljava/lang/Class;)java.lang.Class#checkPackageAccessForPermittedSubclasses(Ljava/lang/SecurityManager;Ljava/lang/ClassLoader;[Ljava/lang/Class;)VC
+componentType()0java.lang.Class#componentType()Ljava/lang/Class;ò
+2copyConstructors([Ljava/lang/reflect/Constructor;)bjava.lang.Class#copyConstructors([Ljava/lang/reflect/Constructor;)[Ljava/lang/reflect/Constructor;z
+&copyFields([Ljava/lang/reflect/Field;)Pjava.lang.Class#copyFields([Ljava/lang/reflect/Field;)[Ljava/lang/reflect/Field;
+(copyMethods([Ljava/lang/reflect/Method;)Sjava.lang.Class#copyMethods([Ljava/lang/reflect/Method;)[Ljava/lang/reflect/Method;b
+createAnnotationData(I)Gjava.lang.Class#createAnnotationData(I)Ljava/lang/Class$AnnotationData;N
+describeConstable()7java.lang.Class#describeConstable()Ljava/util/Optional;J
+descriptorString()4java.lang.Class#descriptorString()Ljava/lang/String;E
+desiredAssertionStatus())java.lang.Class#desiredAssertionStatus()Zi
+*desiredAssertionStatus0(Ljava/lang/Class;);java.lang.Class#desiredAssertionStatus0(Ljava/lang/Class;)Z?
+elementType().java.lang.Class#elementType()Ljava/lang/Class;Q
+enumConstantDirectory()6java.lang.Class#enumConstantDirectory()Ljava/util/Map;
+-forName(Ljava/lang/Module;Ljava/lang/String;)Njava.lang.Class#forName(Ljava/lang/Module;Ljava/lang/String;)Ljava/lang/Class;°
+>forName(Ljava/lang/Module;Ljava/lang/String;Ljava/lang/Class;)_java.lang.Class#forName(Ljava/lang/Module;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Class;[
+forName(Ljava/lang/String;)<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;}
+,forName(Ljava/lang/String;Ljava/lang/Class;)Mjava.lang.Class#forName(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Class;ã
+3forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Tjava.lang.Class#forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;≠
+DforName(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)ejava.lang.Class#forName(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Class;Ø
+EforName0(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)fjava.lang.Class#forName0(Ljava/lang/String;ZLjava/lang/ClassLoader;Ljava/lang/Class;)Ljava/lang/Class;f
+getAnnotatedInterfaces()Jjava.lang.Class#getAnnotatedInterfaces()[Ljava/lang/reflect/AnnotatedType;e
+getAnnotatedSuperclass()Ijava.lang.Class#getAnnotatedSuperclass()Ljava/lang/reflect/AnnotatedType;u
+ getAnnotation(Ljava/lang/Class;)Qjava.lang.Class#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;a
+getAnnotationType()Jjava.lang.Class#getAnnotationType()Lsun/reflect/annotation/AnnotationType;V
+getAnnotations()Bjava.lang.Class#getAnnotations()[Ljava/lang/annotation/Annotation;Ñ
+'getAnnotationsByType(Ljava/lang/Class;)Yjava.lang.Class#getAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;J
+getCanonicalName()4java.lang.Class#getCanonicalName()Ljava/lang/String;L
+getCanonicalName0()5java.lang.Class#getCanonicalName0()Ljava/lang/String;E
+getClassAccessFlagsRaw())java.lang.Class#getClassAccessFlagsRaw()IG
+getClassAccessFlagsRaw0()*java.lang.Class#getClassAccessFlagsRaw0()IB
+getClassData()0java.lang.Class#getClassData()Ljava/lang/Object;?
+getClassFileVersion()&java.lang.Class#getClassFileVersion()IA
+getClassFileVersion0()'java.lang.Class#getClassFileVersion0()IK
+getClassLoader()7java.lang.Class#getClassLoader()Ljava/lang/ClassLoader;M
+getClassLoader0()8java.lang.Class#getClassLoader0()Ljava/lang/ClassLoader;>
+getClasses().java.lang.Class#getClasses()[Ljava/lang/Class;I
+getComponentType()3java.lang.Class#getComponentType()Ljava/lang/Class;Y
+getConstantPool()Djava.lang.Class#getConstantPool()Ljdk/internal/reflect/ConstantPool;w
+"getConstructor([Ljava/lang/Class;)Qjava.lang.Class#getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;{
+$getConstructor0([Ljava/lang/Class;I)Sjava.lang.Class#getConstructor0([Ljava/lang/Class;I)Ljava/lang/reflect/Constructor;V
+getConstructors()Ajava.lang.Class#getConstructors()[Ljava/lang/reflect/Constructor;Ö
+(getDeclaredAnnotation(Ljava/lang/Class;)Yjava.lang.Class#getDeclaredAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;W
+getDeclaredAnnotationMap()9java.lang.Class#getDeclaredAnnotationMap()Ljava/util/Map;f
+getDeclaredAnnotations()Jjava.lang.Class#getDeclaredAnnotations()[Ljava/lang/annotation/Annotation;î
+/getDeclaredAnnotationsByType(Ljava/lang/Class;)ajava.lang.Class#getDeclaredAnnotationsByType(Ljava/lang/Class;)[Ljava/lang/annotation/Annotation;N
+getDeclaredClasses()6java.lang.Class#getDeclaredClasses()[Ljava/lang/Class;P
+getDeclaredClasses0()7java.lang.Class#getDeclaredClasses0()[Ljava/lang/Class;á
+*getDeclaredConstructor([Ljava/lang/Class;)Yjava.lang.Class#getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;f
+getDeclaredConstructors()Ijava.lang.Class#getDeclaredConstructors()[Ljava/lang/reflect/Constructor;j
+getDeclaredConstructors0(Z)Kjava.lang.Class#getDeclaredConstructors0(Z)[Ljava/lang/reflect/Constructor;u
+$getDeclaredField(Ljava/lang/String;)Mjava.lang.Class#getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;T
+getDeclaredFields()=java.lang.Class#getDeclaredFields()[Ljava/lang/reflect/Field;X
+getDeclaredFields0(Z)?java.lang.Class#getDeclaredFields0(Z)[Ljava/lang/reflect/Field;ú
+7getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)ajava.lang.Class#getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;W
+getDeclaredMethods()?java.lang.Class#getDeclaredMethods()[Ljava/lang/reflect/Method;[
+getDeclaredMethods0(Z)Ajava.lang.Class#getDeclaredMethods0(Z)[Ljava/lang/reflect/Method;†
+>getDeclaredPublicMethods(Ljava/lang/String;[Ljava/lang/Class;)^java.lang.Class#getDeclaredPublicMethods(Ljava/lang/String;[Ljava/lang/Class;)Ljava/util/List;K
+getDeclaringClass()4java.lang.Class#getDeclaringClass()Ljava/lang/Class;M
+getDeclaringClass0()5java.lang.Class#getDeclaringClass0()Ljava/lang/Class;K
+getEnclosingClass()4java.lang.Class#getEnclosingClass()Ljava/lang/Class;e
+getEnclosingConstructor()Hjava.lang.Class#getEnclosingConstructor()Ljava/lang/reflect/Constructor;V
+getEnclosingMethod()>java.lang.Class#getEnclosingMethod()Ljava/lang/reflect/Method;Q
+getEnclosingMethod0()8java.lang.Class#getEnclosingMethod0()[Ljava/lang/Object;i
+getEnclosingMethodInfo()Mjava.lang.Class#getEnclosingMethodInfo()Ljava/lang/Class$EnclosingMethodInfo;K
+getEnumConstants()5java.lang.Class#getEnumConstants()[Ljava/lang/Object;W
+getEnumConstantsShared();java.lang.Class#getEnumConstantsShared()[Ljava/lang/Object;ñ
+@getExecutableTypeAnnotationBytes(Ljava/lang/reflect/Executable;)Rjava.lang.Class#getExecutableTypeAnnotationBytes(Ljava/lang/reflect/Executable;)[BZ
+getFactory()Jjava.lang.Class#getFactory()Lsun/reflect/generics/factory/GenericsFactory;e
+getField(Ljava/lang/String;)Ejava.lang.Class#getField(Ljava/lang/String;)Ljava/lang/reflect/Field;g
+getField0(Ljava/lang/String;)Fjava.lang.Class#getField0(Ljava/lang/String;)Ljava/lang/reflect/Field;D
+getFields()5java.lang.Class#getFields()[Ljava/lang/reflect/Field;e
+getGenericInfo()Qjava.lang.Class#getGenericInfo()Lsun/reflect/generics/repository/ClassRepository;Y
+getGenericInterfaces()?java.lang.Class#getGenericInterfaces()[Ljava/lang/reflect/Type;R
+getGenericSignature0()8java.lang.Class#getGenericSignature0()Ljava/lang/String;X
+getGenericSuperclass()>java.lang.Class#getGenericSuperclass()Ljava/lang/reflect/Type;D
+getInterfaces()1java.lang.Class#getInterfaces()[Ljava/lang/Class;F
+getInterfaces(Z)2java.lang.Class#getInterfaces(Z)[Ljava/lang/Class;F
+getInterfaces0()2java.lang.Class#getInterfaces0()[Ljava/lang/Class;å
+/getMethod(Ljava/lang/String;[Ljava/lang/Class;)Yjava.lang.Class#getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;é
+0getMethod0(Ljava/lang/String;[Ljava/lang/Class;)Zjava.lang.Class#getMethod0(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;G
+getMethods()7java.lang.Class#getMethods()[Ljava/lang/reflect/Method;¨
+:getMethodsRecursive(Ljava/lang/String;[Ljava/lang/Class;Z)njava.lang.Class#getMethodsRecursive(Ljava/lang/String;[Ljava/lang/Class;Z)Ljava/lang/PublicMethods$MethodList;1
+getModifiers()java.lang.Class#getModifiers()I<
+getModule()-java.lang.Class#getModule()Ljava/lang/Module;8
+	getName()+java.lang.Class#getName()Ljava/lang/String;?
+getNestHost().java.lang.Class#getNestHost()Ljava/lang/Class;A
+getNestHost0()/java.lang.Class#getNestHost0()Ljava/lang/Class;F
+getNestMembers()2java.lang.Class#getNestMembers()[Ljava/lang/Class;H
+getNestMembers0()3java.lang.Class#getNestMembers0()[Ljava/lang/Class;?
+getPackage()/java.lang.Class#getPackage()Ljava/lang/Package;F
+getPackageName()2java.lang.Class#getPackageName()Ljava/lang/String;V
+getPermittedSubclasses():java.lang.Class#getPermittedSubclasses()[Ljava/lang/Class;X
+getPermittedSubclasses0();java.lang.Class#getPermittedSubclasses0()[Ljava/lang/Class;o
+%getPrimitiveClass(Ljava/lang/String;)Fjava.lang.Class#getPrimitiveClass(Ljava/lang/String;)Ljava/lang/Class;^
+getProtectionDomain()Ejava.lang.Class#getProtectionDomain()Ljava/security/ProtectionDomain;`
+getProtectionDomain0()Fjava.lang.Class#getProtectionDomain0()Ljava/security/ProtectionDomain;<
+getRawAnnotations()%java.lang.Class#getRawAnnotations()[BD
+getRawTypeAnnotations())java.lang.Class#getRawTypeAnnotations()[Bb
+getRecordComponents()Ijava.lang.Class#getRecordComponents()[Ljava/lang/reflect/RecordComponent;d
+getRecordComponents0()Jjava.lang.Class#getRecordComponents0()[Ljava/lang/reflect/RecordComponent;h
+getReflectionFactory()Njava.lang.Class#getReflectionFactory()Ljdk/internal/reflect/ReflectionFactory;`
+getResource(Ljava/lang/String;)=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;w
+'getResourceAsStream(Ljava/lang/String;)Ljava.lang.Class#getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;?
+getSigners()/java.lang.Class#getSigners()[Ljava/lang/Object;P
+getSimpleBinaryName()7java.lang.Class#getSimpleBinaryName()Ljava/lang/String;R
+getSimpleBinaryName0()8java.lang.Class#getSimpleBinaryName0()Ljava/lang/String;D
+getSimpleName()1java.lang.Class#getSimpleName()Ljava/lang/String;F
+getSimpleName0()2java.lang.Class#getSimpleName0()Ljava/lang/String;C
+getSuperclass()0java.lang.Class#getSuperclass()Ljava/lang/Class;@
+getTypeName()/java.lang.Class#getTypeName()Ljava/lang/String;[
+getTypeParameters()Djava.lang.Class#getTypeParameters()[Ljava/lang/reflect/TypeVariable;E
+hasEnclosingMethodInfo())java.lang.Class#hasEnclosingMethodInfo()ZD
+initClassName()1java.lang.Class#initClassName()Ljava/lang/String;1
+isAnnotation()java.lang.Class#isAnnotation()Za
+&isAnnotationPresent(Ljava/lang/Class;)7java.lang.Class#isAnnotationPresent(Ljava/lang/Class;)Z9
+isAnonymousClass()#java.lang.Class#isAnonymousClass()Z'
+	isArray()java.lang.Class#isArray()Z[
+#isAssignableFrom(Ljava/lang/Class;)4java.lang.Class#isAssignableFrom(Ljava/lang/Class;)ZY
+"isDirectSubType(Ljava/lang/Class;)3java.lang.Class#isDirectSubType(Ljava/lang/Class;)Z%
+isEnum()java.lang.Class#isEnum()Z)
+
+isHidden()java.lang.Class#isHidden()ZQ
+isInstance(Ljava/lang/Object;)/java.lang.Class#isInstance(Ljava/lang/Object;)Z/
+isInterface()java.lang.Class#isInterface()Z1
+isLocalClass()java.lang.Class#isLocalClass()ZG
+isLocalOrAnonymousClass()*java.lang.Class#isLocalOrAnonymousClass()Z3
+isMemberClass() java.lang.Class#isMemberClass()ZS
+isNestmateOf(Ljava/lang/Class;)0java.lang.Class#isNestmateOf(Ljava/lang/Class;)Z{
+3isOpenToCaller(Ljava/lang/String;Ljava/lang/Class;)Djava.lang.Class#isOpenToCaller(Ljava/lang/String;Ljava/lang/Class;)Z/
+isPrimitive()java.lang.Class#isPrimitive()Z)
+
+isRecord()java.lang.Class#isRecord()Z+
+isRecord0()java.lang.Class#isRecord0()Z)
+
+isSealed()java.lang.Class#isSealed()Z/
+isSynthetic()java.lang.Class#isSynthetic()Z7
+isTopLevelClass()"java.lang.Class#isTopLevelClass()Z5
+isUnnamedClass()!java.lang.Class#isUnnamedClass()Zé
+4methodToString(Ljava/lang/String;[Ljava/lang/Class;)Vjava.lang.Class#methodToString(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/String;@
+newInstance()/java.lang.Class#newInstance()Ljava/lang/Object;ñ
+1newReflectionData(Ljava/lang/ref/SoftReference;I)ajava.lang.Class#newReflectionData(Ljava/lang/ref/SoftReference;I)Ljava/lang/Class$ReflectionData;v
+!privateGetDeclaredConstructors(Z)Qjava.lang.Class#privateGetDeclaredConstructors(Z)[Ljava/lang/reflect/Constructor;d
+privateGetDeclaredFields(Z)Ejava.lang.Class#privateGetDeclaredFields(Z)[Ljava/lang/reflect/Field;g
+privateGetDeclaredMethods(Z)Gjava.lang.Class#privateGetDeclaredMethods(Z)[Ljava/lang/reflect/Method;^
+privateGetPublicFields()Bjava.lang.Class#privateGetPublicFields()[Ljava/lang/reflect/Field;a
+privateGetPublicMethods()Djava.lang.Class#privateGetPublicMethods()[Ljava/lang/reflect/Method;X
+protectionDomain()Bjava.lang.Class#protectionDomain()Ljava/security/ProtectionDomain;T
+reflectionData()@java.lang.Class#reflectionData()Ljava/lang/Class$ReflectionData;7
+registerNatives()"java.lang.Class#registerNatives()Vd
+resolveName(Ljava/lang/String;)Ajava.lang.Class#resolveName(Ljava/lang/String;)Ljava/lang/String;°
+:searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)cjava.lang.Class#searchFields([Ljava/lang/reflect/Field;Ljava/lang/String;)Ljava/lang/reflect/Field; 
+NsearchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)xjava.lang.Class#searchMethods([Ljava/lang/reflect/Method;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;S
+setSigners([Ljava/lang/Object;)0java.lang.Class#setSigners([Ljava/lang/Object;)Vg
+!toClass(Ljava/lang/reflect/Type;)Bjava.lang.Class#toClass(Ljava/lang/reflect/Type;)Ljava/lang/Class;H
+toGenericString()3java.lang.Class#toGenericString()Ljava/lang/String;:
+
+toString(),java.lang.Class#toString()Ljava/lang/String;Ñ
+/typeVarBounds(Ljava/lang/reflect/TypeVariable;)Qjava.lang.Class#typeVarBounds(Ljava/lang/reflect/TypeVariable;)Ljava/lang/String;Ú
+java.io.IOExceptionjava.lang.Exception)
+<init>()java.io.IOException#<init>()VM
+<init>(Ljava/lang/String;)/java.io.IOException#<init>(Ljava/lang/String;)Vw
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.io.IOException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VS
+<init>(Ljava/lang/Throwable;)2java.io.IOException#<init>(Ljava/lang/Throwable;)VÉ
+misc.TipoUtentejava.lang.EnumK
+<init>(Ljava/lang/String;I),misc.TipoUtente#<init>(Ljava/lang/String;I)V[
+valueOf(Ljava/lang/String;)<misc.TipoUtente#valueOf(Ljava/lang/String;)Lmisc/TipoUtente;6
+values()*misc.TipoUtente#values()[Lmisc/TipoUtente;(
+java.lang.Appendablejava.lang.ObjectÉ:
 java.lang.AbstractStringBuilderjava.lang.Appendablejava.lang.CharSequencejava.lang.Object5
 <init>())java.lang.AbstractStringBuilder#<init>()V7
 	<init>(I)*java.lang.AbstractStringBuilder#<init>(I)Ve
@@ -536,9 +1310,7 @@ append([C)Kjava.lang.AbstractStringBuilder#append([C)Ljava/lang/AbstractStringB
 
 capacity()+java.lang.AbstractStringBuilder#capacity()I7
 	charAt(I)*java.lang.AbstractStringBuilder#charAt(I)CN
-chars()Cjava.lang.AbstractStringBuilder#chars()Ljava/util/stream/IntStream;C
-checkRange(III)0java.lang.AbstractStringBuilder#checkRange(III)VO
-checkRangeSIOOBE(III)6java.lang.AbstractStringBuilder#checkRangeSIOOBE(III)VA
+chars()Cjava.lang.AbstractStringBuilder#chars()Ljava/util/stream/IntStream;A
 codePointAt(I)/java.lang.AbstractStringBuilder#codePointAt(I)II
 codePointBefore(I)3java.lang.AbstractStringBuilder#codePointBefore(I)II
 codePointCount(II)3java.lang.AbstractStringBuilder#codePointCount(II)IX
@@ -557,7 +1329,9 @@ getCoder()+java.lang.AbstractStringBuilder#getCoder()B:
 getValue(),java.lang.AbstractStringBuilder#getValue()[B[
 indexOf(Ljava/lang/String;)<java.lang.AbstractStringBuilder#indexOf(Ljava/lang/String;)I]
 indexOf(Ljava/lang/String;I)=java.lang.AbstractStringBuilder#indexOf(Ljava/lang/String;I)I7
-	inflate()*java.lang.AbstractStringBuilder#inflate()VC
+	inflate()*java.lang.AbstractStringBuilder#inflate()Vè
+5inflateIfNeededFor(Ljava/lang/AbstractStringBuilder;)Vjava.lang.AbstractStringBuilder#inflateIfNeededFor(Ljava/lang/AbstractStringBuilder;)Vq
+&inflateIfNeededFor(Ljava/lang/String;)Gjava.lang.AbstractStringBuilder#inflateIfNeededFor(Ljava/lang/String;)VC
 initBytes([CII)0java.lang.AbstractStringBuilder#initBytes([CII)VY
 
 insert(IC)Kjava.lang.AbstractStringBuilder#insert(IC)Ljava/lang/AbstractStringBuilder;Y
@@ -581,13 +1355,19 @@ insert(IZ)Kjava.lang.AbstractStringBuilder#insert(IZ)Ljava/lang/AbstractStringB
 isLatin1()+java.lang.AbstractStringBuilder#isLatin1()Zc
 lastIndexOf(Ljava/lang/String;)@java.lang.AbstractStringBuilder#lastIndexOf(Ljava/lang/String;)Ie
  lastIndexOf(Ljava/lang/String;I)Ajava.lang.AbstractStringBuilder#lastIndexOf(Ljava/lang/String;I)I5
-length())java.lang.AbstractStringBuilder#length()IA
+length())java.lang.AbstractStringBuilder#length()I1
+mix(J)'java.lang.AbstractStringBuilder#mix(J)JA
 newCapacity(I)/java.lang.AbstractStringBuilder#newCapacity(I)IQ
-offsetByCodePoints(II)7java.lang.AbstractStringBuilder#offsetByCodePoints(II)Is
+offsetByCodePoints(II)7java.lang.AbstractStringBuilder#offsetByCodePoints(II)I=
+prepend(J[B)-java.lang.AbstractStringBuilder#prepend(J[B)Js
 'putCharsAt(ILjava/lang/CharSequence;II)Hjava.lang.AbstractStringBuilder#putCharsAt(ILjava/lang/CharSequence;II)VG
 putCharsAt(I[CII)2java.lang.AbstractStringBuilder#putCharsAt(I[CII)Ve
- putStringAt(ILjava/lang/String;)Ajava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;)Vi
-"putStringAt(ILjava/lang/String;II)Cjava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;II)V
+ putStringAt(ILjava/lang/String;)Ajava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;)VY
+
+repeat(CI)Kjava.lang.AbstractStringBuilder#repeat(CI)Ljava/lang/AbstractStringBuilder;Y
+
+repeat(II)Kjava.lang.AbstractStringBuilder#repeat(II)Ljava/lang/AbstractStringBuilder;á
+!repeat(Ljava/lang/CharSequence;I)bjava.lang.AbstractStringBuilder#repeat(Ljava/lang/CharSequence;I)Ljava/lang/AbstractStringBuilder;
 replace(IILjava/lang/String;)^java.lang.AbstractStringBuilder#replace(IILjava/lang/String;)Ljava/lang/AbstractStringBuilder;W
 	reverse()Jjava.lang.AbstractStringBuilder#reverse()Ljava/lang/AbstractStringBuilder;?
 setCharAt(IC).java.lang.AbstractStringBuilder#setCharAt(IC)V=
@@ -596,8 +1376,8 @@ isLatin1()+java.lang.AbstractStringBuilder#isLatin1()Zc
 subSequence(II)Gjava.lang.AbstractStringBuilder#subSequence(II)Ljava/lang/CharSequence;N
 substring(I)>java.lang.AbstractStringBuilder#substring(I)Ljava/lang/String;P
 substring(II)?java.lang.AbstractStringBuilder#substring(II)Ljava/lang/String;=
-trimToSize()-java.lang.AbstractStringBuilder#trimToSize()Vı
-java.lang.StringBuilderjava.io.Serializablejava.lang.AbstractStringBuilderjava.lang.CharSequencejava.lang.Comparable-
+trimToSize()-java.lang.AbstractStringBuilder#trimToSize()Vœ
+java.lang.StringBuilderjava.io.Serializablejava.lang.AbstractStringBuilderjava.lang.Appendablejava.lang.CharSequencejava.lang.Comparable-
 <init>()!java.lang.StringBuilder#<init>()V/
 	<init>(I)"java.lang.StringBuilder#<init>(I)V]
  <init>(Ljava/lang/CharSequence;)9java.lang.StringBuilder#<init>(Ljava/lang/CharSequence;)VQ
@@ -643,207 +1423,136 @@ insert(IZ);java.lang.StringBuilder#insert(IZ)Ljava/lang/StringBuilder;K
 insert(I[CII)>java.lang.StringBuilder#insert(I[CII)Ljava/lang/StringBuilder;[
 lastIndexOf(Ljava/lang/String;)8java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;)I]
  lastIndexOf(Ljava/lang/String;I)9java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;I)Ik
-'readObject(Ljava/io/ObjectInputStream;)@java.lang.StringBuilder#readObject(Ljava/io/ObjectInputStream;)Vo
+'readObject(Ljava/io/ObjectInputStream;)@java.lang.StringBuilder#readObject(Ljava/io/ObjectInputStream;)VI
+
+repeat(II);java.lang.StringBuilder#repeat(II)Ljava/lang/StringBuilder;w
+!repeat(Ljava/lang/CharSequence;I)Rjava.lang.StringBuilder#repeat(Ljava/lang/CharSequence;I)Ljava/lang/StringBuilder;o
 replace(IILjava/lang/String;)Njava.lang.StringBuilder#replace(IILjava/lang/String;)Ljava/lang/StringBuilder;G
 	reverse():java.lang.StringBuilder#reverse()Ljava/lang/StringBuilder;B
 
 toString()4java.lang.StringBuilder#toString()Ljava/lang/String;o
-)writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)VÄ
-Bmain.java.engclasses.exceptions.DatabaseOperazioneFallitaExceptionjava.lang.Exception|
-<init>(Ljava/lang/String;)^main.java.engclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;)V¶
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)smain.java.engclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vˆ
-$main.java.engclasses.beans.LoginBeanjava.lang.Object:
-<init>().main.java.engclasses.beans.LoginBean#<init>()VU
-getPassword()Dmain.java.engclasses.beans.LoginBean#getPassword()Ljava/lang/String;U
-getUsername()Dmain.java.engclasses.beans.LoginBean#getUsername()Ljava/lang/String;h
-setPassword(Ljava/lang/String;)Emain.java.engclasses.beans.LoginBean#setPassword(Ljava/lang/String;)Vh
-setUsername(Ljava/lang/String;)Emain.java.engclasses.beans.LoginBean#setUsername(Ljava/lang/String;)V˜
-4main.java.controllers.applicativo.AnnuncioControllerjava.lang.ObjectJ
-<init>()>main.java.controllers.applicativo.AnnuncioController#<init>()Va
-getAnnunci()Qmain.java.controllers.applicativo.AnnuncioController#getAnnunci()Ljava/util/List;÷
-java.lang.Iterablejava.lang.Objectd
-&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
-spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
-java.util.Collectionjava.lang.Iterablejava.lang.ObjectR
-parallelStream()>java.util.Collection#parallelStream()Ljava/util/stream/Stream;j
-(removeIf(Ljava/util/function/Predicate;)>java.util.Collection#removeIf(Ljava/util/function/Predicate;)ZJ
-spliterator()9java.util.Collection#spliterator()Ljava/util/Spliterator;B
-stream()6java.util.Collection#stream()Ljava/util/stream/Stream;~
-)toArray(Ljava/util/function/IntFunction;)Qjava.util.Collection#toArray(Ljava/util/function/IntFunction;)[Ljava/lang/Object;Æ
-java.util.Listjava.lang.Objectjava.util.Collection_
-copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;+
-of()#java.util.List#of()Ljava/util/List;O
-of(Ljava/lang/Object;)5java.util.List#of(Ljava/lang/Object;)Ljava/util/List;s
-(of(Ljava/lang/Object;Ljava/lang/Object;)Gjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ó
-:of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Yjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ª
-Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ﬂ
-^of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)}java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Ñ
-pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)èjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;©
-Çof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)°java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Õ
-îof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)≥java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Ò
-¶of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)≈java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;ï
-∏of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)◊java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;Q
-of([Ljava/lang/Object;)6java.util.List#of([Ljava/lang/Object;)Ljava/util/List;p
-.replaceAll(Ljava/util/function/UnaryOperator;)>java.util.List#replaceAll(Ljava/util/function/UnaryOperator;)VL
-sort(Ljava/util/Comparator;),java.util.List#sort(Ljava/util/Comparator;)VD
-spliterator()3java.util.List#spliterator()Ljava/util/Spliterator;*
-java.util.RandomAccessjava.lang.Object'
-java.lang.Cloneablejava.lang.Object†
+)writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)V◊
++engclasses.dao.fileSystem.ConsulenteDAOFile engclasses.dao.api.ConsulenteDAO'engclasses.dao.fileSystem.UtenteDAOFileA
+<init>()5engclasses.dao.fileSystem.ConsulenteDAOFile#<init>()Vô
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)aengclasses.dao.fileSystem.ConsulenteDAOFile#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)VŒ1
+java.util.Mapjava.lang.Objectò
+:compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Zjava.util.Map#compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;§
+@computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)`java.util.Map#computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;™
+CcomputeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)cjava.util.Map#computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;O
+copyOf(Ljava/util/Map;)4java.util.Map#copyOf(Ljava/util/Map;)Ljava/util/Map;}
++entry(Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;c
+(forEach(Ljava/util/function/BiConsumer;)7java.util.Map#forEach(Ljava/util/function/BiConsumer;)Và
+2getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Rjava.util.Map#getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;∏
+Jmerge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)jjava.util.Map#merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;)
+of()!java.util.Map#of()Ljava/util/Map;q
+(of(Ljava/lang/Object;Ljava/lang/Object;)Ejava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;π
+Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ijava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;Ç
+pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)çjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;À
+îof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)±java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;ì
+∏of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)’java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;€
+‹of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)˘java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;£
+Äof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ùjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;Î
+§of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)¡java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;≥
+»of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Âjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;˚
+Ïof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)âjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;c
+!ofEntries([Ljava/util/Map$Entry;)>java.util.Map#ofEntries([Ljava/util/Map$Entry;)Ljava/util/Map;Ü
+1putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;k
+,remove(Ljava/lang/Object;Ljava/lang/Object;);java.util.Map#remove(Ljava/lang/Object;Ljava/lang/Object;)Z~
+-replace(Ljava/lang/Object;Ljava/lang/Object;)Mjava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;ë
+?replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Zi
++replaceAll(Ljava/util/function/BiFunction;):java.util.Map#replaceAll(Ljava/util/function/BiFunction;)V∏
+*engclasses.dao.memory.AgricoltoreDAOMemory!engclasses.dao.api.AgricoltoreDAO%engclasses.dao.memory.UtenteDAOMemory@
+<init>()4engclasses.dao.memory.AgricoltoreDAOMemory#<init>()Vœ
+)engclasses.dao.memory.ConsulenteDAOMemory engclasses.dao.api.ConsulenteDAO%engclasses.dao.memory.UtenteDAOMemory?
+<init>()3engclasses.dao.memory.ConsulenteDAOMemory#<init>()Vó
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)_engclasses.dao.memory.ConsulenteDAOMemory#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)Vz
+'controllers.applicativo.LoginControllerjava.lang.Object=
+<init>()1controllers.applicativo.LoginController#<init>()Vx
+TestDBjava.lang.Object
+<init>()TestDB#<init>()V>
+main([Ljava/lang/String;)!TestDB#main([Ljava/lang/String;)Vé
+java.io.FilterOutputStreamjava.io.OutputStream\
+<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
+close()#java.io.FilterOutputStream#close()V.
+flush()#java.io.FilterOutputStream#flush()V0
+write(I)$java.io.FilterOutputStream#write(I)V2
+	write([B)%java.io.FilterOutputStream#write([B)V6
+write([BII)'java.io.FilterOutputStream#write([BII)VÔ(
+java.io.PrintStreamjava.io.Closeablejava.io.FilterOutputStreamjava.lang.AppendableE
+<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vi
+(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)Vy
+0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)VU
+<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)VW
+<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)V{
+1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Vã
+9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)VM
+<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vq
+,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)VÅ
+4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)VW
+<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)Vã
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V?
+	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;m
+ append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;q
+"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;D
+	charset()7java.io.PrintStream#charset()Ljava/nio/charset/Charset;1
+checkError()!java.io.PrintStream#checkError()Z1
+clearError()!java.io.PrintStream#clearError()V'
+close()java.io.PrintStream#close()V1
+ensureOpen()!java.io.PrintStream#ensureOpen()V'
+flush()java.io.PrintStream#flush()Vá
+-format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;´
+?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;/
+implClose() java.io.PrintStream#implClose()V/
+implFlush() java.io.PrintStream#implFlush()V{
+1implFormat(Ljava/lang/String;[Ljava/lang/Object;)Fjava.io.PrintStream#implFormat(Ljava/lang/String;[Ljava/lang/Object;)Vü
+CimplFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Xjava.io.PrintStream#implFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)V3
+implNewLine()"java.io.PrintStream#implNewLine()V1
+implWrite(I)!java.io.PrintStream#implWrite(I)VS
+implWrite(Ljava/lang/String;)2java.io.PrintStream#implWrite(Ljava/lang/String;)V7
+implWrite([BII)$java.io.PrintStream#implWrite([BII)V3
+implWrite([C)"java.io.PrintStream#implWrite([C)VW
+implWriteln(Ljava/lang/String;)4java.io.PrintStream#implWriteln(Ljava/lang/String;)V7
+implWriteln([C)$java.io.PrintStream#implWriteln([C)V+
+	newLine()java.io.PrintStream#newLine()V)
+print(C)java.io.PrintStream#print(C)V)
+print(D)java.io.PrintStream#print(D)V)
+print(F)java.io.PrintStream#print(F)V)
+print(I)java.io.PrintStream#print(I)V)
+print(J)java.io.PrintStream#print(J)VK
+print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)VK
+print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)V)
+print(Z)java.io.PrintStream#print(Z)V+
+	print([C)java.io.PrintStream#print([C)Vá
+-printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;´
+?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
+	println()java.io.PrintStream#println()V-
 
-java.util.AbstractCollectionjava.lang.Objectjava.util.Collection2
-<init>()&java.util.AbstractCollection#<init>()VP
-add(Ljava/lang/Object;)5java.util.AbstractCollection#add(Ljava/lang/Object;)Z^
-addAll(Ljava/util/Collection;)<java.util.AbstractCollection#addAll(Ljava/util/Collection;)Z0
-clear()%java.util.AbstractCollection#clear()VZ
-contains(Ljava/lang/Object;):java.util.AbstractCollection#contains(Ljava/lang/Object;)Zh
-#containsAll(Ljava/util/Collection;)Ajava.util.AbstractCollection#containsAll(Ljava/util/Collection;)Z†
-6finishToArray([Ljava/lang/Object;Ljava/util/Iterator;)fjava.util.AbstractCollection#finishToArray([Ljava/lang/Object;Ljava/util/Iterator;)[Ljava/lang/Object;4
-	isEmpty()'java.util.AbstractCollection#isEmpty()ZV
-remove(Ljava/lang/Object;)8java.util.AbstractCollection#remove(Ljava/lang/Object;)Zd
-!removeAll(Ljava/util/Collection;)?java.util.AbstractCollection#removeAll(Ljava/util/Collection;)Zd
-!retainAll(Ljava/util/Collection;)?java.util.AbstractCollection#retainAll(Ljava/util/Collection;)ZF
-	toArray()9java.util.AbstractCollection#toArray()[Ljava/lang/Object;l
-toArray([Ljava/lang/Object;)Ljava.util.AbstractCollection#toArray([Ljava/lang/Object;)[Ljava/lang/Object;G
+println(C)java.io.PrintStream#println(C)V-
 
-toString()9java.util.AbstractCollection#toString()Ljava/lang/String;±
-java.util.AbstractListjava.util.AbstractCollectionjava.util.List,
-<init>() java.util.AbstractList#<init>()VL
-add(ILjava/lang/Object;)0java.util.AbstractList#add(ILjava/lang/Object;)VJ
-add(Ljava/lang/Object;)/java.util.AbstractList#add(Ljava/lang/Object;)ZZ
-addAll(ILjava/util/Collection;)7java.util.AbstractList#addAll(ILjava/util/Collection;)Z*
-clear()java.util.AbstractList#clear()VP
-equals(Ljava/lang/Object;)2java.util.AbstractList#equals(Ljava/lang/Object;)Z0
+println(D)java.io.PrintStream#println(D)V-
 
-hashCode()"java.util.AbstractList#hashCode()IR
-indexOf(Ljava/lang/Object;)3java.util.AbstractList#indexOf(Ljava/lang/Object;)IC
+println(F)java.io.PrintStream#println(F)V-
 
-iterator()5java.util.AbstractList#iterator()Ljava/util/Iterator;Z
-lastIndexOf(Ljava/lang/Object;)7java.util.AbstractList#lastIndexOf(Ljava/lang/Object;)IO
-listIterator()=java.util.AbstractList#listIterator()Ljava/util/ListIterator;Q
-listIterator(I)>java.util.AbstractList#listIterator(I)Ljava/util/ListIterator;O
-outOfBoundsMsg(I):java.util.AbstractList#outOfBoundsMsg(I)Ljava/lang/String;B
-rangeCheckForAdd(I)+java.util.AbstractList#rangeCheckForAdd(I)V?
-	remove(I)2java.util.AbstractList#remove(I)Ljava/lang/Object;:
-removeRange(II)'java.util.AbstractList#removeRange(II)V]
-set(ILjava/lang/Object;)Ajava.util.AbstractList#set(ILjava/lang/Object;)Ljava/lang/Object;A
-subList(II)2java.util.AbstractList#subList(II)Ljava/util/List;H
-subListRangeCheck(III).java.util.AbstractList#subListRangeCheck(III)Vù&
-java.util.ArrayListjava.io.Serializablejava.lang.Cloneablejava.util.AbstractListjava.util.Listjava.util.RandomAccess)
-<init>()java.util.ArrayList#<init>()V+
-	<init>(I)java.util.ArrayList#<init>(I)VU
-<init>(Ljava/util/Collection;)3java.util.ArrayList#<init>(Ljava/util/Collection;)VI
-add(ILjava/lang/Object;)-java.util.ArrayList#add(ILjava/lang/Object;)VG
-add(Ljava/lang/Object;),java.util.ArrayList#add(Ljava/lang/Object;)Zo
-+add(Ljava/lang/Object;[Ljava/lang/Object;I)@java.util.ArrayList#add(Ljava/lang/Object;[Ljava/lang/Object;I)VW
-addAll(ILjava/util/Collection;)4java.util.ArrayList#addAll(ILjava/util/Collection;)ZU
-addAll(Ljava/util/Collection;)3java.util.ArrayList#addAll(Ljava/util/Collection;)Ze
-&batchRemove(Ljava/util/Collection;ZII);java.util.ArrayList#batchRemove(Ljava/util/Collection;ZII)ZK
-checkForComodification(I).java.util.ArrayList#checkForComodification(I)V;
-checkInvariants()&java.util.ArrayList#checkInvariants()V'
-clear()java.util.ArrayList#clear()V8
-clone()-java.util.ArrayList#clone()Ljava/lang/Object;Q
-contains(Ljava/lang/Object;)1java.util.ArrayList#contains(Ljava/lang/Object;)Zh
-elementAt([Ljava/lang/Object;I)Ejava.util.ArrayList#elementAt([Ljava/lang/Object;I)Ljava/lang/Object;F
-elementData(I)4java.util.ArrayList#elementData(I)Ljava/lang/Object;;
-ensureCapacity(I)&java.util.ArrayList#ensureCapacity(I)VM
-equals(Ljava/lang/Object;)/java.util.ArrayList#equals(Ljava/lang/Object;)Ze
-&equalsArrayList(Ljava/util/ArrayList;);java.util.ArrayList#equalsArrayList(Ljava/util/ArrayList;)ZW
-equalsRange(Ljava/util/List;II)4java.util.ArrayList#equalsRange(Ljava/util/List;II)ZY
- fastRemove([Ljava/lang/Object;I)5java.util.ArrayList#fastRemove([Ljava/lang/Object;I)Ve
-&forEach(Ljava/util/function/Consumer;);java.util.ArrayList#forEach(Ljava/util/function/Consumer;)V6
-get(I),java.util.ArrayList#get(I)Ljava/lang/Object;7
-grow()-java.util.ArrayList#grow()[Ljava/lang/Object;9
-grow(I).java.util.ArrayList#grow(I)[Ljava/lang/Object;-
+println(I)java.io.PrintStream#println(I)V-
 
-hashCode()java.util.ArrayList#hashCode()I;
-hashCodeRange(II)&java.util.ArrayList#hashCodeRange(II)IO
-indexOf(Ljava/lang/Object;)0java.util.ArrayList#indexOf(Ljava/lang/Object;)I]
-"indexOfRange(Ljava/lang/Object;II)7java.util.ArrayList#indexOfRange(Ljava/lang/Object;II)I1
-isClear([JI)!java.util.ArrayList#isClear([JI)Z+
-	isEmpty()java.util.ArrayList#isEmpty()Z@
+println(J)java.io.PrintStream#println(J)VO
+println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VO
+println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)V-
 
-iterator()2java.util.ArrayList#iterator()Ljava/util/Iterator;W
-lastIndexOf(Ljava/lang/Object;)4java.util.ArrayList#lastIndexOf(Ljava/lang/Object;)Ie
-&lastIndexOfRange(Ljava/lang/Object;II);java.util.ArrayList#lastIndexOfRange(Ljava/lang/Object;II)IL
-listIterator():java.util.ArrayList#listIterator()Ljava/util/ListIterator;N
-listIterator(I);java.util.ArrayList#listIterator(I)Ljava/util/ListIterator;*
-nBits(I)java.util.ArrayList#nBits(I)[JL
-outOfBoundsMsg(I)7java.util.ArrayList#outOfBoundsMsg(I)Ljava/lang/String;N
-outOfBoundsMsg(II)8java.util.ArrayList#outOfBoundsMsg(II)Ljava/lang/String;?
-rangeCheckForAdd(I)(java.util.ArrayList#rangeCheckForAdd(I)Vg
-'readObject(Ljava/io/ObjectInputStream;)<java.util.ArrayList#readObject(Ljava/io/ObjectInputStream;)V<
-	remove(I)/java.util.ArrayList#remove(I)Ljava/lang/Object;M
-remove(Ljava/lang/Object;)/java.util.ArrayList#remove(Ljava/lang/Object;)Z[
-!removeAll(Ljava/util/Collection;)6java.util.ArrayList#removeAll(Ljava/util/Collection;)Zi
-(removeIf(Ljava/util/function/Predicate;)=java.util.ArrayList#removeIf(Ljava/util/function/Predicate;)Zm
-*removeIf(Ljava/util/function/Predicate;II)?java.util.ArrayList#removeIf(Ljava/util/function/Predicate;II)Z7
-removeRange(II)$java.util.ArrayList#removeRange(II)Vu
-.replaceAll(Ljava/util/function/UnaryOperator;)Cjava.util.ArrayList#replaceAll(Ljava/util/function/UnaryOperator;)VÉ
-5replaceAllRange(Ljava/util/function/UnaryOperator;II)Jjava.util.ArrayList#replaceAllRange(Ljava/util/function/UnaryOperator;II)V[
-!retainAll(Ljava/util/Collection;)6java.util.ArrayList#retainAll(Ljava/util/Collection;)ZZ
-set(ILjava/lang/Object;)>java.util.ArrayList#set(ILjava/lang/Object;)Ljava/lang/Object;/
-setBit([JI) java.util.ArrayList#setBit([JI)Vg
-'shiftTailOverGap([Ljava/lang/Object;II)<java.util.ArrayList#shiftTailOverGap([Ljava/lang/Object;II)V%
-size()java.util.ArrayList#size()IQ
-sort(Ljava/util/Comparator;)1java.util.ArrayList#sort(Ljava/util/Comparator;)VI
-spliterator()8java.util.ArrayList#spliterator()Ljava/util/Spliterator;>
-subList(II)/java.util.ArrayList#subList(II)Ljava/util/List;=
-	toArray()0java.util.ArrayList#toArray()[Ljava/lang/Object;c
-toArray([Ljava/lang/Object;)Cjava.util.ArrayList#toArray([Ljava/lang/Object;)[Ljava/lang/Object;1
-trimToSize()!java.util.ArrayList#trimToSize()Vk
-)writeObject(Ljava/io/ObjectOutputStream;)>java.util.ArrayList#writeObject(Ljava/io/ObjectOutputStream;)Væ
-4main.java.controllers.grafico.gui.LoginGUIControllerjava.lang.ObjectJ
-<init>()>main.java.controllers.grafico.gui.LoginGUIController#<init>()VT
-handleLogin()Cmain.java.controllers.grafico.gui.LoginGUIController#handleLogin()VR
-initialize()Bmain.java.controllers.grafico.gui.LoginGUIController#initialize()Vö
-java.lang.RuntimeExceptionjava.lang.Exception0
-<init>()$java.lang.RuntimeException#<init>()VT
-<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VÇ
-1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
-<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)V≈
-"java.lang.IllegalArgumentExceptionjava.lang.RuntimeException8
-<init>(),java.lang.IllegalArgumentException#<init>()V\
-<init>(Ljava/lang/String;)>java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)VÜ
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Sjava.lang.IllegalArgumentException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vb
-<init>(Ljava/lang/Throwable;)Ajava.lang.IllegalArgumentException#<init>(Ljava/lang/Throwable;)Vt
-$main.java.engclasses.dao.AnnuncioDAOjava.lang.Object:
-<init>().main.java.engclasses.dao.AnnuncioDAO#<init>()V›
-$main.java.agrounit.model.Agricoltoremain.java.agrounit.model.Utenteì
-t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ömain.java.agrounit.model.Agricoltore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V˘
-9main.java.agrounit.controller.applicativo.LoginControllerjava.lang.ObjectO
-<init>()Cmain.java.agrounit.controller.applicativo.LoginController#<init>()VY
-handleLogin()Hmain.java.agrounit.controller.applicativo.LoginController#handleLogin()Vâ
+println(Z)java.io.PrintStream#println(Z)V/
+println([C) java.io.PrintStream#println([C)Ví
+4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;-
 
-main.java.agrounit.model.Utentejava.lang.Objecté
-t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ïmain.java.agrounit.model.Utente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)VN
-getCognome()>main.java.agrounit.model.Utente#getCognome()Ljava/lang/String;J
-
-getEmail()<main.java.agrounit.model.Utente#getEmail()Ljava/lang/String;P
-getIdUtente()?main.java.agrounit.model.Utente#getIdUtente()Ljava/lang/String;H
-	getNome();main.java.agrounit.model.Utente#getNome()Ljava/lang/String;P
-getPassword()?main.java.agrounit.model.Utente#getPassword()Ljava/lang/String;P
-getUsername()?main.java.agrounit.model.Utente#getUsername()Ljava/lang/String;a
-setCognome(Ljava/lang/String;)?main.java.agrounit.model.Utente#setCognome(Ljava/lang/String;)V]
-setEmail(Ljava/lang/String;)=main.java.agrounit.model.Utente#setEmail(Ljava/lang/String;)V[
-setNome(Ljava/lang/String;)<main.java.agrounit.model.Utente#setNome(Ljava/lang/String;)Vc
-setPassword(Ljava/lang/String;)@main.java.agrounit.model.Utente#setPassword(Ljava/lang/String;)Vc
-setUsername(Ljava/lang/String;)@main.java.agrounit.model.Utente#setUsername(Ljava/lang/String;)V´	
-!main.java.agrounit.model.Annunciojava.lang.Objectœ
-T<init>(Lmain/java/agrounit/model/Agricoltore;Ljava/lang/String;Ljava/lang/String;DI)wmain.java.agrounit.model.Annuncio#<init>(Lmain/java/agrounit/model/Agricoltore;Ljava/lang/String;Ljava/lang/String;DI)VI
-aggiornaPrezzo(D)4main.java.agrounit.model.Annuncio#aggiornaPrezzo(D)V=
-disattiva().main.java.agrounit.model.Annuncio#disattiva()Vb
-getAutore()Smain.java.agrounit.model.Annuncio#getAutore()Lmain/java/agrounit/model/Agricoltore;g
-getDataPubblicazione()Mmain.java.agrounit.model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;X
-getDescrizione()Dmain.java.agrounit.model.Annuncio#getDescrizione()Ljava/lang/String;F
-getId();main.java.agrounit.model.Annuncio#getId()Ljava/lang/String;=
-getPrezzo().main.java.agrounit.model.Annuncio#getPrezzo()DU
-getQuantitaDesiderata():main.java.agrounit.model.Annuncio#getQuantitaDesiderata()IN
-getTitolo()?main.java.agrounit.model.Annuncio#getTitolo()Ljava/lang/String;;
-
-isAttivo()-main.java.agrounit.model.Annuncio#isAttivo()Z;
-
-riattiva()-main.java.agrounit.model.Annuncio#riattiva()VI
-riduciQuantita(I)4main.java.agrounit.model.Annuncio#riduciQuantita(I)VŸ
-"main.java.agrounit.model.Venditoremain.java.agrounit.model.Utenteë
-t<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)òmain.java.agrounit.model.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+setError()java.io.PrintStream#setError()Vl
+toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;)
+write(I)java.io.PrintStream#write(I)VK
+write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)V+
+	write([B)java.io.PrintStream#write([B)V/
+write([BII) java.io.PrintStream#write([BII)V+
+	write([C)java.io.PrintStream#write([C)V5
+writeBytes([B)#java.io.PrintStream#writeBytes([B)VO
+writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V/
+writeln([C) java.io.PrintStream#writeln([C)V˙
+engclasses.dao.UtenteDAOFactoryjava.lang.Object5
+<init>())engclasses.dao.UtenteDAOFactory#<init>()Vç
+4aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)Uengclasses.dao.UtenteDAOFactory#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V

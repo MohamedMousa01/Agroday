@@ -1,15 +1,71 @@
 
-Kmain.java.engclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java ( "1*º
-1 (Ü
-É
- (
-%0java.lang.String"__id*Y
+xengclasses.pattern.Factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/Factory/UtenteFactory;o
+e/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/Factory/UtenteFactoryProvider.java	  	(*"2*Ö
+2
+ 
+(!M
+K
+ (
+%0misc.TipoUtente"__id*"
 
-__unknown_file (=*;.
-,main.java.engclasses.beans.RegistrazioneBean"	
-cognome"$
- (
-
-%0java.lang.StringB0.
-,main.java.engclasses.beans.RegistrazioneBeanH
+__unknown_file (
+""M
+K
+ (
+%1misc.TipoUtente"__id*"
+
+__unknown_file (
+""M
+K
+ (
+%2misc.TipoUtente"__id*"
+
+__unknown_file (
+""*	
+3
+4
+5*¢
+3 (7nl
+# (42
+%7,engclasses.pattern.Factory.ConsulenteFactory",engclasses.pattern.Factory.ConsulenteFactoryù
+ö
+ (6
+%8"6engclasses.pattern.Factory.ConsulenteFactory#<init>()V*P
+
+__unknown_file (4
+2
+%7,engclasses.pattern.Factory.ConsulenteFactory*
+1*û
+4 (5lj
+" (21
+%5+engclasses.pattern.Factory.VenditoreFactory"+engclasses.pattern.Factory.VenditoreFactoryõ
+ò
+ (4
+%6"5engclasses.pattern.Factory.VenditoreFactory#<init>()V*O
+
+__unknown_file (3
+1
+%5+engclasses.pattern.Factory.VenditoreFactory*
+1*¶
+5 (9pn
+$ (63
+%3-engclasses.pattern.Factory.AgricoltoreFactory"-engclasses.pattern.Factory.AgricoltoreFactoryü
+ú
+  (8
+%4"7engclasses.pattern.Factory.AgricoltoreFactory#<init>()V*Q
+
+__unknown_file (5
+3
+%3-engclasses.pattern.Factory.AgricoltoreFactory*
+1*!
+1
+ (
+"
+
+ (
+
+"":)
+	+ 	(@
+
+tipoUtentemisc.TipoUtenteB4"2
+0engclasses.pattern.Factory.UtenteFactoryProviderH

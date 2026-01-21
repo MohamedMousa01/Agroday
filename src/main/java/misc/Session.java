@@ -1,7 +1,7 @@
-package main.java.misc;
+package misc;
 
-import main.java.engclasses.beans.AnnuncioBean;
-import main.java.model.Utente;
+import engclasses.beans.AnnuncioBean;
+import model.Utente;
 
 import java.util.List;
 

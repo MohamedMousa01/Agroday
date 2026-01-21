@@ -1,4 +1,4 @@
-package main.java.controllers.grafico.gui;
+package controllers.grafico.gui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;

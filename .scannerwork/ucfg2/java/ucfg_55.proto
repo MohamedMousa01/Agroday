@@ -1,15 +1,113 @@
 
-@main.java.misc.Session#getCognomeAgricoltore()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaO O('"1*¯
-1O3 O(Ez
-x
-O3 O(E
-%0java.lang.String"__id*N
+Aengclasses.dao.db.UtenteDAODB#esisteUsername(Ljava/lang/String;)Z\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/UtenteDAODB.java (!"startingBlock*
+startingBlock! (2
+Œ
+ (
+%8"
+__annotate*2
 
-__unknown_file (2*0
-main.java.misc.Session"
-cognomeAgricoltore"$
-O, O(F
-
-%0java.lang.StringB
-main.java.misc.SessionH
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+usernamejava.lang.String\
+Z
+) (1
+usernamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8*
+10*!
+4" "("
+" "(
+""*ñ
+5   (-d
+b
+   (-
+rsjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%3java.sql.ResultSetwu
+" "(
+%4boolean"java.sql.ResultSet#next()Z*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet2next()*
+4*Ë
+6   (¶³
+   (,
+%3java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*>
+
+__unknown_file ("
+ 
+psjava.sql.PreparedStatement2executeQuery()*
+5*ž
+7 (>t
+r
+ (> 
+psjava.sql.PreparedStatement"__id*>
+
+__unknown_file ("
+ 
+%1java.sql.PreparedStatement“
+ (%
+
+%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*>
+
+__unknown_file ("
+ 
+psjava.sql.PreparedStatement* 
+
+__unknown_file (2*:
+
+__unknown_file (
+
+usernamejava.lang.String2setString(ILjava/lang/String;)*
+6*œ
+8 (<h
+f
+ (<
+connjava.sql.Connection"__id*7
+
+__unknown_file (
+
+%0java.sql.Connectionš
+$ (> 
+%1java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
+
+__unknown_file (
+
+connjava.sql.Connection*5
+
+__unknown_file (
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)*
+7*Æ
+9 (,±
+®
+ (<
+%0java.sql.Connection"Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;*@
+
+__unknown_file ($""
+ engclasses.pattern.ConnessioneDB*
+8*¤
+10 (Ž
+‹
+ (
+sqljava.lang.String"__id*`
+
+__unknown_file (DB
+@    SELECT 1
+    FROM UTENTE
+    WHERE Username = ?
+    LIMIT 1
+*
+9:(
+" (1
+usernamejava.lang.StringB!
+engclasses.dao.db.UtenteDAODBHXh

@@ -1,12 +1,12 @@
-//package main.java.controllers.applicativo;
+//package controllers.applicativo;
 //
-//import main.java.engclasses.beans.AnnuncioBean;
+//import engclasses.beans.AnnuncioBean;
 //
 //import java.util.ArrayList;
 //import java.util.List;
 //
-//import main.java.engclasses.dao.AnnuncioDAO;
-//import main.java.model.Annuncio;
+//import engclasses.dao.AnnuncioDAO;
+//import model.Annuncio;
 //
 //public class AnnuncioController {
 //

@@ -1,4 +1,4 @@
-package main.java.engclasses.dao;
+package engclasses.dao;
 
 public class AnnuncioDAO {
 }

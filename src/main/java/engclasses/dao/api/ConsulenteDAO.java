@@ -1,4 +1,4 @@
-package main.java.engclasses.dao.api;
+package engclasses.dao.api;
 
 public interface ConsulenteDAO extends UtenteDAO{
 }

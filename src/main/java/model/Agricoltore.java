@@ -1,8 +1,8 @@
-package main.java.model;
+package model;
 
-import main.java.misc.TipoUtente;
+import misc.TipoUtente;
 
-public class Agricoltore extends Utente {
+public class Agricoltore extends model.Utente {
 
 
     @Override

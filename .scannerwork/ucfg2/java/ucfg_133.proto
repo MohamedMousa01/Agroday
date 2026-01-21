@@ -1,0 +1,37 @@
+
+6__sonar_lambda_5$engclasses.dao.memory.UtenteDAOMemoryd
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (C"startingBlock*±
+startingBlock (Cê
+ç
+
+__unknown_file (
+emailjava.lang.String"__id*P
+
+__unknown_file (4*2'
+%engclasses.dao.memory.UtenteDAOMemory"
+email*
+1*¶
+1 ( çä
+ (+
+%4java.lang.String")model.Utente#getEmail()Ljava/lang/String;*/
+
+__unknown_file (
+
+umodel.Utente2
+getEmail()ÈÊ
+ (C
+%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%4java.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
+ (C
+
+%5boolean:
+ (
+umodel.UtenteB 
+java.util.function.Predicate

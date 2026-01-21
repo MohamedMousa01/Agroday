@@ -1,0 +1,159 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002669206*java2.B²
+A
+<src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.dao.memory7
+.
+)engclasses.dao.memory.ConsulenteDAOMemory9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(9:1)-(17:2)14
+
+simple-name15
+
+ConsulenteDAOMemory16
++
+%engclasses.dao.memory.UtenteDAOMemory18
+
+unknown19
+
+extends20
+&
+ engclasses.dao.api.ConsulenteDAO22
+
+
+implements23
+
+
+uses24
+e
+_engclasses.dao.memory.ConsulenteDAOMemory#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V26
+
+method27
+
+(11:5)-(14:6)28
+
+aggiungiUtente29
+
+model.Utente31
+
+	has param32
+
+misc.PersistenceType34
+
+is type35
+?
+9engclasses.exceptions.DatabaseConnessioneFallitaException37
+>
+8engclasses.exceptions.DatabaseOperazioneFallitaException39J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j
+G
+8B
+8910 *
+1	 	(!:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+21
+212219
+
+30
+303119
+
+38
+383919
+M
+25G
+252627 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+28
+
+
+15
+29
+
+17
+171819
+
+36
+363719
+
+33
+333419rÁ
+
+81720*
+1	* 	(9
+
+82123*
+1	F 	(S
+
+81724*
+1	* 	(9
+
+82124*
+1	F 	(S
+
+253032*
+1  (&
+
+253332*
+1/ (>
+
+253035*
+1' (-
+
+253024*
+1  (&
+
+253335*
+1? (C
+
+253324*
+1/ (>
+
+253624*
+1L (o
+
+253824*
+1q (“

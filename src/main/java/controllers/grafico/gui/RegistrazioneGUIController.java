@@ -1,17 +1,19 @@
-package main.java.controllers.grafico.gui;
+package controllers.grafico.gui;
 
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import engclasses.exceptions.RegistrazioneFallitaException;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import main.java.misc.Session;
-import main.java.misc.PersistenceType;
-import main.java.misc.TipoUtente;
-import main.java.engclasses.beans.RegistrazioneBean;
-import main.java.controllers.applicativo.RegistrazioneController;
-import main.java.engclasses.exceptions.*;
+import misc.Session;
+import misc.PersistenceType;
+import misc.TipoUtente;
+import engclasses.beans.RegistrazioneBean;
+import controllers.applicativo.RegistrazioneController;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
 
 import java.io.IOException;
 
@@ -146,7 +148,7 @@ public class RegistrazioneGUIController {
     private void handleLoginLink() {
         try {
             FXMLLoader loader = new FXMLLoader(
-                    getClass().getResource("main/resources/login-view.fxml")
+                    getClass().getResource("/login-view.fxml")
             );
 
             Parent root = loader.load();

@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325450090*java2.Bˇ$
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002669084*java2.B⁄!
 G
 Bsrc/main/java/controllers/applicativo/RegistrazioneController.java2
 	
@@ -8,10 +8,10 @@ Bsrc/main/java/controllers/applicativo/RegistrazioneController.java2
 MAIN4
 
 package6
-&
-!main.java.controllers.applicativo7
->
-9main.java.controllers.applicativo.RegistrazioneController9
+
+controllers.applicativo7
+4
+/controllers.applicativo.RegistrazioneController9
 
 class10
 
@@ -22,23 +22,23 @@ Bsrc/main/java/controllers/applicativo/RegistrazioneController.java2
 
 full-range13
 
-(18:1)-(149:2)14
+(20:1)-(170:2)14
 
 simple-name15
 
 RegistrazioneController16
-G
-Amain.java.controllers.applicativo.RegistrazioneController.session18
+=
+7controllers.applicativo.RegistrazioneController.session18
 
 field19
 
 private20
 
-(20:5)-(20:35)21
+(22:5)-(22:35)21
 
 session22
-
-main.java.misc.Session24
+
+misc.Session24
 
 unknown25
 
@@ -46,18 +46,18 @@ Amain.java.controllers.applicativo.RegistrazioneController.session18
 
 
 uses27
-H
-Bmain.java.controllers.applicativo.RegistrazioneController.idUtente29
+>
+8controllers.applicativo.RegistrazioneController.idUtente29
 
-(21:5)-(21:29)30
+(23:5)-(23:29)30
 
 idUtente31
-a
-[main.java.controllers.applicativo.RegistrazioneController#<init>(Lmain/java/misc/Session;)V33
+M
+Gcontrollers.applicativo.RegistrazioneController#<init>(Lmisc/Session;)V33
 
 method34
 
-(23:5)-(25:6)35
+(25:5)-(27:6)35
 
 	has param36
 
@@ -65,131 +65,123 @@ a
 
 
 references38
-Ä
-zmain.java.controllers.applicativo.RegistrazioneController#registraUtente(Lmain/java/engclasses/beans/RegistrazioneBean;Z)Z40
+k
+econtrollers.applicativo.RegistrazioneController#registraUtente(Lengclasses/beans/RegistrazioneBean;)Z40
 
-(27:5)-(49:6)41
+(29:5)-(79:6)41
 
 registraUtente42
-2
-,main.java.engclasses.beans.RegistrazioneBean44
-C
-=main.java.engclasses.exceptions.RegistrazioneFallitaException46
-I
-Cmain.java.engclasses.exceptions.DatabaseConnessioneFallitaException48
-H
-Bmain.java.engclasses.exceptions.DatabaseOperazioneFallitaException50
-ñ
-èmain.java.controllers.applicativo.RegistrazioneController#validaRegistrazione(Lmain/java/engclasses/beans/RegistrazioneBean;)Ljava/lang/String;52
-
-main.java.model.Utente54
--
-'main.java.misc.Session#isAgricoltore()Z56
-!
-main.java.model.Agricoltore58
-N
-Hmain.java.engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;60
-Q
-Kmain.java.engclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;62
-R
-Lmain.java.engclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;64
-O
-Imain.java.engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;66
-R
-Lmain.java.engclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;68
-O
-Imain.java.engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;70
-l
-fmain.java.controllers.applicativo.RegistrazioneController#salvaDatiSessione(Lmain/java/model/Utente;)V72
--
-'main.java.engclasses.dao.AgricoltoreDAO74
-]
-Wmain.java.engclasses.dao.AgricoltoreDAO#aggiungiAgricoltore(Lmain/java/model/Utente;Z)V76
-
-main.java.model.Venditore78
-+
-%main.java.engclasses.dao.VenditoreDAO80
-Y
-Smain.java.engclasses.dao.VenditoreDAO#aggiungiVenditore(Lmain/java/model/Utente;Z)V82
-
-(51:5)-(60:6)83
-
-salvaDatiSessione84
-=
-7main.java.misc.Session#setIdUtente(Ljava/lang/String;)V86
-<
-6main.java.model.Utente#getIdUtente()Ljava/lang/String;88
-=
-7main.java.misc.Session#setUsername(Ljava/lang/String;)V90
-<
-6main.java.model.Utente#getUsername()Ljava/lang/String;92
+(
+"engclasses.beans.RegistrazioneBean44
 9
-3main.java.misc.Session#setNome(Ljava/lang/String;)V94
-8
-2main.java.model.Utente#getNome()Ljava/lang/String;96
-G
-Amain.java.misc.Session#setCognomeAgricoltore(Ljava/lang/String;)V98
-<
-5main.java.model.Utente#getCognome()Ljava/lang/String;100
-E
->main.java.misc.Session#setNomeAgricoltore(Ljava/lang/String;)V102
-
-(62:5)-(79:6)103
-
-validaRegistrazione104
-R
-Kmain.java.controllers.applicativo.RegistrazioneController#recuperaUtente()V106
-y
-rmain.java.controllers.applicativo.RegistrazioneController#validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)V108
-|
-umain.java.controllers.applicativo.RegistrazioneController#validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)V110
-}
-vmain.java.controllers.applicativo.RegistrazioneController#validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)V112
-ê
-àmain.java.controllers.applicativo.RegistrazioneController#validaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V114
-Z
-Smain.java.engclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;116
-z
-smain.java.controllers.applicativo.RegistrazioneController#validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)V118
-
-(82:5)-(88:6)119
-
-recuperaUtente120
-
-returns121
-à
-Ämain.java.engclasses.dao.AgricoltoreDAO#selezionaAgricoltore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Agricoltore;123
-.
-'main.java.misc.Session#isPersistence()Z125
+3engclasses.exceptions.RegistrazioneFallitaException46
+?
+9engclasses.exceptions.DatabaseConnessioneFallitaException48
+>
+8engclasses.exceptions.DatabaseOperazioneFallitaException50
+I
+Cengclasses.beans.RegistrazioneBean#setIdUtente(Ljava/lang/String;)V52
 Å
-zmain.java.engclasses.dao.VenditoreDAO#selezionaVenditore(Ljava/lang/String;Ljava/lang/String;Z)Lmain/java/model/Venditore;127
-
-(91:5)-(97:6)128
+{controllers.applicativo.RegistrazioneController#validaRegistrazione(Lengclasses/beans/RegistrazioneBean;)Ljava/lang/String;54
+l
+fcontrollers.applicativo.RegistrazioneController#verificaUnicita(Lengclasses/beans/RegistrazioneBean;)V56
+
+misc.TipoUtente58
+
+returns59
+I
+Cengclasses.beans.RegistrazioneBean#getTipoUtente()Lmisc/TipoUtente;61
+
+misc.PersistenceType63
+S
+Mengclasses.beans.RegistrazioneBean#getPersistenceType()Lmisc/PersistenceType;65
+.
+(engclasses.pattern.Factory.UtenteFactory67
+6
+0engclasses.pattern.Factory.UtenteFactoryProvider69
+~
+xengclasses.pattern.Factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/Factory/UtenteFactory;71
+
+model.Utente73
+
+yengclasses.pattern.Factory.UtenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;75
+n
+hcontrollers.applicativo.RegistrazioneController#salvaDatiSessione(Lmodel/Utente;Lmisc/PersistenceType;)V77
+'
+!engclasses.dao.factory.DAOFactory79
+m
+gengclasses.dao.factory.DAOFactory#getFactory(Lmisc/PersistenceType;)Lengclasses/dao/factory/DAOFactory;81
+=
+7misc.Session#getPersistenceType()Lmisc/PersistenceType;83
+"
+engclasses.dao.api.UtenteDAO85
+e
+_engclasses.dao.factory.DAOFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;87
+X
+Rengclasses.dao.api.UtenteDAO#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V89
+
+(81:5)-(85:6)90
+
+salvaDatiSessione91
+4
+.misc.Session#setUtenteLoggato(Lmodel/Utente;)V93
+>
+8misc.Session#setPersistenceType(Lmisc/PersistenceType;)V95
+
+(87:5)-(98:6)96
+
+validaRegistrazione97
+n
+hcontrollers.applicativo.RegistrazioneController#validaNome(Ljava/lang/String;Ljava/lang/StringBuilder;)V99
+E
+>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;101
+r
+kcontrollers.applicativo.RegistrazioneController#validaCognome(Ljava/lang/String;Ljava/lang/StringBuilder;)V103
+H
+Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;105
+s
+lcontrollers.applicativo.RegistrazioneController#validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)V107
+I
+Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;109
+Ö
+~controllers.applicativo.RegistrazioneController#validaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V111
+I
+Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;113
+P
+Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;115
+p
+icontrollers.applicativo.RegistrazioneController#validaEmail(Ljava/lang/String;Ljava/lang/StringBuilder;)V117
+F
+?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;119
+
+(102:5)-(109:6)120
 
 
-validaNome129
+validaNome121
 
-(100:5)-(106:6)130
+(112:5)-(118:6)122
 
-validaCognome131
+validaCognome123
 
-(109:5)-(115:6)132
+(121:5)-(127:6)124
 
-validaUsername133
-v
-omain.java.controllers.applicativo.RegistrazioneController#controllaCampo(Ljava/lang/String;Ljava/lang/String;)Z135
+validaUsername125
 
-(118:5)-(125:6)136
+(130:5)-(137:6)126
 
-validaPassword137
+validaPassword127
 
-(128:5)-(136:6)138
+(140:5)-(146:6)128
 
-validaEmail139
+validaEmail129
 
-(138:5)-(146:6)140
-
-controllaCampo141J
+(149:5)-(169:6)130
+
+verificaUnicita131
+G
+@engclasses.dao.api.UtenteDAO#esisteUsername(Ljava/lang/String;)Z133
+D
+=engclasses.dao.api.UtenteDAO#esisteEmail(Ljava/lang/String;)Z135J
 
 1
 12
@@ -199,168 +191,14 @@ omain.java.controllers.applicativo.RegistrazioneController#controllaCampo(Ljava/
 4 Z
 
 5
-5768jÖ
-G
-8B
-8910 *
-1 (%:5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
+5768jü
 
-59
-596025
-
-85
-858625
-
-124
-12412525
-
-126
-12612725
-
-65
-656625
-
-95
-959625
-R
-107K
-10710834 *
-1[ [(28:5B&
-
-
-11
-20
-
-13
-128
-
-15
-129
-R
-109K
-10911034 *
-1d d(28:5B&
-
-
-11
-20
-
-13
-130
-
-15
-131
-
-61
-616225
-M
-39G
-394034 *
-1 ("28:5B$
-
-
-11
-12
-
-
-13
-41
-
-
-15
-42
-
-43
-434425
-
-69
-697025
-
-97
-979825
-
-81
-818225
-
-99
-9910025
-M
-71G
-717234 *
-13 3(#28:5B$
-
-
-11
-20
-
-
-13
-83
-
-
-15
-84
-
-79
-798025
-
-23
-232425
-M
-28G
-282919 *
-1 (28:5B$
-
-
-11
-20
-
-
-13
-30
-
-
-15
-31
-O
-51I
-515234 *
-1> >(&28:5B&
-
-
-11
-12
-
-13
-103
-
-15
-104
-
-55
-555625
-
-63
-636425
-
-57
-575825
+64
+646525
 M
 17G
 171819 *
-1 ("28:5B$
+1 ("28:5B$
 
 
 11
@@ -373,10 +211,70 @@ M
 
 15
 22
+
+57
+575825
+
+72
+727325
+
+43
+434425
+
+88
+888925
+
+114
+11411525
+M
+53G
+535434 *
+1W W(&28:5B$
+
+
+11
+12
+
+
+13
+96
+
+
+15
+97
+O
+98I
+989934 *
+1f f(28:5B&
+
+
+11
+20
+
+13
+120
+
+15
+121
+
+23
+232425
+
+74
+747525
+
+108
+10810925
+
+51
+515225
+
+78
+787925
 M
 32G
 323334 *
-1 (#28:5B$
+1 (#28:5B$
 
 
 11
@@ -390,708 +288,664 @@ M
 15
 16
 
-93
-939425
+86
+868725
 
-53
-535425
-
-67
-676825
-
-75
-757625
-T
-117M
-11711834 *
-1Ä Ä(28:5B&
-
-
-11
-20
-
-13
-138
-
-15
-139
-
-73
-737425
+80
+808125
+
+104
+10410525
+
+132
+13213325
 
 47
 474825
 
+94
+949525
+
+134
+13413525
+M
+28G
+282919 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+30
+
+
+15
+31
+
+112
+11211325
+
 45
 454625
-
-77
-777825
-
-101
-10110225
-
-91
-919225
 R
-111K
-11111234 *
-1m m( 28:5B&
+106K
+10610734 *
+1y y( 28:5B&
 
 
 11
 20
 
 13
-132
+124
 
 15
-133
-R
-113K
-11311434 *
-1v v( 28:5B&
+125
+Q
+55K
+555634 *
+1ï ï(!28:5B&
 
 
 11
 20
 
 13
-136
+130
 
 15
-137
-
-115
-11511625
-
-122
-12212325
-T
-134M
-13413534 *
-1ä ä("28:5B&
-
-
-11
-12
-
-13
-140
-
-15
-141
+131
 
 49
 495025
 
-87
-878825
+82
+828325
 R
-105K
-10510634 *
-1R R( 28:5B&
+102K
+10210334 *
+1p p(28:5B&
 
 
 11
 20
 
 13
-119
+122
 
 15
-120
+123
+M
+39G
+394034 *
+1 ("28:5B$
+
+
+11
+12
+
+
+13
+41
+
+
+15
+42
+T
+110M
+11011134 *
+1Ç Ç( 28:5B&
+
+
+11
+20
+
+13
+126
+
+15
+127
 
-89
-899025rÿ*
+66
+666725
+
+118
+11811925
+
+92
+929325
+T
+116M
+11611734 *
+1å å(28:5B&
+
+
+11
+20
+
+13
+128
+
+15
+129
+
+100
+10010125
+
+60
+606125
+
+68
+686925
+M
+76G
+767734 *
+1Q Q(#28:5B$
+
+
+11
+20
+
+
+13
+90
+
+
+15
+91
+
+70
+707125
+G
+8B
+8910 *
+1 (%:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+84
+848525
+
+62
+626325rπ!
 
 172326*
-1 (
+1 (
 
 172327*
-1 (
+1 (
 
 172327*
-1 ("
+1 ("
 
 322336*
-1$ (+
+1$ (+
 
 32837*
-1 (#
+1 (#
 
 322326*
-1, (3
+1, (3
 
 322327*
-1$ (+
+1$ (+
 
 32827*
-1	 (
+1	 (
 
 32838*
-1	 (
+1	 (
 
 322327*
-1 (
+1 (
 
 321738*
-1 (
+1 (
 
 394336*
-1# (4
+1# (4
 
 394326*
-15 (9
+15 (9
 
 394327*
-1# (4
+1# (4
 
 394527*
-1W (t
+1B (_
 
 394727*
-1v (ô
+1a (Ñ
 
 394927*
-1õ (Ω
+1Ü (®
 
 39827*
-1	 (
+1 	  (
 
 39838*
-1	 (
+1 	  (
 
 392838*
-1 (
-
-39838*
-1   (,
+1   (
+
+394338*
+1!	 !(
 
 395137*
-1   (,
+1! !(
+
+39827*
+1! !(
+
+39838*
+1! !(
+
+392838*
+1! !('
+
+39838*
+1# #(,
+
+395337*
+1# #(,
 
 394537*
-1# #(4
-
-395326*
-1& &(
-
-395327*
-1&	 &(
-
-392338*
-1' '(!
+1' '(4
+
+39838*
+1, ,(
 
 395537*
-1' '(!
+1, ,(
+
+394937*
+1. .(9
+
+395726*
+14 4(
+
+395727*
+14	 4(
+
+395759*
+14! 4(3
+
+394338*
+14! 4(3
+
+396037*
+14& 4(3
+
+396226*
+15 5((
+
+396227*
+15	 5(
+
+396259*
+15+ 5(B
+
+394338*
+15+ 5(B
+
+396437*
+150 5(B
+
+396626*
+18 8(
+
+396627*
+18	 8(
+
+396659*
+18! 8(A
+
+396838*
+18! 8(A
+
+397037*
+187 8(A
+
+396827*
+18! 8(6
+
+397226*
+19 9(
+
+397227*
+19	 9(
+
+397259*
+19 9(+
+
+396638*
+19 9(+
+
+397437*
+19! 9(+
+
+392838*
+19, 9(4
+
+39838*
+1<	 <(
+
+397637*
+1<	 <(
+
+397826*
+1B B("
+
+397827*
+1B B(
+
+397859*
+1B% B(:
+
+397838*
+1B% B(:
+
+398037*
+1B0 B(:
+
+397827*
+1B% B(/
+
+396259*
+1B; B(U
+
+392338*
+1B; B(U
+
+398237*
+1BC B(U
 
 391738*
-1' '(
+1B; B(B
 
 392327*
-1' '(
+1B; B(B
 
 391738*
-1' '(
+1B; B(B
 
-395737*
-1( ((%
+398426*
+1C C(
 
-392838*
-1(& ((.
+398427*
+1C C(
 
-394338*
-1(0 ((<
+398459*
+1C C(4
 
-395937*
-1(5 ((<
+397838*
+1C C(4
 
-394338*
-1(@ ((O
+398637*
+1C( C(4
 
-396137*
-1(E ((O
+398438*
+1D D(
 
-394338*
-1(S ((c
+398837*
+1D D(
 
-396337*
-1(X ((c
+396259*
+1D( D(B
 
-394338*
-1(g ((t
+392338*
+1D( D(B
 
-396537*
-1(l ((t
+398237*
+1D0 D(B
+
+391738*
+1D( D(/
+
+392327*
+1D( D(/
+
+391738*
+1D( D(/
+
+767236*
+1Q$ Q(*
+
+766236*
+1Q3 Q(B
+
+767226*
+1Q+ Q(1
+
+767227*
+1Q$ Q(*
+
+766226*
+1QC Q(R
+
+766227*
+1Q3 Q(B
+
+762338*
+1R	 R(!
+
+769237*
+1R R(!
+
+761738*
+1R	 R(
+
+762327*
+1R	 R(
+
+761738*
+1R	 R(
+
+762338*
+1S	 S(#
+
+769437*
+1S S(#
+
+761738*
+1S	 S(
+
+762327*
+1S	 S(
+
+761738*
+1S	 S(
+
+534336*
+1W' W(8
+
+534326*
+1W9 W(=
+
+534327*
+1W' W(8
+
+534727*
+1WF W(i
 
-394338*
-1(x ((à
-
-396737*
-1(} ((à
-
-394338*
-1(å ((ô
-
-396937*
-1(ë ((ô
+534927*
+1Wk W(ç
 
-39838*
-1) )(
+53838*
+1[	 [(
 
-397137*
-1) )(
+539837*
+1[	 [(
 
-397338*
-1* *(/
-
-397537*
-1* *(/
-
-397327*
-1* *(
-
-397737*
-1, ,(#
-
-392838*
-1,$ ,(,
-
-394338*
-1,. ,(:
-
-395937*
-1,3 ,(:
-
-394338*
-1,> ,(M
-
-396137*
-1,C ,(M
-
-394338*
-1,Q ,(a
-
-396337*
-1,V ,(a
-
-394338*
-1,e ,(r
-
-396537*
-1,j ,(r
+534338*
+1[ [( 
 
-394338*
-1,v ,(Ü
-
-396737*
-1,{ ,(Ü
+5310037*
+1[ [( 
 
-39838*
-1- -(
-
-397137*
-1- -(
-
-397938*
-1. .(+
-
-398137*
-1. .(+
-
-397927*
-1. .(
-
-715336*
-13$ 3(*
-
-715326*
-13+ 3(1
-
-715327*
-13$ 3(*
-
-712338*
-14	 4(
-
-718537*
-14 4(
-
-711738*
-14	 4(
-
-712327*
-14	 4(
-
-711738*
-14	 4(
-
-715338*
-14 4(/
-
-718737*
-14$ 4(/
-
-712338*
-15	 5(
-
-718937*
-15 5(
-
-711738*
-15	 5(
-
-712327*
-15	 5(
-
-711738*
-15	 5(
-
-715338*
-15 5(/
-
-719137*
-15$ 5(/
-
-712338*
-16	 6(
-
-719337*
-16 6(
-
-711738*
-16	 6(
-
-712327*
-16	 6(
-
-711738*
-16	 6(
-
-715338*
-16 6('
-
-719537*
-16  6('
-
-715726*
-18+ 8(.
-
-715727*
-18 8(*
-
-712338*
-19 9(*
-
-719737*
-19 9(*
-
-711738*
-19 9(
-
-712327*
-19 9(
-
-711738*
-19 9(
-
-715338*
-19+ 9(9
-
-719937*
-19/ 9(9
-
-712338*
-1: :('
+53838*
+1\	 \(
 
-7110137*
-1: :('
+5310237*
+1\	 \(
 
-711738*
-1: :(
-
-712327*
-1: :(
-
-711738*
-1: :(
-
-715338*
-1:( :(3
-
-719537*
-1:, :(3
-
-514336*
-1>' >(8
-
-514326*
-1>9 >(=
-
-514327*
-1>' >(8
-
-514727*
-1>F >(i
+534338*
+1\ \(&
 
-514927*
-1>k >(ç
+5310437*
+1\ \(&
 
-51838*
-1B	 B(
+53838*
+1]	 ](
 
-5110537*
-1B	 B(
+5310637*
+1]	 ](
+
+534338*
+1] ]((
+
+5310837*
+1] ]((
 
-51838*
-1E	 E(
+53838*
+1^	 ^(
 
-5110737*
-1E	 E(
+5311037*
+1^	 ^(
 
-514338*
-1E E( 
+534338*
+1^ ^((
+
+5311237*
+1^ ^((
 
-515937*
-1E E( 
+534338*
+1^, ^(C
+
+5311437*
+1^1 ^(C
 
-51838*
-1F	 F(
+53838*
+1_	 _(
 
-5110937*
-1F	 F(
+5311637*
+1_	 _(
 
-514338*
-1F F(&
-
-516137*
-1F F(&
-
-51838*
-1G	 G(
+534338*
+1_ _("
 
-5111137*
-1G	 G(
-
-514338*
-1G G((
-
-516337*
-1G G((
-
-51838*
-1H	 H(
-
-5111337*
-1H	 H(
-
-514338*
-1H H((
-
-516737*
-1H H((
-
-514338*
-1H, H(C
-
-5111537*
-1H1 H(C
-
-51838*
-1I	 I(
-
-5111737*
-1I	 I(
-
-514338*
-1I I("
-
-516537*
-1I I("
-
-1054727*
-1R* R(M
-
-1054927*
-1RO R(q
-
-1052338*
-1S S("
-
-1055537*
-1S S("
-
-1051738*
-1S S(
-
-1052327*
-1S S(
-
-1051738*
-1S S(
+5311837*
+1_ _("
 
-10557121*
-1T T(0
-
-1057338*
-1T T(0
+554336*
+1ï" ï(3
 
-10512237*
-1T T(0
-
-1057327*
-1T T(
-
-1052838*
-1T= T(E
-
-1052338*
-1TG T(\
+554326*
+1ï4 ï(8
 
-10512437*
-1TO T(\
-
-1051738*
-1TG T(N
-
-1052327*
-1TG T(N
-
-1051738*
-1TG T(N
+554327*
+1ï" ï(3
 
-10577121*
-1V V(,
-
-1057938*
-1V V(,
+554727*
+1ñ ñ(7
 
-10512637*
-1V V(,
-
-1057927*
-1V V(
-
-1052838*
-1V9 V(A
-
-1052338*
-1VC V(X
+554927*
+1ó ó(/
 
-10512437*
-1VK V(X
-
-1051738*
-1VC V(J
-
-1052327*
-1VC V(J
-
-1051738*
-1VC V(J
-
-1114727*
-1mO m(r
+554527*
+1ò ò(*
 
-1114927*
-1mt m(ñ
-
-111838*
-1p p("
+557826*
+1ú ú(
 
-11113437*
-1p p("
-
-1174727*
-1ÄI Ä(l
-
-1174927*
-1Än Ä(ê
+557827*
+1ú ú(
 
-117838*
-1Ö Ö("
-
-11713437*
-1Ö Ö("
+557859*
+1ú" ú(7
+
+557838*
+1ú" ú(7
+
+558037*
+1ú- ú(7
+
+557827*
+1ú" ú(,
+
+556259*
+1ú8 ú(O
+
+554338*
+1ú8 ú(O
+
+556437*
+1ú= ú(O
+
+558426*
+1ù ù( 
+
+558427*
+1ù ù(
+
+558459*
+1ù# ù(7
+
+557838*
+1ù# ù(7
+
+558637*
+1ù+ ù(7
+
+555759*
+1ù8 ù(J
+
+554338*
+1ù8 ù(J
+
+556037*
+1ù= ù(J
+
+558438*
+1† †()
 
-1344727*
-1äG ä(j
-
-1344927*
-1äl ä(é
+5513237*
+1† †()
+
+554338*
+1†* †(:
 
-1345326*
-1å å(
+5510837*
+1†/ †(:
+
+554537*
+1° °(8
+
+558438*
+1§ §(&
 
-1345327*
-1å	 å(
+5513437*
+1§ §(&
+
+554338*
+1§' §(4
 
-1342338*
-1å å(.
-
-1345537*
-1å! å(.
-
-1341738*
-1å å( 
-
-1342327*
-1å å( 
-
-1341738*
-1å å( 
-
-13457121*
-1ç ç(6
-
-1347338*
-1ç ç(6
-
-13412237*
-1ç" ç(6
-
-1347327*
-1ç ç(!
-
-1342338*
-1çF ç([
-
-13412437*
-1çN ç([
-
-1341738*
-1çF ç(M
-
-1342327*
-1çF ç(M
-
-1341738*
-1çF ç(M
-
-13477121*
-1é é(2
-
-1347938*
-1é é(2
-
-13412637*
-1é  é(2
-
-1347927*
-1é é(
-
-1342338*
-1éB é(W
-
-13412437*
-1éJ é(W
-
-1341738*
-1éB é(I
-
-1342327*
-1éB é(I
-
-1341738*
-1éB é(I
+5511837*
+1§, §(4
+
+554537*
+1• •(8

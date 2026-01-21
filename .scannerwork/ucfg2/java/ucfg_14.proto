@@ -1,15 +1,15 @@
 
-?main.java.model.Annuncio#getDataScadenza()Ljava/time/LocalDate;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaG G($"1*±
-1G/ G(;y
-w
+5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaG G($"1*§
+1G/ G(;o
+m
 G/ G(;
-%0java.time.LocalDate"__id*J
+%0java.time.LocalDate"__id*@
 
-__unknown_file (.*,
-main.java.model.Annuncio"
+__unknown_file ($*"
+model.Annuncio"
 dataScadenza"'
 G( G(<
 
-%0java.time.LocalDateB
-main.java.model.AnnuncioH
+%0java.time.LocalDateB
+model.AnnuncioH

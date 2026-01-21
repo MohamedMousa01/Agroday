@@ -1,0 +1,37 @@
+
+6__sonar_lambda_4$engclasses.dao.memory.UtenteDAOMemoryd
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (I"startingBlock*∑
+startingBlock (Iñ
+ì
+
+__unknown_file (
+usernamejava.lang.String"__id*S
+
+__unknown_file (7*5'
+%engclasses.dao.memory.UtenteDAOMemory"
+
+username*
+1*Ø
+1 ( ìê
+ (.
+%4java.lang.String",model.Utente#getUsername()Ljava/lang/String;*/
+
+__unknown_file (
+
+umodel.Utente2getUsername()ÏÈ
+ (I
+%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%4java.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
+ (I
+
+%5boolean:
+ (
+umodel.UtenteB 
+java.util.function.Predicate

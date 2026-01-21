@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325450250*java2.BÊ
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668920*java2.Bñ
 2
 -src/main/java/engclasses/beans/LoginBean.java2
 	
@@ -8,10 +8,10 @@
 MAIN4
 
 package6
+
+engclasses.beans7
 
-main.java.engclasses.beans7
-)
-$main.java.engclasses.beans.LoginBean9
+engclasses.beans.LoginBean9
 
 class10
 
@@ -27,8 +27,8 @@ full-range13
 simple-name15
 
 	LoginBean16
-3
--main.java.engclasses.beans.LoginBean.username18
+)
+#engclasses.beans.LoginBean.username18
 
 field19
 
@@ -37,14 +37,14 @@ full-range13
 (5:9)-(5:33)21
 
 username22
-3
--main.java.engclasses.beans.LoginBean.password24
+)
+#engclasses.beans.LoginBean.password24
 
 (6:9)-(6:33)25
 
 password26
-J
-Dmain.java.engclasses.beans.LoginBean#getUsername()Ljava/lang/String;28
+@
+:engclasses.beans.LoginBean#getUsername()Ljava/lang/String;28
 
 method29
 
@@ -54,8 +54,8 @@ Dmain.java.engclasses.beans.LoginBean#getUsername()Ljava/lang/String;28
 
 
 references32
-K
-Emain.java.engclasses.beans.LoginBean#setUsername(Ljava/lang/String;)V34
+A
+;engclasses.beans.LoginBean#setUsername(Ljava/lang/String;)V34
 
 (14:9)-(16:10)35
 
@@ -63,14 +63,14 @@ Emain.java.engclasses.beans.LoginBean#setUsername(Ljava/lang/String;)V34
 
 
 uses37
-J
-Dmain.java.engclasses.beans.LoginBean#getPassword()Ljava/lang/String;39
+@
+:engclasses.beans.LoginBean#getPassword()Ljava/lang/String;39
 
 (19:9)-(21:10)40
 
 getPassword41
-K
-Emain.java.engclasses.beans.LoginBean#setPassword(Ljava/lang/String;)V43
+A
+;engclasses.beans.LoginBean#setPassword(Ljava/lang/String;)V43
 
 (24:9)-(26:10)44
 
@@ -85,22 +85,22 @@ Emain.java.engclasses.beans.LoginBean#setPassword(Ljava/lang/String;)V43
 
 5
 5768j£
-G
-8B
-8910 *
-1 (:5B$
+M
+23G
+232419 *
+1 ( 28:5B$
 
 
 11
-12
+20
 
 
 13
-14
+25
 
 
 15
-16
+26
 M
 42G
 424329 *
@@ -134,21 +134,21 @@ M
 15
 31
 M
-23G
-232419 *
-1 ( 28:5B$
+38G
+383929 *
+1 ("28:5B$
 
 
 11
-20
+12
 
 
 13
-25
+40
 
 
 15
-26
+41
 M
 33G
 333429 *
@@ -181,10 +181,10 @@ M
 
 15
 22
-M
-38G
-383929 *
-1 ("28:5B$
+G
+8B
+8910 *
+1 (:5B$
 
 
 11
@@ -192,11 +192,11 @@ M
 
 
 13
-40
+14
 
 
 15
-41r‘
+16r‘
 
 271732*
 1

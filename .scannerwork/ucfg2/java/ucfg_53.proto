@@ -1,15 +1,15 @@
 
-=main.java.misc.Session#getNomeAgricoltore()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaK K($"1*¬
-1K0 K(?w
-u
-K0 K(?
-%0java.lang.String"__id*K
+?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.javaX X("1*®
+1Y Y(y
+w
+Y Y(
+%0java.lang.String"__id*M
 
-__unknown_file (/*-
-main.java.misc.Session"
-nomeAgricoltore"$
-K) K(@
+__unknown_file (1*/$
+"engclasses.beans.RegistrazioneBean"
+citta"$
+Y Y(
 
-%0java.lang.StringB
-main.java.misc.SessionH
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

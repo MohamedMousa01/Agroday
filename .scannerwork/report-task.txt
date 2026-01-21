@@ -1,7 +1,7 @@
 organization=mohamedmousa01
 projectKey=MohamedMousa01_Agroday
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.78371
+serverVersion=8.0.0.78706
 dashboardUrl=https://sonarcloud.io/dashboard?id=MohamedMousa01_Agroday
-ceTaskId=AZu4aRXmTPHagKN2dUES
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZu4aRXmTPHagKN2dUES
+ceTaskId=AZvgxqAe8Bvyfv-wTiLq
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZvgxqAe8Bvyfv-wTiLq

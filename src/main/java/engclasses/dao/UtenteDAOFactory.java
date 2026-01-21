@@ -1,13 +1,13 @@
-package main.java.engclasses.dao;
+package engclasses.dao;
 
-import main.java.engclasses.dao.api.AgricoltoreDAO;
-import main.java.engclasses.dao.api.UtenteDAO;
-import main.java.engclasses.dao.api.VenditoreDAO;
-import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
-import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
-import main.java.misc.PersistenceType;
-import main.java.model.Agricoltore;
-import main.java.model.Utente;
+import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.UtenteDAO;
+import engclasses.dao.api.VenditoreDAO;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import misc.PersistenceType;
+import model.Agricoltore;
+import model.Utente;
 
 public class UtenteDAOFactory {
 

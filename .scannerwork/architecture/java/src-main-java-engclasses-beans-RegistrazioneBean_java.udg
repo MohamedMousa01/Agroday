@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325450235*java2.Bí
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002668782*java2.BŽ
 :
 5src/main/java/engclasses/beans/RegistrazioneBean.java2
 	
@@ -8,10 +8,10 @@
 MAIN4
 
 package6
-
-main.java.engclasses.beans7
-1
-,main.java.engclasses.beans.RegistrazioneBean9
+
+engclasses.beans7
+'
+"engclasses.beans.RegistrazioneBean9
 
 class10
 
@@ -22,152 +22,219 @@
 
 full-range13
 
-(3:1)-(69:2)14
+(6:1)-(96:2)14
 
 simple-name15
 
 RegistrazioneBean16
-7
-1main.java.engclasses.beans.RegistrazioneBean.nome18
++
+%engclasses.beans.RegistrazioneBean.id18
 
 field19
 
 private20
 
-(5:9)-(5:29)21
+(8:9)-(8:27)21
+
+id22
+-
+'engclasses.beans.RegistrazioneBean.nome24
+
+(9:9)-(9:29)25
 
 
-nome22
-:
-4main.java.engclasses.beans.RegistrazioneBean.cognome24
-
-(6:9)-(6:32)25
-
-cognome26
-;
-5main.java.engclasses.beans.RegistrazioneBean.username28
-
-(7:9)-(7:33)29
-
-username30
-8
-2main.java.engclasses.beans.RegistrazioneBean.email32
-
-(8:9)-(8:30)33
-
-email34
-;
-5main.java.engclasses.beans.RegistrazioneBean.password36
-
-(9:9)-(9:33)37
-
-password38
-B
-<main.java.engclasses.beans.RegistrazioneBean.confirmPassword40
+nome26
+0
+*engclasses.beans.RegistrazioneBean.cognome28
 
-(10:9)-(10:40)41
+(10:9)-(10:32)29
+
+cognome30
+1
++engclasses.beans.RegistrazioneBean.username32
+
+(11:9)-(11:33)33
+
+username34
+.
+(engclasses.beans.RegistrazioneBean.email36
+
+(12:9)-(12:30)37
+
+email38
+1
++engclasses.beans.RegistrazioneBean.password40
+
+(13:9)-(13:33)41
+
+password42
+8
+2engclasses.beans.RegistrazioneBean.confirmPassword44
+
+(14:9)-(14:40)45
 
-confirmPassword42
-8
-2main.java.engclasses.beans.RegistrazioneBean.citta44
+confirmPassword46
+.
+(engclasses.beans.RegistrazioneBean.citta48
 
-(11:9)-(11:30)45
+(15:9)-(15:30)49
 
-citta46
-N
-Hmain.java.engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;48
+citta50
+8
+2engclasses.beans.RegistrazioneBean.tipoPersistenza52
+
+(17:9)-(17:49)53
+
+tipoPersistenza54
+
+misc.PersistenceType56
+
+unknown57
+
+is type58
+
+
+uses59
+3
+-engclasses.beans.RegistrazioneBean.tipoUtente61
+
+(18:9)-(18:39)62
+
+
+tipoUtente63
+
+misc.TipoUtente65
+S
+Mengclasses.beans.RegistrazioneBean#getPersistenceType()Lmisc/PersistenceType;67
 
-method49
+method68
 
-(13:9)-(15:10)50
+(22:9)-(24:10)69
+
+getPersistenceType70
 
-getNome51
+returns71
 
 
-references52
-O
-Imain.java.engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)V54
+references72
+T
+Nengclasses.beans.RegistrazioneBean#setPersistenceType(Lmisc/PersistenceType;)V74
 
-(17:9)-(19:10)55
-
-setNome56
-
-
-uses57
-Q
-Kmain.java.engclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;59
+(25:9)-(27:10)75
+
+setPersistenceType76
+
+	has param77
+I
+Cengclasses.beans.RegistrazioneBean#getTipoUtente()Lmisc/TipoUtente;79
 
-(21:9)-(23:10)60
-
-
-getCognome61
-R
-Lmain.java.engclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V63
+(29:9)-(31:10)80
+
+getTipoUtente81
+J
+Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)V83
 
-(25:9)-(27:10)64
-
-
-setCognome65
-R
-Lmain.java.engclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;67
+(32:9)-(34:10)84
+
+setTipoUtente85
+I
+Cengclasses.beans.RegistrazioneBean#setIdUtente(Ljava/lang/String;)V87
 
-(29:9)-(31:10)68
+(36:9)-(36:60)88
 
-getUsername69
-S
-Mmain.java.engclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V71
+setIdUtente89
+H
+Bengclasses.beans.RegistrazioneBean#getIdUtente()Ljava/lang/String;91
 
-(33:9)-(35:10)72
+(38:9)-(38:49)92
 
-setUsername73
-O
-Imain.java.engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;75
+getIdUtente93
+D
+>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;95
 
-(37:9)-(39:10)76
+(40:9)-(42:10)96
+
+getNome97
+E
+?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)V99
+
+(44:9)-(46:10)100
 
-getEmail77
+setNome101
+H
+Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;103
+
+(48:9)-(50:10)104
+
+
+getCognome105
+I
+Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V107
+
+(52:9)-(54:10)108
+
+
+setCognome109
+I
+Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;111
+
+(56:9)-(58:10)112
+
+getUsername113
+J
+Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V115
+
+(60:9)-(62:10)116
+
+setUsername117
+F
+?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;119
+
+(64:9)-(66:10)120
+
+getEmail121
+G
+@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)V123
+
+(68:9)-(70:10)124
+
+setEmail125
+I
+Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;127
+
+(72:9)-(74:10)128
+
+getPassword129
+J
+Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V131
+
+(76:9)-(78:10)132
+
+setPassword133
 P
-Jmain.java.engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)V79
-
-(41:9)-(43:10)80
-
-setEmail81
-R
-Lmain.java.engclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;83
+Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;135
 
-(45:10)-(47:10)84
-
-getPassword85
-S
-Mmain.java.engclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V87
-
-(49:9)-(51:10)88
-
-setPassword89
-Y
-Smain.java.engclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;91
-
-(53:9)-(55:10)92
-
-getConfirmPassword93
-Z
-Tmain.java.engclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V95
-
-(57:9)-(59:10)96
-
-setConfirmPassword97
-O
-Imain.java.engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;99
-
-(61:9)-(63:10)100
-
-getCitta101
+(80:9)-(82:10)136
+
+getConfirmPassword137
 Q
-Jmain.java.engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V103
+Jengclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V139
 
-(65:9)-(67:10)104
+(84:9)-(86:10)140
+
+setConfirmPassword141
+F
+?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;143
+
+(88:9)-(90:10)144
 
-setCitta105J
+getCitta145
+G
+@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V147
+
+(92:9)-(94:10)148
+
+setCitta149J
 
 1
 12
@@ -177,11 +244,43 @@ Jmain.java.engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V103
 4 Z
 
 5
-5768jË
+5768jñ
+R
+142K
+14214368 *
+1X X(28:5B&
+
+
+11
+12
+
+13
+144
+
+15
+145
+M
+66G
+666768 *
+1  (228:5B$
+
+
+11
+12
+
+
+13
+69
+
+
+15
+70
 M
 27G
 272819 *
-1 ( 28:5B$
+1
+ 
+(28:5B$
 
 
 11
@@ -194,10 +293,221 @@ M
 
 15
 30
+
+64
+646557
+R
+122K
+12212368 *
+1D D(28:5B&
+
+
+11
+12
+
+13
+124
+
+15
+125
+M
+39G
+394019 *
+1 ( 28:5B$
+
+
+11
+20
+
+
+13
+41
+
+
+15
+42
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+R
+134K
+13413568 *
+1P P()28:5B&
+
+
+11
+12
+
+13
+136
+
+15
+137
+M
+47G
+474819 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+49
+
+
+15
+50
+M
+35G
+353619 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+37
+
+
+15
+38
+M
+90G
+909168 *
+1& &("28:5B$
+
+
+11
+12
+
+
+13
+92
+
+
+15
+93
+R
+110K
+11011168 *
+18 8("28:5B&
+
+
+11
+12
+
+13
+112
+
+15
+113
+M
+86G
+868768 *
+1$ $( 28:5B$
+
+
+11
+12
+
+
+13
+88
+
+
+15
+89
+R
+114K
+11411568 *
+1< <( 28:5B&
+
+
+11
+12
+
+13
+116
+
+15
+117
+R
+106K
+10610768 *
+14 4(28:5B&
+
+
+11
+12
+
+13
+108
+
+15
+109
+R
+102K
+10210368 *
+10 0(!28:5B&
+
+
+11
+12
+
+13
+104
+
+15
+105
+R
+126K
+12612768 *
+1H H("28:5B&
+
+
+11
+12
+
+13
+128
+
+15
+129
+R
+138K
+13813968 *
+1T T('28:5B&
+
+
+11
+12
+
+13
+140
+
+15
+141
 M
 31G
 313219 *
-1 (28:5B$
+1 ( 28:5B$
 
 
 11
@@ -211,91 +521,9 @@ M
 15
 34
 M
-39G
-394019 *
-1
- 
-('28:5B$
-
-
-11
-20
-
-
-13
-41
-
-
-15
-42
-M
-43G
-434419 *
-1 (28:5B$
-
-
-11
-20
-
-
-13
-45
-
-
-15
-46
-M
-47G
-474849 *
-1 (28:5B$
-
-
-11
-12
-
-
-13
-50
-
-
-15
-51
-M
-66G
-666749 *
-1 ("28:5B$
-
-
-11
-12
-
-
-13
-68
-
-
-15
-69
-M
-74G
-747549 *
-1% %(28:5B$
-
-
-11
-12
-
-
-13
-76
-
-
-15
-77
-M
 82G
-828349 *
-1- -(#28:5B$
+828368 *
+1   ("28:5B$
 
 
 11
@@ -308,118 +536,10 @@ M
 
 15
 85
-R
-102K
-10210349 *
-1A A(28:5B&
-
-
-11
-12
-
-13
-104
-
-15
-105
-M
-58G
-585949 *
-1 (!28:5B$
-
-
-11
-12
-
-
-13
-60
-
-
-15
-61
-M
-86G
-868749 *
-11 1( 28:5B$
-
-
-11
-12
-
-
-13
-88
-
-
-15
-89
-M
-78G
-787949 *
-1) )(28:5B$
-
-
-11
-12
-
-
-13
-80
-
-
-15
-81
-G
-8B
-8910 *
-1 (:5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
-M
-70G
-707149 *
-1! !( 28:5B$
-
-
-11
-12
-
-
-13
-72
-
-
-15
-73
-O
-98I
-989949 *
-1= =(28:5B&
-
-
-11
-12
-
-13
-100
-
-15
-101
 M
 17G
 171819 *
-1 (28:5B$
+1 (28:5B$
 
 
 11
@@ -432,26 +552,24 @@ M
 
 15
 22
-M
-90G
-909149 *
-15 5()28:5B$
+R
+118K
+11811968 *
+1@ @(28:5B&
 
 
 11
 12
-
-
-13
-92
-
-
-15
-93
+
+13
+120
+
+15
+121
 M
 94G
-949549 *
-19 9('28:5B$
+949568 *
+1( ((28:5B$
 
 
 11
@@ -465,9 +583,9 @@ M
 15
 97
 M
-53G
-535449 *
-1 (28:5B$
+78G
+787968 *
+1 ((28:5B$
 
 
 11
@@ -475,15 +593,61 @@ M
 
 
 13
-55
+80
 
 
 15
-56
+81
+R
+146K
+14614768 *
+1\ \(28:5B&
+
+
+11
+12
+
+13
+148
+
+15
+149
 M
-62G
-626349 *
-1 (28:5B$
+60G
+606119 *
+1 (&28:5B$
+
+
+11
+20
+
+
+13
+62
+
+
+15
+63
+M
+43G
+434419 *
+1 ('28:5B$
+
+
+11
+20
+
+
+13
+45
+
+
+15
+46
+M
+73G
+737468 *
+1 ('28:5B$
 
 
 11
@@ -491,15 +655,34 @@ M
 
 
 13
-64
+75
 
 
 15
-65
+76
+M
+51G
+515219 *
+1! (028:5B$
+
+
+11
+20
+
+
+13
+53
+
+
+15
+54
+
+55
+555657
 M
 23G
 232419 *
-1 (28:5B$
+1	 	(28:5B$
 
 
 11
@@ -512,103 +695,211 @@ M
 
 15
 26
-M
-35G
-353619 *
-1	 	( 28:5B$
+O
+98I
+989968 *
+1, ,(28:5B&
 
 
 11
-20
+12
+
+13
+100
+
+15
+101
+R
+130K
+13013168 *
+1L L( 28:5B&
 
 
-13
-37
-
-
-15
-38ré
+11
+12
+
+13
+132
+
+15
+133rØ
 
-471752*
-1 (
-
-53857*
-1 (
-
-53852*
-1 (
+515558*
+1 ( 
 
-531752*
-1 (
+515559*
+1 ( 
 
-582352*
-1 (
+515559*
+1! (0
+
+606458*
+1 (
+
+606459*
+1 (
+
+606459*
+1 (&
+
+665571*
+1 (
+
+665559*
+1 (
+
+665559*
+1 (#
+
+665172*
+1 (#
+
+735577*
+1( (7
+
+735558*
+18 (G
+
+735559*
+1( (7
 
-62857*
+73859*
 1 (
 
-62852*
+73872*
 1 (
 
-622352*
-1 (
+735559*
+1 (!
 
-662752*
-1 (
+735172*
+1 (!
+
+786471*
+1 (
+
+786459*
+1 (
+
+786459*
+1 (
+
+786072*
+1 (
+
+826477*
+1 #  (-
+
+826458*
+1 .  (8
+
+826459*
+1 #  (-
 
-70857*
-1" "(
+82859*
+1! !(
 
-70852*
-1" "(
+82872*
+1! !(
 
-702752*
-1" "(
+826459*
+1! !(
 
-743152*
-1& &(
+826072*
+1! !(
 
-78857*
-1* *(
+86859*
+1$- $(1
 
-78852*
-1* *(
+86872*
+1$- $(1
 
-783152*
-1* *(
+861772*
+1$2 $(4
 
-823552*
-1. .(
+901772*
+1&- &(/
+
+942372*
+1) )(
 
-86857*
-12 2(
+98859*
+1- -(
 
-86852*
-12 2(
+98872*
+1- -(
 
-863552*
-12 2(
-
-903952*
-16 6(#
-
-94857*
-1: :(
-
-94852*
-1: :(
-
-943952*
-1: :(!
-
-984352*
-1> >(
-
-102857*
-1B B(
-
-102852*
-1B B(
+982372*
+1- -(
 
-1024352*
-1B B(
+1022772*
+11 1(
+
+106859*
+15 5(
+
+106872*
+15 5(
+
+1062772*
+15 5(
+
+1103172*
+19 9(
+
+114859*
+1= =(
+
+114872*
+1= =(
+
+1143172*
+1= =(
+
+1183572*
+1A A(
+
+122859*
+1E E(
+
+122872*
+1E E(
+
+1223572*
+1E E(
+
+1263972*
+1I I(
+
+130859*
+1M M(
+
+130872*
+1M M(
+
+1303972*
+1M M(
+
+1344372*
+1Q Q(#
+
+138859*
+1U U(
+
+138872*
+1U U(
+
+1384372*
+1U U(!
+
+1424772*
+1Y Y(
+
+146859*
+1] ](
+
+146872*
+1] ](
+
+1464772*
+1] ](

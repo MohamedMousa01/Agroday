@@ -1,19 +1,19 @@
 
-%main.java.model.Annuncio#isScaduto()ZM
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaN N("1*¨
+model.Annuncio#isScaduto()ZM
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaN N("1*¢
 1O O(ç
 ä
 O O(
 %0java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
 
 __unknown_file ("
-java.time.LocalDatey
-w
+java.time.LocalDateo
+m
 O' O(8
-%1java.time.LocalDate"__id*J
+%1java.time.LocalDate"__id*@
 
-__unknown_file (.*,
-main.java.model.Annuncio"
+__unknown_file ($*"
+model.Annuncio"
 dataScadenza˝˙
 O O(9
 %2boolean"@java.time.LocalDate#isAfter(Ljava/time/chrono/ChronoLocalDate;)Z*7
@@ -26,5 +26,5 @@ w
 
 %1java.time.LocalDate2+isAfter(Ljava/time/chrono/ChronoLocalDate;)"
 O O(:
-""B
-main.java.model.AnnuncioHX
+""B
+model.AnnuncioHX

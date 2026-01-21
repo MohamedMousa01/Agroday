@@ -1,15 +1,69 @@
 
-2main.java.model.Utente#getNome()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java ("1*¡
-1 (l
-j
- (
-%0java.lang.String"__id*@
+bengclasses.dao.db.UtenteDAODB#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/UtenteDAODB.javab b(!"startingBlock*ô
+startingBlockb! b(SŒ
+‰
+a a(
+%1"
+__annotate*2
 
-__unknown_file ($*"
-main.java.model.Utente"
-nome"$
- (
-
-%0java.lang.StringB
-main.java.model.UtenteH
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+campojava.lang.StringY
+W
+b) b(.
+campojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1
+Š
+a a(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+valorejava.lang.StringZ
+X
+b7 b(=
+valorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Å
+1c c(“
+c c(:
+%0model.Utente"bengclasses.dao.db.UtenteDAODB#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;*=
+
+__unknown_file (!
+engclasses.dao.db.UtenteDAODB*7
+
+__unknown_file (
+
+campojava.lang.String*8
+
+__unknown_file (
+
+valorejava.lang.String*"
+
+__unknown_file (
+""26selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)" 
+c c(;
+
+%0model.Utente:%
+b" b(/
+campojava.lang.String:&
+b0 b(>
+valorejava.lang.String: 
+
+__unknown_file (
+""B!
+engclasses.dao.db.UtenteDAODBH

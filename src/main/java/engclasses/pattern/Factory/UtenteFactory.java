@@ -1,7 +1,7 @@
-package main.java.engclasses.pattern.Factory;
+package engclasses.pattern.Factory;
 
-import main.java.engclasses.beans.RegistrazioneBean;
-import main.java.model.Utente;
+import engclasses.beans.RegistrazioneBean;
+import model.Utente;
 
 
 // Mi sa che non serve a nulla e va cancellata

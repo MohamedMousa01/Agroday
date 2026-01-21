@@ -1,10 +1,10 @@
-package main.java.engclasses.dao.db;
+package engclasses.dao.db;
 
-import main.java.engclasses.dao.api.VenditoreDAO;
-import main.java.engclasses.exceptions.DatabaseConnessioneFallitaException;
-import main.java.engclasses.exceptions.DatabaseOperazioneFallitaException;
-import main.java.misc.PersistenceType;
-import main.java.model.Utente;
+import engclasses.dao.api.VenditoreDAO;
+import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
+import misc.PersistenceType;
+import model.Utente;
 
 public class VenditoreDAODB extends UtenteDAODB implements VenditoreDAO {
 

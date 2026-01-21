@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1768325450031*java2.B¡
+1.0MohamedMousa01_AgrodayJavaFrontend"1769002669062*java2.Bƒ
 Q
 Lsrc/main/java/engclasses/exceptions/DatabaseConnessioneFallitaException.java2
 	
@@ -8,10 +8,10 @@ Lsrc/main/java/engclasses/exceptions/DatabaseConnessioneFallitaException.java2
 MAIN4
 
 package6
-$
-main.java.engclasses.exceptions7
-H
-Cmain.java.engclasses.exceptions.DatabaseConnessioneFallitaException9
+
+engclasses.exceptions7
+>
+9engclasses.exceptions.DatabaseConnessioneFallitaException9
 
 	exception10
 
@@ -27,8 +27,8 @@ full-range13
 simple-name15
 )
 #DatabaseConnessioneFallitaException16
-z
-tmain.java.engclasses.exceptions.DatabaseConnessioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V18
+p
+jengclasses.exceptions.DatabaseConnessioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V18
 
 method19
 
@@ -45,22 +45,6 @@ tmain.java.engclasses.exceptions.DatabaseConnessioneFallitaException#<init>(Ljav
 
 5
 5768j˜
-G
-8B
-8910 *
-1 (1:5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
 M
 17G
 171819 *
@@ -73,6 +57,22 @@ M
 
 13
 20
+
+
+15
+16
+G
+8B
+8910 *
+1 (1:5B$
+
+
+11
+12
+
+
+13
+14
 
 
 15

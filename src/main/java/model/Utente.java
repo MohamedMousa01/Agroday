@@ -1,6 +1,6 @@
-package main.java.model;
+package model;
 
-import main.java.misc.TipoUtente;
+import misc.TipoUtente;
 
 public abstract class Utente {
     private String nome;
