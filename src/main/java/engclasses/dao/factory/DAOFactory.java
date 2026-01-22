@@ -8,8 +8,7 @@ import misc.TipoUtente;
 
 public abstract class DAOFactory {
 
-//    public abstract AgricoltoreDAO getAgricoltoreDAO();
-//    public abstract VenditoreDAO getVenditoreDAO();
+
 
     public abstract UtenteDAO getUtenteDAO(TipoUtente tipo);
     public abstract UtenteDAO getLoginUtenteDAO();

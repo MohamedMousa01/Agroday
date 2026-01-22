@@ -45,19 +45,6 @@ public class LoginController {      //dovrò mettere anche qui il tipo di persis
         }
     }
 
-//    public effettuaLogin(LoginBean loginBean, PersistenceType persistenzaLogin) throws LoginFallitoException, DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException
-//        {
-//
-//
-//
-//        // Validazione campi di login
-//        String errori = validaCampiLogin(loginBean);
-//        if (!errori.isEmpty()) {
-//            throw new LoginFallitoException(errori);
-//        }
-//
-//    }
-//
 
 
     // Metodo per validare i campi di login

@@ -129,7 +129,7 @@ public class UtenteDAODB implements UtenteDAO {
                 bean.setCognome(rs.getString("Cognome"));
                 bean.setCitta(rs.getString("Citta"));
                 // Assumendo che TipoUtente sia un enum o una String nel modello Utente
-                bean.setTipoUtente(TipoUtente.valueOf(rs.getString("TipoUtente")));
+                bean.setTipoUtente(TipoUtente.valueOf(rs.getString("Ruolo")));
 
                 TipoUtente ruolo = TipoUtente.valueOf(rs.getString("ruolo"));
                 UtenteFactory factory = UtenteFactoryProvider.getFactory(ruolo);
