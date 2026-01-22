@@ -5,6 +5,7 @@ import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
 import engclasses.dao.db.AgricoltoreDAODB;
 import engclasses.dao.db.ConsulenteDAODB;
+import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
 import engclasses.dao.fileSystem.AgricoltoreDAOFile;
 import engclasses.dao.fileSystem.ConsulenteDAOFile;
@@ -22,6 +23,11 @@ public class DAOFileFactory extends DAOFactory {
             case VENDITORE -> new VenditoreDAOFile();
             case CONSULENTE -> new ConsulenteDAOFile();
         };
+    }
+
+    @Override
+    public UtenteDAO getLoginUtenteDAO() {
+        return new UtenteDAODB();
     }
 
 }

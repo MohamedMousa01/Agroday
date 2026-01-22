@@ -16,7 +16,7 @@ public interface UtenteDAO {
 
     boolean esisteEmail(String email) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException;
 
-    Utente selezionaUtente(String username, String password, boolean persistence);
+    Utente selezionaUtente(String username, String password) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException;
 
     boolean aggiornaUtente(Utente utenteAggiornato, boolean persistence);
 }

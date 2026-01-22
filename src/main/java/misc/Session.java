@@ -53,4 +53,15 @@ public class Session {
         this.Annunci = Annunci;
     }
 
+    public void clearSession(){
+        utenteLoggato = null;
+        idAnnuncio = 0;
+
+        if (Annunci != null) {
+            Annunci.clear();
+        }
+
+        persistenceType = PersistenceType.MEMORY;
+    }
+
 }

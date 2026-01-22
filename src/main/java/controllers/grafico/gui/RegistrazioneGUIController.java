@@ -159,7 +159,7 @@ public class RegistrazioneGUIController {
             stage.show();
 
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // Added for debugging
             mostraAlert(Alert.AlertType.ERROR,
                     "Errore",
                     "Impossibile caricare la schermata di login");

@@ -35,9 +35,11 @@ public class UtenteDAOMemory implements UtenteDAO {
 
 
     @Override
-    public Utente selezionaUtente(String campo, String valore, boolean persistence) {
-
-        return bufferUtenti.get(valore);
+    public Utente selezionaUtente(String username, String password) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+        return bufferUtenti.values().stream()
+                .filter(u -> u.getUsername().equals(username) && u.getPassword().equals(password))
+                .findFirst()
+                .orElse(null);
     }
 
     @Override

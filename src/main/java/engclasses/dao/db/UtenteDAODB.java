@@ -1,10 +1,14 @@
 package engclasses.dao.db;
 
+import engclasses.beans.RegistrazioneBean;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.pattern.ConnessioneDB;
+import engclasses.pattern.Factory.UtenteFactory;
+import engclasses.pattern.Factory.UtenteFactoryProvider;
 import misc.PersistenceType;
+import misc.TipoUtente;
 import model.Utente;
 
 import java.sql.Connection;
@@ -69,8 +73,8 @@ public class UtenteDAODB implements UtenteDAO {
             throws DatabaseOperazioneFallitaException {
 
         String sql = """
-            INSERT INTO UTENTE (Id, Username, Email, Password, Nome, Cognome, Citta)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO UTENTE (Id, Username, Email, Password, Nome, Cognome, Citta, Ruolo)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """;
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -83,6 +87,7 @@ public class UtenteDAODB implements UtenteDAO {
             ps.setString(5, utente.getNome());
             ps.setString(6, utente.getCognome());
             ps.setString(7, utente.getCitta());
+            ps.setString(8, utente.getTipo().toString());
 
             ps.executeUpdate();
         }
@@ -95,9 +100,47 @@ public class UtenteDAODB implements UtenteDAO {
 
 
     @Override
-    public Utente selezionaUtente(String campo, String valore, boolean persistence) {
-        return selezionaUtente(campo, valore, persistence);
+    public Utente selezionaUtente(String username, String password) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+        String sql = """
+            SELECT Id, Username, Email, Password, Nome, Cognome, Citta, Ruolo
+            FROM UTENTE
+            WHERE Username = ? AND Password = ?
+            LIMIT 1
+        """;
 
+        try (Connection conn = ConnessioneDB.getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+
+            ps.setString(1, username);
+            ps.setString(2, password);
+
+            ResultSet rs = ps.executeQuery();
+
+
+            if (rs.next()) {
+
+                RegistrazioneBean bean = new RegistrazioneBean();  //posso leggere il database, salvare i dati in un bean, e poi passare i bean al metodo creaUtente()
+
+                bean.setIdUtente(rs.getString("Id"));
+                bean.setUsername(rs.getString("Username"));
+                bean.setEmail(rs.getString("Email"));
+                bean.setPassword(rs.getString("Password"));
+                bean.setNome(rs.getString("Nome"));
+                bean.setCognome(rs.getString("Cognome"));
+                bean.setCitta(rs.getString("Citta"));
+                // Assumendo che TipoUtente sia un enum o una String nel modello Utente
+                bean.setTipoUtente(TipoUtente.valueOf(rs.getString("TipoUtente")));
+
+                TipoUtente ruolo = TipoUtente.valueOf(rs.getString("ruolo"));
+                UtenteFactory factory = UtenteFactoryProvider.getFactory(ruolo);
+                Utente utente = factory.creaUtente(rs.getString("Id"),bean);
+
+                return utente;
+            }
+            return null; // Utente non trovato
+        } catch (SQLException e) {
+            throw new DatabaseOperazioneFallitaException("Errore durante la selezione utente per login.", e);
+        }
     }
 
     @Override

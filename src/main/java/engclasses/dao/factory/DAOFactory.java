@@ -12,6 +12,7 @@ public abstract class DAOFactory {
 //    public abstract VenditoreDAO getVenditoreDAO();
 
     public abstract UtenteDAO getUtenteDAO(TipoUtente tipo);
+    public abstract UtenteDAO getLoginUtenteDAO();
 
     public static DAOFactory getFactory(PersistenceType type) {
         return switch (type) {

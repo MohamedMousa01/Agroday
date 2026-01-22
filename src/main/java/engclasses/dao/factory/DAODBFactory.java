@@ -5,6 +5,7 @@ import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
 import engclasses.dao.db.AgricoltoreDAODB;
 import engclasses.dao.db.ConsulenteDAODB;
+import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
@@ -21,5 +22,10 @@ public class DAODBFactory extends DAOFactory{
             case VENDITORE -> new VenditoreDAODB();
             case CONSULENTE -> new ConsulenteDAODB();
         };
+    }
+
+    @Override
+    public UtenteDAO getLoginUtenteDAO() {
+        return new UtenteDAODB();
     }
 }

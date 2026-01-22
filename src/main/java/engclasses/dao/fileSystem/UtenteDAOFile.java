@@ -41,9 +41,9 @@ public class UtenteDAOFile implements UtenteDAO {
 
 
     @Override
-    public Utente selezionaUtente(String campo, String valore, boolean persistence) {
+    public Utente selezionaUtente(String campo, String valore) {
 
-        return selezionaUtente(campo, valore, persistence); //non ha senso cancella
+        return selezionaUtente(campo, valore); //non ha senso cancella
     }
 
 

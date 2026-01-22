@@ -3,11 +3,13 @@ package engclasses.dao.factory;
 import engclasses.dao.api.AgricoltoreDAO;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
+import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.fileSystem.AgricoltoreDAOFile;
 import engclasses.dao.fileSystem.ConsulenteDAOFile;
 import engclasses.dao.fileSystem.VenditoreDAOFile;
 import engclasses.dao.memory.AgricoltoreDAOMemory;
 import engclasses.dao.memory.ConsulenteDAOMemory;
+import engclasses.dao.memory.UtenteDAOMemory;
 import engclasses.dao.memory.VenditoreDAOMemory;
 import misc.TipoUtente;
 
@@ -20,5 +22,10 @@ public class DAOMemoryFactory extends DAOFactory {
             case VENDITORE -> new VenditoreDAOMemory();
             case CONSULENTE -> new ConsulenteDAOMemory();
         };
+    }
+
+    @Override
+    public UtenteDAO getLoginUtenteDAO() {
+        return new UtenteDAOMemory();
     }
 }

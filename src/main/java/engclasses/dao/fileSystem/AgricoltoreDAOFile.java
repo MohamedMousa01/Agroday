@@ -15,9 +15,9 @@ public class AgricoltoreDAOFile extends UtenteDAOFile implements AgricoltoreDAO 
     }
 
     @Override
-    public Utente selezionaUtente(String campo, String valore, boolean persistence) {
+    public Utente selezionaUtente(String campo, String valore) {
 
-        return selezionaUtente(campo, valore, persistence); //non ha senso cancella
+        return selezionaUtente(campo, valore); //non ha senso cancella
     }
 
     public boolean aggiornaUtente(Utente utenteAggiornato, boolean persistence){

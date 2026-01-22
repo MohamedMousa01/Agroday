@@ -1,9 +1,12 @@
 package engclasses.beans;
 
+import misc.PersistenceType;
+
 public class LoginBean {
 
         private String username;
         private String password;
+        private PersistenceType persistenzaLogin;
 
         // Getter per l'username
         public String getUsername() {
@@ -24,5 +27,10 @@ public class LoginBean {
         public void setPassword(String password) {
             this.password = password;
         }
+
+        public PersistenceType getPersistenzaLogin(){ return persistenzaLogin;}
+
+        public void setPersistenzaLogin( PersistenceType persistenzaLogin){ this.persistenzaLogin = persistenzaLogin;}
+
     }
 

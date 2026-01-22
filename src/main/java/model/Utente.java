@@ -8,7 +8,7 @@ public abstract class Utente {
     private String username;
     private String email;
     private String password;
-    private final String idUtente;
+    private String idUtente;
     private String citta;
 
     public abstract TipoUtente getTipo();
@@ -70,6 +70,7 @@ public abstract class Utente {
     public String getIdUtente() {
         return idUtente;
     }
+    public void setIdUtente(String idUtente){ this.idUtente = idUtente;}
 
     public void setCitta(String citta){
         this.citta = citta;
