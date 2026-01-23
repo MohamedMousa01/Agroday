@@ -2,7 +2,9 @@ package model;
 
 import misc.TipoUtente;
 
-public class Agricoltore extends model.Utente {
+import java.io.Serializable;
+
+public class Agricoltore extends model.Utente implements Serializable {
 
 
     @Override

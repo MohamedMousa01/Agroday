@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import misc.TipoUtente;
 
-public abstract class Utente {
+public abstract class Utente implements Serializable {
     private String nome;
     private String cognome;
     private String username;

@@ -2,7 +2,9 @@ package model;
 
 import misc.TipoUtente;
 
-public class Consulente extends Utente{
+import java.io.Serializable;
+
+public class Consulente extends Utente implements Serializable {
 
 
     @Override

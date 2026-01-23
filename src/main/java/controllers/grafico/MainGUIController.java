@@ -28,9 +28,9 @@ public class MainGUIController {
     public void initialize() {
         session = Session.getInstance();
         // Placeholder per impostare il testo di benvenuto, ad esempio:
-        // if (session.getUtenteCorrente() != null) {
-        //     welcomeLabel.setText("Benvenuto, " + session.getUtenteCorrente().getUsername() + "!");
-        // }
+         if (session.getUtenteLoggato() != null) {
+             welcomeLabel.setText("Benvenuto, " + session.getUtenteLoggato().getUsername() + "!");
+         }
 
         // Qui potresti popolare il annunciListContainer con annunci di esempio o caricarli dal database
         // Esempio: populateAnnunciList();

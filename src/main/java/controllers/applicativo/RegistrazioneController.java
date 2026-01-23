@@ -43,30 +43,36 @@ public class RegistrazioneController {
         try {
             verificaUnicita(bean);
         } catch (SQLException e) {
+            e.printStackTrace(); // Added for debugging
             throw new DatabaseOperazioneFallitaException(
                     "Errore durante la verifica di unicità", e);
         }
 
 
         //capisco con che tipo di utente ho a che fare, e quale tipo di persistenza è stata scelta
-        TipoUtente tipoUtente = bean.getTipoUtente();
-        PersistenceType tipoPersistenza = bean.getPersistenceType();
-
-        // creo la factory giusta dell'utente che mi serve
-        UtenteFactory factory = UtenteFactoryProvider.getFactory(tipoUtente);
-        Utente utente = factory.creaUtente(idUtente, bean);
-
-        //salvo in Sessione l'utente, e il tipo di persistenza.  Ma devo salvare il bean o il model????????
-        salvaDatiSessione(utente, tipoPersistenza); // vedi se devi salvare anche il tipo di utente, o renderlo intrinseco al model Utente
-
-
-        //try {
-            // ora lavoro nella DAO
-            //factoryDAO mi offre una soluzione polimorfa, getFactory mi creerà la factory giusta in base al parametro di persistenza che recupera dalla Sessione (Memory, File, Database)
-            DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
-            UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
-            dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
-
+                    TipoUtente tipoUtente = bean.getTipoUtente();
+                    PersistenceType tipoPersistenza = bean.getPersistenceType();
+                    System.out.println("DEBUG: RegistrazioneController - TipoUtente: " + tipoUtente + ", Persistenza: " + tipoPersistenza);
+        
+                    // creo la factory giusta dell'utente che mi serve
+                    UtenteFactory factory = UtenteFactoryProvider.getFactory(tipoUtente);
+                    Utente utente = factory.creaUtente(idUtente, bean);
+                    System.out.println("DEBUG: RegistrazioneController - Utente creato: " + utente.getUsername());
+        
+                    //salvo in Sessione l'utente, e il tipo di persistenza.  Ma devo salvare il bean o il model????????
+                    salvaDatiSessione(utente, tipoPersistenza); // vedi se devi salvare anche il tipo di utente, o renderlo intrinseco al model Utente
+                    System.out.println("DEBUG: RegistrazioneController - Dati sessione salvati.");
+        
+                    //try {
+                        // ora lavoro nella DAO
+                        System.out.println("DEBUG: RegistrazioneController - Ottenendo DAOFactory per persistenza: " + session.getPersistenceType());
+                        DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
+                        System.out.println("DEBUG: RegistrazioneController - DAOFactory ottenuta: " + factoryDAO.getClass().getSimpleName());
+                        System.out.println("DEBUG: RegistrazioneController - Ottenendo UtenteDAO per tipo: " + tipoUtente);
+                        UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
+                        System.out.println("DEBUG: RegistrazioneController - UtenteDAO ottenuta: " + dao.getClass().getSimpleName());
+                        System.out.println("DEBUG: RegistrazioneController - Chiamando aggiungiUtente.");
+                        dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
             // penso che il parametro session.getPersistenceType() non sia necessario perchè arrivato a quella chiamate
             //già so con che tipo di persistenza sto avendo a che fare. (dal metodo getFactory(session.getPersistenceType()))
 //        }

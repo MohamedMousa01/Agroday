@@ -10,18 +10,15 @@ import model.Utente;
 public class AgricoltoreDAOFile extends UtenteDAOFile implements AgricoltoreDAO {
 
     @Override
-    public void aggiungiUtente(Utente utente, PersistenceType tipo)  {
-
+    public void aggiungiUtente(Utente utente, PersistenceType tipo) throws DatabaseOperazioneFallitaException {
+        super.aggiungiUtente(utente, tipo);
     }
 
     @Override
-    public Utente selezionaUtente(String campo, String valore) {
-
-        return selezionaUtente(campo, valore); //non ha senso cancella
+    public Utente selezionaUtente(String username, String password) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+        return super.selezionaUtente(username, password);
     }
 
-    public boolean aggiornaUtente(Utente utenteAggiornato, boolean persistence){
-        return true;
-    }
+
 
 }

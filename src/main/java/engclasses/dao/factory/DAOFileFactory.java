@@ -9,6 +9,7 @@ import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
 import engclasses.dao.fileSystem.AgricoltoreDAOFile;
 import engclasses.dao.fileSystem.ConsulenteDAOFile;
+import engclasses.dao.fileSystem.UtenteDAOFile;
 import engclasses.dao.fileSystem.VenditoreDAOFile;
 import engclasses.dao.memory.AgricoltoreDAOMemory;
 import engclasses.dao.memory.VenditoreDAOMemory;
@@ -27,7 +28,7 @@ public class DAOFileFactory extends DAOFactory {
 
     @Override
     public UtenteDAO getLoginUtenteDAO() {
-        return new UtenteDAODB();
+        return new UtenteDAOFile();
     }
 
 }

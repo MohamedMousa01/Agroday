@@ -73,8 +73,10 @@ public class RegistrazioneGUIController {
 
     @FXML
     private void handleRegistrazione() {
+        System.out.println("DEBUG: handleRegistrazione() triggered.");
 
         try {
+            System.out.println("DEBUG: Calling determinaPersistenza().");
 
 //            // 1️⃣ Tipo utente
 //            TipoUtente tipoUtente = determinaTipoUtente();
@@ -82,13 +84,17 @@ public class RegistrazioneGUIController {
 
             // 2️⃣ Persistenza
             PersistenceType persistenceType = determinaPersistenza();
+            System.out.println("DEBUG: PersistenceType determined: " + persistenceType + ". Setting session.");
             session.setPersistenceType(persistenceType);
+            System.out.println("DEBUG: Calling creaBean().");
 
             // 3️⃣ Bean
             RegistrazioneBean bean = creaBean();
+            System.out.println("DEBUG: RegistrazioneBean created. Calling registraUtente().");
 
             // 4️⃣ Chiamata controller applicativo
             controllerApplicativo.registraUtente(bean);
+            System.out.println("DEBUG: registraUtente() returned successfully. Showing alert.");
 
             // 5️⃣ Feedback
             mostraAlert(Alert.AlertType.INFORMATION,
@@ -100,6 +106,9 @@ public class RegistrazioneGUIController {
 
         } catch (DatabaseConnessioneFallitaException | DatabaseOperazioneFallitaException e) {
             mostraAlert(Alert.AlertType.ERROR, "Errore di sistema", e.getMessage());
+        } catch (RuntimeException e) { // Catch all other unexpected runtime exceptions
+            e.printStackTrace();
+            mostraAlert(Alert.AlertType.ERROR, "Errore inatteso", "Si è verificato un errore inatteso: " + e.getMessage());
         }
     }
 
