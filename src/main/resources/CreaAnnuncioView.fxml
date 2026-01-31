@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.grafico.gui.CreaAnnuncioGUIController">
+
+    <center>
+        <VBox spacing="15" maxWidth="500">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <Label text="Crea Nuovo Annuncio"
+                   style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+            <TextField fx:id="titoloField" promptText="Titolo annuncio" />
+
+            <TextField fx:id="autoreField" promptText="Autore" />
+
+            <HBox spacing="10">
+                <DatePicker fx:id="dataCreazionePicker" disable="true"/>
+                <DatePicker fx:id="dataScadenzaPicker" promptText="Data scadenza"/>
+            </HBox>
+
+            <TextField fx:id="nomeProdottoField" promptText="Nome prodotto richiesto" />
+
+            <TextField fx:id="quantitaField" promptText="Quantità richiesta" />
+
+            <TextField fx:id="cittaField" promptText="Città" />
+
+            <TextArea fx:id="descrizioneField" promptText="Descrizione annuncio" prefRowCount="4" />
+
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <Button text="Annulla"
+                        onAction="#annulla"
+                        style="-fx-background-color: #95a5a6; -fx-text-fill: white;" />
+
+                <Button text="Pubblica Annuncio"
+                        onAction="#creaAnnuncio"
+                        style="-fx-background-color: #2ecc71; -fx-text-fill: white;" />
+            </HBox>
+
+        </VBox>
+    </center>
+
+</BorderPane>

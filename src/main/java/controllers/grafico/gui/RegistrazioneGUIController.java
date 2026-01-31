@@ -2,20 +2,16 @@ package controllers.grafico.gui;
 
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.RegistrazioneFallitaException;
+import engclasses.pattern.ViewFactory.ViewManager;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.stage.Stage;
 import misc.Session;
 import misc.PersistenceType;
 import misc.TipoUtente;
+import misc.ViewType;
 import engclasses.beans.RegistrazioneBean;
 import controllers.applicativo.RegistrazioneController;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
-
-import java.io.IOException;
 
 public class RegistrazioneGUIController {
 
@@ -96,10 +92,13 @@ public class RegistrazioneGUIController {
             controllerApplicativo.registraUtente(bean);
             System.out.println("DEBUG: registraUtente() returned successfully. Showing alert.");
 
-            // 5️⃣ Feedback
+            // 5️⃣ Feedback e navigazione
             mostraAlert(Alert.AlertType.INFORMATION,
                     "Registrazione completata",
                     "Utente registrato con successo!");
+            
+            // Naviga al login usando ViewManager
+            ViewManager.goTo(ViewType.LOGIN);
 
         } catch (RegistrazioneFallitaException e) {
             mostraAlert(Alert.AlertType.ERROR, "Errore di validazione", e.getMessage());
@@ -154,24 +153,8 @@ public class RegistrazioneGUIController {
 
     @FXML
     private void handleLoginLink() {
-        try {
-            FXMLLoader loader = new FXMLLoader(
-                    getClass().getResource("/login-view.fxml")
-            );
-
-            Parent root = loader.load();
-
-            Stage stage = (Stage) loginLink.getScene().getWindow();
-            stage.setScene(new Scene(root));
-            stage.setTitle("Login - Agroday");
-            stage.show();
-
-        } catch (IOException e) {
-            e.printStackTrace(); // Added for debugging
-            mostraAlert(Alert.AlertType.ERROR,
-                    "Errore",
-                    "Impossibile caricare la schermata di login");
-        }
+        // Naviga al login usando ViewManager
+        ViewManager.goTo(ViewType.LOGIN);
     }
 
 

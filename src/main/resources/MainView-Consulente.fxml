@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.grafico.gui.MainConsulenteGUIController"
+            style="-fx-background-color: linear-gradient(to bottom right, #f093fb, #f5576c);">
+
+    <!-- TOP - Header -->
+    <top>
+        <VBox style="-fx-background-color: rgba(255, 255, 255, 0.95); -fx-padding: 20;">
+            <HBox alignment="CENTER_LEFT" spacing="20">
+                <Label text="🎓 AGRODAY - Pannello Consulente" 
+                       style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #f5576c;"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Label fx:id="lblBenvenuto" text="Benvenuto!" 
+                       style="-fx-font-size: 16px; -fx-text-fill: #333;"/>
+            </HBox>
+            <Separator style="-fx-padding: 10 0 0 0;"/>
+        </VBox>
+    </top>
+
+    <!-- CENTER - Main Content -->
+    <center>
+        <VBox spacing="20" alignment="TOP_CENTER" style="-fx-padding: 40;">
+            
+            <!-- Card Container -->
+            <GridPane hgap="20" vgap="20" alignment="CENTER">
+                
+                <!-- Card 1: Richieste Consulenza -->
+                <VBox spacing="15" style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 30; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);" 
+                      GridPane.columnIndex="0" GridPane.rowIndex="0" prefWidth="300" prefHeight="200">
+                    <Label text="📬" style="-fx-font-size: 48px;"/>
+                    <Label text="Richieste Consulenza" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333;"/>
+                    <Label text="Visualizza le nuove richieste" wrapText="true" style="-fx-text-fill: #666;"/>
+                    <Region VBox.vgrow="ALWAYS"/>
+                    <Button fx:id="btnRichieste" text="Visualizza" onAction="#visualizzaRichieste"
+                            style="-fx-background-color: #f5576c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 30;"
+                            prefWidth="200"/>
+                </VBox>
+
+                <!-- Card 2: Consulenze in Corso -->
+                <VBox spacing="15" style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 30; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);" 
+                      GridPane.columnIndex="1" GridPane.rowIndex="0" prefWidth="300" prefHeight="200">
+                    <Label text="✅" style="-fx-font-size: 48px;"/>
+                    <Label text="Consulenze Accettate" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333;"/>
+                    <Label text="Gestisci le consulenze in corso" wrapText="true" style="-fx-text-fill: #666;"/>
+                    <Region VBox.vgrow="ALWAYS"/>
+                    <Button fx:id="btnConsulenzeAttive" text="Gestisci" onAction="#visualizzaConsulenzeAttive"
+                            style="-fx-background-color: #f5576c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 30;"
+                            prefWidth="200"/>
+                </VBox>
+
+                <!-- Card 3: I Miei Clienti -->
+                <VBox spacing="15" style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 30; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);" 
+                      GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="300" prefHeight="200">
+                    <Label text="👥" style="-fx-font-size: 48px;"/>
+                    <Label text="I Miei Clienti" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333;"/>
+                    <Label text="Elenco dei tuoi clienti" wrapText="true" style="-fx-text-fill: #666;"/>
+                    <Region VBox.vgrow="ALWAYS"/>
+                    <Button fx:id="btnClienti" text="Clienti" onAction="#visualizzaClienti"
+                            style="-fx-background-color: #f5576c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 30;"
+                            prefWidth="200"/>
+                </VBox>
+
+                <!-- Card 4: Profilo -->
+                <VBox spacing="15" style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 30; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);" 
+                      GridPane.columnIndex="1" GridPane.rowIndex="1" prefWidth="300" prefHeight="200">
+                    <Label text="👤" style="-fx-font-size: 48px;"/>
+                    <Label text="Il Mio Profilo" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333;"/>
+                    <Label text="Visualizza e modifica il tuo profilo" wrapText="true" style="-fx-text-fill: #666;"/>
+                    <Region VBox.vgrow="ALWAYS"/>
+                    <Button fx:id="btnProfilo" text="Profilo" onAction="#visualizzaProfilo"
+                            style="-fx-background-color: #f5576c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 30;"
+                            prefWidth="200"/>
+                </VBox>
+
+            </GridPane>
+
+        </VBox>
+    </center>
+
+    <!-- BOTTOM - Footer -->
+    <bottom>
+        <HBox alignment="CENTER" spacing="20" style="-fx-background-color: rgba(255, 255, 255, 0.95); -fx-padding: 15;">
+            <Button fx:id="btnLogout" text="🚪 Logout" onAction="#logout"
+                    style="-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 30;"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

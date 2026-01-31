@@ -1,20 +1,15 @@
 package controllers.grafico.gui;
 
 import controllers.applicativo.LoginController;
-import engclasses.beans.LoginBean;
+import engclasses.pattern.ViewFactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.LoginFallitoException;
 import misc.PersistenceType;
 import misc.Session;
-
-import java.io.IOException;
+import misc.ViewType;
 
 public class LoginGUIController {
 
@@ -84,13 +79,8 @@ public class LoginGUIController {
             if (autenticato) {
                 messageLabel.setStyle("-fx-text-fill: green; -fx-font-weight: bold;");
                 messageLabel.setText("Accesso effettuato!");
-                // Naviga alla schermata principale
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/MainView.fxml"));
-                Parent root = loader.load();
-                Stage stage = (Stage) loginButton.getScene().getWindow();
-                stage.setScene(new Scene(root));
-                stage.setTitle("Agroday");
-                stage.show();
+                // Naviga alla schermata principale usando ViewManager
+                ViewManager.goTo(ViewType.MAIN);
             } else {
                 messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
                 messageLabel.setText("Username o password errati!");
@@ -102,26 +92,12 @@ public class LoginGUIController {
             messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
             messageLabel.setText("Errore di sistema: " + e.getMessage());
             e.printStackTrace();
-        } catch (IOException e) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
-            messageLabel.setText("Errore di caricamento interfaccia: " + e.getMessage());
-            e.printStackTrace();
         }
     }
 
     @FXML
     private void handleRegistrazioneLink() {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/RegistrazioneView.fxml"));
-            Parent root = loader.load();
-            Stage stage = (Stage) registrazioneLink.getScene().getWindow();
-            stage.setScene(new Scene(root));
-            stage.setTitle("Registrazione - Agroday");
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
-            messageLabel.setText("Errore di caricamento interfaccia: " + e.getMessage());
-        }
+        // Naviga alla registrazione usando ViewManager
+        ViewManager.goTo(ViewType.REGISTRAZIONE);
     }
 }

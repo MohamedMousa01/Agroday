@@ -1,6 +1,5 @@
 package controllers.grafico.gui;
 
-import engclasses.pattern.ViewFactory.SceneManagerGUI;
 import engclasses.pattern.ViewFactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -14,45 +13,52 @@ import model.Utente;
 import java.util.Optional;
 
 /**
- * Controller per la view principale dell'Agricoltore
+ * Controller per la view principale del Venditore
  */
-public class MainGUIController {
+public class MainVenditoreGUIController {
 
-    @FXML private Label welcomeLabel;
-    @FXML private Button creaAnnuncioButton;
-    @FXML private Button cercaAnnunciButton;
-    @FXML private Button mieiAnnunciButton;
-    @FXML private Button logoutButton;
+    @FXML private Label lblBenvenuto;
+    @FXML private Button btnCercaAnnunci;
+    @FXML private Button btnVisualizzaAnnunci;
+    @FXML private Button btnOrdini;
+    @FXML private Button btnProfilo;
+    @FXML private Button btnLogout;
 
     @FXML
     public void initialize() {
         // Imposta messaggio di benvenuto
         Utente utente = Session.getInstance().getUtenteLoggato();
         if (utente != null) {
-            welcomeLabel.setText("Benvenuto, " + utente.getNome() + " " + utente.getCognome() + "!");
+            lblBenvenuto.setText("Benvenuto, " + utente.getNome() + " " + utente.getCognome() + "!");
         }
     }
 
     @FXML
-    private void showCreaAnnuncio() {
-        // Naviga alla view di creazione annuncio
-        ViewManager.goTo(ViewType.CREA_ANNUNCIO);
-    }
-
-    @FXML
-    private void showCercaAnnunci() {
-        // Naviga alla lista di tutti gli annunci
+    private void cercaAnnunci() {
+        // Naviga alla lista annunci (che ha già la ricerca integrata)
         ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
     }
 
     @FXML
-    private void showMieiAnnunci() {
-        // TODO: Implementare vista filtrata per annunci personali
+    private void visualizzaTuttiAnnunci() {
+        // Naviga alla lista completa annunci
         ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
     }
 
     @FXML
-    private void handleLogout() {
+    private void visualizzaOrdini() {
+        // Naviga agli ordini
+        ViewManager.goTo(ViewType.ORDINI);
+    }
+
+    @FXML
+    private void visualizzaProfilo() {
+        // Naviga al profilo
+        ViewManager.goTo(ViewType.PROFILO);
+    }
+
+    @FXML
+    private void logout() {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Conferma Logout");
         alert.setHeaderText("Sei sicuro di voler uscire?");

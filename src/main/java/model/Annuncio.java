@@ -8,32 +8,37 @@ import java.util.List;
 public class Annuncio {
 
     private final String idAnnuncio;
-    private final Agricoltore autore;
+    private final String nomeAutore;
 
     private final String titolo;
     private final String descrizione;
-    private double prezzo;
+    private double prezzo;  //xecec
     private int quantitaDesiderata;
     private int quantitaTotale;
     private final LocalDate dataPubblicazione;
     private final LocalDate dataScadenza;
+    private final String citta;
+
 
     public Annuncio(
-            Agricoltore autore,
+            String nomeAutore,
             String titolo,
             String descrizione,
-            double prezzo,
+            LocalDate dataPubblicazione,
+            String nomeProdotto,
             int quantitaDesiderata,
+            String citta,
             LocalDate dataScadenza) {
 
         this.idAnnuncio = UUID.randomUUID().toString();
-        this.autore = autore;
+        this.nomeAutore = nomeAutore;
         this.titolo = titolo;
         this.descrizione = descrizione;
         this.prezzo = prezzo;
         this.quantitaDesiderata = quantitaDesiderata;
         this.dataPubblicazione = LocalDate.now();
         this.dataScadenza = dataScadenza;
+        this.citta = citta;
     }
 
     // ======================
@@ -43,9 +48,13 @@ public class Annuncio {
     public String getId() {
         return idAnnuncio;
     }
+    
+    public String getIdAnnuncio() {
+        return idAnnuncio;
+    }
 
-    public Agricoltore getAutore() {
-        return autore;
+    public String getAutore() {
+        return nomeAutore;
     }
 
     public String getTitolo() {
@@ -66,6 +75,18 @@ public class Annuncio {
 
     public LocalDate getDataPubblicazione() {
         return dataPubblicazione;
+    }
+    
+    public LocalDate getDataCreazione() {
+        return dataPubblicazione;
+    }
+    
+    public int getQuantita() {
+        return quantitaDesiderata;
+    }
+    
+    public String getCitta() {
+        return citta;
     }
 
     public LocalDate getDataScadenza(){ return dataScadenza;}

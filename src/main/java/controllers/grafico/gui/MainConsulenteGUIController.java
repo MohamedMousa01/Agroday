@@ -1,6 +1,5 @@
 package controllers.grafico.gui;
 
-import engclasses.pattern.ViewFactory.SceneManagerGUI;
 import engclasses.pattern.ViewFactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -14,45 +13,58 @@ import model.Utente;
 import java.util.Optional;
 
 /**
- * Controller per la view principale dell'Agricoltore
+ * Controller per la view principale del Consulente
  */
-public class MainGUIController {
+public class MainConsulenteGUIController {
 
-    @FXML private Label welcomeLabel;
-    @FXML private Button creaAnnuncioButton;
-    @FXML private Button cercaAnnunciButton;
-    @FXML private Button mieiAnnunciButton;
-    @FXML private Button logoutButton;
+    @FXML private Label lblBenvenuto;
+    @FXML private Button btnRichieste;
+    @FXML private Button btnConsulenzeAttive;
+    @FXML private Button btnClienti;
+    @FXML private Button btnProfilo;
+    @FXML private Button btnLogout;
 
     @FXML
     public void initialize() {
         // Imposta messaggio di benvenuto
         Utente utente = Session.getInstance().getUtenteLoggato();
         if (utente != null) {
-            welcomeLabel.setText("Benvenuto, " + utente.getNome() + " " + utente.getCognome() + "!");
+            lblBenvenuto.setText("Benvenuto, " + utente.getNome() + " " + utente.getCognome() + "!");
         }
     }
 
     @FXML
-    private void showCreaAnnuncio() {
-        // Naviga alla view di creazione annuncio
-        ViewManager.goTo(ViewType.CREA_ANNUNCIO);
+    private void visualizzaRichieste() {
+        // Naviga alla gestione consulenze
+        ViewManager.goTo(ViewType.CONSULENZA);
     }
 
     @FXML
-    private void showCercaAnnunci() {
-        // Naviga alla lista di tutti gli annunci
-        ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
+    private void visualizzaConsulenzeAttive() {
+        // Naviga alla gestione consulenze
+        ViewManager.goTo(ViewType.CONSULENZA);
     }
 
     @FXML
-    private void showMieiAnnunci() {
-        // TODO: Implementare vista filtrata per annunci personali
-        ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
+    private void visualizzaClienti() {
+        // TODO: Creare view dedicata per clienti
+        mostraMessaggio("I Miei Clienti", 
+                       "La gestione clienti sarà disponibile a breve!\n\n" +
+                       "Potrai:\n" +
+                       "• Visualizzare elenco clienti\n" +
+                       "• Storico consulenze per cliente\n" +
+                       "• Note e documenti condivisi",
+                       Alert.AlertType.INFORMATION);
     }
 
     @FXML
-    private void handleLogout() {
+    private void visualizzaProfilo() {
+        // Naviga al profilo
+        ViewManager.goTo(ViewType.PROFILO);
+    }
+
+    @FXML
+    private void logout() {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Conferma Logout");
         alert.setHeaderText("Sei sicuro di voler uscire?");

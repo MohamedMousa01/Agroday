@@ -53,7 +53,8 @@ public class RegistrazioneController {
                     TipoUtente tipoUtente = bean.getTipoUtente();
                     PersistenceType tipoPersistenza = bean.getPersistenceType();
                     System.out.println("DEBUG: RegistrazioneController - TipoUtente: " + tipoUtente + ", Persistenza: " + tipoPersistenza);
-        
+
+
                     // creo la factory giusta dell'utente che mi serve
                     UtenteFactory factory = UtenteFactoryProvider.getFactory(tipoUtente);
                     Utente utente = factory.creaUtente(idUtente, bean);
@@ -65,13 +66,9 @@ public class RegistrazioneController {
         
                     //try {
                         // ora lavoro nella DAO
-                        System.out.println("DEBUG: RegistrazioneController - Ottenendo DAOFactory per persistenza: " + session.getPersistenceType());
                         DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
-                        System.out.println("DEBUG: RegistrazioneController - DAOFactory ottenuta: " + factoryDAO.getClass().getSimpleName());
-                        System.out.println("DEBUG: RegistrazioneController - Ottenendo UtenteDAO per tipo: " + tipoUtente);
                         UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
-                        System.out.println("DEBUG: RegistrazioneController - UtenteDAO ottenuta: " + dao.getClass().getSimpleName());
-                        System.out.println("DEBUG: RegistrazioneController - Chiamando aggiungiUtente.");
+
                         dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
             // penso che il parametro session.getPersistenceType() non sia necessario perchè arrivato a quella chiamate
             //già so con che tipo di persistenza sto avendo a che fare. (dal metodo getFactory(session.getPersistenceType()))
