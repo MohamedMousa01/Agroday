@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="650.0" prefWidth="550.0" 
+            style="-fx-background-color: linear-gradient(to bottom right, #6a11cb, #2575fc);" 
+            xmlns="http://javafx.com/javafx/17" 
+            xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="controllers.grafico.gui.DettaglioAppuntamentoGUIController">
+
+    <!-- Container principale -->
+    <VBox alignment="TOP_CENTER" layoutX="25.0" layoutY="25.0" prefWidth="500.0" spacing="15"
+          style="-fx-background-color: rgba(255,255,255,0.95); -fx-background-radius: 20; -fx-padding: 25;">
+
+        <!-- Titolo -->
+        <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #333;" 
+               text="Dettagli Appuntamento" />
+
+        <!-- Stato Badge -->
+        <HBox alignment="CENTER">
+            <Label fx:id="statoLabel" 
+                   style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-padding: 8 20; -fx-background-radius: 20;"/>
+        </HBox>
+
+        <Separator/>
+
+        <!-- Dettagli -->
+        <GridPane hgap="20" vgap="12" alignment="CENTER">
+            <!-- ID -->
+            <Label text="ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="idLabel" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+            <!-- Tipo Consulenza -->
+            <Label text="Tipo:" GridPane.columnIndex="0" GridPane.rowIndex="1" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="tipoLabel" GridPane.columnIndex="1" GridPane.rowIndex="1"
+                   style="-fx-font-weight: bold;"/>
+
+            <!-- Data -->
+            <Label text="Data:" GridPane.columnIndex="0" GridPane.rowIndex="2" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="dataLabel" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+            <!-- Orario -->
+            <Label text="Orario:" GridPane.columnIndex="0" GridPane.rowIndex="3" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="orarioLabel" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+            <!-- Durata -->
+            <Label text="Durata:" GridPane.columnIndex="0" GridPane.rowIndex="4" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="durataLabel" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+            <!-- Luogo -->
+            <Label text="Luogo:" GridPane.columnIndex="0" GridPane.rowIndex="5" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="luogoLabel" GridPane.columnIndex="1" GridPane.rowIndex="5" wrapText="true" maxWidth="300"/>
+
+            <!-- Consulente -->
+            <Label text="Consulente:" GridPane.columnIndex="0" GridPane.rowIndex="6" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="consulenteLabel" GridPane.columnIndex="1" GridPane.rowIndex="6"/>
+
+            <!-- Cliente -->
+            <Label text="Cliente:" GridPane.columnIndex="0" GridPane.rowIndex="7" 
+                   style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <Label fx:id="clienteLabel" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
+        </GridPane>
+
+        <Separator/>
+
+        <!-- Note -->
+        <VBox spacing="5">
+            <Label text="Note:" style="-fx-font-weight: bold; -fx-text-fill: #666;"/>
+            <TextArea fx:id="noteArea" prefHeight="60" editable="false" wrapText="true"
+                      style="-fx-background-color: #f8f9fa; -fx-background-radius: 10;"/>
+        </VBox>
+
+        <!-- Motivo cancellazione (visibile solo se cancellato) -->
+        <VBox fx:id="motivoCancellazioneBox" spacing="5" visible="false" managed="false">
+            <Label text="Motivo Cancellazione:" style="-fx-font-weight: bold; -fx-text-fill: #dc3545;"/>
+            <Label fx:id="motivoCancellazioneLabel" wrapText="true" 
+                   style="-fx-text-fill: #dc3545;"/>
+        </VBox>
+
+        <!-- Istruzioni consulenza -->
+        <VBox fx:id="istruzioniBox" spacing="5" 
+              style="-fx-background-color: #d4edda; -fx-padding: 10; -fx-background-radius: 10;">
+            <Label text="Istruzioni:" style="-fx-font-weight: bold; -fx-text-fill: #155724;"/>
+            <Label fx:id="istruzioniLabel" wrapText="true" maxWidth="450"
+                   style="-fx-text-fill: #155724; -fx-font-size: 12px;"/>
+        </VBox>
+
+        <!-- Link Calendario -->
+        <HBox fx:id="calendarioBox" alignment="CENTER" spacing="10" visible="false" managed="false">
+            <Label text="📅" style="-fx-font-size: 18px;"/>
+            <Button fx:id="apriCalendarioBtn" 
+                    onAction="#onApriCalendario"
+                    style="-fx-background-color: #4285f4; -fx-text-fill: white; -fx-background-radius: 10; -fx-cursor: hand;"
+                    text="Apri in Google Calendar" />
+        </HBox>
+
+        <!-- Messaggio -->
+        <Label fx:id="messageLabel" style="-fx-font-size: 13px; -fx-font-weight: bold;"/>
+
+        <!-- Bottoni -->
+        <HBox alignment="CENTER" spacing="15">
+            <Button fx:id="modificaBtn" 
+                    onAction="#onModifica"
+                    style="-fx-background-color: #ffc107; -fx-text-fill: #333; -fx-background-radius: 10; -fx-font-size: 13px; -fx-cursor: hand; -fx-padding: 8 20;"
+                    text="Modifica" />
+            <Button fx:id="cancellaBtn" 
+                    onAction="#onCancella"
+                    style="-fx-background-color: #dc3545; -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 13px; -fx-cursor: hand; -fx-padding: 8 20;"
+                    text="Cancella" />
+            <Button fx:id="confermaBtn" 
+                    onAction="#onConfermaAppuntamento"
+                    style="-fx-background-color: #28a745; -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 13px; -fx-cursor: hand; -fx-padding: 8 20;"
+                    text="Conferma" />
+            <Button fx:id="chiudiBtn" 
+                    onAction="#onChiudi"
+                    style="-fx-background-color: #6c757d; -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 13px; -fx-cursor: hand; -fx-padding: 8 20;"
+                    text="Chiudi" />
+        </HBox>
+    </VBox>
+</AnchorPane>

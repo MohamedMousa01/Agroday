@@ -1,52 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
-<?import javafx.scene.control.Hyperlink?>
-<?import javafx.scene.control.ToggleButton?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="625.0" prefWidth="550.0" style="-fx-background-color: linear-gradient(to bottom right, #6a11cb, #2575fc);" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.grafico.gui.LoginGUIController">
+<HBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="controllers.grafico.gui.LoginGUIController"
+      prefHeight="600" prefWidth="1000">
 
-    <!-- Box centrale -->
-    <VBox alignment="CENTER" layoutX="75.0" layoutY="143.0" prefHeight="300" prefWidth="400.0" spacing="20" style="-fx-background-color: rgba(255,255,255,0.85); -fx-background-radius: 20; -fx-padding: 30;">
+    <!-- ==================== PANNELLO SINISTRO - BRANDING ==================== -->
+    <VBox alignment="CENTER" prefWidth="420" spacing="30"
+          style="-fx-background-color: linear-gradient(to bottom, #2d5a27, #4a7c43, #6b9b37);">
+        <padding><Insets top="40" right="40" bottom="40" left="40"/></padding>
+        
+        <!-- Logo / Icona -->
+        <StackPane>
+            <Circle radius="70" fill="white" opacity="0.15"/>
+            <Circle radius="58" fill="white" opacity="0.2"/>
+            <Label text="🌾" style="-fx-font-size: 60px;"/>
+        </StackPane>
+        
+        <!-- Titolo Brand -->
+        <VBox alignment="CENTER" spacing="10">
+            <Label text="AGRODAY" style="-fx-text-fill: white; -fx-font-weight: bold;">
+                <font><Font size="48"/></font>
+            </Label>
+            <Label text="La tua piattaforma agricola digitale" 
+                   style="-fx-text-fill: rgba(255,255,255,0.9); -fx-font-style: italic;">
+                <font><Font size="16"/></font>
+            </Label>
+        </VBox>
+        
+        <!-- Descrizione -->
+        <VBox spacing="15" style="-fx-padding: 20 0 0 0;">
+            <Label text="Gestisci consulenze, appuntamenti e annunci" 
+                   style="-fx-text-fill: rgba(255,255,255,0.85); -fx-font-size: 14px;" 
+                   wrapText="true" textAlignment="CENTER"/>
+            <Label text="per il settore agricolo in un'unica piattaforma." 
+                   style="-fx-text-fill: rgba(255,255,255,0.85); -fx-font-size: 14px;"
+                   wrapText="true" textAlignment="CENTER"/>
+        </VBox>
+        
+        <!-- Stats/Features -->
+        <HBox spacing="30" alignment="CENTER" style="-fx-padding: 30 0 0 0;">
+            <VBox alignment="CENTER" spacing="5">
+                <Label text="🌱" style="-fx-font-size: 28px;"/>
+                <Label text="Agricoltori" style="-fx-text-fill: white; -fx-font-size: 12px;"/>
+            </VBox>
+            <VBox alignment="CENTER" spacing="5">
+                <Label text="👨‍🔬" style="-fx-font-size: 28px;"/>
+                <Label text="Consulenti" style="-fx-text-fill: white; -fx-font-size: 12px;"/>
+            </VBox>
+            <VBox alignment="CENTER" spacing="5">
+                <Label text="🏪" style="-fx-font-size: 28px;"/>
+                <Label text="Venditori" style="-fx-text-fill: white; -fx-font-size: 12px;"/>
+            </VBox>
+        </HBox>
+        
+        <!-- Footer branding -->
+        <Region VBox.vgrow="ALWAYS"/>
+        <Label text="© 2025 Agroday - Tutti i diritti riservati" 
+               style="-fx-text-fill: rgba(255,255,255,0.6); -fx-font-size: 11px;"/>
+    </VBox>
 
-        <!-- Titolo -->
-        <Label style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #333;" text="Benvenuto" />
-
-        <!-- Username -->
-        <TextField fx:id="usernameField" promptText="Username" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-padding: 10;" />
-
-        <!-- Password -->
-        <PasswordField fx:id="passwordField" promptText="Password" style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-padding: 10;" />
-
-        <!-- Tipo di persistenza -->
-        <VBox spacing="10">
-            <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Tipo di persistenza" />
-            <HBox alignment="CENTER" spacing="15">
-                <RadioButton fx:id="memoryRadio" selected="true" text="Memory (Demo)">
-                    <toggleGroup>
-                        <ToggleGroup fx:id="persistenceGroup" />
-                    </toggleGroup>
-                </RadioButton>
-                <RadioButton fx:id="fileRadio" text="File" toggleGroup="$persistenceGroup" />
-                <RadioButton fx:id="dbRadio" text="Database" toggleGroup="$persistenceGroup" />
+    <!-- ==================== PANNELLO DESTRO - FORM LOGIN ==================== -->
+    <VBox alignment="CENTER" style="-fx-background-color: #f8f9fa;" HBox.hgrow="ALWAYS">
+        <padding><Insets top="40" right="80" bottom="40" left="80"/></padding>
+        
+        <!-- Card Login -->
+        <VBox spacing="25" maxWidth="400" alignment="CENTER"
+              style="-fx-background-color: white; -fx-background-radius: 20; -fx-padding: 45;">
+            <effect>
+                <DropShadow color="rgba(0,0,0,0.1)" radius="25" offsetY="8"/>
+            </effect>
+            
+            <!-- Header -->
+            <VBox alignment="CENTER" spacing="8">
+                <Label text="Bentornato! 👋" style="-fx-text-fill: #2d5a27; -fx-font-weight: bold;">
+                    <font><Font size="28"/></font>
+                </Label>
+                <Label text="Accedi al tuo account per continuare" 
+                       style="-fx-text-fill: #6c757d;">
+                    <font><Font size="14"/></font>
+                </Label>
+            </VBox>
+            
+            <!-- Form Fields -->
+            <VBox spacing="18" style="-fx-padding: 10 0 0 0;">
+                <!-- Username -->
+                <VBox spacing="6">
+                    <Label text="👤 Username" style="-fx-text-fill: #495057; -fx-font-weight: bold; -fx-font-size: 13px;"/>
+                    <TextField fx:id="usernameField" promptText="Inserisci il tuo username"
+                               style="-fx-background-color: #f8f9fa; -fx-background-radius: 10; -fx-border-color: #dee2e6; -fx-border-radius: 10; -fx-padding: 14; -fx-font-size: 14px;"/>
+                </VBox>
+                
+                <!-- Password -->
+                <VBox spacing="6">
+                    <Label text="🔒 Password" style="-fx-text-fill: #495057; -fx-font-weight: bold; -fx-font-size: 13px;"/>
+                    <PasswordField fx:id="passwordField" promptText="Inserisci la tua password"
+                                   style="-fx-background-color: #f8f9fa; -fx-background-radius: 10; -fx-border-color: #dee2e6; -fx-border-radius: 10; -fx-padding: 14; -fx-font-size: 14px;"/>
+                </VBox>
+            </VBox>
+            
+            <!-- Modalità Dati -->
+            <VBox spacing="8">
+                <Separator style="-fx-background-color: #e9ecef;"/>
+                <Label text="💾 Modalità Dati" style="-fx-text-fill: #495057; -fx-font-weight: bold; -fx-font-size: 12px;"/>
+                <HBox spacing="15" alignment="CENTER">
+                    <RadioButton fx:id="memoryRadio" selected="true" text="🧪 Demo"
+                                 style="-fx-font-size: 12px;">
+                        <toggleGroup><ToggleGroup fx:id="persistenceGroup"/></toggleGroup>
+                    </RadioButton>
+                    <RadioButton fx:id="fileRadio" text="📁 File" toggleGroup="$persistenceGroup"
+                                 style="-fx-font-size: 12px;"/>
+                    <RadioButton fx:id="dbRadio" text="🗄️ Database" toggleGroup="$persistenceGroup"
+                                 style="-fx-font-size: 12px;"/>
+                </HBox>
+            </VBox>
+            
+            <!-- Messaggio errore -->
+            <Label fx:id="messageLabel" wrapText="true" textAlignment="CENTER"
+                   style="-fx-font-size: 13px;"/>
+            
+            <!-- Bottone Login -->
+            <Button fx:id="loginButton" text="Accedi" onAction="#onLoginClick"
+                    prefWidth="Infinity" prefHeight="50"
+                    style="-fx-background-color: linear-gradient(to right, #2d5a27, #4a7c43); -fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold; -fx-background-radius: 12; -fx-cursor: hand;">
+                <effect><DropShadow color="rgba(45,90,39,0.4)" radius="10" offsetY="4"/></effect>
+            </Button>
+            
+            <!-- Link registrazione -->
+            <HBox alignment="CENTER" spacing="5">
+                <Label text="Non hai un account?" style="-fx-text-fill: #6c757d; -fx-font-size: 13px;"/>
+                <Hyperlink fx:id="registrazioneLink" text="Registrati ora" onAction="#handleRegistrazioneLink"
+                           style="-fx-text-fill: #2d5a27; -fx-font-size: 13px; -fx-font-weight: bold;"/>
             </HBox>
         </VBox>
-
-        <!-- Bottone Login -->
-        <Button fx:id="loginButton" onAction="#onLoginClick" style="-fx-background-color: #6a11cb; -fx-text-fill: white; -fx-background-radius: 15; -fx-font-size: 14px;" text="Login" />
-
-        <!-- Messaggio -->
-        <Label fx:id="messageLabel" style="-fx-text-fill: red; -fx-font-weight: bold;" />
-
-        <!-- Link Registrazione -->
-        <Hyperlink fx:id="registrazioneLink" text="Non hai un account? Registrati qui." onAction="#handleRegistrazioneLink" />
+        
+        <!-- Footer info -->
+        <Label text="Accesso sicuro • I tuoi dati sono protetti" 
+               style="-fx-text-fill: #adb5bd; -fx-font-size: 11px; -fx-padding: 20 0 0 0;"/>
     </VBox>
-</AnchorPane>
+</HBox>
