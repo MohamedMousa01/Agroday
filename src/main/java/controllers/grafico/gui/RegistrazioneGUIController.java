@@ -139,7 +139,6 @@ public class RegistrazioneGUIController {
         bean.setTipoUtente(determinaTipoUtente());
         bean.setCitta(cittaField.getText());
 
-
         return bean;
     }
 

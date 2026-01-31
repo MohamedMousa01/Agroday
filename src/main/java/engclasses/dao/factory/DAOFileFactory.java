@@ -1,6 +1,7 @@
 package engclasses.dao.factory;
 
 import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
 import engclasses.dao.db.AgricoltoreDAODB;
@@ -8,6 +9,7 @@ import engclasses.dao.db.ConsulenteDAODB;
 import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
 import engclasses.dao.fileSystem.AgricoltoreDAOFile;
+import engclasses.dao.fileSystem.AppuntamentoDAOFile;
 import engclasses.dao.fileSystem.ConsulenteDAOFile;
 import engclasses.dao.fileSystem.UtenteDAOFile;
 import engclasses.dao.fileSystem.VenditoreDAOFile;
@@ -31,4 +33,8 @@ public class DAOFileFactory extends DAOFactory {
         return new UtenteDAOFile();
     }
 
+    @Override
+    public AppuntamentoDAO getAppuntamentoDAO() {
+        return new AppuntamentoDAOFile();
+    }
 }

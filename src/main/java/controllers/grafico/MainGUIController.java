@@ -7,7 +7,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox; // Importa VBox
+import javafx.scene.layout.VBox;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import misc.Session;
 import java.io.IOException;
@@ -19,21 +20,29 @@ public class MainGUIController {
     @FXML private Button creaAnnuncioButton;
     @FXML private Button cercaAnnunciButton;
     @FXML private Button mieiAnnunciButton;
-    @FXML private StackPane contentPane; // Area per il contenuto dinamico
-    @FXML private VBox annunciListContainer; // Nuovo: per l'elenco annunci in formato orizzontale
+    @FXML private Button mieiAppuntamentiButton;
+    @FXML private Button prenotaConsulenzaButton;
+    @FXML private StackPane contentPane;
+    @FXML private VBox annunciListContainer;
 
     private Session session;
 
     @FXML
     public void initialize() {
         session = Session.getInstance();
-        // Placeholder per impostare il testo di benvenuto, ad esempio:
-         if (session.getUtenteLoggato() != null) {
-             welcomeLabel.setText("Benvenuto, " + session.getUtenteLoggato().getUsername() + "!");
-         }
+        
+        // Imposta il messaggio di benvenuto
+        if (session.getUtenteLoggato() != null) {
+            String tipoUtente = session.getUtenteLoggato().getTipo().name();
+            welcomeLabel.setText("Benvenuto, " + session.getUtenteLoggato().getUsername() + " (" + tipoUtente + ")");
+        }
 
-        // Qui potresti popolare il annunciListContainer con annunci di esempio o caricarli dal database
-        // Esempio: populateAnnunciList();
+        // Mostra indicatore modalità
+        if (session.isModalitaDemo()) {
+            System.out.println("[INFO] Modalità DEMO attiva - I dati non saranno persistiti");
+        } else {
+            System.out.println("[INFO] Modalità FULL attiva - Persistenza e Google Calendar abilitati");
+        }
     }
 
     @FXML
@@ -45,42 +54,87 @@ public class MainGUIController {
             stage.setScene(new Scene(root));
             stage.setTitle("Login - Agroday");
             stage.show();
-            session.clearSession(); // Pulisce i dati della sessione
+            session.clearSession();
         } catch (IOException e) {
             e.printStackTrace();
-            // Gestire l'errore di caricamento
+            showErrorAlert("Errore nel caricamento della pagina di login.");
         }
     }
+
+    // ==================== Navigazione Annunci ====================
 
     @FXML
     private void showCreaAnnuncio() {
         System.out.println("Mostra Crea Annuncio");
-        // Esempio: loadViewIntoCenter("/path/to/crea-annuncio-view.fxml");
+        // loadViewIntoCenter("/CreaAnnuncioView.fxml");
     }
 
     @FXML
     private void showCercaAnnunci() {
         System.out.println("Mostra Cerca Annunci");
-        // Esempio: loadViewIntoCenter("/path/to/cerca-annunci-view.fxml");
+        // loadViewIntoCenter("/CercaAnnunciView.fxml");
     }
 
     @FXML
     private void showMieiAnnunci() {
         System.out.println("Mostra I Miei Annunci");
-        // Esempio: loadViewIntoCenter("/path/to/miei-annunci-view.fxml");
+        // loadViewIntoCenter("/MieiAnnunciView.fxml");
     }
 
-    // Metodo di supporto per caricare un FXML nel contentPane (o sostituire il contenuto di annunciListContainer)
+    // ==================== Navigazione Appuntamenti/Consulenze ====================
+
+    @FXML
+    private void showMieiAppuntamenti() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/ListaAppuntamentiView.fxml"));
+            Parent root = loader.load();
+            Stage stage = (Stage) mieiAppuntamentiButton.getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.setTitle("I Miei Appuntamenti - Agroday");
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+            showErrorAlert("Errore nel caricamento della lista appuntamenti.");
+        }
+    }
+
+    @FXML
+    private void showPrenotaConsulenza() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/PrenotazioneView.fxml"));
+            Parent root = loader.load();
+            
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setTitle("Prenota Consulenza - Agroday");
+            stage.setScene(new Scene(root));
+            stage.showAndWait();
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+            showErrorAlert("Errore nel caricamento della finestra di prenotazione.");
+        }
+    }
+
+    // ==================== Metodi di Utilità ====================
+
     private void loadViewIntoCenter(String fxmlPath) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlPath));
             Parent view = loader.load();
-            contentPane.getChildren().setAll(view); // Sostituisce l'intero contenuto del StackPane
-            // Se volessi sostituire solo il contenuto della lista:
-            // annunciListContainer.getChildren().setAll(view);
+            contentPane.getChildren().setAll(view);
         } catch (IOException e) {
             e.printStackTrace();
-            // Gestire l'errore di caricamento della vista
+            showErrorAlert("Errore nel caricamento della vista: " + fxmlPath);
         }
+    }
+
+    private void showErrorAlert(String message) {
+        javafx.scene.control.Alert alert = new javafx.scene.control.Alert(
+                javafx.scene.control.Alert.AlertType.ERROR);
+        alert.setTitle("Errore");
+        alert.setHeaderText(null);
+        alert.setContentText(message);
+        alert.showAndWait();
     }
 }

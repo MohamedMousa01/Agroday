@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="350.0" prefWidth="450.0" 
+            style="-fx-background-color: linear-gradient(to bottom right, #dc3545, #c82333);" 
+            xmlns="http://javafx.com/javafx/17" 
+            xmlns:fx="http://javafx.com/fxml/1" 
+            fx:controller="controllers.grafico.gui.CancellazioneAppuntamentoGUIController">
+
+    <!-- Container principale -->
+    <VBox alignment="CENTER" layoutX="25.0" layoutY="25.0" prefWidth="400.0" spacing="20"
+          style="-fx-background-color: rgba(255,255,255,0.95); -fx-background-radius: 20; -fx-padding: 25;">
+
+        <!-- Icona e Titolo -->
+        <Label style="-fx-font-size: 40px;" text="⚠️"/>
+        <Label style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #dc3545;" 
+               text="Cancella Appuntamento" />
+
+        <!-- Info appuntamento -->
+        <VBox spacing="5" style="-fx-background-color: #f8f9fa; -fx-padding: 15; -fx-background-radius: 10;">
+            <Label fx:id="infoAppuntamentoLabel" wrapText="true" 
+                   style="-fx-font-size: 14px; -fx-text-fill: #333;"/>
+        </VBox>
+
+        <!-- Motivo cancellazione -->
+        <VBox spacing="8">
+            <Label text="Motivo della cancellazione:" style="-fx-font-weight: bold;"/>
+            <TextArea fx:id="motivoArea" prefHeight="80" promptText="Inserisci il motivo (opzionale)"
+                      style="-fx-background-radius: 10;"/>
+        </VBox>
+
+        <!-- Messaggio -->
+        <Label fx:id="messageLabel" style="-fx-font-size: 13px; -fx-font-weight: bold;"/>
+
+        <!-- Bottoni -->
+        <HBox alignment="CENTER" spacing="20">
+            <Button fx:id="annullaBtn" 
+                    onAction="#onAnnulla"
+                    style="-fx-background-color: #6c757d; -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 14px; -fx-cursor: hand; -fx-padding: 10 30;"
+                    text="Annulla" />
+            <Button fx:id="confermaBtn" 
+                    onAction="#onConfermaCancellazione"
+                    style="-fx-background-color: #dc3545; -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 14px; -fx-cursor: hand; -fx-padding: 10 30;"
+                    text="Conferma Cancellazione" />
+        </HBox>
+    </VBox>
+</AnchorPane>

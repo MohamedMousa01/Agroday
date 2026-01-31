@@ -1,6 +1,7 @@
 package engclasses.dao.factory;
 
 import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
 import engclasses.dao.db.UtenteDAODB;
@@ -8,6 +9,7 @@ import engclasses.dao.fileSystem.AgricoltoreDAOFile;
 import engclasses.dao.fileSystem.ConsulenteDAOFile;
 import engclasses.dao.fileSystem.VenditoreDAOFile;
 import engclasses.dao.memory.AgricoltoreDAOMemory;
+import engclasses.dao.memory.AppuntamentoDAOMemory;
 import engclasses.dao.memory.ConsulenteDAOMemory;
 import engclasses.dao.memory.UtenteDAOMemory;
 import engclasses.dao.memory.VenditoreDAOMemory;
@@ -27,5 +29,10 @@ public class DAOMemoryFactory extends DAOFactory {
     @Override
     public UtenteDAO getLoginUtenteDAO() {
         return new UtenteDAOMemory();
+    }
+
+    @Override
+    public AppuntamentoDAO getAppuntamentoDAO() {
+        return new AppuntamentoDAOMemory();
     }
 }

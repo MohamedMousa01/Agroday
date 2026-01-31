@@ -1,9 +1,11 @@
 package engclasses.dao.factory;
 
 import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
 import engclasses.dao.db.AgricoltoreDAODB;
+import engclasses.dao.db.AppuntamentoDAODB;
 import engclasses.dao.db.ConsulenteDAODB;
 import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
@@ -27,5 +29,10 @@ public class DAODBFactory extends DAOFactory{
     @Override
     public UtenteDAO getLoginUtenteDAO() {
         return new UtenteDAODB();
+    }
+
+    @Override
+    public AppuntamentoDAO getAppuntamentoDAO() {
+        return new AppuntamentoDAODB();
     }
 }
