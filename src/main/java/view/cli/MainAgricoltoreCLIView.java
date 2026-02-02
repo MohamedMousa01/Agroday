@@ -28,10 +28,11 @@ public class MainAgricoltoreCLIView {
         System.out.println("├────────────────────────────────────────────────────────┤");
         System.out.println("│  1) 📝 Crea Nuovo Annuncio                             │");
         System.out.println("│  2) 📋 Visualizza Miei Annunci                         │");
-        System.out.println("│  3) 📊 Statistiche Annunci                             │");
-        System.out.println("│  4) 💬 Richiedi Consulenza                             │");
-        System.out.println("│  5) 👤 Il Mio Profilo                                  │");
-        System.out.println("│  6) ⚙️  Impostazioni                                    │");
+        System.out.println("│  3) 🔍 Cerca Tutti gli Annunci                         │");
+        System.out.println("│  4) 📊 Statistiche Annunci                             │");
+        System.out.println("│  5) 💬 Richiedi Consulenza                             │");
+        System.out.println("│  6) 👤 Il Mio Profilo                                  │");
+        System.out.println("│  7) ⚙️  Impostazioni                                    │");
         System.out.println("│  0) 🚪 Logout                                          │");
         System.out.println("└────────────────────────────────────────────────────────┘");
     }

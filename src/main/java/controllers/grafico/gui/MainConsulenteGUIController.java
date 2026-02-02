@@ -35,15 +35,11 @@ public class MainConsulenteGUIController {
 
     @FXML
     private void visualizzaRichieste() {
-        // Naviga alla gestione consulenze
-        ViewManager.goTo(ViewType.CONSULENZA);
+        // Naviga alla lista appuntamenti (mostra tutti gli appuntamenti del consulente)
+        ViewManager.goTo(ViewType.LISTA_APPUNTAMENTI);
     }
 
-    @FXML
-    private void visualizzaConsulenzeAttive() {
-        // Naviga alla gestione consulenze
-        ViewManager.goTo(ViewType.CONSULENZA);
-    }
+
 
     @FXML
     private void visualizzaClienti() {

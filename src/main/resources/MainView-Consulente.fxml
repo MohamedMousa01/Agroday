@@ -43,18 +43,7 @@
                             prefWidth="200"/>
                 </VBox>
 
-                <!-- Card 2: Consulenze in Corso -->
-                <VBox spacing="15" style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 30; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);" 
-                      GridPane.columnIndex="1" GridPane.rowIndex="0" prefWidth="300" prefHeight="200">
-                    <Label text="✅" style="-fx-font-size: 48px;"/>
-                    <Label text="Consulenze Accettate" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333;"/>
-                    <Label text="Gestisci le consulenze in corso" wrapText="true" style="-fx-text-fill: #666;"/>
-                    <Region VBox.vgrow="ALWAYS"/>
-                    <Button fx:id="btnConsulenzeAttive" text="Gestisci" onAction="#visualizzaConsulenzeAttive"
-                            style="-fx-background-color: #f5576c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 30;"
-                            prefWidth="200"/>
-                </VBox>
-
+                
                 <!-- Card 3: I Miei Clienti -->
                 <VBox spacing="15" style="-fx-background-color: white; -fx-background-radius: 15; -fx-padding: 30; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);" 
                       GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="300" prefHeight="200">

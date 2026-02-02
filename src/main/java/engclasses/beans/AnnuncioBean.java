@@ -1,5 +1,6 @@
 package engclasses.beans;
 
+// da controllare le classi, non so se nl bean ci possono essere altri metodi oltre a setter e getter
 import java.time.LocalDate;
 
 /**
@@ -16,6 +17,9 @@ public class AnnuncioBean {
     private int quantita;
     private String citta;
     private double prezzo;
+    private String stato;
+    private int quantitaTotale;
+    private int numeroPartecipanti;
 
     // Costruttore vuoto
     public AnnuncioBean() {}
@@ -91,5 +95,37 @@ public class AnnuncioBean {
 
     public void setPrezzo(double prezzo) {
         this.prezzo = prezzo;
+    }
+
+    public String getStato() {
+        return stato;
+    }
+
+    public void setStato(String stato) {
+        this.stato = stato;
+    }
+
+    public int getQuantitaTotale() {
+        return quantitaTotale;
+    }
+
+    public void setQuantitaTotale(int quantitaTotale) {
+        this.quantitaTotale = quantitaTotale;
+    }
+
+    public int getNumeroPartecipanti() {
+        return numeroPartecipanti;
+    }
+
+    public void setNumeroPartecipanti(int numeroPartecipanti) {
+        this.numeroPartecipanti = numeroPartecipanti;
+    }
+
+    public boolean isScaduto() {
+        return "SCADUTO".equals(stato) || (dataScadenza != null && LocalDate.now().isAfter(dataScadenza));
+    }
+
+    public boolean isAttivo() {
+        return "ATTIVO".equals(stato) && !isScaduto();
     }
 }

@@ -51,11 +51,19 @@ public class ViewManager {
 
             case VISUALIZZA_ANNUNCI -> SceneManagerGUI.load("/VisualizzaAnnunciView.fxml", "Visualizza Annunci");
 
+            case VISUALIZZA_OFFERTE -> SceneManagerGUI.load("/VisualizzaOfferteView.fxml", "Le Mie Offerte");
+
             case GESTIONE_PRODOTTI -> SceneManagerGUI.load("/VisualizzaAnnunciView.fxml", "Gestione Prodotti");
 
             case ORDINI -> SceneManagerGUI.load("/OrdiniView.fxml", "I Miei Ordini");
 
             case CONSULENZA -> SceneManagerGUI.load("/ConsulenzaView.fxml", "Consulenze");
+
+            // Appuntamenti (use case futuro)
+            case LISTA_APPUNTAMENTI -> SceneManagerGUI.load("/ListaAppuntamentiView.fxml", "I Miei Appuntamenti");
+            case DETTAGLIO_APPUNTAMENTO -> SceneManagerGUI.load("/DettaglioAppuntamentoView.fxml", "Dettaglio Appuntamento");
+            case PRENOTAZIONE -> SceneManagerGUI.load("/PrenotazioneView.fxml", "Prenota Appuntamento");
+            case CANCELLAZIONE_APPUNTAMENTO -> SceneManagerGUI.load("/CancellazioneAppuntamentoView.fxml", "Cancella Appuntamento");
         }
     }
 

@@ -10,9 +10,43 @@ public class SceneManagerGUI {
 
         private static Stage stage;
         private static FXMLLoader currentLoader;
+        private static boolean mostraSoloMieiAnnunci = false;
+        private static boolean mostraPartecipazioniUtente = false;
 
         private SceneManagerGUI() {
             // Costruttore privato per utility class
+        }
+
+        /**
+         * Imposta il flag per mostrare solo gli annunci dell'utente loggato
+         * @param soloMiei true per mostrare solo i propri annunci, false per tutti
+         */
+        public static void setMostraSoloMieiAnnunci(boolean soloMiei) {
+            mostraSoloMieiAnnunci = soloMiei;
+        }
+
+        /**
+         * Ottiene il flag per il filtro annunci
+         * @return true se mostrare solo i propri annunci
+         */
+        public static boolean isMostraSoloMieiAnnunci() {
+            return mostraSoloMieiAnnunci;
+        }
+
+        /**
+         * Imposta il flag per mostrare solo le partecipazioni dell'utente
+         * @param mostraPartecipazioni true per mostrare annunci a cui ha partecipato
+         */
+        public static void setMostraPartecipazioniUtente(boolean mostraPartecipazioni) {
+            mostraPartecipazioniUtente = mostraPartecipazioni;
+        }
+
+        /**
+         * Ottiene il flag per le partecipazioni
+         * @return true se mostrare solo partecipazioni
+         */
+        public static boolean isMostraPartecipazioniUtente() {
+            return mostraPartecipazioniUtente;
         }
 
         public static void setStage(Stage primaryStage) {
@@ -32,6 +66,28 @@ public class SceneManagerGUI {
                 currentLoader = new FXMLLoader(
                         SceneManagerGUI.class.getResource(fxmlPath)
                 );
+                
+                // Se è la view degli annunci, imposta i flag PRIMA di caricare
+                if (fxmlPath.contains("VisualizzaAnnunci")) {
+                    currentLoader.setControllerFactory(controllerClass -> {
+                        try {
+                            Object controller = controllerClass.getDeclaredConstructor().newInstance();
+                            if (controller instanceof controllers.grafico.gui.VisualizzaAnnunciGUIController) {
+                                ((controllers.grafico.gui.VisualizzaAnnunciGUIController) controller)
+                                    .setMostraSoloMieiAnnunci(mostraSoloMieiAnnunci);
+                                ((controllers.grafico.gui.VisualizzaAnnunciGUIController) controller)
+                                    .setMostraPartecipazioni(mostraPartecipazioniUtente);
+                                // Reset flag dopo l'uso
+                                mostraSoloMieiAnnunci = false;
+                                mostraPartecipazioniUtente = false;
+                            }
+                            return controller;
+                        } catch (Exception e) {
+                            throw new RuntimeException("Errore nella creazione del controller", e);
+                        }
+                    });
+                }
+                
                 Scene scene = new Scene(currentLoader.load());
                 stage.setScene(scene);
                 stage.show();

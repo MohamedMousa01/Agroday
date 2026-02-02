@@ -283,15 +283,8 @@ public class ListaAppuntamentiGUIController {
 
     @FXML
     private void onTornaIndietro() {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/MainView.fxml"));
-            Parent root = loader.load();
-            Stage stage = (Stage) tornaIndietroBtn.getScene().getWindow();
-            stage.setScene(new Scene(root));
-            stage.setTitle("Agroday - Menu Principale");
-        } catch (IOException e) {
-            mostraMessaggio("Errore nella navigazione: " + e.getMessage(), true);
-        }
+        // Torna alla schermata principale usando ViewManager
+        engclasses.pattern.ViewFactory.ViewManager.goTo(misc.ViewType.MAIN);
     }
 
     private void mostraMessaggio(String messaggio, boolean isErrore) {

@@ -1,6 +1,7 @@
 package engclasses.dao.factory;
 
 import engclasses.dao.api.AgricoltoreDAO;
+import engclasses.dao.api.AnnuncioDAO;
 import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.api.VenditoreDAO;
@@ -9,6 +10,7 @@ import engclasses.dao.db.ConsulenteDAODB;
 import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
 import engclasses.dao.fileSystem.AgricoltoreDAOFile;
+import engclasses.dao.fileSystem.AnnuncioDAOFile;
 import engclasses.dao.fileSystem.AppuntamentoDAOFile;
 import engclasses.dao.fileSystem.ConsulenteDAOFile;
 import engclasses.dao.fileSystem.UtenteDAOFile;
@@ -36,5 +38,25 @@ public class DAOFileFactory extends DAOFactory {
     @Override
     public AppuntamentoDAO getAppuntamentoDAO() {
         return new AppuntamentoDAOFile();
+    }
+
+    @Override
+    public AnnuncioDAO getAnnuncioDAO() {
+        return new AnnuncioDAOFile();
+    }
+
+    @Override
+    public engclasses.dao.api.PartecipazioneDAO getPartecipazioneDAO() {
+        return new engclasses.dao.fileSystem.PartecipazioneDAOFile();
+    }
+
+    @Override
+    public engclasses.dao.api.OffertaDAO getOffertaDAO() {
+        return new engclasses.dao.fileSystem.OffertaDAOFile();
+    }
+
+    @Override
+    public engclasses.dao.api.ConsulenteDAO getConsulenteDAO() {
+        return new ConsulenteDAOFile();
     }
 }

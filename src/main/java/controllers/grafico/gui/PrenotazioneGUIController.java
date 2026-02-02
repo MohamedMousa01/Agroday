@@ -2,15 +2,22 @@ package controllers.grafico.gui;
 
 import controllers.applicativo.AppuntamentoController;
 import engclasses.beans.AppuntamentoBean;
+import engclasses.dao.api.ConsulenteDAO;
+import engclasses.dao.factory.DAOFactory;
+import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import misc.PersistenceType;
 import misc.Session;
 import misc.TipoConsulenza;
+import model.Consulente;
 import model.Utente;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Controller grafico per la prenotazione e modifica di appuntamenti.
@@ -36,18 +43,19 @@ public class PrenotazioneGUIController {
     private AppuntamentoController appuntamentoController;
     private AppuntamentoBean appuntamentoDaModificare;
     private boolean isModifica = false;
-
-    // Simulazione lista consulenti (in produzione verrebbe dal DB)
-    private static final String[] CONSULENTI_DEMO = {
-            "cons001:Mario Rossi",
-            "cons002:Giulia Bianchi",
-            "cons003:Luca Verdi"
-    };
+    
+    private ConsulenteDAO consulenteDAO;
+    private List<Consulente> consulenti;
 
     @FXML
     private void initialize() {
         session = Session.getInstance();
         appuntamentoController = new AppuntamentoController(session);
+        
+        // Inizializza DAO per recuperare consulenti
+        PersistenceType persistenceType = session.getPersistenceType();
+        DAOFactory factory = DAOFactory.getFactory(persistenceType);
+        consulenteDAO = factory.getConsulenteDAO();
 
         // Popola i combo box
         popolaComboConsulenti();
@@ -78,9 +86,25 @@ public class PrenotazioneGUIController {
 
     private void popolaComboConsulenti() {
         consulenteCombo.getItems().clear();
-        for (String cons : CONSULENTI_DEMO) {
-            String[] parts = cons.split(":");
-            consulenteCombo.getItems().add(parts[1]); // Mostra solo il nome
+        
+        try {
+            // Carica consulenti
+            consulenti = consulenteDAO.trovaTutti();
+        } catch (DatabaseOperazioneFallitaException e) {
+            consulenti = new ArrayList<>(); // Initialize to empty list on error
+            mostraMessaggio("Errore Caricamento Consulenti: Impossibile caricare l'elenco dei consulenti: " + e.getMessage(), true);
+            e.printStackTrace(); // Stampa stack trace per debug
+        }
+        
+        if (consulenti.isEmpty()) {
+            consulenteCombo.setPromptText("Nessun consulente disponibile");
+            consulenteCombo.setDisable(true);
+        } else {
+            for (Consulente cons : consulenti) {
+                // Mostra "Nome Cognome (Username)"
+                String displayText = cons.getNome() + " " + cons.getCognome() + " (@" + cons.getUsername() + ")";
+                consulenteCombo.getItems().add(displayText);
+            }
         }
     }
 
@@ -159,8 +183,8 @@ public class PrenotazioneGUIController {
 
         // Popola i campi con i dati esistenti
         // Trova l'indice del consulente
-        for (int i = 0; i < CONSULENTI_DEMO.length; i++) {
-            if (CONSULENTI_DEMO[i].startsWith(appuntamento.getIdConsulente())) {
+        for (int i = 0; i < consulenti.size(); i++) {
+            if (consulenti.get(i).getIdUtente().equals(appuntamento.getIdConsulente())) {
                 consulenteCombo.getSelectionModel().select(i);
                 break;
             }
@@ -204,8 +228,8 @@ public class PrenotazioneGUIController {
                 mostraMessaggio("Appuntamento prenotato con successo!", false);
             }
 
-            // Chiudi la finestra dopo un breve delay
-            chiudiFinestra();
+            // Torna alla schermata principale dopo 1.5 secondi
+            tornaAllaHome();
 
         } catch (IllegalArgumentException e) {
             mostraMessaggio(e.getMessage(), true);
@@ -213,6 +237,7 @@ public class PrenotazioneGUIController {
             mostraMessaggio(e.getMessage(), true);
         } catch (Exception e) {
             mostraMessaggio("Errore: " + e.getMessage(), true);
+            e.printStackTrace();
         }
     }
 
@@ -248,9 +273,9 @@ public class PrenotazioneGUIController {
 
         // ID Consulente
         int selectedIndex = consulenteCombo.getSelectionModel().getSelectedIndex();
-        if (selectedIndex >= 0 && selectedIndex < CONSULENTI_DEMO.length) {
-            String[] parts = CONSULENTI_DEMO[selectedIndex].split(":");
-            bean.setIdConsulente(parts[0]);
+        if (selectedIndex >= 0 && selectedIndex < consulenti.size()) {
+            Consulente consulenteSelezionato = consulenti.get(selectedIndex);
+            bean.setIdConsulente(consulenteSelezionato.getIdUtente());
         }
 
         bean.setTipoConsulenza(tipoConsulenzaCombo.getValue());
@@ -274,12 +299,12 @@ public class PrenotazioneGUIController {
 
     @FXML
     private void onAnnulla() {
-        chiudiFinestra();
+        tornaAllaHome();
     }
 
-    private void chiudiFinestra() {
-        Stage stage = (Stage) annullaBtn.getScene().getWindow();
-        stage.close();
+    private void tornaAllaHome() {
+        // Torna alla schermata principale invece di chiudere l'applicazione
+        engclasses.pattern.ViewFactory.ViewManager.goTo(misc.ViewType.MAIN);
     }
 
     private void mostraMessaggio(String messaggio, boolean isErrore) {

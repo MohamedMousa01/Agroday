@@ -12,6 +12,7 @@ import view.cli.CreaAnnuncioCLIView;
 import view.cli.VisualizzaAnnunciCLIView;
 import view.cli.ProfiloCLIView;
 
+import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -49,10 +50,11 @@ public class MainAgricoltoreCLIController {
             switch (scelta) {
                 case 1 -> creaNuovoAnnuncio();
                 case 2 -> visualizzaMieiAnnunci();
-                case 3 -> mostraStatistiche();
-                case 4 -> richiediConsulenza();
-                case 5 -> visualizzaProfilo();
-                case 6 -> mostraImpostazioni();
+                case 3 -> visualizzaTuttiAnnunci();
+                case 4 -> mostraStatistiche();
+                case 5 -> richiediConsulenza();
+                case 6 -> visualizzaProfilo();
+                case 7 -> mostraImpostazioni();
                 case 0 -> logout();
                 default -> {
                     view.mostraErrore("Opzione non valida!");
@@ -99,7 +101,7 @@ public class MainAgricoltoreCLIController {
             if (creaView.confermaCreazione()) {
                 // Crea l'annuncio
                 String autore = Session.getInstance().getUtenteLoggato().getUsername();
-                annuncioController.creaAnnuncio(titolo, autore, descrizione, dataScadenza, 
+                annuncioController.creaAnnuncio(autore, titolo, descrizione, dataScadenza, 
                                                 nomeProdotto, quantita, citta);
                 
                 creaView.mostraSuccesso("Annuncio creato con successo!");
@@ -151,6 +153,29 @@ public class MainAgricoltoreCLIController {
                         annunciView.mostraDettaglioAnnuncio(mieiAnnunci.get(num - 1));
                     }
                 }
+            }
+        }
+        
+        annunciView.attendiInvio();
+    }
+
+    private void visualizzaTuttiAnnunci() {
+        VisualizzaAnnunciCLIView annunciView = new VisualizzaAnnunciCLIView();
+        annunciView.mostraTitolo(false); // false = non "Miei Annunci" ma "Tutti gli Annunci"
+        
+        // Ottieni TUTTI gli annunci (senza filtro)
+        List<AnnuncioBean> tuttiAnnunci = annuncioController.getAnnunci();
+        
+        if (tuttiAnnunci.isEmpty()) {
+            annunciView.mostraMessaggio("Non ci sono annunci disponibili al momento.");
+        } else {
+            annunciView.mostraListaAnnunci(tuttiAnnunci);
+            annunciView.mostraMenuAzioni(false); // false = non mostrare opzioni di modifica/elimina
+            
+            int scelta = annunciView.chiediScelta();
+            
+            if (scelta > 0 && scelta <= tuttiAnnunci.size()) {
+                annunciView.mostraDettaglioAnnuncio(tuttiAnnunci.get(scelta - 1));
             }
         }
         

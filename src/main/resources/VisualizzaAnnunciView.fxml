@@ -8,6 +8,7 @@
 <BorderPane xmlns="http://javafx.com/javafx/17"
             xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="controllers.grafico.gui.VisualizzaAnnunciGUIController"
+            prefHeight="700" prefWidth="900"
             style="-fx-background-color: linear-gradient(to bottom right, #43e97b, #38f9d7);">
 
     <!-- TOP - Header -->
@@ -36,7 +37,7 @@
 
     <!-- CENTER - Annunci List -->
     <center>
-        <VBox spacing="20" style="-fx-padding: 30;">
+        <VBox spacing="15" style="-fx-padding: 20;">
             
             <!-- Info Bar -->
             <HBox alignment="CENTER_LEFT" spacing="15" style="-fx-background-color: rgba(255, 255, 255, 0.9); -fx-background-radius: 10; -fx-padding: 15;">

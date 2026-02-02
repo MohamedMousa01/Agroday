@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.grafico.gui.VisualizzaOfferteGUIController"
+            prefHeight="700" prefWidth="900"
+            style="-fx-background-color: linear-gradient(to bottom right, #6a11cb, #2575fc);">
+
+    <!-- TOP - Header -->
+    <top>
+        <VBox style="-fx-background-color: rgba(255, 255, 255, 0.95); -fx-padding: 20;">
+            <HBox alignment="CENTER_LEFT" spacing="20">
+                <Label fx:id="titoloLabel" text="💰 Le Mie Offerte Ricevute" 
+                       style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #6a11cb;"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <Button fx:id="btnIndietro" text="← Indietro" onAction="#tornaIndietro"
+                        style="-fx-background-color: #6a11cb; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10 20;"/>
+            </HBox>
+            <Label fx:id="subtitleLabel" text="Gestisci le offerte ricevute dai venditori" 
+                   style="-fx-font-size: 14px; -fx-text-fill: #666; -fx-padding: 10 0 0 0;"/>
+            <Separator style="-fx-padding: 10 0 0 0;"/>
+        </VBox>
+    </top>
+
+    <!-- CENTER - Lista Offerte -->
+    <center>
+        <ScrollPane fitToWidth="true" fitToHeight="true" 
+                    style="-fx-background: transparent; -fx-background-color: transparent;">
+            <VBox fx:id="contenitoreOfferte" spacing="15" style="-fx-padding: 20;">
+                <!-- Le offerte verranno inserite qui dinamicamente -->
+            </VBox>
+        </ScrollPane>
+    </center>
+
+</BorderPane>

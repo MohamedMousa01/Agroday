@@ -33,6 +33,24 @@ public class VisualizzaAnnunciGUIController {
     private AnnuncioController annuncioController;
     private List<AnnuncioBean> tuttiAnnunci;
     private DateTimeFormatter dateFormatter;
+    private boolean soloMieiAnnunci = false; // Flag per filtrare
+    private boolean mostraPartecipazioni = false; // Flag per mostrare partecipazioni
+
+    /**
+     * Imposta se mostrare solo gli annunci dell'utente loggato o tutti
+     * Deve essere chiamato PRIMA di initialize()
+     */
+    public void setMostraSoloMieiAnnunci(boolean soloMiei) {
+        this.soloMieiAnnunci = soloMiei;
+    }
+
+    /**
+     * Imposta se mostrare gli annunci a cui l'utente ha partecipato
+     * Deve essere chiamato PRIMA di initialize()
+     */
+    public void setMostraPartecipazioni(boolean mostraPartecipazioni) {
+        this.mostraPartecipazioni = mostraPartecipazioni;
+    }
 
     @FXML
     public void initialize() {
@@ -43,7 +61,24 @@ public class VisualizzaAnnunciGUIController {
 
     private void caricaAnnunci() {
         try {
-            tuttiAnnunci = annuncioController.getAnnunci();
+            String username = Session.getInstance().getUtenteLoggato().getUsername();
+            
+            // Scegli quale lista caricare
+            if (mostraPartecipazioni) {
+                // Carica solo gli annunci a cui l'utente ha partecipato
+                tuttiAnnunci = annuncioController.getAnnunciPartecipazioniUtente(username);
+            } else {
+                // Carica tutti gli annunci
+                tuttiAnnunci = annuncioController.getAnnunci();
+                
+                // Se richiesto, filtra solo gli annunci dell'utente loggato
+                if (soloMieiAnnunci) {
+                    tuttiAnnunci = tuttiAnnunci.stream()
+                        .filter(a -> a.getAutore().equals(username))
+                        .collect(Collectors.toList());
+                }
+            }
+            
             mostraAnnunci(tuttiAnnunci);
             aggiornaContatore(tuttiAnnunci.size());
         } catch (Exception e) {
@@ -109,9 +144,31 @@ public class VisualizzaAnnunciGUIController {
         lblQuantitaIcon.setStyle("-fx-font-size: 24px;");
         Label lblQuantitaText = new Label(annuncio.getQuantita() + " kg");
         lblQuantitaText.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
-        Label lblQuantitaLabel = new Label("Quantità");
+        Label lblQuantitaLabel = new Label("Richiesta autore");
         lblQuantitaLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
         infoQuantita.getChildren().addAll(lblQuantitaIcon, lblQuantitaText, lblQuantitaLabel);
+        
+        // Quantità totale (autore + partecipanti)
+        VBox infoTotale = new VBox(5);
+        infoTotale.setAlignment(Pos.CENTER);
+        Label lblTotaleIcon = new Label("🎯");
+        lblTotaleIcon.setStyle("-fx-font-size: 24px;");
+        Label lblTotaleText = new Label(annuncio.getQuantitaTotale() + " kg");
+        lblTotaleText.setStyle("-fx-font-weight: bold; -fx-text-fill: #43e97b;");
+        Label lblTotaleLabel = new Label("Totale gruppo");
+        lblTotaleLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        infoTotale.getChildren().addAll(lblTotaleIcon, lblTotaleText, lblTotaleLabel);
+        
+        // Numero partecipanti
+        VBox infoPartecipanti = new VBox(5);
+        infoPartecipanti.setAlignment(Pos.CENTER);
+        Label lblPartIcon = new Label("👥");
+        lblPartIcon.setStyle("-fx-font-size: 24px;");
+        Label lblPartText = new Label(String.valueOf(annuncio.getNumeroPartecipanti()));
+        lblPartText.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
+        Label lblPartLabel = new Label("Partecipanti");
+        lblPartLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        infoPartecipanti.getChildren().addAll(lblPartIcon, lblPartText, lblPartLabel);
         
         VBox infoCitta = new VBox(5);
         infoCitta.setAlignment(Pos.CENTER);
@@ -122,6 +179,18 @@ public class VisualizzaAnnunciGUIController {
         Label lblCittaLabel = new Label("Città");
         lblCittaLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
         infoCitta.getChildren().addAll(lblCittaIcon, lblCittaText, lblCittaLabel);
+        
+        VBox infoStato = new VBox(5);
+        infoStato.setAlignment(Pos.CENTER);
+        String statoIcon = annuncio.isAttivo() ? "✅" : "⏰";
+        String statoColor = annuncio.isAttivo() ? "#43e97b" : "#e74c3c";
+        Label lblStatoIcon = new Label(statoIcon);
+        lblStatoIcon.setStyle("-fx-font-size: 24px;");
+        Label lblStatoText = new Label(annuncio.getStato());
+        lblStatoText.setStyle("-fx-font-weight: bold; -fx-text-fill: " + statoColor + ";");
+        Label lblStatoLabel = new Label("Stato");
+        lblStatoLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        infoStato.getChildren().addAll(lblStatoIcon, lblStatoText, lblStatoLabel);
         
         if (annuncio.getDataScadenza() != null) {
             VBox infoScadenza = new VBox(5);
@@ -136,18 +205,60 @@ public class VisualizzaAnnunciGUIController {
             infoBox.getChildren().add(infoScadenza);
         }
         
-        infoBox.getChildren().addAll(infoQuantita, infoCitta);
+        infoBox.getChildren().addAll(infoQuantita, infoTotale, infoPartecipanti, infoCitta, infoStato);
 
         // Action Buttons
         HBox actionsBox = new HBox(10);
         actionsBox.setAlignment(Pos.CENTER_RIGHT);
         
-        Button btnContatta = new Button("📧 Contatta");
-        btnContatta.setStyle("-fx-background-color: #43e97b; -fx-text-fill: white; -fx-font-weight: bold; " +
-                            "-fx-background-radius: 15; -fx-padding: 8 20;");
-        btnContatta.setOnAction(e -> contattaVenditore(annuncio));
+        String usernameCorrente = Session.getInstance().getUtenteLoggato().getUsername();
+        model.Utente utenteLoggato = Session.getInstance().getUtenteLoggato();
+        boolean isVenditore = utenteLoggato instanceof model.Venditore;
+        boolean isAutore = annuncio.getAutore().equals(usernameCorrente);
         
-        actionsBox.getChildren().add(btnContatta);
+        // Bottoni diversi in base al tipo di utente
+        if (isVenditore) {
+            // VENDITORE: può proporre un prezzo se l'annuncio è scaduto
+            if (annuncio.isScaduto()) {
+                Button btnProponiPrezzo = new Button("💰 Proponi Prezzo");
+                btnProponiPrezzo.setStyle("-fx-background-color: #f39c12; -fx-text-fill: white; -fx-font-weight: bold; " +
+                                         "-fx-background-radius: 15; -fx-padding: 8 20;");
+                btnProponiPrezzo.setOnAction(e -> proponiPrezzo(annuncio));
+                actionsBox.getChildren().add(btnProponiPrezzo);
+            } else {
+                Label lblAttivo = new Label("⏳ In corso");
+                lblAttivo.setStyle("-fx-text-fill: #43e97b; -fx-font-weight: bold; -fx-font-size: 14px;");
+                actionsBox.getChildren().add(lblAttivo);
+            }
+        } else {
+            // AGRICOLTORE
+            if (isAutore && soloMieiAnnunci) {
+                // L'utente è l'autore e sta visualizzando "I Miei Annunci" -> può eliminare
+                Button btnElimina = new Button("🗑️ Elimina");
+                btnElimina.setStyle("-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; " +
+                                   "-fx-background-radius: 15; -fx-padding: 8 20;");
+                btnElimina.setOnAction(e -> eliminaAnnuncio(annuncio));
+                actionsBox.getChildren().add(btnElimina);
+            } else if (!isAutore && annuncio.isAttivo()) {
+                // Può partecipare se l'annuncio è attivo e non è l'autore
+                Button btnPartecipa = new Button("🤝 Partecipa");
+                btnPartecipa.setStyle("-fx-background-color: #6a11cb; -fx-text-fill: white; -fx-font-weight: bold; " +
+                                    "-fx-background-radius: 15; -fx-padding: 8 20;");
+                btnPartecipa.setOnAction(e -> partecipaAnnuncio(annuncio));
+                actionsBox.getChildren().add(btnPartecipa);
+            } else if (!isAutore && annuncio.isScaduto()) {
+                Label lblScaduto = new Label("⏰ Scaduto");
+                lblScaduto.setStyle("-fx-text-fill: #e74c3c; -fx-font-weight: bold; -fx-font-size: 14px;");
+                actionsBox.getChildren().add(lblScaduto);
+            }
+        }
+        
+        Button btnDettagli = new Button("📋 Dettagli");
+        btnDettagli.setStyle("-fx-background-color: #43e97b; -fx-text-fill: white; -fx-font-weight: bold; " +
+                            "-fx-background-radius: 15; -fx-padding: 8 20;");
+        btnDettagli.setOnAction(e -> mostraDettagli(annuncio));
+        
+        actionsBox.getChildren().add(btnDettagli);
 
         // Separator
         Separator separator = new Separator();
@@ -191,13 +302,159 @@ public class VisualizzaAnnunciGUIController {
         ViewManager.goTo(ViewType.MAIN);
     }
 
-    private void contattaVenditore(AnnuncioBean annuncio) {
+    private void partecipaAnnuncio(AnnuncioBean annuncio) {
+        // Dialog per chiedere la quantità
+        TextInputDialog dialog = new TextInputDialog();
+        dialog.setTitle("Partecipa all'Annuncio");
+        dialog.setHeaderText("Partecipa a: " + annuncio.getTitolo());
+        dialog.setContentText("Inserisci la quantità che vuoi richiedere (kg):");
+
+        dialog.showAndWait().ifPresent(quantitaStr -> {
+            try {
+                int quantita = Integer.parseInt(quantitaStr);
+                
+                if (quantita <= 0) {
+                    mostraErrore("La quantità deve essere maggiore di zero");
+                    return;
+                }
+
+                // Chiama il controller per partecipare
+                controllers.applicativo.PartecipazioneController partController = 
+                    new controllers.applicativo.PartecipazioneController();
+                
+                String username = Session.getInstance().getUtenteLoggato().getUsername();
+                boolean successo = partController.partecipa(annuncio.getIdAnnuncio(), username, quantita);
+
+                if (successo) {
+                    mostraInfo("✅ Partecipazione registrata con successo!\n" +
+                              "Hai richiesto " + quantita + " kg.\n\n" +
+                              "Ora la quantità totale del gruppo sarà aggiornata.");
+                    aggiornaLista(); // Ricarica gli annunci
+                } else {
+                    mostraErrore("Errore nella partecipazione. Riprova.");
+                }
+
+            } catch (NumberFormatException e) {
+                mostraErrore("Inserisci un numero valido");
+            } catch (IllegalStateException | IllegalArgumentException e) {
+                mostraErrore(e.getMessage());
+            }
+        });
+    }
+
+    private void proponiPrezzo(AnnuncioBean annuncio) {
+        // Dialog per proporre un prezzo all'ingrosso
+        TextInputDialog dialog = new TextInputDialog();
+        dialog.setTitle("Proponi Prezzo all'Ingrosso");
+        dialog.setHeaderText("Annuncio: " + annuncio.getTitolo() + "\nQuantità totale: " + annuncio.getQuantitaTotale() + " kg");
+        dialog.setContentText("Inserisci il tuo prezzo al kg (€):");
+
+        dialog.showAndWait().ifPresent(prezzoStr -> {
+            try {
+                double prezzo = Double.parseDouble(prezzoStr);
+                
+                if (prezzo <= 0) {
+                    mostraErrore("Il prezzo deve essere maggiore di zero");
+                    return;
+                }
+
+                // Salva l'offerta nel database
+                controllers.applicativo.OffertaController offertaController = 
+                    new controllers.applicativo.OffertaController();
+                
+                String usernameVenditore = Session.getInstance().getUtenteLoggato().getUsername();
+                boolean salvata = offertaController.creaOfferta(
+                    annuncio.getIdAnnuncio(), 
+                    usernameVenditore, 
+                    prezzo, 
+                    annuncio.getQuantitaTotale()
+                );
+
+                if (salvata) {
+                    mostraInfo(String.format("""
+                        ✅ Proposta inviata e salvata con successo!
+                        
+                        📦 Prodotto: %s
+                        📏 Quantità totale: %d kg
+                        💰 Prezzo proposto: %.2f €/kg
+                        💵 Totale: %.2f €
+                        
+                        L'agricoltore riceverà la tua proposta.
+                        Puoi vedere le tue offerte in "Le Mie Offerte".
+                        """,
+                        annuncio.getTitolo(),
+                        annuncio.getQuantitaTotale(),
+                        prezzo,
+                        prezzo * annuncio.getQuantitaTotale()
+                    ));
+                } else {
+                    mostraErrore("Errore nel salvataggio dell'offerta. Riprova.");
+                }
+
+            } catch (NumberFormatException e) {
+                mostraErrore("Inserisci un numero valido");
+            } catch (Exception e) {
+                mostraErrore("Errore: " + e.getMessage());
+            }
+        });
+    }
+
+    private void mostraDettagli(AnnuncioBean annuncio) {
+        // Ottieni i partecipanti
+        controllers.applicativo.PartecipazioneController partController = 
+            new controllers.applicativo.PartecipazioneController();
+        
+        int numPartecipanti = partController.getNumeroPartecipanti(annuncio.getIdAnnuncio());
+        int quantitaTotale = partController.getQuantitaTotale(annuncio.getIdAnnuncio());
+        
+        model.Utente utenteLoggato = Session.getInstance().getUtenteLoggato();
+        boolean isVenditore = utenteLoggato instanceof model.Venditore;
+
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Contatta Venditore");
-        alert.setHeaderText("Informazioni di Contatto");
-        alert.setContentText("Per contattare il venditore " + annuncio.getAutore() + 
-                           " per l'annuncio \"" + annuncio.getTitolo() + "\":\n\n" +
-                           "Funzionalità di messaggistica in arrivo!");
+        alert.setTitle("Dettagli Annuncio");
+        alert.setHeaderText(annuncio.getTitolo());
+        
+        String stato = annuncio.isAttivo() ? "✅ ATTIVO" : "⏰ SCADUTO";
+        
+        String infoSpecifica;
+        if (isVenditore) {
+            infoSpecifica = annuncio.isScaduto() ? 
+                "💰 Come venditore, puoi proporre un prezzo all'ingrosso!" : 
+                "⏳ Annuncio ancora in corso. Aspetta la scadenza per fare un'offerta.";
+        } else {
+            infoSpecifica = annuncio.isAttivo() ? 
+                "💡 Puoi partecipare a questo annuncio di gruppo!" : 
+                "⚠️ Questo annuncio è scaduto. Non è possibile partecipare.";
+        }
+        
+        String dettagli = String.format("""
+            📋 Descrizione: %s
+            
+            👤 Autore: %s
+            📍 Città: %s
+            📅 Scadenza: %s
+            %s Stato: %s
+            
+            📦 QUANTITÀ:
+            • Richiesta autore: %d kg
+            • Totale gruppo: %d kg
+            • Partecipanti: %d
+            
+            %s
+            """,
+            annuncio.getDescrizione(),
+            annuncio.getAutore(),
+            annuncio.getCitta(),
+            annuncio.getDataScadenza().format(dateFormatter),
+            annuncio.isAttivo() ? "✅" : "⏰",
+            stato,
+            annuncio.getQuantita(),
+            quantitaTotale,
+            numPartecipanti,
+            infoSpecifica
+        );
+        
+        alert.setContentText(dettagli);
         alert.showAndWait();
     }
 
@@ -225,5 +482,29 @@ public class VisualizzaAnnunciGUIController {
         alert.setHeaderText(null);
         alert.setContentText(messaggio);
         alert.show();
+    }
+
+    private void eliminaAnnuncio(AnnuncioBean annuncio) {
+        // Conferma eliminazione
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle("Conferma Eliminazione");
+        alert.setHeaderText("Eliminare questo annuncio?");
+        alert.setContentText(String.format(
+            "Titolo: %s\nCittà: %s\nQuantità: %d kg\n\nSei sicuro di voler eliminare questo annuncio?\nQuesta azione è irreversibile!",
+            annuncio.getTitolo(), annuncio.getCitta(), annuncio.getQuantita()
+        ));
+
+        alert.showAndWait().ifPresent(response -> {
+            if (response == ButtonType.OK) {
+                boolean successo = annuncioController.eliminaAnnuncio(annuncio.getIdAnnuncio());
+                
+                if (successo) {
+                    mostraInfo("✅ Annuncio eliminato con successo!");
+                    aggiornaLista(); // Ricarica la lista
+                } else {
+                    mostraErrore("❌ Errore nell'eliminazione dell'annuncio. Riprova.");
+                }
+            }
+        });
     }
 }

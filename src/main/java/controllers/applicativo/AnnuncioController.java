@@ -6,26 +6,87 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import engclasses.dao.AnnuncioDAO;
+import engclasses.dao.api.AnnuncioDAO;
+import engclasses.dao.factory.DAOFactory;
 import engclasses.exceptions.AnnuncioNonValidoException;
+import misc.PersistenceType;
+import misc.Session;
 import model.Annuncio;
 
 public class AnnuncioController {
 
+    private final AnnuncioDAO annuncioDAO;
+
+    public AnnuncioController() {
+        // Ottiene il tipo di persistenza dalla sessione corrente
+        PersistenceType persistenceType = Session.getInstance().getPersistenceType();
+        DAOFactory factory = DAOFactory.getFactory(persistenceType);
+        this.annuncioDAO = factory.getAnnuncioDAO();
+    }
+
     /**
-     * Recupera tutti gli annunci dal database
+     * Recupera tutti gli annunci
      * @return lista di AnnuncioBean
      */
     public List<AnnuncioBean> getAnnunci() {
 
-        List<Annuncio> annunci = AnnuncioDAO.getAnnunci();      //recupero annunci da dbms (come entity)
-        List<AnnuncioBean> annunciBean = new ArrayList<>();     //creo una lista dove inserire i bean degli annunci che prendo da dbms
+        List<Annuncio> annunci = annuncioDAO.trovaTutti();      //recupero annunci dalla persistenza
+        List<AnnuncioBean> annunciBean = new ArrayList<>();     //creo una lista dove inserire i bean degli annunci
+
+        // Ottieni il DAO delle partecipazioni per calcolare i dati
+        controllers.applicativo.PartecipazioneController partController = 
+            new controllers.applicativo.PartecipazioneController();
 
         for (Annuncio annuncio : annunci){
+            // Aggiorna lo stato se scaduto
+            annuncio.aggiornaStato();
+            
             AnnuncioBean bean = convertToBean(annuncio);   //converto gli annunci da model a bean
+            
+            // Imposta stato corretto (ATTIVO o SCADUTO)
+            String stato = annuncio.isScaduto() ? "SCADUTO" : "ATTIVO";
+            bean.setStato(stato);
+            bean.setQuantitaTotale(partController.getQuantitaTotale(annuncio.getIdAnnuncio()));
+            bean.setNumeroPartecipanti(partController.getNumeroPartecipanti(annuncio.getIdAnnuncio()));
+            
             annunciBean.add(bean);
         }
 
+        return annunciBean;
+    }
+
+    /**
+     * Ottiene gli annunci a cui un agricoltore ha partecipato.
+     *
+     * @param usernameAgricoltore Username dell'agricoltore
+     * @return Lista di annunci a cui ha partecipato
+     */
+    public List<AnnuncioBean> getAnnunciPartecipazioniUtente(String usernameAgricoltore) {
+        controllers.applicativo.PartecipazioneController partController = 
+            new controllers.applicativo.PartecipazioneController();
+        
+        // Ottieni tutte le partecipazioni dell'utente
+        List<engclasses.beans.PartecipazioneBean> partecipazioni = 
+            partController.getPartecipazioniUtente(usernameAgricoltore);
+        
+        List<AnnuncioBean> annunciBean = new ArrayList<>();
+        
+        for (engclasses.beans.PartecipazioneBean part : partecipazioni) {
+            // Recupera l'annuncio corrispondente
+            model.Annuncio annuncio = annuncioDAO.trovaPerId(part.getIdAnnuncio());
+            if (annuncio != null) {
+                annuncio.aggiornaStato();
+                AnnuncioBean bean = convertToBean(annuncio);
+                
+                String stato = annuncio.isScaduto() ? "SCADUTO" : "ATTIVO";
+                bean.setStato(stato);
+                bean.setQuantitaTotale(partController.getQuantitaTotale(annuncio.getIdAnnuncio()));
+                bean.setNumeroPartecipanti(partController.getNumeroPartecipanti(annuncio.getIdAnnuncio()));
+                
+                annunciBean.add(bean);
+            }
+        }
+        
         return annunciBean;
     }
     
@@ -62,7 +123,7 @@ public class AnnuncioController {
                 LocalDate dataCreazione = LocalDate.now();
 
                 // crea oggetto dominio
-                Annuncio annuncio = new Annuncio(
+                Annuncio annuncio = new Annuncio(   //lo dovrebbe fare la factory??
                         autore,
                         titolo,
                         descrizione,
@@ -74,7 +135,46 @@ public class AnnuncioController {
                 );
 
                 // persistenza
-                AnnuncioDAO.salvaAnnuncio(annuncio);
+                if (!annuncioDAO.salva(annuncio)) {
+                    throw new AnnuncioNonValidoException("Errore nel salvataggio dell'annuncio");
+                }
+    }
+
+    /**
+     * Elimina un annuncio.
+     *
+     * @param idAnnuncio ID dell'annuncio da eliminare
+     * @return true se l'eliminazione ha successo
+     */
+    public boolean eliminaAnnuncio(String idAnnuncio) {
+        return annuncioDAO.elimina(idAnnuncio);
+    }
+
+    /**
+     * Ottiene gli annunci creati da un utente.
+     *
+     * @param username Username dell'autore
+     * @return Lista degli annunci creati dall'utente
+     */
+    public List<AnnuncioBean> getAnnunciUtente(String username) {
+        List<Annuncio> annunci = annuncioDAO.trovaPerAutore(username);
+        List<AnnuncioBean> annunciBean = new ArrayList<>();
+        
+        PartecipazioneController partController = new PartecipazioneController();
+        
+        for (Annuncio annuncio : annunci) {
+            annuncio.aggiornaStato();
+            AnnuncioBean bean = convertToBean(annuncio);
+            
+            String stato = annuncio.isScaduto() ? "SCADUTO" : "ATTIVO";
+            bean.setStato(stato);
+            bean.setQuantitaTotale(partController.getQuantitaTotale(annuncio.getIdAnnuncio()));
+            bean.setNumeroPartecipanti(partController.getNumeroPartecipanti(annuncio.getIdAnnuncio()));
+            
+            annunciBean.add(bean);
+        }
+        
+        return annunciBean;
     }
 
     private void validaDati(String titolo, String autore, LocalDate dataScadenza, 

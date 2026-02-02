@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MainCLI" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="MainCLI" />
+    <module name="Agroday" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

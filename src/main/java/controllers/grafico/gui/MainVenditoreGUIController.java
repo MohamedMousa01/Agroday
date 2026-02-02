@@ -19,7 +19,7 @@ public class MainVenditoreGUIController {
 
     @FXML private Label lblBenvenuto;
     @FXML private Button btnCercaAnnunci;
-    @FXML private Button btnVisualizzaAnnunci;
+    @FXML private Button mieOfferteButton;
     @FXML private Button btnOrdini;
     @FXML private Button btnProfilo;
     @FXML private Button btnLogout;
@@ -47,8 +47,50 @@ public class MainVenditoreGUIController {
 
     @FXML
     private void visualizzaOrdini() {
-        // Naviga agli ordini
-        ViewManager.goTo(ViewType.ORDINI);
+        // Mostra messaggio temporaneo (funzionalità da implementare)
+        mostraMessaggio("I Miei Ordini", 
+            "Funzionalità in fase di sviluppo.\n\n" +
+            "Qui potrai gestire gli ordini ricevuti dagli agricoltori.", 
+            Alert.AlertType.INFORMATION);
+    }
+
+    @FXML
+    private void showMieOfferte() {
+        // Mostra le offerte del venditore
+        controllers.applicativo.OffertaController offertaController = 
+            new controllers.applicativo.OffertaController();
+        
+        String username = Session.getInstance().getUtenteLoggato().getUsername();
+        java.util.List<model.Offerta> offerte = offertaController.getOfferteVenditore(username);
+        
+        if (offerte.isEmpty()) {
+            mostraMessaggio("Le Mie Offerte", 
+                "Non hai ancora fatto nessuna offerta.\n\n" +
+                "Vai su 'Cerca Annunci' per trovare annunci scaduti\n" +
+                "e proporre i tuoi prezzi!", 
+                Alert.AlertType.INFORMATION);
+        } else {
+            StringBuilder msg = new StringBuilder();
+            msg.append(String.format("Hai %d offerte totali:\n\n", offerte.size()));
+            
+            long pending = offerte.stream().filter(model.Offerta::isPending).count();
+            long accettate = offerte.stream().filter(model.Offerta::isAccettata).count();
+            long rifiutate = offerte.stream().filter(model.Offerta::isRifiutata).count();
+            
+            msg.append(String.format("⏳ In attesa: %d\n", pending));
+            msg.append(String.format("✅ Accettate: %d\n", accettate));
+            msg.append(String.format("❌ Rifiutate: %d\n\n", rifiutate));
+            
+            msg.append("Ultime offerte:\n");
+            offerte.stream().limit(5).forEach(o -> {
+                msg.append(String.format("\n💰 Prezzo: %.2f €/kg | Totale: %.2f €\n", 
+                    o.getPrezzoAlKg(), o.getPrezzoTotale()));
+                msg.append(String.format("   Stato: %s | Data: %s\n", 
+                    o.getStato(), o.getDataOfferta().toLocalDate()));
+            });
+            
+            mostraMessaggio("Le Mie Offerte", msg.toString(), Alert.AlertType.INFORMATION);
+        }
     }
 
     @FXML

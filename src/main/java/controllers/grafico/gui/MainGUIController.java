@@ -22,6 +22,8 @@ public class MainGUIController {
     @FXML private Button creaAnnuncioButton;
     @FXML private Button cercaAnnunciButton;
     @FXML private Button mieiAnnunciButton;
+    @FXML private Button miePartecipazioniButton;
+    @FXML private Button consulenzaButton;
     @FXML private Button logoutButton;
 
     @FXML
@@ -42,13 +44,48 @@ public class MainGUIController {
     @FXML
     private void showCercaAnnunci() {
         // Naviga alla lista di tutti gli annunci
+        SceneManagerGUI.setMostraSoloMieiAnnunci(false);
         ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
     }
 
     @FXML
     private void showMieiAnnunci() {
-        // TODO: Implementare vista filtrata per annunci personali
+        // Naviga alla lista filtrata per annunci personali
+        SceneManagerGUI.setMostraSoloMieiAnnunci(true);
+        SceneManagerGUI.setMostraPartecipazioniUtente(false);
         ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
+    }
+
+    @FXML
+    private void showMiePartecipazioni() {
+        // Naviga alla lista degli annunci a cui l'utente ha partecipato
+        SceneManagerGUI.setMostraSoloMieiAnnunci(false);
+        SceneManagerGUI.setMostraPartecipazioniUtente(true);
+        ViewManager.goTo(ViewType.VISUALIZZA_ANNUNCI);
+    }
+
+    @FXML
+    private void showChiediConsulenza() {
+        // Naviga alla view per richiedere consulenza
+        ViewManager.goTo(ViewType.PRENOTAZIONE);
+    }
+
+    @FXML
+    private void showOfferteRicevute() {
+        // Naviga alla view delle offerte ricevute
+        ViewManager.goTo(ViewType.VISUALIZZA_OFFERTE);
+    }
+
+    @FXML
+    private void showListaAppuntamenti() {
+        // Naviga alla lista appuntamenti
+        ViewManager.goTo(ViewType.LISTA_APPUNTAMENTI);
+    }
+
+    @FXML
+    private void visualizzaProfilo() {
+        // Naviga al profilo
+        ViewManager.goTo(ViewType.PROFILO);
     }
 
     @FXML
