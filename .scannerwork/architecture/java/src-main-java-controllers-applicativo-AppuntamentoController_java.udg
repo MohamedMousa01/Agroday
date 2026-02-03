@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770133893374*java2.B¥`
+1.0MohamedMousa01_AgrodayJavaFrontend"1770144195045*java2.B¥`
 F
 Asrc/main/java/controllers/applicativo/AppuntamentoController.java2
 	
@@ -127,23 +127,23 @@ Kengclasses.beans.AppuntamentoBean#getDataOraFine()Ljava/time/LocalDateTime;87
 K
 Eengclasses.beans.AppuntamentoBean#getIdConsulente()Ljava/lang/String;91
 4
-.engclasses.pattern.Factory.AppuntamentoFactory93
+.engclasses.pattern.factory.AppuntamentoFactory93
 <
-6engclasses.pattern.Factory.AppuntamentoFactoryProvider95
+6engclasses.pattern.factory.AppuntamentoFactoryProvider95
 
-ˆengclasses.pattern.Factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/Factory/AppuntamentoFactory;97
+ˆengclasses.pattern.factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/factory/AppuntamentoFactory;97
 
 misc.TipoConsulenza99
 Q
 Jengclasses.beans.AppuntamentoBean#getTipoConsulenza()Lmisc/TipoConsulenza;101
 c
-\engclasses.pattern.Factory.AppuntamentoFactory#valida(Ljava/lang/String;J)Ljava/lang/String;103
+\engclasses.pattern.factory.AppuntamentoFactory#valida(Ljava/lang/String;J)Ljava/lang/String;103
 E
 >engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;105
 
 model.Appuntamento107
 Å
-½engclasses.pattern.Factory.AppuntamentoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;109
+½engclasses.pattern.factory.AppuntamentoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;109
 I
 Bengclasses.beans.AppuntamentoBean#getIdCliente()Ljava/lang/String;111
 6
@@ -321,7 +321,7 @@ acontrollers.applicativo.AppuntamentoController#getDurataPredefinitaMinuti(Lmisc
 !
 getDurataPredefinitaMinuti255
 S
-Lengclasses.pattern.Factory.AppuntamentoFactory#getDurataPredefinitaMinuti()I257
+Lengclasses.pattern.factory.AppuntamentoFactory#getDurataPredefinitaMinuti()I257
 }
 vcontrollers.applicativo.AppuntamentoController#getAppuntamentiUtenteFiltrati(Lmisc/StatoAppuntamento;)Ljava/util/List;259
 
@@ -593,9 +593,6 @@ T
 
 90
 909125
-
-108
-10810925
 T
 150M
 15015148 *
@@ -694,9 +691,6 @@ T
 15
 209
 
-256
-25625725
-
 297
 29729825
 T
@@ -722,6 +716,9 @@ T
 
 174
 17417525
+
+102
+10210325
 
 327
 32732825
@@ -811,12 +808,12 @@ M
 
 214
 21421525
+
+256
+25625725
 
 23
 232425
-
-92
-929325
 G
 8B
 8910 *
@@ -833,6 +830,9 @@ G
 
 15
 16
+
+92
+929325
 
 305
 30530625
@@ -888,6 +888,9 @@ T
 
 15
 286
+
+108
+10810925
 
 84
 848525
@@ -937,9 +940,6 @@ T
 
 15
 247
-
-94
-949525
 M
 46G
 464748 *
@@ -956,6 +956,9 @@ M
 
 15
 16
+
+96
+969725
 T
 271M
 27127248 *
@@ -987,6 +990,9 @@ T
 
 15
 241
+
+94
+949525
 
 329
 32933025
@@ -1044,9 +1050,6 @@ T
 15
 213
 
-102
-10210325
-
 281
 28128225
 
@@ -1077,9 +1080,6 @@ M
 
 15
 37
-
-96
-969725
 
 64
 646525

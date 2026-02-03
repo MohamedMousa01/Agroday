@@ -1,18 +1,18 @@
 
-Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaê ê(%"1*¿
+Eengclasses.beans.AppuntamentoBean#getIdConsulente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java‡ ‡(!"1*ª
 1
-ë ë(Ä
-~
+· ·(Å
+
 
-ë ë(
-%0misc.StatoAppuntamento"__id*L
+· ·(
+%0java.lang.String"__id*S
 
-__unknown_file (0*.#
-!engclasses.beans.AppuntamentoBean"
-stato",
+__unknown_file (7*5#
+!engclasses.beans.AppuntamentoBean"
+idConsulente"&
 
-ë ë(
-
-%0misc.StatoAppuntamentoB%#
+· ·(
+
+%0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

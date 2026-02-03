@@ -1,123 +1,139 @@
 
-9view.cli.VisualizzaAnnunciCLIView#confermaEliminazione()Zb
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.javaП П('"7*р
-2
-ТX Т(`╔╞
-
-ТX Т(n
-%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+┼engclasses.pattern.factory.AppuntamentoSulCampoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;u
+k/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoSulCampoFactory.java (("startingBlock*■	
+startingBlock( (7Р
+Н
+ (
+%2"
+__annotate*2
 
-__unknown_file (
-
-rispostajava.lang.String*#
+__unknown_file (
+java.lang.Override*;
 
-__unknown_file (
-YES2equals(Ljava/lang/Object;)*
-1*с
-4
-Т@ Т(H╟─
-
-Т@ Т(T
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+__unknown_file (
+
+	idClientejava.lang.String]
+[
+0 (9
+	idClientejava.lang.String"__annotation*"
 
-__unknown_file (
-
-rispostajava.lang.String*!
+__unknown_file (
+
+%2У
+Р
+ (
+%3"
+__annotate*2
 
-__unknown_file (
-Y2equals(Ljava/lang/Object;)*
-2
-1*х
-6
-Т' Т(/╚┼
-
-Т' Т(<
-%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+__unknown_file (
+java.lang.Override*>
 
-__unknown_file (
-
-rispostajava.lang.String*"
+__unknown_file ("
+ 
+idConsulentejava.lang.String`
+^
+B (N 
+idConsulentejava.lang.String"__annotation*"
 
-__unknown_file (
-SI2equals(Ljava/lang/Object;)*	
-2
-4
-1*·	
-7
-Р Р(S
-Q
-
-Р Р(
-%0java.io.PrintStream"__id*"
+__unknown_file (
+
+%3Ы
+Ш
+ (
+%4"
+__annotate*2
 
-__unknown_file (
-""Б■
-
-Р Р(X
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTimeh
+f
+8 (E(
+dataOraIniziojava.time.LocalDateTime"__annotation*"
+
+__unknown_file (
+
+%4Щ
+Ц
+ (
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*D
+
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTimef
+d
+U (`&
+dataOraFinejava.time.LocalDateTime"__annotation*"
+
+__unknown_file (
+
+%5М
+Й
+ (
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
 
 __unknown_file (
 
-%0java.io.PrintStream*`
+luogojava.lang.StringY
+W
+1 (6
+luogojava.lang.String"__annotation*"
 
-__unknown_file (DB
-@\nтЪая╕П  Sei sicuro di voler eliminare questo annuncio? (S/N): 2print(Ljava/lang/String;)}
-{
-
-С С(!
-%2java.util.Scanner"__id*N
+__unknown_file (
+
+%6*
+1*▓
+1 (JH
+ (' 
+%0model.AppuntamentoSulCampo"model.AppuntamentoSulCampoж
+г
+ (K
+%1"Мmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V*>
 
-__unknown_file (2*0#
-!view.cli.VisualizzaAnnunciCLIView"	
-scannerЪЧ
-
-С С(,
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+__unknown_file ("
+ 
+%0model.AppuntamentoSulCampo*;
 
-__unknown_file (
-
-%2java.util.Scanner2
-nextLine()РН
-
-С С(3
-%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+__unknown_file (
+
+	idClientejava.lang.String*>
 
-__unknown_file (
-
-%3java.lang.String2trim()ЮЫ
-
-С С(A
-%5java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*4
+__unknown_file ("
+ 
+idConsulentejava.lang.String*F
 
-__unknown_file (
-
-%4java.lang.String2toUpperCase()h
-f
-
-С С(B
-rispostajava.lang.String"__id*4
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTime*D
 
-__unknown_file (
-
-%5java.lang.String╟─
-
-Т Т(#
-%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTime*7
 
-__unknown_file (
-
-rispostajava.lang.String*!
-
-__unknown_file (
-S2equals(Ljava/lang/Object;)*
-2
-4
-6
-1*%
-1
-Т Т(o"
-
-Т Т(o
-""B%#
-!view.cli.VisualizzaAnnunciCLIViewHX
+__unknown_file (
+
+luogojava.lang.String".
+ (L"
+ 
+%0model.AppuntamentoSulCampo:)
+) (:
+	idClientejava.lang.String:,
+; (O 
+idConsulentejava.lang.String:4
+* (F(
+dataOraIniziojava.time.LocalDateTime:2
+G (a&
+dataOraFinejava.time.LocalDateTime:%
+* (6
+luogojava.lang.StringB:8
+6engclasses.pattern.factory.AppuntamentoSulCampoFactoryH

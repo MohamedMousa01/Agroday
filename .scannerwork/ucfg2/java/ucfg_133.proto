@@ -1,48 +1,36 @@
 
-Vengclasses.dao.filesystem.OffertaDAOFile#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;g
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaD D("startingBlock*ê
-startingBlockD D(/ê
-ç
-C C(
-%2"
-__annotate*2
+9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFileg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaR R(O"startingBlock*Ã
+startingBlockR R(O´
+®
 
-__unknown_file (
-java.lang.Override*;
+__unknown_file (%
+usernameVenditorejava.lang.String"__id*_
 
-__unknown_file (
-
-	idOffertajava.lang.String]
-[
-D% D(.
-	idOffertajava.lang.String"__annotation*"
+__unknown_file (C*A*
+(engclasses.dao.filesystem.OffertaDAOFile"
+usernameVenditore*
+1*∏
+1R R(.ß§
+R6 R(N
+%4java.lang.String"6model.Offerta#getUsernameVenditore()Ljava/lang/String;*0
 
-__unknown_file (
-
-%2*
-1*œ
-1E E(~
-|
-E E(
-%0java.util.Map"__id*U
+__unknown_file (
+
+omodel.Offerta2getUsernameVenditore()·ﬁ
+R R(O
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*C
 
-__unknown_file (9*7*
-(engclasses.dao.filesystem.OffertaDAOFile"	
-offerteú
-ô
-E E(%
-%1model.Offerta"__mapGet*1
+__unknown_file ('
+%
+usernameVenditorejava.lang.String*4
 
-__unknown_file (
-
-%0java.util.Map*;
-
-__unknown_file (
-
-	idOffertajava.lang.String"!
-E E(&
-
-%1model.Offerta:)
-D D(.
-	idOffertajava.lang.StringB,*
-(engclasses.dao.filesystem.OffertaDAOFileH
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)"
+R R(O
+
+%5boolean:
+R R(
+omodel.OffertaB 
+java.util.function.Predicate

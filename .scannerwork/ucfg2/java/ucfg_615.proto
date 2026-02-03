@@ -1,15 +1,15 @@
 
-)misc.Session#getAnnunci()Ljava/util/List;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaA A(("1*–
-1B B(c
-a
-B B(
-%0java.util.List"__id*9
+-misc.Session#getUtenteLoggato()Lmodel/Utente;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java6 6(""1*˜
+17 7(g
+e
+7 7(
+%0model.Utente"__id*?
 
-__unknown_file (*
-misc.Session"	
-Annunci""
-B B(
-
-%0java.util.ListB
+__unknown_file (#*!
+misc.Session"
+utenteLoggato" 
+7 7(
+
+%0model.UtenteB
 misc.SessionH

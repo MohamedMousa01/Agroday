@@ -1,50 +1,101 @@
 
-Fengclasses.dao.memory.ConsulenteDAOMemory#trovaTutti()Ljava/util/List;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java (&"1*˘
-1 (K
-I
- (
-%0java.util.Map"__id*"
+Mengclasses.dao.filesystem.PartecipazioneDAOFile#caricaDaFile()Ljava/util/Map;n
+d/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/PartecipazioneDAOFile.java( (4"11*4
+5! !(A"%
+! !(B
+
+%10java.lang.Object*∏
+6   (Us
+q
+   (U 
+oisjava.io.ObjectInputStream"__id*=
 
-__unknown_file (
-""îë
- ($
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+__unknown_file (!
+
+%8java.io.ObjectInputStreamÆ´
+!1 !(A
+%10java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*>
 
-__unknown_file (
-
-%0java.util.Map2values()®•
- (-
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+__unknown_file ("
+ 
+oisjava.io.ObjectInputStream2readObject()*
+5*®
+7 %  (UHF
+ )  (:
+%8java.io.ObjectInputStream"java.io.ObjectInputStream…
+∆
+ %  (U
+%9"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
 
-__unknown_file (
-
-%1java.util.Collection2stream()éã
- (5
-%3java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%2java.util.stream.Stream*"
-
-__unknown_file (
-""2&filter(Ljava/util/function/Predicate;)ÜÉ
- (,
-%4java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%3java.util.stream.Stream*"
-
-__unknown_file (
-""2"map(Ljava/util/function/Function;)úô
- (
-%5java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+__unknown_file (!
+
+%8java.io.ObjectInputStream*;
 
 __unknown_file (
 
-%4java.util.stream.Stream2toList()""
- (
+%6java.io.FileInputStream*
+6*ê
+8 O  (SDB
+ ?  (N
+%6java.io.FileInputStream"java.io.FileInputStreamµ
+≤
+ ;  (T
+%7"/java.io.FileInputStream#<init>(Ljava/io/File;)V*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*2
+
+__unknown_file (
 
-%5java.util.ListB-+
-)engclasses.dao.memory.ConsulenteDAOMemoryH
+filejava.io.File*
+7*◊
+10 ("86
+ ( 
+%4java.util.HashMap"java.util.HashMapf
+d
+ ("
+%5"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%4java.util.HashMap"%
+ (#
+
+%4java.util.HashMap*û
+11 (&^
+\
+ (&
+%0java.lang.String"__id*2
+
+__unknown_file (
+partecipazioni.dat.,
+ (
+%1java.io.File"java.io.File•
+¢
+ ('
+%2"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%1java.io.File*4
+
+__unknown_file (
+
+%0java.lang.StringZ
+X
+ ((
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%1java.io.Fileqo
+ (
+%3boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+8
+10B31
+/engclasses.dao.filesystem.PartecipazioneDAOFile

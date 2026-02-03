@@ -10,9 +10,7 @@ import engclasses.exceptions.LoginFallitoException;
 import misc.PersistenceType;
 import misc.CSSConstants;
 import misc.Session;
-import misc.CSSConstants;
 import misc.ViewType;
-import misc.CSSConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -52,7 +50,6 @@ public class LoginGUIController {
         // Imposta il tipo di persistenza iniziale (Memory di default)
         session.setPersistenceType(PersistenceType.MEMORY);
 
-        LoginController controller = new LoginController(session);
 
         // Aggiunge un listener al ToggleGroup per aggiornare la persistenza nella sessione
         persistenceGroup.selectedToggleProperty().addListener((obs, oldVal, newVal) -> {

@@ -1,15 +1,13 @@
 
-:model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javam m()"1*¬
-1n n( t
-r
-n n( 
-%0java.time.LocalDate"__id*E
+6model.Annuncio#getDataCreazione()Ljava/time/LocalDate;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaq q(%"1*å
+1r r(#¬©
+r r(%
+%0java.time.LocalDate":model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;*.
 
-__unknown_file ()*'
-model.Annuncio"
-dataPubblicazione"'
-n n(!
+__unknown_file (
+model.Annuncio2getDataPubblicazione()"'
+r r(&
 
 %0java.time.LocalDateB
 model.AnnuncioH

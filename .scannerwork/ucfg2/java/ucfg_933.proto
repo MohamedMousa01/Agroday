@@ -1,18 +1,157 @@
 
-Dengclasses.beans.AppuntamentoBean#getNomeCliente()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaË Ë( "1*∫
-1
-È È(Ä
-~
+Oengclasses.beans.AppuntamentoBean#getNomeCompletoConsulente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaö ö(+"7*Æ
+2
+ü ü(à
+Ö
 
-È È(
-%0java.lang.String"__id*R
+ü ü('
+%10java.lang.String"__id*X
 
-__unknown_file (6*4#
-!engclasses.beans.AppuntamentoBean"
-nomeCliente"&
+__unknown_file (<*:#
+!engclasses.beans.AppuntamentoBean"
+cognomeConsulenteåâ
 
-È È(
+ü ü((
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%10java.lang.String2append(Ljava/lang/String;)*
+1*é
+3
+û û(!˜Ù
+
+û û(-
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*!
+
+__unknown_file (
+ 2append(Ljava/lang/String;)*
+2*£
+4
+û û(âÜ
+
+û û(
+%8boolean"!java.lang.CharSequence#isEmpty()Z*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder2	isEmpty()*
+2
+3*ü
+5
+ù ù(á
+Ñ
+
+ù ù(
+%6java.lang.String"__id*X
+
+__unknown_file (<*:#
+!engclasses.beans.AppuntamentoBean"
+cognomeConsulente|
+z
+
+ù ù(%
+%7boolean"	__compare*
+
+ù ù( 
+!=*&
+
+ù ù(
 
-%0java.lang.StringB%#
+%6java.lang.String*
+
+ù! ù(%
+""*
+4
+1*®
+6
+ú$ ú(&Ñ
+Å
+
+ú. ú(<
+%4java.lang.String"__id*U
+
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+nomeConsulenteäá
+
+ú$ ú(=
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*4
+
+__unknown_file (
+
+%4java.lang.String2append(Ljava/lang/String;)*
+5*Ã
+7
+õ õ(.FD
+
+õ õ(,
+%0java.lang.StringBuilder"java.lang.StringBuildert
+r
+
+õ õ(.
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderp
+n
+
+õ õ(/
+sbjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderÑ
+Å
+
+ú ú(
+%2java.lang.String"__id*U
+
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+nomeConsulente|
+z
+
+ú ú("
+%3boolean"	__compare*
+
+ú ú(
+!=*&
+
+ú ú(
+
+%2java.lang.String*
+
+ú ú("
+""*
+5
+6*‚
+1
+° °(ß§
+
+° °(
+%12java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder2
+toString()"'
+
+° °(
+
+%12java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

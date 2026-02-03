@@ -113,7 +113,7 @@ public class OffertaController {
     public List<Offerta> getOfferteRicevutePending(String usernameAgricoltore) {
         return getOfferteRicevute(usernameAgricoltore).stream()
                 .filter(Offerta::isPending)
-                .collect(java.util.stream.Collectors.toList());
+                .toList();
     }
 
     /**

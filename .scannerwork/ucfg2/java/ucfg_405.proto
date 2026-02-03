@@ -1,17 +1,37 @@
 
-Zengclasses.dao.factory.DAOFileFactory#getConsulenteDAO()Lengclasses/dao/api/ConsulenteDAO;d
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java;, ;(<"1*Ú
-1< <(&lj
-< <($1
-%0+engclasses.dao.filesystem.ConsulenteDAOFile"+engclasses.dao.filesystem.ConsulenteDAOFile›
-˜
-< <(&
-%1"5engclasses.dao.filesystem.ConsulenteDAOFile#<init>()V*O
+7__sonar_lambda_37$engclasses.dao.memory.UtenteDAOMemoryd
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (I"startingBlock*·
+startingBlock (I–
+“
 
-__unknown_file (3
-1
-%0+engclasses.dao.filesystem.ConsulenteDAOFile"?
-< <('3
-1
-%0+engclasses.dao.filesystem.ConsulenteDAOFileB)'
-%engclasses.dao.factory.DAOFileFactoryH
+__unknown_file (
+usernamejava.lang.String"__id*S
+
+__unknown_file (7*5'
+%engclasses.dao.memory.UtenteDAOMemory"
+
+username*
+1*¯
+1 ( “
+ (.
+%4java.lang.String",model.Utente#getUsername()Ljava/lang/String;*/
+
+__unknown_file (
+
+umodel.Utente2getUsername()ìé
+ (I
+%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%4java.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
+ (I
+
+%5boolean:
+ (
+umodel.UtenteB 
+java.util.function.Predicate

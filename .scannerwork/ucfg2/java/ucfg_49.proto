@@ -1,15 +1,12 @@
 
-6model.Annuncio#getDataCreazione()Ljava/time/LocalDate;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaq q(%"1*¬
-1r r( t
-r
-r r( 
-%0java.time.LocalDate"__id*E
+model.Annuncio#getQuantita()IM
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javau u("1*®
+1v v($Š‡
+v v(&	
+%0int"'model.Annuncio#getQuantitaDesiderata()I*.
 
-__unknown_file ()*'
-model.Annuncio"
-dataPubblicazione"'
-r r(!
-
-%0java.time.LocalDateB
-model.AnnuncioH
+__unknown_file (
+model.Annuncio2getQuantitaDesiderata()"
+v v('
+""B
+model.AnnuncioHX

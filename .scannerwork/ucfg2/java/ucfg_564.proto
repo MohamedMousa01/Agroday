@@ -1,24 +1,36 @@
 
-=__sonar_lambda_50$engclasses.dao.memory.AppuntamentoDAOMemoryj
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java{ {(4"1*á
-1{ {(¦£
-{ {()
-%11misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
+=__sonar_lambda_47$engclasses.dao.memory.AppuntamentoDAOMemoryj
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javai i(I"startingBlock*Å
+startingBlocki i(I¤
+¡
 
-__unknown_file (
-
-amodel.Appuntamento2
-getStato()Š‡
-{ {(4
-%12boolean""misc.StatoAppuntamento#isAttivo()Z*;
+__unknown_file ( 
+idConsulentejava.lang.String"__id*]
 
-__unknown_file (
-
-%11misc.StatoAppuntamento2
-isAttivo()"
-{ {(4
+__unknown_file (A*?-
++engclasses.dao.memory.AppuntamentoDAOMemory"
+idConsulente*
+1*·
+1i i(+©¦
+i3 i(H
+%9java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*7
+
+__unknown_file (
+
+appmodel.Appuntamento2getIdConsulente()ÝÚ
+i i(I
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String2equals(Ljava/lang/Object;)"
+i i(I
 
-%12boolean:#
-{ {(
-amodel.AppuntamentoB 
+%10boolean:%
+i i(
+appmodel.AppuntamentoB 
 java.util.function.Predicate

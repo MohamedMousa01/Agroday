@@ -15,7 +15,6 @@ import misc.ViewType;
 import model.Utente;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Controller per la view del profilo utente
@@ -81,7 +80,7 @@ public class ProfiloGUIController {
             // Filtra annunci dell'utente
             List<AnnuncioBean> mieiAnnunci = tuttiAnnunci.stream()
                     .filter(a -> a.getAutore().equals(username))
-                    .collect(Collectors.toList());
+                    .toList();
             
             lblNumAnnunci.setText(String.valueOf(mieiAnnunci.size()));
             lblNumOrdini.setText("0"); // TODO: implementare quando sarà pronto il sistema ordini
@@ -101,19 +100,23 @@ public class ProfiloGUIController {
     @FXML
     private void modificaProfilo() {
         mostraMessaggio("Modifica Profilo", 
-                       "La funzionalità di modifica del profilo sarà disponibile a breve!\n\n" +
-                       "Potrai modificare:\n" +
-                       "• Nome e Cognome\n" +
-                       "• Email\n" +
-                       "• Città",
+                       """
+                       La funzionalità di modifica del profilo sarà disponibile a breve!
+                       
+                       Potrai modificare:
+                       • Nome e Cognome
+                       • Email
+                       • Città""",
                        Alert.AlertType.INFORMATION);
     }
 
     @FXML
     private void cambiaPassword() {
         mostraMessaggio("Cambia Password", 
-                       "La funzionalità di cambio password sarà disponibile a breve!\n\n" +
-                       "Potrai modificare la tua password in modo sicuro.",
+                       """
+                       La funzionalità di cambio password sarà disponibile a breve!
+                       
+                       Potrai modificare la tua password in modo sicuro.""",
                        Alert.AlertType.INFORMATION);
     }
 

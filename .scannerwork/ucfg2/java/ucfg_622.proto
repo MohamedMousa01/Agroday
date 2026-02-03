@@ -1,15 +1,36 @@
 
-Lmisc.Session#getAppuntamentoSelezionato()Lengclasses/beans/AppuntamentoBean;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java` `(6"1*Î
-1a a(&‡
-„
-a a(&'
-%0!engclasses.beans.AppuntamentoBean"__id*I
+__sonar_lambda_54$misc.SessionK
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaZ* Z(["startingBlock*ª
+startingBlockZ* Z([‰
+†
 
-__unknown_file (-*+
-misc.Session"
-appuntamentoSelezionato"5
-a a(')
-'
-%0!engclasses.beans.AppuntamentoBeanB
-misc.SessionH
+__unknown_file ("
+idAppuntamentojava.lang.String"__id*@
+
+__unknown_file ($*"
+misc.Session"
+idAppuntamento*
+1*×
+1Z/ Z(0ÉÆ
+Z/ Z(D
+%4java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+a!engclasses.beans.AppuntamentoBean2getIdAppuntamento()ÞÛ
+Z/ Z([
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%4java.lang.String*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String2equals(Ljava/lang/Object;)"
+Z/ Z([
+
+%5boolean:2
+Z* Z(+&
+a!engclasses.beans.AppuntamentoBeanB 
+java.util.function.Predicate

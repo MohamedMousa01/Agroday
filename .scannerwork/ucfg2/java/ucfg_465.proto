@@ -1,7 +1,7 @@
 
 >__sonar_lambda_40$controllers.grafico.gui.ProfiloGUIControllerk
-a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ProfiloGUIController.javaS S(?"startingBlock*æ
-startingBlockS S(?ù
+a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ProfiloGUIController.javaR R(?"startingBlock*æ
+startingBlockR R(?ù
 ö
 
 __unknown_file (
@@ -12,14 +12,14 @@ a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/Profilo
 
 username*
 1*π
-1S! S("±Æ
-S! S(.
+1R! R("±Æ
+R! R(.
 %5java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
 
 __unknown_file ($
 "
 aengclasses.beans.AnnuncioBean2getAutore()ÿ’
-S! S(?
+R! R(?
 %6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
 
 __unknown_file (
@@ -29,9 +29,9 @@ a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/Profilo
 __unknown_file (
 
 usernamejava.lang.String2equals(Ljava/lang/Object;)"
-S! S(?
+R! R(?
 
 %6boolean:.
-S S("
+R R("
 aengclasses.beans.AnnuncioBeanB 
 java.util.function.Predicate

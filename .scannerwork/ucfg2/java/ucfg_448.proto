@@ -1,44 +1,44 @@
 
-=view.cli.CreaAnnuncioCLIView#chiediTitolo()Ljava/lang/String;[
-Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java< <("1*‰
-1= =(Q
+Bview.cli.CreaAnnuncioCLIView#chiediDescrizione()Ljava/lang/String;[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.javaA A(#"1*Œ
+1B B(Q
 O
-= =(
+B B(
 %0java.io.PrintStream"__id*"
 
 __unknown_file (
-""ÜÙ
-= =(7
+""ßÜ
+B B(:
 
 %1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
 
 __unknown_file (
 
-%0java.io.PrintStream*=
+%0java.io.PrintStream*@
 
-__unknown_file (!
-\nðŸ“Œ Titolo dell'annuncio: 2print(Ljava/lang/String;)v
+__unknown_file ($"
+ \nðŸ“ Descrizione dettagliata: 2print(Ljava/lang/String;)v
 t
-> >(
+C C(
 %2java.util.Scanner"__id*I
 
 __unknown_file (-*+
 view.cli.CreaAnnuncioCLIView"	
 scanner˜•
-> >(!
+C C(!
 %3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
 
 __unknown_file (
 
 %2java.util.Scanner2
 nextLine()Ž‹
-> >((
+C C((
 %4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
 
 __unknown_file (
 
 %3java.lang.String2trim()"$
-> >()
+C C()
 
 %4java.lang.StringB 
 view.cli.CreaAnnuncioCLIViewH

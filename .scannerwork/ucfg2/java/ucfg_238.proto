@@ -1,126 +1,16 @@
 
-Cview.cli.MainAgricoltoreCLIView#confermaAzione(Ljava/lang/String;)Z^
-T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.javaI I(!"7*Ý
-2LX L(`ÈÅ
-LX L(n
-%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+:engclasses.beans.LoginBean#getPassword()Ljava/lang/String;Y
+O/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/LoginBean.java (!"1*©
+1 (t
+r
+ (
+%0java.lang.String"__id*H
 
-__unknown_file (
-
-rispostajava.lang.String*#
-
-__unknown_file (
-YES2equals(Ljava/lang/Object;)*
-1*Þ
-4L@ L(HÆÃ
-L@ L(T
-%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
-
-__unknown_file (
-
-rispostajava.lang.String*!
-
-__unknown_file (
-Y2equals(Ljava/lang/Object;)*
-2
-1*á
-6L' L(/ÆÃ
-L' L(<
-%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
-
-__unknown_file (
-
-rispostajava.lang.String*"
-
-__unknown_file (
-SI2equals(Ljava/lang/Object;)*	
-2
-4
-1*›
-7J J(Q
-O
-J J(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""o
-m
-J J()
-%1java.lang.String"__concat*
-J J(
-\n*+
-J  J()
-
-	messaggiojava.lang.Stringn
-l
-J J(6
-%2java.lang.String"__concat*$
-J J()
-
-%1java.lang.String*
-J, J(6
+__unknown_file (,**
+engclasses.beans.LoginBean"
 
- (S/N): ÓÐ
-J J(7
-
-%3void".java.io.PrintStream#print(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*4
-
-__unknown_file (
+password"$
+ (
 
-%2java.lang.String2print(Ljava/lang/String;)y
-w
-K K(!
-%4java.util.Scanner"__id*L
-
-__unknown_file (0*.!
-view.cli.MainAgricoltoreCLIView"	
-scanner˜•
-K K(,
-%5java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
-
-%4java.util.Scanner2
-nextLine()Ž‹
-K K(3
-%6java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
-
-__unknown_file (
-
-%5java.lang.String2trim()œ™
-K K(A
-%7java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*4
-
-__unknown_file (
-
-%6java.lang.String2toUpperCase()f
-d
-K K(B
-rispostajava.lang.String"__id*4
-
-__unknown_file (
-
-%7java.lang.StringÅÂ
-L L(#
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
-
-__unknown_file (
-
-rispostajava.lang.String*!
-
-__unknown_file (
-S2equals(Ljava/lang/Object;)*
-2
-4
-6
-1*!
-1L L(o"
-L L(o
-"":)
-I" I(2
-	messaggiojava.lang.StringB#!
-view.cli.MainAgricoltoreCLIViewHX
+%0java.lang.StringB
+engclasses.beans.LoginBeanH

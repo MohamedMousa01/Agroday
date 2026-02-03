@@ -1,15 +1,19 @@
 
-MainGUI#<init>()V
-__unknown_file ("startingBlock*²
-startingBlockD
-</Users/mohamedmousa/Desktop/prova/src/main/java/MainGUI.java (~
-|
-D
-</Users/mohamedmousa/Desktop/prova/src/main/java/MainGUI.java (
-%0"Application#<init>()V*
- (	
-MainGUI"[
-D
-</Users/mohamedmousa/Desktop/prova/src/main/java/MainGUI.java (
-implicit returnB	
-MainGUI
+-misc.Session#getTipoUtente()Lmisc/TipoUtente;M
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java— —(#"1*¡
+1
+˜ ˜(i
+g
+
+˜ ˜(
+%0misc.TipoUtente"__id*<
+
+__unknown_file ( *
+misc.Session"
+
+tipoUtente"%
+
+˜ ˜(
+
+%0misc.TipoUtenteB
+misc.SessionH

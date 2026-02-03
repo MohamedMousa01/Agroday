@@ -1,18 +1,18 @@
 
-;model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaº º(+"1*³
+<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÕ Õ('"1*¸
 1
-» »(w
-u
+Ö Ö(x
+v
 
-» »(
-%0misc.TipoConsulenza"__id*F
+Ö Ö(
+%0java.time.LocalDateTime"__id*C
 
-__unknown_file (**(
-model.Appuntamento"
-tipoConsulenza")
+__unknown_file ('*%
+model.Appuntamento"
+dataOraFine"-
 
-» »(
-
-%0misc.TipoConsulenzaB
+Ö Ö(
+
+%0java.time.LocalDateTimeB
 model.AppuntamentoH

@@ -1,28 +1,24 @@
 
-0view.cli.RegistrazioneCLIView#%field_initializer
-__unknown_file ("1*¶
-1 (çä
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java( (/
-%0java.util.Scanner"java.util.Scanner‘
-—
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
+=__sonar_lambda_50$engclasses.dao.memory.AppuntamentoDAOMemoryj
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java{ {(4"1*·
+1{ {(¶£
+{ {()
+%11misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
+
+__unknown_file (
 
-%0java.util.Scanner*
- (
-""º
-π
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java (;,
-view.cli.RegistrazioneCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner"q
-Z
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java W(
-implicit returnB!
-view.cli.RegistrazioneCLIView
+amodel.Appuntamento2
+getStato()äá
+{ {(4
+%12boolean""misc.StatoAppuntamento#isAttivo()Z*;
+
+__unknown_file (
+
+%11misc.StatoAppuntamento2
+isAttivo()"
+{ {(4
+
+%12boolean:#
+{ {(
+amodel.AppuntamentoB 
+java.util.function.Predicate

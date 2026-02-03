@@ -1,16 +1,15 @@
 
-,model.Annuncio#getAutore()Ljava/lang/String;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaY Y("1*Ÿ
-1Z Z(j
-h
-Z Z(
-%0java.lang.String"__id*>
+,model.Annuncio#getTitolo()Ljava/lang/String;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java] ]("1*›
+1^ ^(f
+d
+^ ^(
+%0java.lang.String"__id*:
 
-__unknown_file ("* 
-model.Annuncio"
-
-nomeAutore"$
-Z Z(
+__unknown_file (*
+model.Annuncio"
+titolo"$
+^ ^(
 
 %0java.lang.StringB
 model.AnnuncioH

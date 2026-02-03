@@ -43,13 +43,15 @@ public class MainConsulenteGUIController {
 
     @FXML
     private void visualizzaClienti() {
-        // TODO: Creare view dedicata per clienti
+        // Funzionalità in sviluppo: view dedicata per clienti
         mostraMessaggio("I Miei Clienti", 
-                       "La gestione clienti sarà disponibile a breve!\n\n" +
-                       "Potrai:\n" +
-                       "• Visualizzare elenco clienti\n" +
-                       "• Storico consulenze per cliente\n" +
-                       "• Note e documenti condivisi",
+                       """
+                       La gestione clienti sarà disponibile a breve!
+                       
+                       Potrai:
+                       • Visualizzare elenco clienti
+                       • Storico consulenze per cliente
+                       • Note e documenti condivisi""",
                        Alert.AlertType.INFORMATION);
     }
 

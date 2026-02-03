@@ -1,18 +1,73 @@
 
-Gengclasses.beans.AppuntamentoBean#getCognomeCliente()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java (#"1*æ
-1
-Ò Ò(Ñ
-Å
+Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java± ±(%"4*x
+2
+≤8 ≤(:b
+`
 
-Ò Ò(
-%0java.lang.String"__id*U
+≤8 ≤(:
+%2java.lang.String"__id*4
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-cognomeCliente"&
-
-Ò Ò(
+__unknown_file (
 
-%0java.lang.StringB%#
+%4java.lang.String*
+1*Æ
+3
+≤ ≤($Ä
+~
+
+≤ ≤($
+%5misc.StatoAppuntamento"__id*L
+
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+stato∞≠
+
+≤ ≤(5
+%3java.lang.String"9misc.StatoAppuntamento#getDisplayName()Ljava/lang/String;*:
+
+__unknown_file (
+
+%5misc.StatoAppuntamento2getDisplayName()b
+`
+
+≤ ≤(5
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+1*†
+4
+≤ ≤(Ä
+~
+
+≤ ≤(
+%0misc.StatoAppuntamento"__id*L
+
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+statoÉ
+Ä
+
+≤ ≤(
+%1boolean"	__compare*
+
+≤ ≤(
+!=*,
+
+≤ ≤(
+
+%0misc.StatoAppuntamento*
+
+≤ ≤(
+""*
+2
+3*7
+1
+≤ ≤(;"&
+
+≤ ≤(;
+
+%2java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

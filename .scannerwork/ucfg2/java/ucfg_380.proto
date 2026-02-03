@@ -1,101 +1,90 @@
 
-Gengclasses.dao.filesystem.AnnuncioDAOFile#caricaDaFile()Ljava/util/Map;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.java" (."10*4
-4$ $(;"%
-$ $(<
-
-%10java.lang.Object*¸
-5# #(Us
-q
-# #(U 
-oisjava.io.ObjectInputStream"__id*=
+Fengclasses.dao.filesystem.AnnuncioDAOFile#elimina(Ljava/lang/String;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.java? ?("startingBlock*Å
+2D D(¡
+ž
+D D( 
+%4boolean"8engclasses.dao.filesystem.AnnuncioDAOFile#salvaSuFile()Z*I
 
-__unknown_file (!
-
-%8java.io.ObjectInputStream®«
-$+ $(;
-%10java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*>
+__unknown_file (-+
+)engclasses.dao.filesystem.AnnuncioDAOFile"
+D D(!
+""*®
+3C C(
+}
+C C(
+%1java.util.Map"__id*V
 
-__unknown_file ("
- 
-oisjava.io.ObjectInputStream2readObject()*
-4*¨
-6#% #(UHF
-#) #(:
-%8java.io.ObjectInputStream"java.io.ObjectInputStreamÉ
-Æ
-#% #(U
-%9"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
+__unknown_file (:*8+
+)engclasses.dao.filesystem.AnnuncioDAOFile"	
+annunci¡
+ž
+C C(&
+%2model.Annuncio"__mapRemove*1
 
-__unknown_file (!
-
-%8java.io.ObjectInputStream*;
+__unknown_file (
+
+%1java.util.Map*<
 
-__unknown_file (
-
-%6java.io.FileInputStream*
-5*
-7#O #(SDB
-#? #(N
-%6java.io.FileInputStream"java.io.FileInputStreamµ
-²
-#; #(T
-%7"/java.io.FileInputStream#<init>(Ljava/io/File;)V*;
-
-__unknown_file (
-
-%6java.io.FileInputStream*2
-
-__unknown_file (
+__unknown_file ( 
+
+
+idAnnunciojava.lang.Stringr
+p
+C C(.
+%3boolean"	__compare*
+C' C()
+!=*"
+C C(&
 
-filejava.io.File*
-6*Ö
-9   ("86
-   ( 
-%4java.util.HashMap"java.util.HashMapf
-d
-   ("
-%5"java.util.HashMap#<init>()V*5
+%2model.Annuncio*
+C* C(.
+""*
+2
+1*’
+startingBlock? ?(-‘
+Ž
+> >(
+%5"
+__annotate*2
 
-__unknown_file (
-
-%4java.util.HashMap"%
-   (#
-
-%4java.util.HashMap*–
-10 (&W
-U
- (&
-%0java.lang.String"__id*+
+__unknown_file (
+java.lang.Override*<
 
-__unknown_file (
-annunci.dat.,
- (
-%1java.io.File"java.io.File¥
-¢
- ('
-%2"(java.io.File#<init>(Ljava/lang/String;)V*0
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String^
+\
+?" ?(,
+
+idAnnunciojava.lang.String"__annotation*"
 
-__unknown_file (
-
-%1java.io.File*4
-
-__unknown_file (
-
-%0java.lang.StringZ
-X
- ((
-filejava.io.File"__id*0
-
-__unknown_file (
-
-%1java.io.Fileqo
- (
-%3boolean"java.io.File#exists()Z*2
-
-__unknown_file (
-
-filejava.io.File2exists()*
-7
-9B-+
-)engclasses.dao.filesystem.AnnuncioDAOFile
+__unknown_file (
+
+%5*
+5*!
+4A A("
+A A(
+""*“
+5@ @(|
+z
+@ @(
+%0boolean"	__compare*
+@ @(
+==*,
+@ @( 
+
+
+idAnnunciojava.lang.String*
+@ @(
+""*
+3
+4*!
+1F F("
+F F(
+"":*
+? ?(,
+
+idAnnunciojava.lang.StringB-+
+)engclasses.dao.filesystem.AnnuncioDAOFileHX

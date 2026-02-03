@@ -1,18 +1,15 @@
 
-&misc.Session#getUtente()Lmodel/Utente;M
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java‚ ‚("1*ž
-1
-ƒ ƒ(i
-g
-
-ƒ ƒ(
-%0model.Utente"__id*?
+.misc.Session#getTipoInterfaccia()Lmisc/UiType;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaz z($"1*˜
+1z. z(=h
+f
+z. z(=
+%0misc.UiType"__id*A
 
-__unknown_file (#*!
-misc.Session"
-utenteLoggato""
-
-ƒ ƒ(
-
-%0model.UtenteB
+__unknown_file (%*#
+misc.Session"
+tipoInterfaccia"
+z' z(>
+
+%0misc.UiTypeB
 misc.SessionH

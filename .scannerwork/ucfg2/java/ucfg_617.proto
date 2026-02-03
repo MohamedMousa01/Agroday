@@ -1,15 +1,15 @@
 
-6misc.Session#getAppuntamentiCorrente()Ljava/util/List;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaK" K(9"1*£
-1L L(#p
-n
-L L(#
-%0java.util.List"__id*F
+)misc.Session#getAnnunci()Ljava/util/List;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java? ?(("1*–
+1@ @(c
+a
+@ @(
+%0java.util.List"__id*9
 
-__unknown_file (**(
-misc.Session"
-appuntamentiCorrente""
-L L($
+__unknown_file (*
+misc.Session"	
+annunci""
+@ @(
 
 %0java.util.ListB
 misc.SessionH

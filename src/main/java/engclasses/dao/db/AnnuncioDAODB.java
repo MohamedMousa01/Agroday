@@ -105,8 +105,8 @@ public class AnnuncioDAODB implements AnnuncioDAO {
 
     @Override
     public Annuncio trovaPerId(String idAnnuncio) {
-        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
-                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, descrizione, " +
+                     "data_pubblicazione, data_scadenza, citta, quantita_desiderata, " +
                      "quantita_totale, stato FROM Annunci WHERE idAnnuncio = ?";
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -127,24 +127,24 @@ public class AnnuncioDAODB implements AnnuncioDAO {
 
     @Override
     public List<Annuncio> trovaPerAutore(String autore) {
-        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
-                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, descrizione, " +
+                     "data_pubblicazione, data_scadenza, citta, quantita_desiderata, " +
                      "quantita_totale, stato FROM Annunci WHERE nome_autore = ?";
         return eseguiQueryLista(sql, autore);
     }
 
     @Override
     public List<Annuncio> trovaPerCitta(String citta) {
-        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
-                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, descrizione, " +
+                     "data_pubblicazione, data_scadenza, citta, quantita_desiderata, " +
                      "quantita_totale, stato FROM Annunci WHERE citta = ?";
         return eseguiQueryLista(sql, citta);
     }
 
     @Override
     public List<Annuncio> trovaTutti() {
-        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
-                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, descrizione, " +
+                     "data_pubblicazione, data_scadenza, citta, quantita_desiderata, " +
                      "quantita_totale, stato FROM Annunci ORDER BY data_pubblicazione DESC";
         List<Annuncio> risultati = new ArrayList<>();
 
@@ -164,8 +164,8 @@ public class AnnuncioDAODB implements AnnuncioDAO {
 
     @Override
     public List<Annuncio> trovaAttivi() {
-        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
-                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, descrizione, " +
+                     "data_pubblicazione, data_scadenza, citta, quantita_desiderata, " +
                      "quantita_totale, stato FROM Annunci " +
                      "WHERE data_scadenza >= CURDATE() ORDER BY data_pubblicazione DESC";
         List<Annuncio> risultati = new ArrayList<>();

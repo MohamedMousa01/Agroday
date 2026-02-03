@@ -1,58 +1,18 @@
 
-$model.Appuntamento#isModificabile()ZS
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaö ö(!"3*»
-2
-õ# õ(0z
-x
-
-õ# õ(0
-%2java.time.LocalDateTime"__id*E
-
-__unknown_file ()*'
-model.Appuntamento"
-dataOraInizioü
-ú
-
-õ9 õ(L
-%3java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*7
-
-__unknown_file ("
-java.time.LocalDateTimeìê
-
-õ# õ(M
-%4boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*;
-
-__unknown_file (
-
-%2java.time.LocalDateTime*;
-
-__unknown_file (
-
-%3java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
-1*ó
-3
-õ õ(q
-o
-
-õ õ(
-%0misc.StatoAppuntamento"__id*=
-
-__unknown_file (!*
-model.Appuntamento"
-statoäá
-
-õ õ(
-%1boolean""misc.StatoAppuntamento#isAttivo()Z*:
-
-__unknown_file (
-
-%0misc.StatoAppuntamento2
-isAttivo()*
-2
-1*%
+;model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java∫ ∫(+"1*≥
 1
-õ õ(N"
+ª ª(w
+u
 
-õ õ(N
-""B
-model.AppuntamentoHX
+ª ª(
+%0misc.TipoConsulenza"__id*F
+
+__unknown_file (**(
+model.Appuntamento"
+tipoConsulenza")
+
+ª ª(
+
+%0misc.TipoConsulenzaB
+model.AppuntamentoH

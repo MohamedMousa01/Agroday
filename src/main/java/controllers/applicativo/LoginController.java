@@ -1,13 +1,12 @@
 package controllers.applicativo;
 
-import engclasses.beans.LoginBean;
+
 import engclasses.dao.UtenteDAOFactory;
 import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.factory.DAOFactory;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.LoginFallitoException;
-import misc.AppResult;
 import misc.PersistenceType;
 import misc.Session;
 import model.Utente;

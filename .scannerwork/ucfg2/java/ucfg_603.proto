@@ -1,139 +1,113 @@
 
-∆engclasses.pattern.Factory.AppuntamentoInUfficioFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;v
-l/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/Factory/AppuntamentoInUfficioFactory.java (("startingBlock*˛	
-startingBlock( (7ê
-ç
- (
-%2"
+Aengclasses.dao.db.UtenteDAODB#esisteUsername(Ljava/lang/String;)Z\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/UtenteDAODB.java (!"startingBlock*!
+3& &("
+& &(
+""*é
+startingBlock! (2è
+å
+ (
+%7"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*;
+java.lang.Override*:
 
-__unknown_file (
-
-	idClientejava.lang.String]
-[
-0 (9
-	idClientejava.lang.String"__annotation*"
+__unknown_file (
+
+usernamejava.lang.String\
+Z
+) (1
+usernamejava.lang.String"__annotation*"
 
 __unknown_file (
 
-%2ì
-ê
- (
-%3"
-__annotate*2
+%7*
+9*Ò
+4$ $(-d
+b
+$ $(-
+rsjava.sql.ResultSet"__id*6
 
-__unknown_file (
-java.lang.Override*>
+__unknown_file (
+
+%3java.sql.ResultSetwu
+& &(
+%4boolean"java.sql.ResultSet#next()Z*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet2next()*
+3*À
+5$ $(∂≥
+$ $(,
+%3java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*>
 
 __unknown_file ("
  
-idConsulentejava.lang.String`
-^
-B (N 
-idConsulentejava.lang.String"__annotation*"
+psjava.sql.PreparedStatement2executeQuery()*
+4*û
+6! !(>t
+r
+! !(> 
+psjava.sql.PreparedStatement"__id*>
 
-__unknown_file (
-
-%3õ
-ò
- (
-%4"
-__annotate*2
+__unknown_file ("
+ 
+%1java.sql.PreparedStatementìê
+# #(%
+
+%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*>
 
-__unknown_file (
-java.lang.Override*F
+__unknown_file ("
+ 
+psjava.sql.PreparedStatement* 
 
-__unknown_file (*
-(
-dataOraIniziojava.time.LocalDateTimeh
+__unknown_file (2*:
+
+__unknown_file (
+
+usernamejava.lang.String2setString(ILjava/lang/String;)*
+5*ú
+7   (<h
 f
-8 (E(
-dataOraIniziojava.time.LocalDateTime"__annotation*"
-
-__unknown_file (
-
-%4ô
-ñ
- (
-%5"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*D
-
-__unknown_file ((
-&
-dataOraFinejava.time.LocalDateTimef
-d
-U (`&
-dataOraFinejava.time.LocalDateTime"__annotation*"
-
-__unknown_file (
-
-%5å
-â
- (
-%6"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*7
+   (<
+connjava.sql.Connection"__id*7
 
 __unknown_file (
 
-luogojava.lang.StringY
-W
-1 (6
-luogojava.lang.String"__annotation*"
+%0java.sql.Connectionùö
+!$ !(> 
+%1java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
 
-__unknown_file (
-
-%6*
-1*∑
-1 (LJ
- ((!
-%0model.AppuntamentoInUfficio"model.AppuntamentoInUfficio®
-•
- (K
-%1"çmodel.AppuntamentoInUfficio#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V*?
+__unknown_file (
+
+connjava.sql.Connection*5
 
-__unknown_file (#
-!
-%0model.AppuntamentoInUfficio*;
+__unknown_file (
+
+sqljava.lang.String2$prepareStatement(Ljava/lang/String;)*
+6*∆
+8   (,±
+Æ
+   (<
+%0java.sql.Connection"Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;*@
 
-__unknown_file (
-
-	idClientejava.lang.String*>
+__unknown_file ($""
+ engclasses.pattern.ConnessioneDB*
+7*£
+9 (é
+ã
+ (
+sqljava.lang.String"__id*`
 
-__unknown_file ("
- 
-idConsulentejava.lang.String*F
-
-__unknown_file (*
-(
-dataOraIniziojava.time.LocalDateTime*D
-
-__unknown_file ((
-&
-dataOraFinejava.time.LocalDateTime*7
-
-__unknown_file (
-
-luogojava.lang.String"/
- (L#
-!
-%0model.AppuntamentoInUfficio:)
-) (:
-	idClientejava.lang.String:,
-; (O 
-idConsulentejava.lang.String:4
-* (F(
-dataOraIniziojava.time.LocalDateTime:2
-G (a&
-dataOraFinejava.time.LocalDateTime:%
-* (6
-luogojava.lang.StringB;9
-7engclasses.pattern.Factory.AppuntamentoInUfficioFactoryH
+__unknown_file (DB
+@    SELECT 1
+    FROM UTENTE
+    WHERE Username = ?
+    LIMIT 1
+*
+8:(
+" (1
+usernamejava.lang.StringB!
+engclasses.dao.db.UtenteDAODBHXh

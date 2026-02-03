@@ -1,23 +1,7 @@
 
-model.Offerta#isPending()ZL
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaP P("1*Ï
-1Q Q(d
-b
-Q  Q(%
-%0java.lang.String"__id*8
-
-__unknown_file (*
-model.Offerta"
-statoÅÂ
-Q Q(&
-%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*'
-
-__unknown_file (	
-PENDING*4
-
-__unknown_file (
-
-%0java.lang.String2equals(Ljava/lang/Object;)"
-Q Q('
+model.Offerta#getPrezzoAlKg()DL
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.java: :("1*!
+1; ;("
+; ;(
 ""B
 model.OffertaHX

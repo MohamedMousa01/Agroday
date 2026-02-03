@@ -8,7 +8,6 @@ import javafx.scene.control.*;
 import misc.Session;
 import misc.ViewType;
 
-import java.time.LocalDate;
 
 public class CreaAnnuncioGUIController {
 

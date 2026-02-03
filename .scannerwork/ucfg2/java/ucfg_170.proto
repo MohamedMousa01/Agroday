@@ -1,20 +1,13 @@
 
-Gengclasses.dao.filesystem.UtenteDAOFile#aggiornaUtente(Lmodel/Utente;)Zf
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/UtenteDAOFile.javaw w(!"1*Ì
-1y y(¨¥
-y y(+
-%0boolean"Hengclasses.dao.filesystem.UtenteDAOFile#aggiornaUtente(Lmodel/Utente;Z)Z*G
+9model.AppuntamentoInUfficio#getDurataPredefinitaMinuti()IZ
+P/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoInUfficio.java0 0(0"1*d
+11 1((A
+?
+1 1((	
+%0int"__id*"
 
-__unknown_file (+)
-'engclasses.dao.filesystem.UtenteDAOFile*4
-
-__unknown_file (
-
-utentemodel.Utente* 
-
-__unknown_file (22aggiornaUtente(Lmodel/Utente;Z)"
-y y(,
-"":"
-w" w(/
-utentemodel.UtenteB+)
-'engclasses.dao.filesystem.UtenteDAOFileHX
+__unknown_file (
+"""
+1 1()
+""B"
+model.AppuntamentoInUfficioHX

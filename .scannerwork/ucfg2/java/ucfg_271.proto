@@ -1,31 +1,122 @@
 
-,model.AppuntamentoSulCampo#isDurataValida()ZY
-O/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoSulCampo.java1 1(!"1*Â
-12 2(èå
-2 2( 
-
-%0long"%model.Appuntamento#getDurataMinuti()J*:
+7model.AppuntamentoSulCampo#toString()Ljava/lang/String;Y
+O/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoSulCampo.javaD D("1*ˆ
+1E E(&k
+i
+E F(
+%0java.lang.String"__concat*%
+E E(&
+AppuntamentoSulCampo{*
+F F(
+id='∞≠
+F F(,
+%1java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*:
 
 __unknown_file (
-model.AppuntamentoSulCampo2getDurataMinuti()A
-?
-2$ 2(8	
-%1int"__id*"
+model.AppuntamentoSulCampo2getIdAppuntamento()z
+x
+E F(,
+%2java.lang.String"__concat*$
+E F(
+
+%0java.lang.String*$
+F F(,
+
+%1java.lang.Stringh
+f
+E F(3
+%3java.lang.String"__concat*$
+E F(,
+
+%2java.lang.String*
+F/ F(3
+\'n
+l
+E G(
+%4java.lang.String"__concat*$
+E F(3
+
+%3java.lang.String*
+G G(
+
+, stato=™ß
+G G('
+%5misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*:
 
-__unknown_file (
-""m
+__unknown_file (
+model.AppuntamentoSulCampo2
+getStato()Ä
+~
+E G('
+%6java.lang.String"__concat*$
+E G(
+
+%4java.lang.String**
+G G('
+
+%5misc.StatoAppuntamentom
 k
-2 2(8
-%2boolean"	__compare*
-2! 2(#
->=*
-2 2( 
-
-
-%0long*
-2$ 2(8
-	
-%1int"
-2 2(9
-""B
-model.AppuntamentoSulCampoHX
+E H(
+%7java.lang.String"__concat*$
+E G('
+
+%6java.lang.String*
+H H(	
+, data=ºπ
+H H(.
+%8java.time.LocalDateTime">model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;*:
+
+__unknown_file (
+model.AppuntamentoSulCampo2getDataOraInizio()Å
+
+E H(.
+%9java.lang.String"__concat*$
+E H(
+
+%7java.lang.String*+
+H H(.
+
+%8java.time.LocalDateTimep
+n
+E I(
+%10java.lang.String"__concat*$
+E H(.
+
+%9java.lang.String*
+I I(
+	, luogo='üú
+I I((
+%11java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*:
+
+__unknown_file (
+model.AppuntamentoSulCampo2
+getLuogo()}
+{
+E I((
+%12java.lang.String"__concat*%
+E I(
+
+%10java.lang.String*%
+I I((
+
+%11java.lang.Stringj
+h
+E I(/
+%13java.lang.String"__concat*%
+E I((
+
+%12java.lang.String*
+I+ I(/
+\'i
+g
+E J(
+%14java.lang.String"__concat*%
+E I(/
+
+%13java.lang.String*
+J J(
+}"%
+E J(
+
+%14java.lang.StringB
+model.AppuntamentoSulCampoH

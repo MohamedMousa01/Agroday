@@ -26,7 +26,6 @@ public class ConnessioneDB {
             properties.load(input);
             logger.info("Database configuration loaded successfully");
         } catch (IOException e) {
-            logger.error("Error loading database configuration", e);
             throw new DatabaseConfigurationException("Failed to load database configuration", e);
         }
     }

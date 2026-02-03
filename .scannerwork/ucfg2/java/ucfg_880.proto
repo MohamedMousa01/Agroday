@@ -1,139 +1,15 @@
 
-gengclasses.dao.filesystem.PartecipazioneDAOFile#haPartecipatoGia(Ljava/lang/String;Ljava/lang/String;)Zn
-d/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/PartecipazioneDAOFile.javac c(#"startingBlock*!
-2e e("
-e e(
-""*ñ
-3d" d(/
-}
-d" d(7
-%1boolean"	__compare*
-d0 d(2
-==*/
-d" d(/#
-!
-idAgricoltorejava.lang.String*
-d3 d(7
-""*
-2
-1*ê
-startingBlockc# c(Lí
-è
-b b(
-%11"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String_
-]
-c+ c(5
-
-idAnnunciojava.lang.String"__annotation*#
-
-__unknown_file (
-
-%11ï
-í
-b b(
-%12"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*?
-
-__unknown_file (#
-!
-idAgricoltorejava.lang.Stringb
-`
-c> c(K!
-idAgricoltorejava.lang.String"__annotation*#
-
-__unknown_file (
-
-%12*
-4*ì
-4d d(|
-z
-d d(
-%0boolean"	__compare*
-d d(
-==*,
-d d( 
-
-
-idAnnunciojava.lang.String*
-d d(
-""*
-2
-3*ﬂ	
-1g g(ç
-ä
-g g(
-%2java.util.Map"__id*c
-
-__unknown_file (G*E1
-/engclasses.dao.filesystem.PartecipazioneDAOFile"
-partecipazioniîë
-g g(&
-%3java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%2java.util.Map2values()®•
-g g(/
-%4java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%3java.util.Collection2stream()ß
-§
-h i(H"
-%5java.util.function.Predicate"__declareFunction*a
-
-__unknown_file (EC
-A__sonar_lambda_74$engclasses.dao.filesystem.PartecipazioneDAOFileï
-í
-
-__unknown_file (2
-"
-%5java.util.function.Predicate"
-
-idAnnuncio"__id*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.Stringõ
-ò
-
-__unknown_file (5
-"
-%5java.util.function.Predicate"
-idAgricoltore"__id*?
-
-__unknown_file (#
-!
-idAgricoltorejava.lang.StringâÜ
-g i(I
-%10boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*;
-
-__unknown_file (
-
-%4java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%5java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)"
-g i(J
-"":*
-c$ c(6
-
-idAnnunciojava.lang.String:-
-c7 c(K!
-idAgricoltorejava.lang.StringB31
-/engclasses.dao.filesystem.PartecipazioneDAOFileHX
+4engclasses.dao.memory.AgricoltoreDAOMemory#<init>()V
+__unknown_file ("startingBlock*⁄
+startingBlockg
+_/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java (ﬂ
+‹
+g
+_/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java (
+%0"/engclasses.dao.memory.UtenteDAOMemory#<init>()V*:
+ (.,
+*engclasses.dao.memory.AgricoltoreDAOMemory"~
+g
+_/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java (
+implicit returnB.,
+*engclasses.dao.memory.AgricoltoreDAOMemory

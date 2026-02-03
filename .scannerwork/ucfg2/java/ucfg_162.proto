@@ -1,13 +1,59 @@
 
-Kengclasses.dao.filesystem.UtenteDAOFile#esisteUsername(Ljava/lang/String;)Zf
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/UtenteDAOFile.java (!"startingBlock*!
-3 (O"
- (O
-""*Ž
-startingBlock! (2
-Œ
- (
-%8"
+kengclasses.dao.filesystem.UtenteDAOFile#selezionaUtente(Ljava/lang/String;Ljava/lang/String;)Lmodel/Utente;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/UtenteDAOFile.java> >(!"startingBlock*V
+14D D(<
+:
+D D(
+%4"__id*"
+
+__unknown_file (
+""*
+11
+12*¥
+16A A(1`
+^
+A A(1
+utentijava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List<
+:
+B B(
+%2"__id*"
+
+__unknown_file (
+""om
+B8 B(E	
+%3int"java.util.List#size()I*6
+
+__unknown_file (
+
+utentijava.util.List2size()*
+14*Û
+17A" A(.ÄÁ
+A" A(0
+%1java.util.List"Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*G
+
+__unknown_file (+)
+'engclasses.dao.filesystem.UtenteDAOFile2caricaDaFile()*
+16*R
+18@ @(<
+:
+@ @(
+%0"__id*"
+
+__unknown_file (
+""*
+17*8
+3S S(")
+S S(
+
+foundUtentemodel.Utente*ƒ
+startingBlock>! >(C
+
+= =(
+%29"
 __annotate*2
 
 __unknown_file (
@@ -15,66 +61,184 @@ __annotate*2
 
 __unknown_file (
 
-usernamejava.lang.String\
-Z
-) (1
-usernamejava.lang.String"__annotation*"
+usernamejava.lang.String]
+[
+>) >(1
+usernamejava.lang.String"__annotation*#
 
-__unknown_file (
-
-%8*
-6*Ó
-4 (MŸ
-œ
- (M"
-%2java.util.function.Predicate"__declareFunction*Y
+__unknown_file (
+
+%29
+
+= =(
+%30"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+passwordjava.lang.String]
+[
+>: >(B
+passwordjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%30*
+18*Q
+4Q Q(=
+;
+Q Q(
+%26"__id*"
+
+__unknown_file (
+""*
+3*ò
+6O O(=
+;
+O O(
+%24"__id*"
+
+__unknown_file (
+""ž›
+O; O(T
+%25java.lang.String",model.Utente#getUsername()Ljava/lang/String;*9
+
+__unknown_file (
+
+foundUtentemodel.Utente2getUsername()*
+3*õ
+7I L("b
+`
+I L("
+foundUtentemodel.Utente"__id*1
+
+__unknown_file (
+
+%22model.Utentez
+x
+N N(#
+%23boolean"	__compare*
+N N(
+!=*)
+N N(
+
+foundUtentemodel.Utente*
+N N(#
+""*
+4
+6*ñ
+8L L( ÜÙ
+I! L(!
+%22model.Utente"?java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;*7
+
+__unknown_file (
+
+%21java.util.Optional*"
+
+__unknown_file (
+""2orElse(Ljava/lang/Object;)*
+7*Á
+9I! K( ¬©
+I! K( 
+%21java.util.Optional"7java.util.stream.Stream#findFirst()Ljava/util/Optional;*<
+
+__unknown_file ( 
+
+%20java.util.stream.Stream2findFirst()*
+8*’
+10J J(e 
+
+J J(e#
+%15java.util.function.Predicate"__declareFunction*Y
 
 __unknown_file (=;
-9__sonar_lambda_11$engclasses.dao.filesystem.UtenteDAOFile‘
-Ž
+9__sonar_lambda_14$engclasses.dao.filesystem.UtenteDAOFile’
+
 
-__unknown_file (0
-"
-%2java.util.function.Predicate"
+__unknown_file (1
+#
+%15java.util.function.Predicate"
 
 username"__id*:
 
 __unknown_file (
 
-usernamejava.lang.Stringˆ…
- (N
-%5boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*;
+usernamejava.lang.String’
+
 
-__unknown_file (
-
-%1java.util.stream.Stream*@
+__unknown_file (1
+#
+%15java.util.function.Predicate"
+
+password"__id*:
 
-__unknown_file ($
-"
-%2java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)*
-3*
-5 (1`
-^
- (1
-utentijava.util.List"__id*2
+__unknown_file (
+
+passwordjava.lang.String¯¬
+I! J(f
+%20java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*<
 
-__unknown_file (
-
-%0java.util.List¦£
- ("
-%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
+__unknown_file ( 
+
+%14java.util.stream.Stream*A
+
+__unknown_file (%
+#
+%15java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)*
+9*¾
+11I! I('§¤
+I! I(0
+%14java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
 
 __unknown_file (
 
-utentijava.util.List2stream()*
-4*Ù
-6" (.ÄÁ
-" (0
-%0java.util.List"Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*G
+utentijava.util.List2stream()*
+10*Õ
+12E E(ž
+›
+E F(y!
+%5java.util.function.Consumer"__declareFunction*Y
 
-__unknown_file (+)
-'engclasses.dao.filesystem.UtenteDAOFile2caricaDaFile()*
-5:(
-" (1
-usernamejava.lang.StringB+)
-'engclasses.dao.filesystem.UtenteDAOFileHXh
+__unknown_file (=;
+9__sonar_lambda_13$engclasses.dao.filesystem.UtenteDAOFile
+
+
+__unknown_file (/
+!
+%5java.util.function.Consumer"
+
+username"__id*:
+
+__unknown_file (
+
+usernamejava.lang.String
+
+
+__unknown_file (/
+!
+%5java.util.function.Consumer"
+
+password"__id*:
+
+__unknown_file (
+
+passwordjava.lang.String÷ô
+E F(z
+%13void":java.lang.Iterable#forEach(Ljava/util/function/Consumer;)V*6
+
+__unknown_file (
+
+utentijava.util.List*?
+
+__unknown_file (#
+!
+%5java.util.function.Consumer2&forEach(Ljava/util/function/Consumer;)*
+11:(
+>" >(2
+usernamejava.lang.String:(
+>3 >(B
+passwordjava.lang.StringB+)
+'engclasses.dao.filesystem.UtenteDAOFileHh

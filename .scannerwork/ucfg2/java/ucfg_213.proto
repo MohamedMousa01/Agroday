@@ -1,18 +1,18 @@
 
-5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÃ Ã(%"1*°
+/model.Appuntamento#getLuogo()Ljava/lang/String;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÞ Þ("1*¤
 1
-Ä Ä(q
-o
+ß ß(k
+i
 
-Ä Ä(
-%0misc.StatoAppuntamento"__id*=
+ß ß(
+%0java.lang.String"__id*=
 
 __unknown_file (!*
 model.Appuntamento"
-stato",
+luogo"&
 
-Ä Ä(
-
-%0misc.StatoAppuntamentoB
+ß ß(
+
+%0java.lang.StringB
 model.AppuntamentoH

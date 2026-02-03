@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770133893060*java2.B¤
+1.0MohamedMousa01_AgrodayJavaFrontend"1770144194745*java2.B¤
 5
 0src/main/java/engclasses/dao/db/UtenteDAODB.java2
 	
@@ -125,13 +125,13 @@ Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)V91
 B
 <misc.TipoUtente#valueOf(Ljava/lang/String;)Lmisc/TipoUtente;93
 .
-(engclasses.pattern.Factory.UtenteFactory95
+(engclasses.pattern.factory.UtenteFactory95
 6
-0engclasses.pattern.Factory.UtenteFactoryProvider97
+0engclasses.pattern.factory.UtenteFactoryProvider97
 ~
-xengclasses.pattern.Factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/Factory/UtenteFactory;99
+xengclasses.pattern.factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/factory/UtenteFactory;99
 €
-yengclasses.pattern.Factory.UtenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;101
+yengclasses.pattern.factory.UtenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;101
 E
 >engclasses.dao.db.UtenteDAODB#aggiornaUtente(Lmodel/Utente;Z)Z103
 
@@ -186,9 +186,9 @@ T
 
 63
 636419
-
-100
-10010119
+
+96
+969719
 
 76
 767719
@@ -214,6 +214,9 @@ M
 
 78
 787919
+
+98
+989919
 M
 39G
 394024 *
@@ -287,11 +290,11 @@ M
 90
 909119
 
-61
-616219
-
 94
 949519
+
+61
+616219
 
 57
 575819
@@ -312,17 +315,14 @@ G
 15
 16
 
-96
-969719
-
 88
 888919
 
-98
-989919
-
 17
 171819
+
+100
+10010119
 
 46
 464719

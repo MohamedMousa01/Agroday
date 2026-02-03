@@ -1,18 +1,18 @@
 
-Jengclasses.beans.AppuntamentoBean#getTipoConsulenza()Lmisc/TipoConsulenza;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaˆ ˆ(+"1*Ä
+Bengclasses.beans.AppuntamentoBean#getIdCliente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaØ Ø("1*·
 1
-‰ ‰(‡
-„
+Ù Ù(~
+|
 
-‰ ‰(
-%0misc.TipoConsulenza"__id*U
+Ù Ù(
+%0java.lang.String"__id*P
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-tipoConsulenza")
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	idCliente"&
 
-‰ ‰(
-
-%0misc.TipoConsulenzaB%#
+Ù Ù(
+
+%0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

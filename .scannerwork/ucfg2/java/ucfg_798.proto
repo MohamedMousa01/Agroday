@@ -23,25 +23,25 @@ Y
 __unknown_file (
 
 %3*
-1*·
+1*Œ
 1
-ä ä(W‡
-›
+ä ä(LÕ
+ 
 
-ä ã(^
-%0java.lang.String"__concat*R
+ä ã(V
+%0java.lang.String"__concat*G
 
-ä ä(WDB
-@SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, *Y
+ä ä(L97
+5SELECT idAnnuncio, nome_autore, titolo, descrizione, *Q
 
-ã ã(^KI
-Gcitta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, †
+ã ã(VCA
+?data_pubblicazione, data_scadenza, citta, quantita_desiderata, †
 ù
 
 ä å(J
 %1java.lang.String"__concat*&
 
-ä ã(^
+ä ã(V
 
 %0java.lang.String*E
 

@@ -1,18 +1,18 @@
 
-Lengclasses.beans.AppuntamentoBean#getMotivoCancellazione()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaÀ À(("1*Ã
+Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java (%"1*À
 1
-Á Á("‰
-†
+‘ ‘(€
+~
 
-Á Á("
-%0java.lang.String"__id*Z
+‘ ‘(
+%0misc.StatoAppuntamento"__id*L
 
-__unknown_file (>*<#
-!engclasses.beans.AppuntamentoBean"
-motivoCancellazione"&
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+stato",
 
-Á Á(#
-
-%0java.lang.StringB%#
+‘ ‘(
+
+%0misc.StatoAppuntamentoB%#
 !engclasses.beans.AppuntamentoBeanH

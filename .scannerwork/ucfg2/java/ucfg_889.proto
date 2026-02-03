@@ -1,17 +1,36 @@
 
-Yengclasses.dao.factory.DAOMemoryFactory#getLoginUtenteDAO()Lengclasses/dao/api/UtenteDAO;f
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java   (&"1*º
-1! !($`^
-! !("+
-%0%engclasses.dao.memory.UtenteDAOMemory"%engclasses.dao.memory.UtenteDAOMemoryè
-å
-! !($
-%1"/engclasses.dao.memory.UtenteDAOMemory#<init>()V*I
+A__sonar_lambda_73$engclasses.dao.filesystem.PartecipazioneDAOFilen
+d/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/PartecipazioneDAOFile.java^ ^(G"startingBlock*À
+startingBlock^ ^(G™
+ß
 
-__unknown_file (-
-+
-%0%engclasses.dao.memory.UtenteDAOMemory"9
-! !(%-
-+
-%0%engclasses.dao.memory.UtenteDAOMemoryB+)
-'engclasses.dao.factory.DAOMemoryFactoryH
+__unknown_file (!
+idAgricoltorejava.lang.String"__id*b
+
+__unknown_file (F*D1
+/engclasses.dao.filesystem.PartecipazioneDAOFile"
+idAgricoltore*
+1*∫
+1^ ^(*≠™
+^2 ^(F
+%7java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
+
+__unknown_file (
+
+pmodel.Partecipazione2getIdAgricoltore()›⁄
+^ ^(G
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
+
+__unknown_file (#
+!
+idAgricoltorejava.lang.String*4
+
+__unknown_file (
+
+%7java.lang.String2equals(Ljava/lang/Object;)"
+^ ^(G
+
+%8boolean:%
+^ ^(
+pmodel.PartecipazioneB 
+java.util.function.Predicate

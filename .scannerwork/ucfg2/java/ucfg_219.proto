@@ -1,18 +1,18 @@
 
-/model.Appuntamento#getLuogo()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÞ Þ("1*¤
+Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaø ø(."1*¿
 1
-ß ß(k
-i
+ù ù(!
+}
 
-ß ß(
-%0java.lang.String"__id*=
+ù ù(!
+%0java.time.LocalDateTime"__id*J
 
-__unknown_file (!*
-model.Appuntamento"
-luogo"&
+__unknown_file (.*,
+model.Appuntamento"
+dataUltimaModifica"-
 
-ß ß(
-
-%0java.lang.StringB
+ù ù("
+
+%0java.time.LocalDateTimeB
 model.AppuntamentoH

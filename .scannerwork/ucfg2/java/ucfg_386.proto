@@ -1,107 +1,34 @@
 
-\engclasses.dao.filesystem.AnnuncioDAOFile#trovaPerAutore(Ljava/lang/String;)Ljava/util/List;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaR R(("startingBlock*‡
-2T T($<:
-T T("
-%1java.util.ArrayList"java.util.ArrayListj
-h
-T T($
-%2"java.util.ArrayList#<init>()V*7
-
-__unknown_file (
-
-%1java.util.ArrayList"'
-T T(%
-
-%1java.util.ArrayList*è
-3S S(x
-v
-S S(
-%0boolean"	__compare*
-S S(
-==*(
-S S(
-
-autorejava.lang.String*
-S S(
-""*
-2
-1*å
-startingBlockR( R(7é
-ã
-Q Q(
-%11"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*8
-
-__unknown_file (
-
-autorejava.lang.String[
-Y
-R0 R(6
-autorejava.lang.String"__annotation*#
-
-__unknown_file (
-
-%11*
-3*¯	
-1V V(
+Fengclasses.dao.filesystem.AnnuncioDAOFile#trovaTutti()Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaf f($"1* 
+1g g(&
 }
-V V(
-%3java.util.Map"__id*V
+g g(&
+%0java.util.Map"__id*V
 
 __unknown_file (:*8+
 )engclasses.dao.filesystem.AnnuncioDAOFile"	
 annunciîë
-V V(
-%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+g g(/
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
 
 __unknown_file (
 
-%3java.util.Map2values()®•
-V V((
-%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+%0java.util.Map2values()<:
+g g(
+%2java.util.ArrayList"java.util.ArrayListª
+∏
+g g(0
+%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+
+__unknown_file (
+
+%2java.util.ArrayList*8
 
 __unknown_file (
 
-%4java.util.Collection2stream()°
-û
-W W(9"
-%6java.util.function.Predicate"__declareFunction*[
-
-__unknown_file (?=
-;__sonar_lambda_34$engclasses.dao.filesystem.AnnuncioDAOFileç
-ä
-
-__unknown_file (.
-"
-%6java.util.function.Predicate"
-autore"__id*8
-
-__unknown_file (
-
-autorejava.lang.String¨©
-V W(:
-%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%5java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ùö
-V X(
-%10java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
-
-__unknown_file (
-
-%9java.util.stream.Stream2toList()"#
-V X(
-
-%10java.util.List:&
-R) R(6
-autorejava.lang.StringB-+
+%1java.util.Collection"'
+g g(1
+
+%2java.util.ArrayListB-+
 )engclasses.dao.filesystem.AnnuncioDAOFileH

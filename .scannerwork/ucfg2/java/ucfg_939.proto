@@ -1,18 +1,18 @@
 
-Jengclasses.beans.AppuntamentoBean#getCognomeConsulente()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaÄ Ä(&"1*¡
+Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java– –(#"1*æ
 1
-Å Å( á
-Ñ
+— —(Ñ
+Å
 
-Å Å( 
-%0java.lang.String"__id*X
+— —(
+%0java.lang.String"__id*U
 
-__unknown_file (<*:#
-!engclasses.beans.AppuntamentoBean"
-cognomeConsulente"&
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+idAppuntamento"&
 
-Å Å(!
+— —(
 
 %0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

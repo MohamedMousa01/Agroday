@@ -1,76 +1,57 @@
 
-_controllers.grafico.cli.RegistrazioneCLIController#determinaPersistenza()Lmisc/PersistenceType;q
-g/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/RegistrazioneCLIController.javaK K(0"2*€
-2L L(ñ
-ì
-L L(#
-%0view.cli.RegistrazioneCLIView"__id*\
+Tmodel.observer.NotificationService#getInstance()Lmodel/observer/NotificationService;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/model/observer/NotificationService.java& (1"3*å
+2 (0ZX
+ (.(
+%2"model.observer.NotificationService""model.observer.NotificationServiceâ
+Ü
+ (0
+%3",model.observer.NotificationService#<init>()V*F
 
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view§°
-L L(-	
-%1int"2view.cli.RegistrazioneCLIView#chiediPersistenza()I*A
-
-__unknown_file (%
-#
-%0view.cli.RegistrazioneCLIView2chiediPersistenza()*
-3
-4
-5
-6*í
-3R U(ñ
-ì
-S S(#
-%5view.cli.RegistrazioneCLIView"__id*\
-
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-viewêç
-S S(Q
+__unknown_file (*
+(
+%2"model.observer.NotificationServiceè
+å
+ (02$
+"model.observer.NotificationService"
 
-%6void"Bview.cli.RegistrazioneCLIView#mostraMessaggio(Ljava/lang/String;)V*A
+instance"__id*F
 
-__unknown_file (%
-#
-%5view.cli.RegistrazioneCLIView*I
+__unknown_file (*
+(
+%2"model.observer.NotificationService*
+1*±
+3 (è
+å
+ ((
+%0"model.observer.NotificationService"__id*P
 
-__unknown_file (-+
-)Scelta non valida, uso MEMORY di default.2#mostraMessaggio(Ljava/lang/String;)R
-P
-T T(,
-%7misc.PersistenceType"__id*"
+__unknown_file (4*2$
+"model.observer.NotificationService"
+
+instanceá
+Ñ
+ (
+%1boolean"	__compare*
+ (
+==*6
+ (*
+(
+%0"model.observer.NotificationService*
+ (
+""*
+2
+1*◊
+1 (è
+å
+ ((
+%4"model.observer.NotificationService"__id*P
 
-__unknown_file (
-""*
-1*f
-4Q Q()R
-P
-Q Q((
-%4misc.PersistenceType"__id*"
-
-__unknown_file (
-""*
-1*f
-5P P(+R
-P
-P P(*
-%3misc.PersistenceType"__id*"
-
-__unknown_file (
-""*
-1*f
-6O O(-R
-P
-O O(,
-%2misc.PersistenceType"__id*"
-
-__unknown_file (
-""*
-1*!
-1N V(
-"
-N V(
-
-""B64
-2controllers.grafico.cli.RegistrazioneCLIController
+__unknown_file (4*2$
+"model.observer.NotificationService"
+
+instance"6
+ (*
+(
+%4"model.observer.NotificationServiceB&"$
+"model.observer.NotificationServiceH

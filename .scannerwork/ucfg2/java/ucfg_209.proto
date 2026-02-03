@@ -1,18 +1,18 @@
 
-3model.Appuntamento#getIdCliente()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java² ²("1*¨
+>model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÌ Ì()"1*º
 1
-³ ³(o
-m
+Í Í(z
+x
 
-³ ³(
-%0java.lang.String"__id*A
+Í Í(
+%0java.time.LocalDateTime"__id*E
 
-__unknown_file (%*#
-model.Appuntamento"
-	idCliente"&
+__unknown_file ()*'
+model.Appuntamento"
+dataOraInizio"-
 
-³ ³(
-
-%0java.lang.StringB
+Í Í(
+
+%0java.time.LocalDateTimeB
 model.AppuntamentoH

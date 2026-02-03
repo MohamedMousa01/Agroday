@@ -1,15 +1,15 @@
 
-+model.Annuncio#getCitta()Ljava/lang/String;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javay y("1*š
-1z z(e
-c
-z z(
-%0java.lang.String"__id*9
+5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java} }($"1*§
+1}/ }(;o
+m
+}/ }(;
+%0java.time.LocalDate"__id*@
 
-__unknown_file (*
-model.Annuncio"
-citta"$
-z z(
-
-%0java.lang.StringB
+__unknown_file ($*"
+model.Annuncio"
+dataScadenza"'
+}( }(<
+
+%0java.time.LocalDateB
 model.AnnuncioH

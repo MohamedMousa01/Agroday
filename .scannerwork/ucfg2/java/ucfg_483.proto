@@ -1,17 +1,15 @@
 
-Uengclasses.dao.factory.DAODBFactory#getLoginUtenteDAO()Lengclasses/dao/api/UtenteDAO;b
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAODBFactory.java (&"1*’
-1 ( PN
- (#
-%0engclasses.dao.db.UtenteDAODB"engclasses.dao.db.UtenteDAODB~
-|
- ( 
-%1"'engclasses.dao.db.UtenteDAODB#<init>()V*A
-
-__unknown_file (%
-#
-%0engclasses.dao.db.UtenteDAODB"1
- (!%
-#
-%0engclasses.dao.db.UtenteDAODBB'%
-#engclasses.dao.factory.DAODBFactoryH
+view.cli.LoginCLIView#<init>()V
+__unknown_file ("startingBlock*ÿ
+startingBlockR
+J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (®
+«
+R
+J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (
+%0"(view.cli.LoginCLIView#%field_initializer*%
+ (
+view.cli.LoginCLIView"i
+R
+J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (
+implicit returnB
+view.cli.LoginCLIView

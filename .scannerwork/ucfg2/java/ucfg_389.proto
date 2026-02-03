@@ -1,34 +1,137 @@
 
-Fengclasses.dao.filesystem.AnnuncioDAOFile#trovaTutti()Ljava/util/List;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaf f($"1*Ê
-1g g(&
-}
-g g(&
-%0java.util.Map"__id*V
+}engclasses.pattern.factory.ConsulenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;k
+a/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/ConsulenteFactory.java
+ 
+("startingBlock*Ž
+startingBlock
+ 
+(?‰
+†
+	 	(
+%8"
+__annotate*2
 
-__unknown_file (:*8+
-)engclasses.dao.filesystem.AnnuncioDAOFile"	
-annunci”‘
-g g(/
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+__unknown_file (
+java.lang.Override*4
 
-__unknown_file (
-
-%0java.util.Map2values()<:
-g g(
-%2java.util.ArrayList"java.util.ArrayList»
-¸
-g g(0
-%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+__unknown_file (
+
+idjava.lang.StringV
+T
+
+$ 
+(&
+idjava.lang.String"__annotation*"
 
-__unknown_file (
-
-%2java.util.ArrayList*8
+__unknown_file (
+
+%8
+š
+	 	(
+%9"
+__annotate*2
 
-__unknown_file (
-
-%1java.util.Collection"'
-g g(1
-
-%2java.util.ArrayListB-+
-)engclasses.dao.filesystem.AnnuncioDAOFileH
+__unknown_file (
+java.lang.Override*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBeanj
+h
+
+: 
+(>*
+bean"engclasses.beans.RegistrazioneBean"__annotation*"
+
+__unknown_file (
+
+%9*
+1*Ô
+1 ( Â¿
+ ("
+%0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getUsername()¼¹
+ (
+%1java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getEmail()Â¿
+ ("
+%2java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getPassword()º·
+ (
+%3java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2	getNome()À½
+ (!
+%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getCognome()¼¹
+ (
+%5java.lang.String"?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getCitta()64
+ (
+%6model.Consulente"model.ConsulenteÞ
+Û
+ ( 
+%7"˜model.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%6model.Consulente*4
+
+__unknown_file (
+
+idjava.lang.String*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String"$
+ (!
+
+%6model.Consulente:"
+
+ 
+('
+idjava.lang.String:6
+
+( 
+(>*
+bean"engclasses.beans.RegistrazioneBeanB0.
+,engclasses.pattern.factory.ConsulenteFactoryH

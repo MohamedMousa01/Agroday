@@ -1,63 +1,36 @@
 
-bengclasses.dao.memory.PartecipazioneDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Partecipazione;l
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java$ $($"startingBlock*!
-2& &("
-& &(
-""*›
-3% %(ƒ
-€
-% %($
-%0boolean"	__compare*
-% %(
-==*2
-% %(&
-$
-idPartecipazionejava.lang.String*
-%  %($
-""*
-2
-1*ž
-startingBlock$$ $(=—
-”
-# #(
-%3"
-__annotate*2
+?__sonar_lambda_22$engclasses.dao.memory.PartecipazioneDAOMemoryl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java; ;(G"startingBlock*É
+startingBlock; ;(G¨
+¥
 
-__unknown_file (
-java.lang.Override*B
+__unknown_file (!
+idAgricoltorejava.lang.String"__id*`
 
-__unknown_file (&
-$
-idPartecipazionejava.lang.Stringd
-b
-$, $(<$
-idPartecipazionejava.lang.String"__annotation*"
+__unknown_file (D*B/
+-engclasses.dao.memory.PartecipazioneDAOMemory"
+idAgricoltore*
+1*º
+1; ;(*­ª
+;2 ;(F
+%7java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
 
-__unknown_file (
-
-%3*
-3*±
-1( ((K
-I
-( ((
-%1java.util.Map"__id*"
+__unknown_file (
+
+pmodel.Partecipazione2getIdAgricoltore()ÝÚ
+; ;(G
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
 
-__unknown_file (
-""ª
-§
-( ((3
-%2model.Partecipazione"__mapGet*1
+__unknown_file (#
+!
+idAgricoltorejava.lang.String*4
 
-__unknown_file (
-
-%1java.util.Map*B
-
-__unknown_file (&
-$
-idPartecipazionejava.lang.String"(
-( ((4
-
-%2model.Partecipazione:0
-$% $(<$
-idPartecipazionejava.lang.StringB1/
--engclasses.dao.memory.PartecipazioneDAOMemoryH
+__unknown_file (
+
+%7java.lang.String2equals(Ljava/lang/Object;)"
+; ;(G
+
+%8boolean:%
+; ;(
+pmodel.PartecipazioneB 
+java.util.function.Predicate

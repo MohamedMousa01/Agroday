@@ -12,10 +12,10 @@ import view.cli.CreaAnnuncioCLIView;
 import view.cli.VisualizzaAnnunciCLIView;
 import view.cli.ProfiloCLIView;
 
-import java.sql.SQLOutput;
+
 import java.time.LocalDate;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 /**
  * Controller CLI per il pannello principale dell'Agricoltore
@@ -129,7 +129,7 @@ public class MainAgricoltoreCLIController {
         List<AnnuncioBean> tuttiAnnunci = annuncioController.getAnnunci();
         List<AnnuncioBean> mieiAnnunci = tuttiAnnunci.stream()
                 .filter(a -> a.getAutore().equals(username))
-                .collect(Collectors.toList());
+                .toList();
         
         if (mieiAnnunci.isEmpty()) {
             annunciView.nessunoAnnuncio();
@@ -153,7 +153,9 @@ public class MainAgricoltoreCLIController {
                         annunciView.mostraDettaglioAnnuncio(mieiAnnunci.get(num - 1));
                     }
                 }
-                case 0 -> { } // Torna indietro
+                case 0 -> {
+                    // Torna indietro - nessuna azione necessaria
+                }
                 default -> annunciView.mostraMessaggio("Opzione non valida");
             }
         }
@@ -191,7 +193,7 @@ public class MainAgricoltoreCLIController {
         String username = Session.getInstance().getUtenteLoggato().getUsername();
         List<AnnuncioBean> mieiAnnunci = annuncioController.getAnnunci().stream()
                 .filter(a -> a.getAutore().equals(username))
-                .collect(Collectors.toList());
+                .toList();
         
         System.out.println("\n  📋 Totale annunci pubblicati: " + mieiAnnunci.size());
         System.out.println("  ✅ Annunci attivi: " + mieiAnnunci.size());
@@ -222,7 +224,9 @@ public class MainAgricoltoreCLIController {
                 profiloView.mostraMessaggio("Modifica profilo - Funzionalità in sviluppo");
                 profiloView.attendiInvio();
             }
-            default -> { } // Nessuna azione
+            default -> {
+                // Nessuna azione necessaria
+            }
         }
     }
 

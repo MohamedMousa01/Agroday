@@ -1,15 +1,15 @@
 
-Bengclasses.beans.RegistrazioneBean#getIdUtente()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java& &(!"1*«
-1&, &(.v
-t
-&, &(.
-%0java.lang.String"__id*J
+>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java( (("1*­
+1) )(x
+v
+) )(
+%0java.lang.String"__id*L
 
-__unknown_file (.*,$
-"engclasses.beans.RegistrazioneBean"
-id"$
-&% &(/
+__unknown_file (0*.$
+"engclasses.beans.RegistrazioneBean"
+nome"$
+) )(
 
 %0java.lang.StringB&$
 "engclasses.beans.RegistrazioneBeanH

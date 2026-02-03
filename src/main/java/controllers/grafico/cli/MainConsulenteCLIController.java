@@ -103,7 +103,9 @@ public class MainConsulenteCLIController {
                 profiloView.mostraMessaggio("Modifica profilo - Funzionalità in sviluppo");
                 profiloView.attendiInvio();
             }
-            default -> { } // Nessuna azione
+            default -> {
+                // Nessuna azione necessaria
+            }
         }
     }
 

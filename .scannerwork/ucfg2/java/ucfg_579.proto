@@ -1,38 +1,39 @@
 
-Hview.cli.RegistrazioneCLIView#chiediConfermaPassword()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java7 7(("1*ï
-18 8(Q
+<view.cli.RegistrazioneCLIView#chiediNome()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java ("1*â
+1 (Q
 O
-8 8(
+ (
 %0java.io.PrintStream"__id*"
 
 __unknown_file (
-""ÒÏ
-8 8(/
+""ÅÂ
+ ("
 
 %1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
 
 __unknown_file (
 
-%0java.io.PrintStream*3
+%0java.io.PrintStream*&
 
-__unknown_file (
-Conferma Password: 2print(Ljava/lang/String;)w
+__unknown_file (
+
+Nome: 2print(Ljava/lang/String;)w
 u
-9 9(
+   (
 %2java.util.Scanner"__id*J
 
 __unknown_file (.*,
 view.cli.RegistrazioneCLIView"	
 scanner˜•
-9 9(!
+   (!
 %3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
 
 __unknown_file (
 
 %2java.util.Scanner2
 nextLine()"$
-9 9("
+   ("
 
 %3java.lang.StringB!
 view.cli.RegistrazioneCLIViewH

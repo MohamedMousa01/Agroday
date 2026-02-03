@@ -8,6 +8,8 @@ import misc.Session;
 import misc.StatoAppuntamento;
 import misc.TipoConsulenza;
 import model.Consulente;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -19,21 +21,46 @@ import java.util.List;
  */
 public class TestPrenotazione {
 
+    private static final Logger logger = LoggerFactory.getLogger(TestPrenotazione.class);
+
     // Costanti per ID test
     private static final String TEST_CLIENT_ID = "client001";
-    private static final String TEST_CONSULTANT_ID = "cons001";
+    private static final String TEST_CONSULTANT_ID = "cons002";
+    
+    // Costanti per log
+    private static final String LOG_ID = "  ID: {}";
+    private static final String LOG_DATA = "  Data: {}";
+    private static final String LOG_ORARIO = "  Orario: {}";
+    private static final String LOG_LUOGO = "  Luogo: {}";
+    private static final String LOG_STATO = "  Stato: {}";
+    private static final String LOG_EMPTY = "";
 
     public static void main(String[] args) {
-        System.out.println(MessageConstants.SEPARATOR_LINE);
-        System.out.println("   TEST SISTEMA PRENOTAZIONE CONSULENZE    ");
-        System.out.println(MessageConstants.SEPARATOR_LINE + "\n");
+        logger.info(MessageConstants.SEPARATOR_LINE);
+        logger.info("   TEST SISTEMA PRENOTAZIONE CONSULENZE    ");
+        logger.info("{}\n", MessageConstants.SEPARATOR_LINE);
 
-        // 1. Inizializza la sessione in modalità DEMO (Memory)
+        // 1. Inizializza la sessione e il controller
+        AppuntamentoController controller = inizializzaSessioneEController();
+
+        // Esegui i test di prenotazione
+        eseguiTestPrenotazioni(controller);
+
+        // Esegui test di gestione appuntamenti
+        eseguiTestGestioneAppuntamenti(controller);
+        
+        // Esegui test conflitto orario
+        eseguiTestConflittoOrario(controller);
+
+        // Mostra riepilogo finale
+        mostraRiepilogoFinale(controller);
+    }
+    
+    private static AppuntamentoController inizializzaSessioneEController() {
         Session session = Session.getInstance();
         session.setPersistenceType(PersistenceType.MEMORY);
-        System.out.println("✓ Modalità: " + (session.isModalitaDemo() ? "DEMO (Memory)" : "FULL"));
+        logger.info("✓ Modalità: {}", session.isModalitaDemo() ? "DEMO (Memory)" : "FULL");
 
-        // 2. Simula un utente loggato (Consulente come cliente)
         Consulente utenteDemo = new Consulente(
                 TEST_CLIENT_ID,
                 "mario_rossi",
@@ -44,169 +71,185 @@ public class TestPrenotazione {
                 "Roma"
         );
         session.setUtenteLoggato(utenteDemo);
-        System.out.println("✓ Utente loggato: " + utenteDemo.getUsername() + "\n");
+        logger.info("✓ Utente loggato: {}\n", utenteDemo.getUsername());
 
-        // 3. Crea il controller applicativo
-        AppuntamentoController controller = new AppuntamentoController(session);
-
-        // ============ TEST 1: Prenotazione Consulenza ONLINE ============
-        System.out.println("--- TEST 1: Prenotazione Consulenza ONLINE ---");
+        return new AppuntamentoController(session);
+    }
+    
+    private static void eseguiTestPrenotazioni(AppuntamentoController controller) {
+        eseguiTestPrenotazioneOnline(controller);
+        eseguiTestPrenotazioneInUfficio(controller);
+        eseguiTestPrenotazioneSulCampo(controller);
+    }
+    
+    private static void eseguiTestPrenotazioneOnline(AppuntamentoController controller) {
+        logger.info("--- TEST 1: Prenotazione Consulenza ONLINE ---");
         try {
-            AppuntamentoBean beanOnline = new AppuntamentoBean();
-            beanOnline.setIdCliente(TEST_CLIENT_ID);
-            beanOnline.setIdConsulente(TEST_CONSULTANT_ID);
-            beanOnline.setTipoConsulenza(TipoConsulenza.ONLINE);
-            beanOnline.setData(LocalDate.now().plusDays(3)); // Fra 3 giorni
-            beanOnline.setOraInizio(LocalTime.of(10, 0));
-            beanOnline.setOraFine(LocalTime.of(11, 0));
-            beanOnline.setNote("Prima consulenza di prova");
-            // Per ONLINE il luogo è opzionale (verrà generato automaticamente)
+            AppuntamentoBean bean = new AppuntamentoBean();
+            bean.setIdCliente(TEST_CLIENT_ID);
+            bean.setIdConsulente(TEST_CONSULTANT_ID);
+            bean.setTipoConsulenza(TipoConsulenza.ONLINE);
+            bean.setData(LocalDate.now().plusDays(3));
+            bean.setOraInizio(LocalTime.of(10, 0));
+            bean.setOraFine(LocalTime.of(11, 0));
+            bean.setNote("Prima consulenza di prova");
 
-            AppuntamentoBean risultato = controller.prenotaAppuntamento(beanOnline);
-            System.out.println("✓ Appuntamento ONLINE creato!");
-            System.out.println("  ID: " + risultato.getIdAppuntamento());
-            System.out.println("  Data: " + risultato.getDataFormattata());
-            System.out.println("  Orario: " + risultato.getIntervalloOrario());
-            System.out.println("  Luogo (link): " + risultato.getLuogo());
-            System.out.println("  Stato: " + risultato.getStatoDescrizione());
-            System.out.println();
+            AppuntamentoBean risultato = controller.prenotaAppuntamento(bean);
+            logger.info("✓ Appuntamento ONLINE creato!");
+            logDettagliAppuntamento(risultato);
+            logger.info(LOG_EMPTY);
         } catch (Exception e) {
-            System.out.println(MessageConstants.ERRORE_PREFIX + e.getMessage());
+            logger.error("{}{}", MessageConstants.ERRORE_PREFIX, e.getMessage());
         }
-
-        // ============ TEST 2: Prenotazione Consulenza IN UFFICIO ============
-        System.out.println("--- TEST 2: Prenotazione Consulenza IN UFFICIO ---");
+    }
+    
+    private static void eseguiTestPrenotazioneInUfficio(AppuntamentoController controller) {
+        logger.info("--- TEST 2: Prenotazione Consulenza IN UFFICIO ---");
         try {
-            AppuntamentoBean beanUfficio = new AppuntamentoBean();
-            beanUfficio.setIdCliente(TEST_CLIENT_ID);
-            beanUfficio.setIdConsulente("cons002");
-            beanUfficio.setTipoConsulenza(TipoConsulenza.IN_UFFICIO);
-            beanUfficio.setData(LocalDate.now().plusDays(5)); // Fra 5 giorni
-            beanUfficio.setOraInizio(LocalTime.of(14, 30));
-            beanUfficio.setOraFine(LocalTime.of(16, 0));
-            beanUfficio.setLuogo("Via Roma 123, Milano");
-            beanUfficio.setNote("Portare documentazione catastale");
+            AppuntamentoBean bean = new AppuntamentoBean();
+            bean.setIdCliente(TEST_CLIENT_ID);
+            bean.setIdConsulente(TEST_CONSULTANT_ID);
+            bean.setTipoConsulenza(TipoConsulenza.IN_UFFICIO);
+            bean.setData(LocalDate.now().plusDays(5));
+            bean.setOraInizio(LocalTime.of(14, 30));
+            bean.setOraFine(LocalTime.of(16, 0));
+            bean.setLuogo("Via Roma 123, Milano");
+            bean.setNote("Portare documentazione catastale");
 
-            AppuntamentoBean risultato = controller.prenotaAppuntamento(beanUfficio);
-            System.out.println("✓ Appuntamento IN UFFICIO creato!");
-            System.out.println("  ID: " + risultato.getIdAppuntamento());
-            System.out.println("  Data: " + risultato.getDataFormattata());
-            System.out.println("  Orario: " + risultato.getIntervalloOrario());
-            System.out.println("  Luogo: " + risultato.getLuogo());
-            System.out.println("  Stato: " + risultato.getStatoDescrizione());
-            System.out.println();
+            AppuntamentoBean risultato = controller.prenotaAppuntamento(bean);
+            logger.info("✓ Appuntamento IN UFFICIO creato!");
+            logDettagliAppuntamento(risultato);
+            logger.info(LOG_EMPTY);
         } catch (Exception e) {
-            System.out.println(MessageConstants.ERRORE_PREFIX + e.getMessage());
+            logger.error("{}{}", MessageConstants.ERRORE_PREFIX, e.getMessage());
         }
-
-        // ============ TEST 3: Prenotazione Consulenza SUL CAMPO ============
-        System.out.println("--- TEST 3: Prenotazione Consulenza SUL CAMPO ---");
+    }
+    
+    private static void eseguiTestPrenotazioneSulCampo(AppuntamentoController controller) {
+        logger.info("--- TEST 3: Prenotazione Consulenza SUL CAMPO ---");
         try {
-            AppuntamentoBean beanCampo = new AppuntamentoBean();
-            beanCampo.setIdCliente(TEST_CLIENT_ID);
-            beanCampo.setIdConsulente(TEST_CONSULTANT_ID);
-            beanCampo.setTipoConsulenza(TipoConsulenza.SUL_CAMPO);
-            beanCampo.setData(LocalDate.now().plusDays(7)); // Fra 7 giorni
-            beanCampo.setOraInizio(LocalTime.of(9, 0));
-            beanCampo.setOraFine(LocalTime.of(12, 0)); // 3 ore (minimo 60 min richiesto)
-            beanCampo.setLuogo("Azienda Agricola Verdi, Strada Provinciale 45, Latina");
-            beanCampo.setNote("Ispezione terreno per nuova coltivazione");
+            AppuntamentoBean bean = new AppuntamentoBean();
+            bean.setIdCliente(TEST_CLIENT_ID);
+            bean.setIdConsulente(TEST_CONSULTANT_ID);
+            bean.setTipoConsulenza(TipoConsulenza.SUL_CAMPO);
+            bean.setData(LocalDate.now().plusDays(7));
+            bean.setOraInizio(LocalTime.of(9, 0));
+            bean.setOraFine(LocalTime.of(12, 0));
+            bean.setLuogo("Azienda Agricola Verdi, Strada Provinciale 45, Latina");
+            bean.setNote("Ispezione terreno per nuova coltivazione");
 
-            AppuntamentoBean risultato = controller.prenotaAppuntamento(beanCampo);
-            System.out.println("✓ Appuntamento SUL CAMPO creato!");
-            System.out.println("  ID: " + risultato.getIdAppuntamento());
-            System.out.println("  Data: " + risultato.getDataFormattata());
-            System.out.println("  Orario: " + risultato.getIntervalloOrario());
-            System.out.println("  Durata: " + risultato.getDurataMinuti() + " minuti");
-            System.out.println("  Luogo: " + risultato.getLuogo());
-            System.out.println("  Stato: " + risultato.getStatoDescrizione());
-            System.out.println();
+            AppuntamentoBean risultato = controller.prenotaAppuntamento(bean);
+            logger.info("✓ Appuntamento SUL CAMPO creato!");
+            logDettagliAppuntamento(risultato);
+            logger.info("  Durata: {} minuti", risultato.getDurataMinuti());
+            logger.info(LOG_EMPTY);
         } catch (Exception e) {
-            System.out.println(MessageConstants.ERRORE_PREFIX + e.getMessage());
+            logger.error("{}{}", MessageConstants.ERRORE_PREFIX, e.getMessage());
         }
-
-        // ============ TEST 4: Visualizza tutti gli appuntamenti ============
-        System.out.println("--- TEST 4: Lista Appuntamenti Utente ---");
+    }
+    
+    private static void eseguiTestGestioneAppuntamenti(AppuntamentoController controller) {
+        logger.info("--- TEST 4: Lista Appuntamenti Utente ---");
         List<AppuntamentoBean> appuntamenti = controller.getAppuntamentiUtenteCorrente();
-        System.out.println("Totale appuntamenti: " + appuntamenti.size());
+        logger.info("Totale appuntamenti: {}", appuntamenti.size());
         for (AppuntamentoBean app : appuntamenti) {
-            System.out.println("  • " + app.getDataFormattata() + " " + app.getIntervalloOrario() + 
-                    " - " + app.getTipoConsulenzaDescrizione() + " [" + app.getStatoDescrizione() + "]");
+            logger.info("  • {} {} - {} [{}]", 
+                    app.getDataFormattata(), app.getIntervalloOrario(),
+                    app.getTipoConsulenzaDescrizione(), app.getStatoDescrizione());
         }
-        System.out.println();
+        logger.info(LOG_EMPTY);
 
-        // ============ TEST 5: Conferma un appuntamento ============
-        System.out.println("--- TEST 5: Conferma Appuntamento ---");
+        eseguiTestConfermaAppuntamento(controller, appuntamenti);
+        eseguiTestCancellazioneAppuntamento(controller, appuntamenti);
+        eseguiTestPreparazioneConsulenza(controller, appuntamenti);
+    }
+    
+    private static void eseguiTestConfermaAppuntamento(AppuntamentoController controller, List<AppuntamentoBean> appuntamenti) {
+        logger.info("--- TEST 5: Conferma Appuntamento ---");
         if (!appuntamenti.isEmpty()) {
             String idDaConfermare = appuntamenti.get(0).getIdAppuntamento();
             boolean confermato = controller.confermaAppuntamento(idDaConfermare);
-            System.out.println(confermato ? "✓ Appuntamento confermato!" : "✗ Conferma fallita");
+            logger.info(confermato ? "✓ Appuntamento confermato!" : "✗ Conferma fallita");
             
-            // Verifica lo stato aggiornato
             AppuntamentoBean aggiornato = controller.getAppuntamento(idDaConfermare);
-            System.out.println("  Nuovo stato: " + aggiornato.getStatoDescrizione());
+            logger.info("  Nuovo stato: {}", aggiornato.getStatoDescrizione());
         }
-        System.out.println();
-
-        // ============ TEST 6: Cancella un appuntamento ============
-        System.out.println("--- TEST 6: Cancellazione Appuntamento ---");
+        logger.info(LOG_EMPTY);
+    }
+    
+    private static void eseguiTestCancellazioneAppuntamento(AppuntamentoController controller, List<AppuntamentoBean> appuntamenti) {
+        logger.info("--- TEST 6: Cancellazione Appuntamento ---");
         if (appuntamenti.size() > 1) {
             String idDaCancellare = appuntamenti.get(1).getIdAppuntamento();
             boolean cancellato = controller.cancellaAppuntamentoCliente(idDaCancellare, "Test cancellazione");
-            System.out.println(cancellato ? "✓ Appuntamento cancellato!" : "✗ Cancellazione fallita");
+            logger.info(cancellato ? "✓ Appuntamento cancellato!" : "✗ Cancellazione fallita");
             
-            // Verifica lo stato aggiornato
             AppuntamentoBean aggiornato = controller.getAppuntamento(idDaCancellare);
-            System.out.println("  Nuovo stato: " + aggiornato.getStatoDescrizione());
-            System.out.println("  Motivo: " + aggiornato.getMotivoCancellazione());
+            logger.info("  Nuovo stato: {}", aggiornato.getStatoDescrizione());
+            logger.info("  Motivo: {}", aggiornato.getMotivoCancellazione());
         }
-        System.out.println();
-
-        // ============ TEST 7: Preparazione Consulenza (Strategy) ============
-        System.out.println("--- TEST 7: Istruzioni Preparazione Consulenza ---");
+        logger.info(LOG_EMPTY);
+    }
+    
+    private static void eseguiTestPreparazioneConsulenza(AppuntamentoController controller, List<AppuntamentoBean> appuntamenti) {
+        logger.info("--- TEST 7: Istruzioni Preparazione Consulenza ---");
         if (!appuntamenti.isEmpty()) {
             String idAppuntamento = appuntamenti.get(0).getIdAppuntamento();
             String istruzioni = controller.preparaConsulenza(idAppuntamento);
-            System.out.println(istruzioni);
+            logger.info(istruzioni);
         }
-        System.out.println();
-
-        // ============ TEST 8: Verifica conflitto orario ============
-        System.out.println("--- TEST 8: Test Conflitto Orario ---");
+        logger.info(LOG_EMPTY);
+    }
+    
+    private static void eseguiTestConflittoOrario(AppuntamentoController controller) {
+        logger.info("--- TEST 8: Test Conflitto Orario ---");
         try {
-            // Prova a prenotare nello stesso orario dello stesso consulente
-            AppuntamentoBean beanConflitto = new AppuntamentoBean();
-            beanConflitto.setIdCliente(TEST_CLIENT_ID);
-            beanConflitto.setIdConsulente(TEST_CONSULTANT_ID); // Stesso consulente del TEST 1
-            beanConflitto.setTipoConsulenza(TipoConsulenza.ONLINE);
-            beanConflitto.setData(LocalDate.now().plusDays(3)); // Stessa data del TEST 1
-            beanConflitto.setOraInizio(LocalTime.of(10, 30)); // Orario sovrapposto!
-            beanConflitto.setOraFine(LocalTime.of(11, 30));
+            AppuntamentoBean bean = new AppuntamentoBean();
+            bean.setIdCliente(TEST_CLIENT_ID);
+            bean.setIdConsulente(TEST_CONSULTANT_ID);
+            bean.setTipoConsulenza(TipoConsulenza.ONLINE);
+            bean.setData(LocalDate.now().plusDays(3));
+            bean.setOraInizio(LocalTime.of(10, 30));
+            bean.setOraFine(LocalTime.of(11, 30));
 
-            controller.prenotaAppuntamento(beanConflitto);
-            System.out.println("✗ Avrebbe dovuto rilevare il conflitto!");
+            controller.prenotaAppuntamento(bean);
+            logger.info("✗ Avrebbe dovuto rilevare il conflitto!");
         } catch (IllegalStateException e) {
-            System.out.println("✓ Conflitto rilevato correttamente: " + e.getMessage());
+            logger.info("✓ Conflitto rilevato correttamente: {}", e.getMessage());
         } catch (Exception e) {
-            System.out.println("Errore: " + e.getMessage());
+            logger.error("Errore: {}", e.getMessage());
         }
-        System.out.println();
-
-        // ============ Riepilogo finale ============
-        System.out.println(MessageConstants.SEPARATOR_LINE);
-        System.out.println("   RIEPILOGO FINALE                        ");
-        System.out.println(MessageConstants.SEPARATOR_LINE);
+        logger.info(LOG_EMPTY);
+    }
+    
+    private static void mostraRiepilogoFinale(AppuntamentoController controller) {
+        logger.info(MessageConstants.SEPARATOR_LINE);
+        logger.info("   RIEPILOGO FINALE                        ");
+        logger.info(MessageConstants.SEPARATOR_LINE);
+        
         List<AppuntamentoBean> tuttiAppuntamenti = controller.getAppuntamentiUtenteCorrente();
-        int prenotati = 0, confermati = 0, cancellati = 0;
+        int prenotati = 0;
+        int confermati = 0;
+        int cancellati = 0;
+        
         for (AppuntamentoBean app : tuttiAppuntamenti) {
             if (app.getStato() == StatoAppuntamento.PRENOTATO) prenotati++;
             else if (app.getStato() == StatoAppuntamento.CONFERMATO) confermati++;
             else if (app.getStato().isCancellato()) cancellati++;
         }
-        System.out.println("Totale appuntamenti: " + tuttiAppuntamenti.size());
-        System.out.println("  - Prenotati: " + prenotati);
-        System.out.println("  - Confermati: " + confermati);
-        System.out.println("  - Cancellati: " + cancellati);
-        System.out.println("\n✓ Test completato con successo!");
+        
+        logger.info("Totale appuntamenti: {}", tuttiAppuntamenti.size());
+        logger.info("  - Prenotati: {}", prenotati);
+        logger.info("  - Confermati: {}", confermati);
+        logger.info("  - Cancellati: {}", cancellati);
+        logger.info("\\n✓ Test completato con successo!");
+    }
+    
+    private static void logDettagliAppuntamento(AppuntamentoBean appuntamento) {
+        logger.info(LOG_ID, appuntamento.getIdAppuntamento());
+        logger.info(LOG_DATA, appuntamento.getDataFormattata());
+        logger.info(LOG_ORARIO, appuntamento.getIntervalloOrario());
+        logger.info(LOG_LUOGO, appuntamento.getLuogo());
+        logger.info(LOG_STATO, appuntamento.getStatoDescrizione());
     }
 }

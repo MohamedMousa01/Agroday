@@ -1,6 +1,5 @@
 package controllers.grafico.gui;
 
-import controllers.applicativo.AnnuncioController;
 import controllers.applicativo.OffertaController;
 import engclasses.pattern.ViewFactory.ViewManager;
 import javafx.fxml.FXML;
@@ -14,9 +13,9 @@ import misc.CSSConstants;
 import misc.MessageConstants;
 import misc.Session;
 import misc.ViewType;
-import misc.CSSConstants;
-import model.Annuncio;
 import model.Offerta;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -28,23 +27,23 @@ import java.util.stream.Collectors;
  */
 public class VisualizzaOfferteGUIController {
 
+    private static final Logger logger = LoggerFactory.getLogger(VisualizzaOfferteGUIController.class);
+
     @FXML private VBox contenitoreOfferte;
     @FXML private Label titoloLabel;
     @FXML private Label subtitleLabel;
     @FXML private Button btnIndietro;
 
     private OffertaController offertaController;
-    private AnnuncioController annuncioController;
     private String usernameAgricoltore;
 
     @FXML
     public void initialize() {
         offertaController = new OffertaController();
-        annuncioController = new AnnuncioController();
         usernameAgricoltore = Session.getInstance().getUtenteLoggato().getUsername();
 
         // DEBUG: Stampa username per verifica
-        System.out.println("[DEBUG] Username agricoltore loggato: '" + usernameAgricoltore + "'");
+        logger.debug("Username agricoltore loggato: '{}'", usernameAgricoltore);
 
         caricaOfferte();
     }
@@ -56,9 +55,9 @@ public class VisualizzaOfferteGUIController {
         List<Offerta> offerte = offertaController.getOfferteRicevute(usernameAgricoltore);
 
         // DEBUG: Stampa numero offerte trovate
-        System.out.println("[DEBUG] Numero offerte trovate per '" + usernameAgricoltore + "': " + offerte.size());
+        logger.debug("Numero offerte trovate per '{}': {}", usernameAgricoltore, offerte.size());
         for (Offerta o : offerte) {
-            System.out.println("[DEBUG] Offerta: " + o.getIdOfferta() + " - Venditore: " + o.getUsernameVenditore() + " - Prezzo: " + o.getPrezzoAlKg());
+            logger.debug("Offerta: {} - Venditore: {} - Prezzo: {}", o.getIdOfferta(), o.getUsernameVenditore(), o.getPrezzoAlKg());
         }
 
         if (offerte.isEmpty()) {
@@ -205,7 +204,7 @@ public class VisualizzaOfferteGUIController {
         alert.setTitle("Conferma Accettazione");
         alert.setHeaderText("Accettare questa offerta?");
         alert.setContentText(String.format(
-            "Venditore: %s\nPrezzo: %.2f €/kg\nTotale: %.2f €\n\nVuoi accettare questa offerta?",
+            "Venditore: %s%nPrezzo: %.2f €/kg%nTotale: %.2f €%n%nVuoi accettare questa offerta?",
             offerta.getUsernameVenditore(), offerta.getPrezzoAlKg(), offerta.getPrezzoTotale()));
 
         alert.showAndWait().ifPresent(response -> {
@@ -226,7 +225,7 @@ public class VisualizzaOfferteGUIController {
         alert.setTitle("Conferma Rifiuto");
         alert.setHeaderText("Rifiutare questa offerta?");
         alert.setContentText(String.format(
-            "Venditore: %s\nPrezzo: %.2f €/kg\n\nSei sicuro di voler rifiutare questa offerta?",
+            "Venditore: %s%nPrezzo: %.2f €/kg%n%nSei sicuro di voler rifiutare questa offerta?",
             offerta.getUsernameVenditore(), offerta.getPrezzoAlKg()));
 
         alert.showAndWait().ifPresent(response -> {

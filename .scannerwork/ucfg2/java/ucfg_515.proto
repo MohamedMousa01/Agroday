@@ -1,23 +1,15 @@
 
-model.Offerta#isRifiutata()ZL
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaX X("1*Ñ
-1Y Y(d
-b
-Y" Y('
-%0java.lang.String"__id*8
+7model.Offerta#getDataOfferta()Ljava/time/LocalDateTime;L
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaB B('"1*­
+1C C(q
+o
+C C(
+%0java.time.LocalDateTime"__id*>
 
-__unknown_file (*
-model.Offerta"
-statoÇÄ
-Y Y((
-%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*)
-
-__unknown_file (
-	RIFIUTATA*4
-
-__unknown_file (
-
-%0java.lang.String2equals(Ljava/lang/Object;)"
-Y Y()
-""B
-model.OffertaHX
+__unknown_file ("* 
+model.Offerta"
+dataOfferta"+
+C C(
+
+%0java.time.LocalDateTimeB
+model.OffertaH

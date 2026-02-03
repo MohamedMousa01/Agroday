@@ -1,35 +1,49 @@
 
-model.Annuncio#isScaduto()ZO
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaè è("1*¨
+model.Annuncio#isAttivo()ZO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaì ì("3*ç
+2
+î6 î(?wu
+
+î6 î(A
+%3boolean"model.Annuncio#isScaduto()Z*.
+
+__unknown_file (
+model.Annuncio2isScaduto()*
+1*≠
+3
+î î(T
+R
+
+î î(#
+%0java.lang.String"__id*&
+
+__unknown_file (
+
+ATTIVOg
+e
+
+î+ î(0
+%1java.lang.String"__id*9
+
+__unknown_file (*
+model.Annuncio"
+stato‘—
+
+î î(1
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*%
 1
-ê ê(è
-å
+î î(B"
 
-ê ê(
-%0java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
-
-__unknown_file ("
-java.time.LocalDateq
-o
-
-ê' ê(8
-%1java.time.LocalDate"__id*@
-
-__unknown_file ($*"
-model.Annuncio"
-dataScadenzaˇ¸
-
-ê ê(9
-%2boolean"@java.time.LocalDate#isAfter(Ljava/time/chrono/ChronoLocalDate;)Z*7
-
-__unknown_file (
-
-%0java.time.LocalDate*7
-
-__unknown_file (
-
-%1java.time.LocalDate2+isAfter(Ljava/time/chrono/ChronoLocalDate;)"
-
-ê ê(:
+î î(B
 ""B
 model.AnnuncioHX

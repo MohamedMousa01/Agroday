@@ -1,36 +1,106 @@
 
-=__sonar_lambda_47$engclasses.dao.memory.AppuntamentoDAOMemoryj
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javai i(I"startingBlock*≈
-startingBlocki i(I§
-°
-
-__unknown_file ( 
-idConsulentejava.lang.String"__id*]
-
-__unknown_file (A*?-
-+engclasses.dao.memory.AppuntamentoDAOMemory"
-idConsulente*
-1*∑
-1i i(+©¶
-i3 i(H
-%9java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*7
+bengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerConsulente(Ljava/lang/String;)Ljava/util/List;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javaF F(0"startingBlock*‡
+2H H($<:
+H H("
+%1java.util.ArrayList"java.util.ArrayListj
+h
+H H($
+%2"java.util.ArrayList#<init>()V*7
 
 __unknown_file (
 
-appmodel.Appuntamento2getIdConsulente()›⁄
-i i(I
-%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*>
+%1java.util.ArrayList"'
+H H(%
+
+%1java.util.ArrayList*ï
+3G G(~
+|
+G G( 
+%0boolean"	__compare*
+G G(
+==*.
+G G("
+ 
+idConsulentejava.lang.String*
+G G( 
+""*
+2
+1*ò
+startingBlockF0 F(Eî
+ë
+E E(
+%11"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*>
 
 __unknown_file ("
  
-idConsulentejava.lang.String*4
+idConsulentejava.lang.Stringa
+_
+F8 F(D 
+idConsulentejava.lang.String"__annotation*#
 
-__unknown_file (
-
-%9java.lang.String2equals(Ljava/lang/Object;)"
-i i(I
-
-%10boolean:%
-i i(
-appmodel.AppuntamentoB 
-java.util.function.Predicate
+__unknown_file (
+
+%11*
+3*“	
+1J J(K
+I
+J J(
+%3java.util.Map"__id*"
+
+__unknown_file (
+""îë
+J J($
+%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%3java.util.Map2values()®•
+J J(-
+%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+%4java.util.Collection2stream()£
+†
+K K(E"
+%6java.util.function.Predicate"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_44$engclasses.dao.memory.AppuntamentoDAOMemoryô
+ñ
+
+__unknown_file (4
+"
+%6java.util.function.Predicate"
+idConsulente"__id*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String¨©
+J K(F
+%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%5java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ùö
+J L(
+%10java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%9java.util.stream.Stream2toList()"#
+J L(
+
+%10java.util.List:,
+F1 F(D 
+idConsulentejava.lang.StringB/-
++engclasses.dao.memory.AppuntamentoDAOMemoryH

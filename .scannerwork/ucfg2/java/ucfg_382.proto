@@ -1,98 +1,36 @@
 
-Bengclasses.dao.filesystem.AnnuncioDAOFile#salva(Lmodel/Annuncio;)Zh
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.java6 6("startingBlock*!
-28 8("
-8 8(
-""*°
-37  7((¢Ÿ
-7  7(8
-%1java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
+;__sonar_lambda_34$engclasses.dao.filesystem.AnnuncioDAOFileh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaW W(9"startingBlock*·
+startingBlockW W(9–
+“
 
-__unknown_file (
-
-annunciomodel.Annuncio2getIdAnnuncio()t
-r
-7  7(@
-%2boolean"	__compare*
-79 7(;
-==*$
-7  7(8
-
-%1java.lang.String*
-7< 7(@
-""*
-2
-1*Š
-startingBlock6 6(+
-Š
-5 5(
-%7"
-__annotate*2
+__unknown_file (
+autorejava.lang.String"__id*U
 
-__unknown_file (
-java.lang.Override*8
-
-__unknown_file (
-
-annunciomodel.AnnuncioZ
-X
-6" 6(*
-annunciomodel.Annuncio"__annotation*"
-
-__unknown_file (
-
-%7*
-4*
-47 7(x
-v
-7 7(
-%0boolean"	__compare*
-7 7(
-==*(
-7 7(
-
-annunciomodel.Annuncio*
-7 7(
-""*
-2
-3*¾
-1: :(
-}
-: :(
-%3java.util.Map"__id*V
-
-__unknown_file (:*8+
-)engclasses.dao.filesystem.AnnuncioDAOFile"	
-annunci¢Ÿ
-: :(,
-%4java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
-
-__unknown_file (
-
-annunciomodel.Annuncio2getIdAnnuncio()Ð
-Í
-: :(7
-%5model.Annuncio"__mapSet*1
+__unknown_file (9*7+
+)engclasses.dao.filesystem.AnnuncioDAOFile"
+autore*
+1*™
+1W W(#“
+W+ W(8
+%7java.lang.String",model.Annuncio#getAutore()Ljava/lang/String;*1
 
 __unknown_file (
 
-%3java.util.Map*4
-
-__unknown_file (
-
-%4java.lang.String*8
+amodel.Annuncio2getAutore()ÖÓ
+W W(9
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*8
 
 __unknown_file (
 
-annunciomodel.Annuncio¡
-ž
-; ;(
-%6boolean"8engclasses.dao.filesystem.AnnuncioDAOFile#salvaSuFile()Z*I
+autorejava.lang.String*4
 
-__unknown_file (-+
-)engclasses.dao.filesystem.AnnuncioDAOFile"
-; ;(
-"":&
-6 6(*
-annunciomodel.AnnuncioB-+
-)engclasses.dao.filesystem.AnnuncioDAOFileHX
+__unknown_file (
+
+%7java.lang.String2equals(Ljava/lang/Object;)"
+W W(9
+
+%8boolean:
+W W(
+amodel.AnnuncioB 
+java.util.function.Predicate

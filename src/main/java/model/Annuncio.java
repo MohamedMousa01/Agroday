@@ -83,7 +83,7 @@ public class Annuncio implements Serializable {
     }
     
     public String getIdAnnuncio() {
-        return idAnnuncio;
+        return getId();
     }
 
     public String getAutore() {
@@ -111,11 +111,11 @@ public class Annuncio implements Serializable {
     }
     
     public LocalDate getDataCreazione() {
-        return dataPubblicazione;
+        return getDataPubblicazione();
     }
     
     public int getQuantita() {
-        return quantitaDesiderata;
+        return getQuantitaDesiderata();
     }
     
     public String getCitta() {

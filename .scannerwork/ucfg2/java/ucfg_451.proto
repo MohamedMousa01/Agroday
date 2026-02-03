@@ -1,61 +1,44 @@
 
-.view.cli.CreaAnnuncioCLIView#chiediQuantita()I[
-Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.javaK K("6*!
-2N N(?"
-N N(?
-""*Ç
-3N N(>²
-¯
-N N(>	
-%5int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
-
-__unknown_file ("
-java.lang.Integer*4
-
-__unknown_file (
-
-%4java.lang.String*
-2*£
-4N$ N(=Ž‹
-N$ N(=
-%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
-
-__unknown_file (
-
-%3java.lang.String2trim()*
-3*¥
-5N N(v
-t
-N$ N(+
-%2java.util.Scanner"__id*I
-
-__unknown_file (-*+
-view.cli.CreaAnnuncioCLIView"	
-scanner˜•
-N$ N(6
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
-
-%2java.util.Scanner2
-nextLine()*
-4*Í
-6L L(Q
+<view.cli.CreaAnnuncioCLIView#chiediCitta()Ljava/lang/String;[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.javaT T("1*û
+1U U(Q
 O
-L L(
+U U(
 %0java.io.PrintStream"__id*"
 
 __unknown_file (
-""åâ
-L L(?
+""ÎË
+U U((
 
 %1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
 
 __unknown_file (
 
-%0java.io.PrintStream*F
+%0java.io.PrintStream*/
 
-__unknown_file (*(
-&\nðŸ“¦ QuantitÃ  disponibile (in kg): 2print(Ljava/lang/String;)*
-5B 
-view.cli.CreaAnnuncioCLIViewHX
+__unknown_file (
+\nðŸ“ CittÃ : 2print(Ljava/lang/String;)v
+t
+V V(
+%2java.util.Scanner"__id*I
+
+__unknown_file (-*+
+view.cli.CreaAnnuncioCLIView"	
+scanner˜•
+V V(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()Ž‹
+V V((
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2trim()"$
+V V()
+
+%4java.lang.StringB 
+view.cli.CreaAnnuncioCLIViewH

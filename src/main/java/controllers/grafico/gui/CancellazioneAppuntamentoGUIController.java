@@ -19,14 +19,13 @@ public class CancellazioneAppuntamentoGUIController {
     @FXML private Label messageLabel;
     @FXML private Button annullaBtn;
     @FXML private Button confermaBtn;
-
-    private Session session;
+    
     private AppuntamentoController appuntamentoController;
     private AppuntamentoBean appuntamento;
 
     @FXML
     private void initialize() {
-        session = Session.getInstance();
+        Session session = Session.getInstance();
         appuntamentoController = new AppuntamentoController(session);
     }
 

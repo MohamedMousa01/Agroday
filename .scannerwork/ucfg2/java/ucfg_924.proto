@@ -1,73 +1,79 @@
 
-Rengclasses.beans.AppuntamentoBean#getTipoConsulenzaDescrizione()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java∏ ∏(."4*x
-2
-πJ π(Lb
-`
-
-πJ π(L
-%2java.lang.String"__id*4
+Mengclasses.beans.AppuntamentoBean#getDataOraInizio()Ljava/time/LocalDateTime;`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaJ J()"4*Ú
+2L L( z
+x
+L$ L((
+%4java.time.LocalDate"__id*K
 
-__unknown_file (
-
-%4java.lang.String*
-1*Ø
-3
-π( π(6á
-Ñ
-
-π( π(6
-%5misc.TipoConsulenza"__id*U
+__unknown_file (/*-#
+!engclasses.beans.AppuntamentoBean"
+data
+}
+L* L(3
+%5java.time.LocalTime"__id*P
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-tipoConsulenza™ß
-
-π( π(G
-%3java.lang.String"6misc.TipoConsulenza#getDisplayName()Ljava/lang/String;*7
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraInizio∏
+µ
+L L(4
+%6java.time.LocalDateTime"_java.time.LocalDateTime#of(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;*7
+
+__unknown_file ("
+java.time.LocalDateTime*7
 
 __unknown_file (
 
-%5misc.TipoConsulenza2getDisplayName()b
-`
-
-π( π(G
-%2java.lang.String"__id*4
+%4java.time.LocalDate*7
 
-__unknown_file (
-
-%3java.lang.String*
-1*¢
-4
-π π(á
-Ñ
-
-π π(
-%0misc.TipoConsulenza"__id*U
-
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-tipoConsulenza
-}
-
-π π(%
-%1boolean"	__compare*
-
-π π( 
-!=*)
-
-π π(
+__unknown_file (
 
-%0misc.TipoConsulenza*
-
-π! π(%
+%5java.time.LocalTime"+
+L L(5
+
+%6java.time.LocalDateTime*è
+3K K(%
+}
+K K(%
+%2java.time.LocalTime"__id*P
+
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraIniziow
+u
+K K(-
+%3boolean"	__compare*
+K& K((
+!=*'
+K K(%
+
+%2java.time.LocalTime*
+K) K(-
 ""*
 2
-3*7
-1
-π π(M"&
-
-π π(M
-
-%2java.lang.StringB%#
+1*ä
+4K K(z
+x
+K K(
+%0java.time.LocalDate"__id*K
+
+__unknown_file (/*-#
+!engclasses.beans.AppuntamentoBean"
+dataw
+u
+K K(
+%1boolean"	__compare*
+K K(
+!=*'
+K K(
+
+%0java.time.LocalDate*
+K K(
+""*
+3
+1*!
+1N N("
+N N(
+""B%#
 !engclasses.beans.AppuntamentoBeanH

@@ -112,19 +112,19 @@ f
 
 __unknown_file ($""
  engclasses.pattern.ConnessioneDB*
-9*ö
-11l l(WÚ
-×
-l m(^
-%0java.lang.String"__concat*P
-l l(WDB
-@SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, *W
-m m(^KI
-Gcitta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, Ÿ
+9*ã
+11l l(LÇ
+Ä
+l m(V
+%0java.lang.String"__concat*E
+l l(L97
+5SELECT idAnnuncio, nome_autore, titolo, descrizione, *O
+m m(VCA
+?data_pubblicazione, data_scadenza, citta, quantita_desiderata, Ÿ
 œ
 l n(O
 %1java.lang.String"__concat*$
-l m(^
+l m(V
 
 %0java.lang.String*H
 n n(O<:

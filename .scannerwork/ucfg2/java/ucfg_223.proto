@@ -1,18 +1,29 @@
 
-=model.Appuntamento#getMotivoCancellazione()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java (("1*≤
-1
-Ò Ò("y
-w
-
-Ò Ò("
-%0java.lang.String"__id*K
-
-__unknown_file (/*-
-model.Appuntamento"
-motivoCancellazione"&
-
-Ò Ò(#
-
-%0java.lang.StringB
-model.AppuntamentoH
+2view.cli.MainAgricoltoreCLIView#%field_initializer
+__unknown_file ("1*∞
+1 (èå
+^
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java( (/
+%0java.util.Scanner"java.util.Scanner÷
+”
+^
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java$ (:
+%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
+ (
+
+%0java.util.Scanner*
+ (
+""¿
+Ω
+^
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java (;.!
+view.cli.MainAgricoltoreCLIView"	
+scanner"__id*%
+ (
+
+%0java.util.Scanner"s
+\
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
+ Z(
+implicit returnB#!
+view.cli.MainAgricoltoreCLIView

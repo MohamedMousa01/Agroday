@@ -1,18 +1,113 @@
 
-Gengclasses.beans.AppuntamentoBean#getNomeConsulente()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaø ø(#"1*¾
-1
-ù ù(„
-
+3engclasses.beans.AppuntamentoBean#isModificabile()Zb
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java¿ ¿(!"6*×
+2
+Ä( Ä(5Ÿ
+œ
 
-ù ù(
-%0java.lang.String"__id*U
+Ä> Ä(Q
+%6java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*7
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-nomeConsulente"&
+__unknown_file ("
+java.time.LocalDateTime›
 
-ù ù(
-
-%0java.lang.StringB%#
-!engclasses.beans.AppuntamentoBeanH
+Ä( Ä(R
+%7boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTime*;
+
+__unknown_file (
+
+%6java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+1*ı
+3
+Ã& Ã(6ÔÑ
+
+Ã& Ã(8
+%4java.time.LocalDateTime"Mengclasses.beans.AppuntamentoBean#getDataOraInizio()Ljava/time/LocalDateTime;*A
+
+__unknown_file (%#
+!engclasses.beans.AppuntamentoBean2getDataOraInizio(){
+y
+
+Ã Ã(9(
+dataOraIniziojava.time.LocalDateTime"__id*;
+
+__unknown_file (
+
+%4java.time.LocalDateTime
+Œ
+
+Ä Ä($
+%5boolean"	__compare*
+
+Ä Ä(
+!=*8
+
+Ä Ä(*
+(
+dataOraIniziojava.time.LocalDateTime*
+
+Ä  Ä($
+""*
+2
+1*%
+4
+Á Á("
+
+Á Á(
+""*§
+5
+À À(#€
+~
+
+À À(#
+%2misc.StatoAppuntamento"__id*L
+
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+statoŠ‡
+
+À À(.
+%3boolean""misc.StatoAppuntamento#isAttivo()Z*:
+
+__unknown_file (
+
+%2misc.StatoAppuntamento2
+isAttivo()*
+3
+4* 
+6
+À À(€
+~
+
+À À(
+%0misc.StatoAppuntamento"__id*L
+
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+statoƒ
+€
+
+À À(
+%1boolean"	__compare*
+
+À À(
+==*,
+
+À À(
+
+%0misc.StatoAppuntamento*
+
+À À(
+""*
+4
+5*%
+1
+Ä Ä(S"
+
+Ä Ä(S
+""B%#
+!engclasses.beans.AppuntamentoBeanHX

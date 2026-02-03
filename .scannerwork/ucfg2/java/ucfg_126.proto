@@ -1,13 +1,101 @@
 
-Tengclasses.pattern.Factory.AppuntamentoSulCampoFactory#getDurataPredefinitaMinuti()Iu
-k/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/Factory/AppuntamentoSulCampoFactory.java ()"1*d
-1 ((A
-?
- ((	
-%0int"__id*"
+Fengclasses.dao.filesystem.OffertaDAOFile#caricaDaFile()Ljava/util/Map;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java! (-"11*4
+5! !(:"%
+! !(;
+
+%10java.lang.Object*∏
+6   (Us
+q
+   (U 
+oisjava.io.ObjectInputStream"__id*=
 
-__unknown_file (
-"""
- ()
-""B:8
-6engclasses.pattern.Factory.AppuntamentoSulCampoFactoryHX
+__unknown_file (!
+
+%8java.io.ObjectInputStreamÆ´
+!* !(:
+%10java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*>
+
+__unknown_file ("
+ 
+oisjava.io.ObjectInputStream2readObject()*
+5*®
+7 %  (UHF
+ )  (:
+%8java.io.ObjectInputStream"java.io.ObjectInputStream…
+∆
+ %  (U
+%9"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
+
+__unknown_file (!
+
+%8java.io.ObjectInputStream*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*
+6*ê
+8 O  (SDB
+ ?  (N
+%6java.io.FileInputStream"java.io.FileInputStreamµ
+≤
+ ;  (T
+%7"/java.io.FileInputStream#<init>(Ljava/io/File;)V*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*2
+
+__unknown_file (
+
+filejava.io.File*
+7*◊
+10 ("86
+ ( 
+%4java.util.HashMap"java.util.HashMapf
+d
+ ("
+%5"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%4java.util.HashMap"%
+ (#
+
+%4java.util.HashMap*ó
+11 (&W
+U
+ (&
+%0java.lang.String"__id*+
+
+__unknown_file (
+offerte.dat.,
+ (
+%1java.io.File"java.io.File•
+¢
+ ('
+%2"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%1java.io.File*4
+
+__unknown_file (
+
+%0java.lang.StringZ
+X
+ ((
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%1java.io.Fileqo
+ (
+%3boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+8
+10B,*
+(engclasses.dao.filesystem.OffertaDAOFile

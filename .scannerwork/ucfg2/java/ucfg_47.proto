@@ -1,7 +1,15 @@
 
-'model.Annuncio#getQuantitaDesiderata()IM
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javai i($"1*!
-1j j(!"
-j j("
-""B
-model.AnnuncioHX
+:model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javam m()"1*¬
+1n n( t
+r
+n n( 
+%0java.time.LocalDate"__id*E
+
+__unknown_file ()*'
+model.Annuncio"
+dataPubblicazione"'
+n n(!
+
+%0java.time.LocalDateB
+model.AnnuncioH

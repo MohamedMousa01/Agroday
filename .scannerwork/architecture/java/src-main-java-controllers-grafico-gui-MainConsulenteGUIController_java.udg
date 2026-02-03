@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770133892910*java2.BÐ
+1.0MohamedMousa01_AgrodayJavaFrontend"1770144194599*java2.BÐ
 K
 Fsrc/main/java/controllers/grafico/gui/MainConsulenteGUIController.java2
 	
@@ -22,7 +22,7 @@ Fsrc/main/java/controllers/grafico/gui/MainConsulenteGUIController.java2
 
 full-range13
 
-(18:1)-(83:2)14
+(18:1)-(85:2)14
 
 simple-name15
 !
@@ -132,7 +132,7 @@ Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V82
 N
 Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaClienti()V88
 
-(44:5)-(54:6)89
+(44:5)-(56:6)89
 
 visualizzaClienti90
 
@@ -140,7 +140,7 @@ Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaClienti()V88
 N
 Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaProfilo()V94
 
-(56:5)-(60:6)95
+(58:5)-(62:6)95
 
 visualizzaProfilo96
 
@@ -148,7 +148,7 @@ Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaProfilo()V94
 D
 =controllers.grafico.gui.MainConsulenteGUIController#logout()V100
 
-(62:5)-(74:6)101
+(64:5)-(76:6)101
 
 logout102
 $
@@ -160,7 +160,7 @@ $
 
 misc.ViewType.LOGIN110
 
-(76:5)-(82:6)111
+(78:5)-(84:6)111
 
 mostraMessaggio112
 
@@ -197,7 +197,7 @@ M
 M
 93G
 939457 *
-19 9(#28:5B$
+1; ;(#28:5B$
 
 
 11
@@ -266,7 +266,7 @@ M
 P
 99J
 9910057 *
-1? ?(28:5B&
+1A A(28:5B&
 
 
 11
@@ -280,7 +280,7 @@ P
 O
 91I
 919257 *
-1L L(!28:5B&
+1N N(!28:5B&
 
 
 11
@@ -636,98 +636,98 @@ M
 1/	 /(
 
 932729*
-18 8(
+1: :(
 
 
 933032*
-18 8(
+1: :(
 
 
 937965*
-1;	 ;(
+1=	 =(
 
 938168*
-1; ;(
+1= =(
 
 937932*
-1;	 ;(
+1=	 =(
 
 938332*
-1; ;("
+1= =("
 
 938332*
-1;# ;(*
+1=# =(*
 
 939765*
-1;# ;(*
+1=# =(*
 
 992729*
-1> >(
+1@ @(
 
 
 993032*
-1> >(
+1@ @(
 
 
 9910326*
-1@ @(
+1B B(
 
 9910332*
-1@	 @(
+1B	 B(
 
 9910532*
-1E E(
+1G G(
 
 996365*
-1G G(/
+1I I(/
 
 9910768*
-1G# G(/
+1I# I(/
 
 996362*
-1G G( 
+1I I( 
 
 996365*
-1G G( 
+1I I( 
 
 996968*
-1G G( 
+1I I( 
 
 996332*
-1G G(
+1I I(
 
 997965*
-1H H(
+1J J(
 
 998168*
-1H H(
+1J J(
 
 997932*
-1H H(
+1J J(
 
 998332*
-1H H(&
+1J J(&
 
 998332*
-1H' H(,
+1J' J(,
 
 9910965*
-1H' H(,
+1J' J(,
 
 91103113*
-1LC L(R
+1NC N(R
 
 9110326*
-1LS L(W
+1NS N(W
 
 9110332*
-1LC L(H
+1NC N(H
 
 9110332*
-1LI L(R
+1NI N(R
 
 9110326*
-1M M(
+1O O(
 
 9110332*
-1M	 M(
+1O	 O(

@@ -1,6 +1,8 @@
 package engclasses.services;
 
 import model.Appuntamento;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Implementazione "demo" del CalendarService che non effettua operazioni reali.
@@ -8,6 +10,7 @@ import model.Appuntamento;
  */
 public class DemoCalendarService implements CalendarService {
 
+    private static final Logger logger = LoggerFactory.getLogger(DemoCalendarService.class);
     private static DemoCalendarService instance;
 
     private DemoCalendarService() {
@@ -24,19 +27,19 @@ public class DemoCalendarService implements CalendarService {
     @Override
     public String creaEvento(Appuntamento appuntamento) {
         // In modalità demo, non creiamo eventi reali
-        System.out.println("[DEMO CALENDAR] Simulazione creazione evento per appuntamento: " + appuntamento.getIdAppuntamento());
+        logger.info("[DEMO CALENDAR] Simulazione creazione evento per appuntamento: {}", appuntamento.getIdAppuntamento());
         return "demo_event_" + appuntamento.getIdAppuntamento().substring(0, 8);
     }
 
     @Override
     public boolean aggiornaEvento(Appuntamento appuntamento) {
-        System.out.println("[DEMO CALENDAR] Simulazione aggiornamento evento: " + appuntamento.getGoogleCalendarEventId());
+        logger.info("[DEMO CALENDAR] Simulazione aggiornamento evento: {}", appuntamento.getGoogleCalendarEventId());
         return true;
     }
 
     @Override
     public boolean cancellaEvento(String eventId) {
-        System.out.println("[DEMO CALENDAR] Simulazione cancellazione evento: " + eventId);
+        logger.info("[DEMO CALENDAR] Simulazione cancellazione evento: {}", eventId);
         return true;
     }
 

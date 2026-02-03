@@ -15,9 +15,7 @@ public class Session {
     private UiType tipoInterfaccia;
     private TipoUtente tipoUtente;
 
-
-    private long idAnnuncio;
-    private List<AnnuncioBean> Annunci;
+    private List<AnnuncioBean> annunci;
 
     // Gestione appuntamenti nella sessione
     private List<AppuntamentoBean> appuntamentiCorrente;
@@ -63,11 +61,11 @@ public class Session {
 
 
     public List<AnnuncioBean> getAnnunci() {
-        return Annunci;
+        return annunci;
     }
 
-    public void setAnnunci(List<AnnuncioBean> Annunci) {
-        this.Annunci = Annunci;
+    public void setAnnunci(List<AnnuncioBean> annunci) {
+        this.annunci = annunci;
     }
 
     // ==================== Gestione Appuntamenti ====================
@@ -128,15 +126,14 @@ public class Session {
 
     // Alias per compatibilità
     public Utente getUtente() {
-        return utenteLoggato;
+        return getUtenteLoggato();
     }
 
     public void clearSession(){
         utenteLoggato = null;
-        idAnnuncio = 0;
 
-        if (Annunci != null) {
-            Annunci.clear();
+        if (annunci != null) {
+            annunci.clear();
         }
 
         if (appuntamentiCorrente != null) {

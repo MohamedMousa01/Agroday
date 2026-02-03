@@ -1,28 +1,16 @@
 
-(view.cli.LoginCLIView#%field_initializer
-__unknown_file ("1*˛
-1 (ÖÇ
-T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java( (/
-%0java.util.Scanner"java.util.ScannerÃ
-…
-T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""¨
-©
-T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (;$
-view.cli.LoginCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner"i
-R
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java 8(
-implicit returnB
-view.cli.LoginCLIView
+*model.Venditore#getTipo()Lmisc/TipoUtente;N
+D/Users/mohamedmousa/Desktop/prova/src/main/java/model/Venditore.java
+ 
+("1*Å
+1 (M
+K
+ (#
+%0misc.TipoUtente"__id*"
+
+__unknown_file (
+"""#
+ ($
+
+%0misc.TipoUtenteB
+model.VenditoreH

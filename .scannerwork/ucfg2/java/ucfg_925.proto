@@ -1,113 +1,79 @@
 
-3engclasses.beans.AppuntamentoBean#isModificabile()Zb
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaø ø(!"6*◊
-2
-ƒ( ƒ(5ü
-ú
-
-ƒ> ƒ(Q
-%6java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*7
+Kengclasses.beans.AppuntamentoBean#getDataOraFine()Ljava/time/LocalDateTime;`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaT T('"4*
+2V V( z
+x
+V$ V((
+%4java.time.LocalDate"__id*K
+
+__unknown_file (/*-#
+!engclasses.beans.AppuntamentoBean"
+data}
+{
+V* V(1
+%5java.time.LocalTime"__id*N
+
+__unknown_file (2*0#
+!engclasses.beans.AppuntamentoBean"	
+oraFine∏
+µ
+V V(2
+%6java.time.LocalDateTime"_java.time.LocalDateTime#of(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;*7
 
 __unknown_file ("
-java.time.LocalDateTimeûõ
-
-ƒ( ƒ(R
-%7boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*F
+java.time.LocalDateTime*7
 
-__unknown_file (*
-(
-dataOraIniziojava.time.LocalDateTime*;
+__unknown_file (
+
+%4java.time.LocalDate*7
 
-__unknown_file (
+__unknown_file (
+
+%5java.time.LocalTime"+
+V V(3
 
-%6java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
-1*˝
-3
-√& √(6‘—
-
-√& √(8
-%4java.time.LocalDateTime"Mengclasses.beans.AppuntamentoBean#getDataOraInizio()Ljava/time/LocalDateTime;*A
+%6java.time.LocalDateTime*ç
+3U U(#}
+{
+U U(#
+%2java.time.LocalTime"__id*N
 
-__unknown_file (%#
-!engclasses.beans.AppuntamentoBean2getDataOraInizio(){
-y
-
-√ √(9(
-dataOraIniziojava.time.LocalDateTime"__id*;
-
-__unknown_file (
-
-%4java.time.LocalDateTimeè
-å
-
-ƒ ƒ($
-%5boolean"	__compare*
-
-ƒ ƒ(
-!=*8
-
-ƒ ƒ(*
-(
-dataOraIniziojava.time.LocalDateTime*
-
-ƒ  ƒ($
+__unknown_file (2*0#
+!engclasses.beans.AppuntamentoBean"	
+oraFinew
+u
+U U(+
+%3boolean"	__compare*
+U$ U(&
+!=*'
+U U(#
+
+%2java.time.LocalTime*
+U' U(+
 ""*
 2
-1*%
-4
-¡ ¡("
-
-¡ ¡(
-""*ß
-5
-¿ ¿(#Ä
-~
-
-¿ ¿(#
-%2misc.StatoAppuntamento"__id*L
+1*ä
+4U U(z
+x
+U U(
+%0java.time.LocalDate"__id*K
 
-__unknown_file (0*.#
-!engclasses.beans.AppuntamentoBean"
-statoäá
-
-¿ ¿(.
-%3boolean""misc.StatoAppuntamento#isAttivo()Z*:
-
-__unknown_file (
-
-%2misc.StatoAppuntamento2
-isAttivo()*
-3
-4*†
-6
-¿ ¿(Ä
-~
-
-¿ ¿(
-%0misc.StatoAppuntamento"__id*L
-
-__unknown_file (0*.#
-!engclasses.beans.AppuntamentoBean"
-statoÉ
-Ä
-
-¿ ¿(
-%1boolean"	__compare*
-
-¿ ¿(
-==*,
-
-¿ ¿(
-
-%0misc.StatoAppuntamento*
-
-¿ ¿(
+__unknown_file (/*-#
+!engclasses.beans.AppuntamentoBean"
+dataw
+u
+U U(
+%1boolean"	__compare*
+U U(
+!=*'
+U U(
+
+%0java.time.LocalDate*
+U U(
 ""*
-4
-5*%
-1
-ƒ ƒ(S"
-
-ƒ ƒ(S
+3
+1*!
+1X X("
+X X(
 ""B%#
-!engclasses.beans.AppuntamentoBeanHX
+!engclasses.beans.AppuntamentoBeanH

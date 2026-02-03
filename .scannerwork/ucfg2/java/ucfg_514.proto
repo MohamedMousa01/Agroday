@@ -1,23 +1,7 @@
 
-model.Offerta#isAccettata()ZL
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaT T("1*Ñ
-1U U(d
-b
-U" U('
-%0java.lang.String"__id*8
-
-__unknown_file (*
-model.Offerta"
-statoÇÄ
-U U((
-%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*)
-
-__unknown_file (
-	ACCETTATA*4
-
-__unknown_file (
-
-%0java.lang.String2equals(Ljava/lang/Object;)"
-U U()
+ model.Offerta#getPrezzoTotale()DL
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.java> >(!"1*!
+1? ?("
+? ?(
 ""B
 model.OffertaHX

@@ -78,9 +78,6 @@ public class RegistrazioneGUIController {
         try {
             logger.debug("Calling determinaPersistenza().");
 
-//            // 1️⃣ Tipo utente
-//            TipoUtente tipoUtente = determinaTipoUtente();
-//            session.setTipoUtente(tipoUtente);
 
             // 2️⃣ Persistenza
             PersistenceType persistenceType = determinaPersistenza();

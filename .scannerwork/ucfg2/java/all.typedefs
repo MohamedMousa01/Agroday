@@ -16,58 +16,7 @@ toString()-java.lang.Object#toString()Ljava/lang/String;"
 wait()java.lang.Object#wait()V$
 wait(J)java.lang.Object#wait(J)V&
 wait(JI)java.lang.Object#wait(JI)V&
-wait0(J)java.lang.Object#wait0(J)V<
-(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectÙ
-,engclasses.pattern.Factory.ConsulenteFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectB
-<init>()6engclasses.pattern.Factory.ConsulenteFactory#<init>()V√
-BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)}engclasses.pattern.Factory.ConsulenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;Ô
-"engclasses.beans.RegistrazioneBeanjava.lang.Object8
-<init>(),engclasses.beans.RegistrazioneBean#<init>()VM
-
-getCitta()?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;Q
-getCognome()Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;a
-getConfirmPassword()Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;M
-
-getEmail()?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;S
-getIdUtente()Bengclasses.beans.RegistrazioneBean#getIdUtente()Ljava/lang/String;K
-	getNome()>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;S
-getPassword()Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;e
-getPersistenceType()Mengclasses.beans.RegistrazioneBean#getPersistenceType()Lmisc/PersistenceType;V
-getTipoUtente()Cengclasses.beans.RegistrazioneBean#getTipoUtente()Lmisc/TipoUtente;S
-getUsername()Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;`
-setCitta(Ljava/lang/String;)@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)Vd
-setCognome(Ljava/lang/String;)Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)Vt
-&setConfirmPassword(Ljava/lang/String;)Jengclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V`
-setEmail(Ljava/lang/String;)@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)Vf
-setIdUtente(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setIdUtente(Ljava/lang/String;)V^
-setNome(Ljava/lang/String;)?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)Vf
-setPassword(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V|
-*setPersistenceType(Lmisc/PersistenceType;)Nengclasses.beans.RegistrazioneBean#setPersistenceType(Lmisc/PersistenceType;)Vh
- setTipoUtente(Lmisc/TipoUtente;)Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)Vf
-setUsername(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V(
-java.io.Serializablejava.lang.Object§
-
-model.Utentejava.io.Serializablejava.lang.Object†
-Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)îmodel.Utente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V7
-
-getCitta())model.Utente#getCitta()Ljava/lang/String;;
-getCognome()+model.Utente#getCognome()Ljava/lang/String;7
-
-getEmail())model.Utente#getEmail()Ljava/lang/String;=
-getIdUtente(),model.Utente#getIdUtente()Ljava/lang/String;5
-	getNome()(model.Utente#getNome()Ljava/lang/String;=
-getPassword(),model.Utente#getPassword()Ljava/lang/String;=
-getUsername(),model.Utente#getUsername()Ljava/lang/String;J
-setCitta(Ljava/lang/String;)*model.Utente#setCitta(Ljava/lang/String;)VN
-setCognome(Ljava/lang/String;),model.Utente#setCognome(Ljava/lang/String;)VJ
-setEmail(Ljava/lang/String;)*model.Utente#setEmail(Ljava/lang/String;)VP
-setIdUtente(Ljava/lang/String;)-model.Utente#setIdUtente(Ljava/lang/String;)VH
-setNome(Ljava/lang/String;))model.Utente#setNome(Ljava/lang/String;)VP
-setPassword(Ljava/lang/String;)-model.Utente#setPassword(Ljava/lang/String;)VP
-setUsername(Ljava/lang/String;)-model.Utente#setUsername(Ljava/lang/String;)Vó
-model.Consulentejava.io.Serializablemodel.Utente§
-Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)òmodel.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V8
-	getTipo()+model.Consulente#getTipo()Lmisc/TipoUtente;À
+wait0(J)java.lang.Object#wait0(J)VÀ
 
 6controllers.grafico.gui.VisualizzaOfferteGUIControllerjava.lang.ObjectL
 <init>()@controllers.grafico.gui.VisualizzaOfferteGUIController#<init>()Vz
@@ -92,17 +41,7 @@ getEmail())model.Utente#getEmail()Ljava/lang/String;=
 &getOfferteRicevute(Ljava/lang/String;)`controllers.applicativo.OffertaController#getOfferteRicevute(Ljava/lang/String;)Ljava/util/List;ò
 -getOfferteRicevutePending(Ljava/lang/String;)gcontrollers.applicativo.OffertaController#getOfferteRicevutePending(Ljava/lang/String;)Ljava/util/List;å
 'getOfferteVenditore(Ljava/lang/String;)acontrollers.applicativo.OffertaController#getOfferteVenditore(Ljava/lang/String;)Ljava/util/List;s
-"rifiutaOfferta(Ljava/lang/String;)Mcontrollers.applicativo.OffertaController#rifiutaOfferta(Ljava/lang/String;)Z»
-
-*controllers.applicativo.AnnuncioControllerjava.lang.Object@
-<init>()4controllers.applicativo.AnnuncioController#<init>()Vå
-convertToBean(Lmodel/Annuncio;)icontrollers.applicativo.AnnuncioController#convertToBean(Lmodel/Annuncio;)Lengclasses/beans/AnnuncioBean;≠
-~creaAnnuncio(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)™controllers.applicativo.AnnuncioController#creaAnnuncio(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)Vv
-#eliminaAnnuncio(Ljava/lang/String;)Ocontrollers.applicativo.AnnuncioController#eliminaAnnuncio(Ljava/lang/String;)ZW
-getAnnunci()Gcontrollers.applicativo.AnnuncioController#getAnnunci()Ljava/util/List;£
-2getAnnunciPartecipazioniUtente(Ljava/lang/String;)mcontrollers.applicativo.AnnuncioController#getAnnunciPartecipazioniUtente(Ljava/lang/String;)Ljava/util/List;á
-$getAnnunciUtente(Ljava/lang/String;)_controllers.applicativo.AnnuncioController#getAnnunciUtente(Ljava/lang/String;)Ljava/util/List;Ö
-jvalidaDati(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)ñcontrollers.applicativo.AnnuncioController#validaDati(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)V´
+"rifiutaOfferta(Ljava/lang/String;)Mcontrollers.applicativo.OffertaController#rifiutaOfferta(Ljava/lang/String;)Z´
 misc.Sessionjava.lang.Object"
 <init>()misc.Session#<init>()Vz
 4addAppuntamento(Lengclasses/beans/AppuntamentoBean;)Bmisc.Session#addAppuntamento(Lengclasses/beans/AppuntamentoBean;)V.
@@ -127,99 +66,26 @@ jvalidaDati(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/
 !setTipoInterfaccia(Lmisc/UiType;)/misc.Session#setTipoInterfaccia(Lmisc/UiType;)VR
  setTipoUtente(Lmisc/TipoUtente;).misc.Session#setTipoUtente(Lmisc/TipoUtente;)VR
  setUtenteLoggato(Lmodel/Utente;).misc.Session#setUtenteLoggato(Lmodel/Utente;)V(
-java.lang.Appendablejava.lang.Object+
-java.lang.AutoCloseablejava.lang.Object>
-java.io.Closeablejava.lang.AutoCloseablejava.lang.Object%
-java.io.Flushablejava.lang.ObjectÉ
-java.io.OutputStreamjava.io.Closeablejava.io.Flushablejava.lang.Object*
-<init>()java.io.OutputStream#<init>()V(
-close()java.io.OutputStream#close()V(
-flush()java.io.OutputStream#flush()VS
-nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
-	write([B)java.io.OutputStream#write([B)V0
-write([BII)!java.io.OutputStream#write([BII)Vé
-java.io.FilterOutputStreamjava.io.OutputStream\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-close()#java.io.FilterOutputStream#close()V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V2
-	write([B)%java.io.FilterOutputStream#write([B)V6
-write([BII)'java.io.FilterOutputStream#write([BII)VÔ(
-java.io.PrintStreamjava.io.Closeablejava.io.FilterOutputStreamjava.lang.AppendableE
-<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vi
-(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)Vy
-0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)VW
-<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)V{
-1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Vã
-9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)VM
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vq
-,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)VÅ
-4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)VW
-<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V?
-	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;m
- append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;q
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;D
-	charset()7java.io.PrintStream#charset()Ljava/nio/charset/Charset;1
-checkError()!java.io.PrintStream#checkError()Z1
-clearError()!java.io.PrintStream#clearError()V'
-close()java.io.PrintStream#close()V1
-ensureOpen()!java.io.PrintStream#ensureOpen()V'
-flush()java.io.PrintStream#flush()Vá
--format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;´
-?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;/
-implClose() java.io.PrintStream#implClose()V/
-implFlush() java.io.PrintStream#implFlush()V{
-1implFormat(Ljava/lang/String;[Ljava/lang/Object;)Fjava.io.PrintStream#implFormat(Ljava/lang/String;[Ljava/lang/Object;)Vü
-CimplFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Xjava.io.PrintStream#implFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)V3
-implNewLine()"java.io.PrintStream#implNewLine()V1
-implWrite(I)!java.io.PrintStream#implWrite(I)VS
-implWrite(Ljava/lang/String;)2java.io.PrintStream#implWrite(Ljava/lang/String;)V7
-implWrite([BII)$java.io.PrintStream#implWrite([BII)V3
-implWrite([C)"java.io.PrintStream#implWrite([C)VW
-implWriteln(Ljava/lang/String;)4java.io.PrintStream#implWriteln(Ljava/lang/String;)V7
-implWriteln([C)$java.io.PrintStream#implWriteln([C)V+
-	newLine()java.io.PrintStream#newLine()V)
-print(C)java.io.PrintStream#print(C)V)
-print(D)java.io.PrintStream#print(D)V)
-print(F)java.io.PrintStream#print(F)V)
-print(I)java.io.PrintStream#print(I)V)
-print(J)java.io.PrintStream#print(J)VK
-print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)VK
-print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)V)
-print(Z)java.io.PrintStream#print(Z)V+
-	print([C)java.io.PrintStream#print([C)Vá
--printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;´
-?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
-	println()java.io.PrintStream#println()V-
+java.io.Serializablejava.lang.Object§
 
-println(C)java.io.PrintStream#println(C)V-
+model.Utentejava.io.Serializablejava.lang.Object†
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)îmodel.Utente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V7
 
-println(D)java.io.PrintStream#println(D)V-
+getCitta())model.Utente#getCitta()Ljava/lang/String;;
+getCognome()+model.Utente#getCognome()Ljava/lang/String;7
 
-println(F)java.io.PrintStream#println(F)V-
-
-println(I)java.io.PrintStream#println(I)V-
-
-println(J)java.io.PrintStream#println(J)VO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VO
-println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)V-
-
-println(Z)java.io.PrintStream#println(Z)V/
-println([C) java.io.PrintStream#println([C)Ví
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;-
-
-setError()java.io.PrintStream#setError()Vl
-toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;)
-write(I)java.io.PrintStream#write(I)VK
-write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)V+
-	write([B)java.io.PrintStream#write([B)V/
-write([BII) java.io.PrintStream#write([BII)V+
-	write([C)java.io.PrintStream#write([C)V5
-writeBytes([B)#java.io.PrintStream#writeBytes([B)VO
-writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V/
-writeln([C) java.io.PrintStream#writeln([C)V÷
+getEmail())model.Utente#getEmail()Ljava/lang/String;=
+getIdUtente(),model.Utente#getIdUtente()Ljava/lang/String;5
+	getNome()(model.Utente#getNome()Ljava/lang/String;=
+getPassword(),model.Utente#getPassword()Ljava/lang/String;=
+getUsername(),model.Utente#getUsername()Ljava/lang/String;J
+setCitta(Ljava/lang/String;)*model.Utente#setCitta(Ljava/lang/String;)VN
+setCognome(Ljava/lang/String;),model.Utente#setCognome(Ljava/lang/String;)VJ
+setEmail(Ljava/lang/String;)*model.Utente#setEmail(Ljava/lang/String;)VP
+setIdUtente(Ljava/lang/String;)-model.Utente#setIdUtente(Ljava/lang/String;)VH
+setNome(Ljava/lang/String;))model.Utente#setNome(Ljava/lang/String;)VP
+setPassword(Ljava/lang/String;)-model.Utente#setPassword(Ljava/lang/String;)VP
+setUsername(Ljava/lang/String;)-model.Utente#setUsername(Ljava/lang/String;)V÷
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
@@ -335,7 +201,8 @@ MtoUnmodifiableMap(Ljava/util/function/Function;Ljava/util/function/Function;)Ö
 ptoUnmodifiableMap(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/BinaryOperator;)®java.util.stream.Collectors#toUnmodifiableMap(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/BinaryOperator;)Ljava/util/stream/Collector;b
 toUnmodifiableSet()Kjava.util.stream.Collectors#toUnmodifiableSet()Ljava/util/stream/Collector;‰
 RuniqKeysMapAccumulator(Ljava/util/function/Function;Ljava/util/function/Function;)çjava.util.stream.Collectors#uniqKeysMapAccumulator(Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/function/BiConsumer;i
-uniqKeysMapMerger()Rjava.util.stream.Collectors#uniqKeysMapMerger()Ljava/util/function/BinaryOperator;H
+uniqKeysMapMerger()Rjava.util.stream.Collectors#uniqKeysMapMerger()Ljava/util/function/BinaryOperator;+
+java.lang.AutoCloseablejava.lang.ObjectH
 java.util.stream.BaseStreamjava.lang.AutoCloseablejava.lang.Objectô
 java.util.stream.Streamjava.lang.Objectjava.util.stream.BaseStreamO
 	builder()Bjava.util.stream.Stream#builder()Ljava/util/stream/Stream$Builder;©
@@ -775,7 +642,10 @@ toString()0java.lang.Throwable#toString()Ljava/lang/String;}
 <init>(Ljava/lang/Throwable;)2java.lang.Exception#<init>(Ljava/lang/Throwable;)V‚
 8engclasses.exceptions.DatabaseOperazioneFallitaExceptionjava.lang.Exceptionr
 <init>(Ljava/lang/String;)Tengclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;)Vú
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)iengclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V£
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)iengclasses.exceptions.DatabaseOperazioneFallitaException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vó
+model.Consulentejava.io.Serializablemodel.Utente§
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)òmodel.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V8
+	getTipo()+model.Consulente#getTipo()Lmisc/TipoUtente;£
 java.lang.Enumjava.io.Serializablejava.lang.Comparablejava.lang.Objectjava.lang.constant.ConstableJ
 <init>(Ljava/lang/String;I)+java.lang.Enum#<init>(Ljava/lang/String;I)V3
 clone()(java.lang.Enum#clone()Ljava/lang/Object;J
@@ -1024,7 +894,8 @@ toString()>engclasses.beans.AppuntamentoBean#toString()Ljava/lang/String;ö
 showMieOfferte()Dcontrollers.grafico.gui.MainVenditoreGUIController#showMieOfferte()V\
 visualizzaOrdini()Fcontrollers.grafico.gui.MainVenditoreGUIController#visualizzaOrdini()V^
 visualizzaProfilo()Gcontrollers.grafico.gui.MainVenditoreGUIController#visualizzaProfilo()Vh
-visualizzaTuttiAnnunci()Lcontrollers.grafico.gui.MainVenditoreGUIController#visualizzaTuttiAnnunci()VÉ:
+visualizzaTuttiAnnunci()Lcontrollers.grafico.gui.MainVenditoreGUIController#visualizzaTuttiAnnunci()V(
+java.lang.Appendablejava.lang.ObjectÉ:
 java.lang.AbstractStringBuilderjava.lang.Appendablejava.lang.CharSequencejava.lang.Object5
 <init>())java.lang.AbstractStringBuilder#<init>()V7
 	<init>(I)*java.lang.AbstractStringBuilder#<init>(I)Ve
@@ -1516,7 +1387,31 @@ getStage()Mengclasses.pattern.ViewFactory.SceneManagerGUI#getStage()Ljavafx/sta
 setMostraSoloMieiAnnunci(Z)Kengclasses.pattern.ViewFactory.SceneManagerGUI#setMostraSoloMieiAnnunci(Z)VR
 setResizable(Z)?engclasses.pattern.ViewFactory.SceneManagerGUI#setResizable(Z)Vπ
 3engclasses.exceptions.RegistrazioneFallitaExceptionjava.lang.Exceptionm
-<init>(Ljava/lang/String;)Oengclasses.exceptions.RegistrazioneFallitaException#<init>(Ljava/lang/String;)Vé
+<init>(Ljava/lang/String;)Oengclasses.exceptions.RegistrazioneFallitaException#<init>(Ljava/lang/String;)VÔ
+"engclasses.beans.RegistrazioneBeanjava.lang.Object8
+<init>(),engclasses.beans.RegistrazioneBean#<init>()VM
+
+getCitta()?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;Q
+getCognome()Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;a
+getConfirmPassword()Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;M
+
+getEmail()?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;S
+getIdUtente()Bengclasses.beans.RegistrazioneBean#getIdUtente()Ljava/lang/String;K
+	getNome()>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;S
+getPassword()Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;e
+getPersistenceType()Mengclasses.beans.RegistrazioneBean#getPersistenceType()Lmisc/PersistenceType;V
+getTipoUtente()Cengclasses.beans.RegistrazioneBean#getTipoUtente()Lmisc/TipoUtente;S
+getUsername()Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;`
+setCitta(Ljava/lang/String;)@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)Vd
+setCognome(Ljava/lang/String;)Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)Vt
+&setConfirmPassword(Ljava/lang/String;)Jengclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V`
+setEmail(Ljava/lang/String;)@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)Vf
+setIdUtente(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setIdUtente(Ljava/lang/String;)V^
+setNome(Ljava/lang/String;)?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)Vf
+setPassword(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V|
+*setPersistenceType(Lmisc/PersistenceType;)Nengclasses.beans.RegistrazioneBean#setPersistenceType(Lmisc/PersistenceType;)Vh
+ setTipoUtente(Lmisc/TipoUtente;)Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)Vf
+setUsername(Ljava/lang/String;)Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)Vé
 1controllers.applicativo.GestisciAnnunciControllerjava.lang.ObjectG
 <init>();controllers.applicativo.GestisciAnnunciController#<init>()VÔ
 view.cli.MainVenditoreCLIViewjava.lang.Object3
@@ -1535,7 +1430,8 @@ getStage()Mengclasses.pattern.ViewFactory.SceneManagerGUI#getStage()Ljavafx/sta
 mostraTitolo(Lmodel/Utente;);view.cli.MainVenditoreCLIView#mostraTitolo(Lmodel/Utente;)V»
 java.util.Iteratorjava.lang.Objectv
 /forEachRemaining(Ljava/util/function/Consumer;)Cjava.util.Iterator#forEachRemaining(Ljava/util/function/Consumer;)V(
-remove()java.util.Iterator#remove()VäG
+remove()java.util.Iterator#remove()V>
+java.io.Closeablejava.lang.AutoCloseablejava.lang.ObjectäG
 java.util.Scannerjava.io.Closeablejava.lang.Objectjava.util.IteratorC
 <init>(Ljava/io/File;))java.util.Scanner#<init>(Ljava/io/File;)Vg
 (<init>(Ljava/io/File;Ljava/lang/String;);java.util.Scanner#<init>(Ljava/io/File;Ljava/lang/String;)Vw
@@ -1651,61 +1547,104 @@ toString().java.util.Scanner#toString()Ljava/lang/String;?
 'useDelimiter(Ljava/util/regex/Pattern;)Ljava.util.Scanner#useDelimiter(Ljava/util/regex/Pattern;)Ljava/util/Scanner;c
 useLocale(Ljava/util/Locale;)Bjava.util.Scanner#useLocale(Ljava/util/Locale;)Ljava/util/Scanner;?
 useRadix(I)0java.util.Scanner#useRadix(I)Ljava/util/Scanner;3
-useTypeCache()!java.util.Scanner#useTypeCache()VB
-.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.Objectã
-6engclasses.pattern.Factory.AppuntamentoSulCampoFactory.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.ObjectL
-<init>()@engclasses.pattern.Factory.AppuntamentoSulCampoFactory#<init>()Vƒ
-zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)≈engclasses.pattern.Factory.AppuntamentoSulCampoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;t
-getDurataPredefinitaMinuti()Tengclasses.pattern.Factory.AppuntamentoSulCampoFactory#getDurataPredefinitaMinuti()IÉ
-valida(Ljava/lang/String;J)dengclasses.pattern.Factory.AppuntamentoSulCampoFactory#valida(Ljava/lang/String;J)Ljava/lang/String;Ó
-model.Appuntamentojava.io.Serializablejava.lang.Object»
-ó<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)´model.Appuntamento#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V§
-Ö<init>(Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)ômodel.Appuntamento#<init>(Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V|
-2addObserver(Lmodel/observer/AppuntamentoObserver;)Fmodel.Appuntamento#addObserver(Lmodel/observer/AppuntamentoObserver;)Vd
-&cancellaPerCliente(Ljava/lang/String;):model.Appuntamento#cancellaPerCliente(Ljava/lang/String;)Vj
-)cancellaPerConsulente(Ljava/lang/String;)=model.Appuntamento#cancellaPerConsulente(Ljava/lang/String;)V,
+useTypeCache()!java.util.Scanner#useTypeCache()V%
+java.io.Flushablejava.lang.ObjectÉ
+java.io.OutputStreamjava.io.Closeablejava.io.Flushablejava.lang.Object*
+<init>()java.io.OutputStream#<init>()V(
+close()java.io.OutputStream#close()V(
+flush()java.io.OutputStream#flush()VS
+nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
+	write([B)java.io.OutputStream#write([B)V0
+write([BII)!java.io.OutputStream#write([BII)Vé
+java.io.FilterOutputStreamjava.io.OutputStream\
+<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
+close()#java.io.FilterOutputStream#close()V.
+flush()#java.io.FilterOutputStream#flush()V0
+write(I)$java.io.FilterOutputStream#write(I)V2
+	write([B)%java.io.FilterOutputStream#write([B)V6
+write([BII)'java.io.FilterOutputStream#write([BII)VÔ(
+java.io.PrintStreamjava.io.Closeablejava.io.FilterOutputStreamjava.lang.AppendableE
+<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vi
+(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)Vy
+0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)VU
+<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)VW
+<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)V{
+1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Vã
+9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)VM
+<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vq
+,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)VÅ
+4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)VW
+<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)Vã
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V?
+	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;m
+ append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;q
+"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;D
+	charset()7java.io.PrintStream#charset()Ljava/nio/charset/Charset;1
+checkError()!java.io.PrintStream#checkError()Z1
+clearError()!java.io.PrintStream#clearError()V'
+close()java.io.PrintStream#close()V1
+ensureOpen()!java.io.PrintStream#ensureOpen()V'
+flush()java.io.PrintStream#flush()Vá
+-format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;´
+?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;/
+implClose() java.io.PrintStream#implClose()V/
+implFlush() java.io.PrintStream#implFlush()V{
+1implFormat(Ljava/lang/String;[Ljava/lang/Object;)Fjava.io.PrintStream#implFormat(Ljava/lang/String;[Ljava/lang/Object;)Vü
+CimplFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Xjava.io.PrintStream#implFormat(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)V3
+implNewLine()"java.io.PrintStream#implNewLine()V1
+implWrite(I)!java.io.PrintStream#implWrite(I)VS
+implWrite(Ljava/lang/String;)2java.io.PrintStream#implWrite(Ljava/lang/String;)V7
+implWrite([BII)$java.io.PrintStream#implWrite([BII)V3
+implWrite([C)"java.io.PrintStream#implWrite([C)VW
+implWriteln(Ljava/lang/String;)4java.io.PrintStream#implWriteln(Ljava/lang/String;)V7
+implWriteln([C)$java.io.PrintStream#implWriteln([C)V+
+	newLine()java.io.PrintStream#newLine()V)
+print(C)java.io.PrintStream#print(C)V)
+print(D)java.io.PrintStream#print(D)V)
+print(F)java.io.PrintStream#print(F)V)
+print(I)java.io.PrintStream#print(I)V)
+print(J)java.io.PrintStream#print(J)VK
+print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)VK
+print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)V)
+print(Z)java.io.PrintStream#print(Z)V+
+	print([C)java.io.PrintStream#print([C)Vá
+-printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;´
+?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
+	println()java.io.PrintStream#println()V-
 
-completa()model.Appuntamento#completa()V,
+println(C)java.io.PrintStream#println(C)V-
 
-conferma()model.Appuntamento#conferma()VT
-getDataCreazione()>model.Appuntamento#getDataCreazione()Ljava/time/LocalDateTime;P
-getDataOraFine()<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;T
-getDataOraInizio()>model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;^
-getDataUltimaModifica()Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;:
-getDurataMinuti()%model.Appuntamento#getDurataMinuti()J]
-getGoogleCalendarEventId()?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;O
-getIdAppuntamento()8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;E
-getIdCliente()3model.Appuntamento#getIdCliente()Ljava/lang/String;K
-getIdConsulente()6model.Appuntamento#getIdConsulente()Ljava/lang/String;=
+println(D)java.io.PrintStream#println(D)V-
 
-getLuogo()/model.Appuntamento#getLuogo()Ljava/lang/String;Y
-getMotivoCancellazione()=model.Appuntamento#getMotivoCancellazione()Ljava/lang/String;;
-	getNote().model.Appuntamento#getNote()Ljava/lang/String;C
+println(F)java.io.PrintStream#println(F)V-
 
-getStato()5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;R
-getTipoConsulenza();model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;8
-isModificabile()$model.Appuntamento#isModificabile()Z.
-isPassato()model.Appuntamento#isPassato()Z^
-#notifyObservers(Ljava/lang/String;)7model.Appuntamento#notifyObservers(Ljava/lang/String;)VÇ
-5removeObserver(Lmodel/observer/AppuntamentoObserver;)Imodel.Appuntamento#removeObserver(Lmodel/observer/AppuntamentoObserver;)Vj
-)setDataOraFine(Ljava/time/LocalDateTime;)=model.Appuntamento#setDataOraFine(Ljava/time/LocalDateTime;)Vn
-+setDataOraInizio(Ljava/time/LocalDateTime;)?model.Appuntamento#setDataOraInizio(Ljava/time/LocalDateTime;)Vp
-,setGoogleCalendarEventId(Ljava/lang/String;)@model.Appuntamento#setGoogleCalendarEventId(Ljava/lang/String;)VP
-setLuogo(Ljava/lang/String;)0model.Appuntamento#setLuogo(Ljava/lang/String;)VN
-setNote(Ljava/lang/String;)/model.Appuntamento#setNote(Ljava/lang/String;)V\
-"setStato(Lmisc/StatoAppuntamento;)6model.Appuntamento#setStato(Lmisc/StatoAppuntamento;)Vh
-(setTipoConsulenza(Lmisc/TipoConsulenza;)<model.Appuntamento#setTipoConsulenza(Lmisc/TipoConsulenza;)V=
+println(I)java.io.PrintStream#println(I)V-
 
-toString()/model.Appuntamento#toString()Ljava/lang/String;ÿ	
-model.AppuntamentoSulCampomodel.Appuntamento¶
-Ç<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)ûmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)VÅ
-p<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)åmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)VN
-getDurataMinimaMinuti()3model.AppuntamentoSulCampo#getDurataMinimaMinuti()IX
-getDurataPredefinitaMinuti()8model.AppuntamentoSulCampo#getDurataPredefinitaMinuti()I@
-isDurataValida(),model.AppuntamentoSulCampo#isDurataValida()ZF
-isIndirizzoValido()/model.AppuntamentoSulCampo#isIndirizzoValido()ZE
+println(J)java.io.PrintStream#println(J)VO
+println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VO
+println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)V-
 
-toString()7model.AppuntamentoSulCampo#toString()Ljava/lang/String;1
+println(Z)java.io.PrintStream#println(Z)V/
+println([C) java.io.PrintStream#println([C)Ví
+4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;-
+
+setError()java.io.PrintStream#setError()Vl
+toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;)
+write(I)java.io.PrintStream#write(I)VK
+write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)V+
+	write([B)java.io.PrintStream#write([B)V/
+write([BII) java.io.PrintStream#write([BII)V+
+	write([C)java.io.PrintStream#write([C)V5
+writeBytes([B)#java.io.PrintStream#writeBytes([B)VO
+writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V/
+writeln([C) java.io.PrintStream#writeln([C)V<
+(engclasses.pattern.factory.UtenteFactoryjava.lang.ObjectÒ
++engclasses.pattern.factory.VenditoreFactory(engclasses.pattern.factory.UtenteFactoryjava.lang.ObjectA
+<init>()5engclasses.pattern.factory.VenditoreFactory#<init>()V¬
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)|engclasses.pattern.factory.VenditoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;î
+model.Venditorejava.io.Serializablemodel.Utente£
+Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ómodel.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V7
+	getTipo()*model.Venditore#getTipo()Lmisc/TipoUtente;1
 engclasses.dao.api.OffertaDAOjava.lang.ObjectÕ
 (engclasses.dao.filesystem.OffertaDAOFileengclasses.dao.api.OffertaDAOjava.lang.Object>
 <init>()2engclasses.dao.filesystem.OffertaDAOFile#<init>()Vî
@@ -2102,19 +2041,7 @@ CwriteOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)_java.io.Ob
 MvalidaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)~controllers.applicativo.RegistrazioneController#validaPassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/StringBuilder;)V∏
 9validaRegistrazione(Lengclasses/beans/RegistrazioneBean;){controllers.applicativo.RegistrazioneController#validaRegistrazione(Lengclasses/beans/RegistrazioneBean;)Ljava/lang/String;´
 ;validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)lcontrollers.applicativo.RegistrazioneController#validaUsername(Ljava/lang/String;Ljava/lang/StringBuilder;)Vü
-5verificaUnicita(Lengclasses/beans/RegistrazioneBean;)fcontrollers.applicativo.RegistrazioneController#verificaUnicita(Lengclasses/beans/RegistrazioneBean;)VÅ
-4engclasses.pattern.Factory.AppuntamentoOnlineFactory.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.ObjectJ
-<init>()>engclasses.pattern.Factory.AppuntamentoOnlineFactory#<init>()V¬
-zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)√engclasses.pattern.Factory.AppuntamentoOnlineFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;r
-getDurataPredefinitaMinuti()Rengclasses.pattern.Factory.AppuntamentoOnlineFactory#getDurataPredefinitaMinuti()IÅ
-valida(Ljava/lang/String;J)bengclasses.pattern.Factory.AppuntamentoOnlineFactory#valida(Ljava/lang/String;J)Ljava/lang/String;…
-model.AppuntamentoOnlinemodel.Appuntamento§
-Ç<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)úmodel.AppuntamentoOnline#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Vˇ
-p<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)ämodel.AppuntamentoOnline#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)VS
-generaUrlMeeting()=model.AppuntamentoOnline#generaUrlMeeting()Ljava/lang/String;V
-getDurataPredefinitaMinuti()6model.AppuntamentoOnline#getDurataPredefinitaMinuti()IC
-
-toString()5model.AppuntamentoOnline#toString()Ljava/lang/String;7
+5verificaUnicita(Lengclasses/beans/RegistrazioneBean;)fcontrollers.applicativo.RegistrazioneController#verificaUnicita(Lengclasses/beans/RegistrazioneBean;)V7
 #model.observer.AppuntamentoObserverjava.lang.Object´
 
 "model.observer.NotificationServicejava.lang.Object#model.observer.AppuntamentoObserver8
@@ -2126,7 +2053,46 @@ SinviaNotificaPersonalizzata(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Stri
 7notificaCancellazioneAlConsulente(Lmodel/Appuntamento;)[model.observer.NotificationService#notificaCancellazioneAlConsulente(Lmodel/Appuntamento;)V~
 +notificaCompletamento(Lmodel/Appuntamento;)Omodel.observer.NotificationService#notificaCompletamento(Lmodel/Appuntamento;)Vt
 &notificaConferma(Lmodel/Appuntamento;)Jmodel.observer.NotificationService#notificaConferma(Lmodel/Appuntamento;)V®
-@onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)dmodel.observer.NotificationService#onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)V“
+@onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)dmodel.observer.NotificationService#onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)VÓ
+model.Appuntamentojava.io.Serializablejava.lang.Object»
+ó<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)´model.Appuntamento#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V§
+Ö<init>(Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)ômodel.Appuntamento#<init>(Ljava/lang/String;Ljava/lang/String;Lmisc/TipoConsulenza;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V|
+2addObserver(Lmodel/observer/AppuntamentoObserver;)Fmodel.Appuntamento#addObserver(Lmodel/observer/AppuntamentoObserver;)Vd
+&cancellaPerCliente(Ljava/lang/String;):model.Appuntamento#cancellaPerCliente(Ljava/lang/String;)Vj
+)cancellaPerConsulente(Ljava/lang/String;)=model.Appuntamento#cancellaPerConsulente(Ljava/lang/String;)V,
+
+completa()model.Appuntamento#completa()V,
+
+conferma()model.Appuntamento#conferma()VT
+getDataCreazione()>model.Appuntamento#getDataCreazione()Ljava/time/LocalDateTime;P
+getDataOraFine()<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;T
+getDataOraInizio()>model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;^
+getDataUltimaModifica()Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;:
+getDurataMinuti()%model.Appuntamento#getDurataMinuti()J]
+getGoogleCalendarEventId()?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;O
+getIdAppuntamento()8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;E
+getIdCliente()3model.Appuntamento#getIdCliente()Ljava/lang/String;K
+getIdConsulente()6model.Appuntamento#getIdConsulente()Ljava/lang/String;=
+
+getLuogo()/model.Appuntamento#getLuogo()Ljava/lang/String;Y
+getMotivoCancellazione()=model.Appuntamento#getMotivoCancellazione()Ljava/lang/String;;
+	getNote().model.Appuntamento#getNote()Ljava/lang/String;C
+
+getStato()5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;R
+getTipoConsulenza();model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;8
+isModificabile()$model.Appuntamento#isModificabile()Z.
+isPassato()model.Appuntamento#isPassato()Z^
+#notifyObservers(Ljava/lang/String;)7model.Appuntamento#notifyObservers(Ljava/lang/String;)VÇ
+5removeObserver(Lmodel/observer/AppuntamentoObserver;)Imodel.Appuntamento#removeObserver(Lmodel/observer/AppuntamentoObserver;)Vj
+)setDataOraFine(Ljava/time/LocalDateTime;)=model.Appuntamento#setDataOraFine(Ljava/time/LocalDateTime;)Vn
++setDataOraInizio(Ljava/time/LocalDateTime;)?model.Appuntamento#setDataOraInizio(Ljava/time/LocalDateTime;)Vp
+,setGoogleCalendarEventId(Ljava/lang/String;)@model.Appuntamento#setGoogleCalendarEventId(Ljava/lang/String;)VP
+setLuogo(Ljava/lang/String;)0model.Appuntamento#setLuogo(Ljava/lang/String;)VN
+setNote(Ljava/lang/String;)/model.Appuntamento#setNote(Ljava/lang/String;)V\
+"setStato(Lmisc/StatoAppuntamento;)6model.Appuntamento#setStato(Lmisc/StatoAppuntamento;)Vh
+(setTipoConsulenza(Lmisc/TipoConsulenza;)<model.Appuntamento#setTipoConsulenza(Lmisc/TipoConsulenza;)V=
+
+toString()/model.Appuntamento#toString()Ljava/lang/String;“
 'engclasses.dao.filesystem.UtenteDAOFileengclasses.dao.api.UtenteDAOjava.lang.Object=
 <init>()1engclasses.dao.filesystem.UtenteDAOFile#<init>()Vi
 aggiornaUtente(Lmodel/Utente;)Gengclasses.dao.filesystem.UtenteDAOFile#aggiornaUtente(Lmodel/Utente;)Zk
@@ -2590,7 +2556,22 @@ isAttivo())engclasses.beans.AnnuncioBean#isAttivo()Z9
 setQuantita(I)-engclasses.beans.AnnuncioBean#setQuantita(I)VK
 setQuantitaTotale(I)3engclasses.beans.AnnuncioBean#setQuantitaTotale(I)V[
 setStato(Ljava/lang/String;);engclasses.beans.AnnuncioBean#setStato(Ljava/lang/String;)V]
-setTitolo(Ljava/lang/String;)<engclasses.beans.AnnuncioBean#setTitolo(Ljava/lang/String;)VP
+setTitolo(Ljava/lang/String;)<engclasses.beans.AnnuncioBean#setTitolo(Ljava/lang/String;)VB
+.engclasses.pattern.factory.AppuntamentoFactoryjava.lang.Objectã
+6engclasses.pattern.factory.AppuntamentoSulCampoFactory.engclasses.pattern.factory.AppuntamentoFactoryjava.lang.ObjectL
+<init>()@engclasses.pattern.factory.AppuntamentoSulCampoFactory#<init>()Vƒ
+zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)≈engclasses.pattern.factory.AppuntamentoSulCampoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;t
+getDurataPredefinitaMinuti()Tengclasses.pattern.factory.AppuntamentoSulCampoFactory#getDurataPredefinitaMinuti()IÉ
+valida(Ljava/lang/String;J)dengclasses.pattern.factory.AppuntamentoSulCampoFactory#valida(Ljava/lang/String;J)Ljava/lang/String;ÿ	
+model.AppuntamentoSulCampomodel.Appuntamento¶
+Ç<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)ûmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)VÅ
+p<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)åmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)VN
+getDurataMinimaMinuti()3model.AppuntamentoSulCampo#getDurataMinimaMinuti()IX
+getDurataPredefinitaMinuti()8model.AppuntamentoSulCampo#getDurataPredefinitaMinuti()I@
+isDurataValida(),model.AppuntamentoSulCampo#isDurataValida()ZF
+isIndirizzoValido()/model.AppuntamentoSulCampo#isIndirizzoValido()ZE
+
+toString()7model.AppuntamentoSulCampo#toString()Ljava/lang/String;P
 misc.StatoAnnunciojava.lang.Object(
 <init>()misc.StatoAnnuncio#<init>()V¸
 *controllers.grafico.gui.LoginGUIControllerjava.lang.Object@
@@ -2628,7 +2609,17 @@ isAttivo())engclasses.beans.AnnuncioBean#isAttivo()Z9
 .proponiPrezzo(Lengclasses/beans/AnnuncioBean;)fcontrollers.grafico.gui.VisualizzaAnnunciGUIController#proponiPrezzo(Lengclasses/beans/AnnuncioBean;)Vp
 setMostraPartecipazioni(Z)Rcontrollers.grafico.gui.VisualizzaAnnunciGUIController#setMostraPartecipazioni(Z)Vr
 setMostraSoloMieiAnnunci(Z)Scontrollers.grafico.gui.VisualizzaAnnunciGUIController#setMostraSoloMieiAnnunci(Z)VZ
-tornaIndietro()Gcontrollers.grafico.gui.VisualizzaAnnunciGUIController#tornaIndietro()Vø	
+tornaIndietro()Gcontrollers.grafico.gui.VisualizzaAnnunciGUIController#tornaIndietro()V»
+
+*controllers.applicativo.AnnuncioControllerjava.lang.Object@
+<init>()4controllers.applicativo.AnnuncioController#<init>()Vå
+convertToBean(Lmodel/Annuncio;)icontrollers.applicativo.AnnuncioController#convertToBean(Lmodel/Annuncio;)Lengclasses/beans/AnnuncioBean;≠
+~creaAnnuncio(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)™controllers.applicativo.AnnuncioController#creaAnnuncio(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)Vv
+#eliminaAnnuncio(Ljava/lang/String;)Ocontrollers.applicativo.AnnuncioController#eliminaAnnuncio(Ljava/lang/String;)ZW
+getAnnunci()Gcontrollers.applicativo.AnnuncioController#getAnnunci()Ljava/util/List;£
+2getAnnunciPartecipazioniUtente(Ljava/lang/String;)mcontrollers.applicativo.AnnuncioController#getAnnunciPartecipazioniUtente(Ljava/lang/String;)Ljava/util/List;á
+$getAnnunciUtente(Ljava/lang/String;)_controllers.applicativo.AnnuncioController#getAnnunciUtente(Ljava/lang/String;)Ljava/util/List;Ö
+jvalidaDati(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)ñcontrollers.applicativo.AnnuncioController#validaDati(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/String;ILjava/lang/String;)Vø	
 0controllers.applicativo.PartecipazioneControllerjava.lang.ObjectF
 <init>():controllers.applicativo.PartecipazioneController#<init>()V§
 %convertToBean(Lmodel/Partecipazione;){controllers.applicativo.PartecipazioneController#convertToBean(Lmodel/Partecipazione;)Lengclasses/beans/PartecipazioneBean;à
@@ -2688,9 +2679,9 @@ creaBean()acontrollers.grafico.gui.RegistrazioneGUIController#creaBean()Lengcla
 test.TestDBjava.lang.Object!
 <init>()test.TestDB#<init>()VC
 main([Ljava/lang/String;)&test.TestDB#main([Ljava/lang/String;)V®
-0engclasses.pattern.Factory.UtenteFactoryProviderjava.lang.ObjectF
-<init>():engclasses.pattern.Factory.UtenteFactoryProvider#<init>()Vô
-getFactory(Lmisc/TipoUtente;)xengclasses.pattern.Factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/Factory/UtenteFactory;˝
+0engclasses.pattern.factory.UtenteFactoryProviderjava.lang.ObjectF
+<init>():engclasses.pattern.factory.UtenteFactoryProvider#<init>()Vô
+getFactory(Lmisc/TipoUtente;)xengclasses.pattern.factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/factory/UtenteFactory;˝
 misc.AppResultjava.lang.EnumJ
 <init>(Ljava/lang/String;I)+misc.AppResult#<init>(Ljava/lang/String;I)VY
 valueOf(Ljava/lang/String;):misc.AppResult#valueOf(Ljava/lang/String;)Lmisc/AppResult;4
@@ -2922,7 +2913,14 @@ ctrovaPerConsulenteEIntervallo(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/
 trovaPerId(Ljava/lang/String;)Vengclasses.dao.db.AppuntamentoDAODB#trovaPerId(Ljava/lang/String;)Lmodel/Appuntamento;ƒ
 FtrovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)zengclasses.dao.db.AppuntamentoDAODB#trovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;Ü
 'trovaPerStato(Lmisc/StatoAppuntamento;)[engclasses.dao.db.AppuntamentoDAODB#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;P
-trovaTutti()@engclasses.dao.db.AppuntamentoDAODB#trovaTutti()Ljava/util/List;2
+trovaTutti()@engclasses.dao.db.AppuntamentoDAODB#trovaTutti()Ljava/util/List;…
+model.AppuntamentoOnlinemodel.Appuntamento§
+Ç<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)úmodel.AppuntamentoOnline#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Vˇ
+p<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)ämodel.AppuntamentoOnline#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)VS
+generaUrlMeeting()=model.AppuntamentoOnline#generaUrlMeeting()Ljava/lang/String;V
+getDurataPredefinitaMinuti()6model.AppuntamentoOnline#getDurataPredefinitaMinuti()IC
+
+toString()5model.AppuntamentoOnline#toString()Ljava/lang/String;2
 engclasses.dao.api.AnnuncioDAOjava.lang.Object¿
 )engclasses.dao.filesystem.AnnuncioDAOFileengclasses.dao.api.AnnuncioDAOjava.lang.Object?
 <init>()3engclasses.dao.filesystem.AnnuncioDAOFile#<init>()VY
@@ -2934,7 +2932,10 @@ FtrovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)zengclas
 "trovaPerAutore(Ljava/lang/String;)\engclasses.dao.filesystem.AnnuncioDAOFile#trovaPerAutore(Ljava/lang/String;)Ljava/util/List;Ä
 !trovaPerCitta(Ljava/lang/String;)[engclasses.dao.filesystem.AnnuncioDAOFile#trovaPerCitta(Ljava/lang/String;)Ljava/util/List;z
 trovaPerId(Ljava/lang/String;)Xengclasses.dao.filesystem.AnnuncioDAOFile#trovaPerId(Ljava/lang/String;)Lmodel/Annuncio;V
-trovaTutti()Fengclasses.dao.filesystem.AnnuncioDAOFile#trovaTutti()Ljava/util/List;◊
+trovaTutti()Fengclasses.dao.filesystem.AnnuncioDAOFile#trovaTutti()Ljava/util/List;Ù
+,engclasses.pattern.factory.ConsulenteFactory(engclasses.pattern.factory.UtenteFactoryjava.lang.ObjectB
+<init>()6engclasses.pattern.factory.ConsulenteFactory#<init>()V√
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)}engclasses.pattern.factory.ConsulenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;◊
 *controllers.grafico.cli.LoginCLIControllerjava.lang.Object@
 <init>()4controllers.grafico.cli.LoginCLIController#<init>()Vq
 determinaPersistenza()Wcontrollers.grafico.cli.LoginCLIController#determinaPersistenza()Lmisc/PersistenceType;J
@@ -2997,7 +2998,10 @@ $trovaPerAnnuncio(Ljava/lang/String;)dengclasses.dao.filesystem.PartecipazioneD
  mostraErrore(Ljava/lang/String;)7view.cli.LoginCLIView#mostraErrore(Ljava/lang/String;)Va
 #mostraMessaggio(Ljava/lang/String;):view.cli.LoginCLIView#mostraMessaggio(Ljava/lang/String;)V_
 "mostraSuccesso(Ljava/lang/String;)9view.cli.LoginCLIView#mostraSuccesso(Ljava/lang/String;)V7
-mostraTitolo()%view.cli.LoginCLIView#mostraTitolo()VL
+mostraTitolo()%view.cli.LoginCLIView#mostraTitolo()V˜
+-engclasses.pattern.factory.AgricoltoreFactory(engclasses.pattern.factory.UtenteFactoryjava.lang.ObjectC
+<init>()7engclasses.pattern.factory.AgricoltoreFactory#<init>()Vƒ
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)~engclasses.pattern.factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;L
 misc.UIConstantsjava.lang.Object&
 <init>()misc.UIConstants#<init>()V7
 #engclasses.services.CalendarServicejava.lang.Object 
@@ -3060,10 +3064,20 @@ omostraRiepilogo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/la
 misc.PersistenceTypejava.lang.EnumP
 <init>(Ljava/lang/String;I)1misc.PersistenceType#<init>(Ljava/lang/String;I)Ve
 valueOf(Ljava/lang/String;)Fmisc.PersistenceType#valueOf(Ljava/lang/String;)Lmisc/PersistenceType;@
-values()4misc.PersistenceType#values()[Lmisc/PersistenceType;î
-model.Venditorejava.io.Serializablemodel.Utente£
-Ü<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ómodel.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V7
-	getTipo()*model.Venditore#getTipo()Lmisc/TipoUtente;ö
+values()4misc.PersistenceType#values()[Lmisc/PersistenceType;…
+6engclasses.pattern.factory.AppuntamentoFactoryProviderjava.lang.ObjectL
+<init>()@engclasses.pattern.factory.AppuntamentoFactoryProvider#<init>()VÆ
+!getFactory(Lmisc/TipoConsulenza;)àengclasses.pattern.factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/factory/AppuntamentoFactory;Å
+4engclasses.pattern.factory.AppuntamentoOnlineFactory.engclasses.pattern.factory.AppuntamentoFactoryjava.lang.ObjectJ
+<init>()>engclasses.pattern.factory.AppuntamentoOnlineFactory#<init>()V¬
+zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)√engclasses.pattern.factory.AppuntamentoOnlineFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;r
+getDurataPredefinitaMinuti()Rengclasses.pattern.factory.AppuntamentoOnlineFactory#getDurataPredefinitaMinuti()IÅ
+valida(Ljava/lang/String;J)bengclasses.pattern.factory.AppuntamentoOnlineFactory#valida(Ljava/lang/String;J)Ljava/lang/String;ê
+7engclasses.pattern.factory.AppuntamentoInUfficioFactory.engclasses.pattern.factory.AppuntamentoFactoryjava.lang.ObjectM
+<init>()Aengclasses.pattern.factory.AppuntamentoInUfficioFactory#<init>()V≈
+zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)∆engclasses.pattern.factory.AppuntamentoInUfficioFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;u
+getDurataPredefinitaMinuti()Uengclasses.pattern.factory.AppuntamentoInUfficioFactory#getDurataPredefinitaMinuti()IÑ
+valida(Ljava/lang/String;J)eengclasses.pattern.factory.AppuntamentoInUfficioFactory#valida(Ljava/lang/String;J)Ljava/lang/String;ö
  engclasses.dao.db.VenditoreDAODBengclasses.dao.api.VenditoreDAOengclasses.dao.db.UtenteDAODB6
 <init>()*engclasses.dao.db.VenditoreDAODB#<init>()V´	
 engclasses.dao.db.AnnuncioDAODBengclasses.dao.api.AnnuncioDAOjava.lang.Object5
@@ -3150,12 +3164,7 @@ FtrovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Çengcla
 <init>())java.lang.IllegalStateException#<init>()VY
 <init>(Ljava/lang/String;);java.lang.IllegalStateException#<init>(Ljava/lang/String;)VÉ
 /<init>(Ljava/lang/String;Ljava/lang/Throwable;)Pjava.lang.IllegalStateException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V_
-<init>(Ljava/lang/Throwable;)>java.lang.IllegalStateException#<init>(Ljava/lang/Throwable;)Vê
-7engclasses.pattern.Factory.AppuntamentoInUfficioFactory.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.ObjectM
-<init>()Aengclasses.pattern.Factory.AppuntamentoInUfficioFactory#<init>()V≈
-zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)∆engclasses.pattern.Factory.AppuntamentoInUfficioFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;u
-getDurataPredefinitaMinuti()Uengclasses.pattern.Factory.AppuntamentoInUfficioFactory#getDurataPredefinitaMinuti()IÑ
-valida(Ljava/lang/String;J)eengclasses.pattern.Factory.AppuntamentoInUfficioFactory#valida(Ljava/lang/String;J)Ljava/lang/String;T
+<init>(Ljava/lang/Throwable;)>java.lang.IllegalStateException#<init>(Ljava/lang/Throwable;)VT
 java.util.Dictionaryjava.lang.Object*
 <init>()java.util.Dictionary#<init>()Võ#
 java.util.Hashtablejava.io.Serializablejava.lang.Cloneablejava.util.Dictionaryjava.util.Map)
@@ -3302,13 +3311,7 @@ HgetConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)tjava.
 Applicationjava.lang.Objectv
 MainGUIApplication
 <init>()MainGUI#<init>()V?
-main([Ljava/lang/String;)"MainGUI#main([Ljava/lang/String;)V˜
--engclasses.pattern.Factory.AgricoltoreFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectC
-<init>()7engclasses.pattern.Factory.AgricoltoreFactory#<init>()Vƒ
-BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)~engclasses.pattern.Factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;Ò
-+engclasses.pattern.Factory.VenditoreFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectA
-<init>()5engclasses.pattern.Factory.VenditoreFactory#<init>()V¬
-BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)|engclasses.pattern.Factory.VenditoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;ƒ
+main([Ljava/lang/String;)"MainGUI#main([Ljava/lang/String;)Vƒ
 1controllers.grafico.gui.CreaAnnuncioGUIControllerjava.lang.ObjectG
 <init>();controllers.grafico.gui.CreaAnnuncioGUIController#<init>()VI
 	annulla()<controllers.grafico.gui.CreaAnnuncioGUIController#annulla()VS
@@ -3472,10 +3475,7 @@ $aggiornaEvento(Lmodel/Appuntamento;)Oengclasses.services.GoogleCalendarAdapter
 !getLinkEvento(Ljava/lang/String;)]engclasses.services.GoogleCalendarAdapter#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;M
 isDisponibile():engclasses.services.GoogleCalendarAdapter#isDisponibile()ZØ
 @onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)kengclasses.services.GoogleCalendarAdapter#onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)V=
-reset()2engclasses.services.GoogleCalendarAdapter#reset()V…
-6engclasses.pattern.Factory.AppuntamentoFactoryProviderjava.lang.ObjectL
-<init>()@engclasses.pattern.Factory.AppuntamentoFactoryProvider#<init>()VÆ
-!getFactory(Lmisc/TipoConsulenza;)àengclasses.pattern.Factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/Factory/AppuntamentoFactory;N
+reset()2engclasses.services.GoogleCalendarAdapter#reset()VN
 misc.CSSConstantsjava.lang.Object'
 <init>()misc.CSSConstants#<init>()V€
 java.sql.Datejava.util.Date)
@@ -3498,10 +3498,22 @@ toString()*java.sql.Date#toString()Ljava/lang/String;W
 valueOf(Ljava/lang/String;)8java.sql.Date#valueOf(Ljava/lang/String;)Ljava/sql/Date;]
 valueOf(Ljava/time/LocalDate;);java.sql.Date#valueOf(Ljava/time/LocalDate;)Ljava/sql/Date;Z
 misc.EventoAppuntamentojava.lang.Object-
-<init>()!misc.EventoAppuntamento#<init>()V•
+<init>()!misc.EventoAppuntamento#<init>()VÙ
 test.TestPrenotazionejava.lang.Object+
-<init>()test.TestPrenotazione#<init>()VM
-main([Ljava/lang/String;)0test.TestPrenotazione#main([Ljava/lang/String;)VÚ
+<init>()test.TestPrenotazione#<init>()VÂ
+eeseguiTestCancellazioneAppuntamento(Lcontrollers/applicativo/AppuntamentoController;Ljava/util/List;)|test.TestPrenotazione#eseguiTestCancellazioneAppuntamento(Lcontrollers/applicativo/AppuntamentoController;Ljava/util/List;)V€
+`eseguiTestConfermaAppuntamento(Lcontrollers/applicativo/AppuntamentoController;Ljava/util/List;)wtest.TestPrenotazione#eseguiTestConfermaAppuntamento(Lcontrollers/applicativo/AppuntamentoController;Ljava/util/List;)V±
+KeseguiTestConflittoOrario(Lcontrollers/applicativo/AppuntamentoController;)btest.TestPrenotazione#eseguiTestConflittoOrario(Lcontrollers/applicativo/AppuntamentoController;)Vª
+PeseguiTestGestioneAppuntamenti(Lcontrollers/applicativo/AppuntamentoController;)gtest.TestPrenotazione#eseguiTestGestioneAppuntamenti(Lcontrollers/applicativo/AppuntamentoController;)VΩ
+QeseguiTestPrenotazioneInUfficio(Lcontrollers/applicativo/AppuntamentoController;)htest.TestPrenotazione#eseguiTestPrenotazioneInUfficio(Lcontrollers/applicativo/AppuntamentoController;)V∑
+NeseguiTestPrenotazioneOnline(Lcontrollers/applicativo/AppuntamentoController;)etest.TestPrenotazione#eseguiTestPrenotazioneOnline(Lcontrollers/applicativo/AppuntamentoController;)Vª
+PeseguiTestPrenotazioneSulCampo(Lcontrollers/applicativo/AppuntamentoController;)gtest.TestPrenotazione#eseguiTestPrenotazioneSulCampo(Lcontrollers/applicativo/AppuntamentoController;)V´
+HeseguiTestPrenotazioni(Lcontrollers/applicativo/AppuntamentoController;)_test.TestPrenotazione#eseguiTestPrenotazioni(Lcontrollers/applicativo/AppuntamentoController;)Vﬂ
+beseguiTestPreparazioneConsulenza(Lcontrollers/applicativo/AppuntamentoController;Ljava/util/List;)ytest.TestPrenotazione#eseguiTestPreparazioneConsulenza(Lcontrollers/applicativo/AppuntamentoController;Ljava/util/List;)Vä
+ inizializzaSessioneEController()ftest.TestPrenotazione#inizializzaSessioneEController()Lcontrollers/applicativo/AppuntamentoController;ì
+<logDettagliAppuntamento(Lengclasses/beans/AppuntamentoBean;)Stest.TestPrenotazione#logDettagliAppuntamento(Lengclasses/beans/AppuntamentoBean;)VM
+main([Ljava/lang/String;)0test.TestPrenotazione#main([Ljava/lang/String;)V©
+GmostraRiepilogoFinale(Lcontrollers/applicativo/AppuntamentoController;)^test.TestPrenotazione#mostraRiepilogoFinale(Lcontrollers/applicativo/AppuntamentoController;)VÚ
 2controllers.grafico.cli.MainVenditoreCLIControllerjava.lang.ObjectH
 <init>()<controllers.grafico.cli.MainVenditoreCLIController#<init>()VT
 cercaAnnunci()Bcontrollers.grafico.cli.MainVenditoreCLIController#cercaAnnunci()VH
@@ -3595,7 +3607,10 @@ toString()Bjavafx.beans.property.BooleanProperty#toString()Ljava/lang/String;ï
 !javafx.collections.ObservableListjava.lang.Objectjava.util.Listjavafx.beans.Observable¶
 (filtered(Ljava/util/function/Predicate;)zjavafx.collections.ObservableList#filtered(Ljava/util/function/Predicate;)Ljavafx/collections/transformation/FilteredList;d
 sorted()Xjavafx.collections.ObservableList#sorted()Ljavafx/collections/transformation/SortedList;ê
-sorted(Ljava/util/Comparator;)njavafx.collections.ObservableList#sorted(Ljava/util/Comparator;)Ljavafx/collections/transformation/SortedList;µ	
+sorted(Ljava/util/Comparator;)njavafx.collections.ObservableList#sorted(Ljava/util/Comparator;)Ljavafx/collections/transformation/SortedList;Ù
+,engclasses.pattern.Factory.ConsulenteFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectB
+<init>()6engclasses.pattern.Factory.ConsulenteFactory#<init>()V√
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)}engclasses.pattern.Factory.ConsulenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;µ	
 $javafx.beans.property.StringPropertyjavafx.beans.property.Property,javafx.beans.property.ReadOnlyStringProperty&javafx.beans.value.WritableStringValue:
 <init>().javafx.beans.property.StringProperty#<init>()Vê
 3bindBidirectional(Ljavafx/beans/property/Property;)Yjavafx.beans.property.StringProperty#bindBidirectional(Ljavafx/beans/property/Property;)V¥
@@ -4019,7 +4034,10 @@ hashCode()"javafx.scene.text.Font#hashCode()Is
 UnativeFont(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;D)Ñjavafx.scene.text.Font#nativeFont(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;D)Ljavafx/scene/text/Font; 
 WsetNativeFont(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ojavafx.scene.text.Font#setNativeFont(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)VA
 
-toString()3javafx.scene.text.Font#toString()Ljava/lang/String;Ñ
+toString()3javafx.scene.text.Font#toString()Ljava/lang/String;®
+0engclasses.pattern.Factory.UtenteFactoryProviderjava.lang.ObjectF
+<init>():engclasses.pattern.Factory.UtenteFactoryProvider#<init>()Vô
+getFactory(Lmisc/TipoUtente;)xengclasses.pattern.Factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/Factory/UtenteFactory;Ñ
 !javafx.scene.control.ToggleButtonjavafx.scene.control.ButtonBasejavafx.scene.control.Toggle7
 <init>()+javafx.scene.control.ToggleButton#<init>()V[
 <init>(Ljava/lang/String;)=javafx.scene.control.ToggleButton#<init>(Ljava/lang/String;)VÅ
@@ -4526,7 +4544,12 @@ isAtomic();javafx.scene.control.MultipleSelectionModelBase#isAtomic()ZG
 (shiftSelection(IILjavafx/util/Callback;)Yjavafx.scene.control.MultipleSelectionModelBase#shiftSelection(IILjavafx/util/Callback;)V°
 6shiftSelection(Ljava/util/List;Ljavafx/util/Callback;)gjavafx.scene.control.MultipleSelectionModelBase#shiftSelection(Ljava/util/List;Ljavafx/util/Callback;)VO
 startAtomic()>javafx.scene.control.MultipleSelectionModelBase#startAtomic()VM
-stopAtomic()=javafx.scene.control.MultipleSelectionModelBase#stopAtomic()VÁ&
+stopAtomic()=javafx.scene.control.MultipleSelectionModelBase#stopAtomic()Vê
+7engclasses.pattern.Factory.AppuntamentoInUfficioFactory.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.ObjectM
+<init>()Aengclasses.pattern.Factory.AppuntamentoInUfficioFactory#<init>()V≈
+zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)∆engclasses.pattern.Factory.AppuntamentoInUfficioFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;u
+getDurataPredefinitaMinuti()Uengclasses.pattern.Factory.AppuntamentoInUfficioFactory#getDurataPredefinitaMinuti()IÑ
+valida(Ljava/lang/String;J)eengclasses.pattern.Factory.AppuntamentoInUfficioFactory#valida(Ljava/lang/String;J)Ljava/lang/String;Á&
 javafx.stage.Stagejavafx.stage.Window(
 <init>()javafx.stage.Stage#<init>()VZ
 !<init>(Ljavafx/stage/StageStyle;)5javafx.stage.Stage#<init>(Ljavafx/stage/StageStyle;)Vp
@@ -4835,7 +4858,10 @@ toString()Ijavafx.beans.property.ReadOnlyStringProperty#toString()Ljava/lang/St
 6sharedToString(IZ[Ljava/lang/Class;[Ljava/lang/Class;)ejava.lang.reflect.Executable#sharedToString(IZ[Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/String;i
 synthesizeAllParams()Pjava.lang.reflect.Executable#synthesizeAllParams()[Ljava/lang/reflect/Parameter;ë
 /typeVarBounds(Ljava/lang/reflect/TypeVariable;)^java.lang.reflect.Executable#typeVarBounds(Ljava/lang/reflect/TypeVariable;)Ljava/lang/String;Ç
-0verifyParameters([Ljava/lang/reflect/Parameter;)Njava.lang.reflect.Executable#verifyParameters([Ljava/lang/reflect/Parameter;)VÌ
+0verifyParameters([Ljava/lang/reflect/Parameter;)Njava.lang.reflect.Executable#verifyParameters([Ljava/lang/reflect/Parameter;)VÒ
++engclasses.pattern.Factory.VenditoreFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectA
+<init>()5engclasses.pattern.Factory.VenditoreFactory#<init>()V¬
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)|engclasses.pattern.Factory.VenditoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;Ì
 javafx.scene.control.DatePicker!javafx.scene.control.ComboBoxBase5
 <init>())javafx.scene.control.DatePicker#<init>()V_
 <init>(Ljava/time/LocalDate;)>javafx.scene.control.DatePicker#<init>(Ljava/time/LocalDate;)Vr
@@ -5082,7 +5108,12 @@ $javafx.scene.control.TextInputDialogjavafx.scene.control.Dialog:
 <init>(Ljava/lang/String;)@javafx.scene.control.TextInputDialog#<init>(Ljava/lang/String;)V]
 getDefaultValue()Hjavafx.scene.control.TextInputDialog#getDefaultValue()Ljava/lang/String;_
 getEditor()Pjavafx.scene.control.TextInputDialog#getEditor()Ljavafx/scene/control/TextField;B
-updateGrid()2javafx.scene.control.TextInputDialog#updateGrid()VÔ	
+updateGrid()2javafx.scene.control.TextInputDialog#updateGrid()Vã
+6engclasses.pattern.Factory.AppuntamentoSulCampoFactory.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.ObjectL
+<init>()@engclasses.pattern.Factory.AppuntamentoSulCampoFactory#<init>()Vƒ
+zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)≈engclasses.pattern.Factory.AppuntamentoSulCampoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;t
+getDurataPredefinitaMinuti()Tengclasses.pattern.Factory.AppuntamentoSulCampoFactory#getDurataPredefinitaMinuti()IÉ
+valida(Ljava/lang/String;J)dengclasses.pattern.Factory.AppuntamentoSulCampoFactory#valida(Ljava/lang/String;J)Ljava/lang/String;Ô	
 /engclasses.dao.fileSystem.PartecipazioneDAOFile$engclasses.dao.api.PartecipazioneDAOjava.lang.ObjectE
 <init>()9engclasses.dao.fileSystem.PartecipazioneDAOFile#<init>()V_
 caricaDaFile()Mengclasses.dao.fileSystem.PartecipazioneDAOFile#caricaDaFile()Ljava/util/Map;k
@@ -5095,7 +5126,12 @@ $trovaPerAnnuncio(Ljava/lang/String;)dengclasses.dao.fileSystem.PartecipazioneD
 trovaPerId(Ljava/lang/String;)dengclasses.dao.fileSystem.PartecipazioneDAOFile#trovaPerId(Ljava/lang/String;)Lmodel/Partecipazione;\
 trovaTutte()Lengclasses.dao.fileSystem.PartecipazioneDAOFile#trovaTutte()Ljava/util/List;z
 javafx.css.Styleablejava.lang.ObjectP
-getStyleableNode():javafx.css.Styleable#getStyleableNode()Ljavafx/scene/Node;Â
+getStyleableNode():javafx.css.Styleable#getStyleableNode()Ljavafx/scene/Node;Å
+4engclasses.pattern.Factory.AppuntamentoOnlineFactory.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.ObjectJ
+<init>()>engclasses.pattern.Factory.AppuntamentoOnlineFactory#<init>()V¬
+zcreaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)√engclasses.pattern.Factory.AppuntamentoOnlineFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;r
+getDurataPredefinitaMinuti()Rengclasses.pattern.Factory.AppuntamentoOnlineFactory#getDurataPredefinitaMinuti()IÅ
+valida(Ljava/lang/String;J)bengclasses.pattern.Factory.AppuntamentoOnlineFactory#valida(Ljava/lang/String;J)Ljava/lang/String;Â
 java.lang.Doublejava.lang.Comparablejava.lang.Numberjava.lang.constant.Constablejava.lang.constant.ConstantDesc(
 	<init>(D)java.lang.Double#<init>(D)VJ
 <init>(Ljava/lang/String;),java.lang.Double#<init>(Ljava/lang/String;)V,
@@ -5757,7 +5793,8 @@ getValue()Djavafx.beans.binding.BooleanExpression#getValue()Ljava/lang/Boolean;
 6isEqualTo(Ljavafx/beans/value/ObservableBooleanValue;)Çjavafx.beans.binding.BooleanExpression#isEqualTo(Ljavafx/beans/value/ObservableBooleanValue;)Ljavafx/beans/binding/BooleanBinding;√
 9isNotEqualTo(Ljavafx/beans/value/ObservableBooleanValue;)Öjavafx.beans.binding.BooleanExpression#isNotEqualTo(Ljavafx/beans/value/ObservableBooleanValue;)Ljavafx/beans/binding/BooleanBinding;Z
 not()Qjavafx.beans.binding.BooleanExpression#not()Ljavafx/beans/binding/BooleanBinding;Æ
-/or(Ljavafx/beans/value/ObservableBooleanValue;){javafx.beans.binding.BooleanExpression#or(Ljavafx/beans/value/ObservableBooleanValue;)Ljavafx/beans/binding/BooleanBinding;Ö
+/or(Ljavafx/beans/value/ObservableBooleanValue;){javafx.beans.binding.BooleanExpression#or(Ljavafx/beans/value/ObservableBooleanValue;)Ljavafx/beans/binding/BooleanBinding;<
+(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectÖ
 6javafx.scene.control.TableView$TableViewSelectionModel(javafx.scene.control.TableSelectionModelå
 (<init>(Ljavafx/scene/control/TableView;)`javafx.scene.control.TableView$TableViewSelectionModel#<init>(Ljavafx/scene/control/TableView;)V™
 7clearAndSelect(ILjavafx/scene/control/TableColumnBase;)ojavafx.scene.control.TableView$TableViewSelectionModel#clearAndSelect(ILjavafx/scene/control/TableColumnBase;)V™
@@ -5820,7 +5857,8 @@ $setSkin(Ljavafx/scene/control/Skin;)Bjavafx.scene.control.Control#setSkin(Ljav
 *setTooltip(Ljavafx/scene/control/Tooltip;)Hjavafx.scene.control.Control#setTooltip(Ljavafx/scene/control/Tooltip;)Vu
 skinClassNameProperty()Zjavafx.scene.control.Control#skinClassNameProperty()Ljavafx/beans/property/StringProperty;c
 skinProperty()Qjavafx.scene.control.Control#skinProperty()Ljavafx/beans/property/ObjectProperty;i
-tooltipProperty()Tjavafx.scene.control.Control#tooltipProperty()Ljavafx/beans/property/ObjectProperty;”1
+tooltipProperty()Tjavafx.scene.control.Control#tooltipProperty()Ljavafx/beans/property/ObjectProperty;B
+.engclasses.pattern.Factory.AppuntamentoFactoryjava.lang.Object”1
 javafx.scene.Parentjavafx.scene.Node)
 <init>()javafx.scene.Parent#<init>()Vg
 'childBoundsChanged(Ljavafx/scene/Node;)<javafx.scene.Parent#childBoundsChanged(Ljavafx/scene/Node;)V]
@@ -6015,7 +6053,10 @@ clamp(JJJ)java.lang.Math#clamp(JJJ)J,
 unsignedMultiplyExact(JJ))java.lang.Math#unsignedMultiplyExact(JJ)JD
 unsignedMultiplyHigh(JJ)(java.lang.Math#unsignedMultiplyHigh(JJ)J<
 unsignedPowExact(II)$java.lang.Math#unsignedPowExact(II)I<
-unsignedPowExact(JI)$java.lang.Math#unsignedPowExact(JI)J¥=
+unsignedPowExact(JI)$java.lang.Math#unsignedPowExact(JI)J˜
+-engclasses.pattern.Factory.AgricoltoreFactory(engclasses.pattern.Factory.UtenteFactoryjava.lang.ObjectC
+<init>()7engclasses.pattern.Factory.AgricoltoreFactory#<init>()Vƒ
+BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)~engclasses.pattern.Factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;¥=
 javafx.scene.control.TableViewjavafx.scene.control.Control4
 <init>()(javafx.scene.control.TableView#<init>()Vz
 +<init>(Ljavafx/collections/ObservableList;)Kjavafx.scene.control.TableView#<init>(Ljavafx/collections/ObservableList;)Vñ
@@ -6147,7 +6188,10 @@ KgrowOrShrinkAreaWidths(Ljava/util/List;[[DLjavafx/scene/layout/Priority;DD)eja
 TestDBjava.lang.Object
 <init>()TestDB#<init>()V>
 main([Ljava/lang/String;)!TestDB#main([Ljava/lang/String;)V`
-(javafx.beans.value.ObservableObjectValuejava.lang.Object"javafx.beans.value.ObservableValueå
+(javafx.beans.value.ObservableObjectValuejava.lang.Object"javafx.beans.value.ObservableValue…
+6engclasses.pattern.Factory.AppuntamentoFactoryProviderjava.lang.ObjectL
+<init>()@engclasses.pattern.Factory.AppuntamentoFactoryProvider#<init>()VÆ
+!getFactory(Lmisc/TipoConsulenza;)àengclasses.pattern.Factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/Factory/AppuntamentoFactory;å
 javafx.scene.control.TextArea%javafx.scene.control.TextInputControl3
 <init>()'javafx.scene.control.TextArea#<init>()VW
 <init>(Ljava/lang/String;)9javafx.scene.control.TextArea#<init>(Ljava/lang/String;)Vc

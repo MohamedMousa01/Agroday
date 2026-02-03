@@ -16,7 +16,7 @@ import model.Utente;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.sql.SQLException;
+
 import java.util.UUID;
 
 public class RegistrazioneController {
@@ -24,7 +24,6 @@ public class RegistrazioneController {
     private static final Logger logger = LoggerFactory.getLogger(RegistrazioneController.class);
 
     private final Session session;
-    private String idUtente;
 
     public RegistrazioneController(Session session) {
         this.session = session;
@@ -33,8 +32,8 @@ public class RegistrazioneController {
     public boolean registraUtente(RegistrazioneBean bean) throws RegistrazioneFallitaException, DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
 
         // Genera un ID univoco per l'utente
-        this.idUtente = UUID.randomUUID().toString();
-        bean.setIdUtente(this.idUtente);
+        String idUtente = UUID.randomUUID().toString();
+        bean.setIdUtente(idUtente);
 
         String errori = validaRegistrazione(bean);
 
@@ -44,13 +43,7 @@ public class RegistrazioneController {
         }
 
 
-        try {
-            verificaUnicita(bean);
-        } catch (SQLException e) {
-            logger.error("Errore durante la verifica di unicità per username: {}", bean.getUsername(), e);
-            throw new DatabaseOperazioneFallitaException(
-                    "Errore durante la verifica di unicità", e);
-        }
+        verificaUnicita(bean);
 
 
         //capisco con che tipo di utente ho a che fare, e quale tipo di persistenza è stata scelta
@@ -64,22 +57,15 @@ public class RegistrazioneController {
                     Utente utente = factory.creaUtente(idUtente, bean);
                     logger.debug("RegistrazioneController - Utente creato: {}", utente.getUsername());
         
-                    //salvo in Sessione l'utente, e il tipo di persistenza.  Ma devo salvare il bean o il model????????
-                    salvaDatiSessione(utente, tipoPersistenza); // vedi se devi salvare anche il tipo di utente, o renderlo intrinseco al model Utente
+                    // Salvo in Sessione l'utente e il tipo di persistenza
+                    salvaDatiSessione(utente, tipoPersistenza);
                     logger.debug("RegistrazioneController - Dati sessione salvati.");
         
-                    //try {
-                        // ora lavoro nella DAO
-                        DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());    //chiamo la Factory che mi crea la DAO per l'utente che voglio
-                        UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);                            //chiamo la classe dell'utente giusto, passandogli il parametro "tipoUtente"
+                    // Ora lavoro nella DAO
+                    DAOFactory factoryDAO = DAOFactory.getFactory(session.getPersistenceType());
+                    UtenteDAO dao = factoryDAO.getUtenteDAO(tipoUtente);
 
-                        dao.aggiungiUtente(utente, session.getPersistenceType());               //Ora grazie all'operazione nell'interfaccia UtenteDAO, si applica il polimorfismo.
-            // penso che il parametro session.getPersistenceType() non sia necessario perchè arrivato a quella chiamate
-            //già so con che tipo di persistenza sto avendo a che fare. (dal metodo getFactory(session.getPersistenceType()))
-//        }
-//        catch (SQLException e) {
-//            throw new DatabaseConnessioneFallitaException("database non raggiunto 333", e);
-//        }
+                    dao.aggiungiUtente(utente, session.getPersistenceType());
 
         return true;
 
@@ -91,7 +77,7 @@ public class RegistrazioneController {
         // in caso mi dovesse servire aggiungo ----> session.setTipoUtente(TipoUtente utente);   prima però aggiungi il setter in Session
     }
 
-    public String validaRegistrazione(RegistrazioneBean bean) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
+    public String validaRegistrazione(RegistrazioneBean bean) {
         StringBuilder errori = new StringBuilder();
 
         // Validazione campi
@@ -128,8 +114,8 @@ public class RegistrazioneController {
     private void validaUsername(String username, StringBuilder errori) {
         if (username == null || username.trim().isEmpty()) {
             errori.append("L'username non può essere vuoto.\n");
-        } else if (!username.matches("^[a-zA-Z0-9_]{4,20}$")) {
-            errori.append("Username non valido (4–20 caratteri alfanumerici).\n");
+        } else if (!username.matches("^\\w{4,20}$")) {
+            errori.append("Username non valido (4-20 caratteri alfanumerici).\n");
         }
     }
 
@@ -156,8 +142,7 @@ public class RegistrazioneController {
     private void verificaUnicita(RegistrazioneBean bean)
             throws DatabaseConnessioneFallitaException,
             DatabaseOperazioneFallitaException,
-            RegistrazioneFallitaException,
-            SQLException {
+            RegistrazioneFallitaException {
 
 
             DAOFactory factory = DAOFactory.getFactory(bean.getPersistenceType());

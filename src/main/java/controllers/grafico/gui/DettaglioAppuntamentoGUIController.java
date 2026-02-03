@@ -14,10 +14,7 @@ import javafx.stage.Stage;
 import misc.MessageConstants;
 import misc.CSSConstants;
 import misc.Session;
-import misc.CSSConstants;
 import misc.StatoAppuntamento;
-import misc.CSSConstants;
-
 import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URI;
@@ -49,13 +46,12 @@ public class DettaglioAppuntamentoGUIController {
     @FXML private Button confermaBtn;
     @FXML private Button chiudiBtn;
 
-    private Session session;
     private AppuntamentoController appuntamentoController;
     private AppuntamentoBean appuntamento;
 
     @FXML
     private void initialize() {
-        session = Session.getInstance();
+        Session session = Session.getInstance();
         appuntamentoController = new AppuntamentoController(session);
     }
 
@@ -149,8 +145,7 @@ public class DettaglioAppuntamentoGUIController {
             case COMPLETATO:
                 style += "-fx-background-color: #e2e3e5; -fx-text-fill: #383d41;";
                 break;
-            case CANCELLATO_CLIENTE:
-            case CANCELLATO_CONSULENTE:
+            case CANCELLATO_CLIENTE, CANCELLATO_CONSULENTE:
                 style += "-fx-background-color: #f8d7da; -fx-text-fill: #721c24;";
                 break;
             default:

@@ -15,10 +15,7 @@ import javafx.stage.Stage;
 import misc.MessageConstants;
 import misc.CSSConstants;
 import misc.Session;
-import misc.CSSConstants;
 import misc.StatoAppuntamento;
-import misc.CSSConstants;
-
 import java.io.IOException;
 import java.util.List;
 
@@ -44,13 +41,12 @@ public class ListaAppuntamentiGUIController {
     @FXML private Button tornaIndietroBtn;
     @FXML private Label messageLabel;
 
-    private Session session;
     private AppuntamentoController appuntamentoController;
     private ObservableList<AppuntamentoBean> appuntamentiList;
 
     @FXML
     private void initialize() {
-        session = Session.getInstance();
+        Session session = Session.getInstance();
         appuntamentoController = new AppuntamentoController(session);
         appuntamentiList = FXCollections.observableArrayList();
 
@@ -104,8 +100,7 @@ public class ListaAppuntamentiGUIController {
                         case CONFERMATO:
                             setStyle("-fx-background-color: #d4edda;");
                             break;
-                        case CANCELLATO_CLIENTE:
-                        case CANCELLATO_CONSULENTE:
+                        case CANCELLATO_CLIENTE, CANCELLATO_CONSULENTE:
                             setStyle("-fx-background-color: #f8d7da;");
                             break;
                         case COMPLETATO:

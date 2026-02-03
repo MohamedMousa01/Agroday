@@ -1,43 +1,13 @@
 
-F__sonar_lambda_41$controllers.grafico.cli.MainAgricoltoreCLIControlleru
-i/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/MainAgricoltoreCLIController.javaƒ ƒ(;"startingBlock*È
-startingBlock
-ƒ ƒ(;¥
-¢
+Uengclasses.pattern.factory.AppuntamentoInUfficioFactory#getDurataPredefinitaMinuti()Iv
+l/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoInUfficioFactory.java ()"1*d
+1 ((A
+?
+ ((	
+%0int"__id*"
 
-__unknown_file (
-usernamejava.lang.String"__id*b
-
-__unknown_file (F*D6
-4controllers.grafico.cli.MainAgricoltoreCLIController"
-
-username*
-1*Å
-1
-ƒ ƒ(´±
-
-ƒ ƒ(*
-%10java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
-
-__unknown_file ($
-"
-aengclasses.beans.AnnuncioBean2getAutore()ÜÙ
-
-ƒ ƒ(;
-%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
-
-__unknown_file (
-
-%10java.lang.String*:
-
-__unknown_file (
-
-usernamejava.lang.String2equals(Ljava/lang/Object;)"
-
-ƒ ƒ(;
-
-%11boolean:0
-
-ƒ ƒ("
-aengclasses.beans.AnnuncioBeanB 
-java.util.function.Predicate
+__unknown_file (
+"""
+ ()
+""B;9
+7engclasses.pattern.factory.AppuntamentoInUfficioFactoryHX

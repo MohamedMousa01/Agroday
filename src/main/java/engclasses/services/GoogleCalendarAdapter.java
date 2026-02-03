@@ -29,7 +29,6 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
     private static final Logger logger = LoggerFactory.getLogger(GoogleCalendarAdapter.class);
     private static GoogleCalendarAdapter instance;
     private boolean isConfigured;
-    private String calendarId;
     
     // Simulazione: mappa degli eventi creati (in produzione non servirebbe)
     private final Map<String, String> eventiCreati;
@@ -39,7 +38,6 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
     private GoogleCalendarAdapter() {
         this.eventiCreati = new HashMap<>();
         this.isConfigured = false;
-        this.calendarId = "primary";
     }
 
     public static GoogleCalendarAdapter getInstance() {
@@ -59,10 +57,10 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
      */
     public boolean configura(String credentialsPath, String calendarId) {
         // Simulazione della configurazione
-        System.out.println("[GOOGLE CALENDAR] Configurazione con credenziali: " + credentialsPath);
-        System.out.println("[GOOGLE CALENDAR] Calendar ID: " + calendarId);
+        logger.info("[GOOGLE CALENDAR] Configurazione con credenziali: {}", credentialsPath);
+        logger.info("[GOOGLE CALENDAR] Calendar ID: {}", calendarId);
         
-        this.calendarId = calendarId;
+        // In un'implementazione reale, calendarId verrebbe salvato e usato nelle chiamate API
         this.isConfigured = true;
         
         return true;
@@ -71,19 +69,21 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
     @Override
     public String creaEvento(Appuntamento appuntamento) {
         if (!isConfigured) {
-            System.out.println("[GOOGLE CALENDAR] Servizio non configurato. Evento non creato.");
+            logger.warn("[GOOGLE CALENDAR] Servizio non configurato. Evento non creato.");
             return null;
         }
 
         // Simulazione della creazione evento
         String eventId = "gcal_" + UUID.randomUUID().toString().substring(0, 12);
         
-        System.out.println("[GOOGLE CALENDAR] Creazione evento:");
-        System.out.println("  - Titolo: Consulenza " + appuntamento.getTipoConsulenza().getDisplayName());
-        System.out.println("  - Inizio: " + appuntamento.getDataOraInizio().format(FORMATTER));
-        System.out.println("  - Fine: " + appuntamento.getDataOraFine().format(FORMATTER));
-        System.out.println("  - Luogo: " + appuntamento.getLuogo());
-        System.out.println("  - Event ID: " + eventId);
+        if (logger.isInfoEnabled()) {
+            logger.info("[GOOGLE CALENDAR] Creazione evento:");
+            logger.info("  - Titolo: Consulenza {}", appuntamento.getTipoConsulenza().getDisplayName());
+            logger.info("  - Inizio: {}", appuntamento.getDataOraInizio().format(FORMATTER));
+            logger.info("  - Fine: {}", appuntamento.getDataOraFine().format(FORMATTER));
+            logger.info("  - Luogo: {}", appuntamento.getLuogo());
+            logger.info("  - Event ID: {}", eventId);
+        }
         
         eventiCreati.put(eventId, appuntamento.getIdAppuntamento());
         
@@ -93,20 +93,22 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
     @Override
     public boolean aggiornaEvento(Appuntamento appuntamento) {
         if (!isConfigured) {
-            System.out.println("[GOOGLE CALENDAR] Servizio non configurato. Evento non aggiornato.");
+            logger.warn("[GOOGLE CALENDAR] Servizio non configurato. Evento non aggiornato.");
             return false;
         }
 
         String eventId = appuntamento.getGoogleCalendarEventId();
         if (eventId == null || !eventiCreati.containsKey(eventId)) {
-            System.out.println("[GOOGLE CALENDAR] Evento non trovato: " + eventId);
+            logger.warn("[GOOGLE CALENDAR] Evento non trovato: {}", eventId);
             return false;
         }
 
-        System.out.println("[GOOGLE CALENDAR] Aggiornamento evento: " + eventId);
-        System.out.println("  - Nuovo inizio: " + appuntamento.getDataOraInizio().format(FORMATTER));
-        System.out.println("  - Nuova fine: " + appuntamento.getDataOraFine().format(FORMATTER));
-        System.out.println("  - Nuovo luogo: " + appuntamento.getLuogo());
+        if (logger.isInfoEnabled()) {
+            logger.info("[GOOGLE CALENDAR] Aggiornamento evento: {}", eventId);
+            logger.info("  - Nuovo inizio: {}", appuntamento.getDataOraInizio().format(FORMATTER));
+            logger.info("  - Nuova fine: {}", appuntamento.getDataOraFine().format(FORMATTER));
+            logger.info("  - Nuovo luogo: {}", appuntamento.getLuogo());
+        }
         
         return true;
     }
@@ -114,16 +116,16 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
     @Override
     public boolean cancellaEvento(String eventId) {
         if (!isConfigured) {
-            System.out.println("[GOOGLE CALENDAR] Servizio non configurato. Evento non cancellato.");
+            logger.warn("[GOOGLE CALENDAR] Servizio non configurato. Evento non cancellato.");
             return false;
         }
 
         if (eventId == null || !eventiCreati.containsKey(eventId)) {
-            System.out.println("[GOOGLE CALENDAR] Evento non trovato: " + eventId);
+            logger.warn("[GOOGLE CALENDAR] Evento non trovato: {}", eventId);
             return false;
         }
 
-        System.out.println("[GOOGLE CALENDAR] Cancellazione evento: " + eventId);
+        logger.info("[GOOGLE CALENDAR] Cancellazione evento: {}", eventId);
         eventiCreati.remove(eventId);
         
         return true;

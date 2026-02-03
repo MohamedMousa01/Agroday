@@ -1,18 +1,18 @@
 
-Gengclasses.beans.AppuntamentoBean#getLinkCalendario()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java‡ ‡(#"1*æ
+>engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java∞ ∞("1*≥
 1
-· ·(Ñ
-Å
+± ±(z
+x
 
-· ·(
-%0java.lang.String"__id*U
+± ±(
+%0java.lang.String"__id*L
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-linkCalendario"&
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+luogo"&
 
-· ·(
+± ±(
 
 %0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

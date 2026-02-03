@@ -1,15 +1,7 @@
 
-1model.Annuncio#getDescrizione()Ljava/lang/String;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaa a( "1* 
-1b b(k
-i
-b b(
-%0java.lang.String"__id*?
-
-__unknown_file (#*!
-model.Annuncio"
-descrizione"$
-b b(
-
-%0java.lang.StringB
-model.AnnuncioH
+model.Annuncio#getPrezzo()DM
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javae e("1*!
+1f f("
+f f(
+""B
+model.AnnuncioHX
