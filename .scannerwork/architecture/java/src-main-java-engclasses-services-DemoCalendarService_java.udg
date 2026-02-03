@@ -1,0 +1,356 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133892604*java2.BÓ
+?
+:src/main/java/engclasses/services/DemoCalendarService.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.services7
+,
+'engclasses.services.DemoCalendarService9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(9:1)-(54:2)14
+
+simple-name15
+
+DemoCalendarService16
+)
+#engclasses.services.CalendarService18
+
+unknown19
+
+
+implements20
+
+
+uses21
+6
+0engclasses.services.DemoCalendarService.instance23
+
+field24
+
+private25
+
+(11:5)-(11:49)26
+
+instance27
+
+is type28
+7
+1engclasses.services.DemoCalendarService#<init>()V30
+
+method31
+
+(13:5)-(15:6)32
+
+calls33
+d
+^engclasses.services.DemoCalendarService#getInstance()Lengclasses/services/DemoCalendarService;35
+
+(17:5)-(22:6)36
+
+getInstance37
+
+returns38
+
+
+references39
+`
+Zengclasses.services.DemoCalendarService#creaEvento(Lmodel/Appuntamento;)Ljava/lang/String;41
+
+(24:5)-(29:6)42
+
+
+creaEvento43
+
+model.Appuntamento45
+
+	has param46
+>
+8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;48
+S
+Mengclasses.services.DemoCalendarService#aggiornaEvento(Lmodel/Appuntamento;)Z50
+
+(31:5)-(35:6)51
+
+aggiornaEvento52
+E
+?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;54
+Q
+Kengclasses.services.DemoCalendarService#cancellaEvento(Ljava/lang/String;)Z56
+
+(37:5)-(41:6)57
+
+cancellaEvento58
+>
+8engclasses.services.DemoCalendarService#isDisponibile()Z60
+
+(43:5)-(47:6)61
+
+isDisponibile62
+a
+[engclasses.services.DemoCalendarService#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;64
+
+(49:5)-(53:6)65
+
+getLinkEvento66J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j‘
+M
+34G
+343531 *
+1' (228:5B$
+
+
+11
+12
+
+
+13
+36
+
+
+15
+37
+M
+63G
+636431 *
+12 2( 28:5B$
+
+
+11
+12
+
+
+13
+65
+
+
+15
+66
+M
+59G
+596031 *
+1, ,(!28:5B$
+
+
+11
+12
+
+
+13
+61
+
+
+15
+62
+
+44
+444519
+M
+22G
+222324 *
+1( (028:5B$
+
+
+11
+25
+
+
+13
+26
+
+
+15
+27
+M
+55G
+555631 *
+1& &("28:5B$
+
+
+11
+12
+
+
+13
+57
+
+
+15
+58
+M
+29G
+293031 *
+1 ( 28:5B$
+
+
+11
+25
+
+
+13
+32
+
+
+15
+16
+M
+40G
+404131 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+42
+
+
+15
+43
+
+17
+171819
+
+47
+474819
+M
+49G
+495031 *
+1   ("28:5B$
+
+
+11
+12
+
+
+13
+51
+
+
+15
+52
+
+53
+535419
+G
+8B
+8910 *
+1	 	(!:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16rÍ
+
+81720*
+1	- 	(<
+
+81721*
+1	- 	(<
+
+22828*
+1 ('
+
+22821*
+1 ('
+
+22821*
+1( (0
+
+29833*
+1 ( 
+
+34838*
+1 (&
+
+34821*
+1 (&
+
+34821*
+1 (
+
+342239*
+1 (
+
+34821*
+1 (
+
+342239*
+1 (
+
+34833*
+1 (/
+
+34821*
+1 (
+
+342239*
+1 (
+
+404446*
+1 (*
+
+404428*
+1+ (7
+
+404421*
+1 (*
+
+404439*
+1` (~
+
+404733*
+1m (~
+
+404439*
+1  (>
+
+404733*
+1- (>
+
+494446*
+1 #  (/
+
+494428*
+1 0  (<
+
+494421*
+1 #  (/
+
+494439*
+1!S !(x
+
+495333*
+1!` !(x

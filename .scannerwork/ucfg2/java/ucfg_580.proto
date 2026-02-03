@@ -1,0 +1,39 @@
+
+=view.cli.RegistrazioneCLIView#chiediCitta()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java< <("1*ä
+1= =(Q
+O
+= =(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÇÄ
+= =(#
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*(
+
+__unknown_file (
+
+CittÃ : 2print(Ljava/lang/String;)w
+u
+> >(
+%2java.util.Scanner"__id*J
+
+__unknown_file (.*,
+view.cli.RegistrazioneCLIView"	
+scanner˜•
+> >(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()"$
+> >("
+
+%3java.lang.StringB!
+view.cli.RegistrazioneCLIViewH

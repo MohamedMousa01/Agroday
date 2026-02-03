@@ -1,0 +1,38 @@
+
+[engclasses.services.DemoCalendarService#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/DemoCalendarService.java2 2("startingBlock*å
+startingBlock2 2(/é
+ã
+1 1(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+eventIdjava.lang.String[
+Y
+2' 2(.
+eventIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*∑
+14 4('Å
+
+4 4(1
+%0java.lang.String"__concat*&
+4 4('
+demo://calendar/event/*)
+4* 4(1
+
+eventIdjava.lang.String"$
+4 4(2
+
+%0java.lang.String:'
+2  2(.
+eventIdjava.lang.StringB+)
+'engclasses.services.DemoCalendarServiceH

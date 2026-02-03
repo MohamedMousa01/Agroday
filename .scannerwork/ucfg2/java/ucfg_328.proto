@@ -1,0 +1,136 @@
+
+acontrollers.grafico.gui.RegistrazioneGUIController#creaBean()Lengclasses/beans/RegistrazioneBean;s
+g/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/RegistrazioneGUIController.javaÑ Ñ(&"1*ë
+1
+Ö! Ö(8\Z
+
+Ö% Ö(6(
+%0"engclasses.beans.RegistrazioneBean""engclasses.beans.RegistrazioneBeanã
+à
+
+Ö! Ö(8
+%1",engclasses.beans.RegistrazioneBean#<init>()V*F
+
+__unknown_file (*
+(
+%0"engclasses.beans.RegistrazioneBeanâ
+Ü
+
+Ö Ö(9*
+bean"engclasses.beans.RegistrazioneBean"__id*F
+
+__unknown_file (*
+(
+%0"engclasses.beans.RegistrazioneBean·ﬁ
+
+á á()
+%2"?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2setNome(Ljava/lang/String;)Á‰
+
+à à(/
+%3"Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2setCognome(Ljava/lang/String;)ÈÊ
+
+â â(1
+%4"Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2setUsername(Ljava/lang/String;)„‡
+
+ä ä(+
+%5"@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2setEmail(Ljava/lang/String;)ÈÊ
+
+ã ã(1
+%6"Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2setPassword(Ljava/lang/String;)˜Ù
+
+å å(@
+%7"Jengclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2&setConfirmPassword(Ljava/lang/String;)‡
+›
+
+ç  ç(6
+%8misc.PersistenceType"_controllers.grafico.gui.RegistrazioneGUIController#determinaPersistenza()Lmisc/PersistenceType;*R
+
+__unknown_file (64
+2controllers.grafico.gui.RegistrazioneGUIControllerõò
+
+ç ç(7
+
+%9void"Nengclasses.beans.RegistrazioneBean#setPersistenceType(Lmisc/PersistenceType;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*8
+
+__unknown_file (
+
+%8misc.PersistenceType2*setPersistenceType(Lmisc/PersistenceType;)÷
+”
+
+é é(0
+%10misc.TipoUtente"Ycontrollers.grafico.gui.RegistrazioneGUIController#determinaTipoUtente()Lmisc/TipoUtente;*R
+
+__unknown_file (64
+2controllers.grafico.gui.RegistrazioneGUIControllerÑÅ
+
+é é(1
+%11void"Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*4
+
+__unknown_file (
+
+%10misc.TipoUtente2 setTipoUtente(Lmisc/TipoUtente;)‰·
+
+è è(+
+%12"@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean*"
+
+__unknown_file (
+""2setCitta(Ljava/lang/String;)":
+
+ë ë(,
+*
+bean"engclasses.beans.RegistrazioneBeanB64
+2controllers.grafico.gui.RegistrazioneGUIController

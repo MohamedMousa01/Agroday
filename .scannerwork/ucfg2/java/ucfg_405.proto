@@ -1,0 +1,17 @@
+
+Zengclasses.dao.factory.DAOFileFactory#getConsulenteDAO()Lengclasses/dao/api/ConsulenteDAO;d
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java;, ;(<"1*Ú
+1< <(&lj
+< <($1
+%0+engclasses.dao.filesystem.ConsulenteDAOFile"+engclasses.dao.filesystem.ConsulenteDAOFile›
+˜
+< <(&
+%1"5engclasses.dao.filesystem.ConsulenteDAOFile#<init>()V*O
+
+__unknown_file (3
+1
+%0+engclasses.dao.filesystem.ConsulenteDAOFile"?
+< <('3
+1
+%0+engclasses.dao.filesystem.ConsulenteDAOFileB)'
+%engclasses.dao.factory.DAOFileFactoryH

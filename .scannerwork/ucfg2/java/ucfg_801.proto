@@ -1,0 +1,212 @@
+
+Yengclasses.dao.db.AnnuncioDAODB#mappaRigaAdAnnuncio(Ljava/sql/ResultSet;)Lmodel/Annuncio;`
+T/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AnnuncioDAODB.java½ ½(("1*Ø
+1
+¾ ¾(îë
+
+¾ ¾(6
+%0java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet**
+
+__unknown_file (
+
+idAnnuncio2getString(Ljava/lang/String;)j
+h
+
+¾ ¾(7
+
+idAnnunciojava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.Stringïì
+
+¿ ¿(7
+%1java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*+
+
+__unknown_file (
+nome_autore2getString(Ljava/lang/String;)j
+h
+
+¿ ¿(8
+
+nomeAutorejava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringêç
+
+À À(.
+%2java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*&
+
+__unknown_file (
+
+titolo2getString(Ljava/lang/String;)f
+d
+
+À À(/
+titolojava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringïì
+
+Á Á(8
+%3java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*+
+
+__unknown_file (
+descrizione2getString(Ljava/lang/String;)k
+i
+
+Á Á(9
+descrizionejava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.Stringìé
+
+Â& Â(F
+%4java.sql.Date"=java.sql.ResultSet#getDate(Ljava/lang/String;)Ljava/sql/Date;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*2
+
+__unknown_file (
+data_pubblicazione2getDate(Ljava/lang/String;)ž›
+
+Â& Â(T
+%5java.time.LocalDate"0java.sql.Date#toLocalDate()Ljava/time/LocalDate;*1
+
+__unknown_file (
+
+%4java.sql.Date2toLocalDate()w
+u
+
+Â Â(U(
+dataPubblicazionejava.time.LocalDate"__id*7
+
+__unknown_file (
+
+%5java.time.LocalDateçä
+
+Ã! Ã(<
+%6java.sql.Date"=java.sql.ResultSet#getDate(Ljava/lang/String;)Ljava/sql/Date;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*-
+
+__unknown_file (
+data_scadenza2getDate(Ljava/lang/String;)ž›
+
+Ã! Ã(J
+%7java.time.LocalDate"0java.sql.Date#toLocalDate()Ljava/time/LocalDate;*1
+
+__unknown_file (
+
+%6java.sql.Date2toLocalDate()r
+p
+
+Ã Ã(K#
+dataScadenzajava.time.LocalDate"__id*7
+
+__unknown_file (
+
+%7java.time.LocalDateéæ
+
+Ä Ä(,
+%8java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*%
+
+__unknown_file (	
+citta2getString(Ljava/lang/String;)e
+c
+
+Ä Ä(-
+cittajava.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.StringÓÐ
+
+Å! Å(A	
+%9int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*3
+
+__unknown_file (
+quantita_desiderata2getInt(Ljava/lang/String;)53
+
+É É(
+%10model.Annuncio"model.AnnuncioÈ
+Å
+
+É Ò(	
+%11"model.Annuncio#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/time/LocalDate;Ljava/lang/String;I)V*3
+
+__unknown_file (
+
+%10model.Annuncio*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String*<
+
+__unknown_file ( 
+
+
+nomeAutorejava.lang.String*8
+
+__unknown_file (
+
+titolojava.lang.String*=
+
+__unknown_file (!
+
+descrizionejava.lang.String*F
+
+__unknown_file (*
+(
+dataPubblicazionejava.time.LocalDate*A
+
+__unknown_file (%
+#
+dataScadenzajava.time.LocalDate*7
+
+__unknown_file (
+
+cittajava.lang.String*"
+
+__unknown_file (
+"""%
+
+É Ò(
+
+
+%10model.Annuncio:&
+
+½) ½(5
+rsjava.sql.ResultSetB#!
+engclasses.dao.db.AnnuncioDAODB

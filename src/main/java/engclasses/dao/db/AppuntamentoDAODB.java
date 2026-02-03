@@ -8,6 +8,8 @@ import model.Appuntamento;
 import model.AppuntamentoOnline;
 import model.AppuntamentoInUfficio;
 import model.AppuntamentoSulCampo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.time.LocalDateTime;
@@ -19,7 +21,7 @@ import java.util.List;
  */
 public class AppuntamentoDAODB implements AppuntamentoDAO {
 
-    private static final String TABLE_NAME = "appuntamenti";
+    private static final Logger logger = LoggerFactory.getLogger(AppuntamentoDAODB.class);
 
     /**
      * Crea la tabella appuntamenti se non esiste.
@@ -51,7 +53,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nella creazione tabella: " + e.getMessage());
+            logger.error("Errore nella creazione tabella appuntamenti", e);
         }
     }
 
@@ -72,7 +74,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nel salvataggio: " + e.getMessage());
+            logger.error("Errore nel salvataggio appuntamento", e);
             return false;
         }
     }
@@ -110,7 +112,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nell'aggiornamento: " + e.getMessage());
+            logger.error("Errore nell'aggiornamento appuntamento", e);
             return false;
         }
     }
@@ -126,14 +128,17 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nell'eliminazione: " + e.getMessage());
+            logger.error("Errore nell'eliminazione appuntamento", e);
             return false;
         }
     }
 
     @Override
     public Appuntamento trovaPerId(String idAppuntamento) {
-        String sql = "SELECT * FROM appuntamenti WHERE id_appuntamento = ?";
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti WHERE id_appuntamento = ?";
 
         try (Connection conn = ConnessioneDB.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -146,29 +151,44 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nella ricerca per ID: " + e.getMessage());
+            logger.error("Errore nella ricerca appuntamento per ID", e);
         }
         return null;
     }
 
     @Override
     public List<Appuntamento> trovaPerCliente(String idCliente) {
-        return eseguiQueryLista("SELECT * FROM appuntamenti WHERE id_cliente = ?", idCliente);
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti WHERE id_cliente = ?";
+        return eseguiQueryLista(sql, idCliente);
     }
 
     @Override
     public List<Appuntamento> trovaPerConsulente(String idConsulente) {
-        return eseguiQueryLista("SELECT * FROM appuntamenti WHERE id_consulente = ?", idConsulente);
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti WHERE id_consulente = ?";
+        return eseguiQueryLista(sql, idConsulente);
     }
 
     @Override
     public List<Appuntamento> trovaPerStato(StatoAppuntamento stato) {
-        return eseguiQueryLista("SELECT * FROM appuntamenti WHERE stato = ?", stato.name());
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti WHERE stato = ?";
+        return eseguiQueryLista(sql, stato.name());
     }
 
     @Override
     public List<Appuntamento> trovaPerIntervallo(LocalDateTime da, LocalDateTime a) {
-        String sql = "SELECT * FROM appuntamenti WHERE data_ora_inizio BETWEEN ? AND ?";
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti WHERE data_ora_inizio BETWEEN ? AND ?";
         List<Appuntamento> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -183,14 +203,17 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nella ricerca per intervallo: " + e.getMessage());
+            logger.error("Errore nella ricerca appuntamenti per intervallo", e);
         }
         return risultati;
     }
 
     @Override
     public List<Appuntamento> trovaPerConsulenteEIntervallo(String idConsulente, LocalDateTime da, LocalDateTime a) {
-        String sql = "SELECT * FROM appuntamenti WHERE id_consulente = ? AND data_ora_inizio BETWEEN ? AND ?";
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti WHERE id_consulente = ? AND data_ora_inizio BETWEEN ? AND ?";
         List<Appuntamento> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -206,14 +229,17 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nella ricerca consulente/intervallo: " + e.getMessage());
+            logger.error("Errore nella ricerca appuntamenti per consulente e intervallo", e);
         }
         return risultati;
     }
 
     @Override
     public List<Appuntamento> trovaTutti() {
-        String sql = "SELECT * FROM appuntamenti ORDER BY data_ora_inizio DESC";
+        String sql = "SELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, " +
+                     "data_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, " +
+                     "data_creazione, data_ultima_modifica, google_calendar_event_id " +
+                     "FROM appuntamenti ORDER BY data_ora_inizio DESC";
         List<Appuntamento> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -225,7 +251,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nel recupero di tutti gli appuntamenti: " + e.getMessage());
+            logger.error("Errore nel recupero di tutti gli appuntamenti", e);
         }
         return risultati;
     }
@@ -256,7 +282,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nel controllo conflitti: " + e.getMessage());
+            logger.error("Errore nel controllo conflitti appuntamenti", e);
         }
         return false;
     }
@@ -322,7 +348,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AppuntamentoDAODB] Errore nell'esecuzione query: " + e.getMessage());
+            logger.error("Errore nell'esecuzione query appuntamenti", e);
         }
         return risultati;
     }

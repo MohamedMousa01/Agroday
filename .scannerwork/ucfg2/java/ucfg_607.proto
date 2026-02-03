@@ -1,0 +1,99 @@
+
+Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;_
+U/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/ConnessioneDB.java& &(*"1*ÿ
+1' '(R
+P
+' '(
+%0java.util.Properties"__id*"
+
+__unknown_file (
+""ðí
+' '(5
+%1java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%0java.util.Properties*&
+
+__unknown_file (
+
+db.url2getProperty(Ljava/lang/String;)a
+_
+' '(6
+urljava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.StringR
+P
+( (( 
+%2java.util.Properties"__id*"
+
+__unknown_file (
+""ñî
+( ((7
+%3java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%2java.util.Properties*'
+
+__unknown_file (	
+db.user2getProperty(Ljava/lang/String;)b
+`
+( ((8
+userjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.StringR
+P
+) )($
+%4java.util.Properties"__id*"
+
+__unknown_file (
+""õò
+) )(?
+%5java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%4java.util.Properties*+
+
+__unknown_file (
+db.password2getProperty(Ljava/lang/String;)f
+d
+) )(@
+passwordjava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String<
+:
++ +(
+%6"__id*"
+
+__unknown_file (
+""þ
+û
+, ,(?
+%7java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*6
+
+__unknown_file ("
+java.sql.DriverManager*5
+
+__unknown_file (
+
+urljava.lang.String*6
+
+__unknown_file (
+
+userjava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String"'
+, ,(@
+
+%7java.sql.ConnectionB$""
+ engclasses.pattern.ConnessioneDBH

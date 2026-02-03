@@ -1,0 +1,468 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133892621*java2.Bç
+6
+1src/main/java/view/cli/MainConsulenteCLIView.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+view.cli7
+#
+view.cli.MainConsulenteCLIView9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(10:1)-(89:2)14
+
+simple-name15
+
+MainConsulenteCLIView16
+,
+&view.cli.MainConsulenteCLIView.scanner18
+
+field19
+
+private20
+
+(12:5)-(12:60)21
+
+scanner22
+B
+<view.cli.MainConsulenteCLIView#mostraTitolo(Lmodel/Utente;)V24
+
+method25
+
+(16:5)-(24:6)26
+
+mostraTitolo27
+
+model.Utente29
+
+unknown30
+
+	has param31
+
+is type32
+
+
+uses33
+
+
+references34
+3
+-view.cli.MainConsulenteCLIView#clearScreen()V36
+
+calls37
+
+misc.UIConstants39
+#
+misc.UIConstants.BOX_TOP_LONG41
+&
+ misc.UIConstants.BOX_BOTTOM_LONG43
+.
+(model.Utente#getNome()Ljava/lang/String;45
+1
++model.Utente#getCognome()Ljava/lang/String;47
+/
+)model.Utente#getEmail()Ljava/lang/String;49
+/
+)model.Utente#getCitta()Ljava/lang/String;51
+)
+#misc.UIConstants.BOX_SEPARATOR_LONG53
+2
+,view.cli.MainConsulenteCLIView#mostraMenu()V55
+
+(26:5)-(38:6)56
+
+
+mostraMenu57
+I
+Cview.cli.MainConsulenteCLIView#mostraMessaggio(Ljava/lang/String;)V59
+
+(40:5)-(42:6)60
+
+mostraMessaggio61
+H
+Bview.cli.MainConsulenteCLIView#mostraSuccesso(Ljava/lang/String;)V63
+
+(44:5)-(46:6)64
+
+mostraSuccesso65
+F
+@view.cli.MainConsulenteCLIView#mostraErrore(Ljava/lang/String;)V67
+
+(48:5)-(50:6)68
+
+mostraErrore69
+K
+Eview.cli.MainConsulenteCLIView#mostraCaricamento(Ljava/lang/String;)V71
+
+(52:5)-(54:6)72
+
+mostraCaricamento73
+4
+.view.cli.MainConsulenteCLIView#chiediScelta()I75
+
+(58:5)-(65:6)76
+
+chiediScelta77
+4
+.view.cli.MainConsulenteCLIView#attendiInvio()V79
+
+(67:5)-(70:6)80
+
+attendiInvio81
+H
+Bview.cli.MainConsulenteCLIView#confermaAzione(Ljava/lang/String;)Z83
+
+(72:5)-(76:6)84
+
+confermaAzione85
+
+(80:5)-(84:6)86
+
+clearScreen87
+8
+2view.cli.MainConsulenteCLIView#mostraSeparatore()V89
+
+(86:5)-(88:6)90
+
+mostraSeparatore91J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j±	
+M
+70G
+707125 *
+14 4("28:5B$
+
+
+11
+12
+
+
+13
+72
+
+
+15
+73
+
+38
+383930
+M
+23G
+232425 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+26
+
+
+15
+27
+
+28
+282930
+M
+78G
+787925 *
+1C C(28:5B$
+
+
+11
+12
+
+
+13
+80
+
+
+15
+81
+M
+88G
+888925 *
+1V V(!28:5B$
+
+
+11
+12
+
+
+13
+90
+
+
+15
+91
+M
+17G
+171819 *
+1 ("28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+
+40
+404130
+
+46
+464730
+
+50
+505130
+M
+54G
+545525 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+57
+G
+8B
+8910 *
+1
+ 
+(#:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+58G
+585925 *
+1( (( 28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+
+48
+484930
+M
+82G
+828325 *
+1H H("28:5B$
+
+
+11
+12
+
+
+13
+84
+
+
+15
+85
+M
+62G
+626325 *
+1, ,(28:5B$
+
+
+11
+12
+
+
+13
+64
+
+
+15
+65
+M
+66G
+666725 *
+10 0(28:5B$
+
+
+11
+12
+
+
+13
+68
+
+
+15
+69
+M
+35G
+353625 *
+1P P(28:5B$
+
+
+11
+20
+
+
+13
+86
+
+
+15
+87
+
+44
+444530
+M
+74G
+747525 *
+1: :(28:5B$
+
+
+11
+12
+
+
+13
+76
+
+
+15
+77
+
+52
+525330
+
+42
+424330rØ
+
+232831*
+1 ($
+
+232832*
+1% (+
+
+232833*
+1 ($
+
+23834*
+1	 (
+
+233537*
+1	 (
+
+233833*
+1 ('
+
+234034*
+1( (4
+
+233833*
+1 ('
+
+234234*
+1( (7
+
+232834*
+1. (<
+
+234437*
+15 (<
+
+232834*
+1G (X
+
+234637*
+1N (X
+
+232834*
+1& (5
+
+234837*
+1- (5
+
+232834*
+1E (T
+
+235037*
+1L (T
+
+233833*
+1 ('
+
+235234*
+1( (:
+
+741734*
+1=% =(,
+
+741734*
+1=% =(,
+
+781734*
+1E	 E(
+
+781734*
+1E	 E(
+
+821734*
+1J J("
+
+821734*
+1J J("
+
+883833*
+1W W('
+
+885234*
+1W( W(:

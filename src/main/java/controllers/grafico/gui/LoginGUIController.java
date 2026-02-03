@@ -8,10 +8,17 @@ import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.LoginFallitoException;
 import misc.PersistenceType;
+import misc.CSSConstants;
 import misc.Session;
+import misc.CSSConstants;
 import misc.ViewType;
+import misc.CSSConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class LoginGUIController {
+
+    private static final Logger logger = LoggerFactory.getLogger(LoginGUIController.class);
 
     @FXML
     private TextField usernameField;
@@ -67,7 +74,7 @@ public class LoginGUIController {
 
         // Validazione UI (se necessario, altrimenti il controller applicativo lo farà)
         if (username.isEmpty() || password.isEmpty()) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
             messageLabel.setText("Inserisci username e password!");
             return;
         }
@@ -82,16 +89,16 @@ public class LoginGUIController {
                 // Naviga alla schermata principale usando ViewManager
                 ViewManager.goTo(ViewType.MAIN);
             } else {
-                messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+                messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
                 messageLabel.setText("Username o password errati!");
             }
         } catch (LoginFallitoException e) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
             messageLabel.setText(e.getMessage());
         } catch (DatabaseConnessioneFallitaException | DatabaseOperazioneFallitaException e) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
             messageLabel.setText("Errore di sistema: " + e.getMessage());
-            e.printStackTrace();
+            logger.error("Errore durante il login per l'utente: {}", username, e);
         }
     }
 

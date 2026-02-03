@@ -1,37 +1,48 @@
 
-6__sonar_lambda_5$engclasses.dao.memory.UtenteDAOMemoryd
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (C"startingBlock*±
-startingBlock (Cê
+Vengclasses.dao.filesystem.OffertaDAOFile#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaD D("startingBlock*ê
+startingBlockD D(/ê
 ç
+C C(
+%2"
+__annotate*2
 
-__unknown_file (
-emailjava.lang.String"__id*P
+__unknown_file (
+java.lang.Override*;
 
-__unknown_file (4*2'
-%engclasses.dao.memory.UtenteDAOMemory"
-email*
-1*¶
-1 ( çä
- (+
-%4java.lang.String")model.Utente#getEmail()Ljava/lang/String;*/
+__unknown_file (
+
+	idOffertajava.lang.String]
+[
+D% D(.
+	idOffertajava.lang.String"__annotation*"
 
-__unknown_file (
-
-umodel.Utente2
-getEmail()ÈÊ
- (C
-%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+__unknown_file (
+
+%2*
+1*œ
+1E E(~
+|
+E E(
+%0java.util.Map"__id*U
 
-__unknown_file (
-
-%4java.lang.String*7
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerteú
+ô
+E E(%
+%1model.Offerta"__mapGet*1
 
-__unknown_file (
-
-emailjava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
- (C
-
-%5boolean:
- (
-umodel.UtenteB 
-java.util.function.Predicate
+__unknown_file (
+
+%0java.util.Map*;
+
+__unknown_file (
+
+	idOffertajava.lang.String"!
+E E(&
+
+%1model.Offerta:)
+D D(.
+	idOffertajava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileH

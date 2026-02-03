@@ -1,0 +1,113 @@
+
+pcontrollers.applicativo.LoginController#validaCampiLogin(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/LoginController.javaQ Q(#"7*∑
+2X X(¢ü
+X X(F
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*J
+
+__unknown_file (.,
+*Il campo password non pu√≤ essere vuoto.\n2append(Ljava/lang/String;)*
+1*ß
+3W  W((îë
+W  W(/
+%7java.lang.String")java.lang.String#trim()Ljava/lang/String;*:
+
+__unknown_file (
+
+passwordjava.lang.String2trim()yw
+W  W(9
+%8boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
+
+%7java.lang.String2	isEmpty()*
+2
+1*ë
+4W W(z
+x
+W W(
+%6boolean"	__compare*
+W W(
+==**
+W W(
+
+passwordjava.lang.String*
+W W(
+""*
+2
+3*∑
+5U U(¢ü
+U U(F
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*J
+
+__unknown_file (.,
+*Il campo username non pu√≤ essere vuoto.\n2append(Ljava/lang/String;)*
+4*ß
+6T  T((îë
+T  T(/
+%3java.lang.String")java.lang.String#trim()Ljava/lang/String;*:
+
+__unknown_file (
+
+usernamejava.lang.String2trim()yw
+T  T(9
+%4boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
+
+%3java.lang.String2	isEmpty()*
+4
+5*ø
+7R R(2DB
+R# R(0
+%0java.lang.StringBuilder"java.lang.StringBuilderr
+p
+R R(2
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderr
+p
+R R(3!
+errorijava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderz
+x
+T T(
+%2boolean"	__compare*
+T T(
+==**
+T T(
+
+usernamejava.lang.String*
+T T(
+""*
+5
+6*‡
+1Z Z(©¶
+Z Z( 
+%10java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder2
+toString()"%
+Z Z(!
+
+%10java.lang.String:(
+Q$ Q(4
+usernamejava.lang.String:(
+Q5 Q(D
+passwordjava.lang.StringB+)
+'controllers.applicativo.LoginController

@@ -1,15 +1,39 @@
 
-1engclasses.dao.factory.DAOMemoryFactory#<init>()V
-__unknown_file ("startingBlock*Ê
-startingBlockd
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java (Õ
-Ò
-d
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java (
-%0"+engclasses.dao.factory.DAOFactory#<init>()V*7
- (+)
-'engclasses.dao.factory.DAOMemoryFactory"{
-d
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java (
-implicit returnB+)
-'engclasses.dao.factory.DAOMemoryFactory
+oengclasses.dao.filesystem.OffertaDAOFile#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javam m(;"startingBlock*¤
+startingBlockm; m(Wš
+—
+l l(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*E
+
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.Stringg
+e
+mC m(V'
+usernameAgricoltorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*à
+1q q( <:
+q q(
+%0java.util.ArrayList"java.util.ArrayListj
+h
+q q( 
+%1"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%0java.util.ArrayList"'
+q q(!
+
+%0java.util.ArrayList:3
+m< m(V'
+usernameAgricoltorejava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileH

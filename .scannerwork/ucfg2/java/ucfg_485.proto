@@ -1,0 +1,17 @@
+
+Tengclasses.dao.factory.DAODBFactory#getAnnuncioDAO()Lengclasses/dao/api/AnnuncioDAO;b
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAODBFactory.java& &(%"1*ž
+1' '("TR
+' '( %
+%0engclasses.dao.db.AnnuncioDAODB"engclasses.dao.db.AnnuncioDAODBƒ
+€
+' '("
+%1")engclasses.dao.db.AnnuncioDAODB#<init>()V*C
+
+__unknown_file ('
+%
+%0engclasses.dao.db.AnnuncioDAODB"3
+' '(#'
+%
+%0engclasses.dao.db.AnnuncioDAODBB'%
+#engclasses.dao.factory.DAODBFactoryH

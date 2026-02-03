@@ -1,22 +1,14 @@
 
-:engclasses.beans.LoginBean#getUsername()Ljava/lang/String;Y
-O/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/LoginBean.java	 	(!"1*©
-1
- 
-(t
-r
-
- 
-(
-%0java.lang.String"__id*H
+,model.Agricoltore#getTipo()Lmisc/TipoUtente;P
+F/Users/mohamedmousa/Desktop/prova/src/main/java/model/Agricoltore.java ("1*Å
+1 (M
+K
+ (%
+%0misc.TipoUtente"__id*"
 
-__unknown_file (,**
-engclasses.beans.LoginBean"
-
-username"$
-
- 
-(
-
-%0java.lang.StringB
-engclasses.beans.LoginBeanH
+__unknown_file (
+"""#
+ (&
+
+%0misc.TipoUtenteB
+model.AgricoltoreH

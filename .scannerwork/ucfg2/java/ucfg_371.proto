@@ -1,0 +1,98 @@
+
+[engclasses.dao.db.AppuntamentoDAODB#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;d
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.java² ²(+"startingBlock*š
+startingBlock
+²+ ²(D”
+‘
+
+± ±(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamentoa
+_
+
+²> ²(C
+statomisc.StatoAppuntamento"__annotation*"
+
+__unknown_file (
+
+%5*
+1*¤	
+1
+³ ³(bç
+ä
+
+³ ´(Z
+%0java.lang.String"__concat*]
+
+³ ³(bOM
+KSELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, *U
+
+´ ´(ZGE
+Cdata_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, ¬
+©
+
+³ µ(V
+%1java.lang.String"__concat*&
+
+³ ´(Z
+
+%0java.lang.String*Q
+
+µ µ(VCA
+?data_creazione, data_ultima_modifica, google_calendar_event_id Ž
+‹
+
+³ ¶(8
+%2java.lang.String"__concat*&
+
+³ µ(V
+
+%1java.lang.String*3
+
+¶ ¶(8%#
+!FROM appuntamenti WHERE stato = ?c
+a
+
+³ ¶(9
+sqljava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String—”
+
+·% ·(1
+%3java.lang.String"'java.lang.Enum#name()Ljava/lang/String;*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento2name()Ã
+À
+
+· ·(2
+%4java.util.List"jengclasses.dao.db.AppuntamentoDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*C
+
+__unknown_file ('%
+#engclasses.dao.db.AppuntamentoDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String"$
+
+· ·(3
+
+%4java.util.List:-
+
+², ²(C
+statomisc.StatoAppuntamentoB'%
+#engclasses.dao.db.AppuntamentoDAODBH

@@ -1,6 +1,7 @@
 package controllers.grafico.cli;
 
 import engclasses.pattern.ViewFactory.ViewManager;
+import misc.MessageConstants;
 import misc.Session;
 import misc.ViewType;
 import model.Utente;
@@ -55,7 +56,7 @@ public class MainConsulenteCLIController {
         view.mostraMessaggio("📬 Richieste di Consulenza");
         view.mostraSeparatore();
         view.mostraMessaggio("Nessuna richiesta al momento.");
-        view.mostraMessaggio("(Funzionalità in sviluppo)");
+        view.mostraMessaggio(MessageConstants.FUNZIONALITA_IN_SVILUPPO);
         view.attendiInvio();
     }
 
@@ -63,7 +64,7 @@ public class MainConsulenteCLIController {
         view.mostraMessaggio("✅ Richieste Accettate");
         view.mostraSeparatore();
         view.mostraMessaggio("Nessuna richiesta accettata.");
-        view.mostraMessaggio("(Funzionalità in sviluppo)");
+        view.mostraMessaggio(MessageConstants.FUNZIONALITA_IN_SVILUPPO);
         view.attendiInvio();
     }
 
@@ -82,7 +83,7 @@ public class MainConsulenteCLIController {
         view.mostraMessaggio("👥 I Miei Clienti");
         view.mostraSeparatore();
         view.mostraMessaggio("Nessun cliente al momento.");
-        view.mostraMessaggio("(Funzionalità in sviluppo)");
+        view.mostraMessaggio(MessageConstants.FUNZIONALITA_IN_SVILUPPO);
         view.attendiInvio();
     }
 
@@ -102,6 +103,7 @@ public class MainConsulenteCLIController {
                 profiloView.mostraMessaggio("Modifica profilo - Funzionalità in sviluppo");
                 profiloView.attendiInvio();
             }
+            default -> { } // Nessuna azione
         }
     }
 

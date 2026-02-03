@@ -1,0 +1,196 @@
+
+kcontrollers.applicativo.AppuntamentoController#cancellaAppuntamento(Ljava/lang/String;Ljava/lang/String;Z)Zo
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java” ”(("10*™
+2
+ª ª(‚ÿ
+
+ª ª(6
+%10void"=model.Appuntamento#cancellaPerConsulente(Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento*8
+
+__unknown_file (
+
+motivojava.lang.String2)cancellaPerConsulente(Ljava/lang/String;)*
+1*’
+3
+¨ ¨(ûø
+
+¨ ¨(3
+
+%9void":model.Appuntamento#cancellaPerCliente(Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento*8
+
+__unknown_file (
+
+motivojava.lang.String2&cancellaPerCliente(Ljava/lang/String;)*
+1*Í
+5
+£ £(³°
+
+£ £(3
+
+%8void"Fmodel.Appuntamento#addObserver(Lmodel/observer/AppuntamentoObserver;)V*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento*X
+
+__unknown_file (<
+:
+googleAdapter)engclasses.services.GoogleCalendarAdapter22addObserver(Lmodel/observer/AppuntamentoObserver;)*
+2
+3*‡
+6
+¡ ¡(¨
+¥
+
+¡! ¡(4(
+%5"model.observer.NotificationService"__id*g
+
+__unknown_file (K*I0
+.controllers.applicativo.AppuntamentoController"
+notificationService¡ž
+
+¡ ¡(5
+
+%6void"Fmodel.Appuntamento#addObserver(Lmodel/observer/AppuntamentoObserver;)V*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento*F
+
+__unknown_file (*
+(
+%5"model.observer.NotificationService22addObserver(Lmodel/observer/AppuntamentoObserver;)¥
+¢
+
+¢ ¢()
+%7#engclasses.services.CalendarService"__id*c
+
+__unknown_file (G*E0
+.controllers.applicativo.AppuntamentoController"
+calendarServicet
+r
+
+¢' ¢(J:
+googleAdapter)engclasses.services.GoogleCalendarAdapter"__id*"
+
+__unknown_file (
+""*	
+2
+3
+5*%
+7
+ ("
+
+ (
+""*²
+8
+œ œ(˜•
+
+œ œ(*
+%4boolean"$model.Appuntamento#isModificabile()Z*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2isModificabile()*
+6
+7*%
+9
+™ ™("
+
+™ ™(
+""*ý
+10
+•* •(4ž
+›
+
+•* •(4'
+%0!engclasses.dao.factory.DAOFactory"__id*^
+
+__unknown_file (B*@0
+.controllers.applicativo.AppuntamentoController"
+
+daoFactoryòï
+
+•* •(I(
+%1"engclasses.dao.api.AppuntamentoDAO"Zengclasses.dao.factory.DAOFactory#getAppuntamentoDAO()Lengclasses/dao/api/AppuntamentoDAO;*E
+
+__unknown_file ()
+'
+%0!engclasses.dao.factory.DAOFactory2getAppuntamentoDAO()”
+‘
+
+• •(J5
+appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO"__id*F
+
+__unknown_file (*
+(
+%1"engclasses.dao.api.AppuntamentoDAO·´
+
+–$ –(N
+%2model.Appuntamento"Uengclasses.dao.api.AppuntamentoDAO#trovaPerId(Ljava/lang/String;)Lmodel/Appuntamento;*S
+
+__unknown_file (7
+5
+appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String2trovaPerId(Ljava/lang/String;)p
+n
+
+– –(O"
+appuntamentomodel.Appuntamento"__id*6
+
+__unknown_file (
+
+%2model.Appuntamento‰
+†
+
+˜ ˜( 
+%3boolean"	__compare*
+
+˜ ˜(
+==*2
+
+˜ ˜($
+"
+appuntamentomodel.Appuntamento*
+
+˜ ˜( 
+""*
+8
+9*Â
+1
+® ®(š—
+
+® ®(5
+%11boolean"Bengclasses.dao.api.AppuntamentoDAO#aggiorna(Lmodel/Appuntamento;)Z*S
+
+__unknown_file (7
+5
+appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2aggiorna(Lmodel/Appuntamento;)"
+
+® ®(6
+"":0
+
+”) ”(?"
+idAppuntamentojava.lang.String:(
+
+”@ ”(N
+motivojava.lang.String: 
+
+__unknown_file (
+""B20
+.controllers.applicativo.AppuntamentoControllerX

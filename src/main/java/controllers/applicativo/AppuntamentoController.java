@@ -2,13 +2,13 @@ package controllers.applicativo;
 
 import engclasses.beans.AppuntamentoBean;
 import engclasses.dao.api.AppuntamentoDAO;
-import engclasses.dao.api.UtenteDAO;
 import engclasses.dao.factory.DAOFactory;
-import engclasses.pattern.Factory.AppuntamentoFactory;
-import engclasses.pattern.Factory.AppuntamentoFactoryProvider;
+import engclasses.pattern.factory.AppuntamentoFactory;
+import engclasses.pattern.factory.AppuntamentoFactoryProvider;
 import engclasses.services.CalendarService;
 import engclasses.services.DemoCalendarService;
 import engclasses.services.GoogleCalendarAdapter;
+import misc.MessageConstants;
 import misc.PersistenceType;
 import misc.Session;
 import misc.StatoAppuntamento;
@@ -99,8 +99,8 @@ public class AppuntamentoController {
 
         // Registra gli observer
         appuntamento.addObserver(notificationService);
-        if (calendarService instanceof GoogleCalendarAdapter) {
-            appuntamento.addObserver((GoogleCalendarAdapter) calendarService);
+        if (calendarService instanceof GoogleCalendarAdapter googleAdapter) {
+            appuntamento.addObserver(googleAdapter);
         }
 
         // Salva l'appuntamento
@@ -159,8 +159,8 @@ public class AppuntamentoController {
 
         // Registra gli observer prima della cancellazione
         appuntamento.addObserver(notificationService);
-        if (calendarService instanceof GoogleCalendarAdapter) {
-            appuntamento.addObserver((GoogleCalendarAdapter) calendarService);
+        if (calendarService instanceof GoogleCalendarAdapter googleAdapter) {
+            appuntamento.addObserver(googleAdapter);
         }
 
         // Esegui la cancellazione (notifica automaticamente gli observer)
@@ -317,10 +317,9 @@ public class AppuntamentoController {
      * Ottiene la lista dei consulenti disponibili.
      */
     public List<Utente> getConsulentiDisponibili() {
-        UtenteDAO utenteDAO = daoFactory.getUtenteDAO(TipoUtente.CONSULENTE);
         // Qui si potrebbe filtrare per consulenti attivi
-        // Per ora restituiamo tutti i consulenti
-        return new ArrayList<>(); // Da implementare con un metodo findAll nel DAO
+        // Per ora restituiamo una lista vuota - da implementare con un metodo findAll nel DAO
+        return new ArrayList<>();
     }
 
     // ==================== Preparazione Consulenza ====================
@@ -343,10 +342,10 @@ public class AppuntamentoController {
                     "Link videochiamata: " + (appuntamento.getLuogo() != null ? appuntamento.getLuogo() : "Da generare") + "\n" +
                     "Assicurati di avere una connessione internet stabile.";
             case IN_UFFICIO -> "🏢 Consulenza in Ufficio\n" +
-                    "Indirizzo: " + appuntamento.getLuogo() + "\n" +
+                    "Indirizzo:" + appuntamento.getLuogo() + "\n" +
                     "Porta con te eventuali documenti necessari.";
             case SUL_CAMPO -> "🌾 Consulenza sul Campo\n" +
-                    "Luogo: " + appuntamento.getLuogo() + "\n" +
+                    MessageConstants.LABEL_LUOGO + appuntamento.getLuogo() + "\n" +
                     "Indossa abbigliamento adatto per attività all'aperto.";
         };
     }
@@ -370,30 +369,29 @@ public class AppuntamentoController {
                                            boolean oraFineSelezionata, String luogo) {
         StringBuilder errori = new StringBuilder();
 
-        if (!consulenteSelezionato) {
-            errori.append("Seleziona un consulente.\n");
-        }
-        if (tipoConsulenza == null) {
-            errori.append("Seleziona il tipo di consulenza.\n");
-        }
-        if (!dataSelezionata) {
-            errori.append("Seleziona una data.\n");
-        }
-        if (!oraInizioSelezionata) {
-            errori.append("Seleziona l'ora di inizio.\n");
-        }
-        if (!oraFineSelezionata) {
-            errori.append("Seleziona l'ora di fine.\n");
-        }
-
-        // Verifica luogo per consulenze non online
-        if (tipoConsulenza != null && tipoConsulenza != TipoConsulenza.ONLINE) {
-            if (luogo == null || luogo.trim().isEmpty()) {
-                errori.append("Il luogo è obbligatorio per le consulenze " + tipoConsulenza.getDisplayName() + ".\n");
-            }
-        }
+        validaCampoObbligatorio(errori, consulenteSelezionato, "Seleziona un consulente.\n");
+        validaCampoObbligatorio(errori, tipoConsulenza != null, "Seleziona il tipo di consulenza.\n");
+        validaCampoObbligatorio(errori, dataSelezionata, "Seleziona una data.\n");
+        validaCampoObbligatorio(errori, oraInizioSelezionata, "Seleziona l'ora di inizio.\n");
+        validaCampoObbligatorio(errori, oraFineSelezionata, "Seleziona l'ora di fine.\n");
+        validaLuogoPerTipoConsulenza(errori, tipoConsulenza, luogo);
 
         return errori.toString();
+    }
+
+    private void validaCampoObbligatorio(StringBuilder errori, boolean valido, String messaggio) {
+        if (!valido) {
+            errori.append(messaggio);
+        }
+    }
+
+    private void validaLuogoPerTipoConsulenza(StringBuilder errori, TipoConsulenza tipoConsulenza, String luogo) {
+        if (tipoConsulenza != null && tipoConsulenza != TipoConsulenza.ONLINE 
+                && (luogo == null || luogo.trim().isEmpty())) {
+            errori.append("Il luogo è obbligatorio per le consulenze ")
+                  .append(tipoConsulenza.getDisplayName())
+                  .append(".\n");
+        }
     }
 
     /**
@@ -454,6 +452,14 @@ public class AppuntamentoController {
     private String validaDatiAppuntamento(AppuntamentoBean bean) {
         StringBuilder errori = new StringBuilder();
 
+        validaCampiObbligatoriAppuntamento(bean, errori);
+        validaCoerenzaOrari(bean, errori);
+        validaLuogoAppuntamento(bean, errori);
+
+        return errori.toString();
+    }
+
+    private void validaCampiObbligatoriAppuntamento(AppuntamentoBean bean, StringBuilder errori) {
         if (bean.getIdCliente() == null || bean.getIdCliente().isEmpty()) {
             errori.append("Il cliente è obbligatorio.\n");
         }
@@ -472,7 +478,9 @@ public class AppuntamentoController {
         if (bean.getOraFine() == null) {
             errori.append("L'ora di fine è obbligatoria.\n");
         }
+    }
 
+    private void validaCoerenzaOrari(AppuntamentoBean bean, StringBuilder errori) {
         // Verifica che la data/ora sia nel futuro
         LocalDateTime dataOraInizio = bean.getDataOraInizio();
         if (dataOraInizio != null && dataOraInizio.isBefore(LocalDateTime.now())) {
@@ -484,16 +492,16 @@ public class AppuntamentoController {
                 && !bean.getOraFine().isAfter(bean.getOraInizio())) {
             errori.append("L'ora di fine deve essere successiva all'ora di inizio.\n");
         }
+    }
 
+    private void validaLuogoAppuntamento(AppuntamentoBean bean, StringBuilder errori) {
         // Verifica luogo per consulenze non online
-        if (bean.getTipoConsulenza() != null && bean.getTipoConsulenza() != TipoConsulenza.ONLINE) {
-            if (bean.getLuogo() == null || bean.getLuogo().trim().isEmpty()) {
-                errori.append("Il luogo è obbligatorio per le consulenze " + 
-                        bean.getTipoConsulenza().getDisplayName() + ".\n");
-            }
+        if (bean.getTipoConsulenza() != null && bean.getTipoConsulenza() != TipoConsulenza.ONLINE
+                && (bean.getLuogo() == null || bean.getLuogo().trim().isEmpty())) {
+            errori.append("Il luogo è obbligatorio per le consulenze ")
+                  .append(bean.getTipoConsulenza().getDisplayName())
+                  .append(".\n");
         }
-
-        return errori.toString();
     }
 
     // ==================== Metodi di Conversione ====================
@@ -519,8 +527,7 @@ public class AppuntamentoController {
             bean.setLinkCalendario(calendarService.getLinkEvento(appuntamento.getGoogleCalendarEventId()));
         }
 
-        // Carica nomi utenti (se necessario)
-        caricaNomiUtenti(bean);
+        // TODO: Carica nomi utenti quando disponibile findById nel DAO
 
         return bean;
     }
@@ -531,21 +538,5 @@ public class AppuntamentoController {
             beans.add(convertiInBean(app));
         }
         return beans;
-    }
-
-    private void caricaNomiUtenti(AppuntamentoBean bean) {
-        // Carica i nomi del cliente e del consulente dai rispettivi DAO
-        // Questa è un'operazione opzionale per migliorare la visualizzazione
-        try {
-            // Per ora lasciamo vuoto - da implementare se necessario
-            // UtenteDAO utenteDAO = daoFactory.getLoginUtenteDAO();
-            // Utente cliente = utenteDAO.findById(bean.getIdCliente());
-            // if (cliente != null) {
-            //     bean.setNomeCliente(cliente.getNome());
-            //     bean.setCognomeCliente(cliente.getCognome());
-            // }
-        } catch (Exception e) {
-            // Ignora errori nel caricamento dei nomi
-        }
     }
 }

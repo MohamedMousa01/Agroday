@@ -1,0 +1,618 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133892648*java2.BÁ
+4
+/src/main/java/view/cli/CreaAnnuncioCLIView.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+view.cli7
+!
+view.cli.CreaAnnuncioCLIView9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(12:1)-(128:2)14
+
+simple-name15
+
+CreaAnnuncioCLIView16
+*
+$view.cli.CreaAnnuncioCLIView.scanner18
+
+field19
+
+private20
+
+(14:5)-(14:60)21
+
+scanner22
+0
+*view.cli.CreaAnnuncioCLIView.dateFormatter24
+
+(15:5)-(15:95)25
+
+dateFormatter26
+2
+,view.cli.CreaAnnuncioCLIView#mostraTitolo()V28
+
+method29
+
+(19:5)-(26:6)30
+
+mostraTitolo31
+
+
+references32
+1
++view.cli.CreaAnnuncioCLIView#clearScreen()V34
+
+unknown35
+
+calls36
+
+misc.UIConstants38
+
+
+uses39
+#
+misc.UIConstants.BOX_TOP_LONG41
+&
+ misc.UIConstants.BOX_BOTTOM_LONG43
+6
+0view.cli.CreaAnnuncioCLIView#mostraSeparatore()V45
+”
+view.cli.CreaAnnuncioCLIView#mostraRiepilogo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/time/LocalDate;)V47
+
+(28:5)-(40:6)48
+
+mostraRiepilogo49
+G
+Aview.cli.CreaAnnuncioCLIView#mostraMessaggio(Ljava/lang/String;)V51
+
+(42:5)-(44:6)52
+
+mostraMessaggio53
+F
+@view.cli.CreaAnnuncioCLIView#mostraSuccesso(Ljava/lang/String;)V55
+
+(46:5)-(48:6)56
+
+mostraSuccesso57
+D
+>view.cli.CreaAnnuncioCLIView#mostraErrore(Ljava/lang/String;)V59
+
+(50:5)-(52:6)60
+
+mostraErrore61
+B
+<view.cli.CreaAnnuncioCLIView#mostraInfo(Ljava/lang/String;)V63
+
+(54:5)-(56:6)64
+
+
+mostraInfo65
+C
+=view.cli.CreaAnnuncioCLIView#chiediTitolo()Ljava/lang/String;67
+
+(60:5)-(63:6)68
+
+chiediTitolo69
+H
+Bview.cli.CreaAnnuncioCLIView#chiediDescrizione()Ljava/lang/String;71
+
+(65:5)-(68:6)72
+
+chiediDescrizione73
+I
+Cview.cli.CreaAnnuncioCLIView#chiediNomeProdotto()Ljava/lang/String;75
+
+(70:5)-(73:6)76
+
+chiediNomeProdotto77
+4
+.view.cli.CreaAnnuncioCLIView#chiediQuantita()I79
+
+(75:5)-(82:6)80
+
+chiediQuantita81
+B
+<view.cli.CreaAnnuncioCLIView#chiediCitta()Ljava/lang/String;83
+
+(84:5)-(87:6)84
+
+chiediCitta85
+L
+Fview.cli.CreaAnnuncioCLIView#chiediDataScadenza()Ljava/time/LocalDate;87
+
+(89:5)-(98:6)88
+
+chiediDataScadenza89
+7
+1view.cli.CreaAnnuncioCLIView#confermaCreazione()Z91
+
+(100:5)-(104:6)92
+
+confermaCreazione93
+=
+7view.cli.CreaAnnuncioCLIView#vuoiCreareAltroAnnuncio()Z95
+
+(106:5)-(110:6)96
+
+vuoiCreareAltroAnnuncio97
+2
+,view.cli.CreaAnnuncioCLIView#attendiInvio()V99
+
+(112:5)-(115:6)100
+
+attendiInvio101
+
+(119:5)-(123:6)102
+
+clearScreen103
+
+(125:5)-(127:6)104
+
+mostraSeparatore105
+*
+#misc.UIConstants.BOX_SEPARATOR_LONG107J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jÿ
+M
+46G
+464729 *
+1 ( 28:5B$
+
+
+11
+12
+
+
+13
+48
+
+
+15
+49
+M
+74G
+747529 *
+1F F(%28:5B$
+
+
+11
+12
+
+
+13
+76
+
+
+15
+77
+O
+33I
+333429 *
+1w w(28:5B&
+
+
+11
+20
+
+13
+102
+
+15
+103
+M
+54G
+545529 *
+1. .(28:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+57
+
+37
+373835
+M
+78G
+787929 *
+1K K(28:5B$
+
+
+11
+12
+
+
+13
+80
+
+
+15
+81
+M
+62G
+626329 *
+16 6(28:5B$
+
+
+11
+12
+
+
+13
+64
+
+
+15
+65
+M
+50G
+505129 *
+1* *( 28:5B$
+
+
+11
+12
+
+
+13
+52
+
+
+15
+53
+G
+8B
+8910 *
+1 (!:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+40
+404135
+M
+90G
+909129 *
+1d d(%28:5B$
+
+
+11
+12
+
+
+13
+92
+
+
+15
+93
+M
+70G
+707129 *
+1A A($28:5B$
+
+
+11
+12
+
+
+13
+72
+
+
+15
+73
+M
+17G
+171819 *
+1 ("28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+M
+82G
+828329 *
+1T T(28:5B$
+
+
+11
+12
+
+
+13
+84
+
+
+15
+85
+M
+23G
+232419 *
+1% (228:5B$
+
+
+11
+20
+
+
+13
+25
+
+
+15
+26
+M
+94G
+949529 *
+1j j(+28:5B$
+
+
+11
+12
+
+
+13
+96
+
+
+15
+97
+M
+86G
+868729 *
+1Y Y((28:5B$
+
+
+11
+12
+
+
+13
+88
+
+
+15
+89
+M
+27G
+272829 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+30
+
+
+15
+31
+M
+66G
+666729 *
+1< <(28:5B$
+
+
+11
+12
+
+
+13
+68
+
+
+15
+69
+M
+58G
+585929 *
+12 2(28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+O
+98I
+989929 *
+1p p(28:5B&
+
+
+11
+12
+
+13
+100
+
+15
+101
+
+106
+10610735
+
+42
+424335
+O
+44I
+444529 *
+1} }(!28:5B&
+
+
+11
+12
+
+13
+104
+
+15
+105rÿ
+
+27832*
+1	 (
+
+273336*
+1	 (
+
+273739*
+1 ('
+
+274032*
+1( (4
+
+273739*
+1 ('
+
+274232*
+1( (7
+
+27832*
+1	 (
+
+274436*
+1	 (
+
+463739*
+1 ('
+
+464032*
+1( (4
+
+463739*
+1   ('
+
+464232*
+1 (  (7
+
+462332*
+1&I &(V
+
+46832*
+1'	 '(
+
+464436*
+1'	 '(
+
+661732*
+1> >(
+
+661732*
+1> >(
+
+701732*
+1C C(
+
+701732*
+1C C(
+
+741732*
+1H H(
+
+741732*
+1H H(
+
+781732*
+1N% N(,
+
+781732*
+1N% N(,
+
+821732*
+1V V(
+
+821732*
+1V V(
+
+861732*
+1[ [(
+
+861732*
+1[ [(
+
+862332*
+1]+ ](8
+
+86832*
+1_ _(
+
+865836*
+1_ _(
+
+901732*
+1f f("
+
+901732*
+1f f("
+
+941732*
+1l l("
+
+941732*
+1l l("
+
+981732*
+1r	 r(
+
+981732*
+1r	 r(
+
+443739*
+1~ ~('
+
+4410632*
+1~( ~(:

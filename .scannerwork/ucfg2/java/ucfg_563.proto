@@ -1,0 +1,36 @@
+
+=__sonar_lambda_49$engclasses.dao.memory.AppuntamentoDAOMemoryj
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javaz z(E"startingBlock*Å
+startingBlockz z(E¤
+¡
+
+__unknown_file ( 
+idConsulentejava.lang.String"__id*]
+
+__unknown_file (A*?-
++engclasses.dao.memory.AppuntamentoDAOMemory"
+idConsulente*
+1*³
+1z z()§¤
+z1 z(D
+%7java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*5
+
+__unknown_file (
+
+amodel.Appuntamento2getIdConsulente()ÜÙ
+z z(E
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*4
+
+__unknown_file (
+
+%7java.lang.String2equals(Ljava/lang/Object;)"
+z z(E
+
+%8boolean:#
+z z(
+amodel.AppuntamentoB 
+java.util.function.Predicate

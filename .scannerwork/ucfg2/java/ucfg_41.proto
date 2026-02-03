@@ -1,15 +1,16 @@
 
->engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java( (("1*­
-1) )(x
-v
-) )(
-%0java.lang.String"__id*L
+(model.Annuncio#getId()Ljava/lang/String;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaQ Q("1*Ÿ
+1R R(j
+h
+R R(
+%0java.lang.String"__id*>
 
-__unknown_file (0*.$
-"engclasses.beans.RegistrazioneBean"
-nome"$
-) )(
+__unknown_file ("* 
+model.Annuncio"
+
+idAnnuncio"$
+R R(
 
-%0java.lang.StringB&$
-"engclasses.beans.RegistrazioneBeanH
+%0java.lang.StringB
+model.AnnuncioH

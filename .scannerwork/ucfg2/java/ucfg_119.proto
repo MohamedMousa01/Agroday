@@ -1,16 +1,44 @@
 
-,model.Utente#getUsername()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java. .("1*õ
-1/ /(f
-d
-/ /(
-%0java.lang.String"__id*:
+?view.cli.MainVenditoreCLIView#chiediRicerca()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.javaC C("1*§
+1D D(Q
+O
+D D(
+%0java.io.PrintStream"__id*"
 
-__unknown_file (*
-model.Utente"
+__unknown_file (
+""ˆÛ
+D D(P
 
-username"$
-/ /(
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*W
+
+__unknown_file (;9
+7\nüîç Inserisci termine di ricerca (prodotto/citt√†): 2print(Ljava/lang/String;)w
+u
+E E(
+%2java.util.Scanner"__id*J
+
+__unknown_file (.*,
+view.cli.MainVenditoreCLIView"	
+scanneròï
+E E(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()éã
+E E((
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
 
-%0java.lang.StringB
-model.UtenteH
+%3java.lang.String2trim()"$
+E E()
+
+%4java.lang.StringB!
+view.cli.MainVenditoreCLIViewH

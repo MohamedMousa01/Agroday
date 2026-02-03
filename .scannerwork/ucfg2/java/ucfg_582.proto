@@ -1,0 +1,38 @@
+
+Fview.cli.RegistrazioneCLIView#chiediTitoloDiStudio()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.javaJ J(&"1*î
+1K K(Q
+O
+K K(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÑÎ
+K K(.
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*2
+
+__unknown_file (
+Titolo di studio: 2print(Ljava/lang/String;)w
+u
+L L(
+%2java.util.Scanner"__id*J
+
+__unknown_file (.*,
+view.cli.RegistrazioneCLIView"	
+scanner˜•
+L L(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()"$
+L L("
+
+%3java.lang.StringB!
+view.cli.RegistrazioneCLIViewH

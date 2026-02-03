@@ -1,0 +1,42 @@
+
+?__sonar_lambda_62$engclasses.dao.filesystem.AppuntamentoDAOFilen
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javaç ç(I"startingBlock*…
+startingBlock
+ç ç(I¶
+£
+
+__unknown_file ( 
+idConsulentejava.lang.String"__id*_
+
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+idConsulente*
+1*ø
+1
+ç ç(+´®
+
+ç3 ç(H
+%9java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*7
+
+__unknown_file (
+
+appmodel.Appuntamento2getIdConsulente()ﬂ‹
+
+ç ç(I
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String2equals(Ljava/lang/Object;)"
+
+ç ç(I
+
+%10boolean:'
+
+ç ç(
+appmodel.AppuntamentoB 
+java.util.function.Predicate

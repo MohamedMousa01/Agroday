@@ -12,8 +12,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import misc.MessageConstants;
+import misc.CSSConstants;
 import misc.Session;
+import misc.CSSConstants;
 import misc.StatoAppuntamento;
+import misc.CSSConstants;
 
 import java.io.IOException;
 import java.util.List;
@@ -118,11 +122,11 @@ public class ListaAppuntamentiGUIController {
     }
 
     private void configuraFiltroStato() {
-        filtroStatoCombo.getItems().add("Tutti");
+        filtroStatoCombo.getItems().add(MessageConstants.FILTRO_TUTTI);
         for (StatoAppuntamento stato : StatoAppuntamento.values()) {
             filtroStatoCombo.getItems().add(stato.getDisplayName());
         }
-        filtroStatoCombo.setValue("Tutti");
+        filtroStatoCombo.setValue(MessageConstants.FILTRO_TUTTI);
 
         filtroStatoCombo.setOnAction(e -> filtraAppuntamenti());
     }
@@ -148,7 +152,7 @@ public class ListaAppuntamentiGUIController {
         
         // Delega il filtraggio al controller applicativo
         StatoAppuntamento statoFiltro = null;
-        if (!"Tutti".equals(filtro)) {
+        if (!MessageConstants.FILTRO_TUTTI.equals(filtro)) {
             // Trova lo stato corrispondente al nome visualizzato
             for (StatoAppuntamento stato : StatoAppuntamento.values()) {
                 if (stato.getDisplayName().equals(filtro)) {
@@ -187,7 +191,7 @@ public class ListaAppuntamentiGUIController {
             // Aggiorna la lista dopo la chiusura
             caricaAppuntamenti();
         } catch (IOException e) {
-            mostraMessaggio("Errore nell'apertura della finestra: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_APERTURA_FINESTRA + e.getMessage(), true);
         }
     }
 
@@ -215,7 +219,7 @@ public class ListaAppuntamentiGUIController {
             // Aggiorna la lista dopo la chiusura
             caricaAppuntamenti();
         } catch (IOException e) {
-            mostraMessaggio("Errore nell'apertura della finestra: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_APERTURA_FINESTRA + e.getMessage(), true);
         }
     }
 
@@ -243,7 +247,7 @@ public class ListaAppuntamentiGUIController {
             // Aggiorna la lista dopo la chiusura
             caricaAppuntamenti();
         } catch (IOException e) {
-            mostraMessaggio("Errore nell'apertura della finestra: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_APERTURA_FINESTRA + e.getMessage(), true);
         }
     }
 
@@ -271,7 +275,7 @@ public class ListaAppuntamentiGUIController {
             // Aggiorna la lista dopo la chiusura
             caricaAppuntamenti();
         } catch (IOException e) {
-            mostraMessaggio("Errore nell'apertura della finestra: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_APERTURA_FINESTRA + e.getMessage(), true);
         }
     }
 
@@ -290,7 +294,7 @@ public class ListaAppuntamentiGUIController {
     private void mostraMessaggio(String messaggio, boolean isErrore) {
         messageLabel.setText(messaggio);
         if (isErrore) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
         } else {
             messageLabel.setStyle("-fx-text-fill: green; -fx-font-weight: bold;");
         }

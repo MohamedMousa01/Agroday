@@ -1,0 +1,68 @@
+
+*model.Offerta#toString()Ljava/lang/String;L
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.java] ]("1*Ÿ
+1^ ^(h
+f
+_ _(
+%0java.lang.String"__id*<
+
+__unknown_file ( *
+model.Offerta"
+	idOffertai
+g
+_ _(%
+%1java.lang.String"__id*=
+
+__unknown_file (!*
+model.Offerta"
+
+idAnnunciop
+n
+_' _(8
+%2java.lang.String"__id*D
+
+__unknown_file ((*&
+model.Offerta"
+usernameVenditored
+b
+_T _(Y
+%3java.lang.String"__id*8
+
+__unknown_file (*
+model.Offerta"
+stato¼
+¹
+^ _(Z
+%4java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*q
+
+__unknown_file (US
+QOfferta[id=%s, annuncio=%s, venditore=%s, prezzoAlKg=%.2f, totale=%.2f, stato=%s]*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%3java.lang.String"$
+^ _([
+
+%4java.lang.StringB
+model.OffertaH

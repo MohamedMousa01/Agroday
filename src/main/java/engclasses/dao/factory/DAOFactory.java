@@ -1,12 +1,11 @@
 package engclasses.dao.factory;
 
-import engclasses.dao.api.AgricoltoreDAO;
+
 import engclasses.dao.api.AnnuncioDAO;
 import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.ConsulenteDAO;
 import engclasses.dao.api.PartecipazioneDAO;
 import engclasses.dao.api.UtenteDAO;
-import engclasses.dao.api.VenditoreDAO;
 import misc.PersistenceType;
 import misc.TipoUtente;
 

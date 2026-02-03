@@ -1,0 +1,69 @@
+
+Lengclasses.beans.AppuntamentoBean#getOraInizioFormattata()Ljava/lang/String;`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javax x(("4*t
+2yF y(H`
+^
+yF y(H
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.String*
+1*Ç
+3y# y(,
+}
+y# y(,
+%5java.time.LocalTime"__id*P
+
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraInizio`
+^
+y4 y(B(
+%6"java.time.format.DateTimeFormatter"__id*"
+
+__unknown_file (
+""®•
+y# y(C
+%3java.lang.String"Rjava.time.LocalTime#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;*7
+
+__unknown_file (
+
+%5java.time.LocalTime*F
+
+__unknown_file (*
+(
+%6"java.time.format.DateTimeFormatter2,format(Ljava/time/format/DateTimeFormatter;)`
+^
+y# y(C
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+1*è
+4y y(
+}
+y y(
+%0java.time.LocalTime"__id*P
+
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraIniziow
+u
+y y( 
+%1boolean"	__compare*
+y y(
+!=*'
+y y(
+
+%0java.time.LocalTime*
+y y( 
+""*
+2
+3*3
+1y y(I"$
+y y(I
+
+%2java.lang.StringB%#
+!engclasses.beans.AppuntamentoBeanH

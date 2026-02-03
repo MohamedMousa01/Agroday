@@ -6,6 +6,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
+import misc.MessageConstants;
 import misc.Session;
 import misc.ViewType;
 import model.Utente;
@@ -85,7 +86,7 @@ public class MainVenditoreGUIController {
             offerte.stream().limit(5).forEach(o -> {
                 msg.append(String.format("\n💰 Prezzo: %.2f €/kg | Totale: %.2f €\n", 
                     o.getPrezzoAlKg(), o.getPrezzoTotale()));
-                msg.append(String.format("   Stato: %s | Data: %s\n", 
+                msg.append(String.format("  " + MessageConstants.LABEL_STATO + "%s |" + MessageConstants.LABEL_DATA + "%s\n", 
                     o.getStato(), o.getDataOfferta().toLocalDate()));
             });
             

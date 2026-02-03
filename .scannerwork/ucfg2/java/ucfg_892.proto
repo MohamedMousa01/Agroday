@@ -1,0 +1,17 @@
+
+dengclasses.dao.factory.DAOMemoryFactory#getPartecipazioneDAO()Lengclasses/dao/api/PartecipazioneDAO;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java/0 /(D"1*ä
+10 0(Bpn
+0 0(@3
+%0-engclasses.dao.memory.PartecipazioneDAOMemory"-engclasses.dao.memory.PartecipazioneDAOMemoryŸ
+œ
+0 0(B
+%1"7engclasses.dao.memory.PartecipazioneDAOMemory#<init>()V*Q
+
+__unknown_file (5
+3
+%0-engclasses.dao.memory.PartecipazioneDAOMemory"A
+0 0(C5
+3
+%0-engclasses.dao.memory.PartecipazioneDAOMemoryB+)
+'engclasses.dao.factory.DAOMemoryFactoryH

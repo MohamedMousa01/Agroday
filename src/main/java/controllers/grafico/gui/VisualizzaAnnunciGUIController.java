@@ -4,24 +4,36 @@ import controllers.applicativo.AnnuncioController;
 import engclasses.beans.AnnuncioBean;
 import engclasses.pattern.ViewFactory.ViewManager;
 import javafx.fxml.FXML;
-import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
+import misc.MessageConstants;
 import misc.Session;
+import misc.CSSConstants;
 import misc.ViewType;
 
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Controller per la view di visualizzazione annunci
  */
 public class VisualizzaAnnunciGUIController {
+
+    private static final String SUCCESS_MESSAGE_TEMPLATE = """
+        ✅ Proposta inviata e salvata con successo!
+        
+        📦 Prodotto: %s
+        📏 Quantità totale: %d kg
+        💰 Prezzo proposto: %.2f €/kg
+        💵 Totale: %.2f €
+        
+        L'agricoltore riceverà la tua proposta.
+        Puoi vedere le tue offerte in "Le Mie Offerte".
+        """;
 
     @FXML private TextField txtRicerca;
     @FXML private Button btnCerca;
@@ -75,7 +87,7 @@ public class VisualizzaAnnunciGUIController {
                 if (soloMieiAnnunci) {
                     tuttiAnnunci = tuttiAnnunci.stream()
                         .filter(a -> a.getAutore().equals(username))
-                        .collect(Collectors.toList());
+                        .toList();
                 }
             }
             
@@ -141,43 +153,43 @@ public class VisualizzaAnnunciGUIController {
         VBox infoQuantita = new VBox(5);
         infoQuantita.setAlignment(Pos.CENTER);
         Label lblQuantitaIcon = new Label("📦");
-        lblQuantitaIcon.setStyle("-fx-font-size: 24px;");
+        lblQuantitaIcon.setStyle(CSSConstants.FONT_SIZE_24);
         Label lblQuantitaText = new Label(annuncio.getQuantita() + " kg");
-        lblQuantitaText.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
+        lblQuantitaText.setStyle(CSSConstants.BOLD_TEXT_STYLE);
         Label lblQuantitaLabel = new Label("Richiesta autore");
-        lblQuantitaLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        lblQuantitaLabel.setStyle(CSSConstants.SUBTITLE_STYLE);
         infoQuantita.getChildren().addAll(lblQuantitaIcon, lblQuantitaText, lblQuantitaLabel);
         
         // Quantità totale (autore + partecipanti)
         VBox infoTotale = new VBox(5);
         infoTotale.setAlignment(Pos.CENTER);
         Label lblTotaleIcon = new Label("🎯");
-        lblTotaleIcon.setStyle("-fx-font-size: 24px;");
+        lblTotaleIcon.setStyle(CSSConstants.FONT_SIZE_24);
         Label lblTotaleText = new Label(annuncio.getQuantitaTotale() + " kg");
         lblTotaleText.setStyle("-fx-font-weight: bold; -fx-text-fill: #43e97b;");
         Label lblTotaleLabel = new Label("Totale gruppo");
-        lblTotaleLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        lblTotaleLabel.setStyle(CSSConstants.SUBTITLE_STYLE);
         infoTotale.getChildren().addAll(lblTotaleIcon, lblTotaleText, lblTotaleLabel);
         
         // Numero partecipanti
         VBox infoPartecipanti = new VBox(5);
         infoPartecipanti.setAlignment(Pos.CENTER);
         Label lblPartIcon = new Label("👥");
-        lblPartIcon.setStyle("-fx-font-size: 24px;");
+        lblPartIcon.setStyle(CSSConstants.FONT_SIZE_24);
         Label lblPartText = new Label(String.valueOf(annuncio.getNumeroPartecipanti()));
-        lblPartText.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
+        lblPartText.setStyle(CSSConstants.BOLD_TEXT_STYLE);
         Label lblPartLabel = new Label("Partecipanti");
-        lblPartLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        lblPartLabel.setStyle(CSSConstants.SUBTITLE_STYLE);
         infoPartecipanti.getChildren().addAll(lblPartIcon, lblPartText, lblPartLabel);
         
         VBox infoCitta = new VBox(5);
         infoCitta.setAlignment(Pos.CENTER);
         Label lblCittaIcon = new Label("📍");
-        lblCittaIcon.setStyle("-fx-font-size: 24px;");
+        lblCittaIcon.setStyle(CSSConstants.FONT_SIZE_24);
         Label lblCittaText = new Label(annuncio.getCitta());
-        lblCittaText.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
+        lblCittaText.setStyle(CSSConstants.BOLD_TEXT_STYLE);
         Label lblCittaLabel = new Label("Città");
-        lblCittaLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        lblCittaLabel.setStyle(CSSConstants.SUBTITLE_STYLE);
         infoCitta.getChildren().addAll(lblCittaIcon, lblCittaText, lblCittaLabel);
         
         VBox infoStato = new VBox(5);
@@ -185,22 +197,22 @@ public class VisualizzaAnnunciGUIController {
         String statoIcon = annuncio.isAttivo() ? "✅" : "⏰";
         String statoColor = annuncio.isAttivo() ? "#43e97b" : "#e74c3c";
         Label lblStatoIcon = new Label(statoIcon);
-        lblStatoIcon.setStyle("-fx-font-size: 24px;");
+        lblStatoIcon.setStyle(CSSConstants.FONT_SIZE_24);
         Label lblStatoText = new Label(annuncio.getStato());
         lblStatoText.setStyle("-fx-font-weight: bold; -fx-text-fill: " + statoColor + ";");
         Label lblStatoLabel = new Label("Stato");
-        lblStatoLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+        lblStatoLabel.setStyle(CSSConstants.SUBTITLE_STYLE);
         infoStato.getChildren().addAll(lblStatoIcon, lblStatoText, lblStatoLabel);
         
         if (annuncio.getDataScadenza() != null) {
             VBox infoScadenza = new VBox(5);
             infoScadenza.setAlignment(Pos.CENTER);
             Label lblScadenzaIcon = new Label("📅");
-            lblScadenzaIcon.setStyle("-fx-font-size: 24px;");
+            lblScadenzaIcon.setStyle(CSSConstants.FONT_SIZE_24);
             Label lblScadenzaText = new Label(annuncio.getDataScadenza().format(dateFormatter));
-            lblScadenzaText.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
+            lblScadenzaText.setStyle(CSSConstants.BOLD_TEXT_STYLE);
             Label lblScadenzaLabel = new Label("Scadenza");
-            lblScadenzaLabel.setStyle("-fx-text-fill: #666; -fx-font-size: 12px;");
+            lblScadenzaLabel.setStyle(CSSConstants.SUBTITLE_STYLE);
             infoScadenza.getChildren().addAll(lblScadenzaIcon, lblScadenzaText, lblScadenzaLabel);
             infoBox.getChildren().add(infoScadenza);
         }
@@ -222,7 +234,7 @@ public class VisualizzaAnnunciGUIController {
             if (annuncio.isScaduto()) {
                 Button btnProponiPrezzo = new Button("💰 Proponi Prezzo");
                 btnProponiPrezzo.setStyle("-fx-background-color: #f39c12; -fx-text-fill: white; -fx-font-weight: bold; " +
-                                         "-fx-background-radius: 15; -fx-padding: 8 20;");
+                                         CSSConstants.ROUNDED_BUTTON_STYLE);
                 btnProponiPrezzo.setOnAction(e -> proponiPrezzo(annuncio));
                 actionsBox.getChildren().add(btnProponiPrezzo);
             } else {
@@ -236,14 +248,14 @@ public class VisualizzaAnnunciGUIController {
                 // L'utente è l'autore e sta visualizzando "I Miei Annunci" -> può eliminare
                 Button btnElimina = new Button("🗑️ Elimina");
                 btnElimina.setStyle("-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; " +
-                                   "-fx-background-radius: 15; -fx-padding: 8 20;");
+                                   CSSConstants.ROUNDED_BUTTON_STYLE);
                 btnElimina.setOnAction(e -> eliminaAnnuncio(annuncio));
                 actionsBox.getChildren().add(btnElimina);
             } else if (!isAutore && annuncio.isAttivo()) {
                 // Può partecipare se l'annuncio è attivo e non è l'autore
                 Button btnPartecipa = new Button("🤝 Partecipa");
                 btnPartecipa.setStyle("-fx-background-color: #6a11cb; -fx-text-fill: white; -fx-font-weight: bold; " +
-                                    "-fx-background-radius: 15; -fx-padding: 8 20;");
+                                    CSSConstants.ROUNDED_BUTTON_STYLE);
                 btnPartecipa.setOnAction(e -> partecipaAnnuncio(annuncio));
                 actionsBox.getChildren().add(btnPartecipa);
             } else if (!isAutore && annuncio.isScaduto()) {
@@ -255,7 +267,7 @@ public class VisualizzaAnnunciGUIController {
         
         Button btnDettagli = new Button("📋 Dettagli");
         btnDettagli.setStyle("-fx-background-color: #43e97b; -fx-text-fill: white; -fx-font-weight: bold; " +
-                            "-fx-background-radius: 15; -fx-padding: 8 20;");
+                            CSSConstants.ROUNDED_BUTTON_STYLE);
         btnDettagli.setOnAction(e -> mostraDettagli(annuncio));
         
         actionsBox.getChildren().add(btnDettagli);
@@ -283,7 +295,7 @@ public class VisualizzaAnnunciGUIController {
                             a.getDescrizione().toLowerCase().contains(termineRicerca) ||
                             a.getCitta().toLowerCase().contains(termineRicerca) ||
                             a.getAutore().toLowerCase().contains(termineRicerca))
-                .collect(Collectors.toList());
+                .toList();
 
         mostraAnnunci(risultati);
         aggiornaContatore(risultati.size());
@@ -371,22 +383,14 @@ public class VisualizzaAnnunciGUIController {
                 );
 
                 if (salvata) {
-                    mostraInfo(String.format("""
-                        ✅ Proposta inviata e salvata con successo!
-                        
-                        📦 Prodotto: %s
-                        📏 Quantità totale: %d kg
-                        💰 Prezzo proposto: %.2f €/kg
-                        💵 Totale: %.2f €
-                        
-                        L'agricoltore riceverà la tua proposta.
-                        Puoi vedere le tue offerte in "Le Mie Offerte".
-                        """,
+                    double totale = prezzo * annuncio.getQuantitaTotale();
+                    String successMsg = String.format(SUCCESS_MESSAGE_TEMPLATE,
                         annuncio.getTitolo(),
                         annuncio.getQuantitaTotale(),
                         prezzo,
-                        prezzo * annuncio.getQuantitaTotale()
-                    ));
+                        totale
+                    );
+                    mostraInfo(successMsg);
                 } else {
                     mostraErrore("Errore nel salvataggio dell'offerta. Riprova.");
                 }
@@ -394,7 +398,7 @@ public class VisualizzaAnnunciGUIController {
             } catch (NumberFormatException e) {
                 mostraErrore("Inserisci un numero valido");
             } catch (Exception e) {
-                mostraErrore("Errore: " + e.getMessage());
+                mostraErrore(MessageConstants.ERRORE_GENERICO + e.getMessage());
             }
         });
     }
@@ -489,10 +493,11 @@ public class VisualizzaAnnunciGUIController {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Conferma Eliminazione");
         alert.setHeaderText("Eliminare questo annuncio?");
-        alert.setContentText(String.format(
-            "Titolo: %s\nCittà: %s\nQuantità: %d kg\n\nSei sicuro di voler eliminare questo annuncio?\nQuesta azione è irreversibile!",
+        String confirmMsg =  String.format(
+            "Titolo: %s%nCittà: %s%nQuantità: %d kg%n%nSei sicuro di voler eliminare questo annuncio?%nQuesta azione è irreversibile!",
             annuncio.getTitolo(), annuncio.getCitta(), annuncio.getQuantita()
-        ));
+        );
+        alert.setContentText(confirmMsg);
 
         alert.showAndWait().ifPresent(response -> {
             if (response == ButtonType.OK) {

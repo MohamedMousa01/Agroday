@@ -1,0 +1,28 @@
+
+`controllers.applicativo.OffertaController#getOfferteRicevute(Ljava/lang/String;)Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.javag g(+"1*ï
+1h h(ì
+ê
+h h(#
+%0engclasses.dao.api.OffertaDAO"__id*Y
+
+__unknown_file (=*;+
+)controllers.applicativo.OffertaController"
+
+offertaDAOÀ»
+h h(Q
+%1java.util.List"dengclasses.dao.api.OffertaDAO#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;*A
+
+__unknown_file (%
+#
+%0engclasses.dao.api.OffertaDAO*E
+
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.String26trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)""
+h h(R
+
+%1java.util.List:3
+g, g(F'
+usernameAgricoltorejava.lang.StringB-+
+)controllers.applicativo.OffertaControllerH

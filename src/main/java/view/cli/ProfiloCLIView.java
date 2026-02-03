@@ -1,4 +1,5 @@
 package view.cli;
+import misc.UIConstants;
 
 import model.Utente;
 import misc.TipoUtente;
@@ -15,9 +16,9 @@ public class ProfiloCLIView {
 
     public void mostraTitolo() {
         clearScreen();
-        System.out.println("\n╔════════════════════════════════════════════════════════╗");
+        System.out.println(UIConstants.BOX_TOP_LONG);
         System.out.println("║               👤 IL MIO PROFILO 👤                     ║");
-        System.out.println("╚════════════════════════════════════════════════════════╝");
+        System.out.println(UIConstants.BOX_BOTTOM_LONG);
     }
 
     public void mostraProfilo(Utente utente, TipoUtente tipo) {
@@ -106,6 +107,6 @@ public class ProfiloCLIView {
     }
 
     public void mostraSeparatore() {
-        System.out.println("════════════════════════════════════════════════════════");
+        System.out.println(UIConstants.BOX_SEPARATOR_LONG);
     }
 }

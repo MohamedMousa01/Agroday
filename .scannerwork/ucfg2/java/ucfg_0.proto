@@ -46,8 +46,8 @@ h
 __unknown_file (
 
 %9*
-1*Ù
-1 (!Â¿
+1*Ô
+1 ( Â¿
  ("
 %0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
 
@@ -85,16 +85,16 @@ getEmail()Â¿
 __unknown_file (,
 *
 bean"engclasses.beans.RegistrazioneBean2
-getCitta()86
- (
-%6model.Agricoltore"model.Agricoltoreà
-Ý
+getCitta()64
+ (
+%6model.Consulente"model.ConsulenteÞ
+Û
  ( 
-%7"™model.Agricoltore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*5
+%7"˜model.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*4
 
-__unknown_file (
-
-%6model.Agricoltore*4
+__unknown_file (
+
+%6model.Consulente*4
 
 __unknown_file (
 
@@ -122,10 +122,10 @@ getCitta()86
 
 __unknown_file (
 
-%5java.lang.String"%
- (!
-
-%6model.Agricoltore:"
+%5java.lang.String"$
+ (!
+
+%6model.Consulente:"
 
  
 ('

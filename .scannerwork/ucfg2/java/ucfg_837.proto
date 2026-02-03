@@ -1,0 +1,2924 @@
+
+0test.TestPrenotazione#main([Ljava/lang/String;)VT
+J/Users/mohamedmousa/Desktop/prova/src/main/java/test/TestPrenotazione.java ("135*û
+68m m(:áÑ
+m m(:
+%138void"Aengclasses.beans.AppuntamentoBean#setData(Ljava/time/LocalDate;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%137java.time.LocalDate2setData(Ljava/time/LocalDate;)*
+67*·
+69m7 m(8 «
+m m(9
+%137java.time.LocalDate"4java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;*9
+
+__unknown_file (
+
+%136java.time.LocalDate* 
+
+__unknown_file (22plusDays(J)*
+68*¶
+70m m(è
+å
+m m(-
+%136java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDate*
+69*á
+71l l(S
+Q
+l( l(@
+%134misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""õò
+l l(A
+%135void"Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%134misc.TipoConsulenza2(setTipoConsulenza(Lmisc/TipoConsulenza;)*
+70*¸
+72k k(U
+S
+k& k(8
+%132java.lang.String"__id*'
+
+__unknown_file (	
+cons001éã
+k k(9
+%133void"Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*6
+
+__unknown_file (
+
+%132java.lang.String2#setIdConsulente(Ljava/lang/String;)*
+71*á
+73i i(@å
+â
+i i(@.
+	beanCampo!engclasses.beans.AppuntamentoBean"__id*G
+
+__unknown_file (+
+)
+%128!engclasses.beans.AppuntamentoBeanW
+U
+j# j(1
+%130java.lang.String"__id*)
+
+__unknown_file (
+	client001àÖ
+j j(2
+%131void"Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*6
+
+__unknown_file (
+
+%130java.lang.String2 setIdCliente(Ljava/lang/String;)*
+72*˛
+74i) i(?ZX
+i- i(=)
+%128!engclasses.beans.AppuntamentoBean"!engclasses.beans.AppuntamentoBeanã
+à
+i) i(?
+%129"+engclasses.beans.AppuntamentoBean#<init>()V*G
+
+__unknown_file (+
+)
+%128!engclasses.beans.AppuntamentoBean*
+73*‰
+75g g(S
+Q
+g g(
+%126java.io.PrintStream"__id*"
+
+__unknown_file (
+""¯ı
+g g(O
+%127void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%126java.io.PrintStream*Q
+
+__unknown_file (53
+1--- TEST 3: Prenotazione Consulenza SUL CAMPO ---2println(Ljava/lang/String;)*
+74*Ï
+78a a(S
+Q
+a a(
+%119java.io.PrintStream"__id*"
+
+__unknown_file (
+""Ä~
+a a( 
+%120void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%119java.io.PrintStream2	println()*
+75*È
+79` `(Ls
+q
+` `(L
+%117java.lang.String"__concat*
+` `(*
+	  Stato: *&
+`- `(L
+
+%116java.lang.String›⁄
+` `(M
+%118void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%115java.io.PrintStream*6
+
+__unknown_file (
+
+%117java.lang.String2println(Ljava/lang/String;)*
+78*á
+100S S(R
+P
+S* S(C
+%85misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""õò
+S S(D
+%86void"Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%85misc.TipoConsulenza2(setTipoConsulenza(Lmisc/TipoConsulenza;)*
+99*ô
+101R R(Ä˝
+R R(2
+%84void"Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*'
+
+__unknown_file (	
+cons0022#setIdConsulente(Ljava/lang/String;)*
+100*â
+102P P(Bç
+ä
+P P(B0
+beanUfficio!engclasses.beans.AppuntamentoBean"__id*F
+
+__unknown_file (*
+(
+%80!engclasses.beans.AppuntamentoBeanV
+T
+Q% Q(3
+%82java.lang.String"__id*)
+
+__unknown_file (
+	client001àÖ
+Q Q(4
+%83void"Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%82java.lang.String2 setIdCliente(Ljava/lang/String;)*
+101*˝
+103P+ P(AYW
+P/ P(?(
+%80!engclasses.beans.AppuntamentoBean"!engclasses.beans.AppuntamentoBeanâ
+Ü
+P+ P(A
+%81"+engclasses.beans.AppuntamentoBean#<init>()V*F
+
+__unknown_file (*
+(
+%80!engclasses.beans.AppuntamentoBean*
+102*‰
+104N N(R
+P
+N N(
+%78java.io.PrintStream"__id*"
+
+__unknown_file (
+""˜Ù
+N N(P
+%79void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%78java.io.PrintStream*R
+
+__unknown_file (64
+2--- TEST 2: Prenotazione Consulenza IN UFFICIO ---2println(Ljava/lang/String;)*
+103*Í
+107H H(R
+P
+H H(
+%71java.io.PrintStream"__id*"
+
+__unknown_file (
+""~|
+H H( 
+%72void"java.io.PrintStream#println()V*8
+
+__unknown_file (
+
+%71java.io.PrintStream2	println()*
+104*√
+80` `(S
+Q
+` `(
+%115java.io.PrintStream"__id*"
+
+__unknown_file (
+""◊‘
+`- `(L
+%116java.lang.String"Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getStatoDescrizione()*
+79*Ê
+108G G(Lq
+o
+G G(L
+%69java.lang.String"__concat*
+G G(*
+	  Stato: *%
+G- G(L
+
+%68java.lang.String⁄◊
+G G(M
+%70void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%67java.io.PrintStream*5
+
+__unknown_file (
+
+%69java.lang.String2println(Ljava/lang/String;)*
+107*È
+81_ _(As
+q
+_ _(A
+%113java.lang.String"__concat*
+_ _(*
+	  Luogo: *&
+_- _(A
+
+%112java.lang.String›⁄
+_ _(B
+%114void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%111java.io.PrintStream*6
+
+__unknown_file (
+
+%113java.lang.String2println(Ljava/lang/String;)*
+80*√
+109G G(R
+P
+G G(
+%67java.io.PrintStream"__id*"
+
+__unknown_file (
+""÷”
+G- G(L
+%68java.lang.String"Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getStatoDescrizione()*
+108*≠
+82_ _(S
+Q
+_ _(
+%111java.io.PrintStream"__id*"
+
+__unknown_file (
+""¡æ
+_- _(A
+%112java.lang.String">engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2
+getLuogo()*
+81*Í
+83^ ^(Mt
+r
+^ ^(M
+%109java.lang.String"__concat*
+^ ^(+
+
+  Orario: *&
+^. ^(M
+
+%108java.lang.String›⁄
+^ ^(N
+%110void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%107java.io.PrintStream*6
+
+__unknown_file (
+
+%109java.lang.String2println(Ljava/lang/String;)*
+82*√
+84^ ^(S
+Q
+^ ^(
+%107java.io.PrintStream"__id*"
+
+__unknown_file (
+""◊‘
+^. ^(M
+%108java.lang.String"Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getIntervalloOrario()*
+83*Ë
+85] ](Ir
+p
+] ](I
+%105java.lang.String"__concat*
+] ]()
+
+  Data: *&
+], ](I
+
+%104java.lang.String›⁄
+] ](J
+%106void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%103java.io.PrintStream*6
+
+__unknown_file (
+
+%105java.lang.String2println(Ljava/lang/String;)*
+84*ø
+86] ](S
+Q
+] ](
+%103java.io.PrintStream"__id*"
+
+__unknown_file (
+""”–
+], ](I
+%104java.lang.String"Gengclasses.beans.AppuntamentoBean#getDataFormattata()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getDataFormattata()*
+85*Â
+87\ \(Gp
+n
+\ \(G
+%101java.lang.String"__concat*
+\ \('
+
+  ID: *&
+\* \(G
+
+%100java.lang.String‹Ÿ
+\ \(H
+%102void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%99java.io.PrintStream*6
+
+__unknown_file (
+
+%101java.lang.String2println(Ljava/lang/String;)*
+86*æ
+88\ \(R
+P
+\ \(
+%99java.io.PrintStream"__id*"
+
+__unknown_file (
+""”–
+\* \(G
+%100java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getIdAppuntamento()*
+87*·
+89Z Z(Uã
+à
+Z Z(U.
+	risultato!engclasses.beans.AppuntamentoBean"__id*F
+
+__unknown_file (*
+(
+%96!engclasses.beans.AppuntamentoBeanR
+P
+[ [(
+%97java.io.PrintStream"__id*"
+
+__unknown_file (
+""ËÂ
+[ [(C
+%98void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%97java.io.PrintStream*C
+
+__unknown_file ('%
+#‚úì Appuntamento IN UFFICIO creato!2println(Ljava/lang/String;)*
+88*Ì
+110F F(Hx
+v
+F F(H
+%65java.lang.String"__concat* 
+F F(1
+  Luogo (link): *%
+F4 F(H
+
+%64java.lang.String⁄◊
+F F(I
+%66void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%63java.io.PrintStream*5
+
+__unknown_file (
+
+%65java.lang.String2println(Ljava/lang/String;)*
+109*≠
+111F F(R
+P
+F F(
+%63java.io.PrintStream"__id*"
+
+__unknown_file (
+""¿Ω
+F4 F(H
+%64java.lang.String">engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2
+getLuogo()*
+110*Á
+112E E(Mr
+p
+E E(M
+%61java.lang.String"__concat*
+E E(+
+
+  Orario: *%
+E. E(M
+
+%60java.lang.String⁄◊
+E E(N
+%62void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%59java.io.PrintStream*5
+
+__unknown_file (
+
+%61java.lang.String2println(Ljava/lang/String;)*
+111*√
+113E E(R
+P
+E E(
+%59java.io.PrintStream"__id*"
+
+__unknown_file (
+""÷”
+E. E(M
+%60java.lang.String"Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getIntervalloOrario()*
+112*Â
+114D D(Ip
+n
+D D(I
+%57java.lang.String"__concat*
+D D()
+
+  Data: *%
+D, D(I
+
+%56java.lang.String⁄◊
+D D(J
+%58void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%55java.io.PrintStream*5
+
+__unknown_file (
+
+%57java.lang.String2println(Ljava/lang/String;)*
+113*ø
+115D D(R
+P
+D D(
+%55java.io.PrintStream"__id*"
+
+__unknown_file (
+""“œ
+D, D(I
+%56java.lang.String"Gengclasses.beans.AppuntamentoBean#getDataFormattata()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getDataFormattata()*
+114*„
+116C C(Gn
+l
+C C(G
+%53java.lang.String"__concat*
+C C('
+
+  ID: *%
+C* C(G
+
+%52java.lang.String⁄◊
+C C(H
+%54void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%51java.io.PrintStream*5
+
+__unknown_file (
+
+%53java.lang.String2println(Ljava/lang/String;)*
+115*ø
+117C C(R
+P
+C C(
+%51java.io.PrintStream"__id*"
+
+__unknown_file (
+""“œ
+C* C(G
+%52java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getIdAppuntamento()*
+116*¡
+90Z) Z(3™ß
+Z) Z(T(
+%96!engclasses.beans.AppuntamentoBean"äcontrollers.applicativo.AppuntamentoController#prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean28prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)*
+89*ﬂ
+118A A(Tã
+à
+A A(T.
+	risultato!engclasses.beans.AppuntamentoBean"__id*F
+
+__unknown_file (*
+(
+%48!engclasses.beans.AppuntamentoBeanR
+P
+B B(
+%49java.io.PrintStream"__id*"
+
+__unknown_file (
+""‰·
+B B(?
+%50void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%49java.io.PrintStream*?
+
+__unknown_file (#!
+‚úì Appuntamento ONLINE creato!2println(Ljava/lang/String;)*
+117*†
+91X X(âÜ
+X X(C
+%95void">engclasses.beans.AppuntamentoBean#setNote(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*@
+
+__unknown_file ($"
+ Portare documentazione catastale2setNote(Ljava/lang/String;)*
+90*¬
+119A) A(3©¶
+A) A(S(
+%48!engclasses.beans.AppuntamentoBean"äcontrollers.applicativo.AppuntamentoController#prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean28prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)*
+118*ñ
+92W W(ˇ¸
+W W(8
+%94void"?engclasses.beans.AppuntamentoBean#setLuogo(Ljava/lang/String;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*4
+
+__unknown_file (
+Via Roma 123, Milano2setLuogo(Ljava/lang/String;)*
+91*§
+93V V(7çä
+V V(7
+%93void"Dengclasses.beans.AppuntamentoBean#setOraFine(Ljava/time/LocalTime;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%92java.time.LocalTime2!setOraFine(Ljava/time/LocalTime;)*
+92*Ë
+94V V(—
+Œ
+V# V(6
+%92java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2*
+
+__unknown_file (2 *
+93*®
+95U U(:ëé
+U U(:
+%91void"Fengclasses.beans.AppuntamentoBean#setOraInizio(Ljava/time/LocalTime;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%90java.time.LocalTime2#setOraInizio(Ljava/time/LocalTime;)*
+94*Í
+96U U(”
+–
+U% U(9
+%90java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2* 
+
+__unknown_file (2*
+95*û
+97T T(<áÑ
+T T(<
+%89void"Aengclasses.beans.AppuntamentoBean#setData(Ljava/time/LocalDate;)V*N
+
+__unknown_file (2
+0
+beanUfficio!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%88java.time.LocalDate2setData(Ljava/time/LocalDate;)*
+96*ﬂ
+98T9 T(:»≈
+T  T(;
+%88java.time.LocalDate"4java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;*8
+
+__unknown_file (
+
+%87java.time.LocalDate* 
+
+__unknown_file (22plusDays(J)*
+97*§
+10
+¡ ¡(U
+S
+
+¡ ¡(
+%282java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÉÄ
+
+¡ ¡(
+%283void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%282java.io.PrintStream2	println()U
+S
+
+ƒ ƒ(
+%284java.io.PrintStream"__id*"
+
+__unknown_file (
+""{
+y
+
+ƒ ƒ(:
+%285java.lang.String"__id*K
+
+__unknown_file (/-
++===========================================ﬂ‹
+
+ƒ ƒ(;
+%286void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%284java.io.PrintStream*6
+
+__unknown_file (
+
+%285java.lang.String2println(Ljava/lang/String;)U
+S
+
+≈ ≈(
+%287java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÙÒ
+
+≈ ≈(I
+%288void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%287java.io.PrintStream*K
+
+__unknown_file (/-
++   RIEPILOGO FINALE                        2println(Ljava/lang/String;)U
+S
+
+∆ ∆(
+%289java.io.PrintStream"__id*"
+
+__unknown_file (
+""{
+y
+
+∆ ∆(:
+%290java.lang.String"__id*K
+
+__unknown_file (/-
++===========================================ﬂ‹
+
+∆ ∆(;
+%291void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%289java.io.PrintStream*6
+
+__unknown_file (
+
+%290java.lang.String2println(Ljava/lang/String;)ÑÅ
+
+«3 «(]
+%292java.util.List"^controllers.applicativo.AppuntamentoController#getAppuntamentiUtenteCorrente()Ljava/util/List;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController2getAppuntamentiUtenteCorrente()o
+m
+
+« «(^#
+tuttiAppuntamentijava.util.List"__id*4
+
+__unknown_file (
+
+%292java.util.List*
+2*•
+99T T(é
+ã
+T  T(/
+%87java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDate*
+98*‚
+15
+ª ª(U
+S
+
+ª ª(
+%272java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÚÔ
+
+ª ª(I
+%273void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%272java.io.PrintStream*I
+
+__unknown_file (-+
+)‚úó Avrebbe dovuto rilevare il conflitto!2println(Ljava/lang/String;)*
+10*»
+16
+∫ ∫(Ø¨
+
+∫ ∫(9)
+%271!engclasses.beans.AppuntamentoBean"äcontrollers.applicativo.AppuntamentoController#prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean28prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)*
+15*¨
+17
+∏ ∏(:ìê
+
+∏ ∏(:
+%270void"Dengclasses.beans.AppuntamentoBean#setOraFine(Ljava/time/LocalTime;)V*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%269java.time.LocalTime2!setOraFine(Ljava/time/LocalTime;)*
+16*Ô
+18
+∏ ∏(÷
+”
+
+∏% ∏(9
+%269java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2* 
+
+__unknown_file (2*
+17*∞
+19
+∑ ∑(<óî
+
+∑ ∑(<
+%268void"Fengclasses.beans.AppuntamentoBean#setOraInizio(Ljava/time/LocalTime;)V*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%267java.time.LocalTime2#setOraInizio(Ljava/time/LocalTime;)*
+18*ö
+120> >(Å˛
+> >(;
+%47void">engclasses.beans.AppuntamentoBean#setNote(Ljava/lang/String;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+Prima consulenza di prova2setNote(Ljava/lang/String;)*
+119*•
+121= =(6åâ
+= =(6
+%46void"Dengclasses.beans.AppuntamentoBean#setOraFine(Ljava/time/LocalTime;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%45java.time.LocalTime2!setOraFine(Ljava/time/LocalTime;)*
+120*(
+0 "!
+
+” ”(
+implicit return*Í
+122= =(—
+Œ
+=" =(5
+%45java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2*
+
+__unknown_file (2 *
+121*Å
+1
+Œ Œ(U
+S
+
+Œ Œ(
+%301java.io.PrintStream"__id*"
+
+__unknown_file (
+""~|
+
+Œ5 Œ(M
+%302int"java.util.List#size()I*A
+
+__unknown_file (%
+#
+tuttiAppuntamentijava.util.List2size()x
+v
+
+Œ Œ(M
+%303java.lang.String"__concat*'
+
+Œ Œ(2
+Totale appuntamenti: *
+
+Œ5 Œ(M
+
+%302intﬂ‹
+
+Œ Œ(N
+%304void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%301java.io.PrintStream*6
+
+__unknown_file (
+
+%303java.lang.String2println(Ljava/lang/String;)U
+S
+
+œ œ(
+%305java.io.PrintStream"__id*"
+
+__unknown_file (
+""k
+i
+
+œ œ(8
+%306java.lang.String"__concat*!
+
+œ œ(,
+  - Prenotati: *
+
+œ/ œ(8
+""ﬂ‹
+
+œ œ(9
+%307void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%305java.io.PrintStream*6
+
+__unknown_file (
+
+%306java.lang.String2println(Ljava/lang/String;)U
+S
+
+– –(
+%308java.io.PrintStream"__id*"
+
+__unknown_file (
+""l
+j
+
+– –(:
+%309java.lang.String"__concat*"
+
+– –(-
+  - Confermati: *
+
+–0 –(:
+""ﬂ‹
+
+– –(;
+%310void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%308java.io.PrintStream*6
+
+__unknown_file (
+
+%309java.lang.String2println(Ljava/lang/String;)U
+S
+
+— —(
+%311java.io.PrintStream"__id*"
+
+__unknown_file (
+""l
+j
+
+— —(:
+%312java.lang.String"__concat*"
+
+— —(-
+  - Cancellati: *
+
+—0 —(:
+""ﬂ‹
+
+— —(;
+%313void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%311java.io.PrintStream*6
+
+__unknown_file (
+
+%312java.lang.String2println(Ljava/lang/String;)U
+S
+
+“ “(
+%314java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÏÈ
+
+“ “(?
+%315void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%314java.io.PrintStream*C
+
+__unknown_file ('%
+#\n‚úì Test completato con successo!2println(Ljava/lang/String;)*
+0*©
+123< <(8êç
+< <(8
+%44void"Fengclasses.beans.AppuntamentoBean#setOraInizio(Ljava/time/LocalTime;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%43java.time.LocalTime2#setOraInizio(Ljava/time/LocalTime;)*
+122*™
+2
+… …(!b
+`
+
+… …(!(
+app!engclasses.beans.AppuntamentoBean"__id*"
+
+__unknown_file (
+""¨
+©
+
+… …(!(
+app!engclasses.beans.AppuntamentoBean"
+__arrayGet*A
+
+__unknown_file (%
+#
+tuttiAppuntamentijava.util.List*"
+
+__unknown_file (
+""*
+8
+1*Í
+124< <(—
+Œ
+<$ <(7
+%43java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2
+*
+
+__unknown_file (2 *
+123*ü
+125; ;(;ÜÉ
+; ;(;
+%42void"Aengclasses.beans.AppuntamentoBean#setData(Ljava/time/LocalDate;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%41java.time.LocalDate2setData(Ljava/time/LocalDate;)*
+124*˘
+4
+Ã Ã(…∆
+
+Ã Ã(#
+%299misc.StatoAppuntamento"Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2
+getStato()ñì
+
+Ã Ã(2
+%300boolean"&misc.StatoAppuntamento#isCancellato()Z*<
+
+__unknown_file ( 
+
+%299misc.StatoAppuntamento2isCancellato()*
+2*·
+126;8 ;(9»≈
+; ;(:
+%41java.time.LocalDate"4java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;*8
+
+__unknown_file (
+
+%40java.time.LocalDate* 
+
+__unknown_file (22plusDays(J)*
+125*ß
+127; ;(é
+ã
+; ;(.
+%40java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDate*
+126*·
+6
+À À(…∆
+
+À À(#
+%296misc.StatoAppuntamento"Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2
+getStato()X
+V
+
+À' À(C
+%297misc.StatoAppuntamento"__id*"
+
+__unknown_file (
+""°
+û
+
+À À(C
+%298boolean"	__compare*
+
+À$ À(&
+==*.
+
+À À(# 
+
+%296misc.StatoAppuntamento*.
+
+À' À(C 
+
+%297misc.StatoAppuntamento*
+2
+4*á
+128: :(R
+P
+:) :(>
+%38misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""öó
+: :(?
+%39void"Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*8
+
+__unknown_file (
+
+%38misc.TipoConsulenza2(setTipoConsulenza(Lmisc/TipoConsulenza;)*
+127*¸
+1299 9(T
+R
+9' 9(9
+%36java.lang.String"__id*'
+
+__unknown_file (	
+cons001çä
+9 9(:
+%37void"Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%36java.lang.String2#setIdConsulente(Ljava/lang/String;)*
+128*·
+8
+   (…∆
+
+   (
+%293misc.StatoAppuntamento"Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2
+getStato()X
+V
+
+ "  (=
+%294misc.StatoAppuntamento"__id*"
+
+__unknown_file (
+""°
+û
+
+   (=
+%295boolean"	__compare*
+
+   (!
+==*.
+
+   ( 
+
+%293misc.StatoAppuntamento*.
+
+ "  (= 
+
+%294misc.StatoAppuntamento*
+2
+6*Ô
+20
+∑ ∑(÷
+”
+
+∑' ∑(;
+%267java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2
+* 
+
+__unknown_file (2*
+19*¶
+21
+∂ ∂(>çä
+
+∂ ∂(>
+%266void"Aengclasses.beans.AppuntamentoBean#setData(Ljava/time/LocalDate;)V*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%265java.time.LocalDate2setData(Ljava/time/LocalDate;)*
+20*Â
+22
+∂; ∂(<Ã…
+
+∂" ∂(=
+%265java.time.LocalDate"4java.time.LocalDate#plusDays(J)Ljava/time/LocalDate;*9
+
+__unknown_file (
+
+%264java.time.LocalDate* 
+
+__unknown_file (22plusDays(J)*
+21*™
+23
+∂ ∂(ë
+é
+
+∂" ∂(1
+%264java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
+
+__unknown_file ("
+java.time.LocalDate*
+22*ë
+24
+µ µ(U
+S
+
+µ, µ(A
+%262misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""°û
+
+µ µ(B
+%263void"Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%262misc.TipoConsulenza2(setTipoConsulenza(Lmisc/TipoConsulenza;)*
+23*Ü
+25
+¥ ¥(W
+U
+
+¥* ¥(<
+%260java.lang.String"__id*'
+
+__unknown_file (	
+cons001îë
+
+¥ ¥(=
+%261void"Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean*6
+
+__unknown_file (
+
+%260java.lang.String2#setIdConsulente(Ljava/lang/String;)*
+24*ó
+26
+≤ ≤(Dí
+è
+
+≤ ≤(D2
+beanConflitto!engclasses.beans.AppuntamentoBean"__id*G
+
+__unknown_file (+
+)
+%256!engclasses.beans.AppuntamentoBeanY
+W
+
+≥' ≥(5
+%258java.lang.String"__id*)
+
+__unknown_file (
+	client001éã
+
+≥ ≥(6
+%259void"Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+beanConflitto!engclasses.beans.AppuntamentoBean*6
+
+__unknown_file (
+
+%258java.lang.String2 setIdCliente(Ljava/lang/String;)*
+25*Ñ
+27
+≤- ≤(C\Z
+
+≤1 ≤(A)
+%256!engclasses.beans.AppuntamentoBean"!engclasses.beans.AppuntamentoBeanç
+ä
+
+≤- ≤(C
+%257"+engclasses.beans.AppuntamentoBean#<init>()V*G
+
+__unknown_file (+
+)
+%256!engclasses.beans.AppuntamentoBean*
+26*ª
+28
+¨ ¨(U
+S
+
+¨ ¨(
+%252java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÉÄ
+
+¨ ¨(
+%253void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%252java.io.PrintStream2	println()U
+S
+
+Ø Ø(
+%254java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÓÎ
+
+Ø Ø(C
+%255void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%254java.io.PrintStream*E
+
+__unknown_file ()'
+%--- TEST 8: Test Conflitto Orario ---2println(Ljava/lang/String;)*
+27*à
+
+29
+®$ ®(0§
+°
+
+®$ ®(7)
+%247!engclasses.beans.AppuntamentoBean"
+__arrayGet*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List*
+
+__unknown_file (2 –Õ
+
+®$ ®(K
+%248java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*G
+
+__unknown_file (+
+)
+%247!engclasses.beans.AppuntamentoBean2getIdAppuntamento()p
+n
+
+® ®(L"
+idAppuntamentojava.lang.String"__id*6
+
+__unknown_file (
+
+%248java.lang.String÷”
+
+©  ©(L
+%249java.lang.String"fcontrollers.applicativo.AppuntamentoController#preparaConsulenza(Ljava/lang/String;)Ljava/lang/String;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String2%preparaConsulenza(Ljava/lang/String;)l
+j
+
+© ©(M
+
+istruzionijava.lang.String"__id*6
+
+__unknown_file (
+
+%249java.lang.StringU
+S
+
+™ ™(
+%250java.io.PrintStream"__id*"
+
+__unknown_file (
+""Â‚
+
+™ ™(*
+%251void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%250java.io.PrintStream*<
+
+__unknown_file ( 
+
+
+istruzionijava.lang.String2println(Ljava/lang/String;)*
+28*á
+1307 7(Aå
+â
+7 7(A/
+
+beanOnline!engclasses.beans.AppuntamentoBean"__id*F
+
+__unknown_file (*
+(
+%32!engclasses.beans.AppuntamentoBeanV
+T
+8$ 8(2
+%34java.lang.String"__id*)
+
+__unknown_file (
+	client001áÑ
+8 8(3
+%35void"Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V*M
+
+__unknown_file (1
+/
+
+beanOnline!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%34java.lang.String2 setIdCliente(Ljava/lang/String;)*
+129*˝
+1317* 7(@YW
+7. 7(>(
+%32!engclasses.beans.AppuntamentoBean"!engclasses.beans.AppuntamentoBeanâ
+Ü
+7* 7(@
+%33"+engclasses.beans.AppuntamentoBean#<init>()V*F
+
+__unknown_file (*
+(
+%32!engclasses.beans.AppuntamentoBean*
+130*ˇ
+132" "(aw
+u
+" "(a
+%17java.lang.String"__concat*
+" "()
+‚úì Modalit√†: *%
+", "(a
+
+%14java.lang.String⁄◊
+" "(b
+%18void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%12java.io.PrintStream*5
+
+__unknown_file (
+
+%17java.lang.String2println(Ljava/lang/String;)V
+T
+& &(
+%19java.lang.String"__id*)
+
+__unknown_file (
+	client00175
+%$ %(.
+%20model.Consulente"model.Consulenteû
+õ
+%  -(	
+%21"òmodel.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*5
+
+__unknown_file (
+
+%20model.Consulente*5
+
+__unknown_file (
+
+%19java.lang.String*+
+
+__unknown_file (
+mario_rossi*1
+
+__unknown_file (
+mario@example.com*+
+
+__unknown_file (
+password123*%
+
+__unknown_file (	
+Mario*%
+
+__unknown_file (	
+Rossi*$
+
+__unknown_file (
+Romai
+g
+% -(
+
+
+utenteDemomodel.Consulente"__id*5
+
+__unknown_file (
+
+%20model.Consulente·ﬁ
+. .(,
+%22void".misc.Session#setUtenteLoggato(Lmodel/Utente;)V*5
+
+__unknown_file (
+
+sessionmisc.Session*<
+
+__unknown_file ( 
+
+
+utenteDemomodel.Consulente2 setUtenteLoggato(Lmodel/Utente;)R
+P
+/ /(
+%23java.io.PrintStream"__id*"
+
+__unknown_file (
+""°û
+/2 /(J
+%24java.lang.String",model.Utente#getUsername()Ljava/lang/String;*<
+
+__unknown_file ( 
+
+
+utenteDemomodel.Consulente2getUsername()|
+z
+/ /(J
+%25java.lang.String"__concat*$
+/ /(/
+‚úì Utente loggato: *%
+/2 /(J
+
+%24java.lang.Stringj
+h
+/ /(Q
+%26java.lang.String"__concat*%
+/ /(J
+
+%25java.lang.String*
+/M /(Q
+\n⁄◊
+/ /(R
+%27void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%23java.io.PrintStream*5
+
+__unknown_file (
+
+%26java.lang.String2println(Ljava/lang/String;)sq
+20 2(F5
+%28.controllers.applicativo.AppuntamentoController".controllers.applicativo.AppuntamentoControllerË
+Â
+2, 2(O
+%29"Fcontrollers.applicativo.AppuntamentoController#<init>(Lmisc/Session;)V*S
+
+__unknown_file (7
+5
+%28.controllers.applicativo.AppuntamentoController*5
+
+__unknown_file (
+
+sessionmisc.Session¶
+£
+2 2(P<
+
+controller.controllers.applicativo.AppuntamentoController"__id*S
+
+__unknown_file (7
+5
+%28.controllers.applicativo.AppuntamentoControllerR
+P
+5 5(
+%30java.io.PrintStream"__id*"
+
+__unknown_file (
+""Û
+5 5(L
+%31void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%30java.io.PrintStream*N
+
+__unknown_file (20
+.--- TEST 1: Prenotazione Consulenza ONLINE ---2println(Ljava/lang/String;)*
+131*z
+133"Z "(`b
+`
+"Z "(`
+%14java.lang.String"__id*5
+
+__unknown_file (
+
+%16java.lang.String*
+132*z
+134"H "(Wb
+`
+"H "(W
+%14java.lang.String"__id*5
+
+__unknown_file (
+
+%15java.lang.String*
+132*ï
+135 (Q
+O
+ (
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""w
+u
+ (:
+%1java.lang.String"__id*K
+
+__unknown_file (/-
++===========================================◊‘
+ (;
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*4
+
+__unknown_file (
+
+%1java.lang.String2println(Ljava/lang/String;)Q
+O
+ (
+%3java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÓÎ
+ (I
+
+%4void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%3java.io.PrintStream*K
+
+__unknown_file (/-
++   TEST SISTEMA PRENOTAZIONE CONSULENZE    2println(Ljava/lang/String;)Q
+O
+ (
+%5java.io.PrintStream"__id*"
+
+__unknown_file (
+""w
+u
+ (:
+%6java.lang.String"__id*K
+
+__unknown_file (/-
++===========================================h
+f
+ (A
+%7java.lang.String"__concat*$
+ (:
+
+%6java.lang.String*
+= (A
+\n◊‘
+ (B
+
+%8void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%5java.io.PrintStream*4
+
+__unknown_file (
+
+%7java.lang.String2println(Ljava/lang/String;)x
+v
+   (/
+%9misc.Session"(misc.Session#getInstance()Lmisc/Session;*,
+
+__unknown_file ("
+misc.Session]
+[
+   (0
+sessionmisc.Session"__id*0
+
+__unknown_file (
+
+%9misc.SessionS
+Q
+!# !(9
+%10misc.PersistenceType"__id*"
+
+__unknown_file (
+""ÚÔ
+! !(:
+%11void"8misc.Session#setPersistenceType(Lmisc/PersistenceType;)V*5
+
+__unknown_file (
+
+sessionmisc.Session*9
+
+__unknown_file (
+
+%10misc.PersistenceType2*setPersistenceType(Lmisc/PersistenceType;)R
+P
+" "(
+%12java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÜÉ
+"- "(E
+%13boolean"misc.Session#isModalitaDemo()Z*5
+
+__unknown_file (
+
+sessionmisc.Session2isModalitaDemo()*
+
+134
+133*”
+30
+£ £(U
+S
+
+£ £(
+%242java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÉÄ
+
+£ £(
+%243void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%242java.io.PrintStream2	println()U
+S
+
+¶ ¶(
+%244java.io.PrintStream"__id*"
+
+__unknown_file (
+""˚¯
+
+¶ ¶(P
+%245void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%244java.io.PrintStream*R
+
+__unknown_file (64
+2--- TEST 7: Istruzioni Preparazione Consulenza ---2println(Ljava/lang/String;)ÑÅ
+
+ß ß(#
+%246boolean"java.util.List#isEmpty()Z*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List2	isEmpty()*
+28
+29*∞
+31
+ú ú(eﬂ‹
+
+ú ú(e
+%232void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%228java.io.PrintStream*6
+
+__unknown_file (
+
+%229java.lang.String2println(Ljava/lang/String;)ÙÒ
+
+ü* ü(T)
+%233!engclasses.beans.AppuntamentoBean"ucontrollers.applicativo.AppuntamentoController#getAppuntamento(Ljava/lang/String;)Lengclasses/beans/AppuntamentoBean;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idDaCancellarejava.lang.String2#getAppuntamento(Ljava/lang/String;)è
+å
+
+ü ü(U/
+
+aggiornato!engclasses.beans.AppuntamentoBean"__id*G
+
+__unknown_file (+
+)
+%233!engclasses.beans.AppuntamentoBeanU
+S
+
+† †(
+%234java.io.PrintStream"__id*"
+
+__unknown_file (
+""⁄◊
+
+†3 †(S
+%235java.lang.String"Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+aggiornato!engclasses.beans.AppuntamentoBean2getStatoDescrizione()
+}
+
+† †(S
+%236java.lang.String"__concat*!
+
+† †(0
+  Nuovo stato: *(
+
+†3 †(S
+
+%235java.lang.Stringﬂ‹
+
+† †(T
+%237void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%234java.io.PrintStream*6
+
+__unknown_file (
+
+%236java.lang.String2println(Ljava/lang/String;)U
+S
+
+° °(
+%238java.io.PrintStream"__id*"
+
+__unknown_file (
+""‡›
+
+°. °(Q
+%239java.lang.String"Lengclasses.beans.AppuntamentoBean#getMotivoCancellazione()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+aggiornato!engclasses.beans.AppuntamentoBean2getMotivoCancellazione()z
+x
+
+° °(Q
+%240java.lang.String"__concat*
+
+° °(+
+
+  Motivo: *(
+
+°. °(Q
+
+%239java.lang.Stringﬂ‹
+
+° °(R
+%241void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%238java.io.PrintStream*6
+
+__unknown_file (
+
+%240java.lang.String2println(Ljava/lang/String;)*
+30*~
+32
+úK ú(df
+d
+
+úK ú(d
+%229java.lang.String"__id*6
+
+__unknown_file (
+
+%231java.lang.String*
+31*~
+33
+ú, ú(Hf
+d
+
+ú, ú(H
+%229java.lang.String"__id*6
+
+__unknown_file (
+
+%230java.lang.String*
+31*ä
+34
+ö$ ö(0¶
+£
+
+ö$ ö(7)
+%225!engclasses.beans.AppuntamentoBean"
+__arrayGet*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List* 
+
+__unknown_file (2–Õ
+
+ö$ ö(K
+%226java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*G
+
+__unknown_file (+
+)
+%225!engclasses.beans.AppuntamentoBean2getIdAppuntamento()p
+n
+
+ö ö(L"
+idDaCancellarejava.lang.String"__id*6
+
+__unknown_file (
+
+%226java.lang.String®•
+
+õ! õ(m
+%227boolean"qcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)Z*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idDaCancellarejava.lang.String*2
+
+__unknown_file (
+Test cancellazione2AcancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)U
+S
+
+ú ú(
+%228java.io.PrintStream"__id*"
+
+__unknown_file (
+""*
+32
+33*±
+35
+ï ï(U
+S
+
+ï ï(
+%219java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÉÄ
+
+ï ï(
+%220void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%219java.io.PrintStream2	println()U
+S
+
+ò ò(
+%221java.io.PrintStream"__id*"
+
+__unknown_file (
+""Û
+
+ò ò(H
+%222void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%221java.io.PrintStream*J
+
+__unknown_file (.,
+*--- TEST 6: Cancellazione Appuntamento ---2println(Ljava/lang/String;)yw
+
+ô ô(
+%223int"java.util.List#size()I*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List2size()p
+n
+
+ô ô(#
+%224boolean"	__compare*
+
+ô  ô(!
+>*
+
+ô ô(
+
+%223int*
+
+ô" ô(#2*
+30
+34*ò
+36
+è è(`ﬂ‹
+
+è è(`
+%213void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%209java.io.PrintStream*6
+
+__unknown_file (
+
+%210java.lang.String2println(Ljava/lang/String;)ÙÒ
+
+í* í(T)
+%214!engclasses.beans.AppuntamentoBean"ucontrollers.applicativo.AppuntamentoController#getAppuntamento(Ljava/lang/String;)Lengclasses/beans/AppuntamentoBean;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idDaConfermarejava.lang.String2#getAppuntamento(Ljava/lang/String;)è
+å
+
+í í(U/
+
+aggiornato!engclasses.beans.AppuntamentoBean"__id*G
+
+__unknown_file (+
+)
+%214!engclasses.beans.AppuntamentoBeanU
+S
+
+ì ì(
+%215java.io.PrintStream"__id*"
+
+__unknown_file (
+""⁄◊
+
+ì3 ì(S
+%216java.lang.String"Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+aggiornato!engclasses.beans.AppuntamentoBean2getStatoDescrizione()
+}
+
+ì ì(S
+%217java.lang.String"__concat*!
+
+ì ì(0
+  Nuovo stato: *(
+
+ì3 ì(S
+
+%216java.lang.Stringﬂ‹
+
+ì ì(T
+%218void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%215java.io.PrintStream*6
+
+__unknown_file (
+
+%217java.lang.String2println(Ljava/lang/String;)*
+35*~
+37
+èK è(_f
+d
+
+èK è(_
+%210java.lang.String"__id*6
+
+__unknown_file (
+
+%212java.lang.String*
+36*~
+38
+è, è(Hf
+d
+
+è, è(H
+%210java.lang.String"__id*6
+
+__unknown_file (
+
+%211java.lang.String*
+36*¢
+39
+ç$ ç(0§
+°
+
+ç$ ç(7)
+%206!engclasses.beans.AppuntamentoBean"
+__arrayGet*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List*
+
+__unknown_file (2 –Õ
+
+ç$ ç(K
+%207java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*G
+
+__unknown_file (+
+)
+%206!engclasses.beans.AppuntamentoBean2getIdAppuntamento()p
+n
+
+ç ç(L"
+idDaConfermarejava.lang.String"__id*6
+
+__unknown_file (
+
+%207java.lang.String¬ø
+
+é! é(P
+%208boolean"Xcontrollers.applicativo.AppuntamentoController#confermaAppuntamento(Ljava/lang/String;)Z*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idDaConfermarejava.lang.String2(confermaAppuntamento(Ljava/lang/String;)U
+S
+
+è è(
+%209java.io.PrintStream"__id*"
+
+__unknown_file (
+""*
+37
+38*∆
+40
+à à(U
+S
+
+à à(
+%201java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÉÄ
+
+à à(
+%202void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%201java.io.PrintStream2	println()U
+S
+
+ã ã(
+%203java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÓÎ
+
+ã ã(C
+%204void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%203java.io.PrintStream*E
+
+__unknown_file ()'
+%--- TEST 5: Conferma Appuntamento ---2println(Ljava/lang/String;)ÑÅ
+
+å å(#
+%205boolean"java.util.List#isEmpty()Z*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List2	isEmpty()*
+35
+39*®
+41
+Ñ Ñ(!b
+`
+
+Ñ Ñ(!(
+app!engclasses.beans.AppuntamentoBean"__id*"
+
+__unknown_file (
+""ß
+§
+
+Ñ Ñ(!(
+app!engclasses.beans.AppuntamentoBean"
+__arrayGet*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List*"
+
+__unknown_file (
+""*
+40
+42*ö
+42
+Ö Ö(U
+S
+
+Ö Ö(
+%187java.io.PrintStream"__id*"
+
+__unknown_file (
+""œÃ
+
+Ö( Ö(?
+%188java.lang.String"Gengclasses.beans.AppuntamentoBean#getDataFormattata()Ljava/lang/String;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2getDataFormattata()v
+t
+
+Ö Ö(?
+%189java.lang.String"__concat*
+
+Ö Ö(%
+
+  ‚Ä¢ *(
+
+Ö( Ö(?
+
+%188java.lang.Stringq
+o
+
+Ö Ö(E
+%190java.lang.String"__concat*(
+
+Ö Ö(?
+
+%189java.lang.String*
+
+ÖB Ö(E
+ ”–
+
+ÖH Ö(a
+%191java.lang.String"Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2getIntervalloOrario()á
+Ñ
+
+Ö Ö(a
+%192java.lang.String"__concat*(
+
+Ö Ö(E
+
+%190java.lang.String*(
+
+ÖH Ö(a
+
+%191java.lang.Strings
+q
+
+Ö Ü(
+%193java.lang.String"__concat*(
+
+Ö Ö(a
+
+%192java.lang.String*
+
+Ü Ü(
+ - Â‚
+
+Ü Ü(>
+%194java.lang.String"Rengclasses.beans.AppuntamentoBean#getTipoConsulenzaDescrizione()Ljava/lang/String;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2getTipoConsulenzaDescrizione()á
+Ñ
+
+Ö Ü(>
+%195java.lang.String"__concat*(
+
+Ö Ü(
+
+%193java.lang.String*(
+
+Ü Ü(>
+
+%194java.lang.Stringr
+p
+
+Ö Ü(E
+%196java.lang.String"__concat*(
+
+Ö Ü(>
+
+%195java.lang.String*
+
+ÜA Ü(E
+ [”–
+
+ÜH Ü(a
+%197java.lang.String"Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;*F
+
+__unknown_file (*
+(
+app!engclasses.beans.AppuntamentoBean2getStatoDescrizione()á
+Ñ
+
+Ö Ü(a
+%198java.lang.String"__concat*(
+
+Ö Ü(E
+
+%196java.lang.String*(
+
+ÜH Ü(a
+
+%197java.lang.Stringq
+o
+
+Ö Ü(g
+%199java.lang.String"__concat*(
+
+Ö Ü(a
+
+%198java.lang.String*
+
+Üd Ü(g
+]ﬂ‹
+
+Ö Ü(h
+%200void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%187java.io.PrintStream*6
+
+__unknown_file (
+
+%199java.lang.String2println(Ljava/lang/String;)*
+41*É
+
+44
+Å Å(U
+S
+
+Å Å(
+%180java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÚÔ
+
+Å Å(G
+%181void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%180java.io.PrintStream*I
+
+__unknown_file (-+
+)--- TEST 4: Lista Appuntamenti Utente ---2println(Ljava/lang/String;)ÑÅ
+
+Ç. Ç(X
+%182java.util.List"^controllers.applicativo.AppuntamentoController#getAppuntamentiUtenteCorrente()Ljava/util/List;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController2getAppuntamentiUtenteCorrente()j
+h
+
+Ç Ç(Y
+appuntamentijava.util.List"__id*4
+
+__unknown_file (
+
+%182java.util.ListU
+S
+
+É É(
+%183java.io.PrintStream"__id*"
+
+__unknown_file (
+""yw
+
+É5 É(H
+%184int"java.util.List#size()I*<
+
+__unknown_file ( 
+
+appuntamentijava.util.List2size()x
+v
+
+É É(H
+%185java.lang.String"__concat*'
+
+É É(2
+Totale appuntamenti: *
+
+É5 É(H
+
+%184intﬂ‹
+
+É É(I
+%186void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%183java.io.PrintStream*6
+
+__unknown_file (
+
+%185java.lang.String2println(Ljava/lang/String;)*
+41*Ï
+47{ {(S
+Q
+{ {(
+%173java.io.PrintStream"__id*"
+
+__unknown_file (
+""Ä~
+{ {( 
+%174void"java.io.PrintStream#println()V*9
+
+__unknown_file (
+
+%173java.io.PrintStream2	println()*
+44*È
+48z z(Ls
+q
+z z(L
+%171java.lang.String"__concat*
+z z(*
+	  Stato: *&
+z- z(L
+
+%170java.lang.String›⁄
+z z(M
+%172void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%169java.io.PrintStream*6
+
+__unknown_file (
+
+%171java.lang.String2println(Ljava/lang/String;)*
+47*√
+49z z(S
+Q
+z z(
+%169java.io.PrintStream"__id*"
+
+__unknown_file (
+""◊‘
+z- z(L
+%170java.lang.String"Iengclasses.beans.AppuntamentoBean#getStatoDescrizione()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getStatoDescrizione()*
+48*È
+50y y(As
+q
+y y(A
+%167java.lang.String"__concat*
+y y(*
+	  Luogo: *&
+y- y(A
+
+%166java.lang.String›⁄
+y y(B
+%168void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%165java.io.PrintStream*6
+
+__unknown_file (
+
+%167java.lang.String2println(Ljava/lang/String;)*
+49*≠
+51y y(S
+Q
+y y(
+%165java.io.PrintStream"__id*"
+
+__unknown_file (
+""¡æ
+y- y(A
+%166java.lang.String">engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2
+getLuogo()*
+50*—
+52x x(Ih
+f
+x x(I
+%162java.lang.String"__concat*
+x x(+
+
+  Durata: *
+x. x(I
+
+%161longq
+o
+x x(U
+%163java.lang.String"__concat*&
+x x(I
+
+%162java.lang.String*
+xL x(U	
+ minuti›⁄
+x x(V
+%164void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%160java.io.PrintStream*6
+
+__unknown_file (
+
+%163java.lang.String2println(Ljava/lang/String;)*
+51*û
+53x x(S
+Q
+x x(
+%160java.io.PrintStream"__id*"
+
+__unknown_file (
+""≤Ø
+x. x(I
+%161long"4engclasses.beans.AppuntamentoBean#getDurataMinuti()J*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getDurataMinuti()*
+52*Í
+54w w(Mt
+r
+w w(M
+%158java.lang.String"__concat*
+w w(+
+
+  Orario: *&
+w. w(M
+
+%157java.lang.String›⁄
+w w(N
+%159void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%156java.io.PrintStream*6
+
+__unknown_file (
+
+%158java.lang.String2println(Ljava/lang/String;)*
+53*√
+55w w(S
+Q
+w w(
+%156java.io.PrintStream"__id*"
+
+__unknown_file (
+""◊‘
+w. w(M
+%157java.lang.String"Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getIntervalloOrario()*
+54*Ë
+56v v(Ir
+p
+v v(I
+%154java.lang.String"__concat*
+v v()
+
+  Data: *&
+v, v(I
+
+%153java.lang.String›⁄
+v v(J
+%155void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%152java.io.PrintStream*6
+
+__unknown_file (
+
+%154java.lang.String2println(Ljava/lang/String;)*
+55*ø
+57v v(S
+Q
+v v(
+%152java.io.PrintStream"__id*"
+
+__unknown_file (
+""”–
+v, v(I
+%153java.lang.String"Gengclasses.beans.AppuntamentoBean#getDataFormattata()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getDataFormattata()*
+56*Ê
+58u u(Gp
+n
+u u(G
+%150java.lang.String"__concat*
+u u('
+
+  ID: *&
+u* u(G
+
+%149java.lang.String›⁄
+u u(H
+%151void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%148java.io.PrintStream*6
+
+__unknown_file (
+
+%150java.lang.String2println(Ljava/lang/String;)*
+57*ø
+59u u(S
+Q
+u u(
+%148java.io.PrintStream"__id*"
+
+__unknown_file (
+""”–
+u* u(G
+%149java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*L
+
+__unknown_file (0
+.
+	risultato!engclasses.beans.AppuntamentoBean2getIdAppuntamento()*
+58*‰
+60s s(Så
+â
+s s(S.
+	risultato!engclasses.beans.AppuntamentoBean"__id*G
+
+__unknown_file (+
+)
+%145!engclasses.beans.AppuntamentoBeanS
+Q
+t t(
+%146java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÈÊ
+t t(B
+%147void"0java.io.PrintStream#println(Ljava/lang/String;)V*9
+
+__unknown_file (
+
+%146java.io.PrintStream*B
+
+__unknown_file (&$
+"‚úì Appuntamento SUL CAMPO creato!2println(Ljava/lang/String;)*
+59*¿
+61s) s(3©¶
+s) s(R)
+%145!engclasses.beans.AppuntamentoBean"äcontrollers.applicativo.AppuntamentoController#prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;*Z
+
+__unknown_file (>
+<
+
+controller.controllers.applicativo.AppuntamentoController*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean28prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)*
+60*ß
+62q q(êç
+q q(I
+%144void">engclasses.beans.AppuntamentoBean#setNote(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*H
+
+__unknown_file (,*
+(Ispezione terreno per nuova coltivazione2setNote(Ljava/lang/String;)*
+61*∂
+63p p(üú
+p p(W
+%143void"?engclasses.beans.AppuntamentoBean#setLuogo(Ljava/lang/String;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*U
+
+__unknown_file (97
+5Azienda Agricola Verdi, Strada Provinciale 45, Latina2setLuogo(Ljava/lang/String;)*
+62*§
+64o o(5çä
+o o(5
+%142void"Dengclasses.beans.AppuntamentoBean#setOraFine(Ljava/time/LocalTime;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%141java.time.LocalTime2!setOraFine(Ljava/time/LocalTime;)*
+63*È
+65o o(“
+œ
+o! o(4
+%141java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2*
+
+__unknown_file (2 *
+64*®
+66n n(6ëé
+n n(6
+%140void"Fengclasses.beans.AppuntamentoBean#setOraInizio(Ljava/time/LocalTime;)V*L
+
+__unknown_file (0
+.
+	beanCampo!engclasses.beans.AppuntamentoBean*9
+
+__unknown_file (
+
+%139java.time.LocalTime2#setOraInizio(Ljava/time/LocalTime;)*
+65*È
+67n n(“
+œ
+n# n(5
+%139java.time.LocalTime"/java.time.LocalTime#of(II)Ljava/time/LocalTime;*3
+
+__unknown_file ("
+java.time.LocalTime* 
+
+__unknown_file (2	*
+
+__unknown_file (2 *
+66:&
+ ()
+argsjava.lang.String[]B"
+test.TestPrenotazioneH

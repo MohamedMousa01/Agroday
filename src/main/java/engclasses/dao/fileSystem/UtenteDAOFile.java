@@ -1,11 +1,12 @@
-package engclasses.dao.fileSystem;
+package engclasses.dao.filesystem;
 
 import engclasses.dao.api.UtenteDAO;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import misc.PersistenceType;
-import model.Agricoltore;
 import model.Utente;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -18,6 +19,7 @@ import java.util.List;
 
 public class UtenteDAOFile implements UtenteDAO {
 
+    private static final Logger logger = LoggerFactory.getLogger(UtenteDAOFile.class);
     private static final Path FILE = Paths.get("utenti.dat");
 
     @Override
@@ -47,9 +49,9 @@ public class UtenteDAOFile implements UtenteDAO {
         try {
             List<Utente> utenti = caricaDaFile();
             utenti.add(utente);
-            System.out.println("DEBUG: Aggiunto utente al buffer per file: " + utente.getUsername());
+            logger.debug("Aggiunto utente al buffer per file: {}", utente.getUsername());
             salvaSuFile(utenti);
-            System.out.println("DEBUG: Utente salvato su file: " + utente.getUsername());
+            logger.debug("Utente salvato su file: {}", utente.getUsername());
         } catch (IOException e) {
             throw new DatabaseOperazioneFallitaException("Errore durante l'aggiunta dell'utente al file.", e);
         }
@@ -59,10 +61,14 @@ public class UtenteDAOFile implements UtenteDAO {
     @Override
     public Utente selezionaUtente(String username, String password) throws DatabaseConnessioneFallitaException, DatabaseOperazioneFallitaException {
         try {
-            System.out.println("DEBUG: Cerca utente in file: username=" + username + ", password=" + password);
+            logger.debug("Cerca utente in file: username={}", username);
             List<Utente> utenti = caricaDaFile();
-            System.out.println("DEBUG: Utenti caricati da file: " + utenti.size());
-            utenti.forEach(u -> System.out.println("DEBUG: Utente in lista (file): " + u.getUsername() + ", pass=" + u.getPassword() + ", equals user: " + u.getUsername().equals(username) + ", equals pass: " + u.getPassword().equals(password)));
+            logger.debug("Utenti caricati da file: {}", utenti.size());
+            
+            if (logger.isTraceEnabled()) {
+                utenti.forEach(u -> logger.trace("Utente in lista (file): {}, pass={}, equals user: {}, equals pass: {}", 
+                    u.getUsername(), u.getPassword(), u.getUsername().equals(username), u.getPassword().equals(password)));
+            }
 
             Utente foundUtente = utenti.stream()
                     .filter(u -> u.getUsername().equals(username) && u.getPassword().equals(password))
@@ -70,27 +76,49 @@ public class UtenteDAOFile implements UtenteDAO {
                     .orElse(null);
 
             if (foundUtente != null) {
-                System.out.println("DEBUG: Utente trovato su file: " + foundUtente.getUsername());
+                logger.debug("Utente trovato su file: {}", foundUtente.getUsername());
             } else {
-                System.out.println("DEBUG: Utente NON trovato su file con persistenza file.");
+                logger.debug("Utente NON trovato su file con persistenza file");
             }
             return foundUtente;
         } catch (IOException e) {
-            System.err.println("DEBUG ERROR: IOException in selezionaUtente (file): " + e.getMessage());
-            e.printStackTrace();
             throw new DatabaseOperazioneFallitaException("Errore durante la selezione dell'utente dal file per login.", e);
         }
     }
 
 
+    @Override
     public boolean aggiornaUtente(Utente utenteAggiornato, boolean persistence){
-        return true;
+        try {
+            List<Utente> utenti = caricaDaFile();
+            boolean trovato = false;
+            
+            for (int i = 0; i < utenti.size(); i++) {
+                if (utenti.get(i).getIdUtente().equals(utenteAggiornato.getIdUtente())) {
+                    utenti.set(i, utenteAggiornato);
+                    trovato = true;
+                    break;
+                }
+            }
+            
+            if (!trovato) {
+                return false;
+            }
+            
+            if (persistence) {
+                salvaSuFile(utenti);
+            }
+            
+            return true;
+        } catch (IOException e) {
+            logger.error("Errore durante l'aggiornamento dell'utente", e);
+            return false;
+        }
     }
 
-
     public boolean aggiornaUtente(Utente utente) {
-        // leggi → modifica → riscrivi
-        return true;
+        // leggi → modifica → riscrivi (con persistenza immediata)
+        return aggiornaUtente(utente, true);
     }
 
 
@@ -110,21 +138,15 @@ public class UtenteDAOFile implements UtenteDAO {
             return (List<Utente>) ois.readObject();
 
         } catch (IOException | ClassNotFoundException e) {
-            e.printStackTrace(); // Added for debugging
             throw new IOException("Errore durante il caricamento degli utenti dal file.", e);
         }
     }
 
 
     private void salvaSuFile(List<Utente> utenti) throws IOException {
-
         try (ObjectOutputStream oos =
                      new ObjectOutputStream(Files.newOutputStream(FILE))) {
-
             oos.writeObject(utenti);
-
-        } catch (IOException e) {
-            throw e; // Rilancia IOException
         }
     }
 

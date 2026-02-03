@@ -1,6 +1,5 @@
 package controllers.applicativo;
 
-import engclasses.beans.AnnuncioBean;
 import engclasses.beans.PartecipazioneBean;
 import engclasses.dao.api.AnnuncioDAO;
 import engclasses.dao.api.PartecipazioneDAO;

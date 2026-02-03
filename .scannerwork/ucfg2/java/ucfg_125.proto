@@ -1,16 +1,139 @@
 
-,model.Utente#getIdUtente()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.javaF F("1*›
-1G G(f
-d
-G G(
-%0java.lang.String"__id*:
+Åengclasses.pattern.Factory.AppuntamentoSulCampoFactory#creaAppuntamento(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Lmodel/Appuntamento;u
+k/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/Factory/AppuntamentoSulCampoFactory.java (("startingBlock*þ	
+startingBlock( (7
+
+ (
+%2"
+__annotate*2
 
-__unknown_file (*
-model.Utente"
-
-idUtente"$
-G G(
-
-%0java.lang.StringB
-model.UtenteH
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	idClientejava.lang.String]
+[
+0 (9
+	idClientejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2“
+
+ (
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String`
+^
+B (N 
+idConsulentejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3›
+˜
+ (
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTimeh
+f
+8 (E(
+dataOraIniziojava.time.LocalDateTime"__annotation*"
+
+__unknown_file (
+
+%4™
+–
+ (
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*D
+
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTimef
+d
+U (`&
+dataOraFinejava.time.LocalDateTime"__annotation*"
+
+__unknown_file (
+
+%5Œ
+‰
+ (
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+luogojava.lang.StringY
+W
+1 (6
+luogojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*²
+1 (JH
+ (' 
+%0model.AppuntamentoSulCampo"model.AppuntamentoSulCampo¦
+£
+ (K
+%1"Œmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%0model.AppuntamentoSulCampo*;
+
+__unknown_file (
+
+	idClientejava.lang.String*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTime*D
+
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTime*7
+
+__unknown_file (
+
+luogojava.lang.String".
+ (L"
+ 
+%0model.AppuntamentoSulCampo:)
+) (:
+	idClientejava.lang.String:,
+; (O 
+idConsulentejava.lang.String:4
+* (F(
+dataOraIniziojava.time.LocalDateTime:2
+G (a&
+dataOraFinejava.time.LocalDateTime:%
+* (6
+luogojava.lang.StringB:8
+6engclasses.pattern.Factory.AppuntamentoSulCampoFactoryH

@@ -1,0 +1,466 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133891464*java2.B¬
+;
+6src/main/java/engclasses/beans/PartecipazioneBean.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.beans7
+(
+#engclasses.beans.PartecipazioneBean9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(6:1)-(60:2)14
+
+simple-name15
+
+PartecipazioneBean16
+:
+4engclasses.beans.PartecipazioneBean.idPartecipazione18
+
+field19
+
+private20
+
+(8:5)-(8:37)21
+
+idPartecipazione22
+4
+.engclasses.beans.PartecipazioneBean.idAnnuncio24
+
+(9:5)-(9:31)25
+
+
+idAnnuncio26
+7
+1engclasses.beans.PartecipazioneBean.idAgricoltore28
+
+(10:5)-(10:34)29
+
+idAgricoltore30
+;
+5engclasses.beans.PartecipazioneBean.quantitaRichiesta32
+
+(11:5)-(11:35)33
+
+quantitaRichiesta34
+3
+-engclasses.beans.PartecipazioneBean#<init>()V36
+
+method37
+
+(16:5)-(18:6)38
+
+calls39
+j
+dengclasses.beans.PartecipazioneBean#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V41
+
+(21:5)-(26:6)42
+
+
+uses43
+
+
+references44
+Q
+Kengclasses.beans.PartecipazioneBean#getIdPartecipazione()Ljava/lang/String;46
+
+(29:5)-(31:6)47
+
+getIdPartecipazione48
+R
+Lengclasses.beans.PartecipazioneBean#setIdPartecipazione(Ljava/lang/String;)V50
+
+(33:5)-(35:6)51
+
+setIdPartecipazione52
+K
+Eengclasses.beans.PartecipazioneBean#getIdAnnuncio()Ljava/lang/String;54
+
+(37:5)-(39:6)55
+
+getIdAnnuncio56
+L
+Fengclasses.beans.PartecipazioneBean#setIdAnnuncio(Ljava/lang/String;)V58
+
+(41:5)-(43:6)59
+
+setIdAnnuncio60
+N
+Hengclasses.beans.PartecipazioneBean#getIdAgricoltore()Ljava/lang/String;62
+
+(45:5)-(47:6)63
+
+getIdAgricoltore64
+O
+Iengclasses.beans.PartecipazioneBean#setIdAgricoltore(Ljava/lang/String;)V66
+
+(49:5)-(51:6)67
+
+setIdAgricoltore68
+A
+;engclasses.beans.PartecipazioneBean#getQuantitaRichiesta()I70
+
+(53:5)-(55:6)71
+
+getQuantitaRichiesta72
+B
+<engclasses.beans.PartecipazioneBean#setQuantitaRichiesta(I)V74
+
+(57:5)-(59:6)75
+
+setQuantitaRichiesta76J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j›	
+M
+53G
+535437 *
+1% %( 28:5B$
+
+
+11
+12
+
+
+13
+55
+
+
+15
+56
+M
+57G
+575837 *
+1) )(28:5B$
+
+
+11
+12
+
+
+13
+59
+
+
+15
+60
+M
+49G
+495037 *
+1! !($28:5B$
+
+
+11
+12
+
+
+13
+51
+
+
+15
+52
+M
+73G
+737437 *
+19 9(%28:5B$
+
+
+11
+12
+
+
+13
+75
+
+
+15
+76
+G
+8B
+8910 *
+1 ( :5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+27G
+272819 *
+1
+ 
+(!28:5B$
+
+
+11
+20
+
+
+13
+29
+
+
+15
+30
+M
+40G
+404137 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+42
+
+
+15
+16
+M
+35G
+353637 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+38
+
+
+15
+16
+M
+17G
+171819 *
+1 ($28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+M
+61G
+616237 *
+1- -(#28:5B$
+
+
+11
+12
+
+
+13
+63
+
+
+15
+64
+M
+65G
+656637 *
+11 1(!28:5B$
+
+
+11
+12
+
+
+13
+67
+
+
+15
+68
+M
+23G
+232419 *
+1	 	(28:5B$
+
+
+11
+20
+
+
+13
+25
+
+
+15
+26
+M
+69G
+697037 *
+15 5($28:5B$
+
+
+11
+12
+
+
+13
+71
+
+
+15
+72
+M
+31G
+313219 *
+1 ("28:5B$
+
+
+11
+20
+
+
+13
+33
+
+
+15
+34
+M
+45G
+454637 *
+1 (&28:5B$
+
+
+11
+12
+
+
+13
+47
+
+
+15
+48r˜
+
+35839*
+1 (
+
+40839*
+1 (
+
+40843*
+1	 (
+
+40844*
+1	 (
+
+401744*
+1 (
+
+40843*
+1	 (
+
+40844*
+1	 (
+
+402344*
+1 (
+
+40843*
+1	 (
+
+40844*
+1	 (
+
+402744*
+1 (
+
+40843*
+1	 (
+
+40844*
+1	 (
+
+403144*
+1 (
+
+451744*
+1 ( 
+
+49843*
+1"	 "(
+
+49844*
+1"	 "(
+
+491744*
+1" "(
+
+532344*
+1& &(
+
+57843*
+1*	 *(
+
+57844*
+1*	 *(
+
+572344*
+1* *(
+
+612744*
+1. .(
+
+65843*
+12	 2(
+
+65844*
+12	 2(
+
+652744*
+12 2(
+
+693144*
+16 6(!
+
+73843*
+1:	 :(
+
+73844*
+1:	 :(
+
+733144*
+1: :(

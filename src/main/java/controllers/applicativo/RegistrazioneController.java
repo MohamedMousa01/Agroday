@@ -7,17 +7,21 @@ import engclasses.dao.factory.DAOFactory;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.RegistrazioneFallitaException;
-import engclasses.pattern.Factory.UtenteFactory;
-import engclasses.pattern.Factory.UtenteFactoryProvider;
+import engclasses.pattern.factory.UtenteFactory;
+import engclasses.pattern.factory.UtenteFactoryProvider;
 import misc.PersistenceType;
 import misc.Session;
 import misc.TipoUtente;
 import model.Utente;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.SQLException;
 import java.util.UUID;
 
 public class RegistrazioneController {
+
+    private static final Logger logger = LoggerFactory.getLogger(RegistrazioneController.class);
 
     private final Session session;
     private String idUtente;
@@ -43,7 +47,7 @@ public class RegistrazioneController {
         try {
             verificaUnicita(bean);
         } catch (SQLException e) {
-            e.printStackTrace(); // Added for debugging
+            logger.error("Errore durante la verifica di unicità per username: {}", bean.getUsername(), e);
             throw new DatabaseOperazioneFallitaException(
                     "Errore durante la verifica di unicità", e);
         }
@@ -52,17 +56,17 @@ public class RegistrazioneController {
         //capisco con che tipo di utente ho a che fare, e quale tipo di persistenza è stata scelta
                     TipoUtente tipoUtente = bean.getTipoUtente();
                     PersistenceType tipoPersistenza = bean.getPersistenceType();
-                    System.out.println("DEBUG: RegistrazioneController - TipoUtente: " + tipoUtente + ", Persistenza: " + tipoPersistenza);
+                    logger.debug("RegistrazioneController - TipoUtente: {}, Persistenza: {}", tipoUtente, tipoPersistenza);
 
 
                     // creo la factory giusta dell'utente che mi serve
                     UtenteFactory factory = UtenteFactoryProvider.getFactory(tipoUtente);
                     Utente utente = factory.creaUtente(idUtente, bean);
-                    System.out.println("DEBUG: RegistrazioneController - Utente creato: " + utente.getUsername());
+                    logger.debug("RegistrazioneController - Utente creato: {}", utente.getUsername());
         
                     //salvo in Sessione l'utente, e il tipo di persistenza.  Ma devo salvare il bean o il model????????
                     salvaDatiSessione(utente, tipoPersistenza); // vedi se devi salvare anche il tipo di utente, o renderlo intrinseco al model Utente
-                    System.out.println("DEBUG: RegistrazioneController - Dati sessione salvati.");
+                    logger.debug("RegistrazioneController - Dati sessione salvati.");
         
                     //try {
                         // ora lavoro nella DAO

@@ -1,20 +1,16 @@
 package engclasses.dao.factory;
 
-import engclasses.dao.api.AgricoltoreDAO;
+
 import engclasses.dao.api.AnnuncioDAO;
 import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
-import engclasses.dao.api.VenditoreDAO;
 import engclasses.dao.db.AgricoltoreDAODB;
 import engclasses.dao.db.AnnuncioDAODB;
 import engclasses.dao.db.AppuntamentoDAODB;
 import engclasses.dao.db.ConsulenteDAODB;
 import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
-import engclasses.exceptions.DatabaseConnessioneFallitaException;
-import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import misc.TipoUtente;
-import model.Utente;
 
 
 public class DAODBFactory extends DAOFactory{

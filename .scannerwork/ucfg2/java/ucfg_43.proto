@@ -1,15 +1,16 @@
 
-Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java0 0( "1*°
-11 1({
-y
-1 1(
-%0java.lang.String"__id*O
+,model.Annuncio#getAutore()Ljava/lang/String;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaY Y("1*Ÿ
+1Z Z(j
+h
+Z Z(
+%0java.lang.String"__id*>
 
-__unknown_file (3*1$
-"engclasses.beans.RegistrazioneBean"	
-cognome"$
-1 1(
+__unknown_file ("* 
+model.Annuncio"
+
+nomeAutore"$
+Z Z(
 
-%0java.lang.StringB&$
-"engclasses.beans.RegistrazioneBeanH
+%0java.lang.StringB
+model.AnnuncioH

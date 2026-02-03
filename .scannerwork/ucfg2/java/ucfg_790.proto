@@ -1,0 +1,50 @@
+
+gcontrollers.applicativo.OffertaController#getOfferteRicevutePending(Ljava/lang/String;)Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.javaq q(2"1*õ	
+1r r(!¿¼
+r r(6
+%0java.util.List"`controllers.applicativo.OffertaController#getOfferteRicevute(Ljava/lang/String;)Ljava/util/List;*I
+
+__unknown_file (-+
+)controllers.applicativo.OffertaController*E
+
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.String2&getOfferteRicevute(Ljava/lang/String;)¢Ÿ
+r r(?
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*2
+
+__unknown_file (
+
+%0java.util.List2stream()Ž‹
+r s(+
+%2java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*"
+
+__unknown_file (
+""2&filter(Ljava/util/function/Predicate;)®
+«
+t t(= 
+%3java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors˜•
+r t(>
+%4java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*>
+
+__unknown_file ("
+ 
+%3java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
+r t(?
+
+%4java.util.List:3
+q3 q(M'
+usernameAgricoltorejava.lang.StringB-+
+)controllers.applicativo.OffertaControllerH

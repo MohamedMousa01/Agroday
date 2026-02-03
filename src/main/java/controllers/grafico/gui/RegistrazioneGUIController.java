@@ -12,8 +12,12 @@ import misc.ViewType;
 import engclasses.beans.RegistrazioneBean;
 import controllers.applicativo.RegistrazioneController;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class RegistrazioneGUIController {
+
+    private static final Logger logger = LoggerFactory.getLogger(RegistrazioneGUIController.class);
 
     // ==================== CAMPI FXML ====================
 
@@ -69,10 +73,10 @@ public class RegistrazioneGUIController {
 
     @FXML
     private void handleRegistrazione() {
-        System.out.println("DEBUG: handleRegistrazione() triggered.");
+        logger.debug("handleRegistrazione() triggered.");
 
         try {
-            System.out.println("DEBUG: Calling determinaPersistenza().");
+            logger.debug("Calling determinaPersistenza().");
 
 //            // 1️⃣ Tipo utente
 //            TipoUtente tipoUtente = determinaTipoUtente();
@@ -80,17 +84,17 @@ public class RegistrazioneGUIController {
 
             // 2️⃣ Persistenza
             PersistenceType persistenceType = determinaPersistenza();
-            System.out.println("DEBUG: PersistenceType determined: " + persistenceType + ". Setting session.");
+            logger.debug("PersistenceType determined: {}. Setting session.", persistenceType);
             session.setPersistenceType(persistenceType);
-            System.out.println("DEBUG: Calling creaBean().");
+            logger.debug("Calling creaBean().");
 
             // 3️⃣ Bean
             RegistrazioneBean bean = creaBean();
-            System.out.println("DEBUG: RegistrazioneBean created. Calling registraUtente().");
+            logger.debug("RegistrazioneBean created. Calling registraUtente().");
 
             // 4️⃣ Chiamata controller applicativo
             controllerApplicativo.registraUtente(bean);
-            System.out.println("DEBUG: registraUtente() returned successfully. Showing alert.");
+            logger.info("User registered successfully: {}", bean.getUsername());
 
             // 5️⃣ Feedback e navigazione
             mostraAlert(Alert.AlertType.INFORMATION,
@@ -106,7 +110,7 @@ public class RegistrazioneGUIController {
         } catch (DatabaseConnessioneFallitaException | DatabaseOperazioneFallitaException e) {
             mostraAlert(Alert.AlertType.ERROR, "Errore di sistema", e.getMessage());
         } catch (RuntimeException e) { // Catch all other unexpected runtime exceptions
-            e.printStackTrace();
+            logger.error("Errore inatteso durante la registrazione", e);
             mostraAlert(Alert.AlertType.ERROR, "Errore inatteso", "Si è verificato un errore inatteso: " + e.getMessage());
         }
     }

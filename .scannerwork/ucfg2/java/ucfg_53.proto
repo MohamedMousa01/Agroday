@@ -1,15 +1,18 @@
 
-?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.javaX X("1*®
-1Y Y(y
-w
-Y Y(
-%0java.lang.String"__id*M
++model.Annuncio#getStato()Ljava/lang/String;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java ("1* 
+1
+€ €(g
+e
+
+€ €(
+%0java.lang.String"__id*9
 
-__unknown_file (1*/$
-"engclasses.beans.RegistrazioneBean"
-citta"$
-Y Y(
+__unknown_file (*
+model.Annuncio"
+stato"&
+
+€ €(
 
-%0java.lang.StringB&$
-"engclasses.beans.RegistrazioneBeanH
+%0java.lang.StringB
+model.AnnuncioH

@@ -1,0 +1,157 @@
+
+Lengclasses.beans.AppuntamentoBean#getNomeCompletoCliente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaç ç(("7*´
+2
+í í(Ö
+Ç
+
+í í($
+%10java.lang.String"__id*U
+
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+cognomeClienteåâ
+
+í í(%
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*5
+
+__unknown_file (
+
+%10java.lang.String2append(Ljava/lang/String;)*
+1*é
+3
+ë ë(!˜Ù
+
+ë ë(-
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*!
+
+__unknown_file (
+ 2append(Ljava/lang/String;)*
+2*£
+4
+ë ë(âÜ
+
+ë ë(
+%8boolean"!java.lang.CharSequence#isEmpty()Z*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder2	isEmpty()*
+2
+3*ú
+5
+ê ê(Ñ
+Å
+
+ê ê(
+%6java.lang.String"__id*U
+
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+cognomeCliente|
+z
+
+ê ê("
+%7boolean"	__compare*
+
+ê ê(
+!=*&
+
+ê ê(
+
+%6java.lang.String*
+
+ê ê("
+""*
+4
+1*§
+6
+è! è(#Ä
+~
+
+è+ è(6
+%4java.lang.String"__id*R
+
+__unknown_file (6*4#
+!engclasses.beans.AppuntamentoBean"
+nomeClienteäá
+
+è! è(7
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*4
+
+__unknown_file (
+
+%4java.lang.String2append(Ljava/lang/String;)*
+5*»
+7
+é é(.FD
+
+é é(,
+%0java.lang.StringBuilder"java.lang.StringBuildert
+r
+
+é é(.
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderp
+n
+
+é é(/
+sbjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderÄ
+~
+
+è è(
+%2java.lang.String"__id*R
+
+__unknown_file (6*4#
+!engclasses.beans.AppuntamentoBean"
+nomeCliente|
+z
+
+è è(
+%3boolean"	__compare*
+
+è è(
+!=*&
+
+è è(
+
+%2java.lang.String*
+
+è è(
+""*
+5
+6*‚
+1
+î î(ß§
+
+î î(
+%12java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder2
+toString()"'
+
+î î(
+
+%12java.lang.StringB%#
+!engclasses.beans.AppuntamentoBeanH

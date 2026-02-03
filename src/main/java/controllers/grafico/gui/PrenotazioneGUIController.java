@@ -7,12 +7,15 @@ import engclasses.dao.factory.DAOFactory;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
-import javafx.stage.Stage;
+import misc.CSSConstants;
+import misc.MessageConstants;
 import misc.PersistenceType;
 import misc.Session;
 import misc.TipoConsulenza;
 import model.Consulente;
 import model.Utente;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -23,6 +26,8 @@ import java.util.List;
  * Controller grafico per la prenotazione e modifica di appuntamenti.
  */
 public class PrenotazioneGUIController {
+
+    private static final Logger logger = LoggerFactory.getLogger(PrenotazioneGUIController.class);
 
     @FXML private Label titoloLabel;
     @FXML private ComboBox<String> consulenteCombo;
@@ -93,7 +98,7 @@ public class PrenotazioneGUIController {
         } catch (DatabaseOperazioneFallitaException e) {
             consulenti = new ArrayList<>(); // Initialize to empty list on error
             mostraMessaggio("Errore Caricamento Consulenti: Impossibile caricare l'elenco dei consulenti: " + e.getMessage(), true);
-            e.printStackTrace(); // Stampa stack trace per debug
+            logger.error("Errore durante il caricamento dei consulenti", e);
         }
         
         if (consulenti.isEmpty()) {
@@ -231,13 +236,11 @@ public class PrenotazioneGUIController {
             // Torna alla schermata principale dopo 1.5 secondi
             tornaAllaHome();
 
-        } catch (IllegalArgumentException e) {
-            mostraMessaggio(e.getMessage(), true);
-        } catch (IllegalStateException e) {
+        } catch (IllegalArgumentException | IllegalStateException e) {
             mostraMessaggio(e.getMessage(), true);
         } catch (Exception e) {
-            mostraMessaggio("Errore: " + e.getMessage(), true);
-            e.printStackTrace();
+            mostraMessaggio(MessageConstants.ERRORE_GENERICO + e.getMessage(), true);
+            logger.error("Errore durante la prenotazione/modifica appuntamento", e);
         }
     }
 
@@ -310,7 +313,7 @@ public class PrenotazioneGUIController {
     private void mostraMessaggio(String messaggio, boolean isErrore) {
         messageLabel.setText(messaggio);
         if (isErrore) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
         } else {
             messageLabel.setStyle("-fx-text-fill: green; -fx-font-weight: bold;");
         }

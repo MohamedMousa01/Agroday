@@ -1,0 +1,63 @@
+
+Oview.cli.ProfiloCLIView#chiediNuovoValore(Ljava/lang/String;)Ljava/lang/String;V
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.javaI I(#"1*æ
+1J J(Q
+O
+J J(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""
+}
+J J(7
+%1java.lang.String"__concat*&
+J J(/
+\nâž¤ Inserisci nuovo *'
+J2 J(7
+
+campojava.lang.Stringh
+f
+J J(>
+%2java.lang.String"__concat*$
+J J(7
+
+%1java.lang.String*
+J: J(>
+: ÓÐ
+J J(?
+
+%3void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*4
+
+__unknown_file (
+
+%2java.lang.String2print(Ljava/lang/String;)q
+o
+K K(
+%4java.util.Scanner"__id*D
+
+__unknown_file ((*&
+view.cli.ProfiloCLIView"	
+scanner˜•
+K K(!
+%5java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%4java.util.Scanner2
+nextLine()Ž‹
+K K((
+%6java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%5java.lang.String2trim()"$
+K K()
+
+%6java.lang.String:%
+I$ I(0
+campojava.lang.StringB
+view.cli.ProfiloCLIViewH

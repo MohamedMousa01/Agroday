@@ -1,4 +1,4 @@
-package engclasses.dao.fileSystem;
+package engclasses.dao.filesystem;
 
 import engclasses.dao.api.PartecipazioneDAO;
 import model.Partecipazione;

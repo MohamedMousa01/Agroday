@@ -153,6 +153,8 @@ public class MainAgricoltoreCLIController {
                         annunciView.mostraDettaglioAnnuncio(mieiAnnunci.get(num - 1));
                     }
                 }
+                case 0 -> { } // Torna indietro
+                default -> annunciView.mostraMessaggio("Opzione non valida");
             }
         }
         
@@ -220,6 +222,7 @@ public class MainAgricoltoreCLIController {
                 profiloView.mostraMessaggio("Modifica profilo - Funzionalità in sviluppo");
                 profiloView.attendiInvio();
             }
+            default -> { } // Nessuna azione
         }
     }
 

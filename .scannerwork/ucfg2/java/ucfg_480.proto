@@ -1,0 +1,97 @@
+
+%view.cli.LoginCLIView#chiediAzione()IT
+J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java1 1("1*æ
+12 2(Q
+O
+2 2(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÍÊ
+2 2((
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream**
+
+__unknown_file (
+
+\n1) Login2println(Ljava/lang/String;)Q
+O
+3 3(
+%2java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÓÐ
+3 3(.
+
+%3void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%2java.io.PrintStream*0
+
+__unknown_file (
+2) Registrazione2println(Ljava/lang/String;)Q
+O
+4 4(
+%4java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÊÇ
+4 4(%
+
+%5void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%4java.io.PrintStream*'
+
+__unknown_file (	
+0) Esci2println(Ljava/lang/String;)Q
+O
+5 5(
+%6java.io.PrintStream"__id*"
+
+__unknown_file (
+""Á¾
+5 5(
+
+%7void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%6java.io.PrintStream*"
+
+__unknown_file (
+> 2print(Ljava/lang/String;)o
+m
+6  6('
+%8java.util.Scanner"__id*B
+
+__unknown_file (&*$
+view.cli.LoginCLIView"	
+scanner˜•
+6  6(2
+%9java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%8java.util.Scanner2
+nextLine()³
+°
+6 6(3
+
+%10int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*4
+
+__unknown_file (
+
+%9java.lang.String"
+6 6(4
+""B
+view.cli.LoginCLIViewHX

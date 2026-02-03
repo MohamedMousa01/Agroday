@@ -3,6 +3,8 @@ package engclasses.dao.db;
 import engclasses.dao.api.OffertaDAO;
 import engclasses.pattern.ConnessioneDB;
 import model.Offerta;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.time.LocalDateTime;
@@ -13,6 +15,8 @@ import java.util.List;
  * Implementazione database del DAO per le offerte.
  */
 public class OffertaDAODB implements OffertaDAO {
+
+    private static final Logger logger = LoggerFactory.getLogger(OffertaDAODB.class);
 
     public void creaTabella() {
         String sql = """
@@ -34,7 +38,7 @@ public class OffertaDAODB implements OffertaDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nella creazione tabella: " + e.getMessage());
+            logger.error("Errore nella creazione tabella offerte", e);
         }
     }
 
@@ -60,7 +64,7 @@ public class OffertaDAODB implements OffertaDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nel salvataggio: " + e.getMessage());
+            logger.error("Errore durante il salvataggio offerta", e);
             return false;
         }
     }
@@ -76,14 +80,14 @@ public class OffertaDAODB implements OffertaDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nell'eliminazione: " + e.getMessage());
+            logger.error("Errore durante l'eliminazione offerta", e);
             return false;
         }
     }
 
     @Override
     public Offerta trovaPerId(String idOfferta) {
-        String sql = "SELECT * FROM offerte WHERE id_offerta = ?";
+        String sql = "SELECT id_offerta, id_annuncio, username_venditore, prezzo_al_kg, prezzo_totale, data_offerta, stato FROM offerte WHERE id_offerta = ?";
 
         try (Connection conn = ConnessioneDB.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -96,7 +100,7 @@ public class OffertaDAODB implements OffertaDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nella ricerca per ID: " + e.getMessage());
+            logger.error("Errore nella ricerca offerta per ID", e);
         }
         return null;
     }
@@ -129,14 +133,14 @@ public class OffertaDAODB implements OffertaDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nell'aggiornamento stato: " + e.getMessage());
+            logger.error("Errore durante l'aggiornamento stato offerta", e);
             return false;
         }
     }
 
     @Override
     public List<Offerta> trovaTutte() {
-        String sql = "SELECT * FROM offerte ORDER BY data_offerta DESC";
+        String sql = "SELECT id_offerta, id_annuncio, username_venditore, prezzo_al_kg, prezzo_totale, data_offerta, stato FROM offerte ORDER BY data_offerta DESC";
         List<Offerta> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -148,7 +152,7 @@ public class OffertaDAODB implements OffertaDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nel recupero di tutte le offerte: " + e.getMessage());
+            logger.error("Errore nel recupero di tutte le offerte", e);
         }
         return risultati;
     }
@@ -191,7 +195,7 @@ public class OffertaDAODB implements OffertaDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[OffertaDAODB] Errore nell'esecuzione query: " + e.getMessage());
+            logger.error("Errore durante l'esecuzione query offerte", e);
         }
         return risultati;
     }

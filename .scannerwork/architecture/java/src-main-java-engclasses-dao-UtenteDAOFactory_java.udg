@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1769002669258*java2.B•
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893914*java2.B–
 7
 2src/main/java/engclasses/dao/UtenteDAOFactory.java2
 	
@@ -22,36 +22,57 @@ $
 
 full-range13
 
-(12:1)-(19:2)14
+(11:1)-(28:2)14
 
 simple-name15
 
 UtenteDAOFactory16
-[
-Uengclasses.dao.UtenteDAOFactory#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V18
+/
+)engclasses.dao.UtenteDAOFactory#<init>()V18
 
 method19
+
+private20
 
-(14:5)-(16:6)20
-
-aggiungiUtente21
+(13:5)-(15:6)21
+
+calls22
+h
+bengclasses.dao.UtenteDAOFactory#getUtenteDAO(Lmisc/PersistenceType;)Lengclasses/dao/api/UtenteDAO;24
+
+(17:5)-(27:6)25
 
-model.Utente23
+getUtenteDAO26
+"
+engclasses.dao.api.UtenteDAO28
 
-unknown24
-
-	has param25
+unknown29
+
+returns30
 
-misc.PersistenceType27
+misc.PersistenceType32
+
+	has param33
 
-is type28
 
+uses34
 
-uses29
-?
-9engclasses.exceptions.DatabaseConnessioneFallitaException31
->
-8engclasses.exceptions.DatabaseOperazioneFallitaException33J
+is type35
+!
+misc.PersistenceType.MEMORY37
+
+
+references38
++
+%engclasses.dao.memory.UtenteDAOMemory40
+
+misc.PersistenceType.FILE42
+-
+'engclasses.dao.filesystem.UtenteDAOFile44
+
+misc.PersistenceType.DB46
+#
+engclasses.dao.db.UtenteDAODB48J
 
 1
 12
@@ -61,11 +82,30 @@ Uengclasses.dao.UtenteDAOFactory#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceT
 4 Z
 
 5
-5768jè
+5768j‡
+
+47
+474829
+M
+17G
+171819 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+16
 G
 8B
 8910 *
-1 (:5B$
+1 (:5B$
 
 
 11
@@ -79,15 +119,12 @@ G
 15
 16
 
-22
-222324
-
-32
-323324
+41
+414229
 M
-17G
-171819 *
-1 (28:5B$
+23G
+232419 *
+1 ()28:5B$
 
 
 11
@@ -95,38 +132,71 @@ M
 
 
 13
-20
+25
 
 
 15
-21
+26
 
-30
-303124
+27
+272829
 
-26
-262724rÙ
+43
+434429
+
+39
+394029
+
+31
+313229
+
+36
+363729
+
+45
+454629r”
+
+17822*
+1 (
 
-172225*
-1  (&
+232730*
+1 (
 
-172625*
-1/ (>
+233133*
+1* (9
 
-172228*
-1' (-
+232734*
+1 (
 
-172229*
-1  (&
+233135*
+1: (>
 
-172628*
-1? (C
+233134*
+1* (9
 
-172629*
-1/ (>
+233134*
+1 (
 
-173029*
-1L (o
-
-173229*
-1q (“
+233638*
+1 (
+
+233922*
+1  (/
+
+233134*
+1 (
+
+234138*
+1 (
+
+234322*
+1 (*
+
+233134*
+1 (
+
+234538*
+1 (
+
+234722*
+1 ('

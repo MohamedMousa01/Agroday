@@ -1,8 +1,10 @@
-package engclasses.dao.fileSystem;
+package engclasses.dao.filesystem;
 
 import engclasses.dao.api.AppuntamentoDAO;
 import misc.StatoAppuntamento;
 import model.Appuntamento;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.time.LocalDateTime;
@@ -10,7 +12,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * Implementazione su file del DAO per gli appuntamenti.
@@ -18,6 +19,7 @@ import java.util.stream.Collectors;
  */
 public class AppuntamentoDAOFile implements AppuntamentoDAO {
 
+    private static final Logger logger = LoggerFactory.getLogger(AppuntamentoDAOFile.class);
     private static final String FILE_PATH = "appuntamenti.dat";
     private Map<String, Appuntamento> appuntamenti;
 
@@ -35,7 +37,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file))) {
             return (Map<String, Appuntamento>) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
-            System.err.println("[AppuntamentoDAOFile] Errore nel caricamento: " + e.getMessage());
+            logger.error("Errore nel caricamento degli appuntamenti dal file", e);
             return new HashMap<>();
         }
     }
@@ -45,7 +47,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
             oos.writeObject(appuntamenti);
             return true;
         } catch (IOException e) {
-            System.err.println("[AppuntamentoDAOFile] Errore nel salvataggio: " + e.getMessage());
+            logger.error("Errore nel salvataggio degli appuntamenti su file", e);
             return false;
         }
     }
@@ -97,7 +99,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(a -> idCliente.equals(a.getIdCliente()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -107,7 +109,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(a -> idConsulente.equals(a.getIdConsulente()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -117,7 +119,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(a -> stato.equals(a.getStato()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -127,7 +129,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -138,7 +140,7 @@ public class AppuntamentoDAOFile implements AppuntamentoDAO {
         return appuntamenti.values().stream()
                 .filter(app -> idConsulente.equals(app.getIdConsulente()))
                 .filter(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override

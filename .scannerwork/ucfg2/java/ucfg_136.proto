@@ -1,70 +1,36 @@
 
-jengclasses.dao.memory.UtenteDAOMemory#selezionaUtente(Ljava/lang/String;Ljava/lang/String;Z)Lmodel/Utente;d
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java& &(!"startingBlock*ô
-startingBlock&! &(SŒ
-‰
-% %(
-%2"
-__annotate*2
+9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFileg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaR R(O"startingBlock*Ì
+startingBlockR R(O«
+¨
 
-__unknown_file (
-java.lang.Override*7
+__unknown_file (%
+usernameVenditorejava.lang.String"__id*_
 
-__unknown_file (
-
-campojava.lang.StringY
-W
-&) &(.
-campojava.lang.String"__annotation*"
+__unknown_file (C*A*
+(engclasses.dao.filesystem.OffertaDAOFile"
+usernameVenditore*
+1*¸
+1R R(.§¤
+R6 R(N
+%4java.lang.String"6model.Offerta#getUsernameVenditore()Ljava/lang/String;*0
 
-__unknown_file (
-
-%2
-Š
-% %(
-%3"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*8
-
-__unknown_file (
-
-valorejava.lang.StringZ
-X
-&7 &(=
-valorejava.lang.String"__annotation*"
-
-__unknown_file (
-
-%3*
-1*—
-1( ((K
-I
-( ((
-%0java.util.Map"__id*"
-
-__unknown_file (
-""˜
-•
-( (('
-%1model.Utente"__mapGet*1
-
-__unknown_file (
-
-%0java.util.Map*8
-
-__unknown_file (
-
-valorejava.lang.String" 
-( (((
+__unknown_file (
 
-%1model.Utente:%
-&" &(/
-campojava.lang.String:&
-&0 &(>
-valorejava.lang.String: 
+omodel.Offerta2getUsernameVenditore()áÞ
+R R(O
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*C
 
-__unknown_file (
-""B)'
-%engclasses.dao.memory.UtenteDAOMemoryH
+__unknown_file ('
+%
+usernameVenditorejava.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)"
+R R(O
+
+%5boolean:
+R R(
+omodel.OffertaB 
+java.util.function.Predicate

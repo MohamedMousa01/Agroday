@@ -1,0 +1,105 @@
+
+4engclasses.beans.AppuntamentoBean#getDurataMinuti()Jb
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaß ß("4*Î
+2
+© ©(Å
+
+
+©. ©(7
+%4java.time.LocalTime"__id*P
+
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraInizio
+}
+
+©9 ©(@
+%5java.time.LocalTime"__id*N
+
+__unknown_file (2*0#
+!engclasses.beans.AppuntamentoBean"	
+oraFineª
+∏
+
+© ©(A
+%6java.time.Duration"jjava.time.Duration#between(Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)Ljava/time/Duration;*2
+
+__unknown_file ("
+java.time.Duration*7
+
+__unknown_file (
+
+%4java.time.LocalTime*7
+
+__unknown_file (
+
+%5java.time.LocalTimeÄ~
+
+© ©(M
+
+%7long"java.time.Duration#toMinutes()J*6
+
+__unknown_file (
+
+%6java.time.Duration2toMinutes()"
+
+© ©(N
+""*ô
+3
+®! ®((
+}
+
+®! ®((
+%2java.time.LocalTime"__id*N
+
+__unknown_file (2*0#
+!engclasses.beans.AppuntamentoBean"	
+oraFine
+}
+
+®! ®(0
+%3boolean"	__compare*
+
+®) ®(+
+!=*)
+
+®! ®((
+
+%2java.time.LocalTime*
+
+®, ®(0
+""*
+2
+1*ú
+4
+® ®(Å
+
+
+® ®(
+%0java.time.LocalTime"__id*P
+
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraInizio
+}
+
+® ®(
+%1boolean"	__compare*
+
+® ®(
+!=*)
+
+® ®(
+
+%0java.time.LocalTime*
+
+® ®(
+""*
+3
+1*%
+1
+´ ´("
+
+´ ´(
+""B%#
+!engclasses.beans.AppuntamentoBeanHX

@@ -1,0 +1,47 @@
+
+Sengclasses.dao.db.OffertaDAODB#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;]
+S/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/OffertaDAODB.javam m()"startingBlock*’
+startingBlockm) m(<‘
+Ž
+l l(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String^
+\
+m1 m(;
+
+idAnnunciojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*‰
+1n n(Õ
+Ò
+n n(Z
+%0java.util.List"eengclasses.dao.db.OffertaDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*>
+
+__unknown_file (" 
+engclasses.dao.db.OffertaDAODB*K
+
+__unknown_file (/-
++SELECT * FROM offerte WHERE id_annuncio = ?*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String""
+n n([
+
+%0java.util.List:*
+m* m(;
+
+idAnnunciojava.lang.StringB" 
+engclasses.dao.db.OffertaDAODBH

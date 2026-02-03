@@ -1,0 +1,356 @@
+
+vcontrollers.applicativo.AppuntamentoController#convertiInBean(Lmodel/Appuntamento;)Lengclasses/beans/AppuntamentoBean;o
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaı ı(+"4*¿
+2
+ (¦
+£
+
+# (2*
+%32#engclasses.services.CalendarService"__id*c
+
+__unknown_file (G*E0
+.controllers.applicativo.AppuntamentoController"
+calendarServiceÇÄ
+
+A (h
+%33java.lang.String"?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getGoogleCalendarEventId()¥¢
+
+# (i
+%34java.lang.String"Wengclasses.services.CalendarService#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;*H
+
+__unknown_file (,
+*
+%32#engclasses.services.CalendarService*5
+
+__unknown_file (
+
+%33java.lang.String2!getLinkEvento(Ljava/lang/String;)Š
+
+ (j
+%35void"Hengclasses.beans.AppuntamentoBean#setLinkCalendario(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%34java.lang.String2%setLinkCalendario(Ljava/lang/String;)*
+1*ó
+3
+? (N¦
+£
+
+? (N*
+%30#engclasses.services.CalendarService"__id*c
+
+__unknown_file (G*E0
+.controllers.applicativo.AppuntamentoController"
+calendarService°­
+
+? (^
+%31boolean"4engclasses.services.CalendarService#isDisponibile()Z*H
+
+__unknown_file (,
+*
+%30#engclasses.services.CalendarService2isDisponibile()*
+2
+1*ü4
+4
+ş  ş(6ZX
+
+ş$ ş(4'
+%0!engclasses.beans.AppuntamentoBean"!engclasses.beans.AppuntamentoBean‰
+†
+
+ş  ş(6
+%1"+engclasses.beans.AppuntamentoBean#<init>()V*E
+
+__unknown_file ()
+'
+%0!engclasses.beans.AppuntamentoBean‡
+„
+
+ş ş(7)
+bean!engclasses.beans.AppuntamentoBean"__id*E
+
+__unknown_file ()
+'
+%0!engclasses.beans.AppuntamentoBean¸µ
+
+ÿ ÿ(?
+%2java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getIdAppuntamento()‹ˆ
+
+ÿ ÿ(@
+
+%3void"Hengclasses.beans.AppuntamentoBean#setIdAppuntamento(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*4
+
+__unknown_file (
+
+%2java.lang.String2%setIdAppuntamento(Ljava/lang/String;)®«
+
+€ €(5
+%4java.lang.String"3model.Appuntamento#getIdCliente()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getIdCliente()ş
+
+€ €(6
+
+%5void"Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*4
+
+__unknown_file (
+
+%4java.lang.String2 setIdCliente(Ljava/lang/String;)´±
+
+ (;
+%6java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getIdConsulente()‡„
+
+ (<
+
+%7void"Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*4
+
+__unknown_file (
+
+%6java.lang.String2#setIdConsulente(Ljava/lang/String;)¾»
+
+‚ ‚(?
+%8misc.TipoConsulenza";model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getTipoConsulenza()”‘
+
+‚ ‚(@
+
+%9void"Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*7
+
+__unknown_file (
+
+%8misc.TipoConsulenza2(setTipoConsulenza(Lmisc/TipoConsulenza;)³°
+
+ƒ ƒ(-
+%10misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getStato()Š
+
+ƒ ƒ(.
+%11void"Eengclasses.beans.AppuntamentoBean#setStato(Lmisc/StatoAppuntamento;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*;
+
+__unknown_file (
+
+%10misc.StatoAppuntamento2"setStato(Lmisc/StatoAppuntamento;)ÅÂ
+
+„ „(=
+%12java.time.LocalDateTime">model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getDataOraInizio() 
+
+„ „(>
+%13void"Nengclasses.beans.AppuntamentoBean#setDataOraInizio(Ljava/time/LocalDateTime;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*<
+
+__unknown_file ( 
+
+%12java.time.LocalDateTime2+setDataOraInizio(Ljava/time/LocalDateTime;)Á¾
+
+… …(9
+%14java.time.LocalDateTime"<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getDataOraFine()œ™
+
+… …(:
+%15void"Lengclasses.beans.AppuntamentoBean#setDataOraFine(Ljava/time/LocalDateTime;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*<
+
+__unknown_file ( 
+
+%14java.time.LocalDateTime2)setDataOraFine(Ljava/time/LocalDateTime;)§¤
+
+† †(-
+%16java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getLuogo()ûø
+
+† †(.
+%17void"?engclasses.beans.AppuntamentoBean#setLuogo(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%16java.lang.String2setLuogo(Ljava/lang/String;)¥¢
+
+‡ ‡(+
+%18java.lang.String".model.Appuntamento#getNote()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2	getNote()ùö
+
+‡ ‡(,
+%19void">engclasses.beans.AppuntamentoBean#setNote(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%18java.lang.String2setNote(Ljava/lang/String;)ÃÀ
+
+ˆ$ ˆ(I
+%20java.lang.String"=model.Appuntamento#getMotivoCancellazione()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getMotivoCancellazione()—”
+
+ˆ ˆ(J
+%21void"Mengclasses.beans.AppuntamentoBean#setMotivoCancellazione(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%20java.lang.String2*setMotivoCancellazione(Ljava/lang/String;)ÅÂ
+
+‰ ‰(=
+%22java.time.LocalDateTime">model.Appuntamento#getDataCreazione()Ljava/time/LocalDateTime;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getDataCreazione() 
+
+‰ ‰(>
+%23void"Nengclasses.beans.AppuntamentoBean#setDataCreazione(Ljava/time/LocalDateTime;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*<
+
+__unknown_file ( 
+
+%22java.time.LocalDateTime2+setDataCreazione(Ljava/time/LocalDateTime;)ÏÌ
+
+Š# Š(G
+%24java.time.LocalDateTime"Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getDataUltimaModifica()ª§
+
+Š Š(H
+%25void"Sengclasses.beans.AppuntamentoBean#setDataUltimaModifica(Ljava/time/LocalDateTime;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*<
+
+__unknown_file ( 
+
+%24java.time.LocalDateTime20setDataUltimaModifica(Ljava/time/LocalDateTime;)ÇÄ
+
+‹& ‹(M
+%26java.lang.String"?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getGoogleCalendarEventId()›˜
+
+‹ ‹(N
+%27void"Oengclasses.beans.AppuntamentoBean#setGoogleCalendarEventId(Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*5
+
+__unknown_file (
+
+%26java.lang.String2,setGoogleCalendarEventId(Ljava/lang/String;)ÇÄ
+
+ (3
+%28java.lang.String"?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getGoogleCalendarEventId()~
+|
+
+ (;
+%29boolean"	__compare*
+
+4 (6
+!=*'
+
+ (3
+
+%28java.lang.String*
+
+7 (;
+""*
+3
+1*J
+1
+” ”("9
+
+” ”(+
+)
+bean!engclasses.beans.AppuntamentoBean:0
+
+ı, ı(E"
+appuntamentomodel.AppuntamentoB20
+.controllers.applicativo.AppuntamentoController

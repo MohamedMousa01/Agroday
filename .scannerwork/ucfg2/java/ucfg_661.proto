@@ -1,0 +1,101 @@
+
+Kengclasses.dao.filesystem.AppuntamentoDAOFile#caricaDaFile()Ljava/util/Map;l
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.java& (2"10*4
+4& &(?"%
+& &(@
+
+%10java.lang.Object*∏
+5% %(Us
+q
+% %(U 
+oisjava.io.ObjectInputStream"__id*=
+
+__unknown_file (!
+
+%8java.io.ObjectInputStreamÆ´
+&/ &(?
+%10java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*>
+
+__unknown_file ("
+ 
+oisjava.io.ObjectInputStream2readObject()*
+4*®
+6%% %(UHF
+%) %(:
+%8java.io.ObjectInputStream"java.io.ObjectInputStream…
+∆
+%% %(U
+%9"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
+
+__unknown_file (!
+
+%8java.io.ObjectInputStream*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*
+5*ê
+7%O %(SDB
+%? %(N
+%6java.io.FileInputStream"java.io.FileInputStreamµ
+≤
+%; %(T
+%7"/java.io.FileInputStream#<init>(Ljava/io/File;)V*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*2
+
+__unknown_file (
+
+filejava.io.File*
+6*÷
+9" "("86
+" "( 
+%4java.util.HashMap"java.util.HashMapf
+d
+" "("
+%5"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%4java.util.HashMap"%
+" "(#
+
+%4java.util.HashMap*õ
+10   (&\
+Z
+   (&
+%0java.lang.String"__id*0
+
+__unknown_file (
+appuntamenti.dat.,
+   (
+%1java.io.File"java.io.File•
+¢
+   ('
+%2"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%1java.io.File*4
+
+__unknown_file (
+
+%0java.lang.StringZ
+X
+   ((
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%1java.io.Fileqo
+! !(
+%3boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+7
+9B1/
+-engclasses.dao.filesystem.AppuntamentoDAOFile

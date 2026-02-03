@@ -1,0 +1,39 @@
+
+?__sonar_lambda_21$engclasses.dao.memory.PartecipazioneDAOMemoryl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java1 1(A"startingBlock*Ã
+startingBlock1 1(A¢
+Ÿ
+
+__unknown_file (
+
+idAnnunciojava.lang.String"__id*]
+
+__unknown_file (A*?/
+-engclasses.dao.memory.PartecipazioneDAOMemory"
+
+idAnnuncio*
+1*±
+11 1('§¤
+1/ 1(@
+%7java.lang.String"6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;*7
+
+__unknown_file (
+
+pmodel.Partecipazione2getIdAnnuncio()Ú×
+1 1(A
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String*4
+
+__unknown_file (
+
+%7java.lang.String2equals(Ljava/lang/Object;)"
+1 1(A
+
+%8boolean:%
+1 1(
+pmodel.PartecipazioneB 
+java.util.function.Predicate

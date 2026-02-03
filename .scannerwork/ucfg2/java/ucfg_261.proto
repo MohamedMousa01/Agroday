@@ -1,0 +1,123 @@
+
+9view.cli.VisualizzaAnnunciCLIView#confermaEliminazione()Zb
+V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.javaП П('"7*р
+2
+ТX Т(`╔╞
+
+ТX Т(n
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*#
+
+__unknown_file (
+YES2equals(Ljava/lang/Object;)*
+1*с
+4
+Т@ Т(H╟─
+
+Т@ Т(T
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*!
+
+__unknown_file (
+Y2equals(Ljava/lang/Object;)*
+2
+1*х
+6
+Т' Т(/╚┼
+
+Т' Т(<
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*"
+
+__unknown_file (
+SI2equals(Ljava/lang/Object;)*	
+2
+4
+1*·	
+7
+Р Р(S
+Q
+
+Р Р(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""Б■
+
+Р Р(X
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*`
+
+__unknown_file (DB
+@\nтЪая╕П  Sei sicuro di voler eliminare questo annuncio? (S/N): 2print(Ljava/lang/String;)}
+{
+
+С С(!
+%2java.util.Scanner"__id*N
+
+__unknown_file (2*0#
+!view.cli.VisualizzaAnnunciCLIView"	
+scannerЪЧ
+
+С С(,
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()РН
+
+С С(3
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2trim()ЮЫ
+
+С С(A
+%5java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*4
+
+__unknown_file (
+
+%4java.lang.String2toUpperCase()h
+f
+
+С С(B
+rispostajava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String╟─
+
+Т Т(#
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*!
+
+__unknown_file (
+S2equals(Ljava/lang/Object;)*
+2
+4
+6
+1*%
+1
+Т Т(o"
+
+Т Т(o
+""B%#
+!view.cli.VisualizzaAnnunciCLIViewHX

@@ -1,37 +1,98 @@
 
-6__sonar_lambda_4$engclasses.dao.memory.UtenteDAOMemoryd
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (I"startingBlock*∑
-startingBlock (Iñ
-ì
+@engclasses.dao.filesystem.OffertaDAOFile#salva(Lmodel/Offerta;)Zg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java3 3("startingBlock*!
+25 5("
+5 5(
+""*´
+34 4(&ùö
+4 4(5
+%1java.lang.String".model.Offerta#getIdOfferta()Ljava/lang/String;*6
 
-__unknown_file (
-usernamejava.lang.String"__id*S
+__unknown_file (
 
-__unknown_file (7*5'
-%engclasses.dao.memory.UtenteDAOMemory"
-
-username*
-1*Ø
-1 ( ìê
- (.
-%4java.lang.String",model.Utente#getUsername()Ljava/lang/String;*/
+offertamodel.Offerta2getIdOfferta()t
+r
+4 4(=
+%2boolean"	__compare*
+46 4(8
+==*$
+4 4(5
+
+%1java.lang.String*
+49 4(=
+""*
+2
+1*Ü
+startingBlock3 3()ã
+à
+2 2(
+%7"
+__annotate*2
 
-__unknown_file (
-
-umodel.Utente2getUsername()ÏÈ
- (I
-%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+__unknown_file (
+java.lang.Override*6
+
+__unknown_file (
+
+offertamodel.OffertaX
+V
+3! 3((
+offertamodel.Offerta"__annotation*"
+
+__unknown_file (
+
+%7*
+4*ç
+44 4(v
+t
+4 4(
+%0boolean"	__compare*
+4 4(
+==*&
+4 4(
+
+offertamodel.Offerta*
+4 4(
+""*
+2
+3*≥
+17 7(~
+|
+7 7(
+%3java.util.Map"__id*U
+
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerteùö
+7 7(*
+%4java.lang.String".model.Offerta#getIdOfferta()Ljava/lang/String;*6
+
+__unknown_file (
+
+offertamodel.Offerta2getIdOfferta()Õ
+ 
+7 7(4
+%5model.Offerta"__mapSet*1
+
+__unknown_file (
+
+%3java.util.Map*4
 
 __unknown_file (
 
-%4java.lang.String*:
+%4java.lang.String*6
 
-__unknown_file (
-
-usernamejava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
- (I
-
-%5boolean:
- (
-umodel.UtenteB 
-java.util.function.Predicate
+__unknown_file (
+
+offertamodel.Offertaü
+ú
+8 8(
+%6boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
+
+__unknown_file (,*
+(engclasses.dao.filesystem.OffertaDAOFile"
+8 8(
+"":$
+3 3((
+offertamodel.OffertaB,*
+(engclasses.dao.filesystem.OffertaDAOFileHX

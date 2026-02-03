@@ -1,15 +1,7 @@
 
-?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java@ @("1*®
-1A A(y
-w
-A A(
-%0java.lang.String"__id*M
-
-__unknown_file (1*/$
-"engclasses.beans.RegistrazioneBean"
-email"$
-A A(
-
-%0java.lang.StringB&$
-"engclasses.beans.RegistrazioneBeanH
+'model.Annuncio#getQuantitaDesiderata()IM
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javai i($"1*!
+1j j(!"
+j j("
+""B
+model.AnnuncioHX

@@ -1,0 +1,198 @@
+
+/model.Appuntamento#toString()Ljava/lang/String;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÖ Ö("1*∆
+1
+Ü Ü(i
+g
+
+Ü á(
+%0java.lang.String"__concat*
+
+Ü Ü(
+Appuntamento{*
+
+á á(
+id='t
+r
+
+á á('
+%1java.lang.String"__id*F
+
+__unknown_file (**(
+model.Appuntamento"
+idAppuntamentoÄ
+~
+
+Ü á('
+%2java.lang.String"__concat*&
+
+Ü á(
+
+%0java.lang.String*&
+
+á á('
+
+%1java.lang.Stringn
+l
+
+Ü á(.
+%3java.lang.String"__concat*&
+
+Ü á('
+
+%2java.lang.String*
+
+á* á(.
+\'s
+q
+
+Ü à(
+%4java.lang.String"__concat*&
+
+Ü á(.
+
+%3java.lang.String*
+
+à à(	
+, tipo=w
+u
+
+à à(*
+%5misc.TipoConsulenza"__id*F
+
+__unknown_file (**(
+model.Appuntamento"
+tipoConsulenzaÑ
+Å
+
+Ü à(*
+%6java.lang.String"__concat*&
+
+Ü à(
+
+%4java.lang.String*)
+
+à à(*
+
+%5misc.TipoConsulenzat
+r
+
+Ü â(
+%7java.lang.String"__concat*&
+
+Ü à(*
+
+%6java.lang.String*
+
+â â(
+
+, stato=q
+o
+
+â â("
+%8misc.StatoAppuntamento"__id*=
+
+__unknown_file (!*
+model.Appuntamento"
+statoá
+Ñ
+
+Ü â("
+%9java.lang.String"__concat*&
+
+Ü â(
+
+%7java.lang.String*,
+
+â â("
+
+%8misc.StatoAppuntamentot
+r
+
+Ü ä(
+%10java.lang.String"__concat*&
+
+Ü â("
+
+%9java.lang.String*
+
+ä ä(	
+, data={
+y
+
+ä ä()
+%11java.time.LocalDateTime"__id*E
+
+__unknown_file ()*'
+model.Appuntamento"
+dataOraInizioã
+à
+
+Ü ä()
+%12java.lang.String"__concat*'
+
+Ü ä(
+
+%10java.lang.String*.
+
+ä ä() 
+
+%11java.time.LocalDateTimew
+u
+
+Ü ã(
+%13java.lang.String"__concat*'
+
+Ü ä()
+
+%12java.lang.String*
+
+ã ã(
+	, luogo='l
+j
+
+ã ã(#
+%14java.lang.String"__id*=
+
+__unknown_file (!*
+model.Appuntamento"
+luogoÑ
+Å
+
+Ü ã(#
+%15java.lang.String"__concat*'
+
+Ü ã(
+
+%13java.lang.String*'
+
+ã ã(#
+
+%14java.lang.Stringp
+n
+
+Ü ã(*
+%16java.lang.String"__concat*'
+
+Ü ã(#
+
+%15java.lang.String*
+
+ã& ã(*
+\'o
+m
+
+Ü å(
+%17java.lang.String"__concat*'
+
+Ü ã(*
+
+%16java.lang.String*
+
+å å(
+}"'
+
+Ü å(
+
+%17java.lang.StringB
+model.AppuntamentoH

@@ -1,6 +1,9 @@
 package model.observer;
 
+import misc.EventoAppuntamento;
 import model.Appuntamento;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Servizio di notifica che implementa AppuntamentoObserver.
@@ -8,6 +11,7 @@ import model.Appuntamento;
  */
 public class NotificationService implements AppuntamentoObserver {
 
+    private static final Logger logger = LoggerFactory.getLogger(NotificationService.class);
     private static NotificationService instance;
 
     private NotificationService() {
@@ -24,20 +28,20 @@ public class NotificationService implements AppuntamentoObserver {
     @Override
     public void onAppuntamentoModificato(Appuntamento appuntamento, String evento) {
         switch (evento) {
-            case "CANCELLATO_CLIENTE":
+            case EventoAppuntamento.CANCELLATO_CLIENTE:
                 notificaCancellazioneAlConsulente(appuntamento);
                 break;
-            case "CANCELLATO_CONSULENTE":
+            case EventoAppuntamento.CANCELLATO_CONSULENTE:
                 notificaCancellazioneAlCliente(appuntamento);
                 break;
-            case "CONFERMATO":
+            case EventoAppuntamento.CONFERMATO:
                 notificaConferma(appuntamento);
                 break;
-            case "COMPLETATO":
+            case EventoAppuntamento.COMPLETATO:
                 notificaCompletamento(appuntamento);
                 break;
             default:
-                System.out.println("[NOTIFICATION] Evento non gestito: " + evento);
+                logger.warn("Evento non gestito: {}", evento);
         }
     }
 
@@ -97,18 +101,14 @@ public class NotificationService implements AppuntamentoObserver {
      */
     private void inviaNotifica(String idUtente, String messaggio) {
         // Per ora stampa sulla console - in produzione invierebbe email/push
-        System.out.println("[NOTIFICATION SERVICE] Destinatario: " + idUtente);
-        System.out.println(messaggio);
-        System.out.println("---");
+        logger.info("NOTIFICATION - Destinatario: {} - Messaggio: {}", idUtente, messaggio);
     }
 
     /**
      * Invia una notifica personalizzata a un utente specifico.
      */
     public void inviaNotificaPersonalizzata(String idUtente, String titolo, String messaggio) {
-        System.out.println("[NOTIFICATION SERVICE] Notifica personalizzata a: " + idUtente);
-        System.out.println("Titolo: " + titolo);
-        System.out.println("Messaggio: " + messaggio);
-        System.out.println("---");
+        logger.info("NOTIFICATION Personalizzata - Destinatario: {} - Titolo: {} - Messaggio: {}", 
+                    idUtente, titolo, messaggio);
     }
 }

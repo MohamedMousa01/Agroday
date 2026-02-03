@@ -1,0 +1,48 @@
+
+%model.Appuntamento#getDurataMinuti()JS
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java¨ ¨("1*ä
+1
+© ©(z
+x
+
+©* ©(7
+%0java.time.LocalDateTime"__id*E
+
+__unknown_file ()*'
+model.Appuntamento"
+dataOraIniziox
+v
+
+©9 ©(D
+%1java.time.LocalDateTime"__id*C
+
+__unknown_file ('*%
+model.Appuntamento"
+dataOraFineÃ
+À
+
+© ©(E
+%2java.time.Duration"jjava.time.Duration#between(Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)Ljava/time/Duration;*2
+
+__unknown_file ("
+java.time.Duration*;
+
+__unknown_file (
+
+%0java.time.LocalDateTime*;
+
+__unknown_file (
+
+%1java.time.LocalDateTime€~
+
+© ©(Q
+
+%3long"java.time.Duration#toMinutes()J*6
+
+__unknown_file (
+
+%2java.time.Duration2toMinutes()"
+
+© ©(R
+""B
+model.AppuntamentoHX

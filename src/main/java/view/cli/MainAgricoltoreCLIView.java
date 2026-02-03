@@ -1,4 +1,5 @@
 package view.cli;
+import misc.UIConstants;
 
 import model.Utente;
 import java.util.Scanner;
@@ -14,12 +15,12 @@ public class MainAgricoltoreCLIView {
 
     public void mostraTitolo(Utente utente) {
         clearScreen();
-        System.out.println("\n╔════════════════════════════════════════════════════════╗");
+        System.out.println(UIConstants.BOX_TOP_LONG);
         System.out.println("║          🌾 AGRODAY - PANNELLO AGRICOLTORE 🌾         ║");
-        System.out.println("╚════════════════════════════════════════════════════════╝");
+        System.out.println(UIConstants.BOX_BOTTOM_LONG);
         System.out.println("  Benvenuto, " + utente.getNome() + " " + utente.getCognome() + "!");
         System.out.println("  📧 " + utente.getEmail() + " | 📍 " + utente.getCitta());
-        System.out.println("════════════════════════════════════════════════════════");
+        System.out.println(UIConstants.BOX_SEPARATOR_LONG);
     }
 
     public void mostraMenu() {
@@ -84,6 +85,6 @@ public class MainAgricoltoreCLIView {
     }
 
     public void mostraSeparatore() {
-        System.out.println("════════════════════════════════════════════════════════");
+        System.out.println(UIConstants.BOX_SEPARATOR_LONG);
     }
 }

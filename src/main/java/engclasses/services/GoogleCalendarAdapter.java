@@ -1,7 +1,10 @@
 package engclasses.services;
 
+import misc.EventoAppuntamento;
 import model.Appuntamento;
 import model.observer.AppuntamentoObserver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
@@ -23,6 +26,7 @@ import java.util.UUID;
  */
 public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObserver {
 
+    private static final Logger logger = LoggerFactory.getLogger(GoogleCalendarAdapter.class);
     private static GoogleCalendarAdapter instance;
     private boolean isConfigured;
     private String calendarId;
@@ -148,27 +152,27 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
         }
 
         switch (evento) {
-            case "CANCELLATO_CLIENTE":
-            case "CANCELLATO_CONSULENTE":
+            case EventoAppuntamento.CANCELLATO_CLIENTE:
+            case EventoAppuntamento.CANCELLATO_CONSULENTE:
                 // Cancella l'evento dal calendario
                 if (appuntamento.getGoogleCalendarEventId() != null) {
                     cancellaEvento(appuntamento.getGoogleCalendarEventId());
                 }
                 break;
-            case "CONFERMATO":
+            case EventoAppuntamento.CONFERMATO:
                 // Aggiorna lo stato dell'evento (in un'implementazione reale si cambierebbe il colore/stato)
                 if (appuntamento.getGoogleCalendarEventId() != null) {
-                    System.out.println("[GOOGLE CALENDAR] Evento confermato: " + appuntamento.getGoogleCalendarEventId());
+                    logger.info("GOOGLE CALENDAR - Evento confermato: {}", appuntamento.getGoogleCalendarEventId());
                 }
                 break;
-            case "COMPLETATO":
+            case EventoAppuntamento.COMPLETATO:
                 // Segna l'evento come completato
                 if (appuntamento.getGoogleCalendarEventId() != null) {
-                    System.out.println("[GOOGLE CALENDAR] Evento completato: " + appuntamento.getGoogleCalendarEventId());
+                    logger.info("GOOGLE CALENDAR - Evento completato: {}", appuntamento.getGoogleCalendarEventId());
                 }
                 break;
             default:
-                System.out.println("[GOOGLE CALENDAR] Evento non gestito: " + evento);
+                logger.warn("GOOGLE CALENDAR - Evento non gestito: {}", evento);
         }
     }
 

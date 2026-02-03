@@ -1,0 +1,69 @@
+
+Xengclasses.dao.filesystem.AnnuncioDAOFile#trovaPerId(Ljava/lang/String;)Lmodel/Annuncio;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaJ J("startingBlock*!
+2L L("
+L L(
+""*“
+3K K(|
+z
+K K(
+%0boolean"	__compare*
+K K(
+==*,
+K K( 
+
+
+idAnnunciojava.lang.String*
+K K(
+""*
+2
+1*’
+startingBlockJ J(1‘
+Ž
+I I(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String^
+\
+J& J(0
+
+idAnnunciojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+3*Ó
+1N N(
+}
+N N(
+%1java.util.Map"__id*V
+
+__unknown_file (:*8+
+)engclasses.dao.filesystem.AnnuncioDAOFile"	
+annunciž
+›
+N N(&
+%2model.Annuncio"__mapGet*1
+
+__unknown_file (
+
+%1java.util.Map*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String""
+N N('
+
+%2model.Annuncio:*
+J J(0
+
+idAnnunciojava.lang.StringB-+
+)engclasses.dao.filesystem.AnnuncioDAOFileH

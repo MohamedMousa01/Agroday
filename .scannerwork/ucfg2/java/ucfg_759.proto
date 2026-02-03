@@ -1,0 +1,122 @@
+
+jcontrollers.applicativo.AppuntamentoController#cancellaAppuntamento(Ljava/lang/String;Ljava/lang/String;)Zo
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaº º('"4*Î
+2
+¾ ¾(1¦£
+
+¾ ¾(I
+%6boolean"tcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoConsulente(Ljava/lang/String;Ljava/lang/String;)Z*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.String2DcancellaAppuntamentoConsulente(Ljava/lang/String;Ljava/lang/String;)"
+
+¾ ¾(J
+""*‹
+3
+½ ½($
+
+½ ½(.
+%3misc.TipoUtente"'model.Utente#getTipo()Lmisc/TipoUtente;*4
+
+__unknown_file (
+
+utentemodel.Utente2	getTipo()O
+M
+
+½2 ½(G
+%4misc.TipoUtente"__id*"
+
+__unknown_file (
+""
+Š
+
+½ ½(G
+%5boolean"	__compare*
+
+½/ ½(1
+==*%
+
+½ ½(.
+
+%3misc.TipoUtente*%
+
+½2 ½(G
+
+%4misc.TipoUtente*
+2
+1*™
+4
+» »(†
+ƒ
+
+» »(
+%0misc.Session"__id*[
+
+__unknown_file (?*=0
+.controllers.applicativo.AppuntamentoController"	
+session˜•
+
+» »(2
+%1model.Utente"-misc.Session#getUtenteLoggato()Lmodel/Utente;*0
+
+__unknown_file (
+
+%0misc.Session2getUtenteLoggato()^
+\
+
+» »(3
+utentemodel.Utente"__id*0
+
+__unknown_file (
+
+%1model.Utente|
+z
+
+½ ½(
+%2boolean"	__compare*
+
+½ ½(
+!=*&
+
+½ ½(
+
+utentemodel.Utente*
+
+½ ½(
+""*
+3
+1*È
+1
+À À(. 
+
+À À(F
+%7boolean"qcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)Z*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.String2AcancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)"
+
+À À(G
+"":0
+
+º( º(>"
+idAppuntamentojava.lang.String:(
+
+º? º(L
+motivojava.lang.StringB20
+.controllers.applicativo.AppuntamentoControllerHX

@@ -1,7 +1,7 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1769002669253*java2.B»
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893732*java2.B¨
 C
->src/main/java/engclasses/dao/fileSystem/ConsulenteDAOFile.java2
+>src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java2
 	
 type3
 	
@@ -9,9 +9,9 @@ C
 
 package6
 
-engclasses.dao.fileSystem7
+engclasses.dao.filesystem7
 0
-+engclasses.dao.fileSystem.ConsulenteDAOFile9
++engclasses.dao.filesystem.ConsulenteDAOFile9
 
 class10
 
@@ -21,14 +21,14 @@ C
 
 
 full-range13
-
-(9:1)-(15:2)14
+
+(10:1)-(26:2)14
 
 simple-name15
 
 ConsulenteDAOFile16
 -
-'engclasses.dao.fileSystem.UtenteDAOFile18
+'engclasses.dao.filesystem.UtenteDAOFile18
 
 unknown19
 
@@ -41,22 +41,28 @@ implements23
 
 
 uses24
-g
-aengclasses.dao.fileSystem.ConsulenteDAOFile#aggiungiUtente(Lmodel/Utente;Lmisc/PersistenceType;)V26
+N
+Hengclasses.dao.filesystem.ConsulenteDAOFile#trovaTutti()Ljava/util/List;26
 
 method27
 
-(11:5)-(14:6)28
-
-aggiungiUtente29
-
-model.Utente31
-
-	has param32
-
-misc.PersistenceType34
+(14:5)-(25:6)28
+
 
-is type35J
+trovaTutti29
+
+model.Consulente31
+>
+8engclasses.exceptions.DatabaseOperazioneFallitaException33
+
+model.Utente35
+
+
+references36
+L
+Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;38
+
+calls39J
 
 1
 12
@@ -66,14 +72,19 @@ aengclasses.dao.fileSystem.ConsulenteDAOFile#aggiungiUtente(Lmodel/Utente;Lmisc/
 4 Z
 
 5
-5768jè
+5768j
+
+30
+303119
 
 21
 212219
 G
 8B
 8910 *
-1	 	(:5B$
+1
+ 
+(:5B$
 
 
 11
@@ -87,15 +98,21 @@ G
 15
 16
 
-30
-303119
+34
+343519
+
+37
+373819
+
+32
+323319
 
 17
 171819
 M
 25G
 252627 *
-1 (28:5B$
+1 ('28:5B$
 
 
 11
@@ -107,37 +124,48 @@ M
 
 
 15
-29
-
-33
-333419rŠ
+29rÀ
 
 81720*
-1	( 	(5
+1
+( 
+(5
 
 82123*
-1	A 	(N
+1
+A 
+(N
 
 81724*
-1	( 	(5
+1
+( 
+(5
 
 82124*
-1	A 	(N
-
-253032*
-1  (&
-
-253332*
-1/ (>
-
-253035*
-1' (-
+1
+A 
+(N
 
 253024*
-1  (&
+1 (
 
-253335*
-1? (C
+253224*
+11 (S
 
-253324*
-1/ (>
+253424*
+1 (
+
+251736*
+1# (/
+
+253739*
+1# (/
+
+253024*
+1 ('
+
+253024*
+1 ($
+
+253239*
+1 (9

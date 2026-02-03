@@ -3,6 +3,8 @@ package engclasses.dao.db;
 import engclasses.dao.api.AnnuncioDAO;
 import engclasses.pattern.ConnessioneDB;
 import model.Annuncio;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.time.LocalDate;
@@ -14,7 +16,7 @@ import java.util.List;
  */
 public class AnnuncioDAODB implements AnnuncioDAO {
 
-    private static final String TABLE_NAME = "Annunci";
+    private static final Logger logger = LoggerFactory.getLogger(AnnuncioDAODB.class);
 
     /**
      * Crea la tabella Annunci se non esiste.
@@ -43,7 +45,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nella creazione tabella: " + e.getMessage());
+            logger.error("Errore nella creazione tabella annunci", e);
         }
     }
 
@@ -80,7 +82,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nel salvataggio: " + e.getMessage());
+            logger.error("Errore nel salvataggio annuncio", e);
             return false;
         }
     }
@@ -96,14 +98,16 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nell'eliminazione: " + e.getMessage());
+            logger.error("Errore nell'eliminazione annuncio", e);
             return false;
         }
     }
 
     @Override
     public Annuncio trovaPerId(String idAnnuncio) {
-        String sql = "SELECT * FROM Annunci WHERE idAnnuncio = ?";
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
+                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+                     "quantita_totale, stato FROM Annunci WHERE idAnnuncio = ?";
 
         try (Connection conn = ConnessioneDB.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -116,24 +120,32 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nella ricerca per ID: " + e.getMessage());
+            logger.error("Errore nella ricerca annuncio per ID", e);
         }
         return null;
     }
 
     @Override
     public List<Annuncio> trovaPerAutore(String autore) {
-        return eseguiQueryLista("SELECT * FROM Annunci WHERE nome_autore = ?", autore);
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
+                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+                     "quantita_totale, stato FROM Annunci WHERE nome_autore = ?";
+        return eseguiQueryLista(sql, autore);
     }
 
     @Override
     public List<Annuncio> trovaPerCitta(String citta) {
-        return eseguiQueryLista("SELECT * FROM Annunci WHERE citta = ?", citta);
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
+                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+                     "quantita_totale, stato FROM Annunci WHERE citta = ?";
+        return eseguiQueryLista(sql, citta);
     }
 
     @Override
     public List<Annuncio> trovaTutti() {
-        String sql = "SELECT * FROM Annunci ORDER BY data_pubblicazione DESC";
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
+                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+                     "quantita_totale, stato FROM Annunci ORDER BY data_pubblicazione DESC";
         List<Annuncio> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -145,14 +157,17 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nel recupero di tutti gli annunci: " + e.getMessage());
+            logger.error("Errore nel recupero di tutti gli annunci", e);
         }
         return risultati;
     }
 
     @Override
     public List<Annuncio> trovaAttivi() {
-        String sql = "SELECT * FROM Annunci WHERE data_scadenza >= CURDATE() ORDER BY data_pubblicazione DESC";
+        String sql = "SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, " +
+                     "citta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, " +
+                     "quantita_totale, stato FROM Annunci " +
+                     "WHERE data_scadenza >= CURDATE() ORDER BY data_pubblicazione DESC";
         List<Annuncio> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -164,7 +179,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nel recupero degli annunci attivi: " + e.getMessage());
+            logger.error("Errore nel recupero degli annunci attivi", e);
         }
         return risultati;
     }
@@ -181,8 +196,9 @@ public class AnnuncioDAODB implements AnnuncioDAO {
         String citta = rs.getString("citta");
         int quantitaDesiderata = rs.getInt("quantita_desiderata");
 
-        // Crea l'annuncio dal database
-        Annuncio annuncio = new Annuncio(
+        // Crea e ritorna l'annuncio dal database
+        // Nota: quantita_totale e stato potrebbero essere caricati in futuro se aggiunti al costruttore
+        return new Annuncio(
             idAnnuncio,
             nomeAutore,
             titolo,
@@ -192,18 +208,6 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             citta,
             quantitaDesiderata
         );
-
-        // Carica quantita_totale e stato se presenti
-        try {
-            int quantitaTotale = rs.getInt("quantita_totale");
-            String stato = rs.getString("stato");
-            // Nota: dovremmo aggiungere setter nel modello o usare reflection
-            // Per ora il costruttore imposta già questi valori
-        } catch (SQLException e) {
-            // Colonne non presenti (tabella vecchia)
-        }
-
-        return annuncio;
     }
 
     private List<Annuncio> eseguiQueryLista(String sql, String parametro) {
@@ -220,7 +224,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[AnnuncioDAODB] Errore nell'esecuzione query: " + e.getMessage());
+            logger.error("Errore nell'esecuzione query annunci", e);
         }
         return risultati;
     }

@@ -1,6 +1,8 @@
 package engclasses.beans;
 
 // da controllare le classi, non so se nl bean ci possono essere altri metodi oltre a setter e getter
+import misc.StatoAnnuncio;
+
 import java.time.LocalDate;
 
 /**
@@ -20,9 +22,6 @@ public class AnnuncioBean {
     private String stato;
     private int quantitaTotale;
     private int numeroPartecipanti;
-
-    // Costruttore vuoto
-    public AnnuncioBean() {}
 
     // Getters e Setters
     public String getIdAnnuncio() {
@@ -122,10 +121,10 @@ public class AnnuncioBean {
     }
 
     public boolean isScaduto() {
-        return "SCADUTO".equals(stato) || (dataScadenza != null && LocalDate.now().isAfter(dataScadenza));
+        return StatoAnnuncio.SCADUTO.equals(stato) || (dataScadenza != null && LocalDate.now().isAfter(dataScadenza));
     }
 
     public boolean isAttivo() {
-        return "ATTIVO".equals(stato) && !isScaduto();
+        return StatoAnnuncio.ATTIVO.equals(stato) && !isScaduto();
     }
 }

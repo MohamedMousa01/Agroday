@@ -1,16 +1,15 @@
 
-:engclasses.beans.LoginBean#getPassword()Ljava/lang/String;Y
-O/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/LoginBean.java (!"1*©
-1 (t
-r
- (
-%0java.lang.String"__id*H
-
-__unknown_file (,**
-engclasses.beans.LoginBean"
-
-password"$
- (
-
-%0java.lang.StringB
-engclasses.beans.LoginBeanH
+,engclasses.dao.db.AgricoltoreDAODB#<init>()V
+__unknown_file ("startingBlock*²
+startingBlock_
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AgricoltoreDAODB.java (Ç
+Ä
+_
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AgricoltoreDAODB.java (
+%0"'engclasses.dao.db.UtenteDAODB#<init>()V*2
+ (&$
+"engclasses.dao.db.AgricoltoreDAODB"v
+_
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AgricoltoreDAODB.java (
+implicit returnB&$
+"engclasses.dao.db.AgricoltoreDAODB

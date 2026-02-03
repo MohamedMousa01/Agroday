@@ -97,6 +97,8 @@ public class MainVenditoreCLIController {
                 }
                 case 2 -> annunciView.mostraMessaggio("Contatta venditore - Funzionalità in sviluppo");
                 case 3 -> annunciView.mostraMessaggio("Effettua ordine - Funzionalità in sviluppo");
+                case 0 -> { } // Torna indietro
+                default -> annunciView.mostraMessaggio("Opzione non valida");
             }
         }
         
@@ -126,6 +128,8 @@ public class MainVenditoreCLIController {
                 }
                 case 2 -> annunciView.mostraMessaggio("Contatta venditore - Funzionalità in sviluppo");
                 case 3 -> annunciView.mostraMessaggio("Effettua ordine - Funzionalità in sviluppo");
+                case 0 -> { } // Torna indietro
+                default -> annunciView.mostraMessaggio("Opzione non valida");
             }
         }
         
@@ -158,6 +162,7 @@ public class MainVenditoreCLIController {
                 profiloView.mostraMessaggio("Modifica profilo - Funzionalità in sviluppo");
                 profiloView.attendiInvio();
             }
+            default -> { } // Nessuna azione
         }
     }
 

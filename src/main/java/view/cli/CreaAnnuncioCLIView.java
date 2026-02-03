@@ -1,4 +1,5 @@
 package view.cli;
+import misc.UIConstants;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -17,18 +18,18 @@ public class CreaAnnuncioCLIView {
 
     public void mostraTitolo() {
         clearScreen();
-        System.out.println("\n╔════════════════════════════════════════════════════════╗");
+        System.out.println(UIConstants.BOX_TOP_LONG);
         System.out.println("║            📝 CREA NUOVO ANNUNCIO 📝                   ║");
-        System.out.println("╚════════════════════════════════════════════════════════╝");
+        System.out.println(UIConstants.BOX_BOTTOM_LONG);
         System.out.println("\nCompila i seguenti campi per creare il tuo annuncio:");
         mostraSeparatore();
     }
 
     public void mostraRiepilogo(String titolo, String descrizione, String nomeProdotto, 
                                 int quantita, String citta, LocalDate dataScadenza) {
-        System.out.println("\n╔════════════════════════════════════════════════════════╗");
+        System.out.println(UIConstants.BOX_TOP_LONG);
         System.out.println("║               📋 RIEPILOGO ANNUNCIO                    ║");
-        System.out.println("╚════════════════════════════════════════════════════════╝");
+        System.out.println(UIConstants.BOX_BOTTOM_LONG);
         System.out.println("\n  📌 Titolo:        " + titolo);
         System.out.println("  📝 Descrizione:   " + descrizione);
         System.out.println("  🌾 Prodotto:      " + nomeProdotto);
@@ -122,6 +123,6 @@ public class CreaAnnuncioCLIView {
     }
 
     public void mostraSeparatore() {
-        System.out.println("════════════════════════════════════════════════════════");
+        System.out.println(UIConstants.BOX_SEPARATOR_LONG);
     }
 }

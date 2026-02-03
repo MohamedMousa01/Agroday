@@ -1,0 +1,17 @@
+
+\engclasses.dao.factory.DAOMemoryFactory#getConsulenteDAO()Lengclasses/dao/api/ConsulenteDAO;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java9, 9(<"1*Ð
+1: :((hf
+: :(&/
+%0)engclasses.dao.memory.ConsulenteDAOMemory")engclasses.dao.memory.ConsulenteDAOMemory—
+”
+: :((
+%1"3engclasses.dao.memory.ConsulenteDAOMemory#<init>()V*M
+
+__unknown_file (1
+/
+%0)engclasses.dao.memory.ConsulenteDAOMemory"=
+: :()1
+/
+%0)engclasses.dao.memory.ConsulenteDAOMemoryB+)
+'engclasses.dao.factory.DAOMemoryFactoryH

@@ -1,0 +1,91 @@
+
+Lengclasses.dao.memory.PartecipazioneDAOMemory#salva(Lmodel/Partecipazione;)Zl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java ("startingBlock*!
+2 ("
+ (
+""*Î
+3& (4À½
+& (J
+%1java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazione2getIdPartecipazione()t
+r
+& (R
+%2boolean"	__compare*
+K (M
+==*$
+& (J
+
+%1java.lang.String*
+N (R
+""*
+2
+1*¢
+startingBlock (7™
+–
+ (
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazionef
+d
+( (6&
+partecipazionemodel.Partecipazione"__annotation*"
+
+__unknown_file (
+
+%6*
+4*
+4 (…
+‚
+ ("
+%0boolean"	__compare*
+ (
+==*4
+ ((
+&
+partecipazionemodel.Partecipazione*
+ ("
+""*
+2
+3*–
+1 (K
+I
+ (
+%3java.util.Map"__id*"
+
+__unknown_file (
+""À½
+ (?
+%4java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazione2getIdPartecipazione()â
+ß
+ (P
+%5model.Partecipazione"__mapSet*1
+
+__unknown_file (
+
+%3java.util.Map*4
+
+__unknown_file (
+
+%4java.lang.String*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazione"
+ (
+"":2
+ (6&
+partecipazionemodel.PartecipazioneB1/
+-engclasses.dao.memory.PartecipazioneDAOMemoryHX

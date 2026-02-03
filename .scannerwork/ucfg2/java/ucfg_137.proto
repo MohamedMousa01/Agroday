@@ -1,88 +1,91 @@
 
-Fengclasses.dao.memory.UtenteDAOMemory#aggiornaUtente(Lmodel/Utente;Z)Zd
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java, ,(!"startingBlock*!
-20 0("
-0 0(
-""*Î
-3- -(*¢Ÿ
-- -(8
-%0java.lang.String",model.Utente#getIdUtente()Ljava/lang/String;*>
-
-__unknown_file ("
- 
-utenteAggiornatomodel.Utente2getIdUtente()f
-d
-- -(9
-usernamejava.lang.String"__id*4
-
-__unknown_file (
-
-%0java.lang.StringK
-I
-/ /(
-%1java.util.Map"__id*"
-
-__unknown_file (
-""ÜÙ
-/ /(/
-%2boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*1
-
-__unknown_file (
-
-%1java.util.Map*:
-
-__unknown_file (
-
-usernamejava.lang.String2containsKey(Ljava/lang/Object;)*
-2
-1*–
-startingBlock,! ,(O“
-
-+ +(
-%5"
+^engclasses.dao.filesystem.OffertaDAOFile#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaP P(*"startingBlock* 
+startingBlockP* P(D˜
+•
+O O(
+%9"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*>
+java.lang.Override*C
 
-__unknown_file ("
- 
-utenteAggiornatomodel.Utente`
-^
-,) ,(9 
-utenteAggiornatomodel.Utente"__annotation*"
+__unknown_file ('
+%
+usernameVenditorejava.lang.Stringe
+c
+P2 P(C%
+usernameVenditorejava.lang.String"__annotation*"
 
 __unknown_file (
 
-%5*
-3*Ë
-13 3(K
-I
-3 3(
-%3java.util.Map"__id*"
+%9*
+1*¶
+1Q Q(~
+|
+Q Q(
+%0java.util.Map"__id*U
 
-__unknown_file (
-""Ú
-×
-3 3(4
-%4model.Utente"__mapSet*1
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerte”‘
+Q Q(
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
 
 __unknown_file (
 
-%3java.util.Map*:
+%0java.util.Map2values()¨¥
+Q Q((
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
 
-__unknown_file (
-
-usernamejava.lang.String*>
+__unknown_file (
+
+%1java.util.Collection2stream()Ÿ
+œ
+R R(O"
+%3java.util.function.Predicate"__declareFunction*Y
+
+__unknown_file (=;
+9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFile£
+ 
+
+__unknown_file (9
+"
+%3java.util.function.Predicate"
+usernameVenditore"__id*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.String¬©
+Q R(P
+%6java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
+«
+S S(, 
+%7java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors˜•
+Q S(-
+%8java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%6java.util.stream.Stream*>
 
 __unknown_file ("
  
-utenteAggiornatomodel.Utente"
-4 4(
-"":,
-," ,(: 
-utenteAggiornatomodel.Utente: 
-
-__unknown_file (
-""B)'
-%engclasses.dao.memory.UtenteDAOMemoryHX
+%7java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
+Q S(.
+
+%8java.util.List:1
+P+ P(C%
+usernameVenditorejava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileH

@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * Implementazione in memoria del DAO per gli appuntamenti.
@@ -64,7 +63,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(a -> idCliente.equals(a.getIdCliente()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -74,7 +73,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(a -> idConsulente.equals(a.getIdConsulente()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -84,7 +83,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(a -> stato.equals(a.getStato()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -94,7 +93,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         }
         return appuntamenti.values().stream()
                 .filter(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -105,7 +104,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         return appuntamenti.values().stream()
                 .filter(app -> idConsulente.equals(app.getIdConsulente()))
                 .filter(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -123,11 +122,9 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
                 .filter(a -> idConsulente.equals(a.getIdConsulente()))
                 .filter(a -> a.getStato().isAttivo()) // Solo appuntamenti attivi
                 .filter(a -> escludiId == null || !escludiId.equals(a.getIdAppuntamento()))
-                .anyMatch(a -> {
-                    // Verifica sovrapposizione: il nuovo appuntamento si sovrappone se
-                    // inizia prima della fine dell'esistente E finisce dopo l'inizio dell'esistente
-                    return inizio.isBefore(a.getDataOraFine()) && fine.isAfter(a.getDataOraInizio());
-                });
+                // Verifica sovrapposizione: il nuovo appuntamento si sovrappone se
+                // inizia prima della fine dell'esistente E finisce dopo l'inizio dell'esistente
+                .anyMatch(a -> inizio.isBefore(a.getDataOraFine()) && fine.isAfter(a.getDataOraInizio()));
     }
 
     /**

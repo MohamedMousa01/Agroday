@@ -1,0 +1,80 @@
+
+Qengclasses.dao.db.AnnuncioDAODB#trovaPerCitta(Ljava/lang/String;)Ljava/util/List;`
+T/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AnnuncioDAODB.javaâ â('"startingBlock*é
+startingBlock
+â' â(5é
+ã
+
+à à(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+cittajava.lang.String[
+Y
+
+â/ â(4
+cittajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*·
+1
+ä ä(W‡
+›
+
+ä ã(^
+%0java.lang.String"__concat*R
+
+ä ä(WDB
+@SELECT idAnnuncio, nome_autore, titolo, categoria, descrizione, *Y
+
+ã ã(^KI
+Gcitta, data_pubblicazione, data_scadenza, prezzo, quantita_desiderata, †
+ù
+
+ä å(J
+%1java.lang.String"__concat*&
+
+ä ã(^
+
+%0java.lang.String*E
+
+å å(J75
+3quantita_totale, stato FROM Annunci WHERE citta = ?c
+a
+
+ä å(K
+sqljava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringæ
+ª
+
+ç ç(+
+%2java.util.List"fengclasses.dao.db.AnnuncioDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*?
+
+__unknown_file (#!
+engclasses.dao.db.AnnuncioDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*7
+
+__unknown_file (
+
+cittajava.lang.String"$
+
+ç ç(,
+
+%2java.util.List:'
+
+â( â(4
+cittajava.lang.StringB#!
+engclasses.dao.db.AnnuncioDAODBH

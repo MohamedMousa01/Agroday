@@ -1,0 +1,37 @@
+
+>__sonar_lambda_40$controllers.grafico.gui.ProfiloGUIControllerk
+a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ProfiloGUIController.javaS S(?"startingBlock*¾
+startingBlockS S(?
+š
+
+__unknown_file (
+usernamejava.lang.String"__id*Z
+
+__unknown_file (>*<.
+,controllers.grafico.gui.ProfiloGUIController"
+
+username*
+1*¹
+1S! S("±®
+S! S(.
+%5java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+aengclasses.beans.AnnuncioBean2getAutore()ØÕ
+S! S(?
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%5java.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String2equals(Ljava/lang/Object;)"
+S! S(?
+
+%6boolean:.
+S S("
+aengclasses.beans.AnnuncioBeanB 
+java.util.function.Predicate

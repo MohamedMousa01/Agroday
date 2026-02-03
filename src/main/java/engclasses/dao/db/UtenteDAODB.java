@@ -5,8 +5,8 @@ import engclasses.dao.api.UtenteDAO;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.pattern.ConnessioneDB;
-import engclasses.pattern.Factory.UtenteFactory;
-import engclasses.pattern.Factory.UtenteFactoryProvider;
+import engclasses.pattern.factory.UtenteFactory;
+import engclasses.pattern.factory.UtenteFactoryProvider;
 import misc.PersistenceType;
 import misc.TipoUtente;
 import model.Utente;
@@ -37,7 +37,6 @@ public class UtenteDAODB implements UtenteDAO {
 
             return rs.next();
         } catch (SQLException e) {
-            e.printStackTrace(); // Aggiunto per debug
             throw new DatabaseConnessioneFallitaException(
                     "errore in esisteUsername() di UtenteDAODB", e);
         }
@@ -133,9 +132,7 @@ public class UtenteDAODB implements UtenteDAO {
 
                 TipoUtente ruolo = TipoUtente.valueOf(rs.getString("Ruolo")); // Corretto: "Ruolo" con R maiuscola
                 UtenteFactory factory = UtenteFactoryProvider.getFactory(ruolo);
-                Utente utente = factory.creaUtente(rs.getString("Id"),bean);
-
-                return utente;
+                return factory.creaUtente(rs.getString("Id"), bean);
             }
             return null; // Utente non trovato
         } catch (SQLException e) {

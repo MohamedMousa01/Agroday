@@ -1,0 +1,50 @@
+
+bengclasses.dao.db.OffertaDAODB#trovaOffertePendingPerVenditore(Ljava/lang/String;)Ljava/util/List;]
+S/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/OffertaDAODB.javaw w(8"startingBlock* 
+startingBlockw8 w(R˜
+•
+v v(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.Stringe
+c
+w@ w(Q%
+usernameVenditorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¯
+1x x(z²
+¯
+x x({
+sqljava.lang.String"__id*ƒ
+
+__unknown_file (ge
+cSELECT * FROM offerte WHERE username_venditore = ? AND stato = 'PENDING' ORDER BY data_offerta DESCÆ
+Ã
+y y(7
+%0java.util.List"eengclasses.dao.db.OffertaDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*>
+
+__unknown_file (" 
+engclasses.dao.db.OffertaDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.String""
+y y(8
+
+%0java.util.List:1
+w9 w(Q%
+usernameVenditorejava.lang.StringB" 
+engclasses.dao.db.OffertaDAODBH

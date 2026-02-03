@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * Implementazione in memoria del DAO per gli annunci.
@@ -50,7 +49,7 @@ public class AnnuncioDAOMemory implements AnnuncioDAO {
         }
         return annunci.values().stream()
                 .filter(a -> autore.equals(a.getAutore()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -60,7 +59,7 @@ public class AnnuncioDAOMemory implements AnnuncioDAO {
         }
         return annunci.values().stream()
                 .filter(a -> citta.equals(a.getCitta()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -72,7 +71,7 @@ public class AnnuncioDAOMemory implements AnnuncioDAO {
     public List<Annuncio> trovaAttivi() {
         return annunci.values().stream()
                 .filter(a -> !a.isScaduto())
-                .collect(Collectors.toList());
+                .toList();
     }
 
     /**

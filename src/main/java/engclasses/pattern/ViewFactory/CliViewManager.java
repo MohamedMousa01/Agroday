@@ -4,6 +4,8 @@ import controllers.grafico.cli.MainAgricoltoreCLIController;
 import controllers.grafico.cli.MainVenditoreCLIController;
 import controllers.grafico.cli.MainConsulenteCLIController;
 import view.cli.ProfiloCLIView;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Scanner;
 
@@ -13,6 +15,7 @@ import java.util.Scanner;
  */
 public class CliViewManager {
 
+    private static final Logger logger = LoggerFactory.getLogger(CliViewManager.class);
     private static final Scanner scanner = new Scanner(System.in);
 
     private CliViewManager() {
@@ -54,6 +57,7 @@ public class CliViewManager {
                 profiloView.mostraMessaggio("Modifica profilo - Funzionalità in sviluppo");
                 profiloView.attendiInvio();
             }
+            default -> logger.debug("Scelta profilo non gestita: {}", scelta);
         }
     }
 

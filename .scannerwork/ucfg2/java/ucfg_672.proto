@@ -1,0 +1,108 @@
+
+eengclasses.dao.filesystem.AppuntamentoDAOFile#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;l
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javat t(+"startingBlock*‡
+2v v($<:
+v v("
+%1java.util.ArrayList"java.util.ArrayListj
+h
+v v($
+%2"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%1java.util.ArrayList"'
+v v(%
+
+%1java.util.ArrayList*î
+3u u(}
+{
+u u(
+%0boolean"	__compare*
+u u(
+==*-
+u u(!
+
+statomisc.StatoAppuntamento*
+u u(
+""*
+2
+1*ñ
+startingBlockt+ t(Dì
+ê
+s s(
+%11"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento`
+^
+t> t(C
+statomisc.StatoAppuntamento"__annotation*#
+
+__unknown_file (
+
+%11*
+3*ã
+
+1x x(â
+Ü
+x x(
+%3java.util.Map"__id*_
+
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+appuntamentiîë
+x x($
+%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%3java.util.Map2values()®•
+x x(-
+%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+%4java.util.Collection2stream()•
+¢
+y y(7"
+%6java.util.function.Predicate"__declareFunction*_
+
+__unknown_file (CA
+?__sonar_lambda_60$engclasses.dao.filesystem.AppuntamentoDAOFileë
+é
+
+__unknown_file (-
+"
+%6java.util.function.Predicate"
+stato"__id*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento¨©
+x y(8
+%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%5java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ùö
+x z(
+%10java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%9java.util.stream.Stream2toList()"#
+x z(
+
+%10java.util.List:+
+t, t(C
+statomisc.StatoAppuntamentoB1/
+-engclasses.dao.filesystem.AppuntamentoDAOFileH

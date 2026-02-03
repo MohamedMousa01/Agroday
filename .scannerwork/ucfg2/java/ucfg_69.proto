@@ -1,15 +1,15 @@
 
-7misc.Session#getPersistenceType()Lmisc/PersistenceType;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java$ $(-"1*ª
-1% %(q
-o
-% %(
-%0misc.PersistenceType"__id*A
+Kengclasses.beans.PartecipazioneBean#getIdPartecipazione()Ljava/lang/String;b
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/PartecipazioneBean.java (%"1*¼
+1 (†
+ƒ
+ (
+%0java.lang.String"__id*Y
 
-__unknown_file (%*#
-misc.Session"
-persistenceType"(
-% %(
-
-%0misc.PersistenceTypeB
-misc.SessionH
+__unknown_file (=*;%
+#engclasses.beans.PartecipazioneBean"
+idPartecipazione"$
+ ( 
+
+%0java.lang.StringB'%
+#engclasses.beans.PartecipazioneBeanH

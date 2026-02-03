@@ -9,12 +9,12 @@ import engclasses.dao.db.AgricoltoreDAODB;
 import engclasses.dao.db.ConsulenteDAODB;
 import engclasses.dao.db.UtenteDAODB;
 import engclasses.dao.db.VenditoreDAODB;
-import engclasses.dao.fileSystem.AgricoltoreDAOFile;
-import engclasses.dao.fileSystem.AnnuncioDAOFile;
-import engclasses.dao.fileSystem.AppuntamentoDAOFile;
-import engclasses.dao.fileSystem.ConsulenteDAOFile;
-import engclasses.dao.fileSystem.UtenteDAOFile;
-import engclasses.dao.fileSystem.VenditoreDAOFile;
+import engclasses.dao.filesystem.AgricoltoreDAOFile;
+import engclasses.dao.filesystem.AnnuncioDAOFile;
+import engclasses.dao.filesystem.AppuntamentoDAOFile;
+import engclasses.dao.filesystem.ConsulenteDAOFile;
+import engclasses.dao.filesystem.UtenteDAOFile;
+import engclasses.dao.filesystem.VenditoreDAOFile;
 import engclasses.dao.memory.AgricoltoreDAOMemory;
 import engclasses.dao.memory.VenditoreDAOMemory;
 import misc.TipoUtente;
@@ -47,12 +47,12 @@ public class DAOFileFactory extends DAOFactory {
 
     @Override
     public engclasses.dao.api.PartecipazioneDAO getPartecipazioneDAO() {
-        return new engclasses.dao.fileSystem.PartecipazioneDAOFile();
+        return new engclasses.dao.filesystem.PartecipazioneDAOFile();
     }
 
     @Override
     public engclasses.dao.api.OffertaDAO getOffertaDAO() {
-        return new engclasses.dao.fileSystem.OffertaDAOFile();
+        return new engclasses.dao.filesystem.OffertaDAOFile();
     }
 
     @Override

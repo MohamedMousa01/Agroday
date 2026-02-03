@@ -10,8 +10,11 @@ public class PartecipazioneBean {
     private String idAgricoltore;
     private int quantitaRichiesta;
 
-    // Costruttore vuoto
+    /**
+     * Costruttore vuoto necessario per la deserializzazione e l'uso come JavaBean.
+     */
     public PartecipazioneBean() {
+        // Costruttore vuoto di default
     }
 
     // Costruttore con parametri

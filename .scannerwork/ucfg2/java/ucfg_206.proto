@@ -1,0 +1,35 @@
+
+model.Appuntamento#isPassato()ZS
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java¡ ¡("1*Ù
+1
+¢ ¢(x
+v
+
+¢ ¢(
+%0java.time.LocalDateTime"__id*C
+
+__unknown_file ('*%
+model.Appuntamento"
+dataOraFineŸ
+œ
+
+¢$ ¢(7
+%1java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*7
+
+__unknown_file ("
+java.time.LocalDateTime•’
+
+¢ ¢(8
+%2boolean"Ijava.time.LocalDateTime#isBefore(Ljava/time/chrono/ChronoLocalDateTime;)Z*;
+
+__unknown_file (
+
+%0java.time.LocalDateTime*;
+
+__unknown_file (
+
+%1java.time.LocalDateTime20isBefore(Ljava/time/chrono/ChronoLocalDateTime;)"
+
+¢ ¢(9
+""B
+model.AppuntamentoHX

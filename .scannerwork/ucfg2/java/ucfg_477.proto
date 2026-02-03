@@ -1,0 +1,39 @@
+
+8view.cli.LoginCLIView#chiediUsername()Ljava/lang/String;T
+J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java ( "1*Þ
+1 (Q
+O
+ (
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÉÆ
+ (&
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream**
+
+__unknown_file (
+
+Username: 2print(Ljava/lang/String;)o
+m
+   (
+%2java.util.Scanner"__id*B
+
+__unknown_file (&*$
+view.cli.LoginCLIView"	
+scanner˜•
+   (!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()"$
+   ("
+
+%3java.lang.StringB
+view.cli.LoginCLIViewH

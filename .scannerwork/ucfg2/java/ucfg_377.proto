@@ -1,0 +1,513 @@
+
+eengclasses.dao.db.AppuntamentoDAODB#mappaRigaAdAppuntamento(Ljava/sql/ResultSet;)Lmodel/Appuntamento;d
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.java´ ´(0"2*Õ0
+2
+µ  µ("óð
+
+µ  µ(?
+%0java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*/
+
+__unknown_file (
+id_appuntamento2getString(Ljava/lang/String;)n
+l
+
+µ µ(@"
+idAppuntamentojava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.Stringîë
+
+¶ ¶(5
+%1java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet**
+
+__unknown_file (
+
+id_cliente2getString(Ljava/lang/String;)i
+g
+
+¶ ¶(6
+	idClientejava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringñî
+
+· ·(;
+%2java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*-
+
+__unknown_file (
+id_consulente2getString(Ljava/lang/String;)l
+j
+
+· ·(< 
+idConsulentejava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringóð
+
+¸? ¸(^
+%3java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*/
+
+__unknown_file (
+tipo_consulenza2getString(Ljava/lang/String;)Û
+Ø
+
+¸( ¸(_
+%4misc.TipoConsulenza"Dmisc.TipoConsulenza#valueOf(Ljava/lang/String;)Lmisc/TipoConsulenza;*3
+
+__unknown_file ("
+misc.TipoConsulenza*4
+
+__unknown_file (
+
+%3java.lang.Stringt
+r
+
+¸ ¸(`%
+tipoConsulenzamisc.TipoConsulenza"__id*7
+
+__unknown_file (
+
+%4misc.TipoConsulenzaéæ
+
+¹< ¹(Q
+%5java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*%
+
+__unknown_file (	
+stato2getString(Ljava/lang/String;)ç
+ä
+
+¹" ¹(R
+%6misc.StatoAppuntamento"Jmisc.StatoAppuntamento#valueOf(Ljava/lang/String;)Lmisc/StatoAppuntamento;*6
+
+__unknown_file ("
+misc.StatoAppuntamento*4
+
+__unknown_file (
+
+%5java.lang.Stringq
+o
+
+¹ ¹(S
+statomisc.StatoAppuntamento"__id*:
+
+__unknown_file (
+
+%6misc.StatoAppuntamentoýú
+
+º& º(H
+%7java.sql.Timestamp"Gjava.sql.ResultSet#getTimestamp(Ljava/lang/String;)Ljava/sql/Timestamp;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*/
+
+__unknown_file (
+data_ora_inizio2 getTimestamp(Ljava/lang/String;)¸µ
+
+º& º(Z
+%8java.time.LocalDateTime"=java.sql.Timestamp#toLocalDateTime()Ljava/time/LocalDateTime;*6
+
+__unknown_file (
+
+%7java.sql.Timestamp2toLocalDateTime(){
+y
+
+º º([(
+dataOraIniziojava.time.LocalDateTime"__id*;
+
+__unknown_file (
+
+%8java.time.LocalDateTimeûø
+
+»$ »(D
+%9java.sql.Timestamp"Gjava.sql.ResultSet#getTimestamp(Ljava/lang/String;)Ljava/sql/Timestamp;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*-
+
+__unknown_file (
+data_ora_fine2 getTimestamp(Ljava/lang/String;)¹¶
+
+»$ »(V
+%10java.time.LocalDateTime"=java.sql.Timestamp#toLocalDateTime()Ljava/time/LocalDateTime;*6
+
+__unknown_file (
+
+%9java.sql.Timestamp2toLocalDateTime()z
+x
+
+» »(W&
+dataOraFinejava.time.LocalDateTime"__id*<
+
+__unknown_file ( 
+
+%10java.time.LocalDateTimeêç
+
+¼ ¼(,
+%11java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*%
+
+__unknown_file (	
+luogo2getString(Ljava/lang/String;)f
+d
+
+¼ ¼(-
+luogojava.lang.String"__id*5
+
+__unknown_file (
+
+%11java.lang.Stringéæ
+
+½ ½(*
+%12java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*$
+
+__unknown_file (
+note2getString(Ljava/lang/String;)e
+c
+
+½ ½(+
+notejava.lang.String"__id*5
+
+__unknown_file (
+
+%12java.lang.Stringùö
+
+¾% ¾(I
+%13java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*4
+
+__unknown_file (
+motivo_cancellazione2getString(Ljava/lang/String;)t
+r
+
+¾ ¾(J'
+motivoCancellazionejava.lang.String"__id*5
+
+__unknown_file (
+
+%13java.lang.Stringýú
+
+¿& ¿(G
+%14java.sql.Timestamp"Gjava.sql.ResultSet#getTimestamp(Ljava/lang/String;)Ljava/sql/Timestamp;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*.
+
+__unknown_file (
+data_creazione2 getTimestamp(Ljava/lang/String;)º·
+
+¿& ¿(Y
+%15java.time.LocalDateTime"=java.sql.Timestamp#toLocalDateTime()Ljava/time/LocalDateTime;*7
+
+__unknown_file (
+
+%14java.sql.Timestamp2toLocalDateTime()|
+z
+
+¿ ¿(Z(
+dataCreazionejava.time.LocalDateTime"__id*<
+
+__unknown_file ( 
+
+%15java.time.LocalDateTimeƒ€
+
+À+ À(R
+%16java.sql.Timestamp"Gjava.sql.ResultSet#getTimestamp(Ljava/lang/String;)Ljava/sql/Timestamp;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*4
+
+__unknown_file (
+data_ultima_modifica2 getTimestamp(Ljava/lang/String;)º·
+
+À+ À(d
+%17java.time.LocalDateTime"=java.sql.Timestamp#toLocalDateTime()Ljava/time/LocalDateTime;*7
+
+__unknown_file (
+
+%16java.sql.Timestamp2toLocalDateTime()
+
+
+À À(e-
+dataUltimaModificajava.time.LocalDateTime"__id*<
+
+__unknown_file ( 
+
+%17java.time.LocalDateTimeýú
+
+Á' Á(O
+%18java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*8
+
+__unknown_file (
+google_calendar_event_id2getString(Ljava/lang/String;)v
+t
+
+Á Á(P)
+googleCalendarEventIdjava.lang.String"__id*5
+
+__unknown_file (
+
+%18java.lang.StringT
+R
+
+Å Å(
+%19misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""T
+R
+
+È È(
+%20misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""T
+R
+
+Ë Ë(
+%21misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""*	
+3
+4
+5*€
+
+3
+Ë Í(NMK
+
+Ë" Ë(6!
+%26model.AppuntamentoSulCampo"model.AppuntamentoSulCampoš	
+—	
+
+Ë Í(M
+%27"žmodel.AppuntamentoSulCampo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V*?
+
+__unknown_file (#
+!
+%26model.AppuntamentoSulCampo*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*;
+
+__unknown_file (
+
+	idClientejava.lang.String*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTime*D
+
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTime*7
+
+__unknown_file (
+
+luogojava.lang.String*6
+
+__unknown_file (
+
+notejava.lang.String*E
+
+__unknown_file ()
+'
+motivoCancellazionejava.lang.String*F
+
+__unknown_file (*
+(
+dataCreazionejava.time.LocalDateTime*K
+
+__unknown_file (/
+-
+dataUltimaModificajava.time.LocalDateTime*G
+
+__unknown_file (+
+)
+googleCalendarEventIdjava.lang.String*
+1*„
+
+4
+È Ê(NOM
+
+È# È(8"
+%24model.AppuntamentoInUfficio"model.AppuntamentoInUfficioœ	
+™	
+
+È Ê(M
+%25"Ÿmodel.AppuntamentoInUfficio#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+%24model.AppuntamentoInUfficio*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*;
+
+__unknown_file (
+
+	idClientejava.lang.String*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTime*D
+
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTime*7
+
+__unknown_file (
+
+luogojava.lang.String*6
+
+__unknown_file (
+
+notejava.lang.String*E
+
+__unknown_file ()
+'
+motivoCancellazionejava.lang.String*F
+
+__unknown_file (*
+(
+dataCreazionejava.time.LocalDateTime*K
+
+__unknown_file (/
+-
+dataUltimaModificajava.time.LocalDateTime*G
+
+__unknown_file (+
+)
+googleCalendarEventIdjava.lang.String*
+1*ø	
+5
+Å Ç(NIG
+
+Å Å(1
+%22model.AppuntamentoOnline"model.AppuntamentoOnline–	
+“	
+
+Å Ç(M
+%23"œmodel.AppuntamentoOnline#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lmisc/StatoAppuntamento;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)V*=
+
+__unknown_file (!
+
+%22model.AppuntamentoOnline*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*;
+
+__unknown_file (
+
+	idClientejava.lang.String*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento*F
+
+__unknown_file (*
+(
+dataOraIniziojava.time.LocalDateTime*D
+
+__unknown_file ((
+&
+dataOraFinejava.time.LocalDateTime*7
+
+__unknown_file (
+
+luogojava.lang.String*6
+
+__unknown_file (
+
+notejava.lang.String*E
+
+__unknown_file ()
+'
+motivoCancellazionejava.lang.String*F
+
+__unknown_file (*
+(
+dataCreazionejava.time.LocalDateTime*K
+
+__unknown_file (/
+-
+dataUltimaModificajava.time.LocalDateTime*G
+
+__unknown_file (+
+)
+googleCalendarEventIdjava.lang.String*
+1*%
+1
+Ä Î(
+"
+
+Ä Î(
+
+"":&
+
+´1 ´(=
+rsjava.sql.ResultSetB'%
+#engclasses.dao.db.AppuntamentoDAODB

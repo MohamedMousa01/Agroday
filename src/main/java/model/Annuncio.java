@@ -1,6 +1,8 @@
 package model;
 
 
+import misc.StatoAnnuncio;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.UUID;
@@ -44,7 +46,7 @@ public class Annuncio implements Serializable {
         this.dataPubblicazione = LocalDate.now();
         this.dataScadenza = dataScadenza;
         this.citta = citta;
-        this.stato = "ATTIVO"; // Inizialmente attivo
+        this.stato = StatoAnnuncio.ATTIVO; // Inizialmente attivo
         this.quantitaTotale = quantitaDesiderata; // Inizialmente solo la quantità dell'autore
     }
 
@@ -68,7 +70,7 @@ public class Annuncio implements Serializable {
         this.dataPubblicazione = dataPubblicazione;
         this.dataScadenza = dataScadenza;
         this.citta = citta;
-        this.stato = isScaduto() ? "SCADUTO" : "ATTIVO";
+        this.stato = isScaduto() ? StatoAnnuncio.SCADUTO : StatoAnnuncio.ATTIVO;
         this.quantitaTotale = quantitaDesiderata;
     }
 
@@ -143,7 +145,7 @@ public class Annuncio implements Serializable {
     }
 
     public boolean isAttivo() {
-        return "ATTIVO".equals(stato) && !isScaduto();
+        return StatoAnnuncio.ATTIVO.equals(stato) && !isScaduto();
     }
 
     public void aggiornaQuantitaTotale(List<Partecipazione> partecipazioni) {
@@ -158,8 +160,8 @@ public class Annuncio implements Serializable {
     }
 
     public void aggiornaStato() {
-        if (isScaduto() && "ATTIVO".equals(stato)) {
-            this.stato = "SCADUTO";
+        if (isScaduto() && StatoAnnuncio.ATTIVO.equals(stato)) {
+            this.stato = StatoAnnuncio.SCADUTO;
         }
     }
 

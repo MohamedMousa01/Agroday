@@ -7,11 +7,14 @@ import misc.TipoUtente;
 import misc.UiType;
 import misc.ViewType;
 import model.Agricoltore;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static misc.ViewType.*;
 
 public class ViewManager {
 
+        private static final Logger logger = LoggerFactory.getLogger(ViewManager.class);
 
         private ViewManager() {}
 
@@ -37,13 +40,7 @@ public class ViewManager {
 
             case REGISTRAZIONE -> SceneManagerGUI.load("/RegistrazioneView.fxml", "Registrazione - Agroday");
 
-            case MAIN -> {
-                switch (tipo) {
-                    case AGRICOLTORE -> SceneManagerGUI.load("/MainView-Agricoltore.fxml", "Agroday - Pannello Agricoltore");
-                    case VENDITORE -> SceneManagerGUI.load("/MainView-Venditore.fxml", "Agroday - Pannello Venditore");
-                    case CONSULENTE -> SceneManagerGUI.load("/MainView-Consulente.fxml", "Agroday - Pannello Consulente");
-                }
-            }
+            case MAIN -> caricaMainViewGUI(tipo);
 
             case PROFILO -> SceneManagerGUI.load("/ProfiloView.fxml", "Il Mio Profilo");
 
@@ -64,6 +61,17 @@ public class ViewManager {
             case DETTAGLIO_APPUNTAMENTO -> SceneManagerGUI.load("/DettaglioAppuntamentoView.fxml", "Dettaglio Appuntamento");
             case PRENOTAZIONE -> SceneManagerGUI.load("/PrenotazioneView.fxml", "Prenota Appuntamento");
             case CANCELLAZIONE_APPUNTAMENTO -> SceneManagerGUI.load("/CancellazioneAppuntamentoView.fxml", "Cancella Appuntamento");
+            
+            default -> logger.warn("Schermata non gestita per GUI: {}", schermata);
+        }
+    }
+
+    private static void caricaMainViewGUI(TipoUtente tipo) {
+        switch (tipo) {
+            case AGRICOLTORE -> SceneManagerGUI.load("/MainView-Agricoltore.fxml", "Agroday - Pannello Agricoltore");
+            case VENDITORE -> SceneManagerGUI.load("/MainView-Venditore.fxml", "Agroday - Pannello Venditore");
+            case CONSULENTE -> SceneManagerGUI.load("/MainView-Consulente.fxml", "Agroday - Pannello Consulente");
+            default -> logger.warn("Tipo utente non gestito: {}", tipo);
         }
     }
 
@@ -77,13 +85,7 @@ public class ViewManager {
 
             case REGISTRAZIONE -> new RegistrazioneCLIController().start();
 
-            case MAIN -> {
-                switch (tipo) {
-                    case AGRICOLTORE -> CliViewManager.showMainAgricoltore();
-                    case VENDITORE -> CliViewManager.showMainVenditore();
-                    case CONSULENTE -> CliViewManager.showMainConsulente();
-                }
-            }
+            case MAIN -> caricaMainViewCLI(tipo);
 
             case PROFILO -> CliViewManager.showProfilo();
 
@@ -92,6 +94,17 @@ public class ViewManager {
             case ORDINI -> CliViewManager.showOrdini();
 
             case CONSULENZA -> CliViewManager.showConsulenza();
+            
+            default -> logger.warn("Schermata non gestita per CLI: {}", schermata);
+        }
+    }
+
+    private static void caricaMainViewCLI(TipoUtente tipo) {
+        switch (tipo) {
+            case AGRICOLTORE -> CliViewManager.showMainAgricoltore();
+            case VENDITORE -> CliViewManager.showMainVenditore();
+            case CONSULENTE -> CliViewManager.showMainConsulente();
+            default -> logger.warn("Tipo utente non gestito per CLI: {}", tipo);
         }
     }
 }

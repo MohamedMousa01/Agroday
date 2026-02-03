@@ -1,0 +1,91 @@
+
+@engclasses.dao.memory.AnnuncioDAOMemory#salva(Lmodel/Annuncio;)Zf
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.java ("startingBlock*!
+2 ("
+ (
+""*°
+3  ((¢Ÿ
+  (8
+%1java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getIdAnnuncio()t
+r
+  (@
+%2boolean"	__compare*
+9 (;
+==*$
+  (8
+
+%1java.lang.String*
+< (@
+""*
+2
+1*Š
+startingBlock (+
+Š
+ (
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+annunciomodel.AnnuncioZ
+X
+" (*
+annunciomodel.Annuncio"__annotation*"
+
+__unknown_file (
+
+%6*
+4*
+4 (x
+v
+ (
+%0boolean"	__compare*
+ (
+==*(
+ (
+
+annunciomodel.Annuncio*
+ (
+""*
+2
+3*æ
+1 (K
+I
+ (
+%3java.util.Map"__id*"
+
+__unknown_file (
+""¢Ÿ
+ (,
+%4java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getIdAnnuncio()Ð
+Í
+ (7
+%5model.Annuncio"__mapSet*1
+
+__unknown_file (
+
+%3java.util.Map*4
+
+__unknown_file (
+
+%4java.lang.String*8
+
+__unknown_file (
+
+annunciomodel.Annuncio"
+ (
+"":&
+ (*
+annunciomodel.AnnuncioB+)
+'engclasses.dao.memory.AnnuncioDAOMemoryHX

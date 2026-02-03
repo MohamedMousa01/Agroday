@@ -9,8 +9,12 @@ import misc.ViewType;
 import view.cli.LoginCLIView;
 import misc.PersistenceType;
 import misc.Session;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class LoginCLIController {
+
+    private static final Logger logger = LoggerFactory.getLogger(LoginCLIController.class);
 
     private final LoginCLIView view;
     private final Session session;
@@ -64,7 +68,7 @@ public class LoginCLIController {
             view.mostraErrore(e.getMessage());
         } catch (DatabaseConnessioneFallitaException | DatabaseOperazioneFallitaException e) {
             view.mostraErrore("Errore di sistema: " + e.getMessage());
-            e.printStackTrace();
+            logger.error("Errore durante il login per l'utente: {}", username, e);
         }
     }
 

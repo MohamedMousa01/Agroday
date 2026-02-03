@@ -1,15 +1,109 @@
 
-)model.Utente#getCitta()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.javaM M("1*ò
-1M& M(+c
-a
-M& M(+
-%0java.lang.String"__id*7
+dengclasses.pattern.Factory.AppuntamentoSulCampoFactory#valida(Ljava/lang/String;J)Ljava/lang/String;u
+k/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/Factory/AppuntamentoSulCampoFactory.java ("startingBlock*˚
+2$ $(MA
+?
+$P $(d	
+%5int"__id*"
 
-__unknown_file (*
-model.Utente"
-citta"$
-M M(,
+__unknown_file (
+""í
+è
+$ $(d
+%6java.lang.String"__concat*H
+$ $(M<:
+8Le consulenze sul campo richiedono una durata minima di *
+$P $(d
+	
+%5intn
+l
+$ $(q
+%7java.lang.String"__concat*$
+$ $(d
 
-%0java.lang.StringB
-model.UtenteH
+%6java.lang.String*
+$g $(q
+
+ minuti."$
+$ $(r
+
+%7java.lang.String*¿
+3# #(A
+?
+# #(/	
+%3int"__id*"
+
+__unknown_file (
+""f
+d
+# #(/
+%4boolean"	__compare*
+# #(
+<*
+# #(
+""*
+# #(/
+	
+%3int*
+2
+1*à
+startingBlock (9å
+â
+ (
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+luogojava.lang.StringY
+W
+  (%
+luogojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8*
+6*k
+4! !(`"\
+! !(aPN
+LL'indirizzo del terreno/azienda √® obbligatorio per le consulenze sul campo.*§
+5   ("ëé
+   ()
+%1java.lang.String")java.lang.String#trim()Ljava/lang/String;*7
+
+__unknown_file (
+
+luogojava.lang.String2trim()yw
+   (3
+%2boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
+
+%1java.lang.String2	isEmpty()*
+3
+4*é
+6   (w
+u
+   (
+%0boolean"	__compare*
+   (
+==*'
+   (
+
+luogojava.lang.String*
+   (
+""*
+4
+5*!
+1& &("
+& &(
+"":%
+ (&
+luogojava.lang.String: 
+
+__unknown_file (
+""B:8
+6engclasses.pattern.Factory.AppuntamentoSulCampoFactoryH

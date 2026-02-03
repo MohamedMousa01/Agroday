@@ -1,0 +1,468 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133891939*java2.Bö
+7
+2src/main/java/view/cli/MainAgricoltoreCLIView.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+view.cli7
+$
+view.cli.MainAgricoltoreCLIView9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(10:1)-(90:2)14
+
+simple-name15
+
+MainAgricoltoreCLIView16
+-
+'view.cli.MainAgricoltoreCLIView.scanner18
+
+field19
+
+private20
+
+(12:5)-(12:60)21
+
+scanner22
+C
+=view.cli.MainAgricoltoreCLIView#mostraTitolo(Lmodel/Utente;)V24
+
+method25
+
+(16:5)-(24:6)26
+
+mostraTitolo27
+
+model.Utente29
+
+unknown30
+
+	has param31
+
+is type32
+
+
+uses33
+
+
+references34
+4
+.view.cli.MainAgricoltoreCLIView#clearScreen()V36
+
+calls37
+
+misc.UIConstants39
+#
+misc.UIConstants.BOX_TOP_LONG41
+&
+ misc.UIConstants.BOX_BOTTOM_LONG43
+.
+(model.Utente#getNome()Ljava/lang/String;45
+1
++model.Utente#getCognome()Ljava/lang/String;47
+/
+)model.Utente#getEmail()Ljava/lang/String;49
+/
+)model.Utente#getCitta()Ljava/lang/String;51
+)
+#misc.UIConstants.BOX_SEPARATOR_LONG53
+3
+-view.cli.MainAgricoltoreCLIView#mostraMenu()V55
+
+(26:5)-(39:6)56
+
+
+mostraMenu57
+J
+Dview.cli.MainAgricoltoreCLIView#mostraMessaggio(Ljava/lang/String;)V59
+
+(41:5)-(43:6)60
+
+mostraMessaggio61
+I
+Cview.cli.MainAgricoltoreCLIView#mostraSuccesso(Ljava/lang/String;)V63
+
+(45:5)-(47:6)64
+
+mostraSuccesso65
+G
+Aview.cli.MainAgricoltoreCLIView#mostraErrore(Ljava/lang/String;)V67
+
+(49:5)-(51:6)68
+
+mostraErrore69
+L
+Fview.cli.MainAgricoltoreCLIView#mostraCaricamento(Ljava/lang/String;)V71
+
+(53:5)-(55:6)72
+
+mostraCaricamento73
+5
+/view.cli.MainAgricoltoreCLIView#chiediScelta()I75
+
+(59:5)-(66:6)76
+
+chiediScelta77
+5
+/view.cli.MainAgricoltoreCLIView#attendiInvio()V79
+
+(68:5)-(71:6)80
+
+attendiInvio81
+I
+Cview.cli.MainAgricoltoreCLIView#confermaAzione(Ljava/lang/String;)Z83
+
+(73:5)-(77:6)84
+
+confermaAzione85
+
+(81:5)-(85:6)86
+
+clearScreen87
+9
+3view.cli.MainAgricoltoreCLIView#mostraSeparatore()V89
+
+(87:5)-(89:6)90
+
+mostraSeparatore91J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j±	
+
+38
+383930
+M
+66G
+666725 *
+11 1(28:5B$
+
+
+11
+12
+
+
+13
+68
+
+
+15
+69
+M
+17G
+171819 *
+1 ("28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+G
+8B
+8910 *
+1
+ 
+($:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+28
+282930
+
+40
+404130
+M
+23G
+232425 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+26
+
+
+15
+27
+
+46
+464730
+
+50
+505130
+M
+58G
+585925 *
+1) )( 28:5B$
+
+
+11
+12
+
+
+13
+60
+
+
+15
+61
+
+48
+484930
+M
+74G
+747525 *
+1; ;(28:5B$
+
+
+11
+12
+
+
+13
+76
+
+
+15
+77
+M
+82G
+828325 *
+1I I("28:5B$
+
+
+11
+12
+
+
+13
+84
+
+
+15
+85
+M
+62G
+626325 *
+1- -(28:5B$
+
+
+11
+12
+
+
+13
+64
+
+
+15
+65
+M
+54G
+545525 *
+1 (28:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+57
+M
+35G
+353625 *
+1Q Q(28:5B$
+
+
+11
+20
+
+
+13
+86
+
+
+15
+87
+M
+88G
+888925 *
+1W W(!28:5B$
+
+
+11
+12
+
+
+13
+90
+
+
+15
+91
+
+44
+444530
+M
+78G
+787925 *
+1D D(28:5B$
+
+
+11
+12
+
+
+13
+80
+
+
+15
+81
+
+52
+525330
+
+42
+424330
+M
+70G
+707125 *
+15 5("28:5B$
+
+
+11
+12
+
+
+13
+72
+
+
+15
+73rØ
+
+232831*
+1 ($
+
+232832*
+1% (+
+
+232833*
+1 ($
+
+23834*
+1	 (
+
+233537*
+1	 (
+
+233833*
+1 ('
+
+234034*
+1( (4
+
+233833*
+1 ('
+
+234234*
+1( (7
+
+232834*
+1. (<
+
+234437*
+15 (<
+
+232834*
+1G (X
+
+234637*
+1N (X
+
+232834*
+1& (5
+
+234837*
+1- (5
+
+232834*
+1E (T
+
+235037*
+1L (T
+
+233833*
+1 ('
+
+235234*
+1( (:
+
+741734*
+1>% >(,
+
+741734*
+1>% >(,
+
+781734*
+1F	 F(
+
+781734*
+1F	 F(
+
+821734*
+1K K("
+
+821734*
+1K K("
+
+883833*
+1X X('
+
+885234*
+1X( X(:

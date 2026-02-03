@@ -1,0 +1,61 @@
+
+1view.cli.VisualizzaAnnunciCLIView#chiediScelta()I`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.javax x("6*!
+2{ {(?"
+{ {(?
+""*Ç
+3{ {(>²
+¯
+{ {(>	
+%5int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*4
+
+__unknown_file (
+
+%4java.lang.String*
+2*£
+4{$ {(=Ž‹
+{$ {(=
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2trim()*
+3*ª
+5{ {({
+y
+{$ {(+
+%2java.util.Scanner"__id*N
+
+__unknown_file (2*0#
+!view.cli.VisualizzaAnnunciCLIView"	
+scanner˜•
+{$ {(6
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()*
+4*À
+6y y(Q
+O
+y y(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ØÕ
+y y(3
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*9
+
+__unknown_file (
+\nâž¤ Scegli un'opzione: 2print(Ljava/lang/String;)*
+5B%#
+!view.cli.VisualizzaAnnunciCLIViewHX

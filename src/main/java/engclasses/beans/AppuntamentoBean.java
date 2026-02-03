@@ -16,7 +16,6 @@ public class AppuntamentoBean {
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm");
-    private static final DateTimeFormatter DATETIME_FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
     // Identificatori
     private String idAppuntamento;
@@ -47,8 +46,11 @@ public class AppuntamentoBean {
     private String googleCalendarEventId;
     private String linkCalendario;
 
-    // Costruttore vuoto
+    /**
+     * Costruttore vuoto necessario per la deserializzazione e l'uso come JavaBean.
+     */
     public AppuntamentoBean() {
+        // Costruttore vuoto di default
     }
 
     // Costruttore per la creazione di un nuovo appuntamento
@@ -140,7 +142,7 @@ public class AppuntamentoBean {
         StringBuilder sb = new StringBuilder();
         if (nomeCliente != null) sb.append(nomeCliente);
         if (cognomeCliente != null) {
-            if (sb.length() > 0) sb.append(" ");
+            if (!sb.isEmpty()) sb.append(" ");
             sb.append(cognomeCliente);
         }
         return sb.toString();
@@ -153,7 +155,7 @@ public class AppuntamentoBean {
         StringBuilder sb = new StringBuilder();
         if (nomeConsulente != null) sb.append(nomeConsulente);
         if (cognomeConsulente != null) {
-            if (sb.length() > 0) sb.append(" ");
+            if (!sb.isEmpty()) sb.append(" ");
             sb.append(cognomeConsulente);
         }
         return sb.toString();

@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * Implementazione in memoria del DAO per le offerte.
@@ -39,21 +38,21 @@ public class OffertaDAOMemory implements OffertaDAO {
     public List<Offerta> trovaPerAnnuncio(String idAnnuncio) {
         return offerte.values().stream()
                 .filter(o -> idAnnuncio.equals(o.getIdAnnuncio()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
     public List<Offerta> trovaPerVenditore(String usernameVenditore) {
         return offerte.values().stream()
                 .filter(o -> usernameVenditore.equals(o.getUsernameVenditore()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
     public List<Offerta> trovaOffertePendingPerVenditore(String usernameVenditore) {
         return offerte.values().stream()
                 .filter(o -> usernameVenditore.equals(o.getUsernameVenditore()) && o.isPending())
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override

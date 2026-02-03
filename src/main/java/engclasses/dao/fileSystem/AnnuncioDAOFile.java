@@ -1,14 +1,15 @@
-package engclasses.dao.fileSystem;
+package engclasses.dao.filesystem;
 
 import engclasses.dao.api.AnnuncioDAO;
 import model.Annuncio;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * Implementazione su file del DAO per gli annunci.
@@ -16,6 +17,7 @@ import java.util.stream.Collectors;
  */
 public class AnnuncioDAOFile implements AnnuncioDAO {
 
+    private static final Logger logger = LoggerFactory.getLogger(AnnuncioDAOFile.class);
     private static final String FILE_PATH = "annunci.dat";
     private Map<String, Annuncio> annunci;
 
@@ -33,7 +35,7 @@ public class AnnuncioDAOFile implements AnnuncioDAO {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(file))) {
             return (Map<String, Annuncio>) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
-            System.err.println("[AnnuncioDAOFile] Errore nel caricamento: " + e.getMessage());
+            logger.error("Errore nel caricamento degli annunci dal file", e);
             return new HashMap<>();
         }
     }
@@ -43,7 +45,7 @@ public class AnnuncioDAOFile implements AnnuncioDAO {
             oos.writeObject(annunci);
             return true;
         } catch (IOException e) {
-            System.err.println("[AnnuncioDAOFile] Errore nel salvataggio: " + e.getMessage());
+            logger.error("Errore nel salvataggio degli annunci su file", e);
             return false;
         }
     }
@@ -83,7 +85,7 @@ public class AnnuncioDAOFile implements AnnuncioDAO {
         }
         return annunci.values().stream()
                 .filter(a -> autore.equals(a.getAutore()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -93,7 +95,7 @@ public class AnnuncioDAOFile implements AnnuncioDAO {
         }
         return annunci.values().stream()
                 .filter(a -> citta.equals(a.getCitta()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -105,6 +107,6 @@ public class AnnuncioDAOFile implements AnnuncioDAO {
     public List<Annuncio> trovaAttivi() {
         return annunci.values().stream()
                 .filter(a -> !a.isScaduto())
-                .collect(Collectors.toList());
+                .toList();
     }
 }

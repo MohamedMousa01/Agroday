@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1769002669202*java2.BÆ
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893841*java2.BÅ
 B
 =src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java2
 	
@@ -21,8 +21,8 @@ B
 
 
 full-range13
-
-(10:1)-(15:2)14
+
+(5:1)-(10:2)14
 
 simple-name15
 
@@ -54,9 +54,7 @@ implements23
 G
 8B
 8910 *
-1
- 
-(":5B$
+1 (":5B$
 
 
 11
@@ -77,21 +75,13 @@ G
 171819rh
 
 81720*
-1
-+ 
-(:
+1+ (:
 
 82123*
-1
-F 
-(T
+1F (T
 
 81724*
-1
-+ 
-(:
+1+ (:
 
 82124*
-1
-F 
-(T
+1F (T

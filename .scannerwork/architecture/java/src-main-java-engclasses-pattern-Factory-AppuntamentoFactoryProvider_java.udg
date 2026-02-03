@@ -1,0 +1,203 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893909*java2.BÍ
+N
+Isrc/main/java/engclasses/pattern/Factory/AppuntamentoFactoryProvider.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+engclasses.pattern.Factory7
+;
+6engclasses.pattern.Factory.AppuntamentoFactoryProvider9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(9:1)-(33:2)14
+
+simple-name15
+!
+AppuntamentoFactoryProvider16
+F
+@engclasses.pattern.Factory.AppuntamentoFactoryProvider#<init>()V18
+
+method19
+
+private20
+
+(11:5)-(13:6)21
+
+calls22
+è
+àengclasses.pattern.Factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/Factory/AppuntamentoFactory;24
+
+(22:5)-(32:6)25
+
+
+getFactory26
+4
+.engclasses.pattern.Factory.AppuntamentoFactory28
+
+unknown29
+
+returns30
+
+misc.TipoConsulenza32
+
+	has param33
+
+
+uses34
+
+is type35
+ 
+misc.TipoConsulenza.ONLINE37
+
+
+references38
+:
+4engclasses.pattern.Factory.AppuntamentoOnlineFactory40
+$
+misc.TipoConsulenza.IN_UFFICIO42
+=
+7engclasses.pattern.Factory.AppuntamentoInUfficioFactory44
+#
+misc.TipoConsulenza.SUL_CAMPO46
+<
+6engclasses.pattern.Factory.AppuntamentoSulCampoFactory48J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768já
+M
+17G
+171819 *
+1 ((28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+16
+
+36
+363729
+
+39
+394029
+
+27
+272829
+G
+8B
+8910 *
+1	 	():5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+43
+434429
+
+31
+313229
+
+41
+414229
+
+45
+454629
+
+47
+474829
+M
+23G
+232419 *
+1' (128:5B$
+
+
+11
+12
+
+
+13
+25
+
+
+15
+26rî
+
+17822*
+1 ((
+
+232730*
+1 (&
+
+233133*
+12 (@
+
+232734*
+1 (&
+
+233135*
+1A (O
+
+233134*
+12 (@
+
+233134*
+1 (
+
+233638*
+1 (
+
+233922*
+1  (9
+
+233134*
+1 (
+
+234138*
+1 (
+
+234322*
+1$ (@
+
+233134*
+1 (
+
+234538*
+1 (
+
+234722*
+1# (>

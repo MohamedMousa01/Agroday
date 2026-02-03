@@ -1,0 +1,48 @@
+
+Eengclasses.dao.memory.AnnuncioDAOMemory#trovaAttivi()Ljava/util/List;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.javaG G(%"1*°
+1H H(K
+I
+H H(
+%0java.util.Map"__id*"
+
+__unknown_file (
+""”‘
+H H(
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%0java.util.Map2values()¨¥
+H H((
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+%1java.util.Collection2stream()Ÿ
+œ
+I I(+"
+%3java.util.function.Predicate"__declareFunction*Y
+
+__unknown_file (=;
+9__sonar_lambda_57$engclasses.dao.memory.AnnuncioDAOMemory¬©
+H I(,
+%5java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)œ™
+H J(
+%6java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%5java.util.stream.Stream2toList()""
+H J(
+
+%6java.util.ListB+)
+'engclasses.dao.memory.AnnuncioDAOMemoryH

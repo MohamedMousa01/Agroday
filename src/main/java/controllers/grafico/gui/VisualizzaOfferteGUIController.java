@@ -10,8 +10,11 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
+import misc.CSSConstants;
+import misc.MessageConstants;
 import misc.Session;
 import misc.ViewType;
+import misc.CSSConstants;
 import model.Annuncio;
 import model.Offerta;
 
@@ -112,7 +115,7 @@ public class VisualizzaOfferteGUIController {
         header.setAlignment(Pos.CENTER_LEFT);
 
         // Ottieni info annuncio (semplificato - potremmo caricare l'annuncio completo)
-        Label lblTitolo = new Label("📦 Annuncio ID: " + idAnnuncio.substring(0, Math.min(8, idAnnuncio.length())));
+        Label lblTitolo = new Label("📦 Annuncio" + MessageConstants.LABEL_ID + idAnnuncio.substring(0, Math.min(8, idAnnuncio.length())));
         lblTitolo.setFont(Font.font("System", FontWeight.BOLD, 16));
         lblTitolo.setStyle("-fx-text-fill: #333;");
 
@@ -132,7 +135,7 @@ public class VisualizzaOfferteGUIController {
         infoBox.setAlignment(Pos.CENTER_LEFT);
 
         Label lblVenditore = new Label("👤 Venditore: " + offerta.getUsernameVenditore());
-        lblVenditore.setStyle("-fx-font-weight: bold; -fx-text-fill: #333;");
+        lblVenditore.setStyle(CSSConstants.BOLD_TEXT_STYLE);
 
         Label lblPrezzo = new Label(String.format("💰 Prezzo: %.2f €/kg | Totale: %.2f €", 
             offerta.getPrezzoAlKg(), offerta.getPrezzoTotale()));

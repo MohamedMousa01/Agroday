@@ -1,0 +1,137 @@
+
+|engclasses.pattern.Factory.VenditoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/Factory/VenditoreFactory.java
+ 
+("startingBlock*Ž
+startingBlock
+ 
+(?‰
+†
+	 	(
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+idjava.lang.StringV
+T
+
+$ 
+(&
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8
+š
+	 	(
+%9"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBeanj
+h
+
+: 
+(>*
+bean"engclasses.beans.RegistrazioneBean"__annotation*"
+
+__unknown_file (
+
+%9*
+1*Ï
+1 (Â¿
+ ("
+%0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getUsername()¼¹
+ (
+%1java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getEmail()Â¿
+ ("
+%2java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getPassword()º·
+ (
+%3java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2	getNome()À½
+ (!
+%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getCognome()¼¹
+ (
+%5java.lang.String"?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getCitta()42
+ (
+%6model.Venditore"model.VenditoreÜ
+Ù
+ ( 
+%7"—model.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*3
+
+__unknown_file (
+
+%6model.Venditore*4
+
+__unknown_file (
+
+idjava.lang.String*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String"#
+ (!
+
+%6model.Venditore:"
+
+ 
+('
+idjava.lang.String:6
+
+( 
+(>*
+bean"engclasses.beans.RegistrazioneBeanB/-
++engclasses.pattern.Factory.VenditoreFactoryH

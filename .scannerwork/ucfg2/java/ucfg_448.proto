@@ -1,0 +1,44 @@
+
+=view.cli.CreaAnnuncioCLIView#chiediTitolo()Ljava/lang/String;[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java< <("1*‰
+1= =(Q
+O
+= =(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÜÙ
+= =(7
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*=
+
+__unknown_file (!
+\nðŸ“Œ Titolo dell'annuncio: 2print(Ljava/lang/String;)v
+t
+> >(
+%2java.util.Scanner"__id*I
+
+__unknown_file (-*+
+view.cli.CreaAnnuncioCLIView"	
+scanner˜•
+> >(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()Ž‹
+> >((
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2trim()"$
+> >()
+
+%4java.lang.StringB 
+view.cli.CreaAnnuncioCLIViewH

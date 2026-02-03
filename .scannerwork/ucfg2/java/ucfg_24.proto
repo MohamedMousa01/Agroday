@@ -1,74 +1,175 @@
 
-Kengclasses.dao.fileSystem.UtenteDAOFile#esisteUsername(Ljava/lang/String;)Zf
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/fileSystem/UtenteDAOFile.java (!"startingBlock*é
-startingBlock! (2è
-å
- (
-%6"
-__annotate*2
+@controllers.grafico.gui.PrenotazioneGUIController#validaCampi()Zr
+f/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/PrenotazioneGUIController.java˜ ˜("7*À
+2
+É É(£
+†
+
+É É()
+
+%9void"Wcontrollers.grafico.gui.PrenotazioneGUIController#mostraMessaggio(Ljava/lang/String;Z)V*Q
 
-__unknown_file (
-java.lang.Override*:
+__unknown_file (53
+1controllers.grafico.gui.PrenotazioneGUIController*8
 
-__unknown_file (
-
-usernamejava.lang.String\
-Z
-) (1
-usernamejava.lang.String"__annotation*"
+__unknown_file (
+
+errorijava.lang.String* 
+
+__unknown_file (2"
+
+Ñ Ñ(
+""*Ä
+3
+ˇ ˇ(èå
+
+˘ Ä(	
+%7"Öcontrollers.applicativo.AppuntamentoController#validaCampiPrenotazione(ZLmisc/TipoConsulenza;ZZZLjava/lang/String;)Ljava/lang/String;*R
+
+__unknown_file (6
+4
+%0.controllers.applicativo.AppuntamentoController*"
 
 __unknown_file (
 
-%6*
-1*≥
-1 (*ƒ¡
- (,
-%0java.util.List"Fengclasses.dao.fileSystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*G
+%1*"
 
-__unknown_file (+)
-'engclasses.dao.fileSystem.UtenteDAOFile2caricaDaFile()`
-^
- (-
-utentejava.util.List"__id*2
+__unknown_file (
+""*"
 
-__unknown_file (
-
-%0java.util.List¶£
- (
-%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
+__unknown_file (
+
+%2*"
 
-__unknown_file (
+__unknown_file (
+""*"
 
-utentejava.util.List2stream()û
-õ
- (I"
-%2java.util.function.Predicate"__declareFunction*X
+__unknown_file (
+""*"
 
-__unknown_file (<:
-8__sonar_lambda_0$engclasses.dao.fileSystem.UtenteDAOFileë
-é
-
-__unknown_file (0
-"
-%2java.util.function.Predicate"
+__unknown_file (
+""2DvalidaCampiPrenotazione(ZLmisc/TipoConsulenza;ZZZLjava/lang/String;)T
+R
 
-username"__id*:
+˘ Ä(
+
+errorijava.lang.String"__id*"
 
-__unknown_file (
-
-usernamejava.lang.StringàÖ
- (J
-%5boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*;
+__unknown_file (
+
+%7}
+
+Ç Ç(
+%8boolean"java.lang.String#isEmpty()Z*8
 
-__unknown_file (
-
-%1java.util.stream.Stream*@
+__unknown_file (
+
+errorijava.lang.String2	isEmpty()*
+2
+1*w
+4
+˛3 ˛(Ba
+_
+
+˛3 ˛(U
+%6"	__compare*
+
+˛N ˛(P
+!=*
+
+˛3 ˛(M
+""*
+
+˛Q ˛(U
+""*
+3*z
+5
+˛ ˛(a
+_
+
+˛ ˛(/
+%5"	__compare*
+
+˛( ˛(*
+!=*
+
+˛ ˛('
+""*
+
+˛+ ˛(/
+""*
+3
+4*w
+6
+˝5 ˝(Fa
+_
+
+˝5 ˝(Y
+%4"	__compare*
+
+˝R ˝(T
+!=*
+
+˝5 ˝(Q
+""*
+
+˝U ˝(Y
+""*
+5*˝
+7
+˘ ˘(.∫
+∑
+
+˘ ˘(.4
+%0.controllers.applicativo.AppuntamentoController"__id*m
 
-__unknown_file ($
-"
-%2java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)"
- (K
-"":(
-" (1
-usernamejava.lang.StringB+)
-'engclasses.dao.fileSystem.UtenteDAOFileHX
+__unknown_file (Q*O3
+1controllers.grafico.gui.PrenotazioneGUIController"
+appuntamentoControllera
+_
+
+˙ ˙(2
+%1"	__compare*
+
+˙+ ˙(-
+!=*
+
+˙ ˙(*
+""*
+
+˙. ˙(2
+""a
+_
+
+¸ ¸(-
+%2"	__compare*
+
+¸& ¸((
+!=*
+
+¸ ¸(%
+""*
+
+¸) ¸(-
+""a
+_
+
+˝ ˝(1
+%3"	__compare*
+
+˝* ˝(,
+!=*
+
+˝ ˝()
+""*
+
+˝- ˝(1
+""*
+5
+6*%
+1
+Ü Ü("
+
+Ü Ü(
+""B53
+1controllers.grafico.gui.PrenotazioneGUIControllerX

@@ -1,86 +1,101 @@
 
-cengclasses.dao.factory.DAOFileFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;d
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java (!"startingBlock*Ö
-2 (M
-K
- (
-%0misc.TipoUtente"__id*"
+Fengclasses.dao.filesystem.OffertaDAOFile#caricaDaFile()Ljava/util/Map;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java! (-"11*4
+5! !(:"%
+! !(;
+
+%10java.lang.Object*∏
+6   (Us
+q
+   (U 
+oisjava.io.ObjectInputStream"__id*=
 
-__unknown_file (
-""M
-K
- (
-%1misc.TipoUtente"__id*"
+__unknown_file (!
+
+%8java.io.ObjectInputStreamÆ´
+!* !(:
+%10java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*>
 
-__unknown_file (
-""M
-K
- (
-%2misc.TipoUtente"__id*"
+__unknown_file ("
+ 
+oisjava.io.ObjectInputStream2readObject()*
+5*®
+7 %  (UHF
+ )  (:
+%8java.io.ObjectInputStream"java.io.ObjectInputStream…
+∆
+ %  (U
+%9"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
 
-__unknown_file (
-""*	
-3
-4
-5*û
-3 (7lj
-# (41
-%7+engclasses.dao.fileSystem.ConsulenteDAOFile"+engclasses.dao.fileSystem.ConsulenteDAOFileõ
-ò
- (6
-%8"5engclasses.dao.fileSystem.ConsulenteDAOFile#<init>()V*O
+__unknown_file (!
+
+%8java.io.ObjectInputStream*;
 
-__unknown_file (3
-1
-%7+engclasses.dao.fileSystem.ConsulenteDAOFile*
-1*Ñ
-startingBlock! (2ä
-á
- (
-%9"
-__annotate*2
+__unknown_file (
+
+%6java.io.FileInputStream*
+6*ê
+8 O  (SDB
+ ?  (N
+%6java.io.FileInputStream"java.io.FileInputStreamµ
+≤
+ ;  (T
+%7"/java.io.FileInputStream#<init>(Ljava/io/File;)V*;
 
-__unknown_file (
-java.lang.Override*5
+__unknown_file (
+
+%6java.io.FileInputStream*2
+
+__unknown_file (
+
+filejava.io.File*
+7*◊
+10 ("86
+ ( 
+%4java.util.HashMap"java.util.HashMapf
+d
+ ("
+%5"java.util.HashMap#<init>()V*5
 
 __unknown_file (
 
-tipomisc.TipoUtenteW
+%4java.util.HashMap"%
+ (#
+
+%4java.util.HashMap*ó
+11 (&W
 U
-- (1
-tipomisc.TipoUtente"__annotation*"
+ (&
+%0java.lang.String"__id*+
 
-__unknown_file (
-
-%9*
-2*ö
-4 (5jh
-" (20
-%5*engclasses.dao.fileSystem.VenditoreDAOFile"*engclasses.dao.fileSystem.VenditoreDAOFileô
-ñ
- (4
-%6"4engclasses.dao.fileSystem.VenditoreDAOFile#<init>()V*N
+__unknown_file (
+offerte.dat.,
+ (
+%1java.io.File"java.io.File•
+¢
+ ('
+%2"(java.io.File#<init>(Ljava/lang/String;)V*0
 
-__unknown_file (2
-0
-%5*engclasses.dao.fileSystem.VenditoreDAOFile*
-1*¢
-5 (9nl
-$ (62
-%3,engclasses.dao.fileSystem.AgricoltoreDAOFile",engclasses.dao.fileSystem.AgricoltoreDAOFileù
-ö
-  (8
-%4"6engclasses.dao.fileSystem.AgricoltoreDAOFile#<init>()V*P
+__unknown_file (
+
+%1java.io.File*4
 
-__unknown_file (4
-2
-%3,engclasses.dao.fileSystem.AgricoltoreDAOFile*
-1*!
-1 (
-"
- (
-
-"":#
-" (1
-tipomisc.TipoUtenteB)'
-%engclasses.dao.factory.DAOFileFactoryH
+__unknown_file (
+
+%0java.lang.StringZ
+X
+ ((
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%1java.io.Fileqo
+ (
+%3boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+8
+10B,*
+(engclasses.dao.filesystem.OffertaDAOFile

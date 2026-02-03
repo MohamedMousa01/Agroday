@@ -1,4 +1,5 @@
 package view.cli;
+import misc.UIConstants;
 
 import engclasses.beans.AnnuncioBean;
 import java.time.format.DateTimeFormatter;
@@ -18,13 +19,13 @@ public class VisualizzaAnnunciCLIView {
     public void mostraTitolo(boolean mieiAnnunci) {
         clearScreen();
         if (mieiAnnunci) {
-            System.out.println("\n╔════════════════════════════════════════════════════════╗");
+            System.out.println(UIConstants.BOX_TOP_LONG);
             System.out.println("║            📋 I MIEI ANNUNCI 📋                        ║");
-            System.out.println("╚════════════════════════════════════════════════════════╝");
+            System.out.println(UIConstants.BOX_BOTTOM_LONG);
         } else {
-            System.out.println("\n╔════════════════════════════════════════════════════════╗");
+            System.out.println(UIConstants.BOX_TOP_LONG);
             System.out.println("║            📦 TUTTI GLI ANNUNCI 📦                     ║");
-            System.out.println("╚════════════════════════════════════════════════════════╝");
+            System.out.println(UIConstants.BOX_BOTTOM_LONG);
         }
     }
 
@@ -56,9 +57,9 @@ public class VisualizzaAnnunciCLIView {
 
     public void mostraDettaglioAnnuncio(AnnuncioBean ann) {
         clearScreen();
-        System.out.println("\n╔════════════════════════════════════════════════════════╗");
+        System.out.println(UIConstants.BOX_TOP_LONG);
         System.out.println("║            📋 DETTAGLIO ANNUNCIO                       ║");
-        System.out.println("╚════════════════════════════════════════════════════════╝");
+        System.out.println(UIConstants.BOX_BOTTOM_LONG);
         System.out.println("\n  📌 Titolo:        " + ann.getTitolo());
         System.out.println("  👤 Autore:        " + ann.getAutore());
         System.out.println("  📝 Descrizione:   " + ann.getDescrizione());
@@ -168,6 +169,6 @@ public class VisualizzaAnnunciCLIView {
     }
 
     public void mostraSeparatore() {
-        System.out.println("════════════════════════════════════════════════════════");
+        System.out.println(UIConstants.BOX_SEPARATOR_LONG);
     }
 }

@@ -1,0 +1,84 @@
+
+Jengclasses.beans.AppuntamentoBean#getOraFineFormattata()Ljava/lang/String;`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java (&"4*x
+2
+€B €(Db
+`
+
+€B €(D
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.String*
+1*Š
+3
+€! €((
+}
+
+€! €((
+%5java.time.LocalTime"__id*N
+
+__unknown_file (2*0#
+!engclasses.beans.AppuntamentoBean"	
+oraFineb
+`
+
+€0 €(>(
+%6"java.time.format.DateTimeFormatter"__id*"
+
+__unknown_file (
+""ª§
+
+€! €(?
+%3java.lang.String"Rjava.time.LocalTime#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;*7
+
+__unknown_file (
+
+%5java.time.LocalTime*F
+
+__unknown_file (*
+(
+%6"java.time.format.DateTimeFormatter2,format(Ljava/time/format/DateTimeFormatter;)b
+`
+
+€! €(?
+%2java.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.String*
+1*™
+4
+€ €(
+}
+
+€ €(
+%0java.time.LocalTime"__id*N
+
+__unknown_file (2*0#
+!engclasses.beans.AppuntamentoBean"	
+oraFine
+}
+
+€ €(
+%1boolean"	__compare*
+
+€ €(
+!=*)
+
+€ €(
+
+%0java.time.LocalTime*
+
+€ €(
+""*
+2
+3*7
+1
+€ €(E"&
+
+€ €(E
+
+%2java.lang.StringB%#
+!engclasses.beans.AppuntamentoBeanH

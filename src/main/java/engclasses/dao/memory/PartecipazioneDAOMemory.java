@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * Implementazione in memoria del DAO per le partecipazioni.
@@ -48,7 +47,7 @@ public class PartecipazioneDAOMemory implements PartecipazioneDAO {
         }
         return partecipazioni.values().stream()
                 .filter(p -> idAnnuncio.equals(p.getIdAnnuncio()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override
@@ -58,7 +57,7 @@ public class PartecipazioneDAOMemory implements PartecipazioneDAO {
         }
         return partecipazioni.values().stream()
                 .filter(p -> idAgricoltore.equals(p.getIdAgricoltore()))
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override

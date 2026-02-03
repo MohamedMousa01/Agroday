@@ -1,0 +1,223 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893492*java2.Bõ
+/
+*src/main/java/misc/EventoAppuntamento.java2
+	
+type3
+	
+MAIN4
+
+package6
+	
+misc7
+
+misc.EventoAppuntamento9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(6:1)-(18:2)14
+
+simple-name15
+
+EventoAppuntamento16
+(
+"misc.EventoAppuntamento.CONFERMATO18
+
+field19
+
+(8:5)-(8:58)20
+
+
+CONFERMATO21
+(
+"misc.EventoAppuntamento.COMPLETATO23
+
+(9:5)-(9:58)24
+
+
+COMPLETATO25
+0
+*misc.EventoAppuntamento.CANCELLATO_CLIENTE27
+
+(10:5)-(10:74)28
+
+CANCELLATO_CLIENTE29
+3
+-misc.EventoAppuntamento.CANCELLATO_CONSULENTE31
+
+(11:5)-(11:80)32
+
+CANCELLATO_CONSULENTE33
+(
+"misc.EventoAppuntamento.MODIFICATO35
+
+(12:5)-(12:58)36
+
+
+MODIFICATO37
+$
+misc.EventoAppuntamento.CREATO39
+
+(13:5)-(13:50)40
+
+CREATO41
+'
+!misc.EventoAppuntamento#<init>()V43
+
+method44
+
+private45
+
+(15:5)-(17:6)46
+
+calls47J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768jò
+M
+42G
+424344 *
+1 (28:5B$
+
+
+11
+45
+
+
+13
+46
+
+
+15
+16
+M
+26G
+262719 *
+1
+  
+(228:5B$
+
+
+11
+12
+
+
+13
+28
+
+
+15
+29
+M
+30G
+303119 *
+1  (528:5B$
+
+
+11
+12
+
+
+13
+32
+
+
+15
+33
+M
+17G
+171819 *
+1  (*28:5B$
+
+
+11
+12
+
+
+13
+20
+
+
+15
+21
+M
+34G
+343519 *
+1  (*28:5B$
+
+
+11
+12
+
+
+13
+36
+
+
+15
+37
+G
+8B
+8910 *
+1 (&:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+22G
+222319 *
+1	  	(*28:5B$
+
+
+11
+12
+
+
+13
+24
+
+
+15
+25
+M
+38G
+383919 *
+1  (&28:5B$
+
+
+11
+12
+
+
+13
+40
+
+
+15
+41r
+
+42847*
+1 (

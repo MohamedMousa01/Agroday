@@ -5,6 +5,8 @@ import engclasses.beans.AppuntamentoBean;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
+import misc.CSSConstants;
+import misc.MessageConstants;
 import misc.Session;
 
 /**
@@ -42,8 +44,8 @@ public class CancellazioneAppuntamentoGUIController {
         }
 
         StringBuilder info = new StringBuilder();
-        info.append("📅 Data: ").append(appuntamento.getDataFormattata()).append("\n");
-        info.append("🕐 Orario: ").append(appuntamento.getIntervalloOrario()).append("\n");
+        info.append("📅").append(MessageConstants.LABEL_DATA).append(appuntamento.getDataFormattata()).append("\n");
+        info.append("🕐").append(MessageConstants.LABEL_ORARIO).append(appuntamento.getIntervalloOrario()).append("\n");
         info.append("📋 Tipo: ").append(appuntamento.getTipoConsulenzaDescrizione()).append("\n");
         info.append("📍 Luogo: ").append(appuntamento.getLuogo() != null ? appuntamento.getLuogo() : "N/A");
 
@@ -82,7 +84,7 @@ public class CancellazioneAppuntamentoGUIController {
                 mostraMessaggio("Errore nella cancellazione dell'appuntamento.", true);
             }
         } catch (Exception e) {
-            mostraMessaggio("Errore: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_GENERICO + e.getMessage(), true);
         }
     }
 
@@ -99,7 +101,7 @@ public class CancellazioneAppuntamentoGUIController {
     private void mostraMessaggio(String messaggio, boolean isErrore) {
         messageLabel.setText(messaggio);
         if (isErrore) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
         } else {
             messageLabel.setStyle("-fx-text-fill: green; -fx-font-weight: bold;");
         }

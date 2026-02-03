@@ -1,0 +1,61 @@
+
+'view.cli.ProfiloCLIView#chiediScelta()IV
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java@ @("6*!
+2C C(?"
+C C(?
+""*Ç
+3C C(>²
+¯
+C C(>	
+%5int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*4
+
+__unknown_file (
+
+%4java.lang.String*
+2*£
+4C$ C(=Ž‹
+C$ C(=
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2trim()*
+3* 
+5C C(q
+o
+C$ C(+
+%2java.util.Scanner"__id*D
+
+__unknown_file ((*&
+view.cli.ProfiloCLIView"	
+scanner˜•
+C$ C(6
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()*
+4*À
+6A A(Q
+O
+A A(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ØÕ
+A A(3
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*9
+
+__unknown_file (
+\nâž¤ Scegli un'opzione: 2print(Ljava/lang/String;)*
+5B
+view.cli.ProfiloCLIViewHX

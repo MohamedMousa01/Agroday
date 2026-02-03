@@ -1,0 +1,80 @@
+
+\engclasses.dao.memory.OffertaDAOMemory#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;e
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java- -(*"startingBlock* 
+startingBlock-* -(D˜
+•
+, ,(
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.Stringe
+c
+-2 -(C%
+usernameVenditorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8*
+1*Õ	
+1. .(K
+I
+. .(
+%0java.util.Map"__id*"
+
+__unknown_file (
+""”‘
+. .(
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%0java.util.Map2values()¨¥
+. .((
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+%1java.util.Collection2stream()ž
+›
+/ /(O"
+%3java.util.function.Predicate"__declareFunction*X
+
+__unknown_file (<:
+8__sonar_lambda_69$engclasses.dao.memory.OffertaDAOMemory£
+ 
+
+__unknown_file (9
+"
+%3java.util.function.Predicate"
+usernameVenditore"__id*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.String¬©
+. /(P
+%6java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)œ™
+. 0(
+%7java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%6java.util.stream.Stream2toList()""
+. 0(
+
+%7java.util.List:1
+-+ -(C%
+usernameVenditorejava.lang.StringB*(
+&engclasses.dao.memory.OffertaDAOMemoryH

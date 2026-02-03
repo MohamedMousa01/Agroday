@@ -38,3 +38,10 @@ target/
 
 ### Java ###
 *.class
+
+### Database Config (contains sensitive credentials) ###
+src/main/resources/database.properties
+
+### Logs ###
+logs/
+*.log

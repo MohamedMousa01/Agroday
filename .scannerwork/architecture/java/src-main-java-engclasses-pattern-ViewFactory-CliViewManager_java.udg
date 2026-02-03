@@ -1,0 +1,688 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893767*java2.B¿
+E
+@src/main/java/engclasses/pattern/ViewFactory/CliViewManager.java2
+	
+type3
+	
+MAIN4
+
+package6
+#
+engclasses.pattern.ViewFactory7
+2
+-engclasses.pattern.ViewFactory.CliViewManager9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(16:1)-(104:2)14
+
+simple-name15
+
+CliViewManager16
+:
+4engclasses.pattern.ViewFactory.CliViewManager.logger18
+
+field19
+
+private20
+
+(18:5)-(18:88)21
+
+logger22
+
+Logger24
+
+unknown25
+
+is type26
+
+
+uses27
+;
+5engclasses.pattern.ViewFactory.CliViewManager.scanner29
+
+(19:5)-(19:67)30
+
+scanner31
+=
+7engclasses.pattern.ViewFactory.CliViewManager#<init>()V33
+
+method34
+
+(21:5)-(23:6)35
+
+calls36
+J
+Dengclasses.pattern.ViewFactory.CliViewManager#showMainAgricoltore()V38
+
+(27:5)-(30:6)39
+
+showMainAgricoltore40
+:
+4controllers.grafico.cli.MainAgricoltoreCLIController42
+
+
+references43
+C
+=controllers.grafico.cli.MainAgricoltoreCLIController#start()V45
+H
+Bengclasses.pattern.ViewFactory.CliViewManager#showMainVenditore()V47
+
+(32:5)-(35:6)48
+
+showMainVenditore49
+8
+2controllers.grafico.cli.MainVenditoreCLIController51
+A
+;controllers.grafico.cli.MainVenditoreCLIController#start()V53
+I
+Cengclasses.pattern.ViewFactory.CliViewManager#showMainConsulente()V55
+
+(37:5)-(40:6)56
+
+showMainConsulente57
+9
+3controllers.grafico.cli.MainConsulenteCLIController59
+B
+<controllers.grafico.cli.MainConsulenteCLIController#start()V61
+B
+<engclasses.pattern.ViewFactory.CliViewManager#showProfilo()V63
+
+(44:5)-(62:6)64
+
+showProfilo65
+
+view.cli.ProfiloCLIView67
+-
+'view.cli.ProfiloCLIView#mostraTitolo()V69
+M
+Gview.cli.ProfiloCLIView#mostraProfilo(Lmodel/Utente;Lmisc/TipoUtente;)V71
+
+model.Utente73
+
+returns74
+
+misc.Session76
+3
+-misc.Session#getUtenteLoggato()Lmodel/Utente;78
+.
+(misc.Session#getInstance()Lmisc/Session;80
+
+misc.TipoUtente82
+3
+-misc.Session#getTipoUtente()Lmisc/TipoUtente;84
++
+%view.cli.ProfiloCLIView#mostraMenu()V86
+-
+'view.cli.ProfiloCLIView#chiediScelta()I88
+B
+<view.cli.ProfiloCLIView#mostraMessaggio(Ljava/lang/String;)V90
+-
+'view.cli.ProfiloCLIView#attendiInvio()V92
+K
+Eengclasses.pattern.ViewFactory.CliViewManager#showGestioneProdotti()V94
+
+(64:5)-(67:6)95
+
+showGestioneProdotti96
+T
+Nengclasses.pattern.ViewFactory.CliViewManager#showMessage(Ljava/lang/String;)V98
+D
+=engclasses.pattern.ViewFactory.CliViewManager#waitForEnter()V100
+B
+;engclasses.pattern.ViewFactory.CliViewManager#showOrdini()V102
+
+(69:5)-(72:6)103
+
+
+showOrdini104
+F
+?engclasses.pattern.ViewFactory.CliViewManager#showConsulenza()V106
+
+(74:5)-(77:6)107
+
+showConsulenza108
+
+(81:5)-(83:6)109
+
+showMessage110
+S
+Lengclasses.pattern.ViewFactory.CliViewManager#showError(Ljava/lang/String;)V112
+
+(85:5)-(87:6)113
+
+	showError114
+U
+Nengclasses.pattern.ViewFactory.CliViewManager#showSuccess(Ljava/lang/String;)V116
+
+(89:5)-(91:6)117
+
+showSuccess118
+
+(93:5)-(96:6)119
+
+waitForEnter120
+C
+<engclasses.pattern.ViewFactory.CliViewManager#clearScreen()V122
+
+(98:5)-(103:6)123
+
+clearScreen124J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j˜
+
+77
+777825
+
+66
+666725
+
+87
+878825
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+79
+798025
+
+81
+818225
+
+72
+727325
+
+83
+838425
+M
+37G
+373834 *
+1 (+28:5B$
+
+
+11
+12
+
+
+13
+39
+
+
+15
+40
+M
+17G
+171819 *
+1! ('28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
+
+89
+899025
+
+23
+232425
+M
+54G
+545534 *
+1% %(*28:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+57
+P
+99J
+9910034 *
+1] ]($28:5B&
+
+
+11
+12
+
+13
+119
+
+15
+120
+
+75
+757625
+
+68
+686925
+
+44
+444525
+M
+32G
+323334 *
+1 (28:5B$
+
+
+11
+20
+
+
+13
+35
+
+
+15
+16
+
+50
+505125
+
+70
+707125
+M
+28G
+282919 *
+1" ()28:5B$
+
+
+11
+20
+
+
+13
+30
+
+
+15
+31
+
+85
+858625
+R
+101K
+10110234 *
+1E E("28:5B&
+
+
+11
+12
+
+13
+103
+
+15
+104
+M
+62G
+626334 *
+1, ,(#28:5B$
+
+
+11
+12
+
+
+13
+64
+
+
+15
+65
+M
+93G
+939434 *
+1@ @(,28:5B$
+
+
+11
+12
+
+
+13
+95
+
+
+15
+96
+O
+97I
+979834 *
+1Q Q(#28:5B&
+
+
+11
+12
+
+13
+109
+
+15
+110
+R
+111K
+11111234 *
+1U U(!28:5B&
+
+
+11
+12
+
+13
+113
+
+15
+114
+
+60
+606125
+
+41
+414225
+
+58
+585925
+R
+105K
+10510634 *
+1J J(&28:5B&
+
+
+11
+12
+
+13
+107
+
+15
+108
+
+52
+525325
+
+91
+919225
+R
+115K
+11511634 *
+1Y Y(#28:5B&
+
+
+11
+12
+
+13
+117
+
+15
+118
+M
+46G
+464734 *
+1   ()28:5B$
+
+
+11
+12
+
+
+13
+48
+
+
+15
+49
+R
+121K
+12112234 *
+1b b(#28:5B&
+
+
+11
+12
+
+13
+123
+
+15
+124rö
+
+172326*
+1 ( 
+
+172327*
+1 ( 
+
+172327*
+1! ('
+
+17827*
+1B (P
+
+32836*
+1 (
+
+374126*
+1& (0
+
+374127*
+1	 (%
+
+374136*
+17 (S
+
+374143*
+1	 (
+
+374436*
+1 (
+
+465026*
+1!$ !(.
+
+465027*
+1!	 !(#
+
+465036*
+1!5 !(O
+
+465043*
+1"	 "(
+
+465236*
+1" "(
+
+545826*
+1&% &(/
+
+545827*
+1&	 &($
+
+545836*
+1&6 &(Q
+
+545843*
+1'	 '(
+
+546036*
+1' '(
+
+626626*
+1- -(#
+
+626627*
+1-	 -(
+
+626636*
+1-* -(8
+
+626643*
+1.	 .(!
+
+626836*
+1. .(!
+
+626643*
+1/	 /("
+
+627036*
+1/ /("
+
+627274*
+10 0(8
+
+627543*
+10 0(8
+
+627736*
+10( 0(8
+
+627574*
+10 0(%
+
+627543*
+10 0(%
+
+627936*
+10 0(%
+
+627527*
+10 0(
+
+628174*
+11 1(5
+
+627543*
+11 1(5
+
+628336*
+11( 1(5
+
+627574*
+11 1(%
+
+627543*
+11 1(%
+
+627936*
+11 1(%
+
+627527*
+11 1(
+
+626643*
+13	 3(
+
+628536*
+13 3(
+
+626643*
+15 5(.
+
+628736*
+15" 5(.
+
+626643*
+19 9(,
+
+628936*
+19 9(,
+
+626643*
+1: :()
+
+629136*
+1: :()
+
+621743*
+1< <(
+
+622327*
+1< <(
+
+621743*
+1< <(
+
+93843*
+1A	 A(
+
+939736*
+1A	 A(
+
+93843*
+1B	 B(
+
+939936*
+1B	 B(
+
+101843*
+1F	 F(
+
+1019736*
+1F	 F(
+
+101843*
+1G	 G(
+
+1019936*
+1G	 G(
+
+105843*
+1K	 K(
+
+1059736*
+1K	 K(
+
+105843*
+1L	 L(
+
+1059936*
+1L	 L(
+
+992843*
+1_	 _(
+
+992843*
+1_	 _(

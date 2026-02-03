@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1769002669226*java2.Bè
+1.0MohamedMousa01_AgrodayJavaFrontend"1770133893899*java2.Bæ
 7
 2src/main/java/engclasses/dao/api/VenditoreDAO.java2
 	
@@ -21,8 +21,8 @@ $
 
 
 full-range13
-
-(14:1)-(69:2)14
+
+(7:1)-(9:2)14
 
 simple-name15
 
@@ -53,7 +53,7 @@ implements20
 G
 8B
 8910 *
-1 (:5B$
+1 (:5B$
 
 
 11
@@ -68,7 +68,7 @@ G
 16r4
 
 81720*
-1' (C
+1' (0
 
 81721*
-1: (C
+1' (0

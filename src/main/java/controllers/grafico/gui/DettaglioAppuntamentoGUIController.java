@@ -11,8 +11,12 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import misc.MessageConstants;
+import misc.CSSConstants;
 import misc.Session;
+import misc.CSSConstants;
 import misc.StatoAppuntamento;
+import misc.CSSConstants;
 
 import java.awt.Desktop;
 import java.io.IOException;
@@ -197,7 +201,7 @@ public class DettaglioAppuntamentoGUIController {
             // Ricarica i dati
             ricaricaAppuntamento();
         } catch (IOException e) {
-            mostraMessaggio("Errore nell'apertura della finestra: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_APERTURA_FINESTRA + e.getMessage(), true);
         }
     }
 
@@ -224,7 +228,7 @@ public class DettaglioAppuntamentoGUIController {
             // Ricarica i dati
             ricaricaAppuntamento();
         } catch (IOException e) {
-            mostraMessaggio("Errore nell'apertura della finestra: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_APERTURA_FINESTRA + e.getMessage(), true);
         }
     }
 
@@ -245,7 +249,7 @@ public class DettaglioAppuntamentoGUIController {
                 mostraMessaggio("Errore nella conferma dell'appuntamento.", true);
             }
         } catch (Exception e) {
-            mostraMessaggio("Errore: " + e.getMessage(), true);
+            mostraMessaggio(MessageConstants.ERRORE_GENERICO + e.getMessage(), true);
         }
     }
 
@@ -285,7 +289,7 @@ public class DettaglioAppuntamentoGUIController {
     private void mostraMessaggio(String messaggio, boolean isErrore) {
         messageLabel.setText(messaggio);
         if (isErrore) {
-            messageLabel.setStyle("-fx-text-fill: red; -fx-font-weight: bold;");
+            messageLabel.setStyle(CSSConstants.ERROR_TEXT_STYLE);
         } else {
             messageLabel.setStyle("-fx-text-fill: green; -fx-font-weight: bold;");
         }

@@ -1,5 +1,6 @@
 package model;
 
+import misc.EventoAppuntamento;
 import misc.StatoAppuntamento;
 import misc.TipoConsulenza;
 import model.observer.AppuntamentoObserver;
@@ -116,7 +117,7 @@ public abstract class Appuntamento implements Serializable {
         this.stato = StatoAppuntamento.CANCELLATO_CLIENTE;
         this.motivoCancellazione = motivo;
         this.dataUltimaModifica = LocalDateTime.now();
-        notifyObservers("CANCELLATO_CLIENTE");
+        notifyObservers(EventoAppuntamento.CANCELLATO_CLIENTE);
     }
 
     /**
@@ -126,7 +127,7 @@ public abstract class Appuntamento implements Serializable {
         this.stato = StatoAppuntamento.CANCELLATO_CONSULENTE;
         this.motivoCancellazione = motivo;
         this.dataUltimaModifica = LocalDateTime.now();
-        notifyObservers("CANCELLATO_CONSULENTE");
+        notifyObservers(EventoAppuntamento.CANCELLATO_CONSULENTE);
     }
 
     /**
@@ -135,7 +136,7 @@ public abstract class Appuntamento implements Serializable {
     public void conferma() {
         this.stato = StatoAppuntamento.CONFERMATO;
         this.dataUltimaModifica = LocalDateTime.now();
-        notifyObservers("CONFERMATO");
+        notifyObservers(EventoAppuntamento.CONFERMATO);
     }
 
     /**
@@ -144,7 +145,7 @@ public abstract class Appuntamento implements Serializable {
     public void completa() {
         this.stato = StatoAppuntamento.COMPLETATO;
         this.dataUltimaModifica = LocalDateTime.now();
-        notifyObservers("COMPLETATO");
+        notifyObservers(EventoAppuntamento.COMPLETATO);
     }
 
     /**

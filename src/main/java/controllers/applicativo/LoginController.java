@@ -12,12 +12,7 @@ import misc.PersistenceType;
 import misc.Session;
 import model.Utente;
 
-public class LoginController {      //dovrò mettere anche qui il tipo di persistenza, è necessario per vedere se le modifiche
-    // resteranno anche dopo aver chiuso l'applicazione
-
-    //dedvo mettere due tipi di persistenza dentro a sessione: una variabile che mi salva il tipo di persistenza in registrazione
-    // e un altra variabile che mi salva il tipo di persistenza dopo il login.
-
+public class LoginController {
 
     private final Session session;
 
@@ -45,9 +40,10 @@ public class LoginController {      //dovrò mettere anche qui il tipo di persis
             }
             return false; // Credenziali non valide
         } catch (DatabaseConnessioneFallitaException | DatabaseOperazioneFallitaException e) {
-            throw e; // Rilancia le eccezioni specifiche del database
+            // Rilancia le eccezioni specifiche del database senza wrapping
+            throw e;
         } catch (Exception e) {
-            throw new LoginFallitoException("Errore sconosciuto durante l'autenticazione: " + e.getMessage());
+            throw new LoginFallitoException("Errore sconosciuto durante l'autenticazione: " + e.getMessage(), e);
         }
     }
 
@@ -65,21 +61,17 @@ public class LoginController {      //dovrò mettere anche qui il tipo di persis
 
 
             if (utente == null) {
-                 return null;
-        }
+                return null;
+            }
 
-        // 🔥 QUI è il punto giusto
-        Session.getInstance().setUtenteLoggato(utente);
-        // Imposta anche il tipo utente
-        Session.getInstance().setTipoUtente(utente.getTipo());
+            // Imposta utente loggato nella sessione
+            Session.getInstance().setUtenteLoggato(utente);
+            // Imposta anche il tipo utente
+            Session.getInstance().setTipoUtente(utente.getTipo());
 
-        return utente;
-    }
-        catch (DatabaseConnessioneFallitaException |
-            DatabaseOperazioneFallitaException e) {
-
-            throw new LoginFallitoException(
-                    "Errore di sistema durante il login", e);
+            return utente;
+        } catch (DatabaseConnessioneFallitaException | DatabaseOperazioneFallitaException e) {
+            throw new LoginFallitoException("Errore di sistema durante il login", e);
         }
     }
 

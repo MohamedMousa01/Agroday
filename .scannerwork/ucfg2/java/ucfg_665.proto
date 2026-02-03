@@ -1,0 +1,85 @@
+
+Jengclasses.dao.filesystem.AppuntamentoDAOFile#elimina(Ljava/lang/String;)Zl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javaM M("startingBlock*Í
+2R R(©
+¦
+R R( 
+%4boolean"<engclasses.dao.filesystem.AppuntamentoDAOFile#salvaSuFile()Z*M
+
+__unknown_file (1/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+R R(!
+""*Å
+3Q Q(‰
+†
+Q Q(
+%1java.util.Map"__id*_
+
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+appuntamenti©
+¦
+Q Q(/
+%2model.Appuntamento"__mapRemove*1
+
+__unknown_file (
+
+%1java.util.Map*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.Stringv
+t
+Q Q(7
+%3boolean"	__compare*
+Q0 Q(2
+!=*&
+Q Q(/
+
+%2model.Appuntamento*
+Q3 Q(7
+""*
+2
+1*š
+startingBlockM M(1•
+’
+L L(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.Stringb
+`
+M" M(0"
+idAppuntamentojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%5*
+5*!
+4O O("
+O O(
+""*˜
+5N N(€
+~
+N N("
+%0boolean"	__compare*
+N N(
+==*0
+N N($
+"
+idAppuntamentojava.lang.String*
+N N("
+""*
+3
+4*!
+1T T("
+T T(
+"":.
+M M(0"
+idAppuntamentojava.lang.StringB1/
+-engclasses.dao.filesystem.AppuntamentoDAOFileHX

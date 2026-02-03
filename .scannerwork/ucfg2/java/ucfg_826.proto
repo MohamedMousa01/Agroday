@@ -1,0 +1,270 @@
+
+Oengclasses.services.GoogleCalendarAdapter#aggiornaEvento(Lmodel/Appuntamento;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/GoogleCalendarAdapter.java^ ^(!"startingBlock*„
+2f f(Q
+O
+f f(
+%6java.io.PrintStream"__id*"
+
+__unknown_file (
+""í
+è
+f f(Q
+%7java.lang.String"__concat*6
+f f(G*(
+&[GOOGLE CALENDAR] Evento non trovato: *)
+fJ f(Q
+
+eventIdjava.lang.String◊‘
+f f(R
+
+%8void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%6java.io.PrintStream*4
+
+__unknown_file (
+
+%7java.lang.String2println(Ljava/lang/String;)"
+g g(
+""*˚
+3e  e(,Ö
+Ç
+e  e(,
+%4java.util.Map"__id*[
+
+__unknown_file (?*=+
+)engclasses.services.GoogleCalendarAdapter"
+eventiCreati€ÿ
+e  e(A
+%5boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*1
+
+__unknown_file (
+
+%4java.util.Map*9
+
+__unknown_file (
+
+eventIdjava.lang.String2containsKey(Ljava/lang/Object;)*
+2
+1*ü
+startingBlock^! ^(<ñ
+ì
+] ](
+%28"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamentoc
+a
+^/ ^(;"
+appuntamentomodel.Appuntamento"__annotation*#
+
+__unknown_file (
+
+%28*
+4
+5*æ
+4d d(%ƒ¡
+d d(@
+%2java.lang.String"?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getGoogleCalendarEventId()e
+c
+d d(A
+eventIdjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringy
+w
+e e(
+%3boolean"	__compare*
+e e(
+==*)
+e e(
+
+eventIdjava.lang.String*
+e e(
+""*
+2
+3*¸
+5` `(Q
+O
+` `(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÖÇ
+` `(d
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*b
+
+__unknown_file (FD
+B[GOOGLE CALENDAR] Servizio non configurato. Evento non aggiornato.2println(Ljava/lang/String;)"
+a a(
+""*Œ
+1j j(Q
+O
+j j(
+%9java.io.PrintStream"__id*"
+
+__unknown_file (
+""ï
+í
+j j(O
+%10java.lang.String"__concat*8
+j j(E,*
+([GOOGLE CALENDAR] Aggiornamento evento: *)
+jH j(O
+
+eventIdjava.lang.StringŸ÷
+j j(P
+%11void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%9java.io.PrintStream*5
+
+__unknown_file (
+
+%10java.lang.String2println(Ljava/lang/String;)R
+P
+k k(
+%12java.io.PrintStream"__id*"
+
+__unknown_file (
+""√¿
+k2 k(Q
+%13java.time.LocalDateTime">model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getDataOraInizio()a
+_
+kY k(b)
+%14"java.time.format.DateTimeFormatter"__id*"
+
+__unknown_file (
+""≥∞
+k2 k(c
+%15java.lang.String"Vjava.time.LocalDateTime#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%13java.time.LocalDateTime*G
+
+__unknown_file (+
+)
+%14"java.time.format.DateTimeFormatter2,format(Ljava/time/format/DateTimeFormatter;)z
+x
+k k(c
+%16java.lang.String"__concat*"
+k k(/
+  - Nuovo inizio: *%
+k2 k(c
+
+%15java.lang.String⁄◊
+k k(d
+%17void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%12java.io.PrintStream*5
+
+__unknown_file (
+
+%16java.lang.String2println(Ljava/lang/String;)R
+P
+l l(
+%18java.io.PrintStream"__id*"
+
+__unknown_file (
+""øº
+l0 l(M
+%19java.time.LocalDateTime"<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getDataOraFine()a
+_
+lU l(^)
+%20"java.time.format.DateTimeFormatter"__id*"
+
+__unknown_file (
+""≥∞
+l0 l(_
+%21java.lang.String"Vjava.time.LocalDateTime#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+%19java.time.LocalDateTime*G
+
+__unknown_file (+
+)
+%20"java.time.format.DateTimeFormatter2,format(Ljava/time/format/DateTimeFormatter;)x
+v
+l l(_
+%22java.lang.String"__concat* 
+l l(-
+  - Nuova fine: *%
+l0 l(_
+
+%21java.lang.String⁄◊
+l l(`
+%23void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%18java.io.PrintStream*5
+
+__unknown_file (
+
+%22java.lang.String2println(Ljava/lang/String;)R
+P
+m m(
+%24java.io.PrintStream"__id*"
+
+__unknown_file (
+""•¢
+m1 m(H
+%25java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getLuogo()y
+w
+m m(H
+%26java.lang.String"__concat*!
+m m(.
+  - Nuovo luogo: *%
+m1 m(H
+
+%25java.lang.String⁄◊
+m m(I
+%27void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%24java.io.PrintStream*5
+
+__unknown_file (
+
+%26java.lang.String2println(Ljava/lang/String;)"
+o o(
+"":.
+^" ^(;"
+appuntamentomodel.AppuntamentoB-+
+)engclasses.services.GoogleCalendarAdapterHX

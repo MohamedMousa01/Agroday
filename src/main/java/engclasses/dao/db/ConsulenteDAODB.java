@@ -1,12 +1,10 @@
 package engclasses.dao.db;
 
 import engclasses.dao.api.ConsulenteDAO;
-import engclasses.exceptions.DatabaseConnessioneFallitaException;
-import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.pattern.ConnessioneDB;
-import misc.PersistenceType;
 import model.Consulente;
-import model.Utente;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,6 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConsulenteDAODB extends UtenteDAODB implements ConsulenteDAO {
+
+    private static final Logger logger = LoggerFactory.getLogger(ConsulenteDAODB.class);
     
     // Il metodo aggiungiUtente è ereditato da UtenteDAODB
     // Non serve override, funziona già
@@ -43,7 +43,7 @@ public class ConsulenteDAODB extends UtenteDAODB implements ConsulenteDAO {
             }
             
         } catch (SQLException e) {
-            System.err.println("[ConsulenteDAODB] Errore nel recupero dei consulenti: " + e.getMessage());
+            logger.error("Errore nel recupero dei consulenti", e);
         }
         
         return consulenti;

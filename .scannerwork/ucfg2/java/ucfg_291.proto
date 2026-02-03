@@ -1,0 +1,37 @@
+
+H__sonar_lambda_16$controllers.grafico.gui.VisualizzaAnnunciGUIControlleru
+k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/VisualizzaAnnunciGUIController.javaY  Y(C"startingBlock*È
+startingBlockY  Y(C§
+¤
+
+__unknown_file (
+usernamejava.lang.String"__id*d
+
+__unknown_file (H*F8
+6controllers.grafico.gui.VisualizzaAnnunciGUIController"
+
+username*
+1*½
+1Y% Y(&²¯
+Y% Y(2
+%10java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+aengclasses.beans.AnnuncioBean2getAutore()Ú×
+Y% Y(C
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%10java.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String2equals(Ljava/lang/Object;)"
+Y% Y(C
+
+%11boolean:.
+Y  Y(!"
+aengclasses.beans.AnnuncioBeanB 
+java.util.function.Predicate

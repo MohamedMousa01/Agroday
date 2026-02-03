@@ -1,0 +1,73 @@
+
+Zengclasses.services.GoogleCalendarAdapter#configura(Ljava/lang/String;Ljava/lang/String;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/GoogleCalendarAdapter.java< <("1*Æ
+1> >(Q
+O
+> >(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""¦
+£
+> >(a
+%1java.lang.String"__concat*B
+> >(O64
+2[GOOGLE CALENDAR] Configurazione con credenziali: *1
+>R >(a%
+#
+credentialsPathjava.lang.String×Ô
+> >(b
+
+%2void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*4
+
+__unknown_file (
+
+%1java.lang.String2println(Ljava/lang/String;)Q
+O
+? ?(
+%3java.io.PrintStream"__id*"
+
+__unknown_file (
+""Ž
+‹
+? ?(I
+%4java.lang.String"__concat*/
+? ?(<#!
+[GOOGLE CALENDAR] Calendar ID: *,
+?? ?(I 
+
+
+calendarIdjava.lang.String×Ô
+? ?(J
+
+%5void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%3java.io.PrintStream*4
+
+__unknown_file (
+
+%4java.lang.String2println(Ljava/lang/String;)Ž
+‹
+A A($;+
+)engclasses.services.GoogleCalendarAdapter"
+
+calendarId"__id*<
+
+__unknown_file ( 
+
+
+calendarIdjava.lang.String"
+D D(
+"":/
+< <(4#
+credentialsPathjava.lang.String:*
+<5 <(F
+
+calendarIdjava.lang.StringB-+
+)engclasses.services.GoogleCalendarAdapterHX

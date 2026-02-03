@@ -1,0 +1,68 @@
+
+Vengclasses.dao.memory.AnnuncioDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Annuncio;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.java& &("startingBlock*!
+2( (("
+( ((
+""*“
+3' '(|
+z
+' '(
+%0boolean"	__compare*
+' '(
+==*,
+' '( 
+
+
+idAnnunciojava.lang.String*
+' '(
+""*
+2
+1*’
+startingBlock& &(1‘
+Ž
+% %(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String^
+\
+&& &(0
+
+idAnnunciojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+3*Ÿ
+1* *(K
+I
+* *(
+%1java.util.Map"__id*"
+
+__unknown_file (
+""ž
+›
+* *(&
+%2model.Annuncio"__mapGet*1
+
+__unknown_file (
+
+%1java.util.Map*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String""
+* *('
+
+%2model.Annuncio:*
+& &(0
+
+idAnnunciojava.lang.StringB+)
+'engclasses.dao.memory.AnnuncioDAOMemoryH

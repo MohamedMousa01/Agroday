@@ -1,0 +1,44 @@
+
+Cview.cli.CreaAnnuncioCLIView#chiediNomeProdotto()Ljava/lang/String;[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.javaF F($"1*†
+1G G(Q
+O
+G G(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÙÖ
+G G(4
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*:
+
+__unknown_file (
+\nðŸŒ¾ Nome del prodotto: 2print(Ljava/lang/String;)v
+t
+H H(
+%2java.util.Scanner"__id*I
+
+__unknown_file (-*+
+view.cli.CreaAnnuncioCLIView"	
+scanner˜•
+H H(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()Ž‹
+H H((
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2trim()"$
+H H()
+
+%4java.lang.StringB 
+view.cli.CreaAnnuncioCLIViewH

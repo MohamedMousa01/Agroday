@@ -1,34 +1,15 @@
 
-Ycontrollers.grafico.gui.RegistrazioneGUIController#determinaTipoUtente()Lmisc/TipoUtente;q
-g/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/RegistrazioneGUIController.javal l(*"1"2"4*Å
-2n0 n(:M
-K
-n0 n(D
-%1misc.TipoUtente"__id*"
+Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java0 0( "1*∞
+11 1({
+y
+1 1(
+%0java.lang.String"__id*O
 
-__unknown_file (
-"""#
-n) n(E
-
-%1misc.TipoUtente*Å
-4m2 m(<M
-K
-m2 m(H
-%0misc.TipoUtente"__id*"
-
-__unknown_file (
-"""#
-m+ m(I
-
-%0misc.TipoUtente*Å
-1o o(M
-K
-o o($
-%2misc.TipoUtente"__id*"
-
-__unknown_file (
-"""#
-o o(%
-
-%2misc.TipoUtenteB64
-2controllers.grafico.gui.RegistrazioneGUIController
+__unknown_file (3*1$
+"engclasses.beans.RegistrazioneBean"	
+cognome"$
+1 1(
+
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

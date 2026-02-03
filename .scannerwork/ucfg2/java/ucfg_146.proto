@@ -1,15 +1,76 @@
 
-5engclasses.dao.fileSystem.ConsulenteDAOFile#<init>()V
-__unknown_file ("startingBlock*à
-startingBlockh
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/fileSystem/ConsulenteDAOFile.java	 	(ã
-à
-h
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/fileSystem/ConsulenteDAOFile.java	 	(
-%0"1engclasses.dao.fileSystem.UtenteDAOFile#<init>()V*;
- (/-
-+engclasses.dao.fileSystem.ConsulenteDAOFile"
-h
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/fileSystem/ConsulenteDAOFile.java	 	(
-implicit returnB/-
-+engclasses.dao.fileSystem.ConsulenteDAOFile
+Ycontrollers.grafico.cli.RegistrazioneCLIController#determinaTipoUtente()Lmisc/TipoUtente;q
+g/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/RegistrazioneCLIController.java= =(*"2*Ù
+2> >(–
+“
+> >(#
+%0view.cli.RegistrazioneCLIView"__id*\
+
+__unknown_file (@*>4
+2controllers.grafico.cli.RegistrazioneCLIController"
+view¢Ÿ
+> >(,	
+%1int"1view.cli.RegistrazioneCLIView#chiediTipoUtente()I*A
+
+__unknown_file (%
+#
+%0view.cli.RegistrazioneCLIView2chiediTipoUtente()*
+3
+4
+5
+6*’
+3D G(–
+“
+E E(#
+%5view.cli.RegistrazioneCLIView"__id*\
+
+__unknown_file (@*>4
+2controllers.grafico.cli.RegistrazioneCLIController"
+view•’
+E E(V
+
+%6void"Bview.cli.RegistrazioneCLIView#mostraMessaggio(Ljava/lang/String;)V*A
+
+__unknown_file (%
+#
+%5view.cli.RegistrazioneCLIView*N
+
+__unknown_file (20
+.Scelta non valida, uso AGRICOLTORE di default.2#mostraMessaggio(Ljava/lang/String;)M
+K
+F F(,
+%7misc.TipoUtente"__id*"
+
+__unknown_file (
+""*
+1*a
+4C C(,M
+K
+C C(+
+%4misc.TipoUtente"__id*"
+
+__unknown_file (
+""*
+1*a
+5B B(+M
+K
+B B(*
+%3misc.TipoUtente"__id*"
+
+__unknown_file (
+""*
+1*a
+6A A(-M
+K
+A A(,
+%2misc.TipoUtente"__id*"
+
+__unknown_file (
+""*
+1*!
+1@ H(
+"
+@ H(
+
+""B64
+2controllers.grafico.cli.RegistrazioneCLIController

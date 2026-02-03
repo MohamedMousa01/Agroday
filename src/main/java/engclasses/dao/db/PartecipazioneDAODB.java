@@ -3,6 +3,8 @@ package engclasses.dao.db;
 import engclasses.dao.api.PartecipazioneDAO;
 import engclasses.pattern.ConnessioneDB;
 import model.Partecipazione;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -13,7 +15,7 @@ import java.util.List;
  */
 public class PartecipazioneDAODB implements PartecipazioneDAO {
 
-    private static final String TABLE_NAME = "partecipazioni";
+    private static final Logger logger = LoggerFactory.getLogger(PartecipazioneDAODB.class);
 
     /**
      * Crea la tabella partecipazioni se non esiste.
@@ -36,7 +38,7 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nella creazione tabella: " + e.getMessage());
+            logger.error("Errore nella creazione tabella partecipazioni", e);
         }
     }
 
@@ -59,7 +61,7 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nel salvataggio: " + e.getMessage());
+            logger.error("Errore nel salvataggio partecipazione", e);
             return false;
         }
     }
@@ -75,14 +77,15 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nell'eliminazione: " + e.getMessage());
+            logger.error("Errore nell'eliminazione partecipazione", e);
             return false;
         }
     }
 
     @Override
     public Partecipazione trovaPerId(String idPartecipazione) {
-        String sql = "SELECT * FROM partecipazioni WHERE id_partecipazione = ?";
+        String sql = "SELECT id_partecipazione, id_annuncio, id_agricoltore, quantita_richiesta " +
+                     "FROM partecipazioni WHERE id_partecipazione = ?";
 
         try (Connection conn = ConnessioneDB.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
@@ -95,14 +98,15 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nella ricerca per ID: " + e.getMessage());
+            logger.error("Errore nella ricerca partecipazione per ID", e);
         }
         return null;
     }
 
     @Override
     public List<Partecipazione> trovaPerAnnuncio(String idAnnuncio) {
-        String sql = "SELECT * FROM partecipazioni WHERE id_annuncio = ?";
+        String sql = "SELECT id_partecipazione, id_annuncio, id_agricoltore, quantita_richiesta " +
+                     "FROM partecipazioni WHERE id_annuncio = ?";
         List<Partecipazione> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -116,14 +120,15 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nella ricerca per annuncio: " + e.getMessage());
+            logger.error("Errore nella ricerca partecipazioni per annuncio", e);
         }
         return risultati;
     }
 
     @Override
     public List<Partecipazione> trovaPerAgricoltore(String idAgricoltore) {
-        String sql = "SELECT * FROM partecipazioni WHERE id_agricoltore = ?";
+        String sql = "SELECT id_partecipazione, id_annuncio, id_agricoltore, quantita_richiesta " +
+                     "FROM partecipazioni WHERE id_agricoltore = ?";
         List<Partecipazione> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -137,7 +142,7 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nella ricerca per agricoltore: " + e.getMessage());
+            logger.error("Errore nella ricerca partecipazioni per agricoltore", e);
         }
         return risultati;
     }
@@ -158,14 +163,15 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nella verifica partecipazione: " + e.getMessage());
+            logger.error("Errore nella verifica partecipazione", e);
         }
         return false;
     }
 
     @Override
     public List<Partecipazione> trovaTutte() {
-        String sql = "SELECT * FROM partecipazioni";
+        String sql = "SELECT id_partecipazione, id_annuncio, id_agricoltore, quantita_richiesta " +
+                     "FROM partecipazioni";
         List<Partecipazione> risultati = new ArrayList<>();
 
         try (Connection conn = ConnessioneDB.getConnection();
@@ -177,7 +183,7 @@ public class PartecipazioneDAODB implements PartecipazioneDAO {
             }
 
         } catch (SQLException e) {
-            System.err.println("[PartecipazioneDAODB] Errore nel recupero di tutte le partecipazioni: " + e.getMessage());
+            logger.error("Errore nel recupero di tutte le partecipazioni", e);
         }
         return risultati;
     }

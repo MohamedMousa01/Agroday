@@ -1,15 +1,111 @@
 
-3engclasses.dao.memory.ConsulenteDAOMemory#<init>()V
-__unknown_file ("startingBlock*Ö
-startingBlockf
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java	 	(Ý
-Ú
-f
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java	 	(
-%0"/engclasses.dao.memory.UtenteDAOMemory#<init>()V*9
- (-+
-)engclasses.dao.memory.ConsulenteDAOMemory"}
-f
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java	 	(
-implicit returnB-+
-)engclasses.dao.memory.ConsulenteDAOMemory
+]engclasses.dao.filesystem.OffertaDAOFile#aggiornaStato(Ljava/lang/String;Ljava/lang/String;)Zg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java^ ^( "startingBlock* 
+2a a(Ú×
+a a((
+
+%3void"+model.Offerta#setStato(Ljava/lang/String;)V*6
+
+__unknown_file (
+
+offertamodel.Offerta*<
+
+__unknown_file ( 
+
+
+nuovoStatojava.lang.String2setStato(Ljava/lang/String;)Ÿ
+œ
+b b( 
+%4boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
+
+__unknown_file (,*
+(engclasses.dao.filesystem.OffertaDAOFile"
+b b(!
+""*
+3_ _(!~
+|
+_ _(!
+%0java.util.Map"__id*U
+
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerteœ
+™
+_ _(0
+%1model.Offerta"__mapGet*1
+
+__unknown_file (
+
+%0java.util.Map*;
+
+__unknown_file (
+
+	idOffertajava.lang.String_
+]
+_ _(1
+offertamodel.Offerta"__id*1
+
+__unknown_file (
+
+%1model.Offertav
+t
+` `(
+%2boolean"	__compare*
+` `(
+!=*&
+` `(
+
+offertamodel.Offerta*
+` `(
+""*
+2
+1*„
+startingBlock^  ^(E
+
+] ](
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	idOffertajava.lang.String]
+[
+^( ^(1
+	idOffertajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%5‘
+Ž
+] ](
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+nuovoStatojava.lang.String^
+\
+^: ^(D
+
+nuovoStatojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+3*!
+1d d("
+d d(
+"":)
+^! ^(2
+	idOffertajava.lang.String:*
+^3 ^(D
+
+nuovoStatojava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileHX

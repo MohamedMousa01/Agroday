@@ -11,6 +11,7 @@ import engclasses.dao.factory.DAOFactory;
 import engclasses.exceptions.AnnuncioNonValidoException;
 import misc.PersistenceType;
 import misc.Session;
+import misc.StatoAnnuncio;
 import model.Annuncio;
 
 public class AnnuncioController {
@@ -44,7 +45,7 @@ public class AnnuncioController {
             AnnuncioBean bean = convertToBean(annuncio);   //converto gli annunci da model a bean
             
             // Imposta stato corretto (ATTIVO o SCADUTO)
-            String stato = annuncio.isScaduto() ? "SCADUTO" : "ATTIVO";
+            String stato = annuncio.isScaduto() ? StatoAnnuncio.SCADUTO : StatoAnnuncio.ATTIVO;
             bean.setStato(stato);
             bean.setQuantitaTotale(partController.getQuantitaTotale(annuncio.getIdAnnuncio()));
             bean.setNumeroPartecipanti(partController.getNumeroPartecipanti(annuncio.getIdAnnuncio()));
@@ -78,7 +79,7 @@ public class AnnuncioController {
                 annuncio.aggiornaStato();
                 AnnuncioBean bean = convertToBean(annuncio);
                 
-                String stato = annuncio.isScaduto() ? "SCADUTO" : "ATTIVO";
+                String stato = annuncio.isScaduto() ? StatoAnnuncio.SCADUTO : StatoAnnuncio.ATTIVO;
                 bean.setStato(stato);
                 bean.setQuantitaTotale(partController.getQuantitaTotale(annuncio.getIdAnnuncio()));
                 bean.setNumeroPartecipanti(partController.getNumeroPartecipanti(annuncio.getIdAnnuncio()));
@@ -166,7 +167,7 @@ public class AnnuncioController {
             annuncio.aggiornaStato();
             AnnuncioBean bean = convertToBean(annuncio);
             
-            String stato = annuncio.isScaduto() ? "SCADUTO" : "ATTIVO";
+            String stato = annuncio.isScaduto() ? StatoAnnuncio.SCADUTO : StatoAnnuncio.ATTIVO;
             bean.setStato(stato);
             bean.setQuantitaTotale(partController.getQuantitaTotale(annuncio.getIdAnnuncio()));
             bean.setNumeroPartecipanti(partController.getNumeroPartecipanti(annuncio.getIdAnnuncio()));

@@ -1,0 +1,28 @@
+
+acontrollers.applicativo.OffertaController#getOfferteVenditore(Ljava/lang/String;)Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.java4 4(,"1*ñ
+15 5(“
+
+5 5(#
+%0engclasses.dao.api.OffertaDAO"__id*Y
+
+__unknown_file (=*;+
+)controllers.applicativo.OffertaController"
+
+offertaDAO§¤
+5 5(>
+%1java.util.List"Sengclasses.dao.api.OffertaDAO#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;*A
+
+__unknown_file (%
+#
+%0engclasses.dao.api.OffertaDAO*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.String2%trovaPerVenditore(Ljava/lang/String;)""
+5 5(?
+
+%1java.util.List:1
+4- 4(E%
+usernameVenditorejava.lang.StringB-+
+)controllers.applicativo.OffertaControllerH
