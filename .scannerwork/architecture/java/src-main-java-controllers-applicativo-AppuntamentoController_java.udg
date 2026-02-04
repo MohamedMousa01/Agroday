@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144195045*java2.B•`
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198475178*java2.B•`
 F
 Asrc/main/java/controllers/applicativo/AppuntamentoController.java2
 	
@@ -22,7 +22,7 @@ Asrc/main/java/controllers/applicativo/AppuntamentoController.java2
 
 full-range13
 
-(29:1)-(542:2)14
+(29:1)-(543:2)14
 
 simple-name15
 
@@ -363,7 +363,7 @@ Cengclasses.beans.AppuntamentoBean#getOraFine()Ljava/time/LocalTime;282
 
 validaLuogoAppuntamento286
 
-(509:5)-(533:6)287
+(509:5)-(534:6)287
 
 convertiInBean288
 O
@@ -415,7 +415,7 @@ Hengclasses.beans.AppuntamentoBean#setLinkCalendario(Ljava/lang/String;)V334
 ^
 Wengclasses.services.CalendarService#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;336
 
-(535:5)-(541:6)337
+(536:5)-(542:6)337
 
 convertiListaInBean338J
 
@@ -1107,7 +1107,7 @@ M
 T
 200M
 20020148 *
-1ó$ ó(728:5B&
+1ò$ ò(728:5B&
 
 
 11
@@ -2973,25 +2973,25 @@ T
 1èO è(g
 
 2007627*
-1ó ó("
+1ò ò("
 
 20010627*
-1ó= ó(I
+1ò= ò(I
 
 2007627*
-1ò ò(
+1ô ô(
 
 20010626*
-1ô ô(
+1ö ö(
 
 20010627*
-1ô ô(
+1ö ö(
 
 2007655*
-1ö ö(%
+1õ õ(%
 
 200852*
-1ö ö(%
+1õ õ(%
 
 20012851*
-1ö ö(%
+1õ õ(%

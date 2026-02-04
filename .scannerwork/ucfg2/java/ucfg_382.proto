@@ -1,36 +1,10 @@
 
-;__sonar_lambda_34$engclasses.dao.filesystem.AnnuncioDAOFileh
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaW W(9"startingBlock*∑
-startingBlockW W(9ñ
-ì
+H__sonar_lambda_27$controllers.grafico.gui.ListaAppuntamentiGUIControlleru
+k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ListaAppuntamentiGUIController.javaG' H(Q"1*!
+1H) H(1"
+H H(Q
+"": 
 
-__unknown_file (
-autorejava.lang.String"__id*U
-
-__unknown_file (9*7+
-)engclasses.dao.filesystem.AnnuncioDAOFile"
-autore*
-1*ô
-1W W(#ìê
-W+ W(8
-%7java.lang.String",model.Annuncio#getAutore()Ljava/lang/String;*1
-
-__unknown_file (
-
-amodel.Annuncio2getAutore()÷”
-W W(9
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*8
-
-__unknown_file (
-
-autorejava.lang.String*4
-
-__unknown_file (
-
-%7java.lang.String2equals(Ljava/lang/Object;)"
-W W(9
-
-%8boolean:
-W W(
-amodel.AnnuncioB 
-java.util.function.Predicate
+__unknown_file (
+""B
+	!Unknown!

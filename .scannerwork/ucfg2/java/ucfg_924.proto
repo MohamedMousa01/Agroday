@@ -1,79 +1,32 @@
 
-Mengclasses.beans.AppuntamentoBean#getDataOraInizio()Ljava/time/LocalDateTime;`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaJ J()"4*Ú
-2L L( z
-x
-L$ L((
-%4java.time.LocalDate"__id*K
+bengclasses.pattern.factory.AppuntamentoOnlineFactory#valida(Ljava/lang/String;J)Ljava/lang/String;s
+i/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoOnlineFactory.java% %("startingBlock*à
+startingBlock% %(9å
+â
+$ $(
+%0"
+__annotate*2
 
-__unknown_file (/*-#
-!engclasses.beans.AppuntamentoBean"
-data
-}
-L* L(3
-%5java.time.LocalTime"__id*P
-
-__unknown_file (4*2#
-!engclasses.beans.AppuntamentoBean"
-	oraInizio∏
-µ
-L L(4
-%6java.time.LocalDateTime"_java.time.LocalDateTime#of(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/time/LocalDateTime;*7
-
-__unknown_file ("
-java.time.LocalDateTime*7
+__unknown_file (
+java.lang.Override*7
 
 __unknown_file (
 
-%4java.time.LocalDate*7
+luogojava.lang.StringY
+W
+%  %(%
+luogojava.lang.String"__annotation*"
 
-__unknown_file (
-
-%5java.time.LocalTime"+
-L L(5
-
-%6java.time.LocalDateTime*è
-3K K(%
-}
-K K(%
-%2java.time.LocalTime"__id*P
-
-__unknown_file (4*2#
-!engclasses.beans.AppuntamentoBean"
-	oraIniziow
-u
-K K(-
-%3boolean"	__compare*
-K& K((
-!=*'
-K K(%
-
-%2java.time.LocalTime*
-K) K(-
-""*
-2
-1*ä
-4K K(z
-x
-K K(
-%0java.time.LocalDate"__id*K
-
-__unknown_file (/*-#
-!engclasses.beans.AppuntamentoBean"
-dataw
-u
-K K(
-%1boolean"	__compare*
-K K(
-!=*'
-K K(
-
-%0java.time.LocalDate*
-K K(
-""*
-3
+__unknown_file (
+
+%0*
 1*!
-1N N("
-N N(
-""B%#
-!engclasses.beans.AppuntamentoBeanH
+1( (("
+( ((
+"":%
+% %(&
+luogojava.lang.String: 
+
+__unknown_file (
+""B86
+4engclasses.pattern.factory.AppuntamentoOnlineFactoryH

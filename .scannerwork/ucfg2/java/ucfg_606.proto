@@ -1,476 +1,72 @@
 
-aengclasses.dao.db.UtenteDAODB#selezionaUtente(Ljava/lang/String;Ljava/lang/String;)Lmodel/Utente;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/UtenteDAODB.javaf f(!"startingBlock*Ç
-24| |(ÎË
-|! |(9
-%10java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+Hengclasses.dao.memory.AppuntamentoDAOMemory#elimina(Ljava/lang/String;)Zj
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java, ,("startingBlock*!
+2. .("
+. .(
+""*ò
+3- -(Ä
+~
+- -("
+%0boolean"	__compare*
+- -(
+==*0
+- -($
+"
+idAppuntamentojava.lang.String*
+- -("
+""*
+2
+1*ö
+startingBlock, ,(1ï
+í
++ +(
+%4"
+__annotate*2
 
-__unknown_file (
+__unknown_file (
+java.lang.Override*@
 
-rsjava.sql.ResultSet*(
+__unknown_file ($
+"
+idAppuntamentojava.lang.Stringb
+`
+," ,(0"
+idAppuntamentojava.lang.String"__annotation*"
 
-__unknown_file (
-
-Username2getString(Ljava/lang/String;)*
-23*ñ
-25{ {(4ˇ¸
-{ {(4
-
-%9void"Cengclasses.beans.RegistrazioneBean#setIdUtente(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*4
-
-__unknown_file (
-
-%8java.lang.String2setIdUtente(Ljava/lang/String;)*
-24*Ö
-26y y(Aá
-Ñ
-y y(A*
-bean"engclasses.beans.RegistrazioneBean"__id*F
-
-__unknown_file (*
-(
-%6"engclasses.beans.RegistrazioneBean‰·
-{! {(3
-%8java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*"
+__unknown_file (
+
+%4*
+3*í
+10 0(K
+I
+0 0(
+%1java.util.Map"__id*"
 
 __unknown_file (
-Id2getString(Ljava/lang/String;)*
-25*¸
-27y) y(@ZX
-y- y(>(
-%6"engclasses.beans.RegistrazioneBean""engclasses.beans.RegistrazioneBeanâ
-Ü
-y) y(@
-%7",engclasses.beans.RegistrazioneBean#<init>()V*F
+""©
+¶
+0 0(2
+%2model.Appuntamento"__mapRemove*1
 
-__unknown_file (*
-(
-%6"engclasses.beans.RegistrazioneBean*
-26*ˆ
-29t t(-d
-b
-t t(-
-rsjava.sql.ResultSet"__id*6
-
-__unknown_file (
-
-%4java.sql.ResultSetwu
-w w(
-%5boolean"java.sql.ResultSet#next()Z*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet2next()*
-3
-27*Õ
-30t t(∂≥
-t t(,
-%4java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*>
-
-__unknown_file ("
- 
-psjava.sql.PreparedStatement2executeQuery()*
-29*™
-31r r(ìê
-r r(%
-
-%3void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*>
-
-__unknown_file ("
- 
-psjava.sql.PreparedStatement* 
-
-__unknown_file (2*:
-
-__unknown_file (
-
-passwordjava.lang.String2setString(ILjava/lang/String;)*
-30*†
-32o o(>t
-r
-o o(> 
-psjava.sql.PreparedStatement"__id*>
-
-__unknown_file ("
- 
-%1java.sql.PreparedStatementìê
-q q(%
-
-%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*>
-
-__unknown_file ("
- 
-psjava.sql.PreparedStatement* 
-
-__unknown_file (2*:
-
-__unknown_file (
-
-usernamejava.lang.String2setString(ILjava/lang/String;)*
-31*ú
-10
-É É(MÑÅ
-
-É É(M
-%24void"Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*4
-
-__unknown_file (
-
-%23misc.TipoUtente2 setTipoUtente(Lmisc/TipoUtente;)*
-9*û
-33n n(<h
-f
-n n(<
-connjava.sql.Connection"__id*7
-
-__unknown_file (
-
-%0java.sql.Connectionùö
-o$ o(> 
-%1java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
-
-__unknown_file (
-
-connjava.sql.Connection*5
-
-__unknown_file (
-
-sqljava.lang.String2$prepareStatement(Ljava/lang/String;)*
-32*Ê
-11
-É# É(LÕ
- 
-
-É# É(L
-%23misc.TipoUtente"<misc.TipoUtente#valueOf(Ljava/lang/String;)Lmisc/TipoUtente;*/
-
-__unknown_file ("
-misc.TipoUtente*5
-
-__unknown_file (
-
-%22java.lang.String*
-10*»
-34n n(,±
-Æ
-n n(<
-%0java.sql.Connection"Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;*@
-
-__unknown_file ($""
- engclasses.pattern.ConnessioneDB*
-33*É
-12
-É É(ÍÁ
-
-É6 É(K
-%22java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*%
-
-__unknown_file (	
-Ruolo2getString(Ljava/lang/String;)*
-11*Û
-35g l(‹
-Ÿ
-g l(
-sqljava.lang.String"__id*≠
-
-__unknown_file (êç
-ä    SELECT Id, Username, Email, Password, Nome, Cognome, Citta, Ruolo
-    FROM UTENTE
-    WHERE Username = ? AND Password = ?
-    LIMIT 1
-*
-34*ñ
-13
-Å Å(4˝˙
-
-Å Å(4
-%21void"@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%20java.lang.String2setCitta(Ljava/lang/String;)*
-12*É
-14
-Å Å(ÍÁ
-
-Å Å(3
-%20java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*%
-
-__unknown_file (	
-Citta2getString(Ljava/lang/String;)*
-13*ö
-15
-Ä Ä(8Å˛
-
-Ä Ä(8
-%19void"Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%18java.lang.String2setCognome(Ljava/lang/String;)*
-14*Ö
-16
-Ä Ä(ÏÈ
-
-Ä  Ä(7
-%18java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*'
-
-__unknown_file (	
-Cognome2getString(Ljava/lang/String;)*
-15*ê
-17 (2˘ˆ
- (2
-%17void"?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%16java.lang.String2setNome(Ljava/lang/String;)*
-16*˛
-18 (Á‰
- (1
-%16java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*$
-
-__unknown_file (
-Nome2getString(Ljava/lang/String;)*
-17*ò
-19~ ~(:Å˛
-~ ~(:
-%15void"Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%14java.lang.String2setPassword(Ljava/lang/String;)*
-18*%
-3
-â â("
-
-â â(
-""*É
-startingBlockf! f(Cê
-ç
-e e(
-%32"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*:
-
-__unknown_file (
-
-usernamejava.lang.String]
-[
-f) f(1
-usernamejava.lang.String"__annotation*#
-
-__unknown_file (
-
-%32ê
-ç
-e e(
-%33"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*:
-
-__unknown_file (
-
-passwordjava.lang.String]
-[
-f: f(B
-passwordjava.lang.String"__annotation*#
-
-__unknown_file (
-
-%33*
-35*4
-4
-á á(D"#
-
-á á(D
+__unknown_file (
 
-%29model.Utente*Œ
-5
-á> á(B∑¥
-
-á á(C
-%29model.Utente"yengclasses.pattern.factory.UtenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;*Q
+%1java.util.Map*@
 
-__unknown_file (5
-3
-factory(engclasses.pattern.factory.UtenteFactory*5
+__unknown_file ($
+"
+idAppuntamentojava.lang.Stringv
+t
+0 0(:
+%3boolean"	__compare*
+03 0(5
+!=*&
+0 0(2
 
-__unknown_file (
-
-%28java.lang.String*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)*
-4*ö
-6
-Ü Ü(Pô
-ñ
-
-Ü Ü(P3
-factory(engclasses.pattern.factory.UtenteFactory"__id*M
-
-__unknown_file (1
-/
-%27(engclasses.pattern.factory.UtenteFactoryÁ‰
-
-á* á(<
-%28java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*"
-
-__unknown_file (
-Id2getString(Ljava/lang/String;)*
-5*¡
-7
-Ö Ö(Md
-b
-
-Ö Ö(M
-ruolomisc.TipoUtente"__id*4
-
-__unknown_file (
-
-%26misc.TipoUtenteƒ
-¡
-
-Ü( Ü(O/
-%27(engclasses.pattern.factory.UtenteFactory"xengclasses.pattern.factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/factory/UtenteFactory;*P
-
-__unknown_file (4"2
-0engclasses.pattern.factory.UtenteFactoryProvider*6
-
-__unknown_file (
-
-ruolomisc.TipoUtente*
-6*‰
-8
-Ö# Ö(LÕ
- 
-
-Ö# Ö(L
-%26misc.TipoUtente"<misc.TipoUtente#valueOf(Ljava/lang/String;)Lmisc/TipoUtente;*/
-
-__unknown_file ("
-misc.TipoUtente*5
-
-__unknown_file (
-
-%25java.lang.String*
-7*Å
-9
-Ö# Ö(-ÍÁ
-
-Ö6 Ö(K
-%25java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*%
-
-__unknown_file (	
-Ruolo2getString(Ljava/lang/String;)*
-8*Ç
-20~ ~(ÎË
-~! ~(9
-%14java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*(
-
-__unknown_file (
-
-Password2getString(Ljava/lang/String;)*
-19*í
-21} }(4˚¯
-} }(4
-%13void"@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%12java.lang.String2setEmail(Ljava/lang/String;)*
-20*ˇ
-22} }(ËÂ
-} }(3
-%12java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*%
-
-__unknown_file (	
-Email2getString(Ljava/lang/String;)*
-21*ò
-23| |(:Å˛
-| |(:
-%11void"Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%10java.lang.String2setUsername(Ljava/lang/String;)*
-22:(
-f" f(2
-usernamejava.lang.String:(
-f3 f(B
-passwordjava.lang.StringB!
-engclasses.dao.db.UtenteDAODBHh
+%2model.Appuntamento*
+06 0(:
+"""
+0 0(;
+"":.
+, ,(0"
+idAppuntamentojava.lang.StringB/-
++engclasses.dao.memory.AppuntamentoDAOMemoryHX

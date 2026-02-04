@@ -1,88 +1,7 @@
 
-|controllers.applicativo.AppuntamentoController#validaDatiAppuntamento(Lengclasses/beans/AppuntamentoBean;)Ljava/lang/String;o
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaƒ ƒ()"1*ü
-1
-≈ ≈(2FD
-
-≈# ≈(0
-%0java.lang.StringBuilder"java.lang.StringBuildert
-r
-
-≈ ≈(2
-%1"!java.lang.StringBuilder#<init>()V*;
-
-__unknown_file (
-
-%0java.lang.StringBuildert
-r
-
-≈ ≈(3!
-errorijava.lang.StringBuilder"__id*;
-
-__unknown_file (
-
-%0java.lang.StringBuilderà
-Ö
-
-« «(8
-
-%2void"êcontrollers.applicativo.AppuntamentoController#validaCampiObbligatoriAppuntamento(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
-
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*G
-
-__unknown_file (+
-)
-bean!engclasses.beans.AppuntamentoBean*?
-
-__unknown_file (#
-!
-errorijava.lang.StringBuilder˘
-ˆ
-
-» »()
-
-%3void"Åcontrollers.applicativo.AppuntamentoController#validaCoerenzaOrari(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
-
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*G
-
-__unknown_file (+
-)
-bean!engclasses.beans.AppuntamentoBean*?
-
-__unknown_file (#
-!
-errorijava.lang.StringBuilder˝
-˙
-
-… …(-
-
-%4void"Öcontrollers.applicativo.AppuntamentoController#validaLuogoAppuntamento(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
-
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*G
-
-__unknown_file (+
-)
-bean!engclasses.beans.AppuntamentoBean*?
-
-__unknown_file (#
-!
-errorijava.lang.StringBuilder™ß
-
-À À( 
-%5java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
-
-__unknown_file (#
-!
-errorijava.lang.StringBuilder2
-toString()"&
-
-À À(!
-
-%5java.lang.String:7
-
-ƒ* ƒ(?)
-bean!engclasses.beans.AppuntamentoBeanB20
-.controllers.applicativo.AppuntamentoController
+6engclasses.beans.AnnuncioBean#getNumeroPartecipanti()I\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javas s($"1*!
+1t t(!"
+t t("
+""B!
+engclasses.beans.AnnuncioBeanHX

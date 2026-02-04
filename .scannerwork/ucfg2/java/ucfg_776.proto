@@ -1,16 +1,33 @@
 
-,model.Utente#getPassword()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java? ?("1*›
-1@ @(f
-d
-@ @(
-%0java.lang.String"__id*:
+Cengclasses.dao.memory.OffertaDAOMemory#trovaTutte()Ljava/util/List;e
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.javaE E(#"1*–
+1F F(&K
+I
+F F(&
+%0java.util.Map"__id*"
 
-__unknown_file (*
-model.Utente"
-
-password"$
-@ @(
-
-%0java.lang.StringB
-model.UtenteH
+__unknown_file (
+""”‘
+F F(/
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%0java.util.Map2values()<:
+F F(
+%2java.util.ArrayList"java.util.ArrayList»
+¸
+F F(0
+%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+
+__unknown_file (
+
+%2java.util.ArrayList*8
+
+__unknown_file (
+
+%1java.util.Collection"'
+F F(1
+
+%2java.util.ArrayListB*(
+&engclasses.dao.memory.OffertaDAOMemoryH

@@ -123,16 +123,13 @@ public class AnnuncioController {
 
                 LocalDate dataCreazione = LocalDate.now();
 
-                // crea oggetto dominio
-                Annuncio annuncio = new Annuncio(   //lo dovrebbe fare la factory??
-                        autore,
-                        titolo,
-                        descrizione,
-                        dataCreazione,
-                        nomeProdotto,
-                        quantita,
-                        citta,
-                        dataScadenza
+                // crea oggetto dominio usando il Builder
+                Annuncio annuncio = new Annuncio.Builder(autore, titolo, descrizione)
+                        .dataPubblicazione(dataCreazione)
+                        .dataScadenza(dataScadenza)
+                        .citta(citta)
+                        .quantitaDesiderata(quantita)
+                        .build(
                 );
 
                 // persistenza

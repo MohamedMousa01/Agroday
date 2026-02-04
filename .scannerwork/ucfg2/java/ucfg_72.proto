@@ -1,15 +1,15 @@
 
-Hengclasses.beans.PartecipazioneBean#getIdAgricoltore()Ljava/lang/String;b
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/PartecipazioneBean.java- -(""1*¹
-1. .(ƒ
-€
-. .(
-%0java.lang.String"__id*V
+model.Annuncio#getQuantita()IO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java¥ ¥("1*´
+1
+¦ ¦($Œ‰
+
+¦ ¦(&	
+%0int"'model.Annuncio#getQuantitaDesiderata()I*.
 
-__unknown_file (:*8%
-#engclasses.beans.PartecipazioneBean"
-idAgricoltore"$
-. .(
-
-%0java.lang.StringB'%
-#engclasses.beans.PartecipazioneBeanH
+__unknown_file (
+model.Annuncio2getQuantitaDesiderata()"
+
+¦ ¦('
+""B
+model.AnnuncioHX

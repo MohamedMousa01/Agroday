@@ -1,69 +1,15 @@
 
-{controllers.applicativo.PartecipazioneController#convertToBean(Lmodel/Partecipazione;)Lengclasses/beans/PartecipazioneBean;q
-e/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/PartecipazioneController.java   (,"1*î	
-1
-¢ ¢(µ²
-
-¢ ¢(#
-%0java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*7
+)model.Utente#getEmail()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java7 7("1*˜
+18 8(c
+a
+8 8(
+%0java.lang.String"__id*7
 
-__unknown_file (
-
-pmodel.Partecipazione2getIdPartecipazione()©¦
-
-£ £(
-%1java.lang.String"6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;*7
-
-__unknown_file (
-
-pmodel.Partecipazione2getIdAnnuncio()¯¬
-
-¤ ¤( 
-%2java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
-
-__unknown_file (
-
-pmodel.Partecipazione2getIdAgricoltore()™–
-
-¥ ¥($	
-%3int",model.Partecipazione#getQuantitaRichiesta()I*7
-
-__unknown_file (
-
-pmodel.Partecipazione2getQuantitaRichiesta()^\
-
-¡ ¡(%)
-%4#engclasses.beans.PartecipazioneBean"#engclasses.beans.PartecipazioneBean
-Œ
-
-¡ ¦(	
-%5"dengclasses.beans.PartecipazioneBean#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V*G
-
-__unknown_file (+
-)
-%4#engclasses.beans.PartecipazioneBean*4
-
-__unknown_file (
+__unknown_file (*
+model.Utente"
+email"$
+8 8(
 
-%0java.lang.String*4
-
-__unknown_file (
-
-%1java.lang.String*4
-
-__unknown_file (
-
-%2java.lang.String*'
-
-__unknown_file (
-	
-%3int"9
-
-¡ ¦(
-+
-)
-%4#engclasses.beans.PartecipazioneBean:'
-
- -  (=
-pmodel.PartecipazioneB42
-0controllers.applicativo.PartecipazioneController
+%0java.lang.StringB
+model.UtenteH

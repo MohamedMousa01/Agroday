@@ -1,37 +1,91 @@
 
-7__sonar_lambda_38$engclasses.dao.memory.UtenteDAOMemoryd
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (C"startingBlock*±
-startingBlock (C
-
+Wengclasses.dao.db.AppuntamentoDAODB#trovaPerCliente(Ljava/lang/String;)Ljava/util/List;d
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.java   (-"startingBlock*–
+startingBlock
+ -  (?’
+
+
+Ÿ Ÿ(
+%4"
+__annotate*2
 
-__unknown_file (
-emailjava.lang.String"__id*P
+__unknown_file (
+java.lang.Override*;
 
-__unknown_file (4*2'
-%engclasses.dao.memory.UtenteDAOMemory"
-email*
-1*¦
-1 ( Š
- (+
-%4java.lang.String")model.Utente#getEmail()Ljava/lang/String;*/
+__unknown_file (
+
+	idClientejava.lang.String_
+]
+
+ 5  (>
+	idClientejava.lang.String"__annotation*"
 
-__unknown_file (
-
-umodel.Utente2
-getEmail()éæ
- (C
-%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+__unknown_file (
+
+%4*
+1*–
+1
+¡ ¡(bç
+ä
+
+¡ ¢(Z
+%0java.lang.String"__concat*]
+
+¡ ¡(bOM
+KSELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, *U
+
+¢ ¢(ZGE
+Cdata_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, ¬
+©
+
+¡ £(V
+%1java.lang.String"__concat*&
+
+¡ ¢(Z
+
+%0java.lang.String*Q
+
+£ £(VCA
+?data_creazione, data_ultima_modifica, google_calendar_event_id “
+
+
+¡ ¤(=
+%2java.lang.String"__concat*&
+
+¡ £(V
+
+%1java.lang.String*8
+
+¤ ¤(=*(
+&FROM appuntamenti WHERE id_cliente = ?c
+a
+
+¡ ¤(>
+sqljava.lang.String"__id*4
 
 __unknown_file (
 
-%4java.lang.String*7
-
-__unknown_file (
-
-emailjava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
- (C
+%2java.lang.StringÊ
+Ç
 
-%5boolean:
- (
-umodel.UtenteB 
-java.util.function.Predicate
+¥ ¥(/
+%3java.util.List"jengclasses.dao.db.AppuntamentoDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*C
+
+__unknown_file ('%
+#engclasses.dao.db.AppuntamentoDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*;
+
+__unknown_file (
+
+	idClientejava.lang.String"$
+
+¥ ¥(0
+
+%3java.util.List:+
+
+ .  (>
+	idClientejava.lang.StringB'%
+#engclasses.dao.db.AppuntamentoDAODBH

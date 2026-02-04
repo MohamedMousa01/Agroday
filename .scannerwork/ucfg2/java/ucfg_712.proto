@@ -1,7 +1,162 @@
 
-,engclasses.beans.AnnuncioBean#getQuantita()I\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javaK K("1*!
-1L L("
-L L(
-""B!
-engclasses.beans.AnnuncioBeanHX
+Ñengclasses.dao.filesystem.AppuntamentoDAOFile#trovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;l
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.java~ ~(0"startingBlock*Ë
+2
+Ä Ä($><
+
+Ä Ä("
+%2java.util.ArrayList"java.util.ArrayListl
+j
+
+Ä Ä($
+%3"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%2java.util.ArrayList")
+
+Ä Ä(%
+
+%2java.util.ArrayList*ë
+3 (z
+x
+ (#
+%1boolean"	__compare*
+ (
+==**
+ (
+
+ajava.time.LocalDateTime*
+ (#
+""*
+2
+1*Ñ
+startingBlock~0 ~(Së
+é
+} }(
+%14"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+dajava.time.LocalDateTime^
+\
+~? ~(A
+dajava.time.LocalDateTime"__annotation*#
+
+__unknown_file (
+
+%14ê
+ç
+} }(
+%15"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+ajava.time.LocalDateTime]
+[
+~Q ~(R
+ajava.time.LocalDateTime"__annotation*#
+
+__unknown_file (
+
+%15*
+4*í
+4 ({
+y
+ (
+%0boolean"	__compare*
+ (
+==*+
+ (
+
+dajava.time.LocalDateTime*
+ (
+""*
+2
+3*•
+1
+Ç Ç(ã
+à
+
+Ç Ç(
+%4java.util.Map"__id*_
+
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+appuntamentiñì
+
+Ç Ç($
+%5java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%4java.util.Map2values()™ß
+
+Ç Ç(-
+%6java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+%5java.util.Collection2stream()ß
+§
+
+É É(i"
+%7java.util.function.Predicate"__declareFunction*_
+
+__unknown_file (CA
+?__sonar_lambda_61$engclasses.dao.filesystem.AppuntamentoDAOFileå
+â
+
+__unknown_file (*
+"
+%7java.util.function.Predicate"
+da"__id*;
+
+__unknown_file (
+
+dajava.time.LocalDateTimeä
+á
+
+__unknown_file ()
+"
+%7java.util.function.Predicate"
+a"__id*:
+
+__unknown_file (
+
+ajava.time.LocalDateTimeØ¨
+
+Ç É(j
+%12java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%6java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%7java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)†ù
+
+Ç Ñ(
+%13java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*<
+
+__unknown_file ( 
+
+%12java.util.stream.Stream2toList()"%
+
+Ç Ñ(
+
+%13java.util.List:)
+~1 ~(B
+dajava.time.LocalDateTime:(
+~C ~(R
+ajava.time.LocalDateTimeB1/
+-engclasses.dao.filesystem.AppuntamentoDAOFileH

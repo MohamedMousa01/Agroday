@@ -159,7 +159,7 @@ public class VisualizzaAnnunciCLIView {
         if (s.length() >= n) {
             return s.substring(0, n);
         }
-        return String.format("%-" + n + "s", s);
+        return String.format("%-*s", n, s);
     }
 
     private String truncate(String s, int maxLen) {

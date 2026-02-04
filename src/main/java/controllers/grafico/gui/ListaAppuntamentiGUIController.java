@@ -283,7 +283,7 @@ public class ListaAppuntamentiGUIController {
     @FXML
     private void onTornaIndietro() {
         // Torna alla schermata principale usando ViewManager
-        engclasses.pattern.ViewFactory.ViewManager.goTo(misc.ViewType.MAIN);
+        engclasses.pattern.viewfactory.ViewManager.goTo(misc.ViewType.MAIN);
     }
 
     private void mostraMessaggio(String messaggio, boolean isErrore) {

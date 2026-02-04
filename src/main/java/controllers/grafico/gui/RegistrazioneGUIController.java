@@ -2,7 +2,7 @@ package controllers.grafico.gui;
 
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.RegistrazioneFallitaException;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import misc.Session;

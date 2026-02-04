@@ -1,60 +1,69 @@
 
-Hengclasses.dao.filesystem.ConsulenteDAOFile#trovaTutti()Ljava/util/List;j
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java (&"8*1
-3 (""
- (
-
-%4java.util.List*±
-4 (úô
- (
-%4java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+{controllers.applicativo.PartecipazioneController#convertToBean(Lmodel/Partecipazione;)Lengclasses/beans/PartecipazioneBean;q
+e/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/PartecipazioneController.java† †(,"1*Ó	
+1
+¢ ¢(µ≤
+
+¢ ¢(#
+%0java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*7
 
-__unknown_file (
-
-%3java.util.stream.Stream2toList()*
-3*õ
-5 (/ÜÉ
- (0
-%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+__unknown_file (
+
+pmodel.Partecipazione2getIdPartecipazione()©¶
+
+£ £(
+%1java.lang.String"6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;*7
 
-__unknown_file (
-
-%2java.util.stream.Stream*"
+__unknown_file (
+
+pmodel.Partecipazione2getIdAnnuncio()Ø¨
+
+§ §( 
+%2java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
 
-__unknown_file (
-""2"map(Ljava/util/function/Function;)*
-4*£
-6 (8éã
- (9
-%2java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+__unknown_file (
+
+pmodel.Partecipazione2getIdAgricoltore()ôñ
+
+• •($	
+%3int",model.Partecipazione#getQuantitaRichiesta()I*7
 
-__unknown_file (
-
-%1java.util.stream.Stream*"
+__unknown_file (
+
+pmodel.Partecipazione2getQuantitaRichiesta()^\
+
+° °(%)
+%4#engclasses.beans.PartecipazioneBean"#engclasses.beans.PartecipazioneBeanè
+å
+
+° ¶(	
+%5"dengclasses.beans.PartecipazioneBean#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V*G
 
-__unknown_file (
-""2&filter(Ljava/util/function/Predicate;)*
-5*ù
-7 (1`
-^
- (1
-utentijava.util.List"__id*2
+__unknown_file (+
+)
+%4#engclasses.beans.PartecipazioneBean*4
 
-__unknown_file (
-
-%0java.util.List¶£
- ("
-%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
+__unknown_file (
+
+%0java.lang.String*4
 
-__unknown_file (
+__unknown_file (
+
+%1java.lang.String*4
 
-utentijava.util.List2stream()*
-6*›
-8" (.»≈
-" (0
-%0java.util.List"Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*K
+__unknown_file (
+
+%2java.lang.String*'
 
-__unknown_file (/-
-+engclasses.dao.filesystem.ConsulenteDAOFile2caricaDaFile()*
-7B/-
-+engclasses.dao.filesystem.ConsulenteDAOFileHh
+__unknown_file (
+	
+%3int"9
+
+° ¶(
++
+)
+%4#engclasses.beans.PartecipazioneBean:'
+
+†- †(=
+pmodel.PartecipazioneB42
+0controllers.applicativo.PartecipazioneController

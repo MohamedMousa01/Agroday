@@ -1,126 +1,79 @@
 
-Lengclasses.dao.db.OffertaDAODB#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;]
-S/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/OffertaDAODB.javaY Y("startingBlock*0
-3c c(-"!
-c c(-
-
-%5model.Offerta*‘
-startingBlockY Y(/
-
-X X(
-%7"
+Hengclasses.dao.filesystem.UtenteDAOFile#esisteEmail(Ljava/lang/String;)Zf
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/UtenteDAOFile.java% %("startingBlock*!
+3( )(I"
+( )(I
+""*ˆ
+startingBlock% %(,Œ
+‰
+$ $(
+%8"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*;
-
-__unknown_file (
-
-	idOffertajava.lang.String]
-[
-Y% Y(.
-	idOffertajava.lang.String"__annotation*"
-
-__unknown_file (
-
-%7*
-11*†
-4c c((ñ
-î
-c c(,
-%5model.Offerta"Uengclasses.dao.db.OffertaDAODB#mappaRigaAOfferta(Ljava/sql/ResultSet;)Lmodel/Offerta;*>
-
-__unknown_file (" 
-engclasses.dao.db.OffertaDAODB*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*
-3*ô
-6` `(0d
-b
-` `(0
-rsjava.sql.ResultSet"__id*6
-
-__unknown_file (
-
-%3java.sql.ResultSetwu
-b b(
-%4boolean"java.sql.ResultSet#next()Z*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet2next()*
-4
-1*Î
-7` `( ¹¶
-` `(/
-%3java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*A
-
-__unknown_file (%
-#
-pstmtjava.sql.PreparedStatement2executeQuery()*
-6*¥
-8] ](Aw
-u
-] ](A#
-pstmtjava.sql.PreparedStatement"__id*>
-
-__unknown_file ("
- 
-%1java.sql.PreparedStatement—”
-_ _()
-
-%2void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
-
-__unknown_file (%
-#
-pstmtjava.sql.PreparedStatement* 
-
-__unknown_file (2*;
-
-__unknown_file (
-
-	idOffertajava.lang.String2setString(ILjava/lang/String;)*
-7*œ
-9\ \(<h
-f
-\ \(<
-connjava.sql.Connection"__id*7
+java.lang.Override*7
 
 __unknown_file (
 
-%0java.sql.Connectionš
-]' ](A 
-%1java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
+emailjava.lang.StringY
+W
+%& %(+
+emailjava.lang.String"__annotation*"
 
-__unknown_file (
-
-connjava.sql.Connection*5
+__unknown_file (
+
+%8*
+6*Í
+4) )(GŸ
+œ
+) )(G"
+%2java.util.function.Predicate"__declareFunction*Y
 
-__unknown_file (
-
-sqljava.lang.String2$prepareStatement(Ljava/lang/String;)*
-8*Ç
-10\ \(,±
-®
-\ \(<
-%0java.sql.Connection"Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;*@
+__unknown_file (=;
+9__sonar_lambda_13$engclasses.dao.filesystem.UtenteDAOFile‹
+ˆ
 
-__unknown_file ($""
- engclasses.pattern.ConnessioneDB*
-9*ñ
-11	Z Z(Ù
-Ö
-	Z Z(ž
-sqljava.lang.String"__id*©
+__unknown_file (-
+"
+%2java.util.function.Predicate"
+email"__id*7
 
-__unknown_file (Œ‰
-†SELECT id_offerta, id_annuncio, username_venditore, prezzo_al_kg, prezzo_totale, data_offerta, stato FROM offerte WHERE id_offerta = ?*
-10*!
-1i i("
-i i(
-"":)
-Y Y(.
-	idOffertajava.lang.StringB" 
-engclasses.dao.db.OffertaDAODBH
+__unknown_file (
+
+emailjava.lang.Stringˆ…
+( )(H
+%5boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%2java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)*
+3*
+5' '(1`
+^
+' '(1
+utentijava.util.List"__id*2
+
+__unknown_file (
+
+%0java.util.List¦£
+( (("
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
+
+__unknown_file (
+
+utentijava.util.List2stream()*
+4*Ù
+6'" '(.ÄÁ
+'" '(0
+%0java.util.List"Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*G
+
+__unknown_file (+)
+'engclasses.dao.filesystem.UtenteDAOFile2caricaDaFile()*
+5:%
+% %(+
+emailjava.lang.StringB+)
+'engclasses.dao.filesystem.UtenteDAOFileHXh

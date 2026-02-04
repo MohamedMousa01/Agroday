@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144192629*java2.B "
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198472789*java2.B "
 N
 Isrc/main/java/controllers/grafico/gui/VisualizzaOfferteGUIController.java2
 	
@@ -225,9 +225,9 @@ Gcontrollers.grafico.gui.VisualizzaOfferteGUIController#tornaIndietro()V161
 
 tornaIndietro163
 1
-*engclasses.pattern.ViewFactory.ViewManager165
+*engclasses.pattern.viewfactory.ViewManager165
 H
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V167
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V167
 
 misc.ViewType169
 
@@ -367,6 +367,9 @@ T
 15
 157
 
+164
+16416525
+
 126
 12612725
 
@@ -403,6 +406,9 @@ M
 
 32
 323325
+
+166
+16616725
 
 79
 798025
@@ -501,12 +507,6 @@ M
 
 15
 22
-
-164
-16416525
-
-166
-16616725
 Q
 97K
 979867 *

@@ -196,18 +196,14 @@ public class AnnuncioDAODB implements AnnuncioDAO {
         String citta = rs.getString("citta");
         int quantitaDesiderata = rs.getInt("quantita_desiderata");
 
-        // Crea e ritorna l'annuncio dal database
-        // Nota: quantita_totale e stato potrebbero essere caricati in futuro se aggiunti al costruttore
-        return new Annuncio(
-            idAnnuncio,
-            nomeAutore,
-            titolo,
-            descrizione,
-            dataPubblicazione,
-            dataScadenza,
-            citta,
-            quantitaDesiderata
-        );
+        // Usa il Builder per creare l'annuncio dal database
+        return new Annuncio.Builder(nomeAutore, titolo, descrizione)
+            .idAnnuncio(idAnnuncio)
+            .dataPubblicazione(dataPubblicazione)
+            .dataScadenza(dataScadenza)
+            .citta(citta)
+            .quantitaDesiderata(quantitaDesiderata)
+            .build();
     }
 
     private List<Annuncio> eseguiQueryLista(String sql, String parametro) {

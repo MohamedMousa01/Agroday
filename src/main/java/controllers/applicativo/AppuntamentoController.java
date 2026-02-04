@@ -527,7 +527,8 @@ public class AppuntamentoController {
             bean.setLinkCalendario(calendarService.getLinkEvento(appuntamento.getGoogleCalendarEventId()));
         }
 
-        // TODO: Carica nomi utenti quando disponibile findById nel DAO
+        // Nota: I nomi completi degli utenti potrebbero essere caricati in futuro
+        // quando sarà disponibile un metodo findById nel UtenteDAO
 
         return bean;
     }

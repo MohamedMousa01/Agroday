@@ -1,35 +1,90 @@
 
-Kengclasses.services.DemoCalendarService#cancellaEvento(Ljava/lang/String;)Zf
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/DemoCalendarService.java) )(!"startingBlock*Œ
-startingBlock)! )(1Ž
-‹
-( ((
-%1"
+Fengclasses.dao.filesystem.AnnuncioDAOFile#elimina(Ljava/lang/String;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.java? ?("startingBlock*Å
+2D D(¡
+ž
+D D( 
+%4boolean"8engclasses.dao.filesystem.AnnuncioDAOFile#salvaSuFile()Z*I
+
+__unknown_file (-+
+)engclasses.dao.filesystem.AnnuncioDAOFile"
+D D(!
+""*®
+3C C(
+}
+C C(
+%1java.util.Map"__id*V
+
+__unknown_file (:*8+
+)engclasses.dao.filesystem.AnnuncioDAOFile"	
+annunci¡
+ž
+C C(&
+%2model.Annuncio"__mapRemove*1
+
+__unknown_file (
+
+%1java.util.Map*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.Stringr
+p
+C C(.
+%3boolean"	__compare*
+C' C()
+!=*"
+C C(&
+
+%2model.Annuncio*
+C* C(.
+""*
+2
+1*’
+startingBlock? ?(-‘
+Ž
+> >(
+%5"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*9
+java.lang.Override*<
 
-__unknown_file (
-
-eventIdjava.lang.String[
-Y
-)) )(0
-eventIdjava.lang.String"__annotation*"
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String^
+\
+?" ?(,
+
+idAnnunciojava.lang.String"__annotation*"
 
 __unknown_file (
 
-%1*
-1*_
-1* *(<
-:
-* *(
-%0"__id*"
-
-__unknown_file (
-"""
-+ +(
-"":'
-)" )(0
-eventIdjava.lang.StringB+)
-'engclasses.services.DemoCalendarServiceHX
+%5*
+5*!
+4A A("
+A A(
+""*“
+5@ @(|
+z
+@ @(
+%0boolean"	__compare*
+@ @(
+==*,
+@ @( 
+
+
+idAnnunciojava.lang.String*
+@ @(
+""*
+3
+4*!
+1F F("
+F F(
+"":*
+? ?(,
+
+idAnnunciojava.lang.StringB-+
+)engclasses.dao.filesystem.AnnuncioDAOFileHX

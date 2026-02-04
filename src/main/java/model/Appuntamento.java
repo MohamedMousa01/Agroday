@@ -39,6 +39,78 @@ public abstract class Appuntamento implements Serializable {
     private transient List<AppuntamentoObserver> observers;
 
     /**
+     * Builder Pattern per costruire Appuntamento con parametri flessibili.
+     * Public per permettere l'uso da DAO e altre classi.
+     */
+    public static class Builder {
+        // Campi obbligatori
+        protected final String idCliente;
+        protected final String idConsulente;
+        protected final TipoConsulenza tipoConsulenza;
+        protected final LocalDateTime dataOraInizio;
+        protected final LocalDateTime dataOraFine;
+        
+        // Campi opzionali
+        protected String idAppuntamento = null;
+        protected StatoAppuntamento stato = StatoAppuntamento.PRENOTATO;
+        protected String luogo = "";
+        protected String note = "";
+        protected String motivoCancellazione = null;
+        protected LocalDateTime dataCreazione = LocalDateTime.now();
+        protected LocalDateTime dataUltimaModifica = LocalDateTime.now();
+        protected String googleCalendarEventId = null;
+        
+        public Builder(String idCliente, String idConsulente, TipoConsulenza tipoConsulenza,
+                      LocalDateTime dataOraInizio, LocalDateTime dataOraFine) {
+            this.idCliente = idCliente;
+            this.idConsulente = idConsulente;
+            this.tipoConsulenza = tipoConsulenza;
+            this.dataOraInizio = dataOraInizio;
+            this.dataOraFine = dataOraFine;
+        }
+        
+        public Builder idAppuntamento(String idAppuntamento) {
+            this.idAppuntamento = idAppuntamento;
+            return this;
+        }
+        
+        public Builder stato(StatoAppuntamento stato) {
+            this.stato = stato;
+            return this;
+        }
+        
+        public Builder luogo(String luogo) {
+            this.luogo = luogo;
+            return this;
+        }
+        
+        public Builder note(String note) {
+            this.note = note;
+            return this;
+        }
+        
+        public Builder motivoCancellazione(String motivoCancellazione) {
+            this.motivoCancellazione = motivoCancellazione;
+            return this;
+        }
+        
+        public Builder dataCreazione(LocalDateTime dataCreazione) {
+            this.dataCreazione = dataCreazione;
+            return this;
+        }
+        
+        public Builder dataUltimaModifica(LocalDateTime dataUltimaModifica) {
+            this.dataUltimaModifica = dataUltimaModifica;
+            return this;
+        }
+        
+        public Builder googleCalendarEventId(String googleCalendarEventId) {
+            this.googleCalendarEventId = googleCalendarEventId;
+            return this;
+        }
+    }
+
+    /**
      * Costruttore principale per creare un nuovo appuntamento.
      * Visibilità protected per permettere l'uso solo dalle sottoclassi.
      */
@@ -58,28 +130,22 @@ public abstract class Appuntamento implements Serializable {
     }
 
     /**
-     * Costruttore completo per ricostruire un appuntamento dal database/file.
-     * Visibilità protected per permettere l'uso solo dalle sottoclassi.
+     * Costruttore protected usato dal Builder.
      */
-    protected Appuntamento(String idAppuntamento, String idCliente, String idConsulente,
-                        TipoConsulenza tipoConsulenza, StatoAppuntamento stato,
-                        LocalDateTime dataOraInizio, LocalDateTime dataOraFine,
-                        String luogo, String note, String motivoCancellazione,
-                        LocalDateTime dataCreazione, LocalDateTime dataUltimaModifica,
-                        String googleCalendarEventId) {
-        this.idAppuntamento = idAppuntamento;
-        this.idCliente = idCliente;
-        this.idConsulente = idConsulente;
-        this.tipoConsulenza = tipoConsulenza;
-        this.stato = stato;
-        this.dataOraInizio = dataOraInizio;
-        this.dataOraFine = dataOraFine;
-        this.luogo = luogo;
-        this.note = note;
-        this.motivoCancellazione = motivoCancellazione;
-        this.dataCreazione = dataCreazione;
-        this.dataUltimaModifica = dataUltimaModifica;
-        this.googleCalendarEventId = googleCalendarEventId;
+    protected Appuntamento(Builder builder) {
+        this.idAppuntamento = builder.idAppuntamento != null ? builder.idAppuntamento : UUID.randomUUID().toString();
+        this.idCliente = builder.idCliente;
+        this.idConsulente = builder.idConsulente;
+        this.tipoConsulenza = builder.tipoConsulenza;
+        this.stato = builder.stato;
+        this.dataOraInizio = builder.dataOraInizio;
+        this.dataOraFine = builder.dataOraFine;
+        this.luogo = builder.luogo;
+        this.note = builder.note;
+        this.motivoCancellazione = builder.motivoCancellazione;
+        this.dataCreazione = builder.dataCreazione;
+        this.dataUltimaModifica = builder.dataUltimaModifica;
+        this.googleCalendarEventId = builder.googleCalendarEventId;
         this.observers = new ArrayList<>();
     }
 

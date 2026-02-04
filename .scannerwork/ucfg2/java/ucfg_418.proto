@@ -1,75 +1,28 @@
 
-xengclasses.pattern.factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/factory/UtenteFactory;o
-e/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/UtenteFactoryProvider.java  (*"2*Ö
-2	 	(!M
-K
-
- 
-(
-%0misc.TipoUtente"__id*"
-
-__unknown_file (
-""M
-K
- (
-%1misc.TipoUtente"__id*"
-
-__unknown_file (
-""M
-K
- (
-%2misc.TipoUtente"__id*"
-
-__unknown_file (
-""*	
-3
-4
-5*¢
-3 (7nl
-# (42
-%7,engclasses.pattern.factory.ConsulenteFactory",engclasses.pattern.factory.ConsulenteFactoryù
-ö
- (6
-%8"6engclasses.pattern.factory.ConsulenteFactory#<init>()V*P
-
-__unknown_file (4
-2
-%7,engclasses.pattern.factory.ConsulenteFactory*
-1*û
-4 (5lj
-" (21
-%5+engclasses.pattern.factory.VenditoreFactory"+engclasses.pattern.factory.VenditoreFactoryõ
-ò
- (4
-%6"5engclasses.pattern.factory.VenditoreFactory#<init>()V*O
-
-__unknown_file (3
-1
-%5+engclasses.pattern.factory.VenditoreFactory*
-1*¶
-5
- 
-(9pn
-
-$ 
-(63
-%3-engclasses.pattern.factory.AgricoltoreFactory"-engclasses.pattern.factory.AgricoltoreFactoryü
-ú
-
-  
-(8
-%4"7engclasses.pattern.factory.AgricoltoreFactory#<init>()V*Q
-
-__unknown_file (5
-3
-%3-engclasses.pattern.factory.AgricoltoreFactory*
-1*!
-1	 (
-"
-	 (
-
-"":)
-+ (@
+vengclasses.dao.db.AppuntamentoDAODB#creaAppuntamentoSulCampo(Lmodel/Appuntamento$Builder;)Lmodel/AppuntamentoSulCampo;d
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.javaﬂ! ﬂ(9"1*Ó
+1
+‡( ‡(/LJ
 
-tipoUtentemisc.TipoUtenteB4"2
-0engclasses.pattern.factory.UtenteFactoryProviderH
+‡ ‡(' 
+%0model.AppuntamentoSulCampo"model.AppuntamentoSulCampo‹
+Ÿ
+
+‡ ‡(0
+%1"@model.AppuntamentoSulCampo#<init>(Lmodel/Appuntamento$Builder;)V*>
+
+__unknown_file ("
+ 
+%0model.AppuntamentoSulCampo*C
+
+__unknown_file ('
+%
+buildermodel.Appuntamento$Builder"0
+
+‡ ‡(1"
+ 
+%0model.AppuntamentoSulCampo:3
+
+ﬂ: ﬂ(V%
+buildermodel.Appuntamento$BuilderB'%
+#engclasses.dao.db.AppuntamentoDAODB

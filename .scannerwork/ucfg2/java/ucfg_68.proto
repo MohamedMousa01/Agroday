@@ -1,15 +1,9 @@
 
-Kengclasses.beans.PartecipazioneBean#getIdPartecipazione()Ljava/lang/String;b
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/PartecipazioneBean.java (%"1*¼
-1 (†
-ƒ
- (
-%0java.lang.String"__id*Y
-
-__unknown_file (=*;%
-#engclasses.beans.PartecipazioneBean"
-idPartecipazione"$
- ( 
-
-%0java.lang.StringB'%
-#engclasses.beans.PartecipazioneBeanH
+model.Annuncio#getPrezzo()DO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java• •("1*%
+1
+– –("
+
+– –(
+""B
+model.AnnuncioHX

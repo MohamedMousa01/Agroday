@@ -1,21 +1,336 @@
 
-Mcontrollers.applicativo.OffertaController#accettaOfferta(Ljava/lang/String;)Zh
-^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.java} }(!"1*–
-1~ ~(#òï
-~ ~(;
-%0boolean"econtrollers.applicativo.OffertaController#aggiornaStatoOfferta(Ljava/lang/String;Ljava/lang/String;)Z*I
+fcontrollers.applicativo.AppuntamentoController#preparaConsulenza(Ljava/lang/String;)Ljava/lang/String;o
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaË Ë(#"10*Þ
+2
+Ô Ô(#¿¼
+
+Ô Ô(7
+%24misc.TipoConsulenza";model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;*@
 
-__unknown_file (-+
-)controllers.applicativo.OffertaController*;
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getTipoConsulenza()T
+R
+
+Õ Õ(
+%25misc.TipoConsulenza"__id*"
 
-__unknown_file (
-
-	idOffertajava.lang.String*)
+__unknown_file (
+""T
+R
+
+Ø Ø(
+%26misc.TipoConsulenza"__id*"
 
-__unknown_file (
-	ACCETTATA2:aggiornaStatoOfferta(Ljava/lang/String;Ljava/lang/String;)"
-~ ~(<
-"":)
-}" }(2
-	idOffertajava.lang.StringB-+
-)controllers.applicativo.OffertaControllerHX
+__unknown_file (
+""T
+R
+
+Û Û(
+%27misc.TipoConsulenza"__id*"
+
+__unknown_file (
+""*	
+3
+4
+8*Å
+3
+Û Ý(LW
+U
+
+Ü Ü(0
+%18java.lang.String"__id*(
+
+__unknown_file (
+
+ Luogo: Š
+‡
+
+Û Ü(0
+%19java.lang.String"__concat*-
+
+Û Û(9
+ðŸŒ¾ Consulenza sul Campo\n*'
+
+Ü Ü(0
+
+%18java.lang.String§¤
+
+Ü3 Ü(J
+%20java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getLuogo()„
+
+
+Û Ü(J
+%21java.lang.String"__concat*'
+
+Û Ü(0
+
+%19java.lang.String*'
+
+Ü3 Ü(J
+
+%20java.lang.Stringp
+n
+
+Û Ü(Q
+%22java.lang.String"__concat*'
+
+Û Ü(J
+
+%21java.lang.String*
+
+ÜM Ü(Q
+\n¥
+¢
+
+Û Ý(K
+%23java.lang.String"__concat*'
+
+Û Ü(Q
+
+%22java.lang.String*H
+
+Ý Ý(K:8
+6Indossa abbigliamento adatto per attivitÃ  all'aperto.*
+1*Õ
+4
+Ø Ú(B
+}
+
+Ø Ù( 
+%13java.lang.String"__concat*.
+
+Ø Ø(; 
+ðŸ¢ Consulenza in Ufficio\n*
+
+Ù Ù( 
+
+Indirizzo:§¤
+
+Ù# Ù(:
+%14java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getLuogo()„
+
+
+Ø Ù(:
+%15java.lang.String"__concat*'
+
+Ø Ù( 
+
+%13java.lang.String*'
+
+Ù# Ù(:
+
+%14java.lang.Stringp
+n
+
+Ø Ù(A
+%16java.lang.String"__concat*'
+
+Ø Ù(:
+
+%15java.lang.String*
+
+Ù= Ù(A
+\nš
+—
+
+Ø Ú(A
+%17java.lang.String"__concat*'
+
+Ø Ù(A
+
+%16java.lang.String*=
+
+Ú Ú(A/-
++Porta con te eventuali documenti necessari.*
+1*±
+5
+Õ Ö(x
+
+
+Õ Ö(x
+%10java.lang.String"__concat*&
+
+Õ Ö(*
+
+%4java.lang.String*&
+
+Ö- Ö(x
+
+%7java.lang.Stringp
+n
+
+Õ Ö(
+%11java.lang.String"__concat*'
+
+Õ Ö(x
+
+%10java.lang.String*
+
+Ö{ Ö(
+\n¤
+¡
+
+Õ ×(K
+%12java.lang.String"__concat*'
+
+Õ Ö(
+
+%11java.lang.String*G
+
+× ×(K97
+5Assicurati di avere una connessione internet stabile.*
+1*x
+6
+Öj Ö(wb
+`
+
+Öj Ö(w
+%7java.lang.String"__id*4
+
+__unknown_file (
+
+%9java.lang.String*
+5*¡
+7
+ÖP Ö(\¦£
+
+ÖP Ö(g
+%8java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getLuogo()b
+`
+
+ÖP Ö(g
+%7java.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.String*
+5*Æ
+8
+Õ ×(L…
+‚
+
+Õ Ö(*
+%4java.lang.String"__concat**
+
+Õ Õ(3
+ðŸ“¹ Consulenza Online\n*&
+
+Ö Ö(*
+Link videochiamata: ¦£
+
+Ö. Ö(E
+%5java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2
+getLuogo()|
+z
+
+Ö. Ö(M
+%6boolean"	__compare*
+
+ÖF Ö(H
+!=*&
+
+Ö. Ö(E
+
+%5java.lang.String*
+
+ÖI Ö(M
+""*
+6
+7*<
+9
+Ð Ð(."+
+
+Ð Ð(/
+Appuntamento non trovato.*ý
+10
+Ì* Ì(4ž
+›
+
+Ì* Ì(4'
+%0!engclasses.dao.factory.DAOFactory"__id*^
+
+__unknown_file (B*@0
+.controllers.applicativo.AppuntamentoController"
+
+daoFactoryòï
+
+Ì* Ì(I(
+%1"engclasses.dao.api.AppuntamentoDAO"Zengclasses.dao.factory.DAOFactory#getAppuntamentoDAO()Lengclasses/dao/api/AppuntamentoDAO;*E
+
+__unknown_file ()
+'
+%0!engclasses.dao.factory.DAOFactory2getAppuntamentoDAO()”
+‘
+
+Ì Ì(J5
+appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO"__id*F
+
+__unknown_file (*
+(
+%1"engclasses.dao.api.AppuntamentoDAO·´
+
+Í$ Í(N
+%2model.Appuntamento"Uengclasses.dao.api.AppuntamentoDAO#trovaPerId(Ljava/lang/String;)Lmodel/Appuntamento;*S
+
+__unknown_file (7
+5
+appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String2trovaPerId(Ljava/lang/String;)p
+n
+
+Í Í(O"
+appuntamentomodel.Appuntamento"__id*6
+
+__unknown_file (
+
+%2model.Appuntamento‰
+†
+
+Ï Ï( 
+%3boolean"	__compare*
+
+Ï Ï(
+==*2
+
+Ï Ï($
+"
+appuntamentomodel.Appuntamento*
+
+Ï Ï( 
+""*
+2
+9*%
+1
+Ô Þ(
+"
+
+Ô Þ(
+
+"":0
+
+Ë$ Ë(9"
+idAppuntamentojava.lang.StringB20
+.controllers.applicativo.AppuntamentoControllerH

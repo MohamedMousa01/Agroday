@@ -1,4 +1,4 @@
-package engclasses.pattern.ViewFactory;
+package engclasses.pattern.viewfactory;
 
 import controllers.grafico.cli.LoginCLIController;
 import controllers.grafico.cli.RegistrazioneCLIController;
@@ -6,11 +6,9 @@ import misc.Session;
 import misc.TipoUtente;
 import misc.UiType;
 import misc.ViewType;
-import model.Agricoltore;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static misc.ViewType.*;
 
 public class ViewManager {
 

@@ -1,36 +1,57 @@
 
-9__sonar_lambda_55$engclasses.dao.memory.AnnuncioDAOMemoryf
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.java3 3(9"startingBlock*µ
-startingBlock3 3(9î
-ë
+(misc.Session#getInstance()Lmisc/Session;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java" "(%"3*Ñ
+2$ $($.,
+$ $("
+%2misc.Session"misc.Session\
+Z
+$ $($
+%3"misc.Session#<init>()V*0
 
-__unknown_file (
-autorejava.lang.String"__id*S
-
-__unknown_file (7*5)
-'engclasses.dao.memory.AnnuncioDAOMemory"
-autore*
-1*ô
-13 3(#ìê
-3+ 3(8
-%7java.lang.String",model.Annuncio#getAutore()Ljava/lang/String;*1
-
-__unknown_file (
-
-amodel.Annuncio2getAutore()÷”
-3 3(9
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*8
-
-__unknown_file (
-
-autorejava.lang.String*4
-
-__unknown_file (
-
-%7java.lang.String2equals(Ljava/lang/Object;)"
-3 3(9
+__unknown_file (
+
+%2misc.Sessionb
+`
+$ $($
+misc.Session"
 
-%8boolean:
-3 3(
-amodel.AnnuncioB 
-java.util.function.Predicate
+instance"__id*0
+
+__unknown_file (
+
+%2misc.Session*
+1*Î
+3# #(b
+`
+# #(
+%0misc.Session"__id*:
+
+__unknown_file (*
+misc.Session"
+
+instancep
+n
+# #(
+%1boolean"	__compare*
+# #(
+==* 
+# #(
+
+%0misc.Session*
+# #(
+""*
+2
+1*ì
+1& &(b
+`
+& &(
+%4misc.Session"__id*:
+
+__unknown_file (*
+misc.Session"
+
+instance" 
+& &(
+
+%4misc.SessionB"
+misc.SessionH

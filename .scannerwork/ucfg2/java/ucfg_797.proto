@@ -1,80 +1,122 @@
 
-Rengclasses.dao.db.AnnuncioDAODB#trovaPerAutore(Ljava/lang/String;)Ljava/util/List;`
-T/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AnnuncioDAODB.java (("startingBlock*
-startingBlock
-( (7
-Œ
+jcontrollers.applicativo.AppuntamentoController#cancellaAppuntamento(Ljava/lang/String;Ljava/lang/String;)Zo
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaº º('"4*Î
+2
+¾ ¾(1¦£
 
-€ €(
-%3"
-__annotate*2
+¾ ¾(I
+%6boolean"tcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoConsulente(Ljava/lang/String;Ljava/lang/String;)Z*N
 
-__unknown_file (
-java.lang.Override*8
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*8
 
 __unknown_file (
 
-autorejava.lang.String\
-Z
+motivojava.lang.String2DcancellaAppuntamentoConsulente(Ljava/lang/String;Ljava/lang/String;)"
 
-0 (6
-autorejava.lang.String"__annotation*"
-
-__unknown_file (
-
-%3*
-1*Õ
-1
-‚ ‚(LÍ
-Ê
+¾ ¾(J
+""*‹
+3
+½ ½($
 
-‚ ƒ(V
-%0java.lang.String"__concat*G
-
-‚ ‚(L97
-5SELECT idAnnuncio, nome_autore, titolo, descrizione, *Q
-
-ƒ ƒ(VCA
-?data_pubblicazione, data_scadenza, citta, quantita_desiderata, ¦
-£
-
-‚ „(P
-%1java.lang.String"__concat*&
-
-‚ ƒ(V
-
-%0java.lang.String*K
-
-„ „(P=;
-9quantita_totale, stato FROM Annunci WHERE nome_autore = ?c
-a
-
-‚ „(Q
-sqljava.lang.String"__id*4
+½ ½(.
+%3misc.TipoUtente"'model.Utente#getTipo()Lmisc/TipoUtente;*4
 
 __unknown_file (
 
-%1java.lang.String¿
-¼
+utentemodel.Utente2	getTipo()O
+M
 
-… …(,
-%2java.util.List"fengclasses.dao.db.AnnuncioDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*?
+½2 ½(G
+%4misc.TipoUtente"__id*"
 
-__unknown_file (#!
-engclasses.dao.db.AnnuncioDAODB*5
+__unknown_file (
+""
+Š
+
+½ ½(G
+%5boolean"	__compare*
+
+½/ ½(1
+==*%
+
+½ ½(.
+
+%3misc.TipoUtente*%
+
+½2 ½(G
+
+%4misc.TipoUtente*
+2
+1*™
+4
+» »(†
+ƒ
+
+» »(
+%0misc.Session"__id*[
 
-__unknown_file (
-
-sqljava.lang.String*8
+__unknown_file (?*=0
+.controllers.applicativo.AppuntamentoController"	
+session˜•
+
+» »(2
+%1model.Utente"-misc.Session#getUtenteLoggato()Lmodel/Utente;*0
+
+__unknown_file (
+
+%0misc.Session2getUtenteLoggato()^
+\
+
+» »(3
+utentemodel.Utente"__id*0
+
+__unknown_file (
+
+%1model.Utente|
+z
+
+½ ½(
+%2boolean"	__compare*
+
+½ ½(
+!=*&
+
+½ ½(
+
+utentemodel.Utente*
+
+½ ½(
+""*
+3
+1*È
+1
+À À(. 
+
+À À(F
+%7boolean"qcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)Z*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*8
 
 __unknown_file (
 
-autorejava.lang.String"$
+motivojava.lang.String2AcancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)"
 
-… …(-
-
-%2java.util.List:(
+À À(G
+"":0
 
-) (6
-autorejava.lang.StringB#!
-engclasses.dao.db.AnnuncioDAODBH
+º( º(>"
+idAppuntamentojava.lang.String:(
+
+º? º(L
+motivojava.lang.StringB20
+.controllers.applicativo.AppuntamentoControllerHX

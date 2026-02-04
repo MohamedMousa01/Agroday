@@ -1,7 +1,7 @@
+package mainapp;
 
-
-import engclasses.pattern.ViewFactory.SceneManagerGUI;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.SceneManagerGUI;
+import engclasses.pattern.viewfactory.ViewManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import misc.Session;

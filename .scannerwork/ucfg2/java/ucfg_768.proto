@@ -1,15 +1,47 @@
 
-(model.Utente#getNome()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java ("1*ó
-1   (b
-`
-   (
-%0java.lang.String"__id*6
+Tengclasses.dao.memory.OffertaDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;e
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java! !("startingBlock*ê
+startingBlock! !(/ê
+ç
+   (
+%2"
+__annotate*2
 
-__unknown_file (*
-model.Utente"
-nome"$
-   (
-
-%0java.lang.StringB
-model.UtenteH
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	idOffertajava.lang.String]
+[
+!% !(.
+	idOffertajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ú
+1" "(K
+I
+" "(
+%0java.util.Map"__id*"
+
+__unknown_file (
+""ú
+ô
+" "(%
+%1model.Offerta"__mapGet*1
+
+__unknown_file (
+
+%0java.util.Map*;
+
+__unknown_file (
+
+	idOffertajava.lang.String"!
+" "(&
+
+%1model.Offerta:)
+! !(.
+	idOffertajava.lang.StringB*(
+&engclasses.dao.memory.OffertaDAOMemoryH

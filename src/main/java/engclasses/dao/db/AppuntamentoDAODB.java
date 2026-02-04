@@ -320,18 +320,36 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
         LocalDateTime dataUltimaModifica = rs.getTimestamp("data_ultima_modifica").toLocalDateTime();
         String googleCalendarEventId = rs.getString("google_calendar_event_id");
 
-        // Crea la sottoclasse corretta in base al tipo di consulenza (Factory Method)
+        // Crea il Builder con tutti i dati
+        Appuntamento.Builder builder = new Appuntamento.Builder(idCliente, idConsulente, tipoConsulenza, dataOraInizio, dataOraFine)
+                .idAppuntamento(idAppuntamento)
+                .stato(stato)
+                .luogo(luogo)
+                .note(note)
+                .motivoCancellazione(motivoCancellazione)
+                .dataCreazione(dataCreazione)
+                .dataUltimaModifica(dataUltimaModifica)
+                .googleCalendarEventId(googleCalendarEventId);
+
+        // Crea la sottoclasse corretta in base al tipo di consulenza
         return switch (tipoConsulenza) {
-            case ONLINE -> new AppuntamentoOnline(idAppuntamento, idCliente, idConsulente, stato,
-                    dataOraInizio, dataOraFine, luogo, note, motivoCancellazione,
-                    dataCreazione, dataUltimaModifica, googleCalendarEventId);
-            case IN_UFFICIO -> new AppuntamentoInUfficio(idAppuntamento, idCliente, idConsulente, stato,
-                    dataOraInizio, dataOraFine, luogo, note, motivoCancellazione,
-                    dataCreazione, dataUltimaModifica, googleCalendarEventId);
-            case SUL_CAMPO -> new AppuntamentoSulCampo(idAppuntamento, idCliente, idConsulente, stato,
-                    dataOraInizio, dataOraFine, luogo, note, motivoCancellazione,
-                    dataCreazione, dataUltimaModifica, googleCalendarEventId);
+            case ONLINE -> creaAppuntamentoOnline(builder);
+            case IN_UFFICIO -> creaAppuntamentoInUfficio(builder);
+            case SUL_CAMPO -> creaAppuntamentoSulCampo(builder);
         };
+    }
+
+    // Metodi helper per creare le sottoclassi usando il Builder
+    private AppuntamentoOnline creaAppuntamentoOnline(Appuntamento.Builder builder) {
+        return new AppuntamentoOnline(builder);
+    }
+
+    private AppuntamentoInUfficio creaAppuntamentoInUfficio(Appuntamento.Builder builder) {
+        return new AppuntamentoInUfficio(builder);
+    }
+
+    private AppuntamentoSulCampo creaAppuntamentoSulCampo(Appuntamento.Builder builder) {
+        return new AppuntamentoSulCampo(builder);
     }
 
     private List<Appuntamento> eseguiQueryLista(String sql, String parametro) {

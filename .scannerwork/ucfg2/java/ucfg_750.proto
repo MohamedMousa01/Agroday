@@ -1,108 +1,7 @@
 
-ucontrollers.applicativo.AppuntamentoController#getAppuntamento(Ljava/lang/String;)Lengclasses/beans/AppuntamentoBean;o
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java¬ ¬(+"4*ƒ
-2
-¯E ¯(Im
-k
-
-¯E ¯(I'
-%4!engclasses.beans.AppuntamentoBean"__id*.
-
-__unknown_file (
-
-%6
-<nulltype>*
-1*á
-3
-¯& ¯(4Â
-¿
-
-¯& ¯(B'
-%5!engclasses.beans.AppuntamentoBean"vcontrollers.applicativo.AppuntamentoController#convertiInBean(Lmodel/Appuntamento;)Lengclasses/beans/AppuntamentoBean;*N
-
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*@
-
-__unknown_file ($
-"
-appuntamentomodel.Appuntamento…
-‚
-
-¯& ¯(B'
-%4!engclasses.beans.AppuntamentoBean"__id*E
-
-__unknown_file ()
-'
-%5!engclasses.beans.AppuntamentoBean*
-1*ü
-4
-­* ­(4ž
-›
-
-­* ­(4'
-%0!engclasses.dao.factory.DAOFactory"__id*^
-
-__unknown_file (B*@0
-.controllers.applicativo.AppuntamentoController"
-
-daoFactoryòï
-
-­* ­(I(
-%1"engclasses.dao.api.AppuntamentoDAO"Zengclasses.dao.factory.DAOFactory#getAppuntamentoDAO()Lengclasses/dao/api/AppuntamentoDAO;*E
-
-__unknown_file ()
-'
-%0!engclasses.dao.factory.DAOFactory2getAppuntamentoDAO()”
-‘
-
-­ ­(J5
-appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO"__id*F
-
-__unknown_file (*
-(
-%1"engclasses.dao.api.AppuntamentoDAO·´
-
-®$ ®(N
-%2model.Appuntamento"Uengclasses.dao.api.AppuntamentoDAO#trovaPerId(Ljava/lang/String;)Lmodel/Appuntamento;*S
-
-__unknown_file (7
-5
-appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO*@
-
-__unknown_file ($
-"
-idAppuntamentojava.lang.String2trovaPerId(Ljava/lang/String;)p
-n
-
-® ®(O"
-appuntamentomodel.Appuntamento"__id*6
-
-__unknown_file (
-
-%2model.Appuntamento‰
-†
-
-¯ ¯(#
-%3boolean"	__compare*
-
-¯ ¯(
-!=*2
-
-¯ ¯($
-"
-appuntamentomodel.Appuntamento*
-
-¯ ¯(#
-""*
-2
-3*H
-1
-¯ ¯(J"7
-
-¯ ¯(J)
-'
-%4!engclasses.beans.AppuntamentoBean:0
-
-¬, ¬(A"
-idAppuntamentojava.lang.StringB20
-.controllers.applicativo.AppuntamentoControllerH
+,engclasses.beans.AnnuncioBean#getQuantita()I\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javaK K("1*!
+1L L("
+L L(
+""B!
+engclasses.beans.AnnuncioBeanHX

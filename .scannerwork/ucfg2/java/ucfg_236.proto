@@ -1,16 +1,18 @@
 
-:engclasses.beans.LoginBean#getUsername()Ljava/lang/String;Y
-O/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/LoginBean.java (!"1*©
-1 (t
+8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javað ð(#"1*­
+1
+ñ ñ(t
 r
- (
-%0java.lang.String"__id*H
-
-__unknown_file (,**
-engclasses.beans.LoginBean"
 
-username"$
- (
+ñ ñ(
+%0java.lang.String"__id*F
+
+__unknown_file (**(
+model.Appuntamento"
+idAppuntamento"&
+
+ñ ñ(
 
-%0java.lang.StringB
-engclasses.beans.LoginBeanH
+%0java.lang.StringB
+model.AppuntamentoH

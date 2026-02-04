@@ -1,15 +1,127 @@
 
-;engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.java# #("1*ª
-1$ $(u
-s
-$ $(
-%0java.lang.String"__id*I
+Mengclasses.dao.filesystem.AppuntamentoDAOFile#aggiorna(Lmodel/Appuntamento;)Zl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javaA A("startingBlock*!
+2F F("
+F F(
+""*³
+3E E(‰
+†
+E E(
+%3java.util.Map"__id*_
 
-__unknown_file (-*+
-engclasses.beans.AnnuncioBean"
-autore"$
-$ $(
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+appuntamenti¶³
+E& E(F
+%4java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getIdAppuntamento()ÖÓ
+E E(G
+%5boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*1
+
+__unknown_file (
+
+%3java.util.Map*4
+
+__unknown_file (
 
-%0java.lang.StringB!
-engclasses.beans.AnnuncioBeanH
+%4java.lang.String2containsKey(Ljava/lang/Object;)*
+2
+1*œ
+startingBlockA A(6–
+“
+@ @(
+%10"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamentoc
+a
+A) A(5"
+appuntamentomodel.Appuntamento"__annotation*#
+
+__unknown_file (
+
+%10*
+6*!
+4C C("
+C C(
+""*Ä
+5B$ B(0¶³
+B$ B(D
+%1java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getIdAppuntamento()t
+r
+B$ B(L
+%2boolean"	__compare*
+BE B(G
+==*$
+B$ B(D
+
+%1java.lang.String*
+BH B(L
+""*
+3
+4*˜
+6B B(€
+~
+B B( 
+%0boolean"	__compare*
+B B(
+==*0
+B B($
+"
+appuntamentomodel.Appuntamento*
+B B( 
+""*
+4
+5*ñ
+1H H(‰
+†
+H H(
+%6java.util.Map"__id*_
+
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+appuntamenti¶³
+H H(9
+%7java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento2getIdAppuntamento()Ü
+Ù
+H H(H
+%8model.Appuntamento"__mapSet*1
+
+__unknown_file (
+
+%6java.util.Map*4
+
+__unknown_file (
+
+%7java.lang.String*@
+
+__unknown_file ($
+"
+appuntamentomodel.Appuntamento©
+¦
+I I(
+%9boolean"<engclasses.dao.filesystem.AppuntamentoDAOFile#salvaSuFile()Z*M
+
+__unknown_file (1/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+I I(
+"":.
+A A(5"
+appuntamentomodel.AppuntamentoB1/
+-engclasses.dao.filesystem.AppuntamentoDAOFileHX

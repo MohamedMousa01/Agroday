@@ -1,15 +1,80 @@
 
-3misc.StatoAppuntamento#toString()Ljava/lang/String;U
-K/Users/mohamedmousa/Desktop/prova/src/main/java/misc/StatoAppuntamento.java! !("1*®
-1" "(s
-q
-" "(
-%0java.lang.String"__id*G
+Qengclasses.dao.db.AnnuncioDAODB#trovaPerCitta(Ljava/lang/String;)Ljava/util/List;`
+T/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AnnuncioDAODB.javaâ â('"startingBlock*é
+startingBlock
+â' â(5é
+ã
+
+à à(
+%3"
+__annotate*2
 
-__unknown_file (+*)
-misc.StatoAppuntamento"
-displayName"$
-" "(
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+cittajava.lang.String[
+Y
+
+â/ â(4
+cittajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*Œ
+1
+ä ä(LÕ
+ 
+
+ä ã(V
+%0java.lang.String"__concat*G
+
+ä ä(L97
+5SELECT idAnnuncio, nome_autore, titolo, descrizione, *Q
+
+ã ã(VCA
+?data_pubblicazione, data_scadenza, citta, quantita_desiderata, †
+ù
+
+ä å(J
+%1java.lang.String"__concat*&
+
+ä ã(V
 
-%0java.lang.StringB
-misc.StatoAppuntamentoH
+%0java.lang.String*E
+
+å å(J75
+3quantita_totale, stato FROM Annunci WHERE citta = ?c
+a
+
+ä å(K
+sqljava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringæ
+ª
+
+ç ç(+
+%2java.util.List"fengclasses.dao.db.AnnuncioDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*?
+
+__unknown_file (#!
+engclasses.dao.db.AnnuncioDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*7
+
+__unknown_file (
+
+cittajava.lang.String"$
+
+ç ç(,
+
+%2java.util.List:'
+
+â( â(4
+cittajava.lang.StringB#!
+engclasses.dao.db.AnnuncioDAODBH

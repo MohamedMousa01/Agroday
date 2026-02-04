@@ -1,24 +1,23 @@
 
-=__sonar_lambda_50$engclasses.dao.memory.AppuntamentoDAOMemoryj
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java{ {(4"1*á
-1{ {(¦£
-{ {()
-%11misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
+model.Offerta#isPending()ZL
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaP P("1*Ï
+1Q Q(d
+b
+Q  Q(%
+%0java.lang.String"__id*8
 
-__unknown_file (
-
-amodel.Appuntamento2
-getStato()Š‡
-{ {(4
-%12boolean""misc.StatoAppuntamento#isAttivo()Z*;
+__unknown_file (*
+model.Offerta"
+statoÅÂ
+Q Q(&
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*'
 
-__unknown_file (
-
-%11misc.StatoAppuntamento2
-isAttivo()"
-{ {(4
-
-%12boolean:#
-{ {(
-amodel.AppuntamentoB 
-java.util.function.Predicate
+__unknown_file (	
+PENDING*4
+
+__unknown_file (
+
+%0java.lang.String2equals(Ljava/lang/Object;)"
+Q Q('
+""B
+model.OffertaHX

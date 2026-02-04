@@ -1,4 +1,6 @@
-import engclasses.pattern.ViewFactory.ViewManager;
+package mainapp;
+
+import engclasses.pattern.viewfactory.ViewManager;
 import misc.Session;
 import misc.UIConstants;
 import misc.UiType;

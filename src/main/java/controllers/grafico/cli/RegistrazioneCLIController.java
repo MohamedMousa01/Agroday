@@ -7,7 +7,7 @@ import engclasses.beans.RegistrazioneBean;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.RegistrazioneFallitaException;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import misc.ViewType;
 import misc.PersistenceType;
 import misc.Session;

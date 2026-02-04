@@ -1,18 +1,18 @@
 
-Rengclasses.beans.AppuntamentoBean#getDataUltimaModifica()Ljava/time/LocalDateTime;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java– –(."1*–
+Eengclasses.beans.AppuntamentoBean#getIdConsulente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java‡ ‡(!"1*ª
 1
-— —(!è
-å
+· ·(Å
+
 
-— —(!
-%0java.time.LocalDateTime"__id*Y
+· ·(
+%0java.lang.String"__id*S
 
-__unknown_file (=*;#
-!engclasses.beans.AppuntamentoBean"
-dataUltimaModifica"-
+__unknown_file (7*5#
+!engclasses.beans.AppuntamentoBean"
+idConsulente"&
 
-— —("
-
-%0java.time.LocalDateTimeB%#
+· ·(
+
+%0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

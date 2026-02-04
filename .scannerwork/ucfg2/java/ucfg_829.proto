@@ -1,93 +1,21 @@
 
-]engclasses.services.GoogleCalendarAdapter#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;j
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/GoogleCalendarAdapter.javaå å("startingBlock*%
-2
-é é("
-
-é é(
-""*Å
-3
-ç  ç(,á
-Ñ
-
-ç  ç(,
-%1java.util.Map"__id*[
+Mcontrollers.applicativo.OffertaController#accettaOfferta(Ljava/lang/String;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.java} }(!"1*ñ
+1~ ~(#ÚÔ
+~ ~(;
+%0boolean"econtrollers.applicativo.OffertaController#aggiornaStatoOfferta(Ljava/lang/String;Ljava/lang/String;)Z*I
 
-__unknown_file (?*=+
-)engclasses.services.GoogleCalendarAdapter"
-eventiCreati›⁄
-
-ç  ç(A
-%2boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*1
+__unknown_file (-+
+)controllers.applicativo.OffertaController*;
 
-__unknown_file (
-
-%1java.util.Map*9
+__unknown_file (
+
+	idOffertajava.lang.String*)
 
-__unknown_file (
-
-eventIdjava.lang.String2containsKey(Ljava/lang/Object;)*
-2
-1*í
-startingBlock
-å å(/ê
-ç
-
-ã ã(
-%4"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*9
-
-__unknown_file (
-
-eventIdjava.lang.String]
-[
-
-å' å(.
-eventIdjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%4*
-4*õ
-4
-ç ç(Å
-
-
-ç ç(
-%0boolean"	__compare*
-
-ç ç(
-==*+
-
-ç ç(
-
-eventIdjava.lang.String*
-
-ç ç(
-""*
-2
-3*€
-1
-ë ë(@°
-û
-
-ë ë(J
-%3java.lang.String"__concat*A
-
-ë ë(@31
-/https://calendar.google.com/calendar/event?eid=*+
-
-ëC ë(J
-
-eventIdjava.lang.String"&
-
-ë ë(K
-
-%3java.lang.String:)
-
-å  å(.
-eventIdjava.lang.StringB-+
-)engclasses.services.GoogleCalendarAdapterH
+__unknown_file (
+	ACCETTATA2:aggiornaStatoOfferta(Ljava/lang/String;Ljava/lang/String;)"
+~ ~(<
+"":)
+}" }(2
+	idOffertajava.lang.StringB-+
+)controllers.applicativo.OffertaControllerHX

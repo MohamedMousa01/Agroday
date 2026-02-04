@@ -4,7 +4,7 @@ import controllers.applicativo.LoginController;
 import engclasses.exceptions.DatabaseConnessioneFallitaException;
 import engclasses.exceptions.DatabaseOperazioneFallitaException;
 import engclasses.exceptions.LoginFallitoException;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import misc.ViewType;
 import view.cli.LoginCLIView;
 import misc.PersistenceType;

@@ -1,123 +1,60 @@
 
-dengclasses.dao.filesystem.PartecipazioneDAOFile#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;n
-d/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/PartecipazioneDAOFile.javaO  O(0"startingBlock*‡
-2Q Q($<:
-Q Q("
-%1java.util.ArrayList"java.util.ArrayListj
-h
-Q Q($
-%2"java.util.ArrayList#<init>()V*7
-
-__unknown_file (
-
-%1java.util.ArrayList"'
-Q Q(%
-
-%1java.util.ArrayList*ì
-3P P(|
-z
-P P(
-%0boolean"	__compare*
-P P(
-==*,
-P P( 
-
-
-idAnnunciojava.lang.String*
-P P(
-""*
-2
-1*î
-startingBlockO0 O(Cí
-è
-N N(
-%12"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String_
-]
-O8 O(B
-
-idAnnunciojava.lang.String"__annotation*#
-
-__unknown_file (
-
-%12*
-3*ƒ
-1S S(ç
-ä
-S S(
-%3java.util.Map"__id*c
-
-__unknown_file (G*E1
-/engclasses.dao.filesystem.PartecipazioneDAOFile"
-partecipazioniîë
-S S(&
-%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%3java.util.Map2values()®•
-S S(/
-%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%4java.util.Collection2stream()ß
-§
-T T(A"
-%6java.util.function.Predicate"__declareFunction*a
-
-__unknown_file (EC
-A__sonar_lambda_72$engclasses.dao.filesystem.PartecipazioneDAOFileï
-í
-
-__unknown_file (2
-"
-%6java.util.function.Predicate"
-
-idAnnuncio"__id*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String¨©
-S T(B
-%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+Hengclasses.dao.filesystem.ConsulenteDAOFile#trovaTutti()Ljava/util/List;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java (&"8*1
+3 (""
+ (
+
+%4java.util.List*±
+4 (úô
+ (
+%4java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
 
 __unknown_file (
 
-%5java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)Ø
-¨
-U U(,!
-%10java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
-
-__unknown_file ("
-java.util.stream.Collectorsöó
-S U(-
-%11java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+%3java.util.stream.Stream2toList()*
+3*õ
+5 (/ÜÉ
+ (0
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
 
 __unknown_file (
 
-%9java.util.stream.Stream*?
+%2java.util.stream.Stream*"
 
-__unknown_file (#
-!
-%10java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"#
-S U(.
-
-%11java.util.List:*
-O1 O(B
-
-idAnnunciojava.lang.StringB31
-/engclasses.dao.filesystem.PartecipazioneDAOFileH
+__unknown_file (
+""2"map(Ljava/util/function/Function;)*
+4*£
+6 (8éã
+ (9
+%2java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*"
+
+__unknown_file (
+""2&filter(Ljava/util/function/Predicate;)*
+5*ù
+7 (1`
+^
+ (1
+utentijava.util.List"__id*2
+
+__unknown_file (
+
+%0java.util.List¶£
+ ("
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
+
+__unknown_file (
+
+utentijava.util.List2stream()*
+6*›
+8" (.»≈
+" (0
+%0java.util.List"Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*K
+
+__unknown_file (/-
++engclasses.dao.filesystem.ConsulenteDAOFile2caricaDaFile()*
+7B/-
++engclasses.dao.filesystem.ConsulenteDAOFileHh

@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144193948*java2.B÷,
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198474056*java2.B÷,
 J
 Esrc/main/java/controllers/grafico/gui/RegistrazioneGUIController.java2
 	
@@ -226,9 +226,9 @@ Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;152
 }
 vcontrollers.grafico.gui.RegistrazioneGUIController#mostraAlert(LAlert/AlertType;Ljava/lang/String;Ljava/lang/String;)V154
 1
-*engclasses.pattern.ViewFactory.ViewManager156
+*engclasses.pattern.viewfactory.ViewManager156
 H
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V158
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V158
 
 misc.ViewType160
 
@@ -516,6 +516,9 @@ M
 
 15
 60
+
+155
+15515625
 M
 93G
 939419 *
@@ -544,6 +547,9 @@ M
 
 183
 18318425
+
+157
+15715825
 M
 51G
 515219 *
@@ -682,9 +688,6 @@ M
 
 143
 14314425
-
-155
-15515625
 U
 153N
 153154127 *
@@ -713,9 +716,6 @@ R
 
 15
 104
-
-157
-15715825
 
 167
 16716825

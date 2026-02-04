@@ -1,28 +1,39 @@
 
-H__sonar_lambda_29$controllers.grafico.gui.ListaAppuntamentiGUIControlleru
-k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ListaAppuntamentiGUIController.javaP- S(	"2"3*P
-2RL R(P<
-:
-RL R(P
-%4"__id*"
+?__sonar_lambda_22$engclasses.dao.memory.PartecipazioneDAOMemoryl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java1 1(A"startingBlock*Ã
+startingBlock1 1(A¢
+Ÿ
 
-__unknown_file (
-
-%6*
-1*b
-3R= R(IN
-L
-R= R(I
-%4"__id*4
+__unknown_file (
+
+idAnnunciojava.lang.String"__id*]
+
+__unknown_file (A*?/
+-engclasses.dao.memory.PartecipazioneDAOMemory"
+
+idAnnuncio*
+1*±
+11 1('§¤
+1/ 1(@
+%7java.lang.String"6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;*7
+
+__unknown_file (
+
+pmodel.Partecipazione2getIdAnnuncio()Ú×
+1 1(A
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String*4
 
 __unknown_file (
 
-%5java.lang.String*
-1*!
-1R R(Q"
-R R(R
-"": 
-
-__unknown_file (
-""B
-	!Unknown!
+%7java.lang.String2equals(Ljava/lang/Object;)"
+1 1(A
+
+%8boolean:%
+1 1(
+pmodel.PartecipazioneB 
+java.util.function.Predicate

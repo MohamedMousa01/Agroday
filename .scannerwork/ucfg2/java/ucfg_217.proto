@@ -1,18 +1,17 @@
 
-=model.Appuntamento#getMotivoCancellazione()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javað ð(("1*²
-1
-ñ ñ("y
-w
-
-ñ ñ("
-%0java.lang.String"__id*K
+Vmodel.Appuntamento$Builder#stato(Lmisc/StatoAppuntamento;)Lmodel/Appuntamento$Builder;Q
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaM M("1*µ
+1N N(z
+x
+N N('
+model.Appuntamento$Builder"
+stato"__id*=
 
-__unknown_file (/*-
-model.Appuntamento"
-motivoCancellazione"&
-
-ñ ñ(#
-
-%0java.lang.StringB
-model.AppuntamentoH
+__unknown_file (!
+
+statomisc.StatoAppuntamento"*
+O O(
+model.Appuntamento$Builder:+
+M M(4
+statomisc.StatoAppuntamentoB
+model.Appuntamento$BuilderH

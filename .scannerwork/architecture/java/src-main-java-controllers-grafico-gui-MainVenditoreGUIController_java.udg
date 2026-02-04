@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144192977*java2.BÔ
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198473023*java2.BÔ
 J
 Esrc/main/java/controllers/grafico/gui/MainVenditoreGUIController.java2
 	
@@ -121,9 +121,9 @@ Bcontrollers.grafico.gui.MainVenditoreGUIController#cercaAnnunci()V76
 
 cercaAnnunci78
 0
-*engclasses.pattern.ViewFactory.ViewManager80
+*engclasses.pattern.viewfactory.ViewManager80
 G
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V82
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V82
 
 misc.ViewType84
 &
@@ -208,6 +208,9 @@ $
 
 5
 5768j°
+
+81
+818225
 
 66
 666725
@@ -382,9 +385,6 @@ M
 
 15
 94
-
-79
-798025
 R
 129K
 12913057 *
@@ -417,9 +417,6 @@ R
 15
 126
 
-81
-818225
-
 85
 858625
 
@@ -444,6 +441,9 @@ G
 
 73
 737425
+
+79
+798025
 
 115
 11511625

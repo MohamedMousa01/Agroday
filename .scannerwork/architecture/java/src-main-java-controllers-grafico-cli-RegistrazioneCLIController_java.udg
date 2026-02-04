@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144193329*java2.Bˆ!
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198473384*java2.Bˆ!
 J
 Esrc/main/java/controllers/grafico/cli/RegistrazioneCLIController.java2
 	
@@ -124,9 +124,9 @@ vaiAlLogin86
 H
 Bview.cli.RegistrazioneCLIView#mostraMessaggio(Ljava/lang/String;)V88
 0
-*engclasses.pattern.ViewFactory.ViewManager90
+*engclasses.pattern.viewfactory.ViewManager90
 G
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V92
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V92
 
 misc.ViewType94
 
@@ -294,6 +294,9 @@ O
 
 99
 9910025
+
+89
+899025
 M
 75G
 757642 *
@@ -344,6 +347,9 @@ M
 
 122
 12212325
+
+91
+919225
 
 134
 13413525
@@ -423,9 +429,6 @@ M
 
 65
 656625
-
-89
-899025
 M
 28G
 282919 *
@@ -445,9 +448,6 @@ M
 
 83
 838425
-
-91
-919225
 M
 17G
 171819 *

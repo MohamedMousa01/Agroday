@@ -1,36 +1,29 @@
 
-9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFileg
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaR R(O"startingBlock*Ã
-startingBlockR R(O´
-®
-
-__unknown_file (%
-usernameVenditorejava.lang.String"__id*_
-
-__unknown_file (C*A*
-(engclasses.dao.filesystem.OffertaDAOFile"
-usernameVenditore*
-1*∏
-1R R(.ß§
-R6 R(N
-%4java.lang.String"6model.Offerta#getUsernameVenditore()Ljava/lang/String;*0
-
-__unknown_file (
-
-omodel.Offerta2getUsernameVenditore()·ﬁ
-R R(O
-%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*C
-
-__unknown_file ('
-%
-usernameVenditorejava.lang.String*4
-
-__unknown_file (
-
-%4java.lang.String2equals(Ljava/lang/Object;)"
-R R(O
-
-%5boolean:
-R R(
-omodel.OffertaB 
-java.util.function.Predicate
+0view.cli.MainVenditoreCLIView#%field_initializer
+__unknown_file ("1*¶
+1 (çä
+\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java( (/
+%0java.util.Scanner"java.util.Scanner‘
+—
+\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java$ (:
+%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
+ (
+
+%0java.util.Scanner*
+ (
+""º
+π
+\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java (;,
+view.cli.MainVenditoreCLIView"	
+scanner"__id*%
+ (
+
+%0java.util.Scanner"q
+Z
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java
+ ^(
+implicit returnB!
+view.cli.MainVenditoreCLIView

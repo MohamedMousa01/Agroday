@@ -1,6 +1,5 @@
 package model;
 
-import misc.StatoAppuntamento;
 import misc.TipoConsulenza;
 
 import java.time.LocalDateTime;
@@ -24,16 +23,20 @@ public class AppuntamentoOnline extends Appuntamento {
     }
 
     /**
-     * Costruttore completo per ricostruire un appuntamento dal database/file.
+     * Costruttore con ID per ricaricare dal database.
      */
     public AppuntamentoOnline(String idAppuntamento, String idCliente, String idConsulente,
-                               StatoAppuntamento stato, LocalDateTime dataOraInizio, LocalDateTime dataOraFine,
-                               String luogo, String note, String motivoCancellazione,
-                               LocalDateTime dataCreazione, LocalDateTime dataUltimaModifica,
-                               String googleCalendarEventId) {
-        super(idAppuntamento, idCliente, idConsulente, TipoConsulenza.ONLINE, stato,
-                dataOraInizio, dataOraFine, luogo, note, motivoCancellazione,
-                dataCreazione, dataUltimaModifica, googleCalendarEventId);
+                               LocalDateTime dataOraInizio, LocalDateTime dataOraFine, String luogo) {
+        super(new Builder(idCliente, idConsulente, TipoConsulenza.ONLINE, dataOraInizio, dataOraFine)
+                .idAppuntamento(idAppuntamento)
+                .luogo(luogo));
+    }
+
+    /**
+     * Costruttore che accetta un Builder (per DAO e uso avanzato).
+     */
+    public AppuntamentoOnline(Builder builder) {
+        super(builder);
     }
 
     /**

@@ -1,69 +1,15 @@
 
-Eengclasses.dao.filesystem.OffertaDAOFile#elimina(Ljava/lang/String;)Zg
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java< <("startingBlock*√
-2> >(ü
-ú
-> >( 
-%3boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
+Iengclasses.beans.RegistrazioneBean#getConfirmPassword()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.javaP P(("1*∫
+1Q Q("Ñ
+Å
+Q Q("
+%0java.lang.String"__id*W
 
-__unknown_file (,*
-(engclasses.dao.filesystem.OffertaDAOFile"
-> >(!
-""*™
-3= =(~
-|
-= =(
-%0java.util.Map"__id*U
-
-__unknown_file (9*7*
-(engclasses.dao.filesystem.OffertaDAOFile"	
-offerteü
-ú
-= =(%
-%1model.Offerta"__mapRemove*1
-
-__unknown_file (
-
-%0java.util.Map*;
-
-__unknown_file (
-
-	idOffertajava.lang.Stringq
-o
-= =(-
-%2boolean"	__compare*
-=& =((
-!=*!
-= =(%
-
-%1model.Offerta*
-=) =(-
-""*
-2
-1*ê
-startingBlock< <(,ê
-ç
-; ;(
-%4"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*;
-
-__unknown_file (
-
-	idOffertajava.lang.String]
-[
-<" <(+
-	idOffertajava.lang.String"__annotation*"
-
-__unknown_file (
-
-%4*
-3*!
-1@ @("
-@ @(
-"":)
-< <(+
-	idOffertajava.lang.StringB,*
-(engclasses.dao.filesystem.OffertaDAOFileHX
+__unknown_file (;*9$
+"engclasses.beans.RegistrazioneBean"
+confirmPassword"$
+Q Q(#
+
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

@@ -1,15 +1,32 @@
 
-)model.Utente#getCitta()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.javaO O("1*˜
-1O& O(+c
-a
-O& O(+
-%0java.lang.String"__id*7
+qcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)Zo
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java… …(."1*¡
+1
+† †(#ù
+ö
+
+† †(A
+%0boolean"kcontrollers.applicativo.AppuntamentoController#cancellaAppuntamento(Ljava/lang/String;Ljava/lang/String;Z)Z*N
 
-__unknown_file (*
-model.Utente"
-citta"$
-O O(,
-
-%0java.lang.StringB
-model.UtenteH
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String*8
+
+__unknown_file (
+
+motivojava.lang.String* 
+
+__unknown_file (2"
+
+† †(B
+"":0
+
+…/ …(E"
+idAppuntamentojava.lang.String:(
+
+…F …(S
+motivojava.lang.StringB20
+.controllers.applicativo.AppuntamentoControllerHX

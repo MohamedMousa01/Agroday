@@ -1,18 +1,17 @@
 
-?model.Appuntamento#getGoogleCalendarEventId()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaü ü(*"1*´
-1
-ý ý(${
-y
-
-ý ý($
-%0java.lang.String"__id*M
+^model.Appuntamento$Builder#motivoCancellazione(Ljava/lang/String;)Lmodel/Appuntamento$Builder;Q
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java\ \(*"1*Í
+1]' ](:‘
+Ž
+] ](:5
+model.Appuntamento$Builder"
+motivoCancellazione"__id*E
 
-__unknown_file (1*/
-model.Appuntamento"
-googleCalendarEventId"&
-
-ý ý(%
-
-%0java.lang.StringB
-model.AppuntamentoH
+__unknown_file ()
+'
+motivoCancellazionejava.lang.String"*
+^ ^(
+model.Appuntamento$Builder:3
+\+ \(E'
+motivoCancellazionejava.lang.StringB
+model.Appuntamento$BuilderH

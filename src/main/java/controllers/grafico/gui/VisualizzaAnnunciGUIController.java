@@ -2,7 +2,7 @@ package controllers.grafico.gui;
 
 import controllers.applicativo.AnnuncioController;
 import engclasses.beans.AnnuncioBean;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.control.*;

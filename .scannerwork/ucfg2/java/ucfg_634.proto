@@ -1,19 +1,38 @@
 
--misc.Session#getTipoUtente()Lmisc/TipoUtente;M
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java— —(#"1*¡
-1
-˜ ˜(i
-g
-
-˜ ˜(
-%0misc.TipoUtente"__id*<
+=view.cli.RegistrazioneCLIView#chiediEmail()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java, ,("1*ã
+1- -(Q
+O
+- -(
+%0java.io.PrintStream"__id*"
 
-__unknown_file ( *
-misc.Session"
+__unknown_file (
+""ÆÃ
+- -(#
 
-tipoUtente"%
-
-˜ ˜(
-
-%0misc.TipoUtenteB
-misc.SessionH
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*'
+
+__unknown_file (	
+Email: 2print(Ljava/lang/String;)w
+u
+. .(
+%2java.util.Scanner"__id*J
+
+__unknown_file (.*,
+view.cli.RegistrazioneCLIView"	
+scanner˜•
+. .(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()"$
+. .("
+
+%3java.lang.StringB!
+view.cli.RegistrazioneCLIViewH

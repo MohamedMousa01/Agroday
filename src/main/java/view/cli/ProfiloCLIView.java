@@ -103,7 +103,7 @@ public class ProfiloCLIView {
         if (s.length() >= n) {
             return s.substring(0, n);
         }
-        return String.format("%-" + n + "s", s);
+        return String.format("%-*s", n, s);
     }
 
     public void mostraSeparatore() {

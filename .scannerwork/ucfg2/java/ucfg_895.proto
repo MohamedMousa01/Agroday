@@ -1,15 +1,122 @@
 
-3engclasses.dao.memory.ConsulenteDAOMemory#<init>()V
-__unknown_file ("startingBlock*÷
-startingBlockf
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java	 	(›
-⁄
+5model.AppuntamentoOnline#toString()Ljava/lang/String;W
+M/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoOnline.java? ?("1*Í
+1@ @($i
+g
+@ A(
+%0java.lang.String"__concat*#
+@ @($
+AppuntamentoOnline{*
+A A(
+id='Æ´
+A A(,
+%1java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*8
+
+__unknown_file (
+model.AppuntamentoOnline2getIdAppuntamento()z
+x
+@ A(,
+%2java.lang.String"__concat*$
+@ A(
+
+%0java.lang.String*$
+A A(,
+
+%1java.lang.Stringh
 f
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java	 	(
-%0"/engclasses.dao.memory.UtenteDAOMemory#<init>()V*9
- (-+
-)engclasses.dao.memory.ConsulenteDAOMemory"}
-f
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/ConsulenteDAOMemory.java	 	(
-implicit returnB-+
-)engclasses.dao.memory.ConsulenteDAOMemory
+@ A(3
+%3java.lang.String"__concat*$
+@ A(,
+
+%2java.lang.String*
+A/ A(3
+\'n
+l
+@ B(
+%4java.lang.String"__concat*$
+@ A(3
+
+%3java.lang.String*
+B B(
+
+, stato=®•
+B B('
+%5misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*8
+
+__unknown_file (
+model.AppuntamentoOnline2
+getStato()Ä
+~
+@ B('
+%6java.lang.String"__concat*$
+@ B(
+
+%4java.lang.String**
+B B('
+
+%5misc.StatoAppuntamentom
+k
+@ C(
+%7java.lang.String"__concat*$
+@ B('
+
+%6java.lang.String*
+C C(	
+, data=∫∑
+C C(.
+%8java.time.LocalDateTime">model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;*8
+
+__unknown_file (
+model.AppuntamentoOnline2getDataOraInizio()Å
+
+@ C(.
+%9java.lang.String"__concat*$
+@ C(
+
+%7java.lang.String*+
+C C(.
+
+%8java.time.LocalDateTimen
+l
+@ D(
+%10java.lang.String"__concat*$
+@ C(.
+
+%9java.lang.String*
+D D(	
+, url='ùö
+D D(&
+%11java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*8
+
+__unknown_file (
+model.AppuntamentoOnline2
+getLuogo()}
+{
+@ D(&
+%12java.lang.String"__concat*%
+@ D(
+
+%10java.lang.String*%
+D D(&
+
+%11java.lang.Stringj
+h
+@ D(-
+%13java.lang.String"__concat*%
+@ D(&
+
+%12java.lang.String*
+D) D(-
+\'i
+g
+@ E(
+%14java.lang.String"__concat*%
+@ D(-
+
+%13java.lang.String*
+E E(
+}"%
+@ E(
+
+%14java.lang.StringB
+model.AppuntamentoOnlineH

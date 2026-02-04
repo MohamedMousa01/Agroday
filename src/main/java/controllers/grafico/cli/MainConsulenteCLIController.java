@@ -1,6 +1,6 @@
 package controllers.grafico.cli;
 
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import misc.MessageConstants;
 import misc.Session;
 import misc.ViewType;

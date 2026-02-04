@@ -1,7 +1,7 @@
 package controllers.grafico.gui;
 
 import controllers.applicativo.OffertaController;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;

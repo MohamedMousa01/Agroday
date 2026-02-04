@@ -1,91 +1,122 @@
 
-Lengclasses.dao.memory.PartecipazioneDAOMemory#salva(Lmodel/Partecipazione;)Zl
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java ("startingBlock*!
-2 ("
- (
-""*Œ
-3& (4¿Ω
-& (J
-%1java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*D
+7model.AppuntamentoSulCampo#toString()Ljava/lang/String;Y
+O/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoSulCampo.javaG G("1*ˆ
+1H H(&k
+i
+H I(
+%0java.lang.String"__concat*%
+H H(&
+AppuntamentoSulCampo{*
+I I(
+id='∞≠
+I I(,
+%1java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*:
 
-__unknown_file ((
-&
-partecipazionemodel.Partecipazione2getIdPartecipazione()t
-r
-& (R
-%2boolean"	__compare*
-K (M
-==*$
-& (J
+__unknown_file (
+model.AppuntamentoSulCampo2getIdAppuntamento()z
+x
+H I(,
+%2java.lang.String"__concat*$
+H I(
 
-%1java.lang.String*
-N (R
-""*
-2
-1*¢
-startingBlock (7ô
-ñ
- (
-%6"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*D
-
-__unknown_file ((
-&
-partecipazionemodel.Partecipazionef
-d
-( (6&
-partecipazionemodel.Partecipazione"__annotation*"
-
-__unknown_file (
-
-%6*
-4*ù
-4 (Ö
-Ç
- ("
-%0boolean"	__compare*
- (
-==*4
- ((
-&
-partecipazionemodel.Partecipazione*
- ("
-""*
-2
-3*ñ
-1 (K
-I
- (
-%3java.util.Map"__id*"
-
-__unknown_file (
-""¿Ω
- (?
-%4java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*D
-
-__unknown_file ((
-&
-partecipazionemodel.Partecipazione2getIdPartecipazione()‚
-ﬂ
- (P
-%5model.Partecipazione"__mapSet*1
-
-__unknown_file (
-
-%3java.util.Map*4
-
-__unknown_file (
+%0java.lang.String*$
+I I(,
 
-%4java.lang.String*D
+%1java.lang.Stringh
+f
+H I(3
+%3java.lang.String"__concat*$
+H I(,
+
+%2java.lang.String*
+I/ I(3
+\'n
+l
+H J(
+%4java.lang.String"__concat*$
+H I(3
+
+%3java.lang.String*
+J J(
+
+, stato=™ß
+J J('
+%5misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*:
 
-__unknown_file ((
-&
-partecipazionemodel.Partecipazione"
- (
-"":2
- (6&
-partecipazionemodel.PartecipazioneB1/
--engclasses.dao.memory.PartecipazioneDAOMemoryHX
+__unknown_file (
+model.AppuntamentoSulCampo2
+getStato()Ä
+~
+H J('
+%6java.lang.String"__concat*$
+H J(
+
+%4java.lang.String**
+J J('
+
+%5misc.StatoAppuntamentom
+k
+H K(
+%7java.lang.String"__concat*$
+H J('
+
+%6java.lang.String*
+K K(	
+, data=ºπ
+K K(.
+%8java.time.LocalDateTime">model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;*:
+
+__unknown_file (
+model.AppuntamentoSulCampo2getDataOraInizio()Å
+
+H K(.
+%9java.lang.String"__concat*$
+H K(
+
+%7java.lang.String*+
+K K(.
+
+%8java.time.LocalDateTimep
+n
+H L(
+%10java.lang.String"__concat*$
+H K(.
+
+%9java.lang.String*
+L L(
+	, luogo='üú
+L L((
+%11java.lang.String"/model.Appuntamento#getLuogo()Ljava/lang/String;*:
+
+__unknown_file (
+model.AppuntamentoSulCampo2
+getLuogo()}
+{
+H L((
+%12java.lang.String"__concat*%
+H L(
+
+%10java.lang.String*%
+L L((
+
+%11java.lang.Stringj
+h
+H L(/
+%13java.lang.String"__concat*%
+H L((
+
+%12java.lang.String*
+L+ L(/
+\'i
+g
+H M(
+%14java.lang.String"__concat*%
+H L(/
+
+%13java.lang.String*
+M M(
+}"%
+H M(
+
+%14java.lang.StringB
+model.AppuntamentoSulCampoH

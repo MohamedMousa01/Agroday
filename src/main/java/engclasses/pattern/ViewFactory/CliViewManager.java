@@ -1,4 +1,4 @@
-package engclasses.pattern.ViewFactory;
+package engclasses.pattern.viewfactory;
 
 import controllers.grafico.cli.MainAgricoltoreCLIController;
 import controllers.grafico.cli.MainVenditoreCLIController;

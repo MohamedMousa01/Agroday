@@ -1,16 +1,15 @@
 
-(model.Annuncio#getId()Ljava/lang/String;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaQ Q("1*Ÿ
-1R R(j
-h
-R R(
-%0java.lang.String"__id*>
-
-__unknown_file ("* 
-model.Annuncio"
-
-idAnnuncio"$
-R R(
-
-%0java.lang.StringB
-model.AnnuncioH
+;controllers.grafico.gui.PrenotazioneGUIController#<init>()V
+__unknown_file ("startingBlock*Œ
+startingBlockn
+f/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/PrenotazioneGUIController.java (‚
+ÿ
+n
+f/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/PrenotazioneGUIController.java (
+%0"Dcontrollers.grafico.gui.PrenotazioneGUIController#%field_initializer*A
+ (53
+1controllers.grafico.gui.PrenotazioneGUIController"…
+n
+f/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/PrenotazioneGUIController.java (
+implicit returnB53
+1controllers.grafico.gui.PrenotazioneGUIController

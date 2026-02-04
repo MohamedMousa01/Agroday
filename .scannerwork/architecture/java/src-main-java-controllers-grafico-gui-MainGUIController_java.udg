@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144193151*java2.B–
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198473200*java2.B–
 A
 <src/main/java/controllers/grafico/gui/MainGUIController.java2
 	
@@ -126,9 +126,9 @@ C
 
 showCreaAnnuncio82
 0
-*engclasses.pattern.ViewFactory.ViewManager84
+*engclasses.pattern.viewfactory.ViewManager84
 G
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V86
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V86
 
 misc.ViewType88
 !
@@ -140,9 +140,9 @@ C
 
 showCercaAnnunci94
 4
-.engclasses.pattern.ViewFactory.SceneManagerGUI96
+.engclasses.pattern.viewfactory.SceneManagerGUI96
 Q
-Kengclasses.pattern.ViewFactory.SceneManagerGUI#setMostraSoloMieiAnnunci(Z)V98
+Kengclasses.pattern.viewfactory.SceneManagerGUI#setMostraSoloMieiAnnunci(Z)V98
 '
  misc.ViewType.VISUALIZZA_ANNUNCI100
 C
@@ -152,7 +152,7 @@ C
 
 showMieiAnnunci104
 W
-Pengclasses.pattern.ViewFactory.SceneManagerGUI#setMostraPartecipazioniUtente(Z)V106
+Pengclasses.pattern.viewfactory.SceneManagerGUI#setMostraPartecipazioniUtente(Z)V106
 I
 Bcontrollers.grafico.gui.MainGUIController#showMiePartecipazioni()V108
 
@@ -216,6 +216,9 @@ $
 5
 5768jÏ
 
+85
+858625
+
 70
 707125
 
@@ -243,9 +246,6 @@ M
 
 64
 646525
-
-105
-10510625
 
 23
 232425
@@ -265,9 +265,9 @@ M
 
 15
 50
-
-97
-979825
+
+105
+10510625
 M
 39G
 394019 *
@@ -340,9 +340,6 @@ M
 
 89
 899025
-
-83
-838425
 R
 111K
 11111261 *
@@ -387,18 +384,15 @@ G
 
 15
 16
-
-95
-959625
-
-85
-858625
 
 99
 9910025
 
 115
 11511625
+
+97
+979825
 R
 123K
 12312461 *
@@ -432,6 +426,9 @@ M
 
 77
 777825
+
+83
+838425
 M
 43G
 434419 *
@@ -451,6 +448,9 @@ M
 
 133
 13313425
+
+95
+959625
 
 141
 14114225

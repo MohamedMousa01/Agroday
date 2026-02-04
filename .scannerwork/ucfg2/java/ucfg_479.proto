@@ -1,39 +1,29 @@
 
-8view.cli.LoginCLIView#chiediUsername()Ljava/lang/String;T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java ( "1*Þ
-1 (Q
-O
- (
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ÉÆ
- (&
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream**
-
-__unknown_file (
-
-Username: 2print(Ljava/lang/String;)o
-m
-   (
-%2java.util.Scanner"__id*B
-
-__unknown_file (&*$
-view.cli.LoginCLIView"	
-scanner˜•
-   (!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
+1view.cli.MainConsulenteCLIView#%field_initializer
+__unknown_file ("1*«
+1 (Ž‹
+]
+S/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainConsulenteCLIView.java( (/
+%0java.util.Scanner"java.util.ScannerÕ
+Ò
+]
+S/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainConsulenteCLIView.java$ (:
+%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
+ (
 
-%2java.util.Scanner2
-nextLine()"$
-   ("
-
-%3java.lang.StringB
-view.cli.LoginCLIViewH
+%0java.util.Scanner*
+ (
+""¾
+»
+]
+S/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainConsulenteCLIView.java (;- 
+view.cli.MainConsulenteCLIView"	
+scanner"__id*%
+ (
+
+%0java.util.Scanner"r
+[
+S/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainConsulenteCLIView.java
+ Y(
+implicit returnB" 
+view.cli.MainConsulenteCLIView

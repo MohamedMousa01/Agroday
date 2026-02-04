@@ -1,14 +1,9 @@
 
-,model.Agricoltore#getTipo()Lmisc/TipoUtente;P
-F/Users/mohamedmousa/Desktop/prova/src/main/java/model/Agricoltore.java ("1*Å
-1 (M
-K
- (%
-%0misc.TipoUtente"__id*"
-
-__unknown_file (
-"""#
- (&
-
-%0misc.TipoUtenteB
-model.AgricoltoreH
+#model.Annuncio#getQuantitaTotale()IO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java≥ ≥( "1*%
+1
+¥ ¥("
+
+¥ ¥(
+""B
+model.AnnuncioHX

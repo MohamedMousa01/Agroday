@@ -1,15 +1,98 @@
 
-1engclasses.dao.factory.DAOMemoryFactory#<init>()V
-__unknown_file ("startingBlock* 
-startingBlockd
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java (’
-“
+Nengclasses.dao.filesystem.PartecipazioneDAOFile#salva(Lmodel/Partecipazione;)Zn
+d/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/PartecipazioneDAOFile.java3 3("startingBlock*!
+25 5("
+5 5(
+""*Œ
+34& 4(4¿Ω
+4& 4(J
+%1java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazione2getIdPartecipazione()t
+r
+4& 4(R
+%2boolean"	__compare*
+4K 4(M
+==*$
+4& 4(J
+
+%1java.lang.String*
+4N 4(R
+""*
+2
+1*¢
+startingBlock3 3(7ô
+ñ
+2 2(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazionef
 d
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java (
-%0"+engclasses.dao.factory.DAOFactory#<init>()V*7
- (+)
-'engclasses.dao.factory.DAOMemoryFactory"{
-d
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOMemoryFactory.java (
-implicit returnB+)
-'engclasses.dao.factory.DAOMemoryFactory
+3( 3(6&
+partecipazionemodel.Partecipazione"__annotation*"
+
+__unknown_file (
+
+%7*
+4*ù
+44 4(Ö
+Ç
+4 4("
+%0boolean"	__compare*
+4 4(
+==*4
+4 4((
+&
+partecipazionemodel.Partecipazione*
+4 4("
+""*
+2
+3*â
+17 7(ç
+ä
+7 7(
+%3java.util.Map"__id*c
+
+__unknown_file (G*E1
+/engclasses.dao.filesystem.PartecipazioneDAOFile"
+partecipazioni¿Ω
+7 7(?
+%4java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazione2getIdPartecipazione()‚
+ﬂ
+7 7(P
+%5model.Partecipazione"__mapSet*1
+
+__unknown_file (
+
+%3java.util.Map*4
+
+__unknown_file (
+
+%4java.lang.String*D
+
+__unknown_file ((
+&
+partecipazionemodel.Partecipazione≠
+™
+8 8(
+%6boolean">engclasses.dao.filesystem.PartecipazioneDAOFile#salvaSuFile()Z*O
+
+__unknown_file (31
+/engclasses.dao.filesystem.PartecipazioneDAOFile"
+8 8(
+"":2
+3 3(6&
+partecipazionemodel.PartecipazioneB31
+/engclasses.dao.filesystem.PartecipazioneDAOFileHX

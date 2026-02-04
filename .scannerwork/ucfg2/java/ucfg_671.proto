@@ -1,37 +1,16 @@
 
-?__sonar_lambda_60$engclasses.dao.filesystem.AppuntamentoDAOFilel
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javay y(7"startingBlock*¿
-startingBlocky y(7ž
-›
-
-__unknown_file (
-statomisc.StatoAppuntamento"__id*X
-
-__unknown_file (<*:/
--engclasses.dao.filesystem.AppuntamentoDAOFile"
-stato*
-1*´
-1y y("¥¢
-y* y(6
-%7misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
-
-__unknown_file (
-
-amodel.Appuntamento2
-getStato()ßÜ
-y y(7
-%8boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*=
-
-__unknown_file (!
-
-statomisc.StatoAppuntamento*:
-
-__unknown_file (
-
-%7misc.StatoAppuntamento2equals(Ljava/lang/Object;)"
-y y(7
+&misc.Session#getUtente()Lmodel/Utente;M
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java€ €("1*Ê
+1
+ (”‘
 
-%8boolean:#
-y y(
-amodel.AppuntamentoB 
-java.util.function.Predicate
+ (!
+%0model.Utente"-misc.Session#getUtenteLoggato()Lmodel/Utente;*,
+
+__unknown_file (
+misc.Session2getUtenteLoggato()""
+
+ ("
+
+%0model.UtenteB
+misc.SessionH

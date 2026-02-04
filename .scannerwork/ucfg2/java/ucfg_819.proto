@@ -1,33 +1,15 @@
 
-Ocontrollers.applicativo.AnnuncioController#eliminaAnnuncio(Ljava/lang/String;)Zk
-_/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AnnuncioController.java– –(""1*½
-1
-— —(˜
-•
-
-— —($
-%0engclasses.dao.api.AnnuncioDAO"__id*[
+)model.Utente#getCitta()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.javaO O("1*˜
+1O& O(+c
+a
+O& O(+
+%0java.lang.String"__id*7
 
-__unknown_file (?*=,
-*controllers.applicativo.AnnuncioController"
-annuncioDAOú÷
-
-— —(.
-%1boolean";engclasses.dao.api.AnnuncioDAO#elimina(Ljava/lang/String;)Z*B
-
-__unknown_file (&
-$
-%0engclasses.dao.api.AnnuncioDAO*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String2elimina(Ljava/lang/String;)"
-
-— —(/
-"":,
-
-–# –(4
-
-idAnnunciojava.lang.StringB.,
-*controllers.applicativo.AnnuncioControllerHX
+__unknown_file (*
+model.Utente"
+citta"$
+O O(,
+
+%0java.lang.StringB
+model.UtenteH

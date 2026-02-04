@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144194401*java2.BÛ
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198474546*java2.BÛ
 D
 ?src/main/java/controllers/grafico/gui/ProfiloGUIController.java2
 	
@@ -206,9 +206,9 @@ D
 
 tornaIndietro143
 1
-*engclasses.pattern.ViewFactory.ViewManager145
+*engclasses.pattern.viewfactory.ViewManager145
 H
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V147
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V147
 
 misc.ViewType149
 
@@ -422,6 +422,9 @@ M
 
 136
 13613725
+
+144
+14414525
 R
 140K
 14014185 *
@@ -469,6 +472,9 @@ R
 
 71
 717225
+
+146
+14614725
 
 99
 9910025
@@ -595,12 +601,6 @@ M
 
 15
 50
-
-144
-14414525
-
-146
-14614725
 
 119
 11912025

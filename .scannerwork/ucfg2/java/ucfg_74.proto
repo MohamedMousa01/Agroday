@@ -1,7 +1,18 @@
 
-;engclasses.beans.PartecipazioneBean#getQuantitaRichiesta()Ib
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/PartecipazioneBean.java5 5(#"1*!
-16 6( "
-6 6(!
-""B'%
-#engclasses.beans.PartecipazioneBeanHX
+5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;O
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java­ ­($"1*­
+1
+­/ ­(;q
+o
+
+­/ ­(;
+%0java.time.LocalDate"__id*@
+
+__unknown_file ($*"
+model.Annuncio"
+dataScadenza")
+
+­( ­(<
+
+%0java.time.LocalDateB
+model.AnnuncioH

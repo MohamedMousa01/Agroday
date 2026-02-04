@@ -1,16 +1,18 @@
 
-Eengclasses.beans.PartecipazioneBean#getIdAnnuncio()Ljava/lang/String;b
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/PartecipazioneBean.java% %("1*¥
-1& &(
-}
-& &(
-%0java.lang.String"__id*S
-
-__unknown_file (7*5%
-#engclasses.beans.PartecipazioneBean"
+:model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;O
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaù ù()"1*≤
+1
+û û( v
+t
 
-idAnnuncio"$
-& &(
-
-%0java.lang.StringB'%
-#engclasses.beans.PartecipazioneBeanH
+û û( 
+%0java.time.LocalDate"__id*E
+
+__unknown_file ()*'
+model.Annuncio"
+dataPubblicazione")
+
+û û(!
+
+%0java.time.LocalDateB
+model.AnnuncioH

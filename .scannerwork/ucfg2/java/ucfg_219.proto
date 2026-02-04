@@ -1,18 +1,17 @@
 
-Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaø ø(."1*¿
-1
-ù ù(!
-}
-
-ù ù(!
-%0java.time.LocalDateTime"__id*J
+Omodel.Appuntamento$Builder#note(Ljava/lang/String;)Lmodel/Appuntamento$Builder;Q
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaW W("1*­
+1X X(r
+p
+X X(&
+model.Appuntamento$Builder"
+note"__id*6
 
-__unknown_file (.*,
-model.Appuntamento"
-dataUltimaModifica"-
-
-ù ù("
-
-%0java.time.LocalDateTimeB
-model.AppuntamentoH
+__unknown_file (
+
+notejava.lang.String"*
+Y Y(
+model.Appuntamento$Builder:$
+W W('
+notejava.lang.StringB
+model.Appuntamento$BuilderH

@@ -1,15 +1,15 @@
 
-.model.Offerta#getIdOfferta()Ljava/lang/String;L
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.java. .("1*ù
-1/ /(h
-f
-/ /(
-%0java.lang.String"__id*<
-
-__unknown_file ( *
-model.Offerta"
-	idOfferta"$
-/ /(
-
-%0java.lang.StringB
-model.OffertaH
+&view.cli.CreaAnnuncioCLIView#<init>()V
+__unknown_file ("startingBlock*¢
+startingBlockY
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java (√
+¿
+Y
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java (
+%0"/view.cli.CreaAnnuncioCLIView#%field_initializer*,
+ ( 
+view.cli.CreaAnnuncioCLIView"p
+Y
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java (
+implicit returnB 
+view.cli.CreaAnnuncioCLIView

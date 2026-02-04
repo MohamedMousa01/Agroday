@@ -1,98 +1,18 @@
 
-:view.cli.VisualizzaAnnunciCLIView#chiediNumeroAnnuncio(I)Ib
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.javaÅ Å(#"6*%
-2
-Ñ Ñ(?"
+Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java∫ ∫(."1*ø
+1
+ª ª(!
+}
 
-Ñ Ñ(?
-""*À
-3
-Ñ Ñ(>¥
-±
-
-Ñ Ñ(>	
-%7int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+ª ª(!
+%0java.time.LocalDateTime"__id*J
 
-__unknown_file ("
-java.lang.Integer*4
-
-__unknown_file (
-
-%6java.lang.String*
-2*ß
-4
-Ñ$ Ñ(=êç
+__unknown_file (.*,
+model.Appuntamento"
+dataUltimaModifica"-
 
-Ñ$ Ñ(=
-%6java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
-
-__unknown_file (
-
-%5java.lang.String2trim()*
-3*∞
-5
-Ñ Ñ(}
-{
-
-Ñ$ Ñ(+
-%4java.util.Scanner"__id*N
-
-__unknown_file (2*0#
-!view.cli.VisualizzaAnnunciCLIView"	
-scanneröó
-
-Ñ$ Ñ(6
-%5java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
-
-%4java.util.Scanner2
-nextLine()*
-4*ª
-6
-Ç Ç(S
-Q
-
-Ç Ç(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""Ü
-É
-
-Ç Ç(J
-%1java.lang.String"__concat*=
-
-Ç Ç(D/-
-+\n‚û§ Inserisci il numero dell'annuncio (1-*
-
-ÇG Ç(J
-""o
-m
-
-Ç Ç(R
-%2java.lang.String"__concat*&
-
-Ç Ç(J
-
-%1java.lang.String*
-
-ÇM Ç(R
-): ’“
-
-Ç Ç(S
-
-%3void".java.io.PrintStream#print(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*4
-
-__unknown_file (
-
-%2java.lang.String2print(Ljava/lang/String;)*
-5: 
-
-__unknown_file (
-""B%#
-!view.cli.VisualizzaAnnunciCLIViewHX
+ª ª("
+
+%0java.time.LocalDateTimeB
+model.AppuntamentoH

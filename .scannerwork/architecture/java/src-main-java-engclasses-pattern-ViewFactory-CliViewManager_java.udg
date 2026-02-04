@@ -1,7 +1,7 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144195340*java2.B¿
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198474345*java2.B¿
 E
-@src/main/java/engclasses/pattern/ViewFactory/CliViewManager.java2
+@src/main/java/engclasses/pattern/viewfactory/CliViewManager.java2
 	
 type3
 	
@@ -9,9 +9,9 @@ E
 
 package6
 #
-engclasses.pattern.ViewFactory7
+engclasses.pattern.viewfactory7
 2
--engclasses.pattern.ViewFactory.CliViewManager9
+-engclasses.pattern.viewfactory.CliViewManager9
 
 class10
 
@@ -28,7 +28,7 @@ full-range13
 
 CliViewManager16
 :
-4engclasses.pattern.ViewFactory.CliViewManager.logger18
+4engclasses.pattern.viewfactory.CliViewManager.logger18
 
 field19
 
@@ -47,13 +47,13 @@ full-range13
 
 uses27
 ;
-5engclasses.pattern.ViewFactory.CliViewManager.scanner29
+5engclasses.pattern.viewfactory.CliViewManager.scanner29
 
 (19:5)-(19:67)30
 
 scanner31
 =
-7engclasses.pattern.ViewFactory.CliViewManager#<init>()V33
+7engclasses.pattern.viewfactory.CliViewManager#<init>()V33
 
 method34
 
@@ -61,7 +61,7 @@ full-range13
 
 calls36
 J
-Dengclasses.pattern.ViewFactory.CliViewManager#showMainAgricoltore()V38
+Dengclasses.pattern.viewfactory.CliViewManager#showMainAgricoltore()V38
 
 (27:5)-(30:6)39
 
@@ -74,7 +74,7 @@ references43
 C
 =controllers.grafico.cli.MainAgricoltoreCLIController#start()V45
 H
-Bengclasses.pattern.ViewFactory.CliViewManager#showMainVenditore()V47
+Bengclasses.pattern.viewfactory.CliViewManager#showMainVenditore()V47
 
 (32:5)-(35:6)48
 
@@ -84,7 +84,7 @@ Bengclasses.pattern.ViewFactory.CliViewManager#showMainVenditore()V47
 A
 ;controllers.grafico.cli.MainVenditoreCLIController#start()V53
 I
-Cengclasses.pattern.ViewFactory.CliViewManager#showMainConsulente()V55
+Cengclasses.pattern.viewfactory.CliViewManager#showMainConsulente()V55
 
 (37:5)-(40:6)56
 
@@ -94,7 +94,7 @@ Cengclasses.pattern.ViewFactory.CliViewManager#showMainConsulente()V55
 B
 <controllers.grafico.cli.MainConsulenteCLIController#start()V61
 B
-<engclasses.pattern.ViewFactory.CliViewManager#showProfilo()V63
+<engclasses.pattern.viewfactory.CliViewManager#showProfilo()V63
 
 (44:5)-(62:6)64
 
@@ -128,24 +128,24 @@ B
 -
 'view.cli.ProfiloCLIView#attendiInvio()V92
 K
-Eengclasses.pattern.ViewFactory.CliViewManager#showGestioneProdotti()V94
+Eengclasses.pattern.viewfactory.CliViewManager#showGestioneProdotti()V94
 
 (64:5)-(67:6)95
 
 showGestioneProdotti96
 T
-Nengclasses.pattern.ViewFactory.CliViewManager#showMessage(Ljava/lang/String;)V98
+Nengclasses.pattern.viewfactory.CliViewManager#showMessage(Ljava/lang/String;)V98
 D
-=engclasses.pattern.ViewFactory.CliViewManager#waitForEnter()V100
+=engclasses.pattern.viewfactory.CliViewManager#waitForEnter()V100
 B
-;engclasses.pattern.ViewFactory.CliViewManager#showOrdini()V102
+;engclasses.pattern.viewfactory.CliViewManager#showOrdini()V102
 
 (69:5)-(72:6)103
 
 
 showOrdini104
 F
-?engclasses.pattern.ViewFactory.CliViewManager#showConsulenza()V106
+?engclasses.pattern.viewfactory.CliViewManager#showConsulenza()V106
 
 (74:5)-(77:6)107
 
@@ -155,13 +155,13 @@ F
 
 showMessage110
 S
-Lengclasses.pattern.ViewFactory.CliViewManager#showError(Ljava/lang/String;)V112
+Lengclasses.pattern.viewfactory.CliViewManager#showError(Ljava/lang/String;)V112
 
 (85:5)-(87:6)113
 
 	showError114
 U
-Nengclasses.pattern.ViewFactory.CliViewManager#showSuccess(Ljava/lang/String;)V116
+Nengclasses.pattern.viewfactory.CliViewManager#showSuccess(Ljava/lang/String;)V116
 
 (89:5)-(91:6)117
 
@@ -171,7 +171,7 @@ Nengclasses.pattern.ViewFactory.CliViewManager#showSuccess(Ljava/lang/String;)V
 
 waitForEnter120
 C
-<engclasses.pattern.ViewFactory.CliViewManager#clearScreen()V122
+<engclasses.pattern.viewfactory.CliViewManager#clearScreen()V122
 
 (98:5)-(103:6)123
 
@@ -195,22 +195,6 @@ C
 
 87
 878825
-G
-8B
-8910 *
-1 (:5B$
-
-
-11
-12
-
-
-13
-14
-
-
-15
-16
 
 79
 798025
@@ -223,6 +207,59 @@ G
 
 83
 838425
+R
+111K
+11111234 *
+1U U(!28:5B&
+
+
+11
+12
+
+13
+113
+
+15
+114
+
+89
+899025
+P
+99J
+9910034 *
+1] ]($28:5B&
+
+
+11
+12
+
+13
+119
+
+15
+120
+
+23
+232425
+M
+93G
+939434 *
+1@ @(,28:5B$
+
+
+11
+12
+
+
+13
+95
+
+
+15
+96
+
+75
+757625
 M
 37G
 373834 *
@@ -240,31 +277,9 @@ M
 15
 40
 M
-17G
-171819 *
-1! ('28:5B$
-
-
-11
-20
-
-
-13
-21
-
-
-15
-22
-
-89
-899025
-
-23
-232425
-M
-54G
-545534 *
-1% %(*28:5B$
+62G
+626334 *
+1, ,(#28:5B$
 
 
 11
@@ -272,56 +287,70 @@ M
 
 
 13
-56
+64
 
 
 15
-57
-P
-99J
-9910034 *
-1] ]($28:5B&
+65
+
+68
+686925
+R
+101K
+10110234 *
+1E E("28:5B&
 
 
 11
 12
 
 13
-119
+103
 
 15
-120
-
-75
-757625
-
-68
-686925
+104
 
 44
 444525
-M
-32G
-323334 *
-1 (28:5B$
-
-
-11
-20
-
-
-13
-35
-
-
-15
-16
 
 50
 505125
 
 70
 707125
+R
+105K
+10510634 *
+1J J(&28:5B&
+
+
+11
+12
+
+13
+107
+
+15
+108
+G
+8B
+8910 *
+1 (:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+
+85
+858625
 M
 28G
 282919 *
@@ -338,126 +367,22 @@ M
 
 15
 31
-
-85
-858625
-R
-101K
-10110234 *
-1E E("28:5B&
-
-
-11
-12
-
-13
-103
-
-15
-104
 M
-62G
-626334 *
-1, ,(#28:5B$
+32G
+323334 *
+1 (28:5B$
 
 
 11
-12
+20
 
 
 13
-64
+35
 
 
 15
-65
-M
-93G
-939434 *
-1@ @(,28:5B$
-
-
-11
-12
-
-
-13
-95
-
-
-15
-96
-O
-97I
-979834 *
-1Q Q(#28:5B&
-
-
-11
-12
-
-13
-109
-
-15
-110
-R
-111K
-11111234 *
-1U U(!28:5B&
-
-
-11
-12
-
-13
-113
-
-15
-114
-
-60
-606125
-
-41
-414225
-
-58
-585925
-R
-105K
-10510634 *
-1J J(&28:5B&
-
-
-11
-12
-
-13
-107
-
-15
-108
-
-52
-525325
-
-91
-919225
-R
-115K
-11511634 *
-1Y Y(#28:5B&
-
-
-11
-12
-
-13
-117
-
-15
-118
+16
 M
 46G
 464734 *
@@ -474,6 +399,81 @@ M
 
 15
 49
+M
+54G
+545534 *
+1% %(*28:5B$
+
+
+11
+12
+
+
+13
+56
+
+
+15
+57
+
+60
+606125
+
+41
+414225
+O
+97I
+979834 *
+1Q Q(#28:5B&
+
+
+11
+12
+
+13
+109
+
+15
+110
+
+58
+585925
+
+52
+525325
+R
+115K
+11511634 *
+1Y Y(#28:5B&
+
+
+11
+12
+
+13
+117
+
+15
+118
+
+91
+919225
+M
+17G
+171819 *
+1! ('28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+22
 R
 121K
 12112234 *

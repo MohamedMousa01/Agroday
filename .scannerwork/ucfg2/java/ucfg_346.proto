@@ -1,10 +1,36 @@
 
-H__sonar_lambda_31$controllers.grafico.gui.ListaAppuntamentiGUIControlleru
-k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ListaAppuntamentiGUIController.javaX( Y(S"1*!
-1Y) Y(1"
-Y Y(S
-"": 
+?__sonar_lambda_23$engclasses.dao.memory.PartecipazioneDAOMemoryl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java; ;(G"startingBlock*É
+startingBlock; ;(G¨
+¥
 
-__unknown_file (
-""B
-	!Unknown!
+__unknown_file (!
+idAgricoltorejava.lang.String"__id*`
+
+__unknown_file (D*B/
+-engclasses.dao.memory.PartecipazioneDAOMemory"
+idAgricoltore*
+1*º
+1; ;(*­ª
+;2 ;(F
+%7java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
+
+__unknown_file (
+
+pmodel.Partecipazione2getIdAgricoltore()ÝÚ
+; ;(G
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
+
+__unknown_file (#
+!
+idAgricoltorejava.lang.String*4
+
+__unknown_file (
+
+%7java.lang.String2equals(Ljava/lang/Object;)"
+; ;(G
+
+%8boolean:%
+; ;(
+pmodel.PartecipazioneB 
+java.util.function.Predicate

@@ -2,7 +2,7 @@ package controllers.grafico.gui;
 
 import controllers.applicativo.AnnuncioController;
 import engclasses.exceptions.AnnuncioNonValidoException;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import misc.Session;

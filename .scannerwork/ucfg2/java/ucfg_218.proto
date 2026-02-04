@@ -1,18 +1,17 @@
 
->model.Appuntamento#getDataCreazione()Ljava/time/LocalDateTime;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaô ô()"1*º
-1
-õ õ(z
-x
-
-õ õ(
-%0java.time.LocalDateTime"__id*E
+Pmodel.Appuntamento$Builder#luogo(Ljava/lang/String;)Lmodel/Appuntamento$Builder;Q
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaR R("1*¯
+1S S(t
+r
+S S('
+model.Appuntamento$Builder"
+luogo"__id*7
 
-__unknown_file ()*'
-model.Appuntamento"
-dataCreazione"-
-
-õ õ(
-
-%0java.time.LocalDateTimeB
-model.AppuntamentoH
+__unknown_file (
+
+luogojava.lang.String"*
+T T(
+model.Appuntamento$Builder:%
+R R()
+luogojava.lang.StringB
+model.Appuntamento$BuilderH

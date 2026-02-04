@@ -1,21 +1,15 @@
 
-Ycontrollers.applicativo.AppuntamentoController#getConsulentiDisponibili()Ljava/util/List;o
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java¿ ¿(0"1*è
-1
-Â Â( ><
-
-Â Â(
-%0java.util.ArrayList"java.util.ArrayListl
-j
-
-Â Â( 
-%1"java.util.ArrayList#<init>()V*7
+:engclasses.beans.AnnuncioBean#getCitta()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javaS S("1*©
+1T T(t
+r
+T T(
+%0java.lang.String"__id*H
 
-__unknown_file (
-
-%0java.util.ArrayList")
-
-Â Â(!
-
-%0java.util.ArrayListB20
-.controllers.applicativo.AppuntamentoControllerH
+__unknown_file (,**
+engclasses.beans.AnnuncioBean"
+citta"$
+T T(
+
+%0java.lang.StringB!
+engclasses.beans.AnnuncioBeanH

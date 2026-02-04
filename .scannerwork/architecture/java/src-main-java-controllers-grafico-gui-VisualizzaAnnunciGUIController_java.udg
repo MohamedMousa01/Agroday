@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144193862*java2.B˜3
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198473954*java2.B˜3
 N
 Isrc/main/java/controllers/grafico/gui/VisualizzaAnnunciGUIController.java2
 	
@@ -264,9 +264,9 @@ Gcontrollers.grafico.gui.VisualizzaAnnunciGUIController#tornaIndietro()V191
 
 tornaIndietro193
 1
-*engclasses.pattern.ViewFactory.ViewManager195
+*engclasses.pattern.viewfactory.ViewManager195
 H
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V197
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V197
 
 misc.ViewType199
 
@@ -592,6 +592,9 @@ T
 119
 11912029
 
+194
+19419529
+
 148
 14814929
 
@@ -634,6 +637,9 @@ M
 
 170
 17017129
+
+196
+19619729
 
 113
 11311429
@@ -768,9 +774,6 @@ R
 15
 105
 
-194
-19419529
-
 166
 16616729
 M
@@ -789,9 +792,6 @@ M
 
 15
 72
-
-196
-19619729
 
 178
 17817929

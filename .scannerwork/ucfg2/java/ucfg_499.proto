@@ -1,43 +1,44 @@
 
-F__sonar_lambda_41$controllers.grafico.cli.MainAgricoltoreCLIControlleru
-i/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/MainAgricoltoreCLIController.javaƒ ƒ(;"startingBlock*È
-startingBlock
-ƒ ƒ(;¥
-¢
+=view.cli.CreaAnnuncioCLIView#chiediTitolo()Ljava/lang/String;[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java< <("1*‰
+1= =(Q
+O
+= =(
+%0java.io.PrintStream"__id*"
 
-__unknown_file (
-usernamejava.lang.String"__id*b
+__unknown_file (
+""ÜÙ
+= =(7
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
 
-__unknown_file (F*D6
-4controllers.grafico.cli.MainAgricoltoreCLIController"
-
-username*
-1*Å
-1
-ƒ ƒ(´±
-
-ƒ ƒ(*
-%10java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
+__unknown_file (
+
+%0java.io.PrintStream*=
 
-__unknown_file ($
-"
-aengclasses.beans.AnnuncioBean2getAutore()ÜÙ
-
-ƒ ƒ(;
-%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+__unknown_file (!
+\nðŸ“Œ Titolo dell'annuncio: 2print(Ljava/lang/String;)v
+t
+> >(
+%2java.util.Scanner"__id*I
+
+__unknown_file (-*+
+view.cli.CreaAnnuncioCLIView"	
+scanner˜•
+> >(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
 
 __unknown_file (
 
-%10java.lang.String*:
+%2java.util.Scanner2
+nextLine()Ž‹
+> >((
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
 
-__unknown_file (
-
-usernamejava.lang.String2equals(Ljava/lang/Object;)"
-
-ƒ ƒ(;
-
-%11boolean:0
-
-ƒ ƒ("
-aengclasses.beans.AnnuncioBeanB 
-java.util.function.Predicate
+__unknown_file (
+
+%3java.lang.String2trim()"$
+> >()
+
+%4java.lang.StringB 
+view.cli.CreaAnnuncioCLIViewH

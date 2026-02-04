@@ -1,38 +1,36 @@
 
-[engclasses.services.DemoCalendarService#getLinkEvento(Ljava/lang/String;)Ljava/lang/String;f
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/DemoCalendarService.java5 5("startingBlock*å
-startingBlock5 5(/é
-ã
-4 4(
-%1"
-__annotate*2
+;__sonar_lambda_35$engclasses.dao.filesystem.AnnuncioDAOFileh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaW W(9"startingBlock*∑
+startingBlockW W(9ñ
+ì
 
-__unknown_file (
-java.lang.Override*9
+__unknown_file (
+autorejava.lang.String"__id*U
 
-__unknown_file (
-
-eventIdjava.lang.String[
-Y
-5' 5(.
-eventIdjava.lang.String"__annotation*"
+__unknown_file (9*7+
+)engclasses.dao.filesystem.AnnuncioDAOFile"
+autore*
+1*ô
+1W W(#ìê
+W+ W(8
+%7java.lang.String",model.Annuncio#getAutore()Ljava/lang/String;*1
 
-__unknown_file (
-
-%1*
-1*∑
-17 7('Å
-
-7 7(1
-%0java.lang.String"__concat*&
-7 7('
-demo://calendar/event/*)
-7* 7(1
-
-eventIdjava.lang.String"$
-7 7(2
+__unknown_file (
+
+amodel.Annuncio2getAutore()÷”
+W W(9
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*8
+
+__unknown_file (
+
+autorejava.lang.String*4
+
+__unknown_file (
 
-%0java.lang.String:'
-5  5(.
-eventIdjava.lang.StringB+)
-'engclasses.services.DemoCalendarServiceH
+%7java.lang.String2equals(Ljava/lang/Object;)"
+W W(9
+
+%8boolean:
+W W(
+amodel.AnnuncioB 
+java.util.function.Predicate

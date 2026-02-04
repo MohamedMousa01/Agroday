@@ -1,33 +1,16 @@
 
-Cengclasses.dao.memory.OffertaDAOMemory#trovaTutte()Ljava/util/List;e
-[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.javaE E(#"1*–
-1F F(&K
-I
-F F(&
-%0java.util.Map"__id*"
+?engclasses.beans.AnnuncioBean#getIdAnnuncio()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.java ("1*®
+1 (y
+w
+ (
+%0java.lang.String"__id*M
 
-__unknown_file (
-""”‘
-F F(/
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()<:
-F F(
-%2java.util.ArrayList"java.util.ArrayList»
-¸
-F F(0
-%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
-
-__unknown_file (
-
-%2java.util.ArrayList*8
-
-__unknown_file (
-
-%1java.util.Collection"'
-F F(1
-
-%2java.util.ArrayListB*(
-&engclasses.dao.memory.OffertaDAOMemoryH
+__unknown_file (1*/
+engclasses.beans.AnnuncioBean"
+
+idAnnuncio"$
+ (
+
+%0java.lang.StringB!
+engclasses.beans.AnnuncioBeanH

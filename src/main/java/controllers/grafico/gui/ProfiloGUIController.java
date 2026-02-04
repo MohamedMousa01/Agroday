@@ -2,7 +2,7 @@ package controllers.grafico.gui;
 
 import controllers.applicativo.AnnuncioController;
 import engclasses.beans.AnnuncioBean;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -83,7 +83,7 @@ public class ProfiloGUIController {
                     .toList();
             
             lblNumAnnunci.setText(String.valueOf(mieiAnnunci.size()));
-            lblNumOrdini.setText("0"); // TODO: implementare quando sarà pronto il sistema ordini
+            lblNumOrdini.setText("0"); // Nota: Il conteggio ordini sarà implementato quando il sistema ordini sarà disponibile
             
         } catch (Exception e) {
             lblNumAnnunci.setText("N/A");

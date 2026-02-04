@@ -1,15 +1,31 @@
 
-*model.Offerta#getStato()Ljava/lang/String;L
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaF F("1*™
-1G G(d
-b
-G G(
-%0java.lang.String"__id*8
+dcontrollers.grafico.gui.ProfiloGUIController#getTipoUtenteLabel(Lmisc/TipoUtente;)Ljava/lang/String;k
+a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ProfiloGUIController.java@ @(%"2*ÿ
+2A A(M
+K
+B B(
+%0misc.TipoUtente"__id*"
 
-__unknown_file (*
-model.Offerta"
-stato"$
-G G(
-
-%0java.lang.StringB
-model.OffertaH
+__unknown_file (
+""M
+K
+C C(
+%1misc.TipoUtente"__id*"
+
+__unknown_file (
+""M
+K
+D D(
+%2misc.TipoUtente"__id*"
+
+__unknown_file (
+""*
+1*!
+1A E(
+"
+A E(
+
+"":#
+@& @(5
+tipomisc.TipoUtenteB0.
+,controllers.grafico.gui.ProfiloGUIController

@@ -1,22 +1,15 @@
 package engclasses.dao.factory;
 
-import engclasses.dao.api.AgricoltoreDAO;
+
 import engclasses.dao.api.AnnuncioDAO;
 import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
-import engclasses.dao.api.VenditoreDAO;
-import engclasses.dao.db.AgricoltoreDAODB;
-import engclasses.dao.db.ConsulenteDAODB;
-import engclasses.dao.db.UtenteDAODB;
-import engclasses.dao.db.VenditoreDAODB;
 import engclasses.dao.filesystem.AgricoltoreDAOFile;
 import engclasses.dao.filesystem.AnnuncioDAOFile;
 import engclasses.dao.filesystem.AppuntamentoDAOFile;
 import engclasses.dao.filesystem.ConsulenteDAOFile;
 import engclasses.dao.filesystem.UtenteDAOFile;
 import engclasses.dao.filesystem.VenditoreDAOFile;
-import engclasses.dao.memory.AgricoltoreDAOMemory;
-import engclasses.dao.memory.VenditoreDAOMemory;
 import misc.TipoUtente;
 
 public class DAOFileFactory extends DAOFactory {

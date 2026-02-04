@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144194491*java2.Bè-
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198474621*java2.Bè-
 L
 Gsrc/main/java/controllers/grafico/cli/MainAgricoltoreCLIController.java2
 	
@@ -89,9 +89,9 @@ C
 .
 (misc.Session#getInstance()Lmisc/Session;56
 0
-*engclasses.pattern.ViewFactory.ViewManager58
+*engclasses.pattern.viewfactory.ViewManager58
 G
-Aengclasses.pattern.ViewFactory.ViewManager#goTo(Lmisc/ViewType;)V60
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V60
 
 misc.ViewType62
 
@@ -393,6 +393,9 @@ O
 
 143
 14314425
+
+57
+575825
 
 137
 13713825
@@ -461,6 +464,9 @@ Q
 
 189
 18919025
+
+59
+596025
 
 105
 10510625
@@ -555,9 +561,6 @@ M
 
 113
 11311425
-
-57
-575825
 M
 34G
 343519 *
@@ -590,9 +593,6 @@ M
 
 15
 92
-
-59
-596025
 
 141
 14114225

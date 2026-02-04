@@ -1,15 +1,38 @@
 
-MainGUI#<init>()V
-__unknown_file ("startingBlock*²
-startingBlockD
-</Users/mohamedmousa/Desktop/prova/src/main/java/MainGUI.java (~
-|
-D
-</Users/mohamedmousa/Desktop/prova/src/main/java/MainGUI.java (
-%0"Application#<init>()V*
- (	
-MainGUI"[
-D
-</Users/mohamedmousa/Desktop/prova/src/main/java/MainGUI.java (
-implicit returnB	
-MainGUI
+Hview.cli.RegistrazioneCLIView#chiediConfermaPassword()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java6 6(("1*ï
+17 7(Q
+O
+7 7(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""ÒÏ
+7 7(/
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*3
+
+__unknown_file (
+Conferma Password: 2print(Ljava/lang/String;)w
+u
+8 8(
+%2java.util.Scanner"__id*J
+
+__unknown_file (.*,
+view.cli.RegistrazioneCLIView"	
+scanner˜•
+8 8(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()"$
+8 8("
+
+%3java.lang.StringB!
+view.cli.RegistrazioneCLIViewH

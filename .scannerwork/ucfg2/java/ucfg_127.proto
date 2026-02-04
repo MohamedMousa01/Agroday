@@ -1,70 +1,16 @@
 
-7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Zg
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java( (("7*!
-4+ +("
-+ +(
-""*÷
-5) )(]u
-s
-) )(]!
-oosjava.io.ObjectOutputStream"__id*>
+Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.javaH H(!"1*±
+1I I(|
+z
+I I(
+%0java.lang.String"__id*P
 
-__unknown_file ("
- 
-%3java.io.ObjectOutputStream~
-|
-* *(#
-%5java.util.Map"__id*U
-
-__unknown_file (9*7*
-(engclasses.dao.filesystem.OffertaDAOFile"	
-offerteëè
-* *($
+__unknown_file (4*2$
+"engclasses.beans.RegistrazioneBean"
 
-%6void";java.io.ObjectOutputStream#writeObject(Ljava/lang/Object;)V*?
-
-__unknown_file (#
-!
-oosjava.io.ObjectOutputStream*1
-
-__unknown_file (
-
-%5java.util.Map2writeObject(Ljava/lang/Object;)*
-4*®
-6)& )(]JH
-)* )(< 
-%3java.io.ObjectOutputStream"java.io.ObjectOutputStreamÍ
-Ê
-)& )(]
-%4":java.io.ObjectOutputStream#<init>(Ljava/io/OutputStream;)V*>
-
-__unknown_file ("
- 
-%3java.io.ObjectOutputStream*<
-
-__unknown_file ( 
-
-%1java.io.FileOutputStream*
-5*ó
-7)R )([W
-U
-)R )([
-%0java.lang.String"__id*+
-
-__unknown_file (
-offerte.datFD
-)A )(Q
-%1java.io.FileOutputStream"java.io.FileOutputStream½
-º
-)= )(\
-%2"4java.io.FileOutputStream#<init>(Ljava/lang/String;)V*<
-
-__unknown_file ( 
-
-%1java.io.FileOutputStream*4
-
-__unknown_file (
+password"$
+I I(
 
-%0java.lang.String*
-6B,*
-(engclasses.dao.filesystem.OffertaDAOFileX
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

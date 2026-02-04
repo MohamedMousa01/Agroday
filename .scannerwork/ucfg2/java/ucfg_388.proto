@@ -1,49 +1,10 @@
 
-Gengclasses.dao.filesystem.AnnuncioDAOFile#trovaAttivi()Ljava/util/List;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javak k(%"1*æ
-1l l(
-}
-l l(
-%0java.util.Map"__id*V
+H__sonar_lambda_33$controllers.grafico.gui.ListaAppuntamentiGUIControlleru
+k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ListaAppuntamentiGUIController.java\( r(	"1*!
+1\. r(	"
+\. r(	
+"": 
 
-__unknown_file (:*8+
-)engclasses.dao.filesystem.AnnuncioDAOFile"	
-annunci”‘
-l l(
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()¨¥
-l l((
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%1java.util.Collection2stream()¡
-ž
-m m(+"
-%3java.util.function.Predicate"__declareFunction*[
-
-__unknown_file (?=
-;__sonar_lambda_36$engclasses.dao.filesystem.AnnuncioDAOFile¬©
-l m(,
-%5java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%2java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)œ™
-l n(
-%6java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
-
-__unknown_file (
-
-%5java.util.stream.Stream2toList()""
-l n(
-
-%6java.util.ListB-+
-)engclasses.dao.filesystem.AnnuncioDAOFileH
+__unknown_file (
+""B
+	!Unknown!

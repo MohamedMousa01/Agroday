@@ -1,110 +1,28 @@
 
-Mengclasses.services.GoogleCalendarAdapter#cancellaEvento(Ljava/lang/String;)Zh
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/GoogleCalendarAdapter.javau u(!"startingBlock*_
-2| |(<
-:
-| |(
-%4"__id*"
+`controllers.applicativo.OffertaController#getOfferteRicevute(Ljava/lang/String;)Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.javag g(+"1*•
+1h h(“
+
+h h(#
+%0engclasses.dao.api.OffertaDAO"__id*Y
 
-__unknown_file (
-"""
-} }(
-""*û
-3{  {(,…
-‚
-{  {(,
-%2java.util.Map"__id*[
-
-__unknown_file (?*=+
-)engclasses.services.GoogleCalendarAdapter"
-eventiCreatiÛØ
-{  {(A
-%3boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*1
-
-__unknown_file (
-
-%2java.util.Map*9
-
-__unknown_file (
-
-eventIdjava.lang.String2containsKey(Ljava/lang/Object;)*
-2
-1*
-startingBlocku! u(1Ž
-‹
-t t(
-%8"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*9
-
-__unknown_file (
-
-eventIdjava.lang.String[
-Y
-u) u(0
-eventIdjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%8*
-4
-5*
-4{ {(y
-w
-{ {(
-%1boolean"	__compare*
-{ {(
-==*)
-{ {(
-
-eventIdjava.lang.String*
-{ {(
-""*
-2
-3*_
-5w w(<
-:
-w w(
-%0"__id*"
-
-__unknown_file (
-"""
-x x(
-""*”
-1
-€ €(>
-<
+__unknown_file (=*;+
+)controllers.applicativo.OffertaController"
 
-€ €(
-%5"__id*"
+offertaDAOËÈ
+h h(Q
+%1java.util.List"dengclasses.dao.api.OffertaDAO#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;*A
 
-__unknown_file (
-""‡
-„
-
- (
-%6java.util.Map"__id*[
+__unknown_file (%
+#
+%0engclasses.dao.api.OffertaDAO*E
 
-__unknown_file (?*=+
-)engclasses.services.GoogleCalendarAdapter"
-eventiCreati¢
-Ÿ
-
- ($
-%7java.lang.String"__mapRemove*1
-
-__unknown_file (
-
-%6java.util.Map*9
-
-__unknown_file (
-
-eventIdjava.lang.String"
-
-ƒ ƒ(
-"":'
-u" u(0
-eventIdjava.lang.StringB-+
-)engclasses.services.GoogleCalendarAdapterHX
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.String26trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)""
+h h(R
+
+%1java.util.List:3
+g, g(F'
+usernameAgricoltorejava.lang.StringB-+
+)controllers.applicativo.OffertaControllerH

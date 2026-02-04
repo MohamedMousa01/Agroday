@@ -1,18 +1,45 @@
 
-Eengclasses.beans.AppuntamentoBean#getOraInizio()Ljava/time/LocalTime;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java† †(!"1*æ
+Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaÜ Ü(%"1*—
 1
-° °(Å
-
+á á(%“œ
 
-° °(
-%0java.time.LocalTime"__id*P
+á á('
+%0java.lang.String"Lengclasses.beans.AppuntamentoBean#getOraInizioFormattata()Ljava/lang/String;*A
 
-__unknown_file (4*2#
-!engclasses.beans.AppuntamentoBean"
-	oraInizio")
+__unknown_file (%#
+!engclasses.beans.AppuntamentoBean2getOraInizioFormattata()o
+m
 
-° °(
-
-%0java.time.LocalTimeB%#
+á á(/
+%1java.lang.String"__concat*&
+
+á á('
+
+%0java.lang.String*
+
+á* á(/
+ - ŒÀ
+
+á2 á(H
+%2java.lang.String"Jengclasses.beans.AppuntamentoBean#getOraFineFormattata()Ljava/lang/String;*A
+
+__unknown_file (%#
+!engclasses.beans.AppuntamentoBean2getOraFineFormattata()Ä
+~
+
+á á(H
+%3java.lang.String"__concat*&
+
+á á(/
+
+%1java.lang.String*&
+
+á2 á(H
+
+%2java.lang.String"&
+
+á á(I
+
+%3java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

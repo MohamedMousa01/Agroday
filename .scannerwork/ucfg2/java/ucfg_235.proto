@@ -1,21 +1,48 @@
 
-)view.cli.MainAgricoltoreCLIView#<init>()V
-__unknown_file ("startingBlock*±
-startingBlock\
-T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
- 
-(Ì
-É
-\
-T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
- 
-(
-%0"2view.cli.MainAgricoltoreCLIView#%field_initializer*/
- (#!
-view.cli.MainAgricoltoreCLIView"s
-\
-T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
- 
-(
-implicit returnB#!
-view.cli.MainAgricoltoreCLIView
+%model.Appuntamento#getDurataMinuti()JS
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaê ê("1*ä
+1
+ë ë(z
+x
+
+ë* ë(7
+%0java.time.LocalDateTime"__id*E
+
+__unknown_file ()*'
+model.Appuntamento"
+dataOraIniziox
+v
+
+ë9 ë(D
+%1java.time.LocalDateTime"__id*C
+
+__unknown_file ('*%
+model.Appuntamento"
+dataOraFineÃ
+À
+
+ë ë(E
+%2java.time.Duration"jjava.time.Duration#between(Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)Ljava/time/Duration;*2
+
+__unknown_file ("
+java.time.Duration*;
+
+__unknown_file (
+
+%0java.time.LocalDateTime*;
+
+__unknown_file (
+
+%1java.time.LocalDateTime€~
+
+ë ë(Q
+
+%3long"java.time.Duration#toMinutes()J*6
+
+__unknown_file (
+
+%2java.time.Duration2toMinutes()"
+
+ë ë(R
+""B
+model.AppuntamentoHX

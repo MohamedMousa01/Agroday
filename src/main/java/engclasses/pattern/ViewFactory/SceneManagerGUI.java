@@ -1,10 +1,11 @@
-package engclasses.pattern.ViewFactory;
+package engclasses.pattern.viewfactory;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.io.UncheckedIOException;
 
 public class SceneManagerGUI {
 
@@ -72,18 +73,16 @@ public class SceneManagerGUI {
                     currentLoader.setControllerFactory(controllerClass -> {
                         try {
                             Object controller = controllerClass.getDeclaredConstructor().newInstance();
-                            if (controller instanceof controllers.grafico.gui.VisualizzaAnnunciGUIController) {
-                                ((controllers.grafico.gui.VisualizzaAnnunciGUIController) controller)
-                                    .setMostraSoloMieiAnnunci(mostraSoloMieiAnnunci);
-                                ((controllers.grafico.gui.VisualizzaAnnunciGUIController) controller)
-                                    .setMostraPartecipazioni(mostraPartecipazioniUtente);
+                            if (controller instanceof controllers.grafico.gui.VisualizzaAnnunciGUIController visualizzaannunciguicontroller) {
+                                visualizzaannunciguicontroller.setMostraSoloMieiAnnunci(mostraSoloMieiAnnunci);
+                                visualizzaannunciguicontroller.setMostraPartecipazioni(mostraPartecipazioniUtente);
                                 // Reset flag dopo l'uso
                                 mostraSoloMieiAnnunci = false;
                                 mostraPartecipazioniUtente = false;
                             }
                             return controller;
-                        } catch (Exception e) {
-                            throw new RuntimeException("Errore nella creazione del controller", e);
+                        } catch (ReflectiveOperationException e) {
+                            throw new IllegalStateException("Errore nella creazione del controller", e);
                         }
                     });
                 }
@@ -92,7 +91,7 @@ public class SceneManagerGUI {
                 stage.setScene(scene);
                 stage.show();
             } catch (IOException e) {
-                throw new RuntimeException("Errore caricamento scena " + fxmlPath, e);
+                throw new UncheckedIOException("Errore caricamento scena " + fxmlPath, e);
             }
         }
 
@@ -121,7 +120,7 @@ public class SceneManagerGUI {
                 stage.setScene(scene);
                 stage.show();
             } catch (IOException e) {
-                throw new RuntimeException("Errore caricamento scena " + fxmlPath, e);
+                throw new UncheckedIOException("Errore caricamento scena " + fxmlPath, e);
             }
         }
 

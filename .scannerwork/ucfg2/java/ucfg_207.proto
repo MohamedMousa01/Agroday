@@ -1,18 +1,43 @@
 
-5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÃ Ã(%"1*°
-1
-Ä Ä(q
-o
-
-Ä Ä(
-%0misc.StatoAppuntamento"__id*=
+Tengclasses.dao.db.OffertaDAODB#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;]
+S/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/OffertaDAODB.javar r(*"startingBlock* 
+startingBlockr* r(D˜
+•
+q q(
+%1"
+__annotate*2
 
-__unknown_file (!*
-model.Appuntamento"
-stato",
-
-Ä Ä(
-
-%0misc.StatoAppuntamentoB
-model.AppuntamentoH
+__unknown_file (
+java.lang.Override*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.Stringe
+c
+r2 r(C%
+usernameVenditorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*´
+1s s(ÿ
+ü
+	s s(ƒ
+%0java.util.List"eengclasses.dao.db.OffertaDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*>
+
+__unknown_file (" 
+engclasses.dao.db.OffertaDAODB*m
+
+__unknown_file (QO
+MSELECT * FROM offerte WHERE username_venditore = ? ORDER BY data_offerta DESC*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.String"#
+	s s(„
+
+%0java.util.List:1
+r+ r(C%
+usernameVenditorejava.lang.StringB" 
+engclasses.dao.db.OffertaDAODBH

@@ -1,80 +1,88 @@
 
-Qengclasses.dao.db.AnnuncioDAODB#trovaPerCitta(Ljava/lang/String;)Ljava/util/List;`
-T/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AnnuncioDAODB.javaâ â('"startingBlock*é
-startingBlock
-â' â(5é
-ã
-
-à à(
-%3"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*7
-
-__unknown_file (
-
-cittajava.lang.String[
-Y
-
-â/ â(4
-cittajava.lang.String"__annotation*"
-
-__unknown_file (
-
-%3*
-1*Œ
+|controllers.applicativo.AppuntamentoController#validaDatiAppuntamento(Lengclasses/beans/AppuntamentoBean;)Ljava/lang/String;o
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaƒ ƒ()"1*ü
 1
-ä ä(LÕ
- 
+≈ ≈(2FD
 
-ä ã(V
-%0java.lang.String"__concat*G
+≈# ≈(0
+%0java.lang.StringBuilder"java.lang.StringBuildert
+r
 
-ä ä(L97
-5SELECT idAnnuncio, nome_autore, titolo, descrizione, *Q
+≈ ≈(2
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuildert
+r
 
-ã ã(VCA
-?data_pubblicazione, data_scadenza, citta, quantita_desiderata, †
-ù
+≈ ≈(3!
+errorijava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderà
+Ö
 
-ä å(J
-%1java.lang.String"__concat*&
+« «(8
 
-ä ã(V
+%2void"êcontrollers.applicativo.AppuntamentoController#validaCampiObbligatoriAppuntamento(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder˘
+ˆ
+
+» »()
+
+%3void"Åcontrollers.applicativo.AppuntamentoController#validaCoerenzaOrari(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder˝
+˙
+
+… …(-
+
+%4void"Öcontrollers.applicativo.AppuntamentoController#validaLuogoAppuntamento(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder™ß
+
+À À( 
+%5java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder2
+toString()"&
+
+À À(!
 
-%0java.lang.String*E
+%5java.lang.String:7
 
-å å(J75
-3quantita_totale, stato FROM Annunci WHERE citta = ?c
-a
-
-ä å(K
-sqljava.lang.String"__id*4
-
-__unknown_file (
-
-%1java.lang.Stringæ
-ª
-
-ç ç(+
-%2java.util.List"fengclasses.dao.db.AnnuncioDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*?
-
-__unknown_file (#!
-engclasses.dao.db.AnnuncioDAODB*5
-
-__unknown_file (
-
-sqljava.lang.String*7
-
-__unknown_file (
-
-cittajava.lang.String"$
-
-ç ç(,
-
-%2java.util.List:'
-
-â( â(4
-cittajava.lang.StringB#!
-engclasses.dao.db.AnnuncioDAODBH
+ƒ* ƒ(?)
+bean!engclasses.beans.AppuntamentoBeanB20
+.controllers.applicativo.AppuntamentoController

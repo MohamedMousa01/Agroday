@@ -1,79 +1,111 @@
 
-9__sonar_lambda_13$engclasses.dao.filesystem.UtenteDAOFilef
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/UtenteDAOFile.javaE F(y"startingBlock*Ô
-startingBlockE F(y˜
-•
-
-__unknown_file (
-usernamejava.lang.String"__id*U
-
-__unknown_file (9*7)
-'engclasses.dao.filesystem.UtenteDAOFile"
+]engclasses.dao.filesystem.OffertaDAOFile#aggiornaStato(Ljava/lang/String;Ljava/lang/String;)Zg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java^ ^( "startingBlock* 
+2a a(Ú×
+a a((
 
-username˜
-•
+%3void"+model.Offerta#setStato(Ljava/lang/String;)V*6
 
-__unknown_file (
-passwordjava.lang.String"__id*U
+__unknown_file (
 
-__unknown_file (9*7)
-'engclasses.dao.filesystem.UtenteDAOFile"
+offertamodel.Offerta*<
+
+__unknown_file ( 
+
 
-password*
-1*ñ
-1E$ E(*<
-:
-E$ E(*
-%6"__id*"
+nuovoStatojava.lang.String2setStato(Ljava/lang/String;)Ÿ
+œ
+b b( 
+%4boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
 
-__unknown_file (
-""“
-F F(#
-%7java.lang.String",model.Utente#getUsername()Ljava/lang/String;*/
+__unknown_file (,*
+(engclasses.dao.filesystem.OffertaDAOFile"
+b b(!
+""*
+3_ _(!~
+|
+_ _(!
+%0java.util.Map"__id*U
 
-__unknown_file (
-
-umodel.Utente2getUsername()“
-F% F(4
-%8java.lang.String",model.Utente#getPassword()Ljava/lang/String;*/
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerteœ
+™
+_ _(0
+%1model.Offerta"__mapGet*1
 
-__unknown_file (
-
-umodel.Utente2getPassword()“
-F6 F(E
-%9java.lang.String",model.Utente#getUsername()Ljava/lang/String;*/
+__unknown_file (
+
+%0java.util.Map*;
 
-__unknown_file (
-
-umodel.Utente2getUsername()ÙÖ
-F6 F(V
-%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+__unknown_file (
+
+	idOffertajava.lang.String_
+]
+_ _(1
+offertamodel.Offerta"__id*1
 
-__unknown_file (
-
-%9java.lang.String*:
+__unknown_file (
+
+%1model.Offertav
+t
+` `(
+%2boolean"	__compare*
+` `(
+!=*&
+` `(
 
-__unknown_file (
-
-usernamejava.lang.String2equals(Ljava/lang/Object;)”‘
-FX F(g
-%11java.lang.String",model.Utente#getPassword()Ljava/lang/String;*/
+offertamodel.Offerta*
+` `(
+""*
+2
+1*„
+startingBlock^  ^(E
+
+] ](
+%5"
+__annotate*2
 
-__unknown_file (
-
-umodel.Utente2getPassword()Ú×
-FX F(x
-%12boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+__unknown_file (
+java.lang.Override*;
 
-__unknown_file (
-
-%11java.lang.String*:
+__unknown_file (
+
+	idOffertajava.lang.String]
+[
+^( ^(1
+	idOffertajava.lang.String"__annotation*"
 
-__unknown_file (
-
-passwordjava.lang.String2equals(Ljava/lang/Object;)"
-E$ F(y
-"":
-E E( 
-umodel.UtenteB
-java.util.function.Consumer
+__unknown_file (
+
+%5‘
+Ž
+] ](
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+nuovoStatojava.lang.String^
+\
+^: ^(D
+
+nuovoStatojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+3*!
+1d d("
+d d(
+"":)
+^! ^(2
+	idOffertajava.lang.String:*
+^3 ^(D
+
+nuovoStatojava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileHX

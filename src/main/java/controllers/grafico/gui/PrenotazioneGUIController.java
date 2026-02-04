@@ -307,7 +307,7 @@ public class PrenotazioneGUIController {
 
     private void tornaAllaHome() {
         // Torna alla schermata principale invece di chiudere l'applicazione
-        engclasses.pattern.ViewFactory.ViewManager.goTo(misc.ViewType.MAIN);
+        engclasses.pattern.viewfactory.ViewManager.goTo(misc.ViewType.MAIN);
     }
 
     private void mostraMessaggio(String messaggio, boolean isErrore) {

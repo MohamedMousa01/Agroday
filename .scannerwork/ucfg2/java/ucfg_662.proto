@@ -1,70 +1,36 @@
 
-<engclasses.dao.filesystem.AppuntamentoDAOFile#salvaSuFile()Zl
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.java- -("6*!
-30 0("
-0 0(
-""*ƒ
-4. .(]u
-s
-. .(]!
-oosjava.io.ObjectOutputStream"__id*>
-
-__unknown_file ("
- 
-%3java.io.ObjectOutputStream‰
+__sonar_lambda_54$misc.SessionK
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaZ* Z(["startingBlock*ª
+startingBlockZ* Z([‰
 †
-/ /((
-%5java.util.Map"__id*_
-
-__unknown_file (C*A/
--engclasses.dao.filesystem.AppuntamentoDAOFile"
-appuntamentiëè
-/ /()
-
-%6void";java.io.ObjectOutputStream#writeObject(Ljava/lang/Object;)V*?
-
-__unknown_file (#
-!
-oosjava.io.ObjectOutputStream*1
-
-__unknown_file (
-
-%5java.util.Map2writeObject(Ljava/lang/Object;)*
-3*®
-5.& .(]JH
-.* .(< 
-%3java.io.ObjectOutputStream"java.io.ObjectOutputStreamÍ
-Ê
-.& .(]
-%4":java.io.ObjectOutputStream#<init>(Ljava/io/OutputStream;)V*>
 
 __unknown_file ("
- 
-%3java.io.ObjectOutputStream*<
+idAppuntamentojava.lang.String"__id*@
 
-__unknown_file ( 
-
-%1java.io.FileOutputStream*
-4*ø
-6.R .([\
-Z
-.R .([
-%0java.lang.String"__id*0
+__unknown_file ($*"
+misc.Session"
+idAppuntamento*
+1*×
+1Z/ Z(0ÉÆ
+Z/ Z(D
+%4java.lang.String"Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;*D
 
-__unknown_file (
-appuntamenti.datFD
-.A .(Q
-%1java.io.FileOutputStream"java.io.FileOutputStream½
-º
-.= .(\
-%2"4java.io.FileOutputStream#<init>(Ljava/lang/String;)V*<
-
-__unknown_file ( 
-
-%1java.io.FileOutputStream*4
+__unknown_file ((
+&
+a!engclasses.beans.AppuntamentoBean2getIdAppuntamento()ÞÛ
+Z/ Z([
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
 
 __unknown_file (
 
-%0java.lang.String*
-5B1/
--engclasses.dao.filesystem.AppuntamentoDAOFileX
+%4java.lang.String*@
+
+__unknown_file ($
+"
+idAppuntamentojava.lang.String2equals(Ljava/lang/Object;)"
+Z/ Z([
+
+%5boolean:2
+Z* Z(+&
+a!engclasses.beans.AppuntamentoBeanB 
+java.util.function.Predicate

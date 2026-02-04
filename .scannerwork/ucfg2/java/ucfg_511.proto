@@ -1,16 +1,137 @@
 
-/model.Offerta#getIdAnnuncio()Ljava/lang/String;L
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.java2 2("1*ž
-13 3(i
-g
-3 3(
-%0java.lang.String"__id*=
+~engclasses.pattern.factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;l
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AgricoltoreFactory.java
+ 
+("startingBlock*Ž
+startingBlock
+ 
+(?‰
+†
+	 	(
+%8"
+__annotate*2
 
-__unknown_file (!*
-model.Offerta"
-
-idAnnuncio"$
-3 3(
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
 
-%0java.lang.StringB
-model.OffertaH
+idjava.lang.StringV
+T
+
+$ 
+(&
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8
+š
+	 	(
+%9"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBeanj
+h
+
+: 
+(>*
+bean"engclasses.beans.RegistrazioneBean"__annotation*"
+
+__unknown_file (
+
+%9*
+1*Ù
+1 (!Â¿
+ ("
+%0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getUsername()¼¹
+ (
+%1java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getEmail()Â¿
+ ("
+%2java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getPassword()º·
+ (
+%3java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2	getNome()À½
+ (!
+%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getCognome()¼¹
+ (
+%5java.lang.String"?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getCitta()86
+ (
+%6model.Agricoltore"model.Agricoltoreà
+Ý
+ ( 
+%7"™model.Agricoltore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*5
+
+__unknown_file (
+
+%6model.Agricoltore*4
+
+__unknown_file (
+
+idjava.lang.String*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String"%
+ (!
+
+%6model.Agricoltore:"
+
+ 
+('
+idjava.lang.String:6
+
+( 
+(>*
+bean"engclasses.beans.RegistrazioneBeanB1/
+-engclasses.pattern.factory.AgricoltoreFactoryH

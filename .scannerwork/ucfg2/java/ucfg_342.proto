@@ -1,10 +1,72 @@
 
-H__sonar_lambda_27$controllers.grafico.gui.ListaAppuntamentiGUIControlleru
-k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ListaAppuntamentiGUIController.javaJ& K(S"1*!
-1K) K(1"
-K K(S
-"": 
+Jengclasses.dao.memory.PartecipazioneDAOMemory#elimina(Ljava/lang/String;)Zl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java ("startingBlock*!
+2 ("
+ (
+""*›
+3 (ƒ
+€
+ ($
+%0boolean"	__compare*
+ (
+==*2
+ (&
+$
+idPartecipazionejava.lang.String*
+  ($
+""*
+2
+1*ž
+startingBlock (3—
+”
+ (
+%4"
+__annotate*2
 
-__unknown_file (
-""B
-	!Unknown!
+__unknown_file (
+java.lang.Override*B
+
+__unknown_file (&
+$
+idPartecipazionejava.lang.Stringd
+b
+" (2$
+idPartecipazionejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+3*˜
+1   (K
+I
+   (
+%1java.util.Map"__id*"
+
+__unknown_file (
+""­
+ª
+   (6
+%2model.Partecipazione"__mapRemove*1
+
+__unknown_file (
+
+%1java.util.Map*B
+
+__unknown_file (&
+$
+idPartecipazionejava.lang.Stringx
+v
+   (>
+%3boolean"	__compare*
+ 7  (9
+!=*(
+   (6
+
+%2model.Partecipazione*
+ :  (>
+"""
+   (?
+"":0
+ (2$
+idPartecipazionejava.lang.StringB1/
+-engclasses.dao.memory.PartecipazioneDAOMemoryHX

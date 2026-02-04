@@ -1,45 +1,18 @@
 
-4view.cli.VisualizzaAnnunciCLIView#%field_initializer
-__unknown_file ("1*·	
-1 (ëé
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java( (/
-%0java.util.Scanner"java.util.Scannerÿ
-’
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""ƒ
-¡
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java (;0#
-!view.cli.VisualizzaAnnunciCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner≈
-¬
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java4 (](
-%2"java.time.format.DateTimeFormatter"djava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;*2
- (&"$
-"java.time.format.DateTimeFormatter*
- (
+>model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaé é()"1*∫
+1
+è è(z
+x
 
-dd/MM/yyyy€
-ÿ
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java (^6#
-!view.cli.VisualizzaAnnunciCLIView"
-dateFormatter"__id*6
- (*
-(
-%2"java.time.format.DateTimeFormatter"v
-_
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java Æ(
-implicit returnB%#
-!view.cli.VisualizzaAnnunciCLIView
+è è(
+%0java.time.LocalDateTime"__id*E
+
+__unknown_file ()*'
+model.Appuntamento"
+dataOraInizio"-
+
+è è(
+
+%0java.time.LocalDateTimeB
+model.AppuntamentoH

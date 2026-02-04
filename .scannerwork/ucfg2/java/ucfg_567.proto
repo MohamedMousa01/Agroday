@@ -1,33 +1,15 @@
 
-Hengclasses.dao.memory.AppuntamentoDAOMemory#trovaTutti()Ljava/util/List;j
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javao o(("1*–
-1p p(+K
-I
-p p(+
-%0java.util.Map"__id*"
+*model.Offerta#getStato()Ljava/lang/String;L
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaF F("1*™
+1G G(d
+b
+G G(
+%0java.lang.String"__id*8
 
-__unknown_file (
-""”‘
-p p(4
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()<:
-p p(
-%2java.util.ArrayList"java.util.ArrayList»
-¸
-p p(5
-%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
-
-__unknown_file (
-
-%2java.util.ArrayList*8
-
-__unknown_file (
-
-%1java.util.Collection"'
-p p(6
-
-%2java.util.ArrayListB/-
-+engclasses.dao.memory.AppuntamentoDAOMemoryH
+__unknown_file (*
+model.Offerta"
+stato"$
+G G(
+
+%0java.lang.StringB
+model.OffertaH

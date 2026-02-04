@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770144194210*java2.BÂ
+1.0MohamedMousa01_AgrodayJavaFrontend"1770198474314*java2.BÂ
 =
 8src/main/java/engclasses/dao/factory/DAOFileFactory.java2
 	
@@ -22,7 +22,7 @@
 
 full-range13
 
-(22:1)-(62:2)14
+(15:1)-(55:2)14
 
 simple-name15
 
@@ -41,7 +41,7 @@ cengclasses.dao.factory.DAOFileFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasse
 
 method24
 
-(24:5)-(31:6)25
+(17:5)-(24:6)25
 
 getUtenteDAO26
 "
@@ -74,7 +74,7 @@ references36
 ]
 Wengclasses.dao.factory.DAOFileFactory#getLoginUtenteDAO()Lengclasses/dao/api/UtenteDAO;49
 
-(33:5)-(36:6)50
+(26:5)-(29:6)50
 
 getLoginUtenteDAO51
 -
@@ -82,7 +82,7 @@ Wengclasses.dao.factory.DAOFileFactory#getLoginUtenteDAO()Lengclasses/dao/api/Ut
 d
 ^engclasses.dao.factory.DAOFileFactory#getAppuntamentoDAO()Lengclasses/dao/api/AppuntamentoDAO;55
 
-(38:5)-(41:6)56
+(31:5)-(34:6)56
 
 getAppuntamentoDAO57
 (
@@ -92,7 +92,7 @@ d
 \
 Vengclasses.dao.factory.DAOFileFactory#getAnnuncioDAO()Lengclasses/dao/api/AnnuncioDAO;63
 
-(43:5)-(46:6)64
+(36:5)-(39:6)64
 
 getAnnuncioDAO65
 $
@@ -102,7 +102,7 @@ $
 h
 bengclasses.dao.factory.DAOFileFactory#getPartecipazioneDAO()Lengclasses/dao/api/PartecipazioneDAO;71
 
-(48:5)-(51:6)72
+(41:5)-(44:6)72
 
 getPartecipazioneDAO73
 *
@@ -112,7 +112,7 @@ $engclasses.dao.api.PartecipazioneDAO75
 Z
 Tengclasses.dao.factory.DAOFileFactory#getOffertaDAO()Lengclasses/dao/api/OffertaDAO;79
 
-(53:5)-(56:6)80
+(46:5)-(49:6)80
 
 getOffertaDAO81
 #
@@ -122,7 +122,7 @@ Tengclasses.dao.factory.DAOFileFactory#getOffertaDAO()Lengclasses/dao/api/Offert
 `
 Zengclasses.dao.factory.DAOFileFactory#getConsulenteDAO()Lengclasses/dao/api/ConsulenteDAO;87
 
-(58:5)-(61:6)88
+(51:5)-(54:6)88
 
 getConsulenteDAO89
 &
@@ -143,7 +143,7 @@ Zengclasses.dao.factory.DAOFileFactory#getConsulenteDAO()Lengclasses/dao/api/Con
 M
 22G
 222324 *
-1 ("28:5B$
+1 ("28:5B$
 
 
 11
@@ -162,7 +162,7 @@ M
 M
 86G
 868724 *
-1;- ;(=28:5B$
+14- 4(=28:5B$
 
 
 11
@@ -178,7 +178,7 @@ M
 M
 62G
 626324 *
-1, ,(&28:5B$
+1% %(&28:5B$
 
 
 11
@@ -200,7 +200,7 @@ M
 M
 54G
 545524 *
-1' '(.28:5B$
+1   (.28:5B$
 
 
 11
@@ -219,7 +219,7 @@ M
 M
 48G
 484924 *
-1" "('28:5B$
+1 ('28:5B$
 
 
 11
@@ -235,7 +235,7 @@ M
 G
 8B
 8910 *
-1 (:5B$
+1 (:5B$
 
 
 11
@@ -263,7 +263,7 @@ G
 M
 70G
 707124 *
-111 1(E28:5B$
+1*1 *(E28:5B$
 
 
 11
@@ -288,7 +288,7 @@ M
 M
 78G
 787924 *
-16* 6(728:5B$
+1/* /(728:5B$
 
 
 11
@@ -324,103 +324,103 @@ M
 767719r”
 
 81720*
-1% (/
+1% (/
 
 81721*
-1% (/
+1% (/
 
 222729*
-1 (
+1 (
 
 223032*
-1# (-
+1# (-
 
 222721*
-1 (
+1 (
 
 223033*
-1. (2
+1. (2
 
 223021*
-1# (-
+1# (-
 
 223021*
-1 (
+1 (
 
 223436*
-1 (
+1 (
 
 223739*
-1% (7
+1% (7
 
 223021*
-1 (
+1 (
 
 224036*
-1 (
+1 (
 
 224239*
-1# (3
+1# (3
 
 223021*
-1 (
+1 (
 
 224436*
-1 (
+1 (
 
 224639*
-1$ (5
+1$ (5
 
 482729*
-1" "(
+1 (
 
 482721*
-1" "(
+1 (
 
 485239*
-1# #(!
+1 (!
 
 545829*
-1' '(
+1   (
 
 545821*
-1' '(
+1   (
 
 546039*
-1( (('
+1! !('
 
 626629*
-1, ,(
+1% %(
 
 626621*
-1, ,(
+1% %(
 
 626839*
-1- -(#
+1& &(#
 
 707429*
-11 1(0
+1* *(0
 
 707421*
-11 1(0
+1* *(0
 
 707639*
-12. 2(C
+1+. +(C
 
 788229*
-16 6()
+1/ /()
 
 788221*
-16 6()
+1/ /()
 
 788439*
-17. 7(<
+10. 0(<
 
 869029*
-1; ;(,
+14 4(,
 
 869021*
-1; ;(,
+14 4(,
 
 864639*
-1< <(%
+15 5(%

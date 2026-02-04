@@ -2,7 +2,7 @@ package controllers.grafico.cli;
 
 import controllers.applicativo.AnnuncioController;
 import engclasses.beans.AnnuncioBean;
-import engclasses.pattern.ViewFactory.ViewManager;
+import engclasses.pattern.viewfactory.ViewManager;
 import misc.Session;
 import misc.ViewType;
 import model.Utente;

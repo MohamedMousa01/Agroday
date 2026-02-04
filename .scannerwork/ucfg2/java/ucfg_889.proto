@@ -1,36 +1,21 @@
 
-A__sonar_lambda_73$engclasses.dao.filesystem.PartecipazioneDAOFilen
-d/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/PartecipazioneDAOFile.java^ ^(G"startingBlock*Ë
-startingBlock^ ^(Gª
-§
-
-__unknown_file (!
-idAgricoltorejava.lang.String"__id*b
-
-__unknown_file (F*D1
-/engclasses.dao.filesystem.PartecipazioneDAOFile"
-idAgricoltore*
-1*º
-1^ ^(*­ª
-^2 ^(F
-%7java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
-
-__unknown_file (
-
-pmodel.Partecipazione2getIdAgricoltore()ÝÚ
-^ ^(G
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
-
-__unknown_file (#
-!
-idAgricoltorejava.lang.String*4
-
-__unknown_file (
-
-%7java.lang.String2equals(Ljava/lang/Object;)"
-^ ^(G
-
-%8boolean:%
-^ ^(
-pmodel.PartecipazioneB 
-java.util.function.Predicate
+5engclasses.dao.filesystem.ConsulenteDAOFile#<init>()V
+__unknown_file ("startingBlock*à
+startingBlockh
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java
+ 
+(ã
+à
+h
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java
+ 
+(
+%0"1engclasses.dao.filesystem.UtenteDAOFile#<init>()V*;
+ (/-
++engclasses.dao.filesystem.ConsulenteDAOFile"
+h
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java
+ 
+(
+implicit returnB/-
++engclasses.dao.filesystem.ConsulenteDAOFile

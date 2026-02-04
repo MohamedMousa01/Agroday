@@ -1,91 +1,99 @@
 
-@engclasses.dao.memory.AnnuncioDAOMemory#salva(Lmodel/Annuncio;)Zf
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.java ("startingBlock*!
-2 ("
- (
-""*°
-3  ((¢Ÿ
-  (8
-%1java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
-
-__unknown_file (
-
-annunciomodel.Annuncio2getIdAnnuncio()t
-r
-  (@
-%2boolean"	__compare*
-9 (;
-==*$
-  (8
-
-%1java.lang.String*
-< (@
-""*
-2
-1*Š
-startingBlock (+
-Š
- (
-%6"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*8
-
-__unknown_file (
-
-annunciomodel.AnnuncioZ
-X
-" (*
-annunciomodel.Annuncio"__annotation*"
-
-__unknown_file (
-
-%6*
-4*
-4 (x
-v
- (
-%0boolean"	__compare*
- (
-==*(
- (
-
-annunciomodel.Annuncio*
- (
-""*
-2
-3*æ
-1 (K
-I
- (
-%3java.util.Map"__id*"
+Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;_
+U/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/ConnessioneDB.java% %(*"1*ÿ
+1& &(R
+P
+& &(
+%0java.util.Properties"__id*"
 
 __unknown_file (
-""¢Ÿ
- (,
-%4java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
+""ðí
+& &(5
+%1java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
 
 __unknown_file (
 
-annunciomodel.Annuncio2getIdAnnuncio()Ð
-Í
- (7
-%5model.Annuncio"__mapSet*1
+%0java.util.Properties*&
 
-__unknown_file (
-
-%3java.util.Map*4
+__unknown_file (
+
+db.url2getProperty(Ljava/lang/String;)a
+_
+& &(6
+urljava.lang.String"__id*4
 
 __unknown_file (
 
-%4java.lang.String*8
+%1java.lang.StringR
+P
+' '( 
+%2java.util.Properties"__id*"
+
+__unknown_file (
+""ñî
+' '(7
+%3java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
 
 __unknown_file (
 
-annunciomodel.Annuncio"
- (
-"":&
- (*
-annunciomodel.AnnuncioB+)
-'engclasses.dao.memory.AnnuncioDAOMemoryHX
+%2java.util.Properties*'
+
+__unknown_file (	
+db.user2getProperty(Ljava/lang/String;)b
+`
+' '(8
+userjava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.StringR
+P
+( (($
+%4java.util.Properties"__id*"
+
+__unknown_file (
+""õò
+( ((?
+%5java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%4java.util.Properties*+
+
+__unknown_file (
+db.password2getProperty(Ljava/lang/String;)f
+d
+( ((@
+passwordjava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.String<
+:
+* *(
+%6"__id*"
+
+__unknown_file (
+""þ
+û
++ +(?
+%7java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*6
+
+__unknown_file ("
+java.sql.DriverManager*5
+
+__unknown_file (
+
+urljava.lang.String*6
+
+__unknown_file (
+
+userjava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String"'
++ +(@
+
+%7java.sql.ConnectionB$""
+ engclasses.pattern.ConnessioneDBH

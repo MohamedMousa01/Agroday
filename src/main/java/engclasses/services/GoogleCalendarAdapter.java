@@ -23,6 +23,10 @@ import java.util.UUID;
  * 1. Aggiungere le dipendenze Google Calendar API al pom.xml
  * 2. Configurare le credenziali OAuth2
  * 3. Implementare le chiamate API reali
+ * 
+ * SINGLETON PATTERN: Questa classe usa il pattern Singleton per garantire una singola istanza
+ * che gestisce tutte le interazioni con Google Calendar, mantenendo uno stato condiviso
+ * (configurazione, cache eventi) e evitando connessioni multiple al servizio esterno.
  */
 public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObserver {
 
@@ -154,8 +158,7 @@ public class GoogleCalendarAdapter implements CalendarService, AppuntamentoObser
         }
 
         switch (evento) {
-            case EventoAppuntamento.CANCELLATO_CLIENTE:
-            case EventoAppuntamento.CANCELLATO_CONSULENTE:
+            case EventoAppuntamento.CANCELLATO_CLIENTE, EventoAppuntamento.CANCELLATO_CONSULENTE:
                 // Cancella l'evento dal calendario
                 if (appuntamento.getGoogleCalendarEventId() != null) {
                     cancellaEvento(appuntamento.getGoogleCalendarEventId());

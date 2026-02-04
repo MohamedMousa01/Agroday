@@ -1,33 +1,16 @@
 
-Jengclasses.dao.memory.PartecipazioneDAOMemory#trovaTutte()Ljava/util/List;l
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.javaJ  J(*"1*–
-1K K(-K
-I
-K K(-
-%0java.util.Map"__id*"
+6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;S
+I/Users/mohamedmousa/Desktop/prova/src/main/java/model/Partecipazione.java$ $("1*¥
+1% %(p
+n
+% %(
+%0java.lang.String"__id*D
 
-__unknown_file (
-""”‘
-K K(6
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()<:
-K K(
-%2java.util.ArrayList"java.util.ArrayList»
-¸
-K K(7
-%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
-
-__unknown_file (
-
-%2java.util.ArrayList*8
-
-__unknown_file (
-
-%1java.util.Collection"'
-K K(8
-
-%2java.util.ArrayListB1/
--engclasses.dao.memory.PartecipazioneDAOMemoryH
+__unknown_file ((*&
+model.Partecipazione"
+
+idAnnuncio"$
+% %(
+
+%0java.lang.StringB
+model.PartecipazioneH

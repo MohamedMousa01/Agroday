@@ -1,13 +1,16 @@
 
-3model.AppuntamentoSulCampo#getDurataMinimaMinuti()IY
-O/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoSulCampo.java? ?(+"1*d
-1@ @(#A
-?
-@ @(#	
-%0int"__id*"
+:engclasses.beans.LoginBean#getUsername()Ljava/lang/String;Y
+O/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/LoginBean.java (!"1*©
+1 (t
+r
+ (
+%0java.lang.String"__id*H
 
-__unknown_file (
-"""
-@ @($
-""B"
-model.AppuntamentoSulCampoHX
+__unknown_file (,**
+engclasses.beans.LoginBean"
+
+username"$
+ (
+
+%0java.lang.StringB
+engclasses.beans.LoginBeanH

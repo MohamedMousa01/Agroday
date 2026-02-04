@@ -1,24 +1,30 @@
 
-Zengclasses.services.GoogleCalendarAdapter#configura(Ljava/lang/String;Ljava/lang/String;)Zh
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/GoogleCalendarAdapter.java: :("1*ù
-1< <(<
-:
-< <(
-%0"__id*"
+`controllers.applicativo.OffertaController#getOfferteAnnuncio(Ljava/lang/String;)Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.javaH H(+"1*Ë
+1I I(ì
+ê
+I I(#
+%0engclasses.dao.api.OffertaDAO"__id*Y
 
-__unknown_file (
-""<
-:
-= =(
-%1"__id*"
-
-__unknown_file (
-"""
-B B(
-"":/
-: :(4#
-credentialsPathjava.lang.String:*
-:5 :(F
+__unknown_file (=*;+
+)controllers.applicativo.OffertaController"
 
-calendarIdjava.lang.StringB-+
-)engclasses.services.GoogleCalendarAdapterHX
+offertaDAOûõ
+I I(6
+%1java.util.List"Rengclasses.dao.api.OffertaDAO#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;*A
+
+__unknown_file (%
+#
+%0engclasses.dao.api.OffertaDAO*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String2$trovaPerAnnuncio(Ljava/lang/String;)""
+I I(7
+
+%1java.util.List:*
+H, H(=
+
+idAnnunciojava.lang.StringB-+
+)controllers.applicativo.OffertaControllerH

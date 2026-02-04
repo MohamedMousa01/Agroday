@@ -1,14 +1,9 @@
 package engclasses.dao.factory;
 
-import engclasses.dao.api.AgricoltoreDAO;
+
 import engclasses.dao.api.AnnuncioDAO;
 import engclasses.dao.api.AppuntamentoDAO;
 import engclasses.dao.api.UtenteDAO;
-import engclasses.dao.api.VenditoreDAO;
-import engclasses.dao.db.UtenteDAODB;
-import engclasses.dao.filesystem.AgricoltoreDAOFile;
-import engclasses.dao.filesystem.ConsulenteDAOFile;
-import engclasses.dao.filesystem.VenditoreDAOFile;
 import engclasses.dao.memory.AgricoltoreDAOMemory;
 import engclasses.dao.memory.AnnuncioDAOMemory;
 import engclasses.dao.memory.AppuntamentoDAOMemory;

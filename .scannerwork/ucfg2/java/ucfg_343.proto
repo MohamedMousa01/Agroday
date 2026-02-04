@@ -1,10 +1,63 @@
 
-H__sonar_lambda_28$controllers.grafico.gui.ListaAppuntamentiGUIControlleru
-k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ListaAppuntamentiGUIController.javaM' N(\"1*!
-1N) N(1"
-N N(\
-"": 
+bengclasses.dao.memory.PartecipazioneDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Partecipazione;l
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java$ $($"startingBlock*!
+2& &("
+& &(
+""*›
+3% %(ƒ
+€
+% %($
+%0boolean"	__compare*
+% %(
+==*2
+% %(&
+$
+idPartecipazionejava.lang.String*
+%  %($
+""*
+2
+1*ž
+startingBlock$$ $(=—
+”
+# #(
+%3"
+__annotate*2
 
-__unknown_file (
-""B
-	!Unknown!
+__unknown_file (
+java.lang.Override*B
+
+__unknown_file (&
+$
+idPartecipazionejava.lang.Stringd
+b
+$, $(<$
+idPartecipazionejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+3*±
+1( ((K
+I
+( ((
+%1java.util.Map"__id*"
+
+__unknown_file (
+""ª
+§
+( ((3
+%2model.Partecipazione"__mapGet*1
+
+__unknown_file (
+
+%1java.util.Map*B
+
+__unknown_file (&
+$
+idPartecipazionejava.lang.String"(
+( ((4
+
+%2model.Partecipazione:0
+$% $(<$
+idPartecipazionejava.lang.StringB1/
+-engclasses.dao.memory.PartecipazioneDAOMemoryH
