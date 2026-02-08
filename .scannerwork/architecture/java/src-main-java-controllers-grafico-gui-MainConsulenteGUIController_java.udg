@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770198474738*java2.B–
+1.0MohamedMousa01_AgrodayJavaFrontend"1770206316359*java2.B∆
 K
 Fsrc/main/java/controllers/grafico/gui/MainConsulenteGUIController.java2
 	
@@ -22,149 +22,147 @@ Fsrc/main/java/controllers/grafico/gui/MainConsulenteGUIController.java2
 
 full-range13
 
-(18:1)-(85:2)14
+(18:1)-(78:2)14
 
 simple-name15
 !
 MainConsulenteGUIController16
+/
+)controllers.grafico.gui.BaseGUIController18
+
+unknown19
+
+extends20
+
+
+uses21
 F
-@controllers.grafico.gui.MainConsulenteGUIController.lblBenvenuto18
+@controllers.grafico.gui.MainConsulenteGUIController.lblBenvenuto23
 
-field19
+field24
 
-private20
+private25
 
-(20:5)-(20:38)21
+(20:5)-(20:38)26
 
-lblBenvenuto22
+lblBenvenuto27
 
-Label24
+Label29
 
-unknown25
-
-is type26
+is type30
 
 
-FXML28
+FXML32
 
-annotated by29
+annotated by33
 "
-Recovered#typeBindingLFXML;031
-
-
-uses32
+Recovered#typeBindingLFXML;035
 F
-@controllers.grafico.gui.MainConsulenteGUIController.btnRichieste34
+@controllers.grafico.gui.MainConsulenteGUIController.btnRichieste37
 
-(21:5)-(21:39)35
+(21:5)-(21:39)38
 
-btnRichieste36
+btnRichieste39
 
-Button38
+Button41
 M
-Gcontrollers.grafico.gui.MainConsulenteGUIController.btnConsulenzeAttive40
+Gcontrollers.grafico.gui.MainConsulenteGUIController.btnConsulenzeAttive43
 
-(22:5)-(22:46)41
+(22:5)-(22:46)44
 
-btnConsulenzeAttive42
+btnConsulenzeAttive45
 D
->controllers.grafico.gui.MainConsulenteGUIController.btnClienti44
+>controllers.grafico.gui.MainConsulenteGUIController.btnClienti47
 
-(23:5)-(23:37)45
+(23:5)-(23:37)48
 
 
-btnClienti46
+btnClienti49
 D
->controllers.grafico.gui.MainConsulenteGUIController.btnProfilo48
+>controllers.grafico.gui.MainConsulenteGUIController.btnProfilo51
 
-(24:5)-(24:37)49
+(24:5)-(24:37)52
 
 
-btnProfilo50
+btnProfilo53
 C
-=controllers.grafico.gui.MainConsulenteGUIController.btnLogout52
+=controllers.grafico.gui.MainConsulenteGUIController.btnLogout55
 
-(25:5)-(25:36)53
+(25:5)-(25:36)56
 
-	btnLogout54
+	btnLogout57
 G
-Acontrollers.grafico.gui.MainConsulenteGUIController#initialize()V56
+Acontrollers.grafico.gui.MainConsulenteGUIController#initialize()V59
 
-method57
+method60
 
-(27:5)-(34:6)58
+(27:5)-(34:6)61
 
 
-initialize59
+initialize62
 
-model.Utente61
+model.Utente64
 
-returns62
+returns65
 
-misc.Session64
+misc.Session67
 
 
-references65
+references68
 3
--misc.Session#getUtenteLoggato()Lmodel/Utente;67
+-misc.Session#getUtenteLoggato()Lmodel/Utente;70
 
-calls68
+calls71
 .
-(misc.Session#getInstance()Lmisc/Session;70
+(misc.Session#getInstance()Lmisc/Session;73
 .
-(model.Utente#getNome()Ljava/lang/String;72
+(model.Utente#getNome()Ljava/lang/String;75
 1
-+model.Utente#getCognome()Ljava/lang/String;74
++model.Utente#getCognome()Ljava/lang/String;77
 P
-Jcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaRichieste()V76
+Jcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaRichieste()V79
 
-(36:5)-(40:6)77
+(36:5)-(40:6)80
 
-visualizzaRichieste78
+visualizzaRichieste81
 0
-*engclasses.pattern.viewfactory.ViewManager80
+*engclasses.pattern.viewfactory.ViewManager83
 G
-Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V82
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V85
 
-misc.ViewType84
+misc.ViewType87
 &
- misc.ViewType.LISTA_APPUNTAMENTI86
+ misc.ViewType.LISTA_APPUNTAMENTI89
 N
-Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaClienti()V88
+Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaClienti()V91
 
-(44:5)-(56:6)89
+(44:5)-(56:6)92
 
-visualizzaClienti90
-Å
-{controllers.grafico.gui.MainConsulenteGUIController#mostraMessaggio(Ljava/lang/String;Ljava/lang/String;LAlert/AlertType;)V92
+visualizzaClienti93
+w
+qcontrollers.grafico.gui.BaseGUIController#mostraMessaggio(Ljava/lang/String;Ljava/lang/String;LAlert/AlertType;)V95
 N
-Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaProfilo()V94
+Hcontrollers.grafico.gui.MainConsulenteGUIController#visualizzaProfilo()V97
 
-(58:5)-(62:6)95
+(58:5)-(62:6)98
 
-visualizzaProfilo96
-
-misc.ViewType.PROFILO98
+visualizzaProfilo99
+
+misc.ViewType.PROFILO101
 D
-=controllers.grafico.gui.MainConsulenteGUIController#logout()V100
+=controllers.grafico.gui.MainConsulenteGUIController#logout()V103
 
-(64:5)-(76:6)101
+(64:5)-(76:6)104
 
-logout102
+logout105
 $
-Recovered#typeBindingLAlert;0104
+Recovered#typeBindingLAlert;0107
 )
-"Recovered#typeBindingLButtonType;0106
+"Recovered#typeBindingLButtonType;0109
 #
-misc.Session#clearSession()V108
+misc.Session#clearSession()V111
 
-misc.ViewType.LOGIN110
-
-(78:5)-(84:6)111
-
-mostraMessaggio112
-
-	has param113J
+misc.ViewType.LOGIN113J
 
 1
 12
@@ -174,167 +172,157 @@ $
 4 Z
 
 5
-5768jä
+5768jÊ
+
 
-81
-818225
+84
+848519
 
-66
-666725
+69
+697019
 M
-39G
-394019 *
+42G
+424324 *
 1 (-28:5B$
 
 
 11
-20
+25
 
 
 13
-41
+44
 
 
 15
-42
+45
 M
-93G
-939457 *
+96G
+969760 *
 1; ;(#28:5B$
 
 
 11
-20
+25
 
 
 13
-95
+98
 
 
 15
-96
+99
 
-30
-303125
+34
+343519
 
-69
-697025
+72
+727319
 
-60
-606125
+63
+636419
 
-23
-232425
+28
+282919
 M
-33G
-333419 *
+36G
+363724 *
 1 (&28:5B$
 
 
 11
-20
+25
 
 
 13
-35
+38
 
 
 15
-36
+39
 
-27
-272825
+31
+313219
 
-63
-636425
+66
+666719
 
-103
-10310425
+106
+10610719
 M
-75G
-757657 *
+78G
+787960 *
 1% %(%28:5B$
 
 
 11
-20
+25
 
 
 13
-77
+80
 
 
 15
-78
-P
-99J
-9910057 *
+81
+R
+102K
+10210360 *
 1A A(28:5B&
 
 
 11
-20
+25
 
 13
-101
+104
 
 15
-102
-O
-91I
-919257 *
-1N N(!28:5B&
-
-
-11
-20
-
-13
-111
-
-15
-112
+105
 
-37
-373825
+17
+171819
 
-83
-838425
+40
+404119
+
+86
+868719
 M
-47G
-474819 *
+50G
+505124 *
 1 ($28:5B$
 
 
 11
-20
+25
 
 
 13
-49
+52
 
 
 15
-50
+53
 M
-51G
-515219 *
+54G
+545524 *
 1 (#28:5B$
 
 
 11
-20
+25
 
 
 13
-53
+56
 
 
 15
-54
+57
 
-71
-717225
+74
+747519
 G
 8B
 8910 *
@@ -352,55 +340,55 @@ G
 15
 16
 M
-87G
-878857 *
+90G
+909160 *
 1- -(#28:5B$
 
 
 11
-20
+25
 
 
 13
-89
+92
 
 
 15
-90
+93
 M
-43G
-434419 *
+46G
+464724 *
 1 ($28:5B$
 
 
 11
-20
+25
 
 
 13
-45
+48
 
 
 15
-46
+49
 
-73
-737425
+76
+767719
 
-79
-798025
-
-97
-979825
+82
+828319
 
-105
-10510625
+100
+10010119
 
-109
-10911025
+108
+10810919
+
+112
+11211319
 M
-55G
-555657 *
+58G
+585960 *
 1 (28:5B$
 
 
@@ -409,325 +397,316 @@ M
 
 
 13
-58
+61
 
 
 15
-59
+62
 
-107
-10710825
+110
+11011119
 M
-17G
-171819 *
+22G
+222324 *
 1 (%28:5B$
 
 
 11
-20
+25
 
 
 13
-21
+26
 
 
 15
-22
+27
 
-85
-858625r§
+88
+888919
+
+94
+949519r¬
+
+81720*
+12 (C
+
+81721*
+12 (C
 
-172326*
+222830*
 1 (
 
-172729*
+223133*
 1 (
 
 
-173032*
+223421*
 1 (
 
 
-172332*
+222821*
 1 (
 
-172332*
+222821*
 1 (%
 
-333726*
+364030*
 1 (
 
-332729*
+363133*
 1 (
 
 
-333032*
+363421*
 1 (
 
 
-333732*
+364021*
 1 (
 
-333732*
+364021*
 1 (&
 
-393726*
+424030*
 1 (
 
-392729*
+423133*
 1 (
 
 
-393032*
+423421*
 1 (
 
 
-393732*
+424021*
 1 (
 
-393732*
+424021*
 1 (-
 
-433726*
+464030*
 1 (
 
-432729*
+463133*
 1 (
 
 
-433032*
+463421*
 1 (
 
 
-433732*
+464021*
 1 (
 
-433732*
+464021*
 1 ($
 
-473726*
+504030*
 1 (
 
-472729*
+503133*
 1 (
 
 
-473032*
+503421*
 1 (
 
 
-473732*
+504021*
 1 (
 
-473732*
+504021*
 1 ($
 
-513726*
+544030*
 1 (
 
-512729*
+543133*
 1 (
 
 
-513032*
+543421*
 1 (
 
 
-513732*
+544021*
 1 (
 
-513732*
+544021*
 1 (#
 
-552729*
+583133*
 1 (
 
 
-553032*
+583421*
 1 (
 
 
-556026*
+586330*
 1 (
 
-556032*
+586321*
 1	 (
 
-556062*
+586365*
 1 (?
 
-556365*
+586668*
 1 (?
 
-556668*
+586971*
 1/ (?
 
-556362*
+586665*
 1 (,
 
-556365*
+586668*
 1 (,
 
-556968*
+587271*
 1! (,
 
-556332*
+586621*
 1 ( 
 
-551765*
+582268*
 1   (
 
-552332*
+582821*
 1   (
 
-551765*
+582268*
 1   (
 
-556065*
+586368*
 1 2  (@
 
-557168*
+587471*
 1 9  (@
 
-556065*
+586368*
 1 K  (\
 
-557368*
+587671*
 1 R  (\
 
-752729*
+783133*
 1$ $(
 
 
-753032*
+783421*
 1$ $(
 
 
-757965*
+788268*
 1'	 '(
 
-758168*
+788471*
 1' '(
 
-757932*
+788221*
 1'	 '(
 
-758332*
+788621*
 1' '("
 
-758332*
+788621*
 1'# '(5
 
-758565*
+788868*
 1'# '(5
 
-872729*
+903133*
 1, ,(
 
 
-873032*
+903421*
 1, ,(
 
-
-87865*
+
+901768*
 1/	 /(
 
-879168*
+909471*
 1/	 /(
 
-932729*
+963133*
 1: :(
 
 
-933032*
+963421*
 1: :(
 
 
-937965*
+968268*
 1=	 =(
 
-938168*
+968471*
 1= =(
 
-937932*
+968221*
 1=	 =(
 
-938332*
+968621*
 1= =("
 
-938332*
+968621*
 1=# =(*
-
-939765*
+
+9610068*
 1=# =(*
-
-992729*
+
+1023133*
 1@ @(
 
-
-993032*
+
+1023421*
 1@ @(
 
-
-9910326*
+
+10210630*
 1B B(
-
-9910332*
+
+10210621*
 1B	 B(
-
-9910532*
+
+10210821*
 1G G(
-
-996365*
+
+1026668*
 1I I(/
-
-9910768*
+
+10211071*
 1I# I(/
-
-996362*
-1I I( 
-
-996365*
-1I I( 
-
-996968*
-1I I( 
-
-996332*
-1I I(
-
-997965*
-1J J(
-
-998168*
-1J J(
-
-997932*
-1J J(
-
-998332*
-1J J(&
-
-998332*
-1J' J(,
 
-9910965*
+1026665*
+1I I( 
+
+1026668*
+1I I( 
+
+1027271*
+1I I( 
+
+1026621*
+1I I(
+
+1028268*
+1J J(
+
+1028471*
+1J J(
+
+1028221*
+1J J(
+
+1028621*
+1J J(&
+
+1028621*
 1J' J(,
 
-91103113*
-1NC N(R
-
-9110326*
-1NS N(W
-
-9110332*
-1NC N(H
-
-9110332*
-1NI N(R
-
-9110326*
-1O O(
-
-9110332*
-1O	 O(
+10211268*
+1J' J(,

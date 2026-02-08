@@ -1,28 +1,91 @@
 
-xengclasses.dao.db.AppuntamentoDAODB#creaAppuntamentoInUfficio(Lmodel/Appuntamento$Builder;)Lmodel/AppuntamentoInUfficio;d
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.javaÛ" Û(;"1*ó
+Zengclasses.dao.db.AppuntamentoDAODB#trovaPerConsulente(Ljava/lang/String;)Ljava/util/List;d
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.java© ©(0"startingBlock*œ
+startingBlock
+©0 ©(E•
+’
+
+¨ ¨(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.Stringb
+`
+
+©8 ©(D 
+idConsulentejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*œ
 1
-Ü) Ü(0NL
+ª ª(bç
+ä
 
-Ü Ü((!
-%0model.AppuntamentoInUfficio"model.AppuntamentoInUfficioÞ
-Û
+ª «(Z
+%0java.lang.String"__concat*]
 
-Ü Ü(1
-%1"Amodel.AppuntamentoInUfficio#<init>(Lmodel/Appuntamento$Builder;)V*?
+ª ª(bOM
+KSELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, *U
+
+« «(ZGE
+Cdata_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, ¬
+©
+
+ª ¬(V
+%1java.lang.String"__concat*&
+
+ª «(Z
+
+%0java.lang.String*Q
+
+¬ ¬(VCA
+?data_creazione, data_ultima_modifica, google_calendar_event_id –
+“
+
+ª ­(@
+%2java.lang.String"__concat*&
+
+ª ¬(V
+
+%1java.lang.String*;
+
+­ ­(@-+
+)FROM appuntamenti WHERE id_consulente = ?c
+a
+
+ª ­(A
+sqljava.lang.String"__id*4
 
-__unknown_file (#
-!
-%0model.AppuntamentoInUfficio*C
+__unknown_file (
+
+%2java.lang.StringÍ
+Ê
+
+® ®(2
+%3java.util.List"jengclasses.dao.db.AppuntamentoDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*C
 
-__unknown_file ('
-%
-buildermodel.Appuntamento$Builder"1
+__unknown_file ('%
+#engclasses.dao.db.AppuntamentoDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String"$
 
-Ü Ü(2#
-!
-%0model.AppuntamentoInUfficio:3
+® ®(3
+
+%3java.util.List:.
 
-Û< Û(X%
-buildermodel.Appuntamento$BuilderB'%
-#engclasses.dao.db.AppuntamentoDAODB
+©1 ©(D 
+idConsulentejava.lang.StringB'%
+#engclasses.dao.db.AppuntamentoDAODBH

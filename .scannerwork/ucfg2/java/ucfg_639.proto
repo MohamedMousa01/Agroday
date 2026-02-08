@@ -1,38 +1,24 @@
 
-Fview.cli.RegistrazioneCLIView#chiediTitoloDiStudio()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.javaI I(&"1*î
-1J J(Q
-O
-J J(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ÑÎ
-J J(.
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*2
-
-__unknown_file (
-Titolo di studio: 2print(Ljava/lang/String;)w
-u
-K K(
-%2java.util.Scanner"__id*J
-
-__unknown_file (.*,
-view.cli.RegistrazioneCLIView"	
-scanner˜•
-K K(!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+=__sonar_lambda_50$engclasses.dao.memory.AppuntamentoDAOMemoryj
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javaR R(4"1*á
+1R R(¦£
+R R()
+%11misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
 
 __unknown_file (
 
-%2java.util.Scanner2
-nextLine()"$
-K K("
-
-%3java.lang.StringB!
-view.cli.RegistrazioneCLIViewH
+amodel.Appuntamento2
+getStato()Š‡
+R R(4
+%12boolean""misc.StatoAppuntamento#isAttivo()Z*;
+
+__unknown_file (
+
+%11misc.StatoAppuntamento2
+isAttivo()"
+R R(4
+
+%12boolean:#
+R R(
+amodel.AppuntamentoB 
+java.util.function.Predicate

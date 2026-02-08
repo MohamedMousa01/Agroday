@@ -1,15 +1,42 @@
 
-6misc.TipoConsulenza#getDisplayName()Ljava/lang/String;R
-H/Users/mohamedmousa/Desktop/prova/src/main/java/misc/TipoConsulenza.java ( "1*¥
-1 (p
-n
- (
-%0java.lang.String"__id*D
+?__sonar_lambda_63$engclasses.dao.filesystem.AppuntamentoDAOFilen
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javaž ž(E"startingBlock*É
+startingBlock
+ž ž(E¦
+£
 
-__unknown_file ((*&
-misc.TipoConsulenza"
-displayName"$
- (
+__unknown_file ( 
+idConsulentejava.lang.String"__id*_
+
+__unknown_file (C*A/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+idConsulente*
+1*»
+1
+ž ž()©¦
+
+ž1 ž(D
+%7java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*5
+
+__unknown_file (
+
+amodel.Appuntamento2getIdConsulente()ÞÛ
+
+ž ž(E
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*>
+
+__unknown_file ("
+ 
+idConsulentejava.lang.String*4
+
+__unknown_file (
 
-%0java.lang.StringB
-misc.TipoConsulenzaH
+%7java.lang.String2equals(Ljava/lang/Object;)"
+
+ž ž(E
+
+%8boolean:%
+
+ž ž(
+amodel.AppuntamentoB 
+java.util.function.Predicate

@@ -1,37 +1,57 @@
 
-9__sonar_lambda_12$engclasses.dao.filesystem.UtenteDAOFilef
-\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/UtenteDAOFile.java (M"startingBlock*π
-startingBlock (Mò
-ï
+Tmodel.observer.NotificationService#getInstance()Lmodel/observer/NotificationService;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/model/observer/NotificationService.java& (1"3*å
+2 (0ZX
+ (.(
+%2"model.observer.NotificationService""model.observer.NotificationServiceâ
+Ü
+ (0
+%3",model.observer.NotificationService#<init>()V*F
 
-__unknown_file (
-usernamejava.lang.String"__id*U
-
-__unknown_file (9*7)
-'engclasses.dao.filesystem.UtenteDAOFile"
+__unknown_file (*
+(
+%2"model.observer.NotificationServiceè
+å
+ (02$
+"model.observer.NotificationService"
 
-username*
-1*Ø
-1# ($ìê
-# (2
-%3java.lang.String",model.Utente#getUsername()Ljava/lang/String;*/
+instance"__id*F
 
-__unknown_file (
-
-amodel.Utente2getUsername()ÏÈ
-# (M
-%4boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
+__unknown_file (*
+(
+%2"model.observer.NotificationService*
+1*±
+3 (è
+å
+ ((
+%0"model.observer.NotificationService"__id*P
 
-__unknown_file (
-
-%3java.lang.String*:
-
-__unknown_file (
-
-usernamejava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
-# (M
+__unknown_file (4*2$
+"model.observer.NotificationService"
 
-%4boolean:
- (
-amodel.UtenteB 
-java.util.function.Predicate
+instanceá
+Ñ
+ (
+%1boolean"	__compare*
+ (
+==*6
+ (*
+(
+%0"model.observer.NotificationService*
+ (
+""*
+2
+1*◊
+1 (è
+å
+ ((
+%4"model.observer.NotificationService"__id*P
+
+__unknown_file (4*2$
+"model.observer.NotificationService"
+
+instance"6
+ (*
+(
+%4"model.observer.NotificationServiceB&"$
+"model.observer.NotificationServiceH

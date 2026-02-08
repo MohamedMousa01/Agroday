@@ -1,15 +1,57 @@
 
-view.cli.LoginCLIView#<init>()V
-__unknown_file ("startingBlock*ÿ
-startingBlockR
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (®
-«
-R
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (
-%0"(view.cli.LoginCLIView#%field_initializer*%
- (
-view.cli.LoginCLIView"i
-R
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (
-implicit returnB
-view.cli.LoginCLIView
+<engclasses.dao.memory.InMemoryDAO#salva(Ljava/lang/Object;)Z`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/InMemoryDAO.java ("3*!
+2 ("
+ (
+""*€
+3 (i
+g
+ (
+%0boolean"	__compare*
+ (
+==*
+ (
+
+entityT*
+ (
+""*
+2
+1*µ
+1 (w
+u
+ (
+%1java.util.Map"__id*N
+
+__unknown_file (2*0#
+!engclasses.dao.memory.InMemoryDAO"	
+storageïì
+ (!
+%2ID"Mengclasses.dao.memory.InMemoryDAO#getId(Ljava/lang/Object;)Ljava/lang/Object;*A
+
+__unknown_file (%#
+!engclasses.dao.memory.InMemoryDAO*)
+
+__unknown_file (
+
+entityT2getId(Ljava/lang/Object;)¦
+£
+ (*
+%3T"__mapSet*1
+
+__unknown_file (
+
+%1java.util.Map*&
+
+__unknown_file (
+
+
+%2ID*)
+
+__unknown_file (
+
+entityT"
+   (
+"":
+ (!
+entityTB%#
+!engclasses.dao.memory.InMemoryDAOHX

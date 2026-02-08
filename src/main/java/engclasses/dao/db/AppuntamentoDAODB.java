@@ -53,7 +53,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            logger.error("Errore nella creazione tabella appuntamenti", e);
+            SQLExceptionHandler.handleReadError(logger, " nella creazione tabella appuntamenti", e);
         }
     }
 
@@ -74,7 +74,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore nel salvataggio appuntamento", e);
+            SQLExceptionHandler.handleReadError(logger, " nel salvataggio appuntamento", e);
             return false;
         }
     }
@@ -112,7 +112,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore nell'aggiornamento appuntamento", e);
+            SQLExceptionHandler.handleReadError(logger, " nell'aggiornamento appuntamento", e);
             return false;
         }
     }
@@ -128,7 +128,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore nell'eliminazione appuntamento", e);
+            SQLExceptionHandler.handleReadError(logger, " nell'eliminazione appuntamento", e);
             return false;
         }
     }
@@ -151,7 +151,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nella ricerca appuntamento per ID", e);
+            SQLExceptionHandler.handleReadError(logger, " nella ricerca appuntamento per ID", e);
         }
         return null;
     }
@@ -203,7 +203,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nella ricerca appuntamenti per intervallo", e);
+            SQLExceptionHandler.handleReadError(logger, " nella ricerca appuntamenti per intervallo", e);
         }
         return risultati;
     }
@@ -229,7 +229,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nella ricerca appuntamenti per consulente e intervallo", e);
+            SQLExceptionHandler.handleReadError(logger, " nella ricerca appuntamenti per consulente e intervallo", e);
         }
         return risultati;
     }
@@ -251,7 +251,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nel recupero di tutti gli appuntamenti", e);
+            SQLExceptionHandler.handleReadError(logger, " nel recupero di tutti gli appuntamenti", e);
         }
         return risultati;
     }
@@ -282,12 +282,10 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nel controllo conflitti appuntamenti", e);
+            SQLExceptionHandler.handleReadError(logger, " nel controllo conflitti appuntamenti", e);
         }
         return false;
     }
-
-    // ==================== Metodi di utilità ====================
 
     private void impostaParametri(PreparedStatement pstmt, Appuntamento app) throws SQLException {
         pstmt.setString(1, app.getIdAppuntamento());
@@ -366,7 +364,7 @@ public class AppuntamentoDAODB implements AppuntamentoDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nell'esecuzione query appuntamenti", e);
+            SQLExceptionHandler.handleReadError(logger, " nell'esecuzione query appuntamenti", e);
         }
         return risultati;
     }

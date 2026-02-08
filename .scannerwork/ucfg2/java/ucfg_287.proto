@@ -1,98 +1,558 @@
 
-:view.cli.VisualizzaAnnunciCLIView#chiediNumeroAnnuncio(I)Ib
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java (#"6*%
-2
-„ „(?"
-
-„ „(?
-""*Ë
-3
-„ „(>´
-±
-
-„ „(>	
-%7int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+Gview.cli.VisualizzaAnnunciCLIView#mostraListaAnnunci(Ljava/util/List;)V`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java   (""9*â
+26 6(R
+P
+6 6(
+%60java.io.PrintStream"__id*"
 
-__unknown_file ("
-java.lang.Integer*4
+__unknown_file (
+""ùö
+6 6(^
+%61void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
 
-__unknown_file (
-
-%6java.lang.String*
-2*§
-4
-„$ „(=
-
-„$ „(=
-%6java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+__unknown_file (
+
+%60java.io.PrintStream*Ó
 
-__unknown_file (
-
-%5java.lang.String2trim()*
-3*°
-5
-„ „(}
-{
-
-„$ „(+
-%4java.util.Scanner"__id*N
+__unknown_file (¶³
+°â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜\n2println(Ljava/lang/String;)*
+5*×
+33 3(R
+P
+3 3(
+%52java.io.PrintStream"__id*"
 
-__unknown_file (2*0#
-!view.cli.VisualizzaAnnunciCLIView"	
-scannerš—
-
-„$ „(6
-%5java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+__unknown_file (
+""ÆÃ
+3D 3(Y
+%53java.time.LocalDate"Dengclasses.beans.AnnuncioBean#getDataScadenza()Ljava/time/LocalDate;*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2getDataScadenza()”
+‘
+3a 3(n)
+%54"java.time.format.DateTimeFormatter"__id*T
+
+__unknown_file (8*6#
+!view.cli.VisualizzaAnnunciCLIView"
+dateFormatter«¨
+3D 3(o
+%55java.lang.String"Rjava.time.LocalDate#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%53java.time.LocalDate*G
+
+__unknown_file (+
+)
+%54"java.time.format.DateTimeFormatter2,format(Ljava/time/format/DateTimeFormatter;)•
+’
+3; 3(t
+%56java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#padRight(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
 
 __unknown_file (
 
-%4java.util.Scanner2
-nextLine()*
-4*»
-6
-‚ ‚(S
-Q
-
-‚ ‚(
-%0java.io.PrintStream"__id*"
+%55java.lang.String* 
 
-__unknown_file (
-""†
-ƒ
-
-‚ ‚(J
-%1java.lang.String"__concat*=
-
-‚ ‚(D/-
-+\nâ¤ Inserisci il numero dell'annuncio (1-*
-
-‚G ‚(J
-""o
-m
-
-‚ ‚(R
-%2java.lang.String"__concat*&
-
-‚ ‚(J
-
-%1java.lang.String*
-
-‚M ‚(R
-): ÕÒ
-
-‚ ‚(S
-
-%3void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+__unknown_file (2%
+}
+3# 3(t
+%57java.lang.String"__concat*'
+3# 3(8
+â”‚  ğŸ“… Scadenza:    *%
+3; 3(t
+
+%56java.lang.Stringk
+i
+3# 3(z
+%58java.lang.String"__concat*%
+3# 3(t
+
+%57java.lang.String*
+3w 3(z
+â”‚Ú×
+3 3({
+%59void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%52java.io.PrintStream*5
+
+__unknown_file (
+
+%58java.lang.String2println(Ljava/lang/String;)*
+2*Ï8
+4) )(&œ
+™
+) )(-$
+%10engclasses.beans.AnnuncioBean"
+__arrayGet*7
 
 __unknown_file (
 
-%0java.io.PrintStream*4
+annuncijava.util.List*"
+
+__unknown_file (
+""|
+z
+) )(.$
+annengclasses.beans.AnnuncioBean"__id*B
+
+__unknown_file (&
+$
+%10engclasses.beans.AnnuncioBeanR
+P
+* *(
+%11java.io.PrintStream"__id*"
+
+__unknown_file (
+""÷ô
+* *(\
+%12void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%11java.io.PrintStream*Ñ
+
+__unknown_file (´±
+®â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”2println(Ljava/lang/String;)R
+P
++ +(
+%13java.io.PrintStream"__id*"
+
+__unknown_file (
+""^
+\
++) +(.
+
+%14int"__calculate*
+++ +(,
++*
++) +(*
+""*
++- +(.2a
+_
++ +(/
+%15java.lang.String"__concat*
++ +(%
+
+â”‚  [*
++( +(/
+
+
+%14intj
+h
++ +(6
+%16java.lang.String"__concat*%
++ +(/
+
+%15java.lang.String*
++2 +(6
+] ´±
++B +(Q
+%17java.lang.String";engclasses.beans.AnnuncioBean#getTitolo()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2getTitolo()•
+’
++9 +(V
+%18java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#padRight(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
+
+__unknown_file (
+
+%17java.lang.String* 
+
+__unknown_file (21}
+{
++ +(V
+%19java.lang.String"__concat*%
++ +(6
+
+%16java.lang.String*%
++9 +(V
+
+%18java.lang.Stringk
+i
++ +(\
+%20java.lang.String"__concat*%
++ +(V
+
+%19java.lang.String*
++Y +(\
+â”‚Ú×
++ +(]
+%21void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%13java.io.PrintStream*5
+
+__unknown_file (
+
+%20java.lang.String2println(Ljava/lang/String;)R
+P
+, ,(
+%22java.io.PrintStream"__id*"
+
+__unknown_file (
+""÷ô
+, ,(\
+%23void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%22java.io.PrintStream*Ñ
+
+__unknown_file (´±
+®â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤2println(Ljava/lang/String;)R
+P
+- -(
+%24java.io.PrintStream"__id*"
+
+__unknown_file (
+""´±
+-@ -(O
+%25java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2getAutore()•
+’
+-7 -(T
+%26java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#padRight(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
+
+__unknown_file (
+
+%25java.lang.String* 
+
+__unknown_file (2%
+}
+- -(T
+%27java.lang.String"__concat*'
+- -(4
+â”‚  ğŸ‘¤ Autore:      *%
+-7 -(T
+
+%26java.lang.Stringk
+i
+- -(Z
+%28java.lang.String"__concat*%
+- -(T
+
+%27java.lang.String*
+-W -(Z
+â”‚Ú×
+- -([
+%29void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%24java.io.PrintStream*5
+
+__unknown_file (
+
+%28java.lang.String2println(Ljava/lang/String;)R
+P
+. .(
+%30java.io.PrintStream"__id*"
+
+__unknown_file (
+""¾»
+.I .(]
+%31java.lang.String"@engclasses.beans.AnnuncioBean#getDescrizione()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2getDescrizione()•
+’
+.@ .(b
+%32java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#truncate(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
+
+__unknown_file (
+
+%31java.lang.String* 
+
+__unknown_file (2#•
+’
+.7 .(g
+%33java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#padRight(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
+
+__unknown_file (
+
+%32java.lang.String* 
+
+__unknown_file (2%
+}
+. .(g
+%34java.lang.String"__concat*'
+. .(4
+â”‚  ğŸ“ Descrizione: *%
+.7 .(g
+
+%33java.lang.Stringk
+i
+. .(m
+%35java.lang.String"__concat*%
+. .(g
+
+%34java.lang.String*
+.j .(m
+â”‚Ú×
+. .(n
+%36void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%30java.io.PrintStream*5
+
+__unknown_file (
+
+%35java.lang.String2println(Ljava/lang/String;)R
+P
+/ /(
+%37java.io.PrintStream"__id*"
+
+__unknown_file (
+""š—
+/@ /(Q
+
+%38int",engclasses.beans.AnnuncioBean#getQuantita()I*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2getQuantita()^
+\
+/@ /(Y
+%39java.lang.String"__concat*
+/@ /(Q
+
+
+%38int*
+/T /(Y
+ kg•
+’
+/7 /(^
+%40java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#padRight(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
+
+__unknown_file (
+
+%39java.lang.String* 
+
+__unknown_file (2%€
+~
+/ /(^
+%41java.lang.String"__concat*(
+/ /(4
+â”‚  ğŸ“¦ QuantitÃ :    *%
+/7 /(^
+
+%40java.lang.Stringk
+i
+/ /(d
+%42java.lang.String"__concat*%
+/ /(^
+
+%41java.lang.String*
+/a /(d
+â”‚Ú×
+/ /(e
+%43void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%37java.io.PrintStream*5
+
+__unknown_file (
+
+%42java.lang.String2println(Ljava/lang/String;)R
+P
+0 0(
+%44java.io.PrintStream"__id*"
+
+__unknown_file (
+""²¯
+0@ 0(N
+%45java.lang.String":engclasses.beans.AnnuncioBean#getCitta()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2
+getCitta()•
+’
+07 0(S
+%46java.lang.String"Qview.cli.VisualizzaAnnunciCLIView#padRight(Ljava/lang/String;I)Ljava/lang/String;*A
+
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*5
+
+__unknown_file (
+
+%45java.lang.String* 
+
+__unknown_file (2%€
+~
+0 0(S
+%47java.lang.String"__concat*(
+0 0(4
+â”‚  ğŸ“ CittÃ :       *%
+07 0(S
+
+%46java.lang.Stringk
+i
+0 0(Y
+%48java.lang.String"__concat*%
+0 0(S
+
+%47java.lang.String*
+0V 0(Y
+â”‚Ú×
+0 0(Z
+%49void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%44java.io.PrintStream*5
+
+__unknown_file (
+
+%48java.lang.String2println(Ljava/lang/String;)ÆÃ
+2 2(%
+%50java.time.LocalDate"Dengclasses.beans.AnnuncioBean#getDataScadenza()Ljava/time/LocalDate;*B
+
+__unknown_file (&
+$
+annengclasses.beans.AnnuncioBean2getDataScadenza()y
+w
+2 2(-
+%51boolean"	__compare*
+2& 2((
+!=*(
+2 2(%
+
+%50java.time.LocalDate*
+2) 2(-
+""*
+2
+3*ï
+5( ((pn
+( ((*	
+%8int"java.util.List#size()I*7
+
+__unknown_file (
+
+annuncijava.util.List2size()f
+d
+( ((*
+%9boolean"	__compare*
+( ((
+<*
+( ((
+""*
+( ((*
+	
+%8int*
+4
+0*‰
+6& &(Q
+O
+& &(
+%3java.io.PrintStream"__id*"
+
+__unknown_file (
+""pn
+&* &(8	
+%4int"java.util.List#size()I*7
+
+__unknown_file (
+
+annuncijava.util.List2size()c
+a
+& &(8
+%5java.lang.String"__concat*
+& &('
+
+\nTrovati *
+&* &(8
+	
+%4intq
+o
+& &(H
+%6java.lang.String"__concat*$
+& &(8
+
+%5java.lang.String*
+&; &(H
+ annunci:\n×Ô
+& &(I
+
+%7void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%3java.io.PrintStream*4
 
 __unknown_file (
 
-%2java.lang.String2print(Ljava/lang/String;)*
-5: 
+%6java.lang.String2println(Ljava/lang/String;)*
+5*¶
+7" "(’
+" "(F
+
+%2void"Fview.cli.VisualizzaAnnunciCLIView#mostraMessaggio(Ljava/lang/String;)V*A
 
-__unknown_file (
-""B%#
-!view.cli.VisualizzaAnnunciCLIViewHX
+__unknown_file (%#
+!view.cli.VisualizzaAnnunciCLIView*G
+
+__unknown_file (+)
+'Nessun annuncio disponibile al momento.2#mostraMessaggio(Ljava/lang/String;)"
+# #(
+""*‘
+8! !(&zx
+! !(0
+%1boolean"java.util.List#isEmpty()Z*7
+
+__unknown_file (
+
+annuncijava.util.List2	isEmpty()*
+6
+7*
+9! !(w
+u
+! !(
+%0boolean"	__compare*
+! !(
+==*'
+! !(
+
+annuncijava.util.List*
+! !(
+""*
+7
+8*&
+0 "
+8 8(
+implicit return:%
+ #  (=
+annuncijava.util.ListB%#
+!view.cli.VisualizzaAnnunciCLIViewH

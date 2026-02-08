@@ -1,15 +1,38 @@
 
-)misc.Session#getAnnunci()Ljava/util/List;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.java? ?(("1*–
-1@ @(c
-a
-@ @(
-%0java.util.List"__id*9
+Fview.cli.RegistrazioneCLIView#chiediTitoloDiStudio()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.javaI I(&"1*î
+1J J(Q
+O
+J J(
+%0java.io.PrintStream"__id*"
 
-__unknown_file (*
-misc.Session"	
-annunci""
-@ @(
-
-%0java.util.ListB
-misc.SessionH
+__unknown_file (
+""ÑÎ
+J J(.
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*2
+
+__unknown_file (
+Titolo di studio: 2print(Ljava/lang/String;)w
+u
+K K(
+%2java.util.Scanner"__id*J
+
+__unknown_file (.*,
+view.cli.RegistrazioneCLIView"	
+scanner˜•
+K K(!
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+
+__unknown_file (
+
+%2java.util.Scanner2
+nextLine()"$
+K K("
+
+%3java.lang.StringB!
+view.cli.RegistrazioneCLIViewH

@@ -1,39 +1,7 @@
 
-8__sonar_lambda_68$engclasses.dao.memory.OffertaDAOMemorye
-[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java( ((A"startingBlock*¼
-startingBlock( ((A›
-˜
-
-__unknown_file (
-
-idAnnunciojava.lang.String"__id*V
-
-__unknown_file (:*8(
-&engclasses.dao.memory.OffertaDAOMemory"
-
-idAnnuncio*
-1*£
-1( (('™–
-(/ ((@
-%4java.lang.String"/model.Offerta#getIdAnnuncio()Ljava/lang/String;*0
-
-__unknown_file (
-
-omodel.Offerta2getIdAnnuncio()Ú×
-( ((A
-%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String*4
-
-__unknown_file (
-
-%4java.lang.String2equals(Ljava/lang/Object;)"
-( ((A
-
-%5boolean:
-( ((
-omodel.OffertaB 
-java.util.function.Predicate
+,engclasses.beans.AnnuncioBean#getQuantita()I\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javaK K("1*!
+1L L("
+L L(
+""B!
+engclasses.beans.AnnuncioBeanHX

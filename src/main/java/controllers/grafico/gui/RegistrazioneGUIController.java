@@ -19,7 +19,6 @@ public class RegistrazioneGUIController {
 
     private static final Logger logger = LoggerFactory.getLogger(RegistrazioneGUIController.class);
 
-    // ==================== CAMPI FXML ====================
 
     @FXML private TextField nomeField;
     @FXML private TextField cognomeField;
@@ -45,12 +44,10 @@ public class RegistrazioneGUIController {
     @FXML private Button registratiButton;
     @FXML private Hyperlink loginLink;
 
-    // ==================== ALTRI ATTRIBUTI ====================
 
     private Session session;
     private RegistrazioneController controllerApplicativo;
 
-    // ==================== INITIALIZE ====================
 
     @FXML
     public void initialize() {
@@ -69,7 +66,6 @@ public class RegistrazioneGUIController {
 
     }
 
-    // ==================== REGISTRAZIONE ====================
 
     @FXML
     private void handleRegistrazione() {
@@ -112,7 +108,6 @@ public class RegistrazioneGUIController {
         }
     }
 
-    // ==================== METODI DI SUPPORTO ====================
 
     private TipoUtente determinaTipoUtente() {
         if (agricoltoreRadio.isSelected()) return TipoUtente.AGRICOLTORE;
@@ -150,7 +145,6 @@ public class RegistrazioneGUIController {
         alert.showAndWait();
     }
 
-    // ==================== NAVIGAZIONE ====================
 
     @FXML
     private void handleLoginLink() {

@@ -45,7 +45,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            logger.error("Errore nella creazione tabella annunci", e);
+            SQLExceptionHandler.logError(logger, "creazione tabella annunci", e);
         }
     }
 
@@ -82,8 +82,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore nel salvataggio annuncio", e);
-            return false;
+            return SQLExceptionHandler.handleWriteError(logger, "salvataggio annuncio", e);
         }
     }
 
@@ -98,8 +97,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore nell'eliminazione annuncio", e);
-            return false;
+            return SQLExceptionHandler.handleWriteError(logger, "eliminazione annuncio", e);
         }
     }
 
@@ -120,7 +118,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nella ricerca annuncio per ID", e);
+            SQLExceptionHandler.handleReadError(logger, "ricerca annuncio per ID", e);
         }
         return null;
     }
@@ -141,6 +139,21 @@ public class AnnuncioDAODB implements AnnuncioDAO {
         return eseguiQueryLista(sql, citta);
     }
 
+    private List<Annuncio> eseguiQueryLista(String sql, String parametro) {
+        List<Annuncio> risultati = new ArrayList<>();
+        try (Connection conn = ConnessioneDB.getConnection();
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            pstmt.setString(1, parametro);
+            ResultSet rs = pstmt.executeQuery();
+            while (rs.next()) {
+                risultati.add(mappaRigaAdAnnuncio(rs));
+            }
+        } catch (SQLException e) {
+            SQLExceptionHandler.handleReadError(logger, "esecuzione query annunci", e);
+        }
+        return risultati;
+    }
+
     @Override
     public List<Annuncio> trovaTutti() {
         String sql = "SELECT idAnnuncio, nome_autore, titolo, descrizione, " +
@@ -157,7 +170,7 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nel recupero di tutti gli annunci", e);
+            SQLExceptionHandler.handleReadError(logger, "recupero di tutti gli annunci", e);
         }
         return risultati;
     }
@@ -179,12 +192,10 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nel recupero degli annunci attivi", e);
+            SQLExceptionHandler.handleReadError(logger, "recupero degli annunci attivi", e);
         }
         return risultati;
     }
-
-    // ==================== Metodi di utilità ====================
 
     private Annuncio mappaRigaAdAnnuncio(ResultSet rs) throws SQLException {
         String idAnnuncio = rs.getString("idAnnuncio");
@@ -206,22 +217,4 @@ public class AnnuncioDAODB implements AnnuncioDAO {
             .build();
     }
 
-    private List<Annuncio> eseguiQueryLista(String sql, String parametro) {
-        List<Annuncio> risultati = new ArrayList<>();
-
-        try (Connection conn = ConnessioneDB.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(sql)) {
-
-            pstmt.setString(1, parametro);
-            ResultSet rs = pstmt.executeQuery();
-
-            while (rs.next()) {
-                risultati.add(mappaRigaAdAnnuncio(rs));
-            }
-
-        } catch (SQLException e) {
-            logger.error("Errore nell'esecuzione query annunci", e);
-        }
-        return risultati;
-    }
 }

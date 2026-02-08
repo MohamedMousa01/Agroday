@@ -50,7 +50,10 @@ public class LoginController {
     public Utente login(String username, String password)
             throws DatabaseOperazioneFallitaException, LoginFallitoException {
 
-        validaCampiLogin(username, password);
+        String errori = validaCampiLogin(username, password);
+        if (!errori.isEmpty()) {
+            throw new LoginFallitoException(errori.trim());
+        }
 
         try {
             UtenteDAO dao = UtenteDAOFactory.getUtenteDAO(
@@ -80,11 +83,13 @@ public class LoginController {
     private String validaCampiLogin(String username, String password) {
         StringBuilder errori = new StringBuilder();
 
-        if (username == null || username.trim().isEmpty()) {
-            errori.append("Il campo username non può essere vuoto.\n");
+        String erroreUsername = misc.ValidationUtils.validateNotEmpty(username, "Username");
+        if (erroreUsername != null) {
+            errori.append(erroreUsername).append("\n");
         }
-        if (password == null || password.trim().isEmpty()) {
-            errori.append("Il campo password non può essere vuoto.\n");
+        String errorePassword = misc.ValidationUtils.validateNotEmpty(password, "Password");
+        if (errorePassword != null) {
+            errori.append(errorePassword).append("\n");
         }
         return errori.toString();
     }

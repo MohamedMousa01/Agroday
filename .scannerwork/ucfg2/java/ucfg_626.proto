@@ -1,28 +1,36 @@
 
-0view.cli.RegistrazioneCLIView#%field_initializer
-__unknown_file ("1*¶
-1 (çä
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java( (/
-%0java.util.Scanner"java.util.Scanner‘
-—
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""º
-π
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java (;,
-view.cli.RegistrazioneCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner"q
+Yengclasses.dao.memory.AppuntamentoDAOMemory#getId(Lmodel/Appuntamento;)Ljava/lang/String;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java ("startingBlock*é
+startingBlock (/è
+å
+ (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+entitymodel.Appuntamento\
 Z
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java V(
-implicit returnB!
-view.cli.RegistrazioneCLIView
+( (.
+entitymodel.Appuntamento"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ê
+1 (∞≠
+ ()
+%0java.lang.String"8model.Appuntamento#getIdAppuntamento()Ljava/lang/String;*:
+
+__unknown_file (
+
+entitymodel.Appuntamento2getIdAppuntamento()"$
+ (*
+
+%0java.lang.String:(
+ (.
+entitymodel.AppuntamentoB/-
++engclasses.dao.memory.AppuntamentoDAOMemory

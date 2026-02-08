@@ -12,7 +12,7 @@ import misc.Session;
 /**
  * Controller grafico per la cancellazione di un appuntamento.
  */
-public class CancellazioneAppuntamentoGUIController {
+public class CancellazioneAppuntamentoGUIController extends BaseGUIController {
 
     @FXML private Label infoAppuntamentoLabel;
     @FXML private TextArea motivoArea;

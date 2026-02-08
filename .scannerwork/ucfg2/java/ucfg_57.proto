@@ -1,10 +1,17 @@
 
-@model.Annuncio$Builder#quantitaTotale(I)Lmodel/Annuncio$Builder;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaL L(%"1*5
-1M" M(0"&
-N N(
-model.Annuncio$Builder: 
+Hmodel.Annuncio$Builder#citta(Ljava/lang/String;)Lmodel/Annuncio$Builder;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaA A("1*§
+1B B(p
+n
+B B(#
+model.Annuncio$Builder"
+citta"__id*7
 
-__unknown_file (
-""B
+__unknown_file (
+
+cittajava.lang.String"&
+C C(
+model.Annuncio$Builder:%
+A A()
+cittajava.lang.StringB
 model.Annuncio$BuilderH

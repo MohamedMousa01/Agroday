@@ -1,61 +1,39 @@
 
-acontrollers.applicativo.AppuntamentoController#getDurataPredefinitaMinuti(Lmisc/TipoConsulenza;)Io
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java” ”()"3*%
-2
-– –("
-
-– –(
-""*¦
-3
-• •(Œ
-‰
-
-• •("
-%0boolean"	__compare*
-
-• •(
-==*5
-
-• •('
-%
-tipoConsulenzamisc.TipoConsulenza*
-
-• •("
-""*
-2
-1*ž
-1
-˜& ˜(Aí
-ê
-
-˜& ˜(\4
-%1.engclasses.pattern.factory.AppuntamentoFactory"ˆengclasses.pattern.factory.AppuntamentoFactoryProvider#getFactory(Lmisc/TipoConsulenza;)Lengclasses/pattern/factory/AppuntamentoFactory;*V
+mengclasses.dao.memory.OffertaDAOMemory#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;e
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java4 4(;"startingBlock*¤
+startingBlock4; 4(Wš
+—
+3 3(
+%2"
+__annotate*2
 
-__unknown_file (:"8
-6engclasses.pattern.factory.AppuntamentoFactoryProvider*C
+__unknown_file (
+java.lang.Override*E
 
-__unknown_file ('
-%
-tipoConsulenzamisc.TipoConsulenza¤
-¡
-
-˜ ˜(]9
-factory.engclasses.pattern.factory.AppuntamentoFactory"__id*R
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.Stringg
+e
+4C 4(V'
+usernameAgricoltorejava.lang.String"__annotation*"
 
-__unknown_file (6
-4
-%1.engclasses.pattern.factory.AppuntamentoFactoryßÜ
-
-™ ™(3	
-%2int"Lengclasses.pattern.factory.AppuntamentoFactory#getDurataPredefinitaMinuti()I*W
+__unknown_file (
+
+%2*
+1*à
+16 6( <:
+6 6(
+%0java.util.ArrayList"java.util.ArrayListj
+h
+6 6( 
+%1"java.util.ArrayList#<init>()V*7
 
-__unknown_file (;
-9
-factory.engclasses.pattern.factory.AppuntamentoFactory2getDurataPredefinitaMinuti()"
-
-™ ™(4
-"":3
-
-”* ”(G%
-tipoConsulenzamisc.TipoConsulenzaB20
-.controllers.applicativo.AppuntamentoControllerHX
+__unknown_file (
+
+%0java.util.ArrayList"'
+6 6(!
+
+%0java.util.ArrayList:3
+4< 4(V'
+usernameAgricoltorejava.lang.StringB*(
+&engclasses.dao.memory.OffertaDAOMemoryH

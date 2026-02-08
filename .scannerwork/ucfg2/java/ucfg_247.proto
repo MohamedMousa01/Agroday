@@ -1,18 +1,18 @@
 
-/model.Appuntamento#getLuogo()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java   ("1*¤
+;model.Appuntamento#getTipoConsulenza()Lmisc/TipoConsulenza;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaü ü(+"1*³
 1
-¡ ¡(k
-i
+ý ý(w
+u
 
-¡ ¡(
-%0java.lang.String"__id*=
+ý ý(
+%0misc.TipoConsulenza"__id*F
 
-__unknown_file (!*
-model.Appuntamento"
-luogo"&
+__unknown_file (**(
+model.Appuntamento"
+tipoConsulenza")
 
-¡ ¡(
-
-%0java.lang.StringB
+ý ý(
+
+%0misc.TipoConsulenzaB
 model.AppuntamentoH

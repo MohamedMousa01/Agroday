@@ -1,56 +1,15 @@
 
-Cengclasses.dao.memory.OffertaDAOMemory#elimina(Ljava/lang/String;)Ze
-[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java ("startingBlock*ê
-startingBlock (,ê
-ç
- (
-%3"
-__annotate*2
+Dengclasses.beans.AnnuncioBean#getDataScadenza()Ljava/time/LocalDate;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javaC C($"1*∂
+1D D(~
+|
+D D(
+%0java.time.LocalDate"__id*O
 
-__unknown_file (
-java.lang.Override*;
-
-__unknown_file (
-
-	idOffertajava.lang.String]
-[
-" (+
-	idOffertajava.lang.String"__annotation*"
-
-__unknown_file (
-
-%3*
-1*É
-1 (K
-I
- (
-%0java.util.Map"__id*"
-
-__unknown_file (
-""ü
-ú
- ((
-%1model.Offerta"__mapRemove*1
-
-__unknown_file (
-
-%0java.util.Map*;
-
-__unknown_file (
-
-	idOffertajava.lang.Stringq
-o
- (0
-%2boolean"	__compare*
-) (+
-!=*!
- ((
-
-%1model.Offerta*
-, (0
-"""
- (1
-"":)
- (+
-	idOffertajava.lang.StringB*(
-&engclasses.dao.memory.OffertaDAOMemoryHX
+__unknown_file (3*1
+engclasses.beans.AnnuncioBean"
+dataScadenza"'
+D D(
+
+%0java.time.LocalDateB!
+engclasses.beans.AnnuncioBeanH

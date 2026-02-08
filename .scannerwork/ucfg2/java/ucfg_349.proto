@@ -1,26 +1,10 @@
 
-eengclasses.dao.memory.PartecipazioneDAOMemory#haPartecipatoGia(Ljava/lang/String;Ljava/lang/String;)Zl
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java@ @(#"startingBlock*!
-2B B("
-B B(
-""*–
-3A" A(/
-}
-A" A(7
-%1boolean"	__compare*
-A0 A(2
-==*/
-A" A(/#
-!
-idAgricoltorejava.lang.String*
-A3 A(7
-""*
-2
-1*
-startingBlock@# @(L’
-
-? ?(
-%11"
+]engclasses.dao.memory.PartecipazioneDAOMemory#getId(Lmodel/Partecipazione;)Ljava/lang/String;l
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java ("startingBlock*’
+startingBlock (1‘
+Ž
+ (
+%1"
 __annotate*2
 
 __unknown_file (
@@ -28,111 +12,25 @@ __annotate*2
 
 __unknown_file ( 
 
-
-idAnnunciojava.lang.String_
-]
-@+ @(5
-
-idAnnunciojava.lang.String"__annotation*#
+entitymodel.Partecipazione^
+\
+* (0
+entitymodel.Partecipazione"__annotation*"
 
-__unknown_file (
-
-%11•
-’
-? ?(
-%12"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*?
-
-__unknown_file (#
-!
-idAgricoltorejava.lang.Stringb
-`
-@> @(K!
-idAgricoltorejava.lang.String"__annotation*#
-
-__unknown_file (
-
-%12*
-4*“
-4A A(|
-z
-A A(
-%0boolean"	__compare*
-A A(
-==*,
-A A( 
-
-
-idAnnunciojava.lang.String*
-A A(
-""*
-2
-3*š	
-1D D(K
-I
-D D(
-%2java.util.Map"__id*"
-
-__unknown_file (
-""”‘
-D D(&
-%3java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%2java.util.Map2values()¨¥
-D D(/
-%4java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%3java.util.Collection2stream()¥
-¢
-E F(H"
-%5java.util.function.Predicate"__declareFunction*_
-
-__unknown_file (CA
-?__sonar_lambda_24$engclasses.dao.memory.PartecipazioneDAOMemory•
-’
-
-__unknown_file (2
-"
-%5java.util.function.Predicate"
-
-idAnnuncio"__id*<
+__unknown_file (
+
+%1*
+1*î
+1 (¸µ
+ (+
+%0java.lang.String"<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;*<
 
 __unknown_file ( 
 
-
-idAnnunciojava.lang.String›
-˜
-
-__unknown_file (5
-"
-%5java.util.function.Predicate"
-idAgricoltore"__id*?
-
-__unknown_file (#
-!
-idAgricoltorejava.lang.String‰†
-D F(I
-%10boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*;
-
-__unknown_file (
-
-%4java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%5java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)"
-D F(J
-"":*
-@$ @(6
-
-idAnnunciojava.lang.String:-
-@7 @(K!
-idAgricoltorejava.lang.StringB1/
--engclasses.dao.memory.PartecipazioneDAOMemoryHX
+entitymodel.Partecipazione2getIdPartecipazione()"$
+ (,
+
+%0java.lang.String:*
+ (0
+entitymodel.PartecipazioneB1/
+-engclasses.dao.memory.PartecipazioneDAOMemory

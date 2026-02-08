@@ -1,18 +1,18 @@
 
-Nengclasses.beans.AppuntamentoBean#getGoogleCalendarEventId()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaØ Ø(*"1*Å
+Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java (%"1*À
 1
-Ù Ù($‹
-ˆ
+‘ ‘(€
+~
 
-Ù Ù($
-%0java.lang.String"__id*\
+‘ ‘(
+%0misc.StatoAppuntamento"__id*L
 
-__unknown_file (@*>#
-!engclasses.beans.AppuntamentoBean"
-googleCalendarEventId"&
+__unknown_file (0*.#
+!engclasses.beans.AppuntamentoBean"
+stato",
 
-Ù Ù(%
-
-%0java.lang.StringB%#
+‘ ‘(
+
+%0misc.StatoAppuntamentoB%#
 !engclasses.beans.AppuntamentoBeanH

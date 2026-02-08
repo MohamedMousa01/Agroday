@@ -1,17 +1,45 @@
 
-Tengclasses.dao.factory.DAODBFactory#getAnnuncioDAO()Lengclasses/dao/api/AnnuncioDAO;b
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAODBFactory.java& &(%"1*ž
-1' '("TR
-' '( %
-%0engclasses.dao.db.AnnuncioDAODB"engclasses.dao.db.AnnuncioDAODBƒ
-€
-' '("
-%1")engclasses.dao.db.AnnuncioDAODB#<init>()V*C
+bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;`
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/InMemoryDAO.java; ;(&"1*Á
+1< <(w
+u
+< <(
+%0java.util.Map"__id*N
 
-__unknown_file ('
-%
-%0engclasses.dao.db.AnnuncioDAODB"3
-' '(#'
-%
-%0engclasses.dao.db.AnnuncioDAODBB'%
-#engclasses.dao.factory.DAODBFactoryH
+__unknown_file (2*0#
+!engclasses.dao.memory.InMemoryDAO"	
+storage”‘
+< <(
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%0java.util.Map2values()¨¥
+< <((
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+
+__unknown_file (
+
+%1java.util.Collection2stream()³°
+< =("
+%3java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*G
+
+__unknown_file (+
+)
+	predicatejava.util.function.Predicate2&filter(Ljava/util/function/Predicate;)œ™
+< >(
+%4java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%3java.util.stream.Stream2toList()""
+< >(
+
+%4java.util.List:5
+;' ;(P)
+	predicatejava.util.function.PredicateB%#
+!engclasses.dao.memory.InMemoryDAO

@@ -1,18 +1,18 @@
 
-=model.Appuntamento#getMotivoCancellazione()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java≤ ≤(("1*≤
+>model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaé é()"1*∫
 1
-≥ ≥("y
-w
+è è(z
+x
 
-≥ ≥("
-%0java.lang.String"__id*K
+è è(
+%0java.time.LocalDateTime"__id*E
 
-__unknown_file (/*-
-model.Appuntamento"
-motivoCancellazione"&
+__unknown_file ()*'
+model.Appuntamento"
+dataOraInizio"-
 
-≥ ≥(#
-
-%0java.lang.StringB
+è è(
+
+%0java.time.LocalDateTimeB
 model.AppuntamentoH

@@ -1,15 +1,63 @@
 
-*model.Offerta#getStato()Ljava/lang/String;L
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaF F("1*™
-1G G(d
-b
-G G(
-%0java.lang.String"__id*8
+eengclasses.pattern.factory.AppuntamentoInUfficioFactory#valida(Ljava/lang/String;J)Ljava/lang/String;v
+l/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoInUfficioFactory.java ("startingBlock*e
+2   (Z"V
+   ([JH
+FL'indirizzo dell'ufficio Ã¨ obbligatorio per le consulenze in ufficio.*¤
+3 ("‘Ž
+ ()
+%1java.lang.String")java.lang.String#trim()Ljava/lang/String;*7
 
-__unknown_file (*
-model.Offerta"
-stato"$
-G G(
+__unknown_file (
+
+luogojava.lang.String2trim()yw
+ (3
+%2boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
 
-%0java.lang.StringB
-model.OffertaH
+%1java.lang.String2	isEmpty()*
+2
+1*ˆ
+startingBlock (9Œ
+‰
+ (
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+luogojava.lang.StringY
+W
+  (%
+luogojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+4*Ž
+4 (w
+u
+ (
+%0boolean"	__compare*
+ (
+==*'
+ (
+
+luogojava.lang.String*
+ (
+""*
+2
+3*!
+1" "("
+" "(
+"":%
+ (&
+luogojava.lang.String: 
+
+__unknown_file (
+""B;9
+7engclasses.pattern.factory.AppuntamentoInUfficioFactoryH

@@ -1,44 +1,29 @@
 
-?view.cli.MainVenditoreCLIView#chiediRicerca()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.javaC C("1*§
-1D D(Q
-O
-D D(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ˆÛ
-D D(P
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*W
-
-__unknown_file (;9
-7\nüîç Inserisci termine di ricerca (prodotto/citt√†): 2print(Ljava/lang/String;)w
-u
-E E(
-%2java.util.Scanner"__id*J
-
-__unknown_file (.*,
-view.cli.MainVenditoreCLIView"	
-scanneròï
-E E(!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
+0view.cli.MainVenditoreCLIView#%field_initializer
+__unknown_file ("1*¶
+1 (çä
+\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java( (/
+%0java.util.Scanner"java.util.Scanner‘
+—
+\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java$ (:
+%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
+ (
 
-%2java.util.Scanner2
-nextLine()éã
-E E((
-%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
-
-__unknown_file (
-
-%3java.lang.String2trim()"$
-E E()
-
-%4java.lang.StringB!
-view.cli.MainVenditoreCLIViewH
+%0java.util.Scanner*
+ (
+""º
+π
+\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java (;,
+view.cli.MainVenditoreCLIView"	
+scanner"__id*%
+ (
+
+%0java.util.Scanner"q
+Z
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java
+ ^(
+implicit returnB!
+view.cli.MainVenditoreCLIView

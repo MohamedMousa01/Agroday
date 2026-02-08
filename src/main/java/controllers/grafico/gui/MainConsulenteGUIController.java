@@ -15,7 +15,7 @@ import java.util.Optional;
 /**
  * Controller per la view principale del Consulente
  */
-public class MainConsulenteGUIController {
+public class MainConsulenteGUIController extends BaseGUIController {
 
     @FXML private Label lblBenvenuto;
     @FXML private Button btnRichieste;
@@ -75,11 +75,4 @@ public class MainConsulenteGUIController {
         }
     }
 
-    private void mostraMessaggio(String titolo, String messaggio, Alert.AlertType tipo) {
-        Alert alert = new Alert(tipo);
-        alert.setTitle(titolo);
-        alert.setHeaderText(null);
-        alert.setContentText(messaggio);
-        alert.showAndWait();
-    }
 }

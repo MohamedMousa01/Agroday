@@ -1,34 +1,48 @@
 
-Eengclasses.dao.filesystem.OffertaDAOFile#trovaTutte()Ljava/util/List;g
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javah h(#"1*…
-1i i(&~
+Vengclasses.dao.filesystem.OffertaDAOFile#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaD D("startingBlock*ê
+startingBlockD D(/ê
+ç
+C C(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	idOffertajava.lang.String]
+[
+D% D(.
+	idOffertajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*œ
+1E E(~
 |
-i i(&
+E E(
 %0java.util.Map"__id*U
 
 __unknown_file (9*7*
 (engclasses.dao.filesystem.OffertaDAOFile"	
-offerteîë
-i i(/
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+offerteú
+ô
+E E(%
+%1model.Offerta"__mapGet*1
 
 __unknown_file (
 
-%0java.util.Map2values()<:
-i i(
-%2java.util.ArrayList"java.util.ArrayListª
-∏
-i i(0
-%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+%0java.util.Map*;
 
-__unknown_file (
-
-%2java.util.ArrayList*8
-
-__unknown_file (
-
-%1java.util.Collection"'
-i i(1
-
-%2java.util.ArrayListB,*
+__unknown_file (
+
+	idOffertajava.lang.String"!
+E E(&
+
+%1model.Offerta:)
+D D(.
+	idOffertajava.lang.StringB,*
 (engclasses.dao.filesystem.OffertaDAOFileH

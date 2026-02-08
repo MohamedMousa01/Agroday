@@ -1,49 +1,98 @@
 
-Gengclasses.dao.filesystem.AnnuncioDAOFile#trovaAttivi()Ljava/util/List;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javak k(%"1*æ
-1l l(
-}
-l l(
-%0java.util.Map"__id*V
-
-__unknown_file (:*8+
-)engclasses.dao.filesystem.AnnuncioDAOFile"	
-annunci”‘
-l l(
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()¨¥
-l l((
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+Bengclasses.dao.filesystem.AnnuncioDAOFile#salva(Lmodel/Annuncio;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.java6 6("startingBlock*!
+28 8("
+8 8(
+""*°
+37  7((¢Ÿ
+7  7(8
+%1java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
 
 __unknown_file (
 
-%1java.util.Collection2stream()¡
+annunciomodel.Annuncio2getIdAnnuncio()t
+r
+7  7(@
+%2boolean"	__compare*
+79 7(;
+==*$
+7  7(8
+
+%1java.lang.String*
+7< 7(@
+""*
+2
+1*Š
+startingBlock6 6(+
+Š
+5 5(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+annunciomodel.AnnuncioZ
+X
+6" 6(*
+annunciomodel.Annuncio"__annotation*"
+
+__unknown_file (
+
+%7*
+4*
+47 7(x
+v
+7 7(
+%0boolean"	__compare*
+7 7(
+==*(
+7 7(
+
+annunciomodel.Annuncio*
+7 7(
+""*
+2
+3*¾
+1: :(
+}
+: :(
+%3java.util.Map"__id*V
+
+__unknown_file (:*8+
+)engclasses.dao.filesystem.AnnuncioDAOFile"	
+annunci¢Ÿ
+: :(,
+%4java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getIdAnnuncio()Ð
+Í
+: :(7
+%5model.Annuncio"__mapSet*1
+
+__unknown_file (
+
+%3java.util.Map*4
+
+__unknown_file (
+
+%4java.lang.String*8
+
+__unknown_file (
+
+annunciomodel.Annuncio¡
 ž
-m m(+"
-%3java.util.function.Predicate"__declareFunction*[
+; ;(
+%6boolean"8engclasses.dao.filesystem.AnnuncioDAOFile#salvaSuFile()Z*I
 
-__unknown_file (?=
-;__sonar_lambda_37$engclasses.dao.filesystem.AnnuncioDAOFile¬©
-l m(,
-%5java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%2java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)œ™
-l n(
-%6java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
-
-__unknown_file (
-
-%5java.util.stream.Stream2toList()""
-l n(
-
-%6java.util.ListB-+
-)engclasses.dao.filesystem.AnnuncioDAOFileH
+__unknown_file (-+
+)engclasses.dao.filesystem.AnnuncioDAOFile"
+; ;(
+"":&
+6 6(*
+annunciomodel.AnnuncioB-+
+)engclasses.dao.filesystem.AnnuncioDAOFileHX

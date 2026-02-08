@@ -1,105 +1,15 @@
 
-jengclasses.dao.db.PartecipazioneDAODB#mappaRigaAPartecipazione(Ljava/sql/ResultSet;)Lmodel/Partecipazione;f
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/PartecipazioneDAODB.javaø ø(3"1*é
-1
-¿" ¿($ıÚ
-
-¿" ¿(C
-%0java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+7model.Offerta#getDataOfferta()Ljava/time/LocalDateTime;L
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaB B('"1*≠
+1C C(q
+o
+C C(
+%0java.time.LocalDateTime"__id*>
 
-__unknown_file (
-
-rsjava.sql.ResultSet*1
-
-__unknown_file (
-id_partecipazione2getString(Ljava/lang/String;)p
-n
-
-¿ ¿(D$
-idPartecipazionejava.lang.String"__id*4
-
-__unknown_file (
-
-%0java.lang.StringÔÏ
-
-¡ ¡(7
-%1java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*+
-
-__unknown_file (
-id_annuncio2getString(Ljava/lang/String;)j
-h
-
-¡ ¡(8
-
-idAnnunciojava.lang.String"__id*4
-
-__unknown_file (
-
-%1java.lang.StringÚÔ
-
-¬ ¬(=
-%2java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*.
-
-__unknown_file (
-id_agricoltore2getString(Ljava/lang/String;)m
-k
-
-¬ ¬(>!
-idAgricoltorejava.lang.String"__id*4
-
-__unknown_file (
-
-%2java.lang.String“œ
-
-√  √(?	
-%3int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*2
-
-__unknown_file (
-quantita_richiesta2getInt(Ljava/lang/String;)@>
-
-≈ ≈(!
-%4model.Partecipazione"model.Partecipazioneç
-ä
-
-≈ ≈(a
-%5"Umodel.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V*8
-
-__unknown_file (
-
-%4model.Partecipazione*B
-
-__unknown_file (&
-$
-idPartecipazionejava.lang.String*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String*?
-
-__unknown_file (#
-!
-idAgricoltorejava.lang.String*"
-
-__unknown_file (
-"""*
-
-≈ ≈(b
-
-%4model.Partecipazione:&
-
-ø4 ø(@
-rsjava.sql.ResultSetB)'
-%engclasses.dao.db.PartecipazioneDAODB
+__unknown_file ("* 
+model.Offerta"
+dataOfferta"+
+C C(
+
+%0java.time.LocalDateTimeB
+model.OffertaH

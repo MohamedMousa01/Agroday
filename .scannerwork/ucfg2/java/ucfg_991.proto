@@ -1,18 +1,18 @@
 
->engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java° °("1*³
+Dengclasses.beans.AppuntamentoBean#getNomeCliente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaè è( "1*º
 1
-± ±(z
-x
+é é(€
+~
 
-± ±(
-%0java.lang.String"__id*L
+é é(
+%0java.lang.String"__id*R
 
-__unknown_file (0*.#
-!engclasses.beans.AppuntamentoBean"
-luogo"&
+__unknown_file (6*4#
+!engclasses.beans.AppuntamentoBean"
+nomeCliente"&
 
-± ±(
+é é(
 
 %0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

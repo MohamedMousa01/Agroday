@@ -1,18 +1,18 @@
 
-Cmodel.Appuntamento#getDataUltimaModifica()Ljava/time/LocalDateTime;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaº º(."1*¿
+<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java— —('"1*¸
 1
-» »(!
-}
+˜ ˜(x
+v
 
-» »(!
-%0java.time.LocalDateTime"__id*J
+˜ ˜(
+%0java.time.LocalDateTime"__id*C
 
-__unknown_file (.*,
-model.Appuntamento"
-dataUltimaModifica"-
+__unknown_file ('*%
+model.Appuntamento"
+dataOraFine"-
 
-» »("
+˜ ˜(
 
 %0java.time.LocalDateTimeB
 model.AppuntamentoH

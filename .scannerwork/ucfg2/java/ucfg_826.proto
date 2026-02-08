@@ -1,24 +1,15 @@
 
-Rcontrollers.applicativo.OffertaController#contaOffertePending(Ljava/lang/String;)Ih
-^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.java] ](""1*Þ
-1^ ^()ÍÊ
-^ ^(<
-%0java.util.List"hcontrollers.applicativo.OffertaController#getOffertePendingVenditore(Ljava/lang/String;)Ljava/util/List;*I
++model.Utente#getCognome()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java' '("1*š
+1( ((e
+c
+( ((
+%0java.lang.String"__id*9
 
-__unknown_file (-+
-)controllers.applicativo.OffertaController*C
-
-__unknown_file ('
-%
-usernameVenditorejava.lang.String2.getOffertePendingVenditore(Ljava/lang/String;)ki
-^ ^(C	
-%1int"java.util.List#size()I*2
-
-__unknown_file (
-
-%0java.util.List2size()"
-^ ^(D
-"":1
-]# ](;%
-usernameVenditorejava.lang.StringB-+
-)controllers.applicativo.OffertaControllerHX
+__unknown_file (*
+model.Utente"	
+cognome"$
+( ((
+
+%0java.lang.StringB
+model.UtenteH

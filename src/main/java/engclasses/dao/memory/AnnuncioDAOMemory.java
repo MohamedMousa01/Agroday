@@ -4,42 +4,17 @@ import engclasses.dao.api.AnnuncioDAO;
 import model.Annuncio;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Implementazione in memoria del DAO per gli annunci.
  * Utilizzata in modalità Demo.
  */
-public class AnnuncioDAOMemory implements AnnuncioDAO {
-
-    // Storage in memoria condiviso (Singleton-like per mantenere i dati durante la sessione)
-    private static final Map<String, Annuncio> annunci = new HashMap<>();
+public class AnnuncioDAOMemory extends InMemoryDAO<Annuncio, String> implements AnnuncioDAO {
 
     @Override
-    public boolean salva(Annuncio annuncio) {
-        if (annuncio == null || annuncio.getIdAnnuncio() == null) {
-            return false;
-        }
-        annunci.put(annuncio.getIdAnnuncio(), annuncio);
-        return true;
-    }
-
-    @Override
-    public boolean elimina(String idAnnuncio) {
-        if (idAnnuncio == null) {
-            return false;
-        }
-        return annunci.remove(idAnnuncio) != null;
-    }
-
-    @Override
-    public Annuncio trovaPerId(String idAnnuncio) {
-        if (idAnnuncio == null) {
-            return null;
-        }
-        return annunci.get(idAnnuncio);
+    protected String getId(Annuncio entity) {
+        return entity.getIdAnnuncio();
     }
 
     @Override
@@ -47,9 +22,7 @@ public class AnnuncioDAOMemory implements AnnuncioDAO {
         if (autore == null) {
             return new ArrayList<>();
         }
-        return annunci.values().stream()
-                .filter(a -> autore.equals(a.getAutore()))
-                .toList();
+        return trovaPerCriterio(a -> autore.equals(a.getAutore()));
     }
 
     @Override
@@ -57,28 +30,11 @@ public class AnnuncioDAOMemory implements AnnuncioDAO {
         if (citta == null) {
             return new ArrayList<>();
         }
-        return annunci.values().stream()
-                .filter(a -> citta.equals(a.getCitta()))
-                .toList();
-    }
-
-    @Override
-    public List<Annuncio> trovaTutti() {
-        return new ArrayList<>(annunci.values());
+        return trovaPerCriterio(a -> citta.equals(a.getCitta()));
     }
 
     @Override
     public List<Annuncio> trovaAttivi() {
-        return annunci.values().stream()
-                .filter(a -> !a.isScaduto())
-                .toList();
-    }
-
-    /**
-     * Pulisce tutti i dati in memoria.
-     * Utile per i test.
-     */
-    public static void clear() {
-        annunci.clear();
+        return trovaPerCriterio(a -> !a.isScaduto());
     }
 }

@@ -1,15 +1,13 @@
 
-7model.Offerta#getDataOfferta()Ljava/time/LocalDateTime;L
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaB B('"1*­
-1C C(q
-o
-C C(
-%0java.time.LocalDateTime"__id*>
+Uengclasses.pattern.factory.AppuntamentoInUfficioFactory#getDurataPredefinitaMinuti()Iv
+l/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoInUfficioFactory.java ()"1*d
+1 ((A
+?
+ ((	
+%0int"__id*"
 
-__unknown_file ("* 
-model.Offerta"
-dataOfferta"+
-C C(
-
-%0java.time.LocalDateTimeB
-model.OffertaH
+__unknown_file (
+"""
+ ()
+""B;9
+7engclasses.pattern.factory.AppuntamentoInUfficioFactoryHX

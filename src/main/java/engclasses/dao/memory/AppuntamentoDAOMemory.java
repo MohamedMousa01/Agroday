@@ -14,46 +14,19 @@ import java.util.Map;
  * Implementazione in memoria del DAO per gli appuntamenti.
  * Utilizzata in modalità Demo.
  */
-public class AppuntamentoDAOMemory implements AppuntamentoDAO {
-
-    // Storage in memoria condiviso (Singleton-like per mantenere i dati durante la sessione)
-    private static final Map<String, Appuntamento> appuntamenti = new HashMap<>();
+public class AppuntamentoDAOMemory extends InMemoryDAO<Appuntamento, String> implements AppuntamentoDAO {
 
     @Override
-    public boolean salva(Appuntamento appuntamento) {
-        if (appuntamento == null || appuntamento.getIdAppuntamento() == null) {
-            return false;
-        }
-        appuntamenti.put(appuntamento.getIdAppuntamento(), appuntamento);
-        return true;
+    protected String getId(Appuntamento entity) {
+        return entity.getIdAppuntamento();
     }
 
     @Override
     public boolean aggiorna(Appuntamento appuntamento) {
-        if (appuntamento == null || appuntamento.getIdAppuntamento() == null) {
+        if (appuntamento == null || !exists(appuntamento.getIdAppuntamento())) {
             return false;
         }
-        if (!appuntamenti.containsKey(appuntamento.getIdAppuntamento())) {
-            return false;
-        }
-        appuntamenti.put(appuntamento.getIdAppuntamento(), appuntamento);
-        return true;
-    }
-
-    @Override
-    public boolean elimina(String idAppuntamento) {
-        if (idAppuntamento == null) {
-            return false;
-        }
-        return appuntamenti.remove(idAppuntamento) != null;
-    }
-
-    @Override
-    public Appuntamento trovaPerId(String idAppuntamento) {
-        if (idAppuntamento == null) {
-            return null;
-        }
-        return appuntamenti.get(idAppuntamento);
+        return salva(appuntamento);
     }
 
     @Override
@@ -61,9 +34,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         if (idCliente == null) {
             return new ArrayList<>();
         }
-        return appuntamenti.values().stream()
-                .filter(a -> idCliente.equals(a.getIdCliente()))
-                .toList();
+        return trovaPerCriterio(a -> idCliente.equals(a.getIdCliente()));
     }
 
     @Override
@@ -71,9 +42,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         if (idConsulente == null) {
             return new ArrayList<>();
         }
-        return appuntamenti.values().stream()
-                .filter(a -> idConsulente.equals(a.getIdConsulente()))
-                .toList();
+        return trovaPerCriterio(a -> idConsulente.equals(a.getIdConsulente()));
     }
 
     @Override
@@ -81,9 +50,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         if (stato == null) {
             return new ArrayList<>();
         }
-        return appuntamenti.values().stream()
-                .filter(a -> stato.equals(a.getStato()))
-                .toList();
+        return trovaPerCriterio(a -> stato.equals(a.getStato()));
     }
 
     @Override
@@ -91,9 +58,7 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         if (da == null || a == null) {
             return new ArrayList<>();
         }
-        return appuntamenti.values().stream()
-                .filter(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a))
-                .toList();
+        return trovaPerCriterio(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a));
     }
 
     @Override
@@ -101,15 +66,9 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
         if (idConsulente == null || da == null || a == null) {
             return new ArrayList<>();
         }
-        return appuntamenti.values().stream()
-                .filter(app -> idConsulente.equals(app.getIdConsulente()))
-                .filter(app -> !app.getDataOraInizio().isBefore(da) && !app.getDataOraInizio().isAfter(a))
-                .toList();
-    }
-
-    @Override
-    public List<Appuntamento> trovaTutti() {
-        return new ArrayList<>(appuntamenti.values());
+        return trovaPerCriterio(app -> idConsulente.equals(app.getIdConsulente()) 
+                && !app.getDataOraInizio().isBefore(da) 
+                && !app.getDataOraInizio().isAfter(a));
     }
 
     @Override
@@ -118,20 +77,10 @@ public class AppuntamentoDAOMemory implements AppuntamentoDAO {
             return false;
         }
         
-        return appuntamenti.values().stream()
+        return storage.values().stream()
                 .filter(a -> idConsulente.equals(a.getIdConsulente()))
-                .filter(a -> a.getStato().isAttivo()) // Solo appuntamenti attivi
+                .filter(a -> a.getStato().isAttivo())
                 .filter(a -> escludiId == null || !escludiId.equals(a.getIdAppuntamento()))
-                // Verifica sovrapposizione: il nuovo appuntamento si sovrappone se
-                // inizia prima della fine dell'esistente E finisce dopo l'inizio dell'esistente
                 .anyMatch(a -> inizio.isBefore(a.getDataOraFine()) && fine.isAfter(a.getDataOraInizio()));
-    }
-
-    /**
-     * Pulisce tutti i dati in memoria.
-     * Utile per i test.
-     */
-    public static void clear() {
-        appuntamenti.clear();
     }
 }

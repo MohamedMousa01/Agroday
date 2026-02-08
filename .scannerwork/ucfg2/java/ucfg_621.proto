@@ -1,24 +1,106 @@
 
-=__sonar_lambda_51$engclasses.dao.memory.AppuntamentoDAOMemoryj
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java{ {(4"1*á
-1{ {(¦£
-{ {()
-%11misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
++view.cli.ProfiloCLIView#confermaModifica()ZV
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.javaX X(#"7*Ü
+2[X [(`ÇÄ
+[X [(n
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*#
+
+__unknown_file (
+YES2equals(Ljava/lang/Object;)*
+1*Ý
+4[@ [(HÅÂ
+[@ [(T
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*!
+
+__unknown_file (
+Y2equals(Ljava/lang/Object;)*
+2
+1*á
+6[' [(/ÆÃ
+[' [(<
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*"
+
+__unknown_file (
+SI2equals(Ljava/lang/Object;)*	
+2
+4
+1*Å	
+7Y Y(Q
+O
+Y Y(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""æã
+Y Y(?
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%0java.io.PrintStream*G
+
+__unknown_file (+)
+'\nâš ï¸  Confermi la modifica? (S/N): 2print(Ljava/lang/String;)q
+o
+Z Z(!
+%2java.util.Scanner"__id*D
+
+__unknown_file ((*&
+view.cli.ProfiloCLIView"	
+scanner˜•
+Z Z(,
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
 
 __unknown_file (
 
-amodel.Appuntamento2
-getStato()Š‡
-{ {(4
-%12boolean""misc.StatoAppuntamento#isAttivo()Z*;
+%2java.util.Scanner2
+nextLine()Ž‹
+Z Z(3
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
 
-__unknown_file (
-
-%11misc.StatoAppuntamento2
-isAttivo()"
-{ {(4
-
-%12boolean:#
-{ {(
-amodel.AppuntamentoB 
-java.util.function.Predicate
+__unknown_file (
+
+%3java.lang.String2trim()œ™
+Z Z(A
+%5java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*4
+
+__unknown_file (
+
+%4java.lang.String2toUpperCase()f
+d
+Z Z(B
+rispostajava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.StringÅÂ
+[ [(#
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*!
+
+__unknown_file (
+S2equals(Ljava/lang/Object;)*
+2
+4
+6
+1*!
+1[ [(o"
+[ [(o
+""B
+view.cli.ProfiloCLIViewHX

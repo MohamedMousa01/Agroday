@@ -1,0 +1,181 @@
+
+1.0MohamedMousa01_AgrodayJavaFrontend"1770206313123*java2.BÛ
+,
+'src/main/java/misc/ValidationUtils.java2
+	
+type3
+	
+MAIN4
+
+package6
+	
+misc7
+
+misc.ValidationUtils9
+
+class10
+
+access11
+
+public12
+
+
+full-range13
+
+(7:1)-(65:2)14
+
+simple-name15
+
+ValidationUtils16
+$
+misc.ValidationUtils#<init>()V18
+
+method19
+
+private20
+
+(9:5)-(12:6)21
+
+calls22
+=
+7misc.ValidationUtils#isNullOrEmpty(Ljava/lang/String;)Z24
+
+(20:5)-(22:6)25
+
+isNullOrEmpty26
+c
+]misc.ValidationUtils#validateNotEmpty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;28
+
+(31:5)-(36:6)29
+
+validateNotEmpty30
+
+
+references31
+R
+Lmisc.ValidationUtils#validatePositive(ILjava/lang/String;)Ljava/lang/String;33
+
+(45:5)-(50:6)34
+
+validatePositive35
+b
+\misc.ValidationUtils#validateNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;37
+
+(59:5)-(64:6)38
+
+validateNotNull39J
+
+1
+12
+
+
+3
+4 Z
+
+5
+5768j‘
+M
+27G
+272819 *
+1 (*28:5B$
+
+
+11
+12
+
+
+13
+29
+
+
+15
+30
+G
+8B
+8910 *
+1 (#:5B$
+
+
+11
+12
+
+
+13
+14
+
+
+15
+16
+M
+17G
+171819 *
+1	 	(28:5B$
+
+
+11
+20
+
+
+13
+21
+
+
+15
+16
+M
+23G
+232419 *
+1 ((28:5B$
+
+
+11
+12
+
+
+13
+25
+
+
+15
+26
+M
+36G
+363719 *
+1; ;()28:5B$
+
+
+11
+12
+
+
+13
+38
+
+
+15
+39
+M
+32G
+323319 *
+1- -(*28:5B$
+
+
+11
+12
+
+
+13
+34
+
+
+15
+35rO
+
+17822*
+1	 	(
+
+27831*
+1   (
+
+272322*
+1   (

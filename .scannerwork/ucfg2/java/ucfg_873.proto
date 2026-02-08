@@ -1,64 +1,177 @@
 
-"misc.StatoAppuntamento#isAttivo()ZU
-K/Users/mohamedmousa/Desktop/prova/src/main/java/misc/StatoAppuntamento.java ("5*˙
-2: (>T
-R
-B (J
-%4misc.StatoAppuntamento"__id*"
+icontrollers.applicativo.AnnuncioController#convertToBean(Lmodel/Annuncio;)Lengclasses/beans/AnnuncioBean;i
+_/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AnnuncioController.javaa a(&"1*ù
+1b b(.PN
+b  b(,#
+%0engclasses.beans.AnnuncioBean"engclasses.beans.AnnuncioBean~
+|
+b b(.
+%1"'engclasses.beans.AnnuncioBean#<init>()V*A
 
-__unknown_file (
-""è
-å
-: (J
-%5boolean"	__compare*
-? (A
-==*&
-: (>
-misc.StatoAppuntamento**
-B (J
-
-%4misc.StatoAppuntamento*
-1*˝
-4$ ((T
-R
-, (6
-%2misc.StatoAppuntamento"__id*"
+__unknown_file (%
+#
+%0engclasses.beans.AnnuncioBean|
+z
+b b(/%
+beanengclasses.beans.AnnuncioBean"__id*A
 
-__unknown_file (
-""è
-å
-$ (6
-%3boolean"	__compare*
-) (+
-==*&
-$ ((
-misc.StatoAppuntamento**
-, (6
-
-%2misc.StatoAppuntamento*
-2
-1*Ä
-5 (T
-R
- ( 
-%0misc.StatoAppuntamento"__id*"
+__unknown_file (%
+#
+%0engclasses.beans.AnnuncioBean¢ü
+c c(3
+%2java.lang.String"0model.Annuncio#getIdAnnuncio()Ljava/lang/String;*8
 
-__unknown_file (
-""è
-å
- ( 
-%1boolean"	__compare*
- (
-==*&
- (
-misc.StatoAppuntamento**
- ( 
-
-%0misc.StatoAppuntamento*	
-2
-4
-1*!
-1 (K"
- (K
-""B
-misc.StatoAppuntamentoHX
+__unknown_file (
+
+annunciomodel.Annuncio2getIdAnnuncio()˘ˆ
+c c(4
+
+%3void"@engclasses.beans.AnnuncioBean#setIdAnnuncio(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*4
+
+__unknown_file (
+
+%2java.lang.String2!setIdAnnuncio(Ljava/lang/String;)öó
+d d(+
+%4java.lang.String",model.Annuncio#getAutore()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getAutore()ÒÓ
+d d(,
+
+%5void"<engclasses.beans.AnnuncioBean#setAutore(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*4
+
+__unknown_file (
+
+%4java.lang.String2setAutore(Ljava/lang/String;)öó
+e e(+
+%6java.lang.String",model.Annuncio#getTitolo()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getTitolo()ÒÓ
+e e(,
+
+%7void"<engclasses.beans.AnnuncioBean#setTitolo(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*4
+
+__unknown_file (
+
+%6java.lang.String2setTitolo(Ljava/lang/String;)§°
+f f(5
+%8java.lang.String"1model.Annuncio#getDescrizione()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getDescrizione()˚¯
+f f(6
+
+%9void"Aengclasses.beans.AnnuncioBean#setDescrizione(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*4
+
+__unknown_file (
+
+%8java.lang.String2"setDescrizione(Ljava/lang/String;)Ø¨
+g g(9
+%10java.time.LocalDate"6model.Annuncio#getDataCreazione()Ljava/time/LocalDate;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getDataCreazione()äá
+g g(:
+%11void"Fengclasses.beans.AnnuncioBean#setDataCreazione(Ljava/time/LocalDate;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*8
+
+__unknown_file (
+
+%10java.time.LocalDate2'setDataCreazione(Ljava/time/LocalDate;)Ä~
+h h(/
+
+%12int"model.Annuncio#getQuantita()I*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getQuantita()»≈
+h h(0
+%13void"-engclasses.beans.AnnuncioBean#setQuantita(I)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*(
+
+__unknown_file (
+
+
+%12int2setQuantita(I)ôñ
+i i()
+%14java.lang.String"+model.Annuncio#getCitta()Ljava/lang/String;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2
+getCitta()ÒÓ
+i i(*
+%15void";engclasses.beans.AnnuncioBean#setCitta(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*5
+
+__unknown_file (
+
+%14java.lang.String2setCitta(Ljava/lang/String;)≠™
+j j(7
+%16java.time.LocalDate"5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getDataScadenza()àÖ
+j j(8
+%17void"Eengclasses.beans.AnnuncioBean#setDataScadenza(Ljava/time/LocalDate;)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*8
+
+__unknown_file (
+
+%16java.time.LocalDate2&setDataScadenza(Ljava/time/LocalDate;)}
+k k(+
+%18double"model.Annuncio#getPrezzo()D*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getPrezzo()«ƒ
+k k(,
+%19void"+engclasses.beans.AnnuncioBean#setPrezzo(D)V*C
+
+__unknown_file ('
+%
+beanengclasses.beans.AnnuncioBean*+
+
+__unknown_file (
+
+%18double2setPrezzo(D)"3
+l l('
+%
+beanengclasses.beans.AnnuncioBean:&
+a' a(8
+annunciomodel.AnnuncioB.,
+*controllers.applicativo.AnnuncioController

@@ -1,15 +1,60 @@
 
-4engclasses.dao.memory.AgricoltoreDAOMemory#<init>()V
-__unknown_file ("startingBlock*⁄
-startingBlockg
-_/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java (ﬂ
-‹
-g
-_/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java (
-%0"/engclasses.dao.memory.UtenteDAOMemory#<init>()V*:
- (.,
-*engclasses.dao.memory.AgricoltoreDAOMemory"~
-g
-_/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AgricoltoreDAOMemory.java (
-implicit returnB.,
-*engclasses.dao.memory.AgricoltoreDAOMemory
+Hengclasses.dao.filesystem.ConsulenteDAOFile#trovaTutti()Ljava/util/List;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/ConsulenteDAOFile.java (&"8*1
+3 (""
+ (
+
+%4java.util.List*±
+4 (úô
+ (
+%4java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%3java.util.stream.Stream2toList()*
+3*õ
+5 (/ÜÉ
+ (0
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*"
+
+__unknown_file (
+""2"map(Ljava/util/function/Function;)*
+4*£
+6 (8éã
+ (9
+%2java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*"
+
+__unknown_file (
+""2&filter(Ljava/util/function/Predicate;)*
+5*ù
+7 (1`
+^
+ (1
+utentijava.util.List"__id*2
+
+__unknown_file (
+
+%0java.util.List¶£
+ ("
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*6
+
+__unknown_file (
+
+utentijava.util.List2stream()*
+6*›
+8" (.»≈
+" (0
+%0java.util.List"Fengclasses.dao.filesystem.UtenteDAOFile#caricaDaFile()Ljava/util/List;*K
+
+__unknown_file (/-
++engclasses.dao.filesystem.ConsulenteDAOFile2caricaDaFile()*
+7B/-
++engclasses.dao.filesystem.ConsulenteDAOFileHh

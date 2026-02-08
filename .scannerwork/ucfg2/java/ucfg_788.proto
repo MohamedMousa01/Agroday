@@ -1,108 +1,60 @@
 
-ucontrollers.applicativo.AppuntamentoController#getAppuntamento(Ljava/lang/String;)Lengclasses/beans/AppuntamentoBean;o
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java¬ ¬(+"4*ƒ
-2
-¯E ¯(Im
-k
+[engclasses.dao.memory.OffertaDAOMemory#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;e
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java ()"startingBlock*’
+startingBlock) (<‘
+Ž
+ (
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
 
-¯E ¯(I'
-%4!engclasses.beans.AppuntamentoBean"__id*.
-
-__unknown_file (
-
-%6
-<nulltype>*
-1*á
-3
-¯& ¯(4Â
-¿
+idAnnunciojava.lang.String^
+\
+1 (;
 
-¯& ¯(B'
-%5!engclasses.beans.AppuntamentoBean"vcontrollers.applicativo.AppuntamentoController#convertiInBean(Lmodel/Appuntamento;)Lengclasses/beans/AppuntamentoBean;*N
+idAnnunciojava.lang.String"__annotation*"
 
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*@
-
-__unknown_file ($
-"
-appuntamentomodel.Appuntamento…
-‚
-
-¯& ¯(B'
-%4!engclasses.beans.AppuntamentoBean"__id*E
-
-__unknown_file ()
-'
-%5!engclasses.beans.AppuntamentoBean*
-1*ü
-4
-­* ­(4ž
+__unknown_file (
+
+%4*
+1*°
+1 (ž
 ›
-
-­* ­(4'
-%0!engclasses.dao.factory.DAOFactory"__id*^
+  (I"
+%0java.util.function.Predicate"__declareFunction*X
 
-__unknown_file (B*@0
-.controllers.applicativo.AppuntamentoController"
-
-daoFactoryòï
-
-­* ­(I(
-%1"engclasses.dao.api.AppuntamentoDAO"Zengclasses.dao.factory.DAOFactory#getAppuntamentoDAO()Lengclasses/dao/api/AppuntamentoDAO;*E
+__unknown_file (<:
+8__sonar_lambda_67$engclasses.dao.memory.OffertaDAOMemory•
+’
 
-__unknown_file ()
-'
-%0!engclasses.dao.factory.DAOFactory2getAppuntamentoDAO()”
-‘
+__unknown_file (2
+"
+%0java.util.function.Predicate"
 
-­ ­(J5
-appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO"__id*F
+idAnnuncio"__id*<
 
-__unknown_file (*
-(
-%1"engclasses.dao.api.AppuntamentoDAO·´
+__unknown_file ( 
+
 
-®$ ®(N
-%2model.Appuntamento"Uengclasses.dao.api.AppuntamentoDAO#trovaPerId(Ljava/lang/String;)Lmodel/Appuntamento;*S
+idAnnunciojava.lang.StringÃÀ
+ (J
+%3java.util.List"bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;*F
 
-__unknown_file (7
-5
-appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO*@
+__unknown_file (*(
+&engclasses.dao.memory.OffertaDAOMemory*@
 
 __unknown_file ($
 "
-idAppuntamentojava.lang.String2trovaPerId(Ljava/lang/String;)p
-n
+%0java.util.function.Predicate20trovaPerCriterio(Ljava/util/function/Predicate;)""
+ (K
+
+%3java.util.List:*
+* (;
 
-® ®(O"
-appuntamentomodel.Appuntamento"__id*6
-
-__unknown_file (
-
-%2model.Appuntamento‰
-†
-
-¯ ¯(#
-%3boolean"	__compare*
-
-¯ ¯(
-!=*2
-
-¯ ¯($
-"
-appuntamentomodel.Appuntamento*
-
-¯ ¯(#
-""*
-2
-3*H
-1
-¯ ¯(J"7
-
-¯ ¯(J)
-'
-%4!engclasses.beans.AppuntamentoBean:0
-
-¬, ¬(A"
-idAppuntamentojava.lang.StringB20
-.controllers.applicativo.AppuntamentoControllerH
+idAnnunciojava.lang.StringB*(
+&engclasses.dao.memory.OffertaDAOMemoryH

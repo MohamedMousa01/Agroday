@@ -11,33 +11,11 @@ import java.util.Map;
 /**
  * Implementazione in memoria del DAO per le partecipazioni.
  */
-public class PartecipazioneDAOMemory implements PartecipazioneDAO {
-
-    private static final Map<String, Partecipazione> partecipazioni = new HashMap<>();
+public class PartecipazioneDAOMemory extends InMemoryDAO<Partecipazione, String> implements PartecipazioneDAO {
 
     @Override
-    public boolean salva(Partecipazione partecipazione) {
-        if (partecipazione == null || partecipazione.getIdPartecipazione() == null) {
-            return false;
-        }
-        partecipazioni.put(partecipazione.getIdPartecipazione(), partecipazione);
-        return true;
-    }
-
-    @Override
-    public boolean elimina(String idPartecipazione) {
-        if (idPartecipazione == null) {
-            return false;
-        }
-        return partecipazioni.remove(idPartecipazione) != null;
-    }
-
-    @Override
-    public Partecipazione trovaPerId(String idPartecipazione) {
-        if (idPartecipazione == null) {
-            return null;
-        }
-        return partecipazioni.get(idPartecipazione);
+    protected String getId(Partecipazione entity) {
+        return entity.getIdPartecipazione();
     }
 
     @Override
@@ -45,9 +23,7 @@ public class PartecipazioneDAOMemory implements PartecipazioneDAO {
         if (idAnnuncio == null) {
             return new ArrayList<>();
         }
-        return partecipazioni.values().stream()
-                .filter(p -> idAnnuncio.equals(p.getIdAnnuncio()))
-                .toList();
+        return trovaPerCriterio(p -> idAnnuncio.equals(p.getIdAnnuncio()));
     }
 
     @Override
@@ -55,9 +31,7 @@ public class PartecipazioneDAOMemory implements PartecipazioneDAO {
         if (idAgricoltore == null) {
             return new ArrayList<>();
         }
-        return partecipazioni.values().stream()
-                .filter(p -> idAgricoltore.equals(p.getIdAgricoltore()))
-                .toList();
+        return trovaPerCriterio(p -> idAgricoltore.equals(p.getIdAgricoltore()));
     }
 
     @Override
@@ -65,20 +39,13 @@ public class PartecipazioneDAOMemory implements PartecipazioneDAO {
         if (idAnnuncio == null || idAgricoltore == null) {
             return false;
         }
-        return partecipazioni.values().stream()
+        return storage.values().stream()
                 .anyMatch(p -> idAnnuncio.equals(p.getIdAnnuncio()) && 
                               idAgricoltore.equals(p.getIdAgricoltore()));
     }
 
     @Override
     public List<Partecipazione> trovaTutte() {
-        return new ArrayList<>(partecipazioni.values());
-    }
-
-    /**
-     * Pulisce tutti i dati in memoria.
-     */
-    public static void clear() {
-        partecipazioni.clear();
+        return trovaTutti();
     }
 }

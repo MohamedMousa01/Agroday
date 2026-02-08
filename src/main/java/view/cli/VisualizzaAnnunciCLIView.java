@@ -159,7 +159,12 @@ public class VisualizzaAnnunciCLIView {
         if (s.length() >= n) {
             return s.substring(0, n);
         }
-        return String.format("%-*s", n, s);
+        // Padding manuale con spazi (più efficiente e evita problemi di format)
+        StringBuilder sb = new StringBuilder(s);
+        while (sb.length() < n) {
+            sb.append(' ');
+        }
+        return sb.toString();
     }
 
     private String truncate(String s, int maxLen) {

@@ -1,32 +1,78 @@
 
-qcontrollers.applicativo.AppuntamentoController#cancellaAppuntamentoCliente(Ljava/lang/String;Ljava/lang/String;)Zo
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaÖ Ö(."1*°
-1
-Ü Ü(#˘
-ˆ
-
-Ü Ü(A
-%0boolean"kcontrollers.applicativo.AppuntamentoController#cancellaAppuntamento(Ljava/lang/String;Ljava/lang/String;Z)Z*N
+*engclasses.beans.AnnuncioBean#isScaduto()Z\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.java{ {("4*¢
+2|O |(Xç
+ä
+|O |(^
+%5java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
 
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*@
+__unknown_file ("
+java.time.LocalDate~
+|
+|g |(s
+%6java.time.LocalDate"__id*O
 
-__unknown_file ($
-"
-idAppuntamentojava.lang.String*8
+__unknown_file (3*1
+engclasses.beans.AnnuncioBean"
+dataScadenza˝˙
+|O |(t
+%7boolean"@java.time.LocalDate#isAfter(Ljava/time/chrono/ChronoLocalDate;)Z*7
 
-__unknown_file (
-
-motivojava.lang.String* 
+__unknown_file (
+
+%5java.time.LocalDate*7
 
-__unknown_file (2"
-
-Ü Ü(B
-"":0
-
-Ö/ Ö(E"
-idAppuntamentojava.lang.String:(
-
-ÖF Ö(S
-motivojava.lang.StringB20
-.controllers.applicativo.AppuntamentoControllerHX
+__unknown_file (
+
+%6java.time.LocalDate2+isAfter(Ljava/time/chrono/ChronoLocalDate;)*
+1*é
+3|7 |(C~
+|
+|7 |(C
+%3java.time.LocalDate"__id*O
+
+__unknown_file (3*1
+engclasses.beans.AnnuncioBean"
+dataScadenzaw
+u
+|7 |(K
+%4boolean"	__compare*
+|D |(F
+!=*'
+|7 |(C
+
+%3java.time.LocalDate*
+|G |(K
+""*
+2
+1*µ
+4| |(S
+Q
+| |($
+%0java.lang.String"__id*'
+
+__unknown_file (	
+SCADUTOt
+r
+|, |(1
+%1java.lang.String"__id*H
+
+__unknown_file (,**
+engclasses.beans.AnnuncioBean"
+stato“œ
+| |(2
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2equals(Ljava/lang/Object;)*
+3
+1*!
+1| |(v"
+| |(v
+""B!
+engclasses.beans.AnnuncioBeanHX

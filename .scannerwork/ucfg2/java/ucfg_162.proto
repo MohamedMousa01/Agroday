@@ -1,39 +1,39 @@
 
-oengclasses.dao.filesystem.OffertaDAOFile#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;g
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javam m(;"startingBlock*§
-startingBlockm; m(Wö
-ó
-l l(
-%2"
-__annotate*2
+9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFileg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaK K(A"startingBlock*æ
+startingBlockK K(Aù
+ö
 
-__unknown_file (
-java.lang.Override*E
+__unknown_file (
+
+idAnnunciojava.lang.String"__id*X
 
-__unknown_file ()
-'
-usernameAgricoltorejava.lang.Stringg
-e
-mC m(V'
-usernameAgricoltorejava.lang.String"__annotation*"
+__unknown_file (<*:*
+(engclasses.dao.filesystem.OffertaDAOFile"
+
+idAnnuncio*
+1*£
+1K K('ôñ
+K/ K(@
+%4java.lang.String"/model.Offerta#getIdAnnuncio()Ljava/lang/String;*0
 
-__unknown_file (
-
-%2*
-1*‡
-1q q( <:
-q q(
-%0java.util.ArrayList"java.util.ArrayListj
-h
-q q( 
-%1"java.util.ArrayList#<init>()V*7
+__unknown_file (
+
+omodel.Offerta2getIdAnnuncio()⁄◊
+K K(A
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
 
-__unknown_file (
-
-%0java.util.ArrayList"'
-q q(!
-
-%0java.util.ArrayList:3
-m< m(V'
-usernameAgricoltorejava.lang.StringB,*
-(engclasses.dao.filesystem.OffertaDAOFileH
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)"
+K K(A
+
+%5boolean:
+K K(
+omodel.OffertaB 
+java.util.function.Predicate

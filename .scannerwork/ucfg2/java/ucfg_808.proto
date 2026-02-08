@@ -1,15 +1,21 @@
 
-+model.Utente#getCognome()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java' '("1*š
-1( ((e
-c
-( ((
-%0java.lang.String"__id*9
+Ycontrollers.applicativo.AppuntamentoController#getConsulentiDisponibili()Ljava/util/List;o
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaº º(0"1*è
+1
+½ ½( ><
+
+½ ½(
+%0java.util.ArrayList"java.util.ArrayListl
+j
+
+½ ½( 
+%1"java.util.ArrayList#<init>()V*7
 
-__unknown_file (*
-model.Utente"	
-cognome"$
-( ((
-
-%0java.lang.StringB
-model.UtenteH
+__unknown_file (
+
+%0java.util.ArrayList")
+
+½ ½(!
+
+%0java.util.ArrayListB20
+.controllers.applicativo.AppuntamentoControllerH

@@ -1,18 +1,9 @@
 
-:model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;O
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaù ù()"1*≤
+model.Annuncio#getPrezzo()DO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaì ì("1*%
 1
-û û( v
-t
+î î("
 
-û û( 
-%0java.time.LocalDate"__id*E
-
-__unknown_file ()*'
-model.Annuncio"
-dataPubblicazione")
-
-û û(!
-
-%0java.time.LocalDateB
-model.AnnuncioH
+î î(
+""B
+model.AnnuncioHX

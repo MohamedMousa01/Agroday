@@ -1,18 +1,45 @@
 
-Gengclasses.beans.AppuntamentoBean#getNomeConsulente()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaø ø(#"1*¾
+Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java† †(%"1*Ñ
 1
-ù ù(„
-
+‡ ‡(%ÒÏ
 
-ù ù(
-%0java.lang.String"__id*U
+‡ ‡('
+%0java.lang.String"Lengclasses.beans.AppuntamentoBean#getOraInizioFormattata()Ljava/lang/String;*A
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-nomeConsulente"&
+__unknown_file (%#
+!engclasses.beans.AppuntamentoBean2getOraInizioFormattata()o
+m
 
-ù ù(
+‡ ‡(/
+%1java.lang.String"__concat*&
+
+‡ ‡('
 
-%0java.lang.StringB%#
+%0java.lang.String*
+
+‡* ‡(/
+ - ÎË
+
+‡2 ‡(H
+%2java.lang.String"Jengclasses.beans.AppuntamentoBean#getOraFineFormattata()Ljava/lang/String;*A
+
+__unknown_file (%#
+!engclasses.beans.AppuntamentoBean2getOraFineFormattata()€
+~
+
+‡ ‡(H
+%3java.lang.String"__concat*&
+
+‡ ‡(/
+
+%1java.lang.String*&
+
+‡2 ‡(H
+
+%2java.lang.String"&
+
+‡ ‡(I
+
+%3java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

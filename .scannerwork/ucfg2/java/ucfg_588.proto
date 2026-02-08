@@ -1,28 +1,15 @@
 
-*view.cli.ProfiloCLIView#%field_initializer
-__unknown_file ("1*ˆ
-1 (‡„
-V
-L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java( (/
-%0java.util.Scanner"java.util.ScannerÎ
-Ë
-V
-L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""°
-­
-V
-L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java (;&
-view.cli.ProfiloCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner"k
-T
-L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java p(
-implicit returnB
-view.cli.ProfiloCLIView
+*model.Offerta#getStato()Ljava/lang/String;L
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaF F("1*™
+1G G(d
+b
+G G(
+%0java.lang.String"__id*8
+
+__unknown_file (*
+model.Offerta"
+stato"$
+G G(
+
+%0java.lang.StringB
+model.OffertaH

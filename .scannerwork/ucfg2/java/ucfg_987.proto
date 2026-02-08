@@ -1,18 +1,18 @@
 
-Eengclasses.beans.AppuntamentoBean#getOraInizio()Ljava/time/LocalTime;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java† †(!"1*æ
+Bengclasses.beans.AppuntamentoBean#getIdCliente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaÿ ÿ("1*∑
 1
-° °(Å
-
+Ÿ Ÿ(~
+|
 
-° °(
-%0java.time.LocalTime"__id*P
+Ÿ Ÿ(
+%0java.lang.String"__id*P
 
 __unknown_file (4*2#
 !engclasses.beans.AppuntamentoBean"
-	oraInizio")
+	idCliente"&
 
-° °(
-
-%0java.time.LocalTimeB%#
+Ÿ Ÿ(
+
+%0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

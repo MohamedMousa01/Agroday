@@ -1,16 +1,180 @@
 
-,model.Utente#getUsername()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java/ /("1*›
-10 0(f
-d
-0 0(
-%0java.lang.String"__id*:
-
-__unknown_file (*
-model.Utente"
+…controllers.applicativo.AppuntamentoController#validaCampiPrenotazione(ZLmisc/TipoConsulenza;ZZZLjava/lang/String;)Ljava/lang/String;o
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaè è()"1*‘
+1
+ë ë(2FD
 
-username"$
-0 0(
+ë# ë(0
+%0java.lang.StringBuilder"java.lang.StringBuildert
+r
+
+ë ë(2
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuildert
+r
+
+ë ë(3!
+errorijava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderƒ
+€
+
+í í(\
+
+%2void"ucontrollers.applicativo.AppuntamentoController#validaCampoObbligatorio(Ljava/lang/StringBuilder;ZLjava/lang/String;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*"
+
+__unknown_file (
+""*:
+
+__unknown_file (
+Seleziona un consulente.\nŒ
+‰
+
+î( î(>
+%3boolean"	__compare*
+
+î7 î(9
+!=*5
+
+î( î(6'
+%
+tipoConsulenzamisc.TipoConsulenza*
+
+î: î(>
+""”
+‘
+
+î î(e
+
+%4void"ucontrollers.applicativo.AppuntamentoController#validaCampoObbligatorio(Ljava/lang/StringBuilder;ZLjava/lang/String;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*+
+
+__unknown_file (
+
+%3boolean*B
+
+__unknown_file (&$
+"Seleziona il tipo di consulenza.\nþ
+û
+
+ï ï(Q
+
+%5void"ucontrollers.applicativo.AppuntamentoController#validaCampoObbligatorio(Ljava/lang/StringBuilder;ZLjava/lang/String;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+Seleziona una data.\n…
+‚
+
+ð ð(]
+
+%6void"ucontrollers.applicativo.AppuntamentoController#validaCampoObbligatorio(Ljava/lang/StringBuilder;ZLjava/lang/String;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*"
+
+__unknown_file (
+""*<
+
+__unknown_file ( 
+Seleziona l'ora di inizio.\nƒ
+€
+
+ñ ñ(Y
+
+%7void"ucontrollers.applicativo.AppuntamentoController#validaCampoObbligatorio(Ljava/lang/StringBuilder;ZLjava/lang/String;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*"
+
+__unknown_file (
+""*:
+
+__unknown_file (
+Seleziona l'ora di fine.\n»
+¸
+
+ò ò(C
+
+%8void"Žcontrollers.applicativo.AppuntamentoController#validaLuogoPerTipoConsulenza(Ljava/lang/StringBuilder;Lmisc/TipoConsulenza;Ljava/lang/String;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder*C
+
+__unknown_file ('
+%
+tipoConsulenzamisc.TipoConsulenza*7
+
+__unknown_file (
+
+luogojava.lang.Stringª§
+
+ô ô( 
+%9java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder2
+toString()"&
+
+ô ô(!
 
-%0java.lang.StringB
-model.UtenteH
+%9java.lang.String: 
+
+__unknown_file (
+"":3
+
+èI è(g%
+tipoConsulenzamisc.TipoConsulenza: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":'
+
+êG ê(S
+luogojava.lang.StringB20
+.controllers.applicativo.AppuntamentoControllerH

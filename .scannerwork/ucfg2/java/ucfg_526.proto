@@ -1,28 +1,37 @@
 
-(view.cli.LoginCLIView#%field_initializer
-__unknown_file ("1*þ
-1 (…‚
-T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java( (/
-%0java.util.Scanner"java.util.ScannerÌ
-É
-T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""¬
-©
-T
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java (;$
-view.cli.LoginCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner"i
-R
-J/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/LoginCLIView.java 8(
-implicit returnB
-view.cli.LoginCLIView
+>__sonar_lambda_41$controllers.grafico.gui.ProfiloGUIControllerk
+a/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/ProfiloGUIController.javaR R(?"startingBlock*¾
+startingBlockR R(?
+š
+
+__unknown_file (
+usernamejava.lang.String"__id*Z
+
+__unknown_file (>*<.
+,controllers.grafico.gui.ProfiloGUIController"
+
+username*
+1*¹
+1R! R("±®
+R! R(.
+%5java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+aengclasses.beans.AnnuncioBean2getAutore()ØÕ
+R! R(?
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%5java.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String2equals(Ljava/lang/Object;)"
+R! R(?
+
+%6boolean:.
+R R("
+aengclasses.beans.AnnuncioBeanB 
+java.util.function.Predicate

@@ -1,18 +1,58 @@
 
-5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÖ Ö(%"1*∞
-1
-Ü Ü(q
+$model.Appuntamento#isModificabile()ZS
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java‹ ‹(!"3*»
+2
+›# ›(0z
+x
+
+›# ›(0
+%2java.time.LocalDateTime"__id*E
+
+__unknown_file ()*'
+model.Appuntamento"
+dataOraInizioü
+ú
+
+›9 ›(L
+%3java.time.LocalDateTime"6java.time.LocalDateTime#now()Ljava/time/LocalDateTime;*7
+
+__unknown_file ("
+java.time.LocalDateTimeìê
+
+›# ›(M
+%4boolean"Hjava.time.LocalDateTime#isAfter(Ljava/time/chrono/ChronoLocalDateTime;)Z*;
+
+__unknown_file (
+
+%2java.time.LocalDateTime*;
+
+__unknown_file (
+
+%3java.time.LocalDateTime2/isAfter(Ljava/time/chrono/ChronoLocalDateTime;)*
+1*ó
+3
+› ›(q
 o
 
-Ü Ü(
+› ›(
 %0misc.StatoAppuntamento"__id*=
 
 __unknown_file (!*
 model.Appuntamento"
-stato",
+statoäá
 
-Ü Ü(
+› ›(
+%1boolean""misc.StatoAppuntamento#isAttivo()Z*:
+
+__unknown_file (
 
-%0misc.StatoAppuntamentoB
-model.AppuntamentoH
+%0misc.StatoAppuntamento2
+isAttivo()*
+2
+1*%
+1
+› ›(N"
+
+› ›(N
+""B
+model.AppuntamentoHX

@@ -1,16 +1,16 @@
 
-Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java8 8(!"1*±
-19 9(|
-z
-9 9(
-%0java.lang.String"__id*P
+Cengclasses.beans.RegistrazioneBean#getTipoUtente()Lmisc/TipoUtente;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java ('"1*±
+1 (}
+{
+ (
+%0misc.TipoUtente"__id*R
 
-__unknown_file (4*2$
-"engclasses.beans.RegistrazioneBean"
+__unknown_file (6*4$
+"engclasses.beans.RegistrazioneBean"
 
-username"$
-9 9(
-
-%0java.lang.StringB&$
+tipoUtente"#
+ (
+
+%0misc.TipoUtenteB&$
 "engclasses.beans.RegistrazioneBeanH

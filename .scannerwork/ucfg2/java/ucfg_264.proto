@@ -1,61 +1,198 @@
 
-/view.cli.MainAgricoltoreCLIView#chiediScelta()I^
-T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java; ;("6*!
-2> >(?"
-> >(?
-""*Ç
-3> >(>²
-¯
-> >(>	
-%5int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
-
-__unknown_file ("
-java.lang.Integer*4
-
-__unknown_file (
-
-%4java.lang.String*
-2*£
-4>$ >(=Ž‹
->$ >(=
-%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
-
-__unknown_file (
-
-%3java.lang.String2trim()*
-3*¨
-5> >(y
-w
->$ >(+
-%2java.util.Scanner"__id*L
-
-__unknown_file (0*.!
-view.cli.MainAgricoltoreCLIView"	
-scanner˜•
->$ >(6
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
-
-%2java.util.Scanner2
-nextLine()*
-4*À
-6< <(Q
-O
-< <(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ØÕ
-< <(3
+/model.Appuntamento#toString()Ljava/lang/String;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÇ Ç("1*Æ
+1
+È È(i
+g
 
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+È É(
+%0java.lang.String"__concat*
+
+È È(
+Appuntamento{*
+
+É É(
+id='t
+r
+
+É É('
+%1java.lang.String"__id*F
 
-__unknown_file (
+__unknown_file (**(
+model.Appuntamento"
+idAppuntamento€
+~
+
+È É('
+%2java.lang.String"__concat*&
+
+È É(
+
+%0java.lang.String*&
+
+É É('
+
+%1java.lang.Stringn
+l
+
+È É(.
+%3java.lang.String"__concat*&
+
+È É('
+
+%2java.lang.String*
+
+É* É(.
+\'s
+q
+
+È Ê(
+%4java.lang.String"__concat*&
+
+È É(.
+
+%3java.lang.String*
+
+Ê Ê(	
+, tipo=w
+u
+
+Ê Ê(*
+%5misc.TipoConsulenza"__id*F
+
+__unknown_file (**(
+model.Appuntamento"
+tipoConsulenza„
+
+
+È Ê(*
+%6java.lang.String"__concat*&
+
+È Ê(
+
+%4java.lang.String*)
+
+Ê Ê(*
 
-%0java.io.PrintStream*9
+%5misc.TipoConsulenzat
+r
+
+È Ë(
+%7java.lang.String"__concat*&
+
+È Ê(*
+
+%6java.lang.String*
+
+Ë Ë(
+
+, stato=q
+o
+
+Ë Ë("
+%8misc.StatoAppuntamento"__id*=
 
-__unknown_file (
-\nâž¤ Scegli un'opzione: 2print(Ljava/lang/String;)*
-5B#!
-view.cli.MainAgricoltoreCLIViewHX
+__unknown_file (!*
+model.Appuntamento"
+stato‡
+„
+
+È Ë("
+%9java.lang.String"__concat*&
+
+È Ë(
+
+%7java.lang.String*,
+
+Ë Ë("
+
+%8misc.StatoAppuntamentot
+r
+
+È Ì(
+%10java.lang.String"__concat*&
+
+È Ë("
+
+%9java.lang.String*
+
+Ì Ì(	
+, data={
+y
+
+Ì Ì()
+%11java.time.LocalDateTime"__id*E
+
+__unknown_file ()*'
+model.Appuntamento"
+dataOraInizio‹
+ˆ
+
+È Ì()
+%12java.lang.String"__concat*'
+
+È Ì(
+
+%10java.lang.String*.
+
+Ì Ì() 
+
+%11java.time.LocalDateTimew
+u
+
+È Í(
+%13java.lang.String"__concat*'
+
+È Ì()
+
+%12java.lang.String*
+
+Í Í(
+	, luogo='l
+j
+
+Í Í(#
+%14java.lang.String"__id*=
+
+__unknown_file (!*
+model.Appuntamento"
+luogo„
+
+
+È Í(#
+%15java.lang.String"__concat*'
+
+È Í(
+
+%13java.lang.String*'
+
+Í Í(#
+
+%14java.lang.Stringp
+n
+
+È Í(*
+%16java.lang.String"__concat*'
+
+È Í(#
+
+%15java.lang.String*
+
+Í& Í(*
+\'o
+m
+
+È Î(
+%17java.lang.String"__concat*'
+
+È Í(*
+
+%16java.lang.String*
+
+Î Î(
+}"'
+
+È Î(
+
+%17java.lang.StringB
+model.AppuntamentoH

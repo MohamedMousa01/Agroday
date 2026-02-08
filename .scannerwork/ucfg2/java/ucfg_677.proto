@@ -1,16 +1,15 @@
 
-+model.Consulente#getTipo()Lmisc/TipoUtente;O
-E/Users/mohamedmousa/Desktop/prova/src/main/java/model/Consulente.java
- 
-("1*Å
-1 (M
-K
- ($
-%0misc.TipoUtente"__id*"
+6misc.Session#getAppuntamentiCorrente()Ljava/util/List;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/misc/Session.javaI" I(9"1*£
+1J J(#p
+n
+J J(#
+%0java.util.List"__id*F
 
-__unknown_file (
-"""#
- (%
-
-%0misc.TipoUtenteB
-model.ConsulenteH
+__unknown_file (**(
+misc.Session"
+appuntamentiCorrente""
+J J($
+
+%0java.util.ListB
+misc.SessionH

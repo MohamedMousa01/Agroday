@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Controller grafico per la visualizzazione della lista appuntamenti.
  */
-public class ListaAppuntamentiGUIController {
+public class ListaAppuntamentiGUIController extends BaseGUIController {
 
     @FXML private TableView<AppuntamentoBean> appuntamentiTable;
     @FXML private TableColumn<AppuntamentoBean, String> dataColumn;

@@ -1,16 +1,15 @@
 
-Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.javaH H(!"1*±
-1I I(|
-z
-I I(
-%0java.lang.String"__id*P
+>engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java( (("1*­
+1) )(x
+v
+) )(
+%0java.lang.String"__id*L
 
-__unknown_file (4*2$
-"engclasses.beans.RegistrazioneBean"
-
-password"$
-I I(
+__unknown_file (0*.$
+"engclasses.beans.RegistrazioneBean"
+nome"$
+) )(
 
 %0java.lang.StringB&$
 "engclasses.beans.RegistrazioneBeanH

@@ -1,45 +1,21 @@
 
-4view.cli.VisualizzaAnnunciCLIView#%field_initializer
-__unknown_file ("1*á	
-1 (‘Ž
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java( (/
-%0java.util.Scanner"java.util.ScannerØ
-Õ
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""Ä
-Á
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java (;0#
-!view.cli.VisualizzaAnnunciCLIView"	
-scanner"__id*%
- (
-
-%0java.util.ScannerÅ
-Â
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java4 (](
-%2"java.time.format.DateTimeFormatter"djava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;*2
- (&"$
-"java.time.format.DateTimeFormatter*
- (
-
-dd/MM/yyyyÛ
-Ø
-`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java (^6#
-!view.cli.VisualizzaAnnunciCLIView"
-dateFormatter"__id*6
- (*
-(
-%2"java.time.format.DateTimeFormatter"v
-_
-V/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/VisualizzaAnnunciCLIView.java ®(
-implicit returnB%#
-!view.cli.VisualizzaAnnunciCLIView
+)view.cli.MainAgricoltoreCLIView#<init>()V
+__unknown_file ("startingBlock*±
+startingBlock\
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
+ 
+(Ì
+É
+\
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
+ 
+(
+%0"2view.cli.MainAgricoltoreCLIView#%field_initializer*/
+ (#!
+view.cli.MainAgricoltoreCLIView"s
+\
+T/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainAgricoltoreCLIView.java
+ 
+(
+implicit returnB#!
+view.cli.MainAgricoltoreCLIView

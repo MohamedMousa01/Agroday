@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 /**
  * Controller per visualizzare le offerte ricevute dall'agricoltore sui suoi annunci.
  */
-public class VisualizzaOfferteGUIController {
+public class VisualizzaOfferteGUIController extends BaseGUIController {
 
     private static final Logger logger = LoggerFactory.getLogger(VisualizzaOfferteGUIController.class);
 
@@ -267,11 +267,4 @@ public class VisualizzaOfferteGUIController {
         ViewManager.goTo(ViewType.MAIN);
     }
 
-    private void mostraMessaggio(String titolo, String messaggio, Alert.AlertType tipo) {
-        Alert alert = new Alert(tipo);
-        alert.setTitle(titolo);
-        alert.setHeaderText(null);
-        alert.setContentText(messaggio);
-        alert.showAndWait();
-    }
 }

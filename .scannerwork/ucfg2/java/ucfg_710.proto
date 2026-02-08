@@ -1,108 +1,81 @@
 
-eengclasses.dao.filesystem.AppuntamentoDAOFile#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;l
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javat t(+"startingBlock*‡
-2v v($<:
-v v("
+Zengclasses.dao.memory.AnnuncioDAOMemory#trovaPerAutore(Ljava/lang/String;)Ljava/util/List;f
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.java (("startingBlock*‡
+2 ($<:
+ ("
 %1java.util.ArrayList"java.util.ArrayListj
 h
-v v($
+ ($
 %2"java.util.ArrayList#<init>()V*7
 
 __unknown_file (
 
 %1java.util.ArrayList"'
-v v(%
+ (%
 
-%1java.util.ArrayList*î
-3u u(}
-{
-u u(
+%1java.util.ArrayList*è
+3 (x
+v
+ (
 %0boolean"	__compare*
-u u(
-==*-
-u u(!
-
-statomisc.StatoAppuntamento*
-u u(
+ (
+==*(
+ (
+
+autorejava.lang.String*
+ (
 ""*
 2
-1*ñ
-startingBlockt+ t(Dì
-ê
-s s(
-%11"
+1*ä
+startingBlock( (7ç
+ä
+ (
+%7"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*=
-
-__unknown_file (!
-
-statomisc.StatoAppuntamento`
-^
-t> t(C
-statomisc.StatoAppuntamento"__annotation*#
-
-__unknown_file (
-
-%11*
-3*ã
-
-1x x(â
-Ü
-x x(
-%3java.util.Map"__id*_
-
-__unknown_file (C*A/
--engclasses.dao.filesystem.AppuntamentoDAOFile"
-appuntamentiîë
-x x($
-%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%3java.util.Map2values()®•
-x x(-
-%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+java.lang.Override*8
 
 __unknown_file (
 
-%4java.util.Collection2stream()•
-¢
-y y(7"
-%6java.util.function.Predicate"__declareFunction*_
+autorejava.lang.StringZ
+X
+0 (6
+autorejava.lang.String"__annotation*"
 
-__unknown_file (CA
-?__sonar_lambda_60$engclasses.dao.filesystem.AppuntamentoDAOFileë
-é
+__unknown_file (
+
+%7*
+3*™
+1 (ü
+ú
+  (A"
+%3java.util.function.Predicate"__declareFunction*Y
 
-__unknown_file (-
+__unknown_file (=;
+9__sonar_lambda_54$engclasses.dao.memory.AnnuncioDAOMemoryç
+ä
+
+__unknown_file (.
 "
-%6java.util.function.Predicate"
-stato"__id*=
+%3java.util.function.Predicate"
+autore"__id*8
 
-__unknown_file (!
-
-statomisc.StatoAppuntamento¨©
-x y(8
-%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+__unknown_file (
+
+autorejava.lang.Stringƒ¡
+ (B
+%6java.util.List"bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;*G
 
-__unknown_file (
-
-%5java.util.stream.Stream*@
+__unknown_file (+)
+'engclasses.dao.memory.AnnuncioDAOMemory*@
 
 __unknown_file ($
 "
-%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ùö
-x z(
-%10java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
-
-__unknown_file (
-
-%9java.util.stream.Stream2toList()"#
-x z(
-
-%10java.util.List:+
-t, t(C
-statomisc.StatoAppuntamentoB1/
--engclasses.dao.filesystem.AppuntamentoDAOFileH
+%3java.util.function.Predicate20trovaPerCriterio(Ljava/util/function/Predicate;)""
+ (C
+
+%6java.util.List:&
+) (6
+autorejava.lang.StringB+)
+'engclasses.dao.memory.AnnuncioDAOMemoryH

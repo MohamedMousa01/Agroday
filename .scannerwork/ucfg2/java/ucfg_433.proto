@@ -1,137 +1,90 @@
 
-}engclasses.pattern.factory.ConsulenteFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;k
-a/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/ConsulenteFactory.java
- 
-("startingBlock*Ž
-startingBlock
- 
-(?‰
-†
-	 	(
-%8"
+Fengclasses.dao.filesystem.AnnuncioDAOFile#elimina(Ljava/lang/String;)Zh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.java? ?("startingBlock*Å
+2D D(¡
+ž
+D D( 
+%4boolean"8engclasses.dao.filesystem.AnnuncioDAOFile#salvaSuFile()Z*I
+
+__unknown_file (-+
+)engclasses.dao.filesystem.AnnuncioDAOFile"
+D D(!
+""*®
+3C C(
+}
+C C(
+%1java.util.Map"__id*V
+
+__unknown_file (:*8+
+)engclasses.dao.filesystem.AnnuncioDAOFile"	
+annunci¡
+ž
+C C(&
+%2model.Annuncio"__mapRemove*1
+
+__unknown_file (
+
+%1java.util.Map*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.Stringr
+p
+C C(.
+%3boolean"	__compare*
+C' C()
+!=*"
+C C(&
+
+%2model.Annuncio*
+C* C(.
+""*
+2
+1*’
+startingBlock? ?(-‘
+Ž
+> >(
+%5"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*4
+java.lang.Override*<
 
-__unknown_file (
-
-idjava.lang.StringV
-T
-
-$ 
-(&
-idjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%8
-š
-	 	(
-%9"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBeanj
-h
-
-: 
-(>*
-bean"engclasses.beans.RegistrazioneBean"__annotation*"
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String^
+\
+?" ?(,
+
+idAnnunciojava.lang.String"__annotation*"
 
 __unknown_file (
 
-%9*
-1*Ô
-1 ( Â¿
- ("
-%0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2getUsername()¼¹
- (
-%1java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2
-getEmail()Â¿
- ("
-%2java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2getPassword()º·
- (
-%3java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2	getNome()À½
- (!
-%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2getCognome()¼¹
- (
-%5java.lang.String"?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2
-getCitta()64
- (
-%6model.Consulente"model.ConsulenteÞ
-Û
- ( 
-%7"˜model.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*4
-
-__unknown_file (
-
-%6model.Consulente*4
-
-__unknown_file (
-
-idjava.lang.String*4
-
-__unknown_file (
-
-%0java.lang.String*4
-
-__unknown_file (
-
-%1java.lang.String*4
-
-__unknown_file (
-
-%2java.lang.String*4
-
-__unknown_file (
-
-%3java.lang.String*4
-
-__unknown_file (
-
-%4java.lang.String*4
-
-__unknown_file (
-
-%5java.lang.String"$
- (!
-
-%6model.Consulente:"
-
- 
-('
-idjava.lang.String:6
-
-( 
-(>*
-bean"engclasses.beans.RegistrazioneBeanB0.
-,engclasses.pattern.factory.ConsulenteFactoryH
+%5*
+5*!
+4A A("
+A A(
+""*“
+5@ @(|
+z
+@ @(
+%0boolean"	__compare*
+@ @(
+==*,
+@ @( 
+
+
+idAnnunciojava.lang.String*
+@ @(
+""*
+3
+4*!
+1F F("
+F F(
+"":*
+? ?(,
+
+idAnnunciojava.lang.StringB-+
+)engclasses.dao.filesystem.AnnuncioDAOFileHX

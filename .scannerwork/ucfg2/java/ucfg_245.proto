@@ -1,18 +1,18 @@
 
-<model.Appuntamento#getDataOraFine()Ljava/time/LocalDateTime;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java— —('"1*¸
+3model.Appuntamento#getIdCliente()Ljava/lang/String;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaô ô("1*¨
 1
-˜ ˜(x
-v
+õ õ(o
+m
 
-˜ ˜(
-%0java.time.LocalDateTime"__id*C
+õ õ(
+%0java.lang.String"__id*A
 
-__unknown_file ('*%
-model.Appuntamento"
-dataOraFine"-
+__unknown_file (%*#
+model.Appuntamento"
+	idCliente"&
 
-˜ ˜(
-
-%0java.time.LocalDateTimeB
+õ õ(
+
+%0java.lang.StringB
 model.AppuntamentoH

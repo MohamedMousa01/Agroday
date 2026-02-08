@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770198474812*java2.B¶
+1.0MohamedMousa01_AgrodayJavaFrontend"1770206316472*java2.B¶
 /
 *src/main/java/view/cli/ProfiloCLIView.java2
 	
@@ -22,7 +22,7 @@
 
 full-range13
 
-(11:1)-(112:2)14
+(11:1)-(117:2)14
 
 simple-name15
 
@@ -149,13 +149,13 @@ Lview.cli.ProfiloCLIView#chiediPassword(Ljava/lang/String;)Ljava/lang/String;8
 
 clearScreen99
 
-(102:5)-(107:6)100
+(102:5)-(112:6)100
 
 padRight101
 2
 +view.cli.ProfiloCLIView#mostraSeparatore()V103
 
-(109:5)-(111:6)104
+(114:5)-(116:6)104
 
 mostraSeparatore105
 *
@@ -341,7 +341,7 @@ M
 R
 102K
 10210325 *
-1m m(!28:5B&
+1r r(!28:5B&
 
 
 11
@@ -589,7 +589,7 @@ M
 1Z Z("
 
 1023335*
-1n n('
+1s s('
 
 10210628*
-1n( n(:
+1s( s(:

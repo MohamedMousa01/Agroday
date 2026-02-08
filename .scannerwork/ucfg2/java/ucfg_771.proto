@@ -1,36 +1,15 @@
 
-8__sonar_lambda_69$engclasses.dao.memory.OffertaDAOMemorye
-[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java/ /(O"startingBlock*Ê
-startingBlock/ /(O©
-¦
+:engclasses.beans.AnnuncioBean#getCitta()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javaS S("1*©
+1T T(t
+r
+T T(
+%0java.lang.String"__id*H
 
-__unknown_file (%
-usernameVenditorejava.lang.String"__id*]
-
-__unknown_file (A*?(
-&engclasses.dao.memory.OffertaDAOMemory"
-usernameVenditore*
-1*¸
-1/ /(.§¤
-/6 /(N
-%4java.lang.String"6model.Offerta#getUsernameVenditore()Ljava/lang/String;*0
-
-__unknown_file (
-
-omodel.Offerta2getUsernameVenditore()áÞ
-/ /(O
-%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*C
-
-__unknown_file ('
-%
-usernameVenditorejava.lang.String*4
-
-__unknown_file (
+__unknown_file (,**
+engclasses.beans.AnnuncioBean"
+citta"$
+T T(
 
-%4java.lang.String2equals(Ljava/lang/Object;)"
-/ /(O
-
-%5boolean:
-/ /(
-omodel.OffertaB 
-java.util.function.Predicate
+%0java.lang.StringB!
+engclasses.beans.AnnuncioBeanH

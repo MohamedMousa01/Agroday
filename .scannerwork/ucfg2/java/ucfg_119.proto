@@ -1,15 +1,36 @@
 
->engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java( (("1*­
-1) )(x
-v
-) )(
-%0java.lang.String"__id*L
-
-__unknown_file (0*.$
-"engclasses.beans.RegistrazioneBean"
-nome"$
-) )(
+\misc.ValidationUtils#validateNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;S
+I/Users/mohamedmousa/Desktop/prova/src/main/java/misc/ValidationUtils.java; ;(("3*²
+2= =(}
+{
+= =(0
+%1java.lang.String"__concat*+
+= =(
+
+	fieldNamejava.lang.String* 
+= =(0
+ Ã¨ obbligatorio"$
+= =(1
 
-%0java.lang.StringB&$
-"engclasses.beans.RegistrazioneBeanH
+%1java.lang.String*Ž
+3< <(w
+u
+< <(
+%0boolean"	__compare*
+< <(
+==*'
+< <(
+
+valuejava.lang.Object*
+< <(
+""*
+2
+1*!
+1? ?("
+? ?(
+"":%
+;) ;(6
+valuejava.lang.Object:)
+;7 ;(G
+	fieldNamejava.lang.StringB"
+misc.ValidationUtilsH

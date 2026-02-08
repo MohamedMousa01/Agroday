@@ -1,17 +1,34 @@
 
-bengclasses.dao.factory.DAOFileFactory#getPartecipazioneDAO()Lengclasses/dao/api/PartecipazioneDAO;d
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java*0 *(D"1*î
-1+ +(Dtr
-+ +(B5
-%0/engclasses.dao.filesystem.PartecipazioneDAOFile"/engclasses.dao.filesystem.PartecipazioneDAOFile£
- 
-+ +(D
-%1"9engclasses.dao.filesystem.PartecipazioneDAOFile#<init>()V*S
+Fengclasses.dao.filesystem.AnnuncioDAOFile#trovaTutti()Ljava/util/List;h
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javaf f($"1*Ê
+1g g(&
+}
+g g(&
+%0java.util.Map"__id*V
 
-__unknown_file (7
-5
-%0/engclasses.dao.filesystem.PartecipazioneDAOFile"C
-+ +(E7
-5
-%0/engclasses.dao.filesystem.PartecipazioneDAOFileB)'
-%engclasses.dao.factory.DAOFileFactoryH
+__unknown_file (:*8+
+)engclasses.dao.filesystem.AnnuncioDAOFile"	
+annunci”‘
+g g(/
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+
+__unknown_file (
+
+%0java.util.Map2values()<:
+g g(
+%2java.util.ArrayList"java.util.ArrayList»
+¸
+g g(0
+%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+
+__unknown_file (
+
+%2java.util.ArrayList*8
+
+__unknown_file (
+
+%1java.util.Collection"'
+g g(1
+
+%2java.util.ArrayListB-+
+)engclasses.dao.filesystem.AnnuncioDAOFileH

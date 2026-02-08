@@ -1,16 +1,9 @@
 
-6model.Annuncio#getDataCreazione()Ljava/time/LocalDate;O
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java¡ ¡(%"1*ë
+'model.Annuncio#getQuantitaDesiderata()IO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java— —($"1*%
 1
-¢ ¢(#®«
+˜ ˜(!"
 
-¢ ¢(%
-%0java.time.LocalDate":model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;*.
-
-__unknown_file (
-model.Annuncio2getDataPubblicazione()")
-
-¢ ¢(&
-
-%0java.time.LocalDateB
-model.AnnuncioH
+˜ ˜("
+""B
+model.AnnuncioHX

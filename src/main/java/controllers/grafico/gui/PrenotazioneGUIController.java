@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * Controller grafico per la prenotazione e modifica di appuntamenti.
  */
-public class PrenotazioneGUIController {
+public class PrenotazioneGUIController extends BaseGUIController {
 
     private static final Logger logger = LoggerFactory.getLogger(PrenotazioneGUIController.class);
 

@@ -1,25 +1,15 @@
 
-Mcontrollers.applicativo.OffertaController#rifiutaOfferta(Ljava/lang/String;)Zj
-^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.java‡ ‡(!"1*œ
-1
-ˆ ˆ(#ôñ
-
-ˆ ˆ(;
-%0boolean"econtrollers.applicativo.OffertaController#aggiornaStatoOfferta(Ljava/lang/String;Ljava/lang/String;)Z*I
+)model.Utente#getEmail()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java7 7("1*˜
+18 8(c
+a
+8 8(
+%0java.lang.String"__id*7
 
-__unknown_file (-+
-)controllers.applicativo.OffertaController*;
-
-__unknown_file (
-
-	idOffertajava.lang.String*)
-
-__unknown_file (
-	RIFIUTATA2:aggiornaStatoOfferta(Ljava/lang/String;Ljava/lang/String;)"
-
-ˆ ˆ(<
-"":+
-
-‡" ‡(2
-	idOffertajava.lang.StringB-+
-)controllers.applicativo.OffertaControllerHX
+__unknown_file (*
+model.Utente"
+email"$
+8 8(
+
+%0java.lang.StringB
+model.UtenteH

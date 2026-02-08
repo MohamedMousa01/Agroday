@@ -1,98 +1,126 @@
 
-@engclasses.dao.filesystem.OffertaDAOFile#salva(Lmodel/Offerta;)Zg
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java3 3("startingBlock*!
-25 5("
-5 5(
-""*´
-34 4(&ùö
-4 4(5
-%1java.lang.String".model.Offerta#getIdOfferta()Ljava/lang/String;*6
+Aview.cli.MainVenditoreCLIView#confermaAzione(Ljava/lang/String;)Z\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.javaM M(!"7*›
+2PX P(`»≈
+PX P(n
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
 
-__unknown_file (
+__unknown_file (
+
+rispostajava.lang.String*#
 
-offertamodel.Offerta2getIdOfferta()t
-r
-4 4(=
-%2boolean"	__compare*
-46 4(8
-==*$
-4 4(5
+__unknown_file (
+YES2equals(Ljava/lang/Object;)*
+1*ﬁ
+4P@ P(H∆√
+P@ P(T
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*!
+
+__unknown_file (
+Y2equals(Ljava/lang/Object;)*
+2
+1*·
+6P' P(/∆√
+P' P(<
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*"
+
+__unknown_file (
+SI2equals(Ljava/lang/Object;)*	
+2
+4
+1*ô
+7N N(Q
+O
+N N(
+%0java.io.PrintStream"__id*"
+
+__unknown_file (
+""o
+m
+N N()
+%1java.lang.String"__concat*
+N N(
+\n*+
+N  N()
+
+	messaggiojava.lang.Stringn
+l
+N N(6
+%2java.lang.String"__concat*$
+N N()
 
-%1java.lang.String*
-49 4(=
-""*
-2
-1*Ü
-startingBlock3 3()ã
-à
-2 2(
-%7"
-__annotate*2
+%1java.lang.String*
+N, N(6
+
+ (S/N): ”–
+N N(7
+
+%3void".java.io.PrintStream#print(Ljava/lang/String;)V*7
 
-__unknown_file (
-java.lang.Override*6
-
-__unknown_file (
-
-offertamodel.OffertaX
-V
-3! 3((
-offertamodel.Offerta"__annotation*"
-
-__unknown_file (
-
-%7*
-4*ç
-44 4(v
-t
-4 4(
-%0boolean"	__compare*
-4 4(
-==*&
-4 4(
-
-offertamodel.Offerta*
-4 4(
-""*
-2
-3*≥
-17 7(~
-|
-7 7(
-%3java.util.Map"__id*U
-
-__unknown_file (9*7*
-(engclasses.dao.filesystem.OffertaDAOFile"	
-offerteùö
-7 7(*
-%4java.lang.String".model.Offerta#getIdOfferta()Ljava/lang/String;*6
-
-__unknown_file (
-
-offertamodel.Offerta2getIdOfferta()Õ
- 
-7 7(4
-%5model.Offerta"__mapSet*1
-
-__unknown_file (
-
-%3java.util.Map*4
+__unknown_file (
+
+%0java.io.PrintStream*4
 
 __unknown_file (
 
-%4java.lang.String*6
+%2java.lang.String2print(Ljava/lang/String;)w
+u
+O O(!
+%4java.util.Scanner"__id*J
 
-__unknown_file (
+__unknown_file (.*,
+view.cli.MainVenditoreCLIView"	
+scanneròï
+O O(,
+%5java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
 
-offertamodel.Offertaü
-ú
-8 8(
-%6boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
+__unknown_file (
+
+%4java.util.Scanner2
+nextLine()éã
+O O(3
+%6java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
 
-__unknown_file (,*
-(engclasses.dao.filesystem.OffertaDAOFile"
-8 8(
-"":$
-3 3((
-offertamodel.OffertaB,*
-(engclasses.dao.filesystem.OffertaDAOFileHX
+__unknown_file (
+
+%5java.lang.String2trim()úô
+O O(A
+%7java.lang.String"0java.lang.String#toUpperCase()Ljava/lang/String;*4
+
+__unknown_file (
+
+%6java.lang.String2toUpperCase()f
+d
+O O(B
+rispostajava.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String≈¬
+P P(#
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+rispostajava.lang.String*!
+
+__unknown_file (
+S2equals(Ljava/lang/Object;)*
+2
+4
+6
+1*!
+1P P(o"
+P P(o
+"":)
+M" M(2
+	messaggiojava.lang.StringB!
+view.cli.MainVenditoreCLIViewHX

@@ -1,18 +1,18 @@
 
-+model.Annuncio#getStato()Ljava/lang/String;O
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java¯ ¯("1* 
++model.Annuncio#getCitta()Ljava/lang/String;O
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java§ §("1* 
 1
-° °(g
+¨ ¨(g
 e
 
-° °(
+¨ ¨(
 %0java.lang.String"__id*9
 
 __unknown_file (*
 model.Annuncio"
-stato"&
+citta"&
 
-° °(
+¨ ¨(
 
 %0java.lang.StringB
 model.AnnuncioH

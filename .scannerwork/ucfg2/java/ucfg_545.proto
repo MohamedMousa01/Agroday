@@ -1,13 +1,16 @@
 
-Uengclasses.pattern.factory.AppuntamentoInUfficioFactory#getDurataPredefinitaMinuti()Iv
-l/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoInUfficioFactory.java ()"1*d
-1 ((A
-?
- ((	
-%0int"__id*"
+*model.Venditore#getTipo()Lmisc/TipoUtente;N
+D/Users/mohamedmousa/Desktop/prova/src/main/java/model/Venditore.java
+ 
+("1*Å
+1 (M
+K
+ (#
+%0misc.TipoUtente"__id*"
 
 __unknown_file (
-"""
- ()
-""B;9
-7engclasses.pattern.factory.AppuntamentoInUfficioFactoryHX
+"""#
+ ($
+
+%0misc.TipoUtenteB
+model.VenditoreH

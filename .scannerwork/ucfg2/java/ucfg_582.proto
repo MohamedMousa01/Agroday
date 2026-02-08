@@ -1,134 +1,15 @@
 
-Zengclasses.dao.db.PartecipazioneDAODB#trovaPerId(Ljava/lang/String;)Lmodel/Partecipazione;d
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/PartecipazioneDAODB.javaV V($"startingBlock*7
-3a a(4"(
-a a(4
-
-%6model.Partecipazione*Ÿ
-startingBlockV$ V(=—
-”
-U U(
-%8"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*B
-
-__unknown_file (&
-$
-idPartecipazionejava.lang.Stringd
-b
-V, V(<$
-idPartecipazionejava.lang.String"__annotation*"
-
-__unknown_file (
-
-%8*
-11*©
-4a a(/”
-‘
-a a(3
-%6model.Partecipazione"jengclasses.dao.db.PartecipazioneDAODB#mappaRigaAPartecipazione(Ljava/sql/ResultSet;)Lmodel/Partecipazione;*E
-
-__unknown_file ()'
-%engclasses.dao.db.PartecipazioneDAODB*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet*
-3*ô
-6^ ^(0d
-b
-^ ^(0
-rsjava.sql.ResultSet"__id*6
-
-__unknown_file (
-
-%4java.sql.ResultSetwu
-` `(
-%5boolean"java.sql.ResultSet#next()Z*6
-
-__unknown_file (
-
-rsjava.sql.ResultSet2next()*
-4
-1*Î
-7^ ^( ¹¶
-^ ^(/
-%4java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*A
-
-__unknown_file (%
-#
-pstmtjava.sql.PreparedStatement2executeQuery()*
-6*¬
-8[ [(Aw
-u
-[ [(A#
-pstmtjava.sql.PreparedStatement"__id*>
-
-__unknown_file ("
- 
-%2java.sql.PreparedStatementž›
-] ](0
-
-%3void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*A
-
-__unknown_file (%
-#
-pstmtjava.sql.PreparedStatement* 
-
-__unknown_file (2*B
-
-__unknown_file (&
-$
-idPartecipazionejava.lang.String2setString(ILjava/lang/String;)*
-7*œ
-9Z Z(<h
+.model.Offerta#getIdOfferta()Ljava/lang/String;L
+B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.java. .("1*
+1/ /(h
 f
-Z Z(<
-connjava.sql.Connection"__id*7
+/ /(
+%0java.lang.String"__id*<
 
-__unknown_file (
-
-%1java.sql.Connectionš
-[' [(A 
-%2java.sql.PreparedStatement"Tjava.sql.Connection#prepareStatement(Ljava/lang/String;)Ljava/sql/PreparedStatement;*9
-
-__unknown_file (
-
-connjava.sql.Connection*5
-
-__unknown_file (
-
-sqljava.lang.String2$prepareStatement(Ljava/lang/String;)*
-8*Ç
-10Z Z(,±
-®
-Z Z(<
-%1java.sql.Connection"Eengclasses.pattern.ConnessioneDB#getConnection()Ljava/sql/Connection;*@
-
-__unknown_file ($""
- engclasses.pattern.ConnessioneDB*
-9*Æ
-11W W(aÌ
-É
-W X(F
-%0java.lang.String"__concat*Z
-W W(aNL
-JSELECT id_partecipazione, id_annuncio, id_agricoltore, quantita_richiesta *?
-X X(F31
-/FROM partecipazioni WHERE id_partecipazione = ?a
-_
-W X(G
-sqljava.lang.String"__id*4
-
-__unknown_file (
+__unknown_file ( *
+model.Offerta"
+	idOfferta"$
+/ /(
 
-%0java.lang.String*
-10*!
-1g g("
-g g(
-"":0
-V% V(<$
-idPartecipazionejava.lang.StringB)'
-%engclasses.dao.db.PartecipazioneDAODBH
+%0java.lang.StringB
+model.OffertaH

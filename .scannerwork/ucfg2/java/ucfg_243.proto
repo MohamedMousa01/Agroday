@@ -1,18 +1,48 @@
 
->model.Appuntamento#getDataOraInizio()Ljava/time/LocalDateTime;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaé é()"1*∫
+%model.Appuntamento#getDurataMinuti()JS
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.javaÍ Í("1*‰
 1
-è è(z
+Î Î(z
 x
 
-è è(
+Î* Î(7
 %0java.time.LocalDateTime"__id*E
 
 __unknown_file ()*'
 model.Appuntamento"
-dataOraInizio"-
+dataOraIniziox
+v
 
-è è(
+Î9 Î(D
+%1java.time.LocalDateTime"__id*C
+
+__unknown_file ('*%
+model.Appuntamento"
+dataOraFine√
+¿
+
+Î Î(E
+%2java.time.Duration"jjava.time.Duration#between(Ljava/time/temporal/Temporal;Ljava/time/temporal/Temporal;)Ljava/time/Duration;*2
+
+__unknown_file ("
+java.time.Duration*;
+
+__unknown_file (
 
-%0java.time.LocalDateTimeB
-model.AppuntamentoH
+%0java.time.LocalDateTime*;
+
+__unknown_file (
+
+%1java.time.LocalDateTimeÄ~
+
+Î Î(Q
+
+%3long"java.time.Duration#toMinutes()J*6
+
+__unknown_file (
+
+%2java.time.Duration2toMinutes()"
+
+Î Î(R
+""B
+model.AppuntamentoHX

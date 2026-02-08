@@ -11,53 +11,31 @@ import java.util.Map;
 /**
  * Implementazione in memoria del DAO per le offerte.
  */
-public class OffertaDAOMemory implements OffertaDAO {
-
-    private static final Map<String, Offerta> offerte = new HashMap<>();
+public class OffertaDAOMemory extends InMemoryDAO<Offerta, String> implements OffertaDAO {
 
     @Override
-    public boolean salva(Offerta offerta) {
-        if (offerta == null || offerta.getIdOfferta() == null) {
-            return false;
-        }
-        offerte.put(offerta.getIdOfferta(), offerta);
-        return true;
-    }
-
-    @Override
-    public boolean elimina(String idOfferta) {
-        return offerte.remove(idOfferta) != null;
-    }
-
-    @Override
-    public Offerta trovaPerId(String idOfferta) {
-        return offerte.get(idOfferta);
+    protected String getId(Offerta entity) {
+        return entity.getIdOfferta();
     }
 
     @Override
     public List<Offerta> trovaPerAnnuncio(String idAnnuncio) {
-        return offerte.values().stream()
-                .filter(o -> idAnnuncio.equals(o.getIdAnnuncio()))
-                .toList();
+        return trovaPerCriterio(o -> idAnnuncio.equals(o.getIdAnnuncio()));
     }
 
     @Override
     public List<Offerta> trovaPerVenditore(String usernameVenditore) {
-        return offerte.values().stream()
-                .filter(o -> usernameVenditore.equals(o.getUsernameVenditore()))
-                .toList();
+        return trovaPerCriterio(o -> usernameVenditore.equals(o.getUsernameVenditore()));
     }
 
     @Override
     public List<Offerta> trovaOffertePendingPerVenditore(String usernameVenditore) {
-        return offerte.values().stream()
-                .filter(o -> usernameVenditore.equals(o.getUsernameVenditore()) && o.isPending())
-                .toList();
+        return trovaPerCriterio(o -> usernameVenditore.equals(o.getUsernameVenditore()) && o.isPending());
     }
 
     @Override
     public boolean aggiornaStato(String idOfferta, String nuovoStato) {
-        Offerta offerta = offerte.get(idOfferta);
+        Offerta offerta = trovaPerId(idOfferta);
         if (offerta != null) {
             offerta.setStato(nuovoStato);
             return true;
@@ -67,17 +45,12 @@ public class OffertaDAOMemory implements OffertaDAO {
 
     @Override
     public List<Offerta> trovaTutte() {
-        return new ArrayList<>(offerte.values());
+        return trovaTutti();
     }
 
     @Override
     public List<Offerta> trovaOfferteRicevutePerAgricoltore(String usernameAgricoltore) {
         // Per implementazione memory, dobbiamo accedere anche agli annunci
-        // Soluzione semplificata: restituiamo lista vuota o implementazione base
         return new ArrayList<>();
-    }
-
-    public static void clear() {
-        offerte.clear();
     }
 }

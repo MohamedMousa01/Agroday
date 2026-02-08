@@ -1,17 +1,15 @@
 
-Tengclasses.dao.factory.DAOFileFactory#getOffertaDAO()Lengclasses/dao/api/OffertaDAO;d
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java/) /(6"1*Ë
-10 0(=fd
-0 0(;.
-%0(engclasses.dao.filesystem.OffertaDAOFile"(engclasses.dao.filesystem.OffertaDAOFile•
-’
-0 0(=
-%1"2engclasses.dao.filesystem.OffertaDAOFile#<init>()V*L
+;__sonar_lambda_37$engclasses.dao.filesystem.AnnuncioDAOFileh
+^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AnnuncioDAOFile.javam m(+"1*›
+1m m(xv
+m m(+
+%4boolean"model.Annuncio#isScaduto()Z*1
 
-__unknown_file (0
-.
-%0(engclasses.dao.filesystem.OffertaDAOFile"<
-0 0(>0
-.
-%0(engclasses.dao.filesystem.OffertaDAOFileB)'
-%engclasses.dao.factory.DAOFileFactoryH
+__unknown_file (
+
+amodel.Annuncio2isScaduto()"
+m m(+
+"":
+m m(
+amodel.AnnuncioB 
+java.util.function.Predicate

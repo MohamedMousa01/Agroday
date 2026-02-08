@@ -1,39 +1,81 @@
 
-@view.cli.RegistrazioneCLIView#chiediUsername()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java' '( "1*æ
-1( ((Q
-O
-( ((
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ÉÆ
-( ((&
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+cengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java1 1(+"startingBlock*à
+23 3($<:
+3 3("
+%1java.util.ArrayList"java.util.ArrayListj
+h
+3 3($
+%2"java.util.ArrayList#<init>()V*7
 
 __unknown_file (
 
-%0java.io.PrintStream**
+%1java.util.ArrayList"'
+3 3(%
+
+%1java.util.ArrayList*”
+32 2(}
+{
+2 2(
+%0boolean"	__compare*
+2 2(
+==*-
+2 2(!
+
+statomisc.StatoAppuntamento*
+2 2(
+""*
+2
+1*”
+startingBlock1+ 1(D’
+
+0 0(
+%7"
+__annotate*2
 
-__unknown_file (
-
-Username: 2print(Ljava/lang/String;)w
-u
-) )(
-%2java.util.Scanner"__id*J
+__unknown_file (
+java.lang.Override*=
 
-__unknown_file (.*,
-view.cli.RegistrazioneCLIView"	
-scanner˜•
-) )(!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+__unknown_file (!
+
+statomisc.StatoAppuntamento_
+]
+1> 1(C
+statomisc.StatoAppuntamento"__annotation*"
 
-__unknown_file (
-
-%2java.util.Scanner2
-nextLine()"$
-) )("
-
-%3java.lang.StringB!
-view.cli.RegistrazioneCLIViewH
+__unknown_file (
+
+%7*
+3*¶
+15 5(£
+ 
+5  5(?"
+%3java.util.function.Predicate"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_46$engclasses.dao.memory.AppuntamentoDAOMemory‘
+Ž
+
+__unknown_file (-
+"
+%3java.util.function.Predicate"
+stato"__id*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamentoÈÅ
+5 5(@
+%6java.util.List"bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;*K
+
+__unknown_file (/-
++engclasses.dao.memory.AppuntamentoDAOMemory*@
+
+__unknown_file ($
+"
+%3java.util.function.Predicate20trovaPerCriterio(Ljava/util/function/Predicate;)""
+5 5(A
+
+%6java.util.List:+
+1, 1(C
+statomisc.StatoAppuntamentoB/-
++engclasses.dao.memory.AppuntamentoDAOMemoryH

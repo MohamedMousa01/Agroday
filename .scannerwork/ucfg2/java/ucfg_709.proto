@@ -1,37 +1,36 @@
 
-?__sonar_lambda_60$engclasses.dao.filesystem.AppuntamentoDAOFilel
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javay y(7"startingBlock*¿
-startingBlocky y(7ž
-›
+9__sonar_lambda_54$engclasses.dao.memory.AnnuncioDAOMemoryf
+\/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AnnuncioDAOMemory.java  (A"startingBlock*µ
+startingBlock  (A”
+‘
 
-__unknown_file (
-statomisc.StatoAppuntamento"__id*X
+__unknown_file (
+autorejava.lang.String"__id*S
 
-__unknown_file (<*:/
--engclasses.dao.filesystem.AppuntamentoDAOFile"
-stato*
-1*´
-1y y("¥¢
-y* y(6
-%7misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
+__unknown_file (7*5)
+'engclasses.dao.memory.AnnuncioDAOMemory"
+autore*
+1*™
+1% (+“
+3 (@
+%4java.lang.String",model.Annuncio#getAutore()Ljava/lang/String;*1
 
-__unknown_file (
-
-amodel.Appuntamento2
-getStato()ßÜ
-y y(7
-%8boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*=
+__unknown_file (
+
+amodel.Annuncio2getAutore()ÖÓ
+% (A
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*8
 
-__unknown_file (!
-
-statomisc.StatoAppuntamento*:
+__unknown_file (
+
+autorejava.lang.String*4
 
-__unknown_file (
-
-%7misc.StatoAppuntamento2equals(Ljava/lang/Object;)"
-y y(7
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)"
+% (A
 
-%8boolean:#
-y y(
-amodel.AppuntamentoB 
+%5boolean:
+  (!
+amodel.AnnuncioB 
 java.util.function.Predicate

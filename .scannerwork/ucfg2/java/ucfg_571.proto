@@ -1,23 +1,43 @@
 
-model.Offerta#isRifiutata()ZL
-B/Users/mohamedmousa/Desktop/prova/src/main/java/model/Offerta.javaX X("1*Ñ
-1Y Y(d
-b
-Y" Y('
-%0java.lang.String"__id*8
+F__sonar_lambda_42$controllers.grafico.cli.MainAgricoltoreCLIControlleru
+i/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/MainAgricoltoreCLIController.javaƒ ƒ(;"startingBlock*È
+startingBlock
+ƒ ƒ(;¥
+¢
 
-__unknown_file (*
-model.Offerta"
-statoÇÄ
-Y Y((
-%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*)
+__unknown_file (
+usernamejava.lang.String"__id*b
 
-__unknown_file (
-	RIFIUTATA*4
+__unknown_file (F*D6
+4controllers.grafico.cli.MainAgricoltoreCLIController"
+
+username*
+1*Å
+1
+ƒ ƒ(´±
+
+ƒ ƒ(*
+%10java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
 
-__unknown_file (
-
-%0java.lang.String2equals(Ljava/lang/Object;)"
-Y Y()
-""B
-model.OffertaHX
+__unknown_file ($
+"
+aengclasses.beans.AnnuncioBean2getAutore()ÜÙ
+
+ƒ ƒ(;
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%10java.lang.String*:
+
+__unknown_file (
+
+usernamejava.lang.String2equals(Ljava/lang/Object;)"
+
+ƒ ƒ(;
+
+%11boolean:0
+
+ƒ ƒ("
+aengclasses.beans.AnnuncioBeanB 
+java.util.function.Predicate

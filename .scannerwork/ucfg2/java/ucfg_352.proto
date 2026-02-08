@@ -1,66 +1,36 @@
 
-gengclasses.dao.factory.DAOFactory#getFactory(Lmisc/PersistenceType;)Lengclasses/dao/factory/DAOFactory;`
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFactory.java ('"2*î
-2 (R
-P
- (
-%0misc.PersistenceType"__id*"
+?__sonar_lambda_23$engclasses.dao.memory.PartecipazioneDAOMemoryl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java"  "(O"startingBlock*…
+startingBlock"  "(O®
+•
 
-__unknown_file (
-""R
-P
- (
-%1misc.PersistenceType"__id*"
+__unknown_file (!
+idAgricoltorejava.lang.String"__id*`
 
-__unknown_file (
-""R
-P
- (
-%2misc.PersistenceType"__id*"
+__unknown_file (D*B/
+-engclasses.dao.memory.PartecipazioneDAOMemory"
+idAgricoltore*
+1*∫
+1"% "(2≠™
+": "(N
+%4java.lang.String"9model.Partecipazione#getIdAgricoltore()Ljava/lang/String;*7
 
-__unknown_file (
-""*	
-3
-4
-5*Ü
-3 (0`^
- (-+
-%7%engclasses.dao.factory.DAOFileFactory"%engclasses.dao.factory.DAOFileFactoryè
-å
- (/
-%8"/engclasses.dao.factory.DAOFileFactory#<init>()V*I
+__unknown_file (
+
+pmodel.Partecipazione2getIdAgricoltore()›⁄
+"% "(O
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
 
-__unknown_file (-
-+
-%7%engclasses.dao.factory.DAOFileFactory*
-1*˛
-4 (.\Z
- (+)
-%5#engclasses.dao.factory.DAODBFactory"#engclasses.dao.factory.DAODBFactoryã
-à
- (-
-%6"-engclasses.dao.factory.DAODBFactory#<init>()V*G
+__unknown_file (#
+!
+idAgricoltorejava.lang.String*4
 
-__unknown_file (+
-)
-%5#engclasses.dao.factory.DAODBFactory*
-1*é
-5 (2db
- (/-
-%3'engclasses.dao.factory.DAOMemoryFactory"'engclasses.dao.factory.DAOMemoryFactoryì
-ê
- (1
-%4"1engclasses.dao.factory.DAOMemoryFactory#<init>()V*K
-
-__unknown_file (/
--
-%3'engclasses.dao.factory.DAOMemoryFactory*
-1*!
-1 (
-"
- (
-
-"":(
-( (<
-typemisc.PersistenceTypeB%"#
-!engclasses.dao.factory.DAOFactoryH
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)"
+"% "(O
+
+%5boolean:%
+"  "(!
+pmodel.PartecipazioneB 
+java.util.function.Predicate

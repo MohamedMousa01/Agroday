@@ -1,44 +1,45 @@
 
-Cview.cli.CreaAnnuncioCLIView#chiediNomeProdotto()Ljava/lang/String;[
-Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.javaF F($"1*†
-1G G(Q
-O
-G G(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""ÙÖ
-G G(4
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*:
-
-__unknown_file (
-\nðŸŒ¾ Nome del prodotto: 2print(Ljava/lang/String;)v
-t
-H H(
-%2java.util.Scanner"__id*I
-
-__unknown_file (-*+
-view.cli.CreaAnnuncioCLIView"	
-scanner˜•
-H H(!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
-
-__unknown_file (
+/view.cli.CreaAnnuncioCLIView#%field_initializer
+__unknown_file ("1*¹	
+1 (Œ‰
+[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java( (/
+%0java.util.Scanner"java.util.ScannerÓ
+Ð
+[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java$ (:
+%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
+ (
 
-%2java.util.Scanner2
-nextLine()Ž‹
-H H((
-%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
-
-__unknown_file (
-
-%3java.lang.String2trim()"$
-H H()
-
-%4java.lang.StringB 
-view.cli.CreaAnnuncioCLIViewH
+%0java.util.Scanner*
+ (
+""º
+·
+[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java (;+
+view.cli.CreaAnnuncioCLIView"	
+scanner"__id*%
+ (
+
+%0java.util.ScannerÀ
+½
+[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java4 (](
+%2"java.time.format.DateTimeFormatter"djava.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;*2
+ (&"$
+"java.time.format.DateTimeFormatter*
+ (
+
+dd/MM/yyyyÑ
+Î
+[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java (^1
+view.cli.CreaAnnuncioCLIView"
+dateFormatter"__id*6
+ (*
+(
+%2"java.time.format.DateTimeFormatter"q
+Z
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.java €(
+implicit returnB 
+view.cli.CreaAnnuncioCLIView

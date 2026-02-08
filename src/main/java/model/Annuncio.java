@@ -122,9 +122,7 @@ public class Annuncio implements Serializable {
     }
 
 
-    // ======================
     // Getter
-    // ======================
 
     public String getId() {
         return idAnnuncio;
@@ -184,9 +182,7 @@ public class Annuncio implements Serializable {
         this.stato = stato;
     }
 
-    // ======================
     // Operazioni di dominio
-    // ======================
 
     public boolean isScaduto() {
         return LocalDate.now().isAfter(this.dataScadenza);

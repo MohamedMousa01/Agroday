@@ -1,37 +1,17 @@
 
-7__sonar_lambda_39$engclasses.dao.memory.UtenteDAOMemoryd
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (C"startingBlock*±
-startingBlock (Cê
-ç
+Wengclasses.dao.factory.DAOFileFactory#getLoginUtenteDAO()Lengclasses/dao/api/UtenteDAO;d
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java (&"1*∆
+1 ("db
+ ( -
+%0'engclasses.dao.filesystem.UtenteDAOFile"'engclasses.dao.filesystem.UtenteDAOFileì
+ê
+ ("
+%1"1engclasses.dao.filesystem.UtenteDAOFile#<init>()V*K
 
-__unknown_file (
-emailjava.lang.String"__id*P
-
-__unknown_file (4*2'
-%engclasses.dao.memory.UtenteDAOMemory"
-email*
-1*¶
-1 ( çä
- (+
-%4java.lang.String")model.Utente#getEmail()Ljava/lang/String;*/
-
-__unknown_file (
-
-umodel.Utente2
-getEmail()ÈÊ
- (C
-%5boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
-
-__unknown_file (
-
-%4java.lang.String*7
-
-__unknown_file (
-
-emailjava.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"
- (C
-
-%5boolean:
- (
-umodel.UtenteB 
-java.util.function.Predicate
+__unknown_file (/
+-
+%0'engclasses.dao.filesystem.UtenteDAOFile";
+ (#/
+-
+%0'engclasses.dao.filesystem.UtenteDAOFileB)'
+%engclasses.dao.factory.DAOFileFactoryH

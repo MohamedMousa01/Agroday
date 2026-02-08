@@ -1,137 +1,61 @@
 
-~engclasses.pattern.factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;l
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AgricoltoreFactory.java
- 
-("startingBlock*Ž
-startingBlock
- 
-(?‰
-†
-	 	(
-%8"
-__annotate*2
+.view.cli.CreaAnnuncioCLIView#chiediQuantita()I[
+Q/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/CreaAnnuncioCLIView.javaK K("6*!
+2N N(?"
+N N(?
+""*Ç
+3N N(>²
+¯
+N N(>	
+%5int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
 
-__unknown_file (
-java.lang.Override*4
+__unknown_file ("
+java.lang.Integer*4
 
 __unknown_file (
 
-idjava.lang.StringV
-T
-
-$ 
-(&
-idjava.lang.String"__annotation*"
+%4java.lang.String*
+2*£
+4N$ N(=Ž‹
+N$ N(=
+%4java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
 
-__unknown_file (
-
-%8
-š
-	 	(
-%9"
-__annotate*2
+__unknown_file (
+
+%3java.lang.String2trim()*
+3*¥
+5N N(v
+t
+N$ N(+
+%2java.util.Scanner"__id*I
 
-__unknown_file (
-java.lang.Override*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBeanj
-h
-
-: 
-(>*
-bean"engclasses.beans.RegistrazioneBean"__annotation*"
-
-__unknown_file (
-
-%9*
-1*Ù
-1 (!Â¿
- ("
-%0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2getUsername()¼¹
- (
-%1java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2
-getEmail()Â¿
- ("
-%2java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2getPassword()º·
- (
-%3java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2	getNome()À½
- (!
-%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2getCognome()¼¹
- (
-%5java.lang.String"?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean2
-getCitta()86
- (
-%6model.Agricoltore"model.Agricoltoreà
-Ý
- ( 
-%7"™model.Agricoltore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*5
+__unknown_file (-*+
+view.cli.CreaAnnuncioCLIView"	
+scanner˜•
+N$ N(6
+%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
 
 __unknown_file (
 
-%6model.Agricoltore*4
+%2java.util.Scanner2
+nextLine()*
+4*Í
+6L L(Q
+O
+L L(
+%0java.io.PrintStream"__id*"
 
-__unknown_file (
-
-idjava.lang.String*4
+__unknown_file (
+""åâ
+L L(?
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
 
-__unknown_file (
-
-%0java.lang.String*4
+__unknown_file (
+
+%0java.io.PrintStream*F
 
-__unknown_file (
-
-%1java.lang.String*4
-
-__unknown_file (
-
-%2java.lang.String*4
-
-__unknown_file (
-
-%3java.lang.String*4
-
-__unknown_file (
-
-%4java.lang.String*4
-
-__unknown_file (
-
-%5java.lang.String"%
- (!
-
-%6model.Agricoltore:"
-
- 
-('
-idjava.lang.String:6
-
-( 
-(>*
-bean"engclasses.beans.RegistrazioneBeanB1/
--engclasses.pattern.factory.AgricoltoreFactoryH
+__unknown_file (*(
+&\nðŸ“¦ QuantitÃ  disponibile (in kg): 2print(Ljava/lang/String;)*
+5B 
+view.cli.CreaAnnuncioCLIViewHX

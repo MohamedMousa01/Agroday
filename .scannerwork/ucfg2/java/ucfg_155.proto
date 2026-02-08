@@ -1,96 +1,137 @@
 
-]engclasses.dao.filesystem.OffertaDAOFile#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;g
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaI I()"startingBlock*’
-startingBlockI) I(<‘
-Ž
-H H(
+|engclasses.pattern.factory.VenditoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/VenditoreFactory.java
+ 
+("startingBlock*Ž
+startingBlock
+ 
+(?‰
+†
+	 	(
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+idjava.lang.StringV
+T
+
+$ 
+(&
+idjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%8
+š
+	 	(
 %9"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*<
+java.lang.Override*H
 
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String^
-\
-I1 I(;
-
-idAnnunciojava.lang.String"__annotation*"
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBeanj
+h
+
+: 
+(>*
+bean"engclasses.beans.RegistrazioneBean"__annotation*"
 
 __unknown_file (
 
 %9*
-1*¨
-1J J(~
-|
-J J(
-%0java.util.Map"__id*U
+1*Ï
+1 (Â¿
+ ("
+%0java.lang.String"Bengclasses.beans.RegistrazioneBean#getUsername()Ljava/lang/String;*H
 
-__unknown_file (9*7*
-(engclasses.dao.filesystem.OffertaDAOFile"	
-offerte”‘
-J J(
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getUsername()¼¹
+ (
+%1java.lang.String"?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;*H
 
-__unknown_file (
-
-%0java.util.Map2values()¨¥
-J J((
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getEmail()Â¿
+ ("
+%2java.lang.String"Bengclasses.beans.RegistrazioneBean#getPassword()Ljava/lang/String;*H
 
-__unknown_file (
-
-%1java.util.Collection2stream()Ÿ
-œ
-K K(A"
-%3java.util.function.Predicate"__declareFunction*Y
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getPassword()º·
+ (
+%3java.lang.String">engclasses.beans.RegistrazioneBean#getNome()Ljava/lang/String;*H
 
-__unknown_file (=;
-9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFile•
-’
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2	getNome()À½
+ (!
+%4java.lang.String"Aengclasses.beans.RegistrazioneBean#getCognome()Ljava/lang/String;*H
 
-__unknown_file (2
-"
-%3java.util.function.Predicate"
-
-idAnnuncio"__id*<
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2getCognome()¼¹
+ (
+%5java.lang.String"?engclasses.beans.RegistrazioneBean#getCitta()Ljava/lang/String;*H
 
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String¬©
-J K(B
-%6java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+__unknown_file (,
+*
+bean"engclasses.beans.RegistrazioneBean2
+getCitta()42
+ (
+%6model.Venditore"model.VenditoreÜ
+Ù
+ ( 
+%7"—model.Venditore#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*3
 
-__unknown_file (
-
-%2java.util.stream.Stream*@
+__unknown_file (
+
+%6model.Venditore*4
 
-__unknown_file ($
-"
-%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
-«
-L L(, 
-%7java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+__unknown_file (
+
+idjava.lang.String*4
 
-__unknown_file ("
-java.util.stream.Collectors˜•
-J L(-
-%8java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+__unknown_file (
+
+%0java.lang.String*4
 
-__unknown_file (
-
-%6java.util.stream.Stream*>
+__unknown_file (
+
+%1java.lang.String*4
 
-__unknown_file ("
- 
-%7java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
-J L(.
-
-%8java.util.List:*
-I* I(;
-
-idAnnunciojava.lang.StringB,*
-(engclasses.dao.filesystem.OffertaDAOFileH
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String"#
+ (!
+
+%6model.Venditore:"
+
+ 
+('
+idjava.lang.String:6
+
+( 
+(>*
+bean"engclasses.beans.RegistrazioneBeanB/-
++engclasses.pattern.factory.VenditoreFactoryH

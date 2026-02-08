@@ -1,30 +1,15 @@
 
-`controllers.applicativo.OffertaController#getOfferteAnnuncio(Ljava/lang/String;)Ljava/util/List;h
-^/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/OffertaController.javaH H(+"1*Ë
-1I I(ì
-ê
-I I(#
-%0engclasses.dao.api.OffertaDAO"__id*Y
+(model.Utente#getNome()Ljava/lang/String;K
+A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.java ("1*ó
+1   (b
+`
+   (
+%0java.lang.String"__id*6
 
-__unknown_file (=*;+
-)controllers.applicativo.OffertaController"
-
-offertaDAOûõ
-I I(6
-%1java.util.List"Rengclasses.dao.api.OffertaDAO#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;*A
-
-__unknown_file (%
-#
-%0engclasses.dao.api.OffertaDAO*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String2$trovaPerAnnuncio(Ljava/lang/String;)""
-I I(7
-
-%1java.util.List:*
-H, H(=
-
-idAnnunciojava.lang.StringB-+
-)controllers.applicativo.OffertaControllerH
+__unknown_file (*
+model.Utente"
+nome"$
+   (
+
+%0java.lang.StringB
+model.UtenteH

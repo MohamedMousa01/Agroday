@@ -1,17 +1,17 @@
 
-Hmodel.Annuncio$Builder#citta(Ljava/lang/String;)Lmodel/Annuncio$Builder;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaA A("1*§
-1B B(p
-n
-B B(#
-model.Annuncio$Builder"
-citta"__id*7
+Wmodel.Annuncio$Builder#dataPubblicazione(Ljava/time/LocalDate;)Lmodel/Annuncio$Builder;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java7 7(("1*Ä
+18% 8(6Œ
+‰
+8 8(6/
+model.Annuncio$Builder"
+dataPubblicazione"__id*F
 
-__unknown_file (
-
-cittajava.lang.String"&
-C C(
-model.Annuncio$Builder:%
-A A()
-cittajava.lang.StringB
+__unknown_file (*
+(
+dataPubblicazionejava.time.LocalDate"&
+9 9(
+model.Annuncio$Builder:4
+7) 7(D(
+dataPubblicazionejava.time.LocalDateB
 model.Annuncio$BuilderH

@@ -1,91 +1,98 @@
 
-lengclasses.dao.filesystem.OffertaDAOFile#trovaOffertePendingPerVenditore(Ljava/lang/String;)Ljava/util/List;g
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaW W(8"startingBlock*¢
-startingBlockW8 W(R™
-–
-V V(
-%10"
+@engclasses.dao.filesystem.OffertaDAOFile#salva(Lmodel/Offerta;)Zg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java3 3("startingBlock*!
+25 5("
+5 5(
+""*«
+34 4(&š
+4 4(5
+%1java.lang.String".model.Offerta#getIdOfferta()Ljava/lang/String;*6
+
+__unknown_file (
+
+offertamodel.Offerta2getIdOfferta()t
+r
+4 4(=
+%2boolean"	__compare*
+46 4(8
+==*$
+4 4(5
+
+%1java.lang.String*
+49 4(=
+""*
+2
+1*†
+startingBlock3 3()‹
+ˆ
+2 2(
+%7"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*C
+java.lang.Override*6
 
-__unknown_file ('
-%
-usernameVenditorejava.lang.Stringf
-d
-W@ W(Q%
-usernameVenditorejava.lang.String"__annotation*#
+__unknown_file (
 
-__unknown_file (
-
-%10*
-1*·
-1X X(~
+offertamodel.OffertaX
+V
+3! 3((
+offertamodel.Offerta"__annotation*"
+
+__unknown_file (
+
+%7*
+4*
+44 4(v
+t
+4 4(
+%0boolean"	__compare*
+4 4(
+==*&
+4 4(
+
+offertamodel.Offerta*
+4 4(
+""*
+2
+3*³
+17 7(~
 |
-X X(
-%0java.util.Map"__id*U
+7 7(
+%3java.util.Map"__id*U
 
 __unknown_file (9*7*
 (engclasses.dao.filesystem.OffertaDAOFile"	
-offerte”‘
-X X(
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+offerteš
+7 7(*
+%4java.lang.String".model.Offerta#getIdOfferta()Ljava/lang/String;*6
+
+__unknown_file (
+
+offertamodel.Offerta2getIdOfferta()Í
+Ê
+7 7(4
+%5model.Offerta"__mapSet*1
 
 __unknown_file (
 
-%0java.util.Map2values()¨¥
-X X((
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+%3java.util.Map*4
 
-__unknown_file (
-
-%1java.util.Collection2stream() 
-
-Y Y(`"
-%3java.util.function.Predicate"__declareFunction*Z
+__unknown_file (
+
+%4java.lang.String*6
 
-__unknown_file (><
-:__sonar_lambda_11$engclasses.dao.filesystem.OffertaDAOFile£
- 
+__unknown_file (
 
-__unknown_file (9
-"
-%3java.util.function.Predicate"
-usernameVenditore"__id*C
+offertamodel.OffertaŸ
+œ
+8 8(
+%6boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
 
-__unknown_file ('
-%
-usernameVenditorejava.lang.String¬©
-X Y(a
-%7java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%2java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
-«
-Z Z(, 
-%8java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
-
-__unknown_file ("
-java.util.stream.Collectors˜•
-X Z(-
-%9java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
-
-__unknown_file (
-
-%7java.util.stream.Stream*>
-
-__unknown_file ("
- 
-%8java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
-X Z(.
-
-%9java.util.List:1
-W9 W(Q%
-usernameVenditorejava.lang.StringB,*
-(engclasses.dao.filesystem.OffertaDAOFileH
+__unknown_file (,*
+(engclasses.dao.filesystem.OffertaDAOFile"
+8 8(
+"":$
+3 3((
+offertamodel.OffertaB,*
+(engclasses.dao.filesystem.OffertaDAOFileHX

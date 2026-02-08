@@ -38,7 +38,7 @@ public class OffertaDAODB implements OffertaDAO {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
         } catch (SQLException e) {
-            logger.error("Errore nella creazione tabella offerte", e);
+            SQLExceptionHandler.handleReadError(logger, "creazione tabella offerte", e);
         }
     }
 
@@ -64,7 +64,7 @@ public class OffertaDAODB implements OffertaDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore durante il salvataggio offerta", e);
+            SQLExceptionHandler.handleReadError(logger, "il salvataggio offerta", e);
             return false;
         }
     }
@@ -80,7 +80,7 @@ public class OffertaDAODB implements OffertaDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore durante l'eliminazione offerta", e);
+            SQLExceptionHandler.handleReadError(logger, "l'eliminazione offerta", e);
             return false;
         }
     }
@@ -100,7 +100,7 @@ public class OffertaDAODB implements OffertaDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nella ricerca offerta per ID", e);
+            SQLExceptionHandler.handleReadError(logger, "ricerca offerta per ID", e);
         }
         return null;
     }
@@ -133,7 +133,7 @@ public class OffertaDAODB implements OffertaDAO {
             return pstmt.executeUpdate() > 0;
 
         } catch (SQLException e) {
-            logger.error("Errore durante l'aggiornamento stato offerta", e);
+            SQLExceptionHandler.handleReadError(logger, "l'aggiornamento stato offerta", e);
             return false;
         }
     }
@@ -152,7 +152,7 @@ public class OffertaDAODB implements OffertaDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore nel recupero di tutte le offerte", e);
+            SQLExceptionHandler.handleReadError(logger, "recupero di tutte le offerte", e);
         }
         return risultati;
     }
@@ -195,7 +195,7 @@ public class OffertaDAODB implements OffertaDAO {
             }
 
         } catch (SQLException e) {
-            logger.error("Errore durante l'esecuzione query offerte", e);
+            SQLExceptionHandler.handleReadError(logger, "l'esecuzione query offerte", e);
         }
         return risultati;
     }

@@ -1,17 +1,10 @@
 
-Hmodel.Annuncio$Builder#stato(Ljava/lang/String;)Lmodel/Annuncio$Builder;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaQ Q("1*§
-1R R(p
-n
-R R(#
-model.Annuncio$Builder"
-stato"__id*7
+Dmodel.Annuncio$Builder#quantitaDesiderata(I)Lmodel/Annuncio$Builder;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaF F()"1*5
+1G& G(8"&
+I I(
+model.Annuncio$Builder: 
 
-__unknown_file (
-
-statojava.lang.String"&
-S S(
-model.Annuncio$Builder:%
-Q Q()
-statojava.lang.StringB
+__unknown_file (
+""B
 model.Annuncio$BuilderH

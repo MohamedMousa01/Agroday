@@ -1,28 +1,91 @@
 
-rengclasses.dao.db.AppuntamentoDAODB#creaAppuntamentoOnline(Lmodel/Appuntamento$Builder;)Lmodel/AppuntamentoOnline;d
-X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.java× ×(5"1*ä
+Wengclasses.dao.db.AppuntamentoDAODB#trovaPerCliente(Ljava/lang/String;)Ljava/util/List;d
+X/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/AppuntamentoDAODB.java   (-"startingBlock*–
+startingBlock
+ -  (?’
+
+
+Ÿ Ÿ(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	idClientejava.lang.String_
+]
+
+ 5  (>
+	idClientejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*–
 1
-Ø& Ø(-HF
+¡ ¡(bç
+ä
 
-Ø Ø(%
-%0model.AppuntamentoOnline"model.AppuntamentoOnlineØ
-Õ
+¡ ¢(Z
+%0java.lang.String"__concat*]
 
-Ø Ø(.
-%1">model.AppuntamentoOnline#<init>(Lmodel/Appuntamento$Builder;)V*<
+¡ ¡(bOM
+KSELECT id_appuntamento, id_cliente, id_consulente, tipo_consulenza, stato, *U
+
+¢ ¢(ZGE
+Cdata_ora_inizio, data_ora_fine, luogo, note, motivo_cancellazione, ¬
+©
+
+¡ £(V
+%1java.lang.String"__concat*&
+
+¡ ¢(Z
+
+%0java.lang.String*Q
+
+£ £(VCA
+?data_creazione, data_ultima_modifica, google_calendar_event_id “
+
+
+¡ ¤(=
+%2java.lang.String"__concat*&
+
+¡ £(V
+
+%1java.lang.String*8
+
+¤ ¤(=*(
+&FROM appuntamenti WHERE id_cliente = ?c
+a
+
+¡ ¤(>
+sqljava.lang.String"__id*4
 
-__unknown_file ( 
-
-%0model.AppuntamentoOnline*C
+__unknown_file (
+
+%2java.lang.StringÊ
+Ç
+
+¥ ¥(/
+%3java.util.List"jengclasses.dao.db.AppuntamentoDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*C
 
-__unknown_file ('
-%
-buildermodel.Appuntamento$Builder".
+__unknown_file ('%
+#engclasses.dao.db.AppuntamentoDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*;
+
+__unknown_file (
+
+	idClientejava.lang.String"$
 
-Ø Ø(/ 
-
-%0model.AppuntamentoOnline:3
+¥ ¥(0
+
+%3java.util.List:+
 
-×6 ×(R%
-buildermodel.Appuntamento$BuilderB'%
-#engclasses.dao.db.AppuntamentoDAODB
+ .  (>
+	idClientejava.lang.StringB'%
+#engclasses.dao.db.AppuntamentoDAODBH

@@ -1,9 +1,18 @@
 
-#model.Annuncio#getQuantitaTotale()IO
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java³ ³( "1*%
+5model.Annuncio#getDataScadenza()Ljava/time/LocalDate;O
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java« «($"1*­
 1
-´ ´("
+«/ «(;q
+o
 
-´ ´(
-""B
-model.AnnuncioHX
+«/ «(;
+%0java.time.LocalDate"__id*@
+
+__unknown_file ($*"
+model.Annuncio"
+dataScadenza")
+
+«( «(<
+
+%0java.time.LocalDateB
+model.AnnuncioH

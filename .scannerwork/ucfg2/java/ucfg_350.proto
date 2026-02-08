@@ -1,33 +1,39 @@
 
-Jengclasses.dao.memory.PartecipazioneDAOMemory#trovaTutte()Ljava/util/List;l
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.javaJ  J(*"1*–
-1K K(-K
-I
-K K(-
-%0java.util.Map"__id*"
+?__sonar_lambda_22$engclasses.dao.memory.PartecipazioneDAOMemoryl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/PartecipazioneDAOMemory.java  (I"startingBlock*Ã
+startingBlock  (I¢
+Ÿ
 
-__unknown_file (
-""”‘
-K K(6
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+__unknown_file (
+
+idAnnunciojava.lang.String"__id*]
 
-__unknown_file (
-
-%0java.util.Map2values()<:
-K K(
-%2java.util.ArrayList"java.util.ArrayList»
-¸
-K K(7
-%3"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+__unknown_file (A*?/
+-engclasses.dao.memory.PartecipazioneDAOMemory"
+
+idAnnuncio*
+1*±
+1% (/§¤
+7 (H
+%4java.lang.String"6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;*7
 
 __unknown_file (
 
-%2java.util.ArrayList*8
+pmodel.Partecipazione2getIdAnnuncio()Ú×
+% (I
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
 
-__unknown_file (
-
-%1java.util.Collection"'
-K K(8
-
-%2java.util.ArrayListB1/
--engclasses.dao.memory.PartecipazioneDAOMemoryH
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)"
+% (I
+
+%5boolean:%
+  (!
+pmodel.PartecipazioneB 
+java.util.function.Predicate

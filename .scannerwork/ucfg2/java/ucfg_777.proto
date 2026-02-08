@@ -1,39 +1,7 @@
 
-mengclasses.dao.memory.OffertaDAOMemory#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;e
-[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.javaJ J(;"startingBlock*¤
-startingBlockJ; J(Wš
-—
-I I(
-%2"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*E
-
-__unknown_file ()
-'
-usernameAgricoltorejava.lang.Stringg
-e
-JC J(V'
-usernameAgricoltorejava.lang.String"__annotation*"
-
-__unknown_file (
-
-%2*
-1*à
-1M M( <:
-M M(
-%0java.util.ArrayList"java.util.ArrayListj
-h
-M M( 
-%1"java.util.ArrayList#<init>()V*7
-
-__unknown_file (
-
-%0java.util.ArrayList"'
-M M(!
-
-%0java.util.ArrayList:3
-J< J(V'
-usernameAgricoltorejava.lang.StringB*(
-&engclasses.dao.memory.OffertaDAOMemoryH
+2engclasses.beans.AnnuncioBean#getQuantitaTotale()I\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.javak k( "1*!
+1l l("
+l l(
+""B!
+engclasses.beans.AnnuncioBeanHX

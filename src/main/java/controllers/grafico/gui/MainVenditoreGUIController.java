@@ -16,7 +16,7 @@ import java.util.Optional;
 /**
  * Controller per la view principale del Venditore
  */
-public class MainVenditoreGUIController {
+public class MainVenditoreGUIController extends BaseGUIController {
 
     @FXML private Label lblBenvenuto;
     @FXML private Button btnCercaAnnunci;
@@ -118,11 +118,4 @@ public class MainVenditoreGUIController {
         }
     }
 
-    private void mostraMessaggio(String titolo, String messaggio, Alert.AlertType tipo) {
-        Alert alert = new Alert(tipo);
-        alert.setTitle(titolo);
-        alert.setHeaderText(null);
-        alert.setContentText(messaggio);
-        alert.showAndWait();
-    }
 }

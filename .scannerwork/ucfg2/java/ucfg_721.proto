@@ -1,297 +1,85 @@
 
-ñengclasses.dao.filesystem.AppuntamentoDAOFile#esisteConflitto(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Zn
-b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javaò ò(""startingBlock*%
-2
-ö ö("
-
-ö ö(
-""*†
-3
-ô6 ô(:Ü
-É
-
-ô6 ô(B
-%2boolean"	__compare*
-
-ô; ô(=
-==*/
-
-ô6 ô(:!
-
-finejava.time.LocalDateTime*
-
-ô> ô(B
-""*
-2
-1*í
-startingBlock
-ò" ò(sñ
-ì
-
-ó ó(
-%25"
-__annotate*2
+Jengclasses.dao.filesystem.AppuntamentoDAOFile#elimina(Ljava/lang/String;)Zl
+b/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/AppuntamentoDAOFile.javaM M("startingBlock*Õ
+2R R(©
+¶
+R R( 
+%4boolean"<engclasses.dao.filesystem.AppuntamentoDAOFile#salvaSuFile()Z*M
 
-__unknown_file (
-java.lang.Override*>
-
-__unknown_file ("
- 
-idConsulentejava.lang.Stringc
-a
-
-ò* ò(6 
-idConsulentejava.lang.String"__annotation*#
-
-__unknown_file (
-
-%25ó
-î
-
-ó ó(
-%26"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*?
-
-__unknown_file (#
-!
-iniziojava.time.LocalDateTimed
-b
-
-òF ò(L!
-iniziojava.time.LocalDateTime"__annotation*#
-
-__unknown_file (
-
-%26ï
-í
-
-ó ó(
-%27"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*=
-
-__unknown_file (!
-
-finejava.time.LocalDateTimeb
-`
-
-ò\ ò(`
-finejava.time.LocalDateTime"__annotation*#
-
-__unknown_file (
-
-%27ì
-ê
-
-ó ó(
-%28"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*;
-
-__unknown_file (
-
-	escludiIdjava.lang.String`
-^
-
-òi ò(r
-	escludiIdjava.lang.String"__annotation*#
-
-__unknown_file (
-
-%28*
-5*¢
-4
-ô$ ô(*à
-Ö
-
-ô$ ô(2
-%1boolean"	__compare*
-
-ô+ ô(-
-==*1
-
-ô$ ô(*#
-!
-iniziojava.time.LocalDateTime*
-
-ô. ô(2
-""*
-2
-3*°
-5
-ô ô(á
-Ñ
-
-ô ô( 
-%0boolean"	__compare*
-
-ô ô(
-==*0
-
-ô ô("
- 
-idConsulentejava.lang.String*
-
-ô ô( 
-""*
-2
-4*´
-1
-ù ù(ã
-à
-
-ù ù(
-%3java.util.Map"__id*_
+__unknown_file (1/
+-engclasses.dao.filesystem.AppuntamentoDAOFile"
+R R(!
+""*≈
+3Q Q(â
+Ü
+Q Q(
+%1java.util.Map"__id*_
 
 __unknown_file (C*A/
 -engclasses.dao.filesystem.AppuntamentoDAOFile"
-appuntamentiñì
-
-ù ù($
-%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
+appuntamenti©
+¶
+Q Q(/
+%2model.Appuntamento"__mapRemove*1
 
 __unknown_file (
 
-%3java.util.Map2values()™ß
-
-ù ù(-
-%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%4java.util.Collection2stream()ß
-§
-
-û û(E"
-%6java.util.function.Predicate"__declareFunction*_
-
-__unknown_file (CA
-?__sonar_lambda_64$engclasses.dao.filesystem.AppuntamentoDAOFileô
-ñ
-
-__unknown_file (4
-"
-%6java.util.function.Predicate"
-idConsulente"__id*>
-
-__unknown_file ("
- 
-idConsulentejava.lang.StringÆ´
-
-ù û(F
-%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%5java.util.stream.Stream*@
+%1java.util.Map*@
 
 __unknown_file ($
 "
-%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
-•
-
-ü ü(4#
-%10java.util.function.Predicate"__declareFunction*_
+idAppuntamentojava.lang.Stringv
+t
+Q Q(7
+%3boolean"	__compare*
+Q0 Q(2
+!=*&
+Q Q(/
 
-__unknown_file (CA
-?__sonar_lambda_65$engclasses.dao.filesystem.AppuntamentoDAOFile∞≠
-
-ù ü(5
-%13java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%9java.util.stream.Stream*A
-
-__unknown_file (%
-#
-%10java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
-•
-
-† †(Z#
-%14java.util.function.Predicate"__declareFunction*_
-
-__unknown_file (CA
-?__sonar_lambda_66$engclasses.dao.filesystem.AppuntamentoDAOFileî
-ë
-
-__unknown_file (2
-#
-%14java.util.function.Predicate"
-	escludiId"__id*;
-
-__unknown_file (
-
-	escludiIdjava.lang.String±Æ
-
-ù †([
-%18java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*<
-
-__unknown_file ( 
-
-%13java.util.stream.Stream*A
-
-__unknown_file (%
-#
-%14java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
-•
-
-° °(h#
-%19java.util.function.Predicate"__declareFunction*_
-
-__unknown_file (CA
-?__sonar_lambda_67$engclasses.dao.filesystem.AppuntamentoDAOFileï
+%2model.Appuntamento*
+Q3 Q(7
+""*
+2
+1*ö
+startingBlockM M(1ï
 í
+L L(
+%5"
+__annotate*2
 
-__unknown_file (/
-#
-%19java.util.function.Predicate"
-inizio"__id*?
+__unknown_file (
+java.lang.Override*@
 
-__unknown_file (#
-!
-iniziojava.time.LocalDateTimeë
-é
+__unknown_file ($
+"
+idAppuntamentojava.lang.Stringb
+`
+M" M(0"
+idAppuntamentojava.lang.String"__annotation*"
 
-__unknown_file (-
-#
-%19java.util.function.Predicate"
-fine"__id*=
-
-__unknown_file (!
-
-finejava.time.LocalDateTimeçä
-
-ù °(i
-%24boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*<
-
-__unknown_file ( 
-
-%18java.util.stream.Stream*A
-
-__unknown_file (%
-#
-%19java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)"
-
-ù °(j
+__unknown_file (
+
+%5*
+5*!
+4O O("
+O O(
+""*ò
+5N N(Ä
+~
+N N("
+%0boolean"	__compare*
+N N(
+==*0
+N N($
+"
+idAppuntamentojava.lang.String*
+N N("
+""*
+3
+4*!
+1T T("
+T T(
 "":.
-
-ò# ò(7 
-idConsulentejava.lang.String:/
-
-ò8 ò(M!
-iniziojava.time.LocalDateTime:-
-
-òN ò(a
-finejava.time.LocalDateTime:+
-
-òb ò(r
-	escludiIdjava.lang.StringB1/
+M M(0"
+idAppuntamentojava.lang.StringB1/
 -engclasses.dao.filesystem.AppuntamentoDAOFileHX

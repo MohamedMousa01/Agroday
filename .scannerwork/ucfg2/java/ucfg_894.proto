@@ -1,13 +1,154 @@
 
-6model.AppuntamentoOnline#getDurataPredefinitaMinuti()IW
-M/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoOnline.java: :(0"1*d
-1; ;((A
-?
-; ;((	
-%0int"__id*"
+ftest.TestPrenotazione#inizializzaSessioneEController()Lcontrollers/applicativo/AppuntamentoController;T
+J/Users/mohamedmousa/Desktop/prova/src/main/java/test/TestPrenotazione.java;* ;(H"4*b
+2>S >(YN
+L
+>S >(Y
+%5"__id*4
+
+__unknown_file (
+
+%7java.lang.String*
+1*b
+3>A >(PN
+L
+>A >(P
+%5"__id*4
+
+__unknown_file (
+
+%6java.lang.String*
+1*û
+4< <(!x
+v
+< <(/
+%0misc.Session"(misc.Session#getInstance()Lmisc/Session;*,
+
+__unknown_file ("
+misc.Session]
+[
+< <(0
+sessionmisc.Session"__id*0
+
+__unknown_file (
+
+%0misc.SessionR
+P
+=# =(9
+%1misc.PersistenceType"__id*"
 
 __unknown_file (
-"""
-; ;()
-""B"
-model.AppuntamentoOnlineHX
+""ðí
+= =(:
+
+%2void"8misc.Session#setPersistenceType(Lmisc/PersistenceType;)V*5
+
+__unknown_file (
+
+sessionmisc.Session*8
+
+__unknown_file (
+
+%1misc.PersistenceType2*setPersistenceType(Lmisc/PersistenceType;)<
+:
+> >(
+%3"__id*"
+
+__unknown_file (
+""…‚
+>& >(>
+%4boolean"misc.Session#isModalitaDemo()Z*5
+
+__unknown_file (
+
+sessionmisc.Session2isModalitaDemo()*
+2
+3*‘
+1> >(ZU
+S
+A A(
+%8java.lang.String"__id*)
+
+__unknown_file (
+	client00164
+@$ @(.
+%9model.Consulente"model.Consulenteœ
+™
+@  H(	
+%10"˜model.Consulente#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%9model.Consulente*4
+
+__unknown_file (
+
+%8java.lang.String*+
+
+__unknown_file (
+mario_rossi*1
+
+__unknown_file (
+mario@example.com*+
+
+__unknown_file (
+password123*%
+
+__unknown_file (	
+Mario*%
+
+__unknown_file (	
+Rossi*$
+
+__unknown_file (
+Romah
+f
+@ H(
+
+
+utenteDemomodel.Consulente"__id*4
+
+__unknown_file (
+
+%9model.ConsulenteáÞ
+I I(,
+%11void".misc.Session#setUtenteLoggato(Lmodel/Utente;)V*5
+
+__unknown_file (
+
+sessionmisc.Session*<
+
+__unknown_file ( 
+
+
+utenteDemomodel.Consulente2 setUtenteLoggato(Lmodel/Utente;)=
+;
+J J(
+%12"__id*"
+
+__unknown_file (
+""¡ž
+J. J(F
+%13java.lang.String",model.Utente#getUsername()Ljava/lang/String;*<
+
+__unknown_file ( 
+
+
+utenteDemomodel.Consulente2getUsername()sq
+L L()5
+%14.controllers.applicativo.AppuntamentoController".controllers.applicativo.AppuntamentoControllerè
+å
+L L(2
+%15"Fcontrollers.applicativo.AppuntamentoController#<init>(Lmisc/Session;)V*S
+
+__unknown_file (7
+5
+%14.controllers.applicativo.AppuntamentoController*5
+
+__unknown_file (
+
+sessionmisc.Session"C
+L L(37
+5
+%14.controllers.applicativo.AppuntamentoControllerB"
+test.TestPrenotazione

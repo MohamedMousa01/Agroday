@@ -448,9 +448,14 @@ getCause()<java.io.UncheckedIOException#getCause()Ljava/io/IOException;p
 <init>())java.lang.IllegalStateException#<init>()VY
 <init>(Ljava/lang/String;);java.lang.IllegalStateException#<init>(Ljava/lang/String;)VÉ
 /<init>(Ljava/lang/String;Ljava/lang/Throwable;)Pjava.lang.IllegalStateException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V_
-<init>(Ljava/lang/Throwable;)>java.lang.IllegalStateException#<init>(Ljava/lang/Throwable;)VÀ
+<init>(Ljava/lang/Throwable;)>java.lang.IllegalStateException#<init>(Ljava/lang/Throwable;)V¿
+)controllers.grafico.gui.BaseGUIControllerjava.lang.Object?
+<init>()3controllers.grafico.gui.BaseGUIController#<init>()Vì
+2mostraErrore(Ljava/lang/String;Ljava/lang/String;)]controllers.grafico.gui.BaseGUIController#mostraErrore(Ljava/lang/String;Ljava/lang/String;)Vè
+0mostraInfo(Ljava/lang/String;Ljava/lang/String;)[controllers.grafico.gui.BaseGUIController#mostraInfo(Ljava/lang/String;Ljava/lang/String;)Vó
+4mostraSuccesso(Ljava/lang/String;Ljava/lang/String;)_controllers.grafico.gui.BaseGUIController#mostraSuccesso(Ljava/lang/String;Ljava/lang/String;)V‰
 
-6controllers.grafico.gui.VisualizzaOfferteGUIControllerjava.lang.ObjectL
+6controllers.grafico.gui.VisualizzaOfferteGUIController)controllers.grafico.gui.BaseGUIControllerL
 <init>()@controllers.grafico.gui.VisualizzaOfferteGUIController#<init>()Vz
 accettaOfferta(Lmodel/Offerta;)Wcontrollers.grafico.gui.VisualizzaOfferteGUIController#accettaOfferta(Lmodel/Offerta;)VZ
 caricaOfferte()Gcontrollers.grafico.gui.VisualizzaOfferteGUIController#caricaOfferte()V©
@@ -690,8 +695,8 @@ $caricaMainViewCLI(Lmisc/TipoUtente;)Pengclasses.pattern.viewfactory.ViewManage
 $caricaMainViewGUI(Lmisc/TipoUtente;)Pengclasses.pattern.viewfactory.ViewManager#caricaMainViewGUI(Lmisc/TipoUtente;)VZ
 goTo(Lmisc/ViewType;)Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)VÜ
 +navigaCLI(Lmisc/ViewType;Lmisc/TipoUtente;)Wengclasses.pattern.viewfactory.ViewManager#navigaCLI(Lmisc/ViewType;Lmisc/TipoUtente;)VÜ
-+navigaGUI(Lmisc/ViewType;Lmisc/TipoUtente;)Wengclasses.pattern.viewfactory.ViewManager#navigaGUI(Lmisc/ViewType;Lmisc/TipoUtente;)V≠
-1controllers.grafico.gui.PrenotazioneGUIControllerjava.lang.ObjectG
++navigaGUI(Lmisc/ViewType;Lmisc/TipoUtente;)Wengclasses.pattern.viewfactory.ViewManager#navigaGUI(Lmisc/ViewType;Lmisc/TipoUtente;)V∆
+1controllers.grafico.gui.PrenotazioneGUIController)controllers.grafico.gui.BaseGUIControllerG
 <init>();controllers.grafico.gui.PrenotazioneGUIController#<init>()V[
 aggiornaInfoTipo()Econtrollers.grafico.gui.PrenotazioneGUIController#aggiornaInfoTipo()Vi
 aggiornaVisibilitaLuogo()Lcontrollers.grafico.gui.PrenotazioneGUIController#aggiornaVisibilitaLuogo()Vm
@@ -1090,8 +1095,8 @@ getStato()Dengclasses.beans.AppuntamentoBean#getStato()Lmisc/StatoAppuntamento;
 "setStato(Lmisc/StatoAppuntamento;)Eengclasses.beans.AppuntamentoBean#setStato(Lmisc/StatoAppuntamento;)Vw
 (setTipoConsulenza(Lmisc/TipoConsulenza;)Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)VL
 
-toString()>engclasses.beans.AppuntamentoBean#toString()Ljava/lang/String;Ñ
-2controllers.grafico.gui.MainVenditoreGUIControllerjava.lang.ObjectH
+toString()>engclasses.beans.AppuntamentoBean#toString()Ljava/lang/String;ù
+2controllers.grafico.gui.MainVenditoreGUIController)controllers.grafico.gui.BaseGUIControllerH
 <init>()<controllers.grafico.gui.MainVenditoreGUIController#<init>()VT
 cercaAnnunci()Bcontrollers.grafico.gui.MainVenditoreGUIController#cercaAnnunci()VP
 initialize()@controllers.grafico.gui.MainVenditoreGUIController#initialize()VH
@@ -1542,8 +1547,8 @@ toString()+java.util.UUID#toString()Ljava/lang/String;&
 getIdAnnuncio()6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;U
 getIdPartecipazione()<model.Partecipazione#getIdPartecipazione()Ljava/lang/String;F
 getQuantitaRichiesta(),model.Partecipazione#getQuantitaRichiesta()IH
-setQuantitaRichiesta(I)-model.Partecipazione#setQuantitaRichiesta(I)V‹
->controllers.grafico.gui.CancellazioneAppuntamentoGUIControllerjava.lang.ObjectT
+setQuantitaRichiesta(I)-model.Partecipazione#setQuantitaRichiesta(I)Vı
+>controllers.grafico.gui.CancellazioneAppuntamentoGUIController)controllers.grafico.gui.BaseGUIControllerT
 <init>()Hcontrollers.grafico.gui.CancellazioneAppuntamentoGUIController#<init>()Vd
 chiudiFinestra()Pcontrollers.grafico.gui.CancellazioneAppuntamentoGUIController#chiudiFinestra()V\
 initialize()Lcontrollers.grafico.gui.CancellazioneAppuntamentoGUIController#initialize()Vå
@@ -1587,7 +1592,18 @@ $setIdAgricoltore(Ljava/lang/String;)Iengclasses.beans.PartecipazioneBean#setId
 showMiePartecipazioni()Bcontrollers.grafico.gui.MainGUIController#showMiePartecipazioni()VQ
 showMieiAnnunci()<controllers.grafico.gui.MainGUIController#showMieiAnnunci()VY
 showOfferteRicevute()@controllers.grafico.gui.MainGUIController#showOfferteRicevute()VU
-visualizzaProfilo()>controllers.grafico.gui.MainGUIController#visualizzaProfilo()Vπ
+visualizzaProfilo()>controllers.grafico.gui.MainGUIController#visualizzaProfilo()V€
+misc.ValidationUtilsjava.lang.Object*
+<init>()misc.ValidationUtils#<init>()V\
+!isNullOrEmpty(Ljava/lang/String;)7misc.ValidationUtils#isNullOrEmpty(Ljava/lang/String;)Zó
+6validateNotEmpty(Ljava/lang/String;Ljava/lang/String;)]misc.ValidationUtils#validateNotEmpty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;ï
+5validateNotNull(Ljava/lang/Object;Ljava/lang/String;)\misc.ValidationUtils#validateNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;u
+%validatePositive(ILjava/lang/String;)Lmisc.ValidationUtils#validatePositive(ILjava/lang/String;)Ljava/lang/String;ﬁ
+'java.lang.UnsupportedOperationExceptionjava.lang.RuntimeException=
+<init>()1java.lang.UnsupportedOperationException#<init>()Va
+<init>(Ljava/lang/String;)Cjava.lang.UnsupportedOperationException#<init>(Ljava/lang/String;)Vã
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Xjava.lang.UnsupportedOperationException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vg
+<init>(Ljava/lang/Throwable;)Fjava.lang.UnsupportedOperationException#<init>(Ljava/lang/Throwable;)Vπ
 3engclasses.exceptions.RegistrazioneFallitaExceptionjava.lang.Exceptionm
 <init>(Ljava/lang/String;)Oengclasses.exceptions.RegistrazioneFallitaException#<init>(Ljava/lang/String;)VÔ
 "engclasses.beans.RegistrazioneBeanjava.lang.Object8
@@ -2484,7 +2500,9 @@ FmostraMessaggioConfermaConScelta(Ljava/lang/String;Ljava/lang/String;)Ymisc.Me
 $trovaPerAnnuncio(Ljava/lang/String;)Sengclasses.dao.db.OffertaDAODB#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;n
 trovaPerId(Ljava/lang/String;)Lengclasses.dao.db.OffertaDAODB#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;}
 %trovaPerVenditore(Ljava/lang/String;)Tengclasses.dao.db.OffertaDAODB#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;K
-trovaTutte();engclasses.dao.db.OffertaDAODB#trovaTutte()Ljava/util/List;Ö
+trovaTutte();engclasses.dao.db.OffertaDAODB#trovaTutte()Ljava/util/List;v
+%engclasses.dao.db.SQLExceptionHandlerjava.lang.Object;
+<init>()/engclasses.dao.db.SQLExceptionHandler#<init>()VÖ
 java.util.Datejava.io.Serializablejava.lang.Cloneablejava.lang.Comparablejava.lang.Object$
 <init>()java.util.Date#<init>()V*
 <init>(III)java.util.Date#<init>(III)V.
@@ -2844,16 +2862,24 @@ jvalidaDati(Ljava/lang/String;Ljava/lang/String;Ljava/time/LocalDate;Ljava/lang/
 %getQuantitaTotale(Ljava/lang/String;)Wcontrollers.applicativo.PartecipazioneController#getQuantitaTotale(Ljava/lang/String;)I¢
 6haGiaPartecipato(Ljava/lang/String;Ljava/lang/String;)hcontrollers.applicativo.PartecipazioneController#haGiaPartecipato(Ljava/lang/String;Ljava/lang/String;)Zñ
 0partecipa(Ljava/lang/String;Ljava/lang/String;I)bcontrollers.applicativo.PartecipazioneController#partecipa(Ljava/lang/String;Ljava/lang/String;I)Z8
-$engclasses.dao.api.PartecipazioneDAOjava.lang.ObjectÓ
--engclasses.dao.memory.PartecipazioneDAOMemory$engclasses.dao.api.PartecipazioneDAOjava.lang.ObjectC
-<init>()7engclasses.dao.memory.PartecipazioneDAOMemory#<init>()VA
-clear()6engclasses.dao.memory.PartecipazioneDAOMemory#clear()Vi
-elimina(Ljava/lang/String;)Jengclasses.dao.memory.PartecipazioneDAOMemory#elimina(Ljava/lang/String;)Zü
-6haPartecipatoGia(Ljava/lang/String;Ljava/lang/String;)eengclasses.dao.memory.PartecipazioneDAOMemory#haPartecipatoGia(Ljava/lang/String;Ljava/lang/String;)Zm
-salva(Lmodel/Partecipazione;)Lengclasses.dao.memory.PartecipazioneDAOMemory#salva(Lmodel/Partecipazione;)Zê
+$engclasses.dao.api.PartecipazioneDAOjava.lang.ObjectÁ
+!engclasses.dao.memory.InMemoryDAOjava.lang.Object7
+<init>()+engclasses.dao.memory.InMemoryDAO#<init>()V5
+clear()*engclasses.dao.memory.InMemoryDAO#clear()V5
+count()*engclasses.dao.memory.InMemoryDAO#count()I]
+elimina(Ljava/lang/Object;)>engclasses.dao.memory.InMemoryDAO#elimina(Ljava/lang/Object;)Z[
+exists(Ljava/lang/Object;)=engclasses.dao.memory.InMemoryDAO#exists(Ljava/lang/Object;)ZY
+salva(Ljava/lang/Object;)<engclasses.dao.memory.InMemoryDAO#salva(Ljava/lang/Object;)Zñ
+0trovaPerCriterio(Ljava/util/function/Predicate;)bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;t
+trovaPerId(Ljava/lang/Object;)Rengclasses.dao.memory.InMemoryDAO#trovaPerId(Ljava/lang/Object;)Ljava/lang/Object;í
+-trovaPrimoPer(Ljava/util/function/Predicate;)aengclasses.dao.memory.InMemoryDAO#trovaPrimoPer(Ljava/util/function/Predicate;)Ljava/lang/Object;N
+trovaTutti()>engclasses.dao.memory.InMemoryDAO#trovaTutti()Ljava/util/List;€
+-engclasses.dao.memory.PartecipazioneDAOMemory$engclasses.dao.api.PartecipazioneDAO!engclasses.dao.memory.InMemoryDAOC
+<init>()7engclasses.dao.memory.PartecipazioneDAOMemory#<init>()V~
+getId(Lmodel/Partecipazione;)]engclasses.dao.memory.PartecipazioneDAOMemory#getId(Lmodel/Partecipazione;)Ljava/lang/String;ü
+6haPartecipatoGia(Ljava/lang/String;Ljava/lang/String;)eengclasses.dao.memory.PartecipazioneDAOMemory#haPartecipatoGia(Ljava/lang/String;Ljava/lang/String;)Zê
 'trovaPerAgricoltore(Ljava/lang/String;)eengclasses.dao.memory.PartecipazioneDAOMemory#trovaPerAgricoltore(Ljava/lang/String;)Ljava/util/List;ä
-$trovaPerAnnuncio(Ljava/lang/String;)bengclasses.dao.memory.PartecipazioneDAOMemory#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;Ñ
-trovaPerId(Ljava/lang/String;)bengclasses.dao.memory.PartecipazioneDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Partecipazione;Z
+$trovaPerAnnuncio(Ljava/lang/String;)bengclasses.dao.memory.PartecipazioneDAOMemory#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;Z
 trovaTutte()Jengclasses.dao.memory.PartecipazioneDAOMemory#trovaTutte()Ljava/util/List;œ
 'engclasses.dao.factory.DAOMemoryFactory!engclasses.dao.factory.DAOFactory=
 <init>()1engclasses.dao.factory.DAOMemoryFactory#<init>()Vl
@@ -2913,15 +2939,37 @@ creaBean()acontrollers.grafico.gui.RegistrazioneGUIController#creaBean()Lengcla
 showOrdini();engclasses.pattern.viewfactory.CliViewManager#showOrdini()VM
 showProfilo()<engclasses.pattern.viewfactory.CliViewManager#showProfilo()Vq
 showSuccess(Ljava/lang/String;)Nengclasses.pattern.viewfactory.CliViewManager#showSuccess(Ljava/lang/String;)VO
-waitForEnter()=engclasses.pattern.viewfactory.CliViewManager#waitForEnter()V®
+waitForEnter()=engclasses.pattern.viewfactory.CliViewManager#waitForEnter()VÇ
+engclasses.dao.db.DAOHelperjava.lang.Object1
+<init>()%engclasses.dao.db.DAOHelper#<init>()Vù
+>setParameters(Ljava/sql/PreparedStatement;[Ljava/lang/Object;)[engclasses.dao.db.DAOHelper#setParameters(Ljava/sql/PreparedStatement;[Ljava/lang/Object;)V€
+java.sql.Datejava.util.Date)
+<init>(III)java.sql.Date#<init>(III)V%
+	<init>(J)java.sql.Date#<init>(J)VA
+formatDecimalInt(I[CII)&java.sql.Date#formatDecimalInt(I[CII)V'
+
+getHours()java.sql.Date#getHours()I+
+getMinutes()java.sql.Date#getMinutes()I+
+getSeconds()java.sql.Date#getSeconds()I)
+setHours(I)java.sql.Date#setHours(I)V-
+setMinutes(I)java.sql.Date#setMinutes(I)V-
+setSeconds(I)java.sql.Date#setSeconds(I)V'
+
+setTime(J)java.sql.Date#setTime(J)V;
+toInstant(),java.sql.Date#toInstant()Ljava/time/Instant;A
+toLocalDate()0java.sql.Date#toLocalDate()Ljava/time/LocalDate;8
+
+toString()*java.sql.Date#toString()Ljava/lang/String;W
+valueOf(Ljava/lang/String;)8java.sql.Date#valueOf(Ljava/lang/String;)Ljava/sql/Date;]
+valueOf(Ljava/time/LocalDate;);java.sql.Date#valueOf(Ljava/time/LocalDate;)Ljava/sql/Date;®
 0engclasses.pattern.factory.UtenteFactoryProviderjava.lang.ObjectF
 <init>():engclasses.pattern.factory.UtenteFactoryProvider#<init>()Vô
 getFactory(Lmisc/TipoUtente;)xengclasses.pattern.factory.UtenteFactoryProvider#getFactory(Lmisc/TipoUtente;)Lengclasses/pattern/factory/UtenteFactory;˝
 misc.AppResultjava.lang.EnumJ
 <init>(Ljava/lang/String;I)+misc.AppResult#<init>(Ljava/lang/String;I)VY
 valueOf(Ljava/lang/String;):misc.AppResult#valueOf(Ljava/lang/String;)Lmisc/AppResult;4
-values()(misc.AppResult#values()[Lmisc/AppResult;ﬁ
-6controllers.grafico.gui.ListaAppuntamentiGUIControllerjava.lang.ObjectL
+values()(misc.AppResult#values()[Lmisc/AppResult;˜
+6controllers.grafico.gui.ListaAppuntamentiGUIController)controllers.grafico.gui.BaseGUIControllerL
 <init>()@controllers.grafico.gui.ListaAppuntamentiGUIController#<init>()VÆ
 9aggiornaStatoBottoni(Lengclasses/beans/AppuntamentoBean;)qcontrollers.grafico.gui.ListaAppuntamentiGUIController#aggiornaStatoBottoni(Lengclasses/beans/AppuntamentoBean;)Vd
 caricaAppuntamenti()Lcontrollers.grafico.gui.ListaAppuntamentiGUIController#caricaAppuntamenti()V`
@@ -2935,8 +2983,8 @@ $mostraMessaggio(Ljava/lang/String;Z)\controllers.grafico.gui.ListaAppuntamenti
 onDettagli()Dcontrollers.grafico.gui.ListaAppuntamentiGUIController#onDettagli()VT
 onModifica()Dcontrollers.grafico.gui.ListaAppuntamentiGUIController#onModifica()Vf
 onNuovoAppuntamento()Mcontrollers.grafico.gui.ListaAppuntamentiGUIController#onNuovoAppuntamento()V^
-onTornaIndietro()Icontrollers.grafico.gui.ListaAppuntamentiGUIController#onTornaIndietro()VÂ
-:controllers.grafico.gui.DettaglioAppuntamentoGUIControllerjava.lang.ObjectP
+onTornaIndietro()Icontrollers.grafico.gui.ListaAppuntamentiGUIController#onTornaIndietro()V˛
+:controllers.grafico.gui.DettaglioAppuntamentoGUIController)controllers.grafico.gui.BaseGUIControllerP
 <init>()Dcontrollers.grafico.gui.DettaglioAppuntamentoGUIController#<init>()Vl
 aggiornaStatoBottoni()Rcontrollers.grafico.gui.DettaglioAppuntamentoGUIController#aggiornaStatoBottoni()Vò
 ,impostaColoreStato(Lmisc/StatoAppuntamento;)hcontrollers.grafico.gui.DettaglioAppuntamentoGUIController#impostaColoreStato(Lmisc/StatoAppuntamento;)VX
@@ -3084,12 +3132,7 @@ $trovaPerAnnuncio(Ljava/lang/String;)dengclasses.dao.filesystem.PartecipazioneD
  mostraErrore(Ljava/lang/String;)7view.cli.LoginCLIView#mostraErrore(Ljava/lang/String;)Va
 #mostraMessaggio(Ljava/lang/String;):view.cli.LoginCLIView#mostraMessaggio(Ljava/lang/String;)V_
 "mostraSuccesso(Ljava/lang/String;)9view.cli.LoginCLIView#mostraSuccesso(Ljava/lang/String;)V7
-mostraTitolo()%view.cli.LoginCLIView#mostraTitolo()Vﬁ
-'java.lang.UnsupportedOperationExceptionjava.lang.RuntimeException=
-<init>()1java.lang.UnsupportedOperationException#<init>()Va
-<init>(Ljava/lang/String;)Cjava.lang.UnsupportedOperationException#<init>(Ljava/lang/String;)Vã
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Xjava.lang.UnsupportedOperationException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vg
-<init>(Ljava/lang/Throwable;)Fjava.lang.UnsupportedOperationException#<init>(Ljava/lang/Throwable;)V˜
+mostraTitolo()%view.cli.LoginCLIView#mostraTitolo()V˜
 -engclasses.pattern.factory.AgricoltoreFactory(engclasses.pattern.factory.UtenteFactoryjava.lang.ObjectC
 <init>()7engclasses.pattern.factory.AgricoltoreFactory#<init>()Vƒ
 BcreaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)~engclasses.pattern.factory.AgricoltoreFactory#creaUtente(Ljava/lang/String;Lengclasses/beans/RegistrazioneBean;)Lmodel/Utente;L
@@ -3142,8 +3185,8 @@ omostraRiepilogo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/la
 vuoiCreareAltroAnnuncio()7view.cli.CreaAnnuncioCLIView#vuoiCreareAltroAnnuncio()Z›
 4engclasses.exceptions.DatabaseConfigurationExceptionjava.lang.RuntimeExceptionn
 <init>(Ljava/lang/String;)Pengclasses.exceptions.DatabaseConfigurationException#<init>(Ljava/lang/String;)Vò
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)eengclasses.exceptions.DatabaseConfigurationException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V¥
-,controllers.grafico.gui.ProfiloGUIControllerjava.lang.ObjectB
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)eengclasses.exceptions.DatabaseConfigurationException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VÕ
+,controllers.grafico.gui.ProfiloGUIController)controllers.grafico.gui.BaseGUIControllerB
 <init>()6controllers.grafico.gui.ProfiloGUIController#<init>()VR
 cambiaPassword()>controllers.grafico.gui.ProfiloGUIController#cambiaPassword()VX
 caricaDatiProfilo()Acontrollers.grafico.gui.ProfiloGUIController#caricaDatiProfilo()Vç
@@ -3195,8 +3238,8 @@ $trovaPerAnnuncio(Ljava/lang/String;)Zengclasses.dao.db.PartecipazioneDAODB#tro
 trovaPerId(Ljava/lang/String;)Zengclasses.dao.db.PartecipazioneDAODB#trovaPerId(Ljava/lang/String;)Lmodel/Partecipazione;R
 trovaTutte()Bengclasses.dao.db.PartecipazioneDAODB#trovaTutte()Ljava/util/List;∫
 0engclasses.exceptions.AnnuncioNonValidoExceptionjava.lang.RuntimeExceptionj
-<init>(Ljava/lang/String;)Lengclasses.exceptions.AnnuncioNonValidoException#<init>(Ljava/lang/String;)V◊
-3controllers.grafico.gui.MainConsulenteGUIControllerjava.lang.ObjectI
+<init>(Ljava/lang/String;)Lengclasses.exceptions.AnnuncioNonValidoException#<init>(Ljava/lang/String;)V
+3controllers.grafico.gui.MainConsulenteGUIController)controllers.grafico.gui.BaseGUIControllerI
 <init>()=controllers.grafico.gui.MainConsulenteGUIController#<init>()VQ
 initialize()Acontrollers.grafico.gui.MainConsulenteGUIController#initialize()VI
 logout()=controllers.grafico.gui.MainConsulenteGUIController#logout()V_
@@ -3209,21 +3252,17 @@ $trovaPerAnnuncio(Ljava/lang/String;)Zengclasses.dao.db.PartecipazioneDAODB#tro
 misc.TipoUtentejava.lang.EnumK
 <init>(Ljava/lang/String;I),misc.TipoUtente#<init>(Ljava/lang/String;I)V[
 valueOf(Ljava/lang/String;)<misc.TipoUtente#valueOf(Ljava/lang/String;)Lmisc/TipoUtente;6
-values()*misc.TipoUtente#values()[Lmisc/TipoUtente;ã
-+engclasses.dao.memory.AppuntamentoDAOMemory"engclasses.dao.api.AppuntamentoDAOjava.lang.ObjectA
+values()*misc.TipoUtente#values()[Lmisc/TipoUtente;¶
++engclasses.dao.memory.AppuntamentoDAOMemory"engclasses.dao.api.AppuntamentoDAO!engclasses.dao.memory.InMemoryDAOA
 <init>()5engclasses.dao.memory.AppuntamentoDAOMemory#<init>()Vm
-aggiorna(Lmodel/Appuntamento;)Kengclasses.dao.memory.AppuntamentoDAOMemory#aggiorna(Lmodel/Appuntamento;)Z?
-clear()4engclasses.dao.memory.AppuntamentoDAOMemory#clear()Vg
-elimina(Ljava/lang/String;)Hengclasses.dao.memory.AppuntamentoDAOMemory#elimina(Ljava/lang/String;)ZÄ
-gesisteConflitto(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)îengclasses.dao.memory.AppuntamentoDAOMemory#esisteConflitto(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Zg
-salva(Lmodel/Appuntamento;)Hengclasses.dao.memory.AppuntamentoDAOMemory#salva(Lmodel/Appuntamento;)ZÜ
+aggiorna(Lmodel/Appuntamento;)Kengclasses.dao.memory.AppuntamentoDAOMemory#aggiorna(Lmodel/Appuntamento;)ZÄ
+gesisteConflitto(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)îengclasses.dao.memory.AppuntamentoDAOMemory#esisteConflitto(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;Ljava/lang/String;)Zx
+getId(Lmodel/Appuntamento;)Yengclasses.dao.memory.AppuntamentoDAOMemory#getId(Lmodel/Appuntamento;)Ljava/lang/String;Ü
 #trovaPerCliente(Ljava/lang/String;)_engclasses.dao.memory.AppuntamentoDAOMemory#trovaPerCliente(Ljava/lang/String;)Ljava/util/List;å
 &trovaPerConsulente(Ljava/lang/String;)bengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerConsulente(Ljava/lang/String;)Ljava/util/List;á
-ctrovaPerConsulenteEIntervallo(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)üengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerConsulenteEIntervallo(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;Ä
-trovaPerId(Ljava/lang/String;)^engclasses.dao.memory.AppuntamentoDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Appuntamento;Õ
+ctrovaPerConsulenteEIntervallo(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)üengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerConsulenteEIntervallo(Ljava/lang/String;Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;Õ
 FtrovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Çengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;é
-'trovaPerStato(Lmisc/StatoAppuntamento;)cengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;X
-trovaTutti()Hengclasses.dao.memory.AppuntamentoDAOMemory#trovaTutti()Ljava/util/List;T
+'trovaPerStato(Lmisc/StatoAppuntamento;)cengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerStato(Lmisc/StatoAppuntamento;)Ljava/util/List;T
 java.util.Dictionaryjava.lang.Object*
 <init>()java.util.Dictionary#<init>()Võ#
 java.util.Hashtablejava.io.Serializablejava.lang.Cloneablejava.util.Dictionaryjava.util.Map)
@@ -3374,17 +3413,13 @@ HgetConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)tjava.
 initialize()?controllers.grafico.gui.CreaAnnuncioGUIController#initialize()Vw
  mostraErrore(Ljava/lang/String;)Scontrollers.grafico.gui.CreaAnnuncioGUIController#mostraErrore(Ljava/lang/String;)Vs
 mostraInfo(Ljava/lang/String;)Qcontrollers.grafico.gui.CreaAnnuncioGUIController#mostraInfo(Ljava/lang/String;)VU
-tornaIndietro()Bcontrollers.grafico.gui.CreaAnnuncioGUIController#tornaIndietro()Vƒ
-'engclasses.dao.memory.AnnuncioDAOMemoryengclasses.dao.api.AnnuncioDAOjava.lang.Object=
-<init>()1engclasses.dao.memory.AnnuncioDAOMemory#<init>()V;
-clear()0engclasses.dao.memory.AnnuncioDAOMemory#clear()Vc
-elimina(Ljava/lang/String;)Dengclasses.dao.memory.AnnuncioDAOMemory#elimina(Ljava/lang/String;)Z[
-salva(Lmodel/Annuncio;)@engclasses.dao.memory.AnnuncioDAOMemory#salva(Lmodel/Annuncio;)ZV
+tornaIndietro()Bcontrollers.grafico.gui.CreaAnnuncioGUIController#tornaIndietro()VÙ
+'engclasses.dao.memory.AnnuncioDAOMemoryengclasses.dao.api.AnnuncioDAO!engclasses.dao.memory.InMemoryDAO=
+<init>()1engclasses.dao.memory.AnnuncioDAOMemory#<init>()Vl
+getId(Lmodel/Annuncio;)Qengclasses.dao.memory.AnnuncioDAOMemory#getId(Lmodel/Annuncio;)Ljava/lang/String;V
 trovaAttivi()Eengclasses.dao.memory.AnnuncioDAOMemory#trovaAttivi()Ljava/util/List;Ä
 "trovaPerAutore(Ljava/lang/String;)Zengclasses.dao.memory.AnnuncioDAOMemory#trovaPerAutore(Ljava/lang/String;)Ljava/util/List;~
-!trovaPerCitta(Ljava/lang/String;)Yengclasses.dao.memory.AnnuncioDAOMemory#trovaPerCitta(Ljava/lang/String;)Ljava/util/List;x
-trovaPerId(Ljava/lang/String;)Vengclasses.dao.memory.AnnuncioDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Annuncio;T
-trovaTutti()Dengclasses.dao.memory.AnnuncioDAOMemory#trovaTutti()Ljava/util/List;Ú
+!trovaPerCitta(Ljava/lang/String;)Yengclasses.dao.memory.AnnuncioDAOMemory#trovaPerCitta(Ljava/lang/String;)Ljava/util/List;Ú
 java.awt.Desktopjava.lang.Object&
 <init>()java.awt.Desktop#<init>()Vå
 ;addAppEventListener(Ljava/awt/desktop/SystemEventListener;)Mjava.awt.Desktop#addAppEventListener(Ljava/awt/desktop/SystemEventListener;)VB
@@ -3505,18 +3540,14 @@ toUpper(C)java.net.URI#toUpper(C)IÇ
 )writeObject(Ljava/io/ObjectOutputStream;)7java.net.URI#writeObject(Ljava/io/ObjectOutputStream;)Vª
 +engclasses.exceptions.AppuntamentoExceptionjava.lang.Exceptione
 <init>(Ljava/lang/String;)Gengclasses.exceptions.AppuntamentoException#<init>(Ljava/lang/String;)Vè
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)\engclasses.exceptions.AppuntamentoException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vœ
-
-&engclasses.dao.memory.OffertaDAOMemoryengclasses.dao.api.OffertaDAOjava.lang.Object<
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)\engclasses.exceptions.AppuntamentoException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VŸ
+&engclasses.dao.memory.OffertaDAOMemoryengclasses.dao.api.OffertaDAO!engclasses.dao.memory.InMemoryDAO<
 <init>()0engclasses.dao.memory.OffertaDAOMemory#<init>()Ví
-3aggiornaStato(Ljava/lang/String;Ljava/lang/String;)[engclasses.dao.memory.OffertaDAOMemory#aggiornaStato(Ljava/lang/String;Ljava/lang/String;)Z:
-clear()/engclasses.dao.memory.OffertaDAOMemory#clear()Vb
-elimina(Ljava/lang/String;)Cengclasses.dao.memory.OffertaDAOMemory#elimina(Ljava/lang/String;)ZX
-salva(Lmodel/Offerta;)>engclasses.dao.memory.OffertaDAOMemory#salva(Lmodel/Offerta;)Z°
+3aggiornaStato(Ljava/lang/String;Ljava/lang/String;)[engclasses.dao.memory.OffertaDAOMemory#aggiornaStato(Ljava/lang/String;Ljava/lang/String;)Zi
+getId(Lmodel/Offerta;)Oengclasses.dao.memory.OffertaDAOMemory#getId(Lmodel/Offerta;)Ljava/lang/String;°
 3trovaOffertePendingPerVenditore(Ljava/lang/String;)jengclasses.dao.memory.OffertaDAOMemory#trovaOffertePendingPerVenditore(Ljava/lang/String;)Ljava/util/List;ß
 6trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)mengclasses.dao.memory.OffertaDAOMemory#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;É
-$trovaPerAnnuncio(Ljava/lang/String;)[engclasses.dao.memory.OffertaDAOMemory#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;v
-trovaPerId(Ljava/lang/String;)Tengclasses.dao.memory.OffertaDAOMemory#trovaPerId(Ljava/lang/String;)Lmodel/Offerta;Ö
+$trovaPerAnnuncio(Ljava/lang/String;)[engclasses.dao.memory.OffertaDAOMemory#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;Ö
 %trovaPerVenditore(Ljava/lang/String;)\engclasses.dao.memory.OffertaDAOMemory#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;S
 trovaTutte()Cengclasses.dao.memory.OffertaDAOMemory#trovaTutte()Ljava/util/List;É
 
@@ -3532,26 +3563,7 @@ $aggiornaEvento(Lmodel/Appuntamento;)Oengclasses.services.GoogleCalendarAdapter
 @onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)kengclasses.services.GoogleCalendarAdapter#onAppuntamentoModificato(Lmodel/Appuntamento;Ljava/lang/String;)V=
 reset()2engclasses.services.GoogleCalendarAdapter#reset()VN
 misc.CSSConstantsjava.lang.Object'
-<init>()misc.CSSConstants#<init>()V€
-java.sql.Datejava.util.Date)
-<init>(III)java.sql.Date#<init>(III)V%
-	<init>(J)java.sql.Date#<init>(J)VA
-formatDecimalInt(I[CII)&java.sql.Date#formatDecimalInt(I[CII)V'
-
-getHours()java.sql.Date#getHours()I+
-getMinutes()java.sql.Date#getMinutes()I+
-getSeconds()java.sql.Date#getSeconds()I)
-setHours(I)java.sql.Date#setHours(I)V-
-setMinutes(I)java.sql.Date#setMinutes(I)V-
-setSeconds(I)java.sql.Date#setSeconds(I)V'
-
-setTime(J)java.sql.Date#setTime(J)V;
-toInstant(),java.sql.Date#toInstant()Ljava/time/Instant;A
-toLocalDate()0java.sql.Date#toLocalDate()Ljava/time/LocalDate;8
-
-toString()*java.sql.Date#toString()Ljava/lang/String;W
-valueOf(Ljava/lang/String;)8java.sql.Date#valueOf(Ljava/lang/String;)Ljava/sql/Date;]
-valueOf(Ljava/time/LocalDate;);java.sql.Date#valueOf(Ljava/time/LocalDate;)Ljava/sql/Date;Z
+<init>()misc.CSSConstants#<init>()VZ
 misc.EventoAppuntamentojava.lang.Object-
 <init>()!misc.EventoAppuntamento#<init>()VÙ
 test.TestPrenotazionejava.lang.Object+
@@ -3584,7 +3596,10 @@ $getUtenteDAO(Lmisc/PersistenceType;)bengclasses.dao.UtenteDAOFactory#getUtente
 misc.ViewTypejava.lang.EnumI
 <init>(Ljava/lang/String;I)*misc.ViewType#<init>(Ljava/lang/String;I)VW
 valueOf(Ljava/lang/String;)8misc.ViewType#valueOf(Ljava/lang/String;)Lmisc/ViewType;2
-values()&misc.ViewType#values()[Lmisc/ViewType;Ó
+values()&misc.ViewType#values()[Lmisc/ViewType;˛
+engclasses.dao.AbstractDAOjava.lang.Object0
+<init>()$engclasses.dao.AbstractDAO#<init>()Võ
+6filtra(Ljava/util/List;Ljava/util/function/Predicate;)aengclasses.dao.AbstractDAO#filtra(Ljava/util/List;Ljava/util/function/Predicate;)Ljava/util/List;Ó
 #javafx.scene.control.SelectionModeljava.lang.Object9
 <init>()-javafx.scene.control.SelectionModel#<init>()VM
 getSelectedIndex()7javafx.scene.control.SelectionModel#getSelectedIndex()I\

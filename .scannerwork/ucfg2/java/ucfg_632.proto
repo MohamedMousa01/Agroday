@@ -1,38 +1,37 @@
 
-?view.cli.RegistrazioneCLIView#chiediCognome()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java" "("1*å
-1# #(Q
-O
-# #(
-%0java.io.PrintStream"__id*"
+=__sonar_lambda_46$engclasses.dao.memory.AppuntamentoDAOMemoryj
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java5  5(?"startingBlock*½
+startingBlock5  5(?œ
+™
 
-__unknown_file (
-""ÈÅ
-# #(%
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+__unknown_file (
+statomisc.StatoAppuntamento"__id*V
 
-__unknown_file (
-
-%0java.io.PrintStream*)
-
-__unknown_file (
-	Cognome: 2print(Ljava/lang/String;)w
-u
-$ $(
-%2java.util.Scanner"__id*J
-
-__unknown_file (.*,
-view.cli.RegistrazioneCLIView"	
-scanner˜•
-$ $(!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+__unknown_file (:*8-
++engclasses.dao.memory.AppuntamentoDAOMemory"
+stato*
+1*´
+15% 5(*¥¢
+52 5(>
+%4misc.StatoAppuntamento"5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;*5
 
 __unknown_file (
 
-%2java.util.Scanner2
-nextLine()"$
-$ $("
-
-%3java.lang.StringB!
-view.cli.RegistrazioneCLIViewH
+amodel.Appuntamento2
+getStato()ßÜ
+5% 5(?
+%5boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*=
+
+__unknown_file (!
+
+statomisc.StatoAppuntamento*:
+
+__unknown_file (
+
+%4misc.StatoAppuntamento2equals(Ljava/lang/Object;)"
+5% 5(?
+
+%5boolean:#
+5  5(!
+amodel.AppuntamentoB 
+java.util.function.Predicate

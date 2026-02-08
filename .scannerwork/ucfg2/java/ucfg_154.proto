@@ -1,39 +1,21 @@
 
-9__sonar_lambda_9$engclasses.dao.filesystem.OffertaDAOFileg
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaK K(A"startingBlock*æ
-startingBlockK K(Aù
-ö
-
-__unknown_file (
-
-idAnnunciojava.lang.String"__id*X
-
-__unknown_file (<*:*
-(engclasses.dao.filesystem.OffertaDAOFile"
-
-idAnnuncio*
-1*£
-1K K('ôñ
-K/ K(@
-%4java.lang.String"/model.Offerta#getIdAnnuncio()Ljava/lang/String;*0
-
-__unknown_file (
-
-omodel.Offerta2getIdAnnuncio()⁄◊
-K K(A
-%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
-
-__unknown_file ( 
-
-
-idAnnunciojava.lang.String*4
-
-__unknown_file (
-
-%4java.lang.String2equals(Ljava/lang/Object;)"
-K K(A
-
-%5boolean:
-K K(
-omodel.OffertaB 
-java.util.function.Predicate
+'view.cli.MainVenditoreCLIView#<init>()V
+__unknown_file ("startingBlock*ß
+startingBlockZ
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java
+ 
+(∆
+√
+Z
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java
+ 
+(
+%0"0view.cli.MainVenditoreCLIView#%field_initializer*-
+ (!
+view.cli.MainVenditoreCLIView"q
+Z
+R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java
+ 
+(
+implicit returnB!
+view.cli.MainVenditoreCLIView

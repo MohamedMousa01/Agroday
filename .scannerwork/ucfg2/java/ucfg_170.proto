@@ -1,57 +1,39 @@
 
-Tmodel.observer.NotificationService#getInstance()Lmodel/observer/NotificationService;a
-W/Users/mohamedmousa/Desktop/prova/src/main/java/model/observer/NotificationService.java& (1"3*å
-2 (0ZX
- (.(
-%2"model.observer.NotificationService""model.observer.NotificationServiceâ
-Ü
- (0
-%3",model.observer.NotificationService#<init>()V*F
+oengclasses.dao.filesystem.OffertaDAOFile#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javam m(;"startingBlock*§
+startingBlockm; m(Wö
+ó
+l l(
+%2"
+__annotate*2
 
-__unknown_file (*
-(
-%2"model.observer.NotificationServiceè
-å
- (02$
-"model.observer.NotificationService"
-
-instance"__id*F
+__unknown_file (
+java.lang.Override*E
 
-__unknown_file (*
-(
-%2"model.observer.NotificationService*
-1*±
-3 (è
-å
- ((
-%0"model.observer.NotificationService"__id*P
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.Stringg
+e
+mC m(V'
+usernameAgricoltorejava.lang.String"__annotation*"
 
-__unknown_file (4*2$
-"model.observer.NotificationService"
-
-instanceá
-Ñ
- (
-%1boolean"	__compare*
- (
-==*6
- (*
-(
-%0"model.observer.NotificationService*
- (
-""*
-2
-1*◊
-1 (è
-å
- ((
-%4"model.observer.NotificationService"__id*P
+__unknown_file (
+
+%2*
+1*‡
+1q q( <:
+q q(
+%0java.util.ArrayList"java.util.ArrayListj
+h
+q q( 
+%1"java.util.ArrayList#<init>()V*7
 
-__unknown_file (4*2$
-"model.observer.NotificationService"
-
-instance"6
- (*
-(
-%4"model.observer.NotificationServiceB&"$
-"model.observer.NotificationServiceH
+__unknown_file (
+
+%0java.util.ArrayList"'
+q q(!
+
+%0java.util.ArrayList:3
+m< m(V'
+usernameAgricoltorejava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileH

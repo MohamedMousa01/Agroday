@@ -1,76 +1,91 @@
 
-_controllers.grafico.cli.RegistrazioneCLIController#determinaPersistenza()Lmisc/PersistenceType;q
-g/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/RegistrazioneCLIController.javaK K(0"2*Û
-2L L(–
-“
-L L(#
-%0view.cli.RegistrazioneCLIView"__id*\
+lengclasses.dao.filesystem.OffertaDAOFile#trovaOffertePendingPerVenditore(Ljava/lang/String;)Ljava/util/List;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaW W(8"startingBlock*¢
+startingBlockW8 W(R™
+–
+V V(
+%10"
+__annotate*2
 
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view¤¡
-L L(-	
-%1int"2view.cli.RegistrazioneCLIView#chiediPersistenza()I*A
+__unknown_file (
+java.lang.Override*C
 
-__unknown_file (%
-#
-%0view.cli.RegistrazioneCLIView2chiediPersistenza()*
-3
-4
-5
-6*’
-3R U(–
-“
-S S(#
-%5view.cli.RegistrazioneCLIView"__id*\
+__unknown_file ('
+%
+usernameVenditorejava.lang.Stringf
+d
+W@ W(Q%
+usernameVenditorejava.lang.String"__annotation*#
 
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view
-S S(Q
-
-%6void"Bview.cli.RegistrazioneCLIView#mostraMessaggio(Ljava/lang/String;)V*A
+__unknown_file (
+
+%10*
+1*·
+1X X(~
+|
+X X(
+%0java.util.Map"__id*U
 
-__unknown_file (%
-#
-%5view.cli.RegistrazioneCLIView*I
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerte”‘
+X X(
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
 
-__unknown_file (-+
-)Scelta non valida, uso MEMORY di default.2#mostraMessaggio(Ljava/lang/String;)R
-P
-T T(,
-%7misc.PersistenceType"__id*"
+__unknown_file (
+
+%0java.util.Map2values()¨¥
+X X((
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
 
-__unknown_file (
-""*
-1*f
-4Q Q()R
-P
-Q Q((
-%4misc.PersistenceType"__id*"
+__unknown_file (
+
+%1java.util.Collection2stream() 
+
+Y Y(`"
+%3java.util.function.Predicate"__declareFunction*Z
 
-__unknown_file (
-""*
-1*f
-5P P(+R
-P
-P P(*
-%3misc.PersistenceType"__id*"
+__unknown_file (><
+:__sonar_lambda_11$engclasses.dao.filesystem.OffertaDAOFile£
+ 
 
-__unknown_file (
-""*
-1*f
-6O O(-R
-P
-O O(,
-%2misc.PersistenceType"__id*"
+__unknown_file (9
+"
+%3java.util.function.Predicate"
+usernameVenditore"__id*C
 
-__unknown_file (
-""*
-1*!
-1N V(
-"
-N V(
-
-""B64
-2controllers.grafico.cli.RegistrazioneCLIController
+__unknown_file ('
+%
+usernameVenditorejava.lang.String¬©
+X Y(a
+%7java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)®
+«
+Z Z(, 
+%8java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
+
+__unknown_file ("
+java.util.stream.Collectors˜•
+X Z(-
+%9java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%7java.util.stream.Stream*>
+
+__unknown_file ("
+ 
+%8java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
+X Z(.
+
+%9java.util.List:1
+W9 W(Q%
+usernameVenditorejava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileH

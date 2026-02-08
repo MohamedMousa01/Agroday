@@ -1,18 +1,18 @@
 
-Mengclasses.beans.AppuntamentoBean#getDataCreazione()Ljava/time/LocalDateTime;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java» »()"1*À
+Jengclasses.beans.AppuntamentoBean#getCognomeConsulente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaÄ Ä(&"1*¡
 1
-… …(ä
-á
+Å Å( á
+Ñ
 
-… …(
-%0java.time.LocalDateTime"__id*T
+Å Å( 
+%0java.lang.String"__id*X
 
-__unknown_file (8*6#
-!engclasses.beans.AppuntamentoBean"
-dataCreazione"-
+__unknown_file (<*:#
+!engclasses.beans.AppuntamentoBean"
+cognomeConsulente"&
 
-… …(
-
-%0java.time.LocalDateTimeB%#
+Å Å(!
+
+%0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

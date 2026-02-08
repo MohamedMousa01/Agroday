@@ -1,18 +1,18 @@
 
-@engclasses.beans.AppuntamentoBean#getData()Ljava/time/LocalDate;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaò ò("1*∏
+Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java– –(#"1*æ
 1
-ô ô(|
-z
+— —(Ñ
+Å
 
-ô ô(
-%0java.time.LocalDate"__id*K
+— —(
+%0java.lang.String"__id*U
 
-__unknown_file (/*-#
-!engclasses.beans.AppuntamentoBean"
-data")
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+idAppuntamento"&
 
-ô ô(
-
-%0java.time.LocalDateB%#
+— —(
+
+%0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

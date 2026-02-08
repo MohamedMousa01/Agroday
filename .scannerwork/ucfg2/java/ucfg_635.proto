@@ -1,39 +1,124 @@
 
-@view.cli.RegistrazioneCLIView#chiediPassword()Ljava/lang/String;\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/RegistrazioneCLIView.java1 1( "1*Ê
-12 2(Q
-O
-2 2(
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""…∆
-2 2(&
-
-%1void".java.io.PrintStream#print(Ljava/lang/String;)V*7
+Çengclasses.dao.memory.AppuntamentoDAOMemory#trovaPerIntervallo(Ljava/time/LocalDateTime;Ljava/time/LocalDateTime;)Ljava/util/List;j
+`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java9 9(0"startingBlock*‡
+2; ;($<:
+; ;("
+%2java.util.ArrayList"java.util.ArrayListj
+h
+; ;($
+%3"java.util.ArrayList#<init>()V*7
 
 __unknown_file (
 
-%0java.io.PrintStream**
+%2java.util.ArrayList"'
+; ;(%
+
+%2java.util.ArrayList*ë
+3: :(z
+x
+: :(#
+%1boolean"	__compare*
+: :(
+==**
+: :(
+
+ajava.time.LocalDateTime*
+: :(#
+""*
+2
+1*Ñ
+startingBlock90 9(Së
+é
+8 8(
+%10"
+__annotate*2
 
-__unknown_file (
-
-Password: 2print(Ljava/lang/String;)w
-u
-3 3(
-%2java.util.Scanner"__id*J
+__unknown_file (
+java.lang.Override*;
 
-__unknown_file (.*,
-view.cli.RegistrazioneCLIView"	
-scanneròï
-3 3(!
-%3java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*5
+__unknown_file (
+
+dajava.time.LocalDateTime^
+\
+9? 9(A
+dajava.time.LocalDateTime"__annotation*#
 
-__unknown_file (
-
-%2java.util.Scanner2
-nextLine()"$
-3 3("
-
-%3java.lang.StringB!
-view.cli.RegistrazioneCLIViewH
+__unknown_file (
+
+%10ê
+ç
+8 8(
+%11"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+ajava.time.LocalDateTime]
+[
+9Q 9(R
+ajava.time.LocalDateTime"__annotation*#
+
+__unknown_file (
+
+%11*
+4*í
+4: :({
+y
+: :(
+%0boolean"	__compare*
+: :(
+==*+
+: :(
+
+dajava.time.LocalDateTime*
+: :(
+""*
+2
+3*æ
+1= =(£
+†
+=  =(q"
+%4java.util.function.Predicate"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_47$engclasses.dao.memory.AppuntamentoDAOMemoryå
+â
+
+__unknown_file (*
+"
+%4java.util.function.Predicate"
+da"__id*;
+
+__unknown_file (
+
+dajava.time.LocalDateTimeä
+á
+
+__unknown_file ()
+"
+%4java.util.function.Predicate"
+a"__id*:
+
+__unknown_file (
+
+ajava.time.LocalDateTime»≈
+= =(r
+%9java.util.List"bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;*K
+
+__unknown_file (/-
++engclasses.dao.memory.AppuntamentoDAOMemory*@
+
+__unknown_file ($
+"
+%4java.util.function.Predicate20trovaPerCriterio(Ljava/util/function/Predicate;)""
+= =(s
+
+%9java.util.List:)
+91 9(B
+dajava.time.LocalDateTime:(
+9C 9(R
+ajava.time.LocalDateTimeB/-
++engclasses.dao.memory.AppuntamentoDAOMemoryH

@@ -1,21 +1,55 @@
 
-Ycontrollers.applicativo.AppuntamentoController#getConsulentiDisponibili()Ljava/util/List;o
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java¿ ¿(0"1*è
-1
-Â Â( ><
-
-Â Â(
-%0java.util.ArrayList"java.util.ArrayListl
-j
-
-Â Â( 
-%1"java.util.ArrayList#<init>()V*7
+\engclasses.dao.memory.OffertaDAOMemory#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;e
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java (*"startingBlock* 
+startingBlock* (D˜
+•
+ (
+%4"
+__annotate*2
 
-__unknown_file (
-
-%0java.util.ArrayList")
-
-Â Â(!
-
-%0java.util.ArrayListB20
-.controllers.applicativo.AppuntamentoControllerH
+__unknown_file (
+java.lang.Override*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.Stringe
+c
+2 (C%
+usernameVenditorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*¾
+1 (ž
+›
+  (W"
+%0java.util.function.Predicate"__declareFunction*X
+
+__unknown_file (<:
+8__sonar_lambda_68$engclasses.dao.memory.OffertaDAOMemory£
+ 
+
+__unknown_file (9
+"
+%0java.util.function.Predicate"
+usernameVenditore"__id*C
+
+__unknown_file ('
+%
+usernameVenditorejava.lang.StringÃÀ
+ (X
+%3java.util.List"bengclasses.dao.memory.InMemoryDAO#trovaPerCriterio(Ljava/util/function/Predicate;)Ljava/util/List;*F
+
+__unknown_file (*(
+&engclasses.dao.memory.OffertaDAOMemory*@
+
+__unknown_file ($
+"
+%0java.util.function.Predicate20trovaPerCriterio(Ljava/util/function/Predicate;)""
+ (Y
+
+%3java.util.List:1
++ (C%
+usernameVenditorejava.lang.StringB*(
+&engclasses.dao.memory.OffertaDAOMemoryH

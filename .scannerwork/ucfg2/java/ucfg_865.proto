@@ -1,113 +1,120 @@
 
-Mengclasses.services.GoogleCalendarAdapter#cancellaEvento(Ljava/lang/String;)Zh
-^/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/services/GoogleCalendarAdapter.javay y(!"startingBlock*e
+Wcontrollers.applicativo.PartecipazioneController#getQuantitaTotale(Ljava/lang/String;)Io
+e/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/PartecipazioneController.javax x( "7*â
 2
-Ä Ä(>
-<
+Ç Ç(S
+Q
 
-Ä Ä(
-%4"__id*"
+Ç Ç(
+pmodel.Partecipazione"__id*"
 
 __unknown_file (
-"""
+""ö
+ó
 
-Å Å(
-""*˚
-3  (,Ö
-Ç
-  (,
-%2java.util.Map"__id*[
+Ç Ç(
+pmodel.Partecipazione"
+__arrayGet*>
 
-__unknown_file (?*=+
-)engclasses.services.GoogleCalendarAdapter"
-eventiCreati€ÿ
-  (A
-%3boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*1
+__unknown_file ("
+ 
+partecipazionijava.util.List*"
 
-__unknown_file (
-
-%2java.util.Map*9
-
-__unknown_file (
-
-eventIdjava.lang.String2containsKey(Ljava/lang/Object;)*
-2
-1*è
-startingBlocky! y(1é
-ã
-x x(
-%8"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*9
-
-__unknown_file (
-
-eventIdjava.lang.String[
-Y
-y) y(0
-eventIdjava.lang.String"__annotation*"
-
-__unknown_file (
-
-%8*
-4
-5*ê
-4 (y
-w
- (
-%1boolean"	__compare*
- (
-==*)
- (
-
-eventIdjava.lang.String*
- (
+__unknown_file (
 ""*
-2
-3*_
-5{ {(<
-:
-{ {(
-%0"__id*"
+3
+1*∞
+3
+É É(ôñ
+
+É É(.	
+%6int",model.Partecipazione#getQuantitaRichiesta()I*7
 
-__unknown_file (
-"""
-| |(
-""*î
+__unknown_file (
+
+pmodel.Partecipazione2getQuantitaRichiesta()*
+2*Ô
+5~. ~(?®
+•
+~. ~(?*
+%3$engclasses.dao.api.PartecipazioneDAO"__id*g
+
+__unknown_file (K*I2
+0controllers.applicativo.PartecipazioneController"
+partecipazioneDAO¨©
+~. ~(\
+%4java.util.List"Yengclasses.dao.api.PartecipazioneDAO#trovaPerAnnuncio(Ljava/lang/String;)Ljava/util/List;*H
+
+__unknown_file (,
+*
+%3$engclasses.dao.api.PartecipazioneDAO*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String2$trovaPerAnnuncio(Ljava/lang/String;)h
+f
+~ ~(] 
+partecipazionijava.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.Listñì
+
+Å Å(5	
+%5int"'model.Annuncio#getQuantitaDesiderata()I*8
+
+__unknown_file (
+
+annunciomodel.Annuncio2getQuantitaDesiderata()*
+2*!
+6{ {("
+{ {(
+""*©
+7y y('ú
+ô
+y y('$
+%0engclasses.dao.api.AnnuncioDAO"__id*a
+
+__unknown_file (E*C2
+0controllers.applicativo.PartecipazioneController"
+annuncioDAOîë
+y y(>
+%1model.Annuncio"Mengclasses.dao.api.AnnuncioDAO#trovaPerId(Ljava/lang/String;)Lmodel/Annuncio;*B
+
+__unknown_file (&
+$
+%0engclasses.dao.api.AnnuncioDAO*<
+
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String2trovaPerId(Ljava/lang/String;)b
+`
+y y(?
+annunciomodel.Annuncio"__id*2
+
+__unknown_file (
+
+%1model.Annunciox
+v
+z z(
+%2boolean"	__compare*
+z z(
+==*(
+z z(
+
+annunciomodel.Annuncio*
+z z(
+""*
+5
+6*%
 1
-Ñ Ñ(>
-<
+Ü Ü("
 
-Ñ Ñ(
-%5"__id*"
-
-__unknown_file (
-""á
-Ñ
+Ü Ü(
+"":*
+x! x(2
 
-Ö Ö(
-%6java.util.Map"__id*[
-
-__unknown_file (?*=+
-)engclasses.services.GoogleCalendarAdapter"
-eventiCreati¢
-ü
-
-Ö Ö($
-%7java.lang.String"__mapRemove*1
-
-__unknown_file (
-
-%6java.util.Map*9
-
-__unknown_file (
-
-eventIdjava.lang.String"
-
-á á(
-"":'
-y" y(0
-eventIdjava.lang.StringB-+
-)engclasses.services.GoogleCalendarAdapterHX
+idAnnunciojava.lang.StringB42
+0controllers.applicativo.PartecipazioneControllerHX

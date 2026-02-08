@@ -1,36 +1,28 @@
 
-=__sonar_lambda_45$engclasses.dao.memory.AppuntamentoDAOMemoryj
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.javaK K(E"startingBlock*Å
-startingBlockK K(E¤
-¡
-
-__unknown_file ( 
-idConsulentejava.lang.String"__id*]
-
-__unknown_file (A*?-
-+engclasses.dao.memory.AppuntamentoDAOMemory"
-idConsulente*
-1*³
-1K K()§¤
-K1 K(D
-%7java.lang.String"6model.Appuntamento#getIdConsulente()Ljava/lang/String;*5
-
-__unknown_file (
+*view.cli.ProfiloCLIView#%field_initializer
+__unknown_file ("1*ˆ
+1 (‡„
+V
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java( (/
+%0java.util.Scanner"java.util.ScannerÎ
+Ë
+V
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java$ (:
+%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
+ (
 
-amodel.Appuntamento2getIdConsulente()ÜÙ
-K K(E
-%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*>
-
-__unknown_file ("
- 
-idConsulentejava.lang.String*4
-
-__unknown_file (
-
-%7java.lang.String2equals(Ljava/lang/Object;)"
-K K(E
-
-%8boolean:#
-K K(
-amodel.AppuntamentoB 
-java.util.function.Predicate
+%0java.util.Scanner*
+ (
+""°
+­
+V
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java (;&
+view.cli.ProfiloCLIView"	
+scanner"__id*%
+ (
+
+%0java.util.Scanner"k
+T
+L/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/ProfiloCLIView.java u(
+implicit returnB
+view.cli.ProfiloCLIView

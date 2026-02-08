@@ -1,17 +1,63 @@
 
-^model.Appuntamento$Builder#motivoCancellazione(Ljava/lang/String;)Lmodel/Appuntamento$Builder;Q
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java\ \(*"1*Í
-1]' ](:‘
-Ž
-] ](:5
-model.Appuntamento$Builder"
-motivoCancellazione"__id*E
+eengclasses.dao.db.OffertaDAODB#trovaOfferteRicevutePerAgricoltore(Ljava/lang/String;)Ljava/util/List;_
+S/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/OffertaDAODB.java­ ­(;"startingBlock*ª
+startingBlock
+­; ­(Wœ
+™
+
+¬ ¬(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*E
 
 __unknown_file ()
 '
-motivoCancellazionejava.lang.String"*
-^ ^(
-model.Appuntamento$Builder:3
-\+ \(E'
-motivoCancellazionejava.lang.StringB
-model.Appuntamento$BuilderH
+usernameAgricoltorejava.lang.Stringi
+g
+
+­C ­(V'
+usernameAgricoltorejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*
+1
+® ´(ˆ
+…
+
+® ´(
+sqljava.lang.String"__id*×
+
+__unknown_file (º·
+´SELECT o.*
+FROM offerte o
+JOIN annunci a ON o.id_annuncio COLLATE utf8mb4_unicode_ci = a.idAnnuncio COLLATE utf8mb4_unicode_ci
+WHERE a.nome_autore = ?
+ORDER BY o.data_offerta DESC
+Ê
+Ç
+
+µ µ(9
+%0java.util.List"eengclasses.dao.db.OffertaDAODB#eseguiQueryLista(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*>
+
+__unknown_file (" 
+engclasses.dao.db.OffertaDAODB*5
+
+__unknown_file (
+
+sqljava.lang.String*E
+
+__unknown_file ()
+'
+usernameAgricoltorejava.lang.String"$
+
+µ µ(:
+
+%0java.util.List:5
+
+­< ­(V'
+usernameAgricoltorejava.lang.StringB" 
+engclasses.dao.db.OffertaDAODBH

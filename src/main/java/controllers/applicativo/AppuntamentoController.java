@@ -49,7 +49,6 @@ public class AppuntamentoController {
         this.notificationService = NotificationService.getInstance();
     }
 
-    // ==================== Prenotazione Appuntamento ====================
 
     /**
      * Prenota un nuovo appuntamento.
@@ -121,7 +120,6 @@ public class AppuntamentoController {
         return convertiInBean(appuntamento);
     }
 
-    // ==================== Cancellazione Appuntamento ====================
 
     /**
      * Cancella un appuntamento da parte del cliente.
@@ -174,7 +172,6 @@ public class AppuntamentoController {
         return appuntamentoDAO.aggiorna(appuntamento);
     }
 
-    // ==================== Modifica Appuntamento ====================
 
     /**
      * Modifica un appuntamento esistente.
@@ -236,7 +233,6 @@ public class AppuntamentoController {
         return convertiInBean(appuntamento);
     }
 
-    // ==================== Conferma Appuntamento ====================
 
     /**
      * Conferma un appuntamento.
@@ -261,7 +257,6 @@ public class AppuntamentoController {
         return appuntamentoDAO.aggiorna(appuntamento);
     }
 
-    // ==================== Ricerca Appuntamenti ====================
 
     /**
      * Ottiene tutti gli appuntamenti dell'utente corrente.
@@ -322,7 +317,6 @@ public class AppuntamentoController {
         return new ArrayList<>();
     }
 
-    // ==================== Preparazione Consulenza ====================
 
     /**
      * Prepara la consulenza e restituisce le istruzioni.
@@ -350,7 +344,6 @@ public class AppuntamentoController {
         };
     }
 
-    // ==================== Metodi di Validazione ====================
 
     /**
      * Valida i campi del form di prenotazione.
@@ -504,7 +497,6 @@ public class AppuntamentoController {
         }
     }
 
-    // ==================== Metodi di Conversione ====================
 
     private AppuntamentoBean convertiInBean(Appuntamento appuntamento) {
         AppuntamentoBean bean = new AppuntamentoBean();

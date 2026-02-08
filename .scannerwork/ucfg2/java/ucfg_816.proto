@@ -1,16 +1,88 @@
 
-,model.Utente#getIdUtente()Ljava/lang/String;K
-A/Users/mohamedmousa/Desktop/prova/src/main/java/model/Utente.javaG G("1*õ
-1H H(f
-d
-H H(
-%0java.lang.String"__id*:
-
-__unknown_file (*
-model.Utente"
+|controllers.applicativo.AppuntamentoController#validaDatiAppuntamento(Lengclasses/beans/AppuntamentoBean;)Ljava/lang/String;o
+c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.javaΩ Ω()"1*ü
+1
+æ æ(2FD
 
-idUtente"$
-H H(
+æ# æ(0
+%0java.lang.StringBuilder"java.lang.StringBuildert
+r
+
+æ æ(2
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuildert
+r
+
+æ æ(3!
+errorijava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderà
+Ö
+
+¿ ¿(8
+
+%2void"êcontrollers.applicativo.AppuntamentoController#validaCampiObbligatoriAppuntamento(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder˘
+ˆ
+
+¡ ¡()
+
+%3void"Åcontrollers.applicativo.AppuntamentoController#validaCoerenzaOrari(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder˝
+˙
+
+¬ ¬(-
+
+%4void"Öcontrollers.applicativo.AppuntamentoController#validaLuogoAppuntamento(Lengclasses/beans/AppuntamentoBean;Ljava/lang/StringBuilder;)V*N
+
+__unknown_file (20
+.controllers.applicativo.AppuntamentoController*G
+
+__unknown_file (+
+)
+bean!engclasses.beans.AppuntamentoBean*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder™ß
+
+ƒ ƒ( 
+%5java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*?
+
+__unknown_file (#
+!
+errorijava.lang.StringBuilder2
+toString()"&
+
+ƒ ƒ(!
 
-%0java.lang.StringB
-model.UtenteH
+%5java.lang.String:7
+
+Ω* Ω(?)
+bean!engclasses.beans.AppuntamentoBeanB20
+.controllers.applicativo.AppuntamentoController

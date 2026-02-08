@@ -1,106 +1,105 @@
 
-_engclasses.dao.memory.AppuntamentoDAOMemory#trovaPerCliente(Ljava/lang/String;)Ljava/util/List;j
-`/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/AppuntamentoDAOMemory.java< <(-"startingBlock*‡
-2> >($<:
-> >("
-%1java.util.ArrayList"java.util.ArrayListj
-h
-> >($
-%2"java.util.ArrayList#<init>()V*7
+jengclasses.dao.db.PartecipazioneDAODB#mappaRigaAPartecipazione(Ljava/sql/ResultSet;)Lmodel/Partecipazione;f
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/db/PartecipazioneDAODB.javaø ø(3"1*é
+1
+¿" ¿($ıÚ
+
+¿" ¿(C
+%0java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
 
-__unknown_file (
-
-%1java.util.ArrayList"'
-> >(%
-
-%1java.util.ArrayList*í
-3= =({
-y
-= =(
-%0boolean"	__compare*
-= =(
-==*+
-= =(
-
-	idClientejava.lang.String*
-= =(
-""*
-2
-1*í
-startingBlock<- <(?ë
-é
-; ;(
-%11"
-__annotate*2
+__unknown_file (
+
+rsjava.sql.ResultSet*1
+
+__unknown_file (
+id_partecipazione2getString(Ljava/lang/String;)p
+n
+
+¿ ¿(D$
+idPartecipazionejava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.StringÔÏ
+
+¡ ¡(7
+%1java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*+
+
+__unknown_file (
+id_annuncio2getString(Ljava/lang/String;)j
+h
+
+¡ ¡(8
+
+idAnnunciojava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.StringÚÔ
+
+¬ ¬(=
+%2java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*.
+
+__unknown_file (
+id_agricoltore2getString(Ljava/lang/String;)m
+k
+
+¬ ¬(>!
+idAgricoltorejava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String“œ
+
+√  √(?	
+%3int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*6
+
+__unknown_file (
+
+rsjava.sql.ResultSet*2
 
 __unknown_file (
-java.lang.Override*;
-
-__unknown_file (
-
-	idClientejava.lang.String^
-\
-<5 <(>
-	idClientejava.lang.String"__annotation*#
-
-__unknown_file (
-
-%11*
-3*Ã	
-1@ @(K
-I
-@ @(
-%3java.util.Map"__id*"
-
-__unknown_file (
-""îë
-@ @($
-%4java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%3java.util.Map2values()®•
-@ @(-
-%5java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
+quantita_richiesta2getInt(Ljava/lang/String;)@>
+
+≈ ≈(!
+%4model.Partecipazione"model.Partecipazioneç
+ä
+
+≈ ≈(a
+%5"Umodel.Partecipazione#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V*8
 
 __unknown_file (
 
-%4java.util.Collection2stream()£
-†
-A A(?"
-%6java.util.function.Predicate"__declareFunction*]
+%4model.Partecipazione*B
 
-__unknown_file (A?
-=__sonar_lambda_44$engclasses.dao.memory.AppuntamentoDAOMemoryì
-ê
+__unknown_file (&
+$
+idPartecipazionejava.lang.String*<
 
-__unknown_file (1
-"
-%6java.util.function.Predicate"
-	idCliente"__id*;
+__unknown_file ( 
+
+
+idAnnunciojava.lang.String*?
 
-__unknown_file (
-
-	idClientejava.lang.String¨©
-@ A(@
-%9java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+__unknown_file (#
+!
+idAgricoltorejava.lang.String*"
 
-__unknown_file (
-
-%5java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%6java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ùö
-@ B(
-%10java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
-
-__unknown_file (
-
-%9java.util.stream.Stream2toList()"#
-@ B(
-
-%10java.util.List:)
-<. <(>
-	idClientejava.lang.StringB/-
-+engclasses.dao.memory.AppuntamentoDAOMemoryH
+__unknown_file (
+"""*
+
+≈ ≈(b
+
+%4model.Partecipazione:&
+
+ø4 ø(@
+rsjava.sql.ResultSetB)'
+%engclasses.dao.db.PartecipazioneDAODB

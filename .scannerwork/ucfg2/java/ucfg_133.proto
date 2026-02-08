@@ -1,29 +1,15 @@
 
-0view.cli.MainVenditoreCLIView#%field_initializer
-__unknown_file ("1*¶
-1 (çä
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java( (/
-%0java.util.Scanner"java.util.Scanner‘
-—
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java$ (:
-%1"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*%
- (
-
-%0java.util.Scanner*
- (
-""º
-π
-\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java (;,
-view.cli.MainVenditoreCLIView"	
-scanner"__id*%
- (
-
-%0java.util.Scanner"q
-Z
-R/Users/mohamedmousa/Desktop/prova/src/main/java/view/cli/MainVenditoreCLIView.java
- ^(
-implicit returnB!
-view.cli.MainVenditoreCLIView
+?engclasses.beans.RegistrazioneBean#getEmail()Ljava/lang/String;a
+W/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/RegistrazioneBean.java@ @("1*Æ
+1A A(y
+w
+A A(
+%0java.lang.String"__id*M
+
+__unknown_file (1*/$
+"engclasses.beans.RegistrazioneBean"
+email"$
+A A(
+
+%0java.lang.StringB&$
+"engclasses.beans.RegistrazioneBeanH

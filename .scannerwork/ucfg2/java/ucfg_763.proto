@@ -1,49 +1,15 @@
 
-)engclasses.beans.AnnuncioBean#isAttivo()Z\
-R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.java ("3*­
-2
-€6 €(?–“
-
-€6 €(A
-%3boolean"*engclasses.beans.AnnuncioBean#isScaduto()Z*=
+@engclasses.beans.AnnuncioBean#getDescrizione()Ljava/lang/String;\
+R/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AnnuncioBean.java3 3( "1*¯
+14 4(z
+x
+4 4(
+%0java.lang.String"__id*N
 
-__unknown_file (!
-engclasses.beans.AnnuncioBean2isScaduto()*
-1*¼
-3
-€ €(T
-R
-
-€ €(#
-%0java.lang.String"__id*&
-
-__unknown_file (
-
-ATTIVOv
-t
-
-€+ €(0
-%1java.lang.String"__id*H
-
-__unknown_file (,**
-engclasses.beans.AnnuncioBean"
-statoÔÑ
-
-€ €(1
-%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
-
-__unknown_file (
+__unknown_file (2*0
+engclasses.beans.AnnuncioBean"
+descrizione"$
+4 4(
 
-%0java.lang.String*4
-
-__unknown_file (
-
-%1java.lang.String2equals(Ljava/lang/Object;)*
-2
-1*%
-1
-€ €(B"
-
-€ €(B
-""B!
-engclasses.beans.AnnuncioBeanHX
+%0java.lang.StringB!
+engclasses.beans.AnnuncioBeanH

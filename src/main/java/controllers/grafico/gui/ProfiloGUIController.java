@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Controller per la view del profilo utente
  */
-public class ProfiloGUIController {
+public class ProfiloGUIController extends BaseGUIController {
 
     @FXML private Button btnIndietro;
     @FXML private TextField txtNome;
@@ -120,11 +120,4 @@ public class ProfiloGUIController {
                        Alert.AlertType.INFORMATION);
     }
 
-    private void mostraMessaggio(String titolo, String messaggio, Alert.AlertType tipo) {
-        Alert alert = new Alert(tipo);
-        alert.setTitle(titolo);
-        alert.setHeaderText(null);
-        alert.setContentText(messaggio);
-        alert.showAndWait();
-    }
 }

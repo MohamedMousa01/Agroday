@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770198472940*java2.B’A
+1.0MohamedMousa01_AgrodayJavaFrontend"1770206312848*java2.BñB
 I
 Dsrc/main/java/controllers/grafico/gui/PrenotazioneGUIController.java2
 	
@@ -27,381 +27,385 @@ full-range13
 simple-name15
 
 PrenotazioneGUIController16
+/
+)controllers.grafico.gui.BaseGUIController18
+
+unknown19
+
+extends20
+
+
+uses21
 >
-8controllers.grafico.gui.PrenotazioneGUIController.logger18
+8controllers.grafico.gui.PrenotazioneGUIController.logger23
 
-field19
+field24
 
-private20
+private25
 
-(30:5)-(30:99)21
+(30:5)-(30:99)26
 
-logger22
+logger27
 
-Logger24
+Logger29
 
-unknown25
-
-is type26
-
-
-uses27
+is type30
 C
-=controllers.grafico.gui.PrenotazioneGUIController.titoloLabel29
+=controllers.grafico.gui.PrenotazioneGUIController.titoloLabel32
 
-(32:5)-(32:37)30
+(32:5)-(32:37)33
 
-titoloLabel31
+titoloLabel34
 
-Label33
+Label36
 
 
-FXML35
+FXML38
 
-annotated by36
+annotated by39
 "
-Recovered#typeBindingLFXML;038
+Recovered#typeBindingLFXML;041
 G
-Acontrollers.grafico.gui.PrenotazioneGUIController.consulenteCombo40
+Acontrollers.grafico.gui.PrenotazioneGUIController.consulenteCombo43
 
-(33:5)-(33:52)41
+(33:5)-(33:52)44
 
-consulenteCombo42
+consulenteCombo45
 
-ComboBox44
+ComboBox47
 K
-Econtrollers.grafico.gui.PrenotazioneGUIController.tipoConsulenzaCombo46
+Econtrollers.grafico.gui.PrenotazioneGUIController.tipoConsulenzaCombo49
 
-(34:5)-(34:64)47
+(34:5)-(34:64)50
 
-tipoConsulenzaCombo48
+tipoConsulenzaCombo51
 
-misc.TipoConsulenza50
+misc.TipoConsulenza53
 B
-<controllers.grafico.gui.PrenotazioneGUIController.dataPicker52
+<controllers.grafico.gui.PrenotazioneGUIController.dataPicker55
 
-(35:5)-(35:41)53
+(35:5)-(35:41)56
 
 
-dataPicker54
+dataPicker57
 
 
-DatePicker56
+DatePicker59
 F
-@controllers.grafico.gui.PrenotazioneGUIController.oraInizioCombo58
+@controllers.grafico.gui.PrenotazioneGUIController.oraInizioCombo61
 
-(36:5)-(36:51)59
+(36:5)-(36:51)62
 
-oraInizioCombo60
+oraInizioCombo63
 I
-Ccontrollers.grafico.gui.PrenotazioneGUIController.minutoInizioCombo62
+Ccontrollers.grafico.gui.PrenotazioneGUIController.minutoInizioCombo65
 
-(37:5)-(37:54)63
+(37:5)-(37:54)66
 
-minutoInizioCombo64
+minutoInizioCombo67
 D
->controllers.grafico.gui.PrenotazioneGUIController.oraFineCombo66
+>controllers.grafico.gui.PrenotazioneGUIController.oraFineCombo69
 
-(38:5)-(38:49)67
+(38:5)-(38:49)70
 
-oraFineCombo68
+oraFineCombo71
 G
-Acontrollers.grafico.gui.PrenotazioneGUIController.minutoFineCombo70
+Acontrollers.grafico.gui.PrenotazioneGUIController.minutoFineCombo73
 
-(39:5)-(39:52)71
+(39:5)-(39:52)74
 
-minutoFineCombo72
+minutoFineCombo75
 B
-<controllers.grafico.gui.PrenotazioneGUIController.luogoField74
+<controllers.grafico.gui.PrenotazioneGUIController.luogoField77
 
-(40:5)-(40:40)75
+(40:5)-(40:40)78
 
 
-luogoField76
+luogoField79
 
-	TextField78
+	TextField81
 @
-:controllers.grafico.gui.PrenotazioneGUIController.noteArea80
+:controllers.grafico.gui.PrenotazioneGUIController.noteArea83
 
-(41:5)-(41:37)81
+(41:5)-(41:37)84
 
-noteArea82
+noteArea85
 
-TextArea84
+TextArea87
 E
-?controllers.grafico.gui.PrenotazioneGUIController.infoTipoLabel86
+?controllers.grafico.gui.PrenotazioneGUIController.infoTipoLabel89
 
-(42:5)-(42:39)87
+(42:5)-(42:39)90
 
-infoTipoLabel88
+infoTipoLabel91
 D
->controllers.grafico.gui.PrenotazioneGUIController.messageLabel90
+>controllers.grafico.gui.PrenotazioneGUIController.messageLabel93
 
-(43:5)-(43:38)91
+(43:5)-(43:38)94
 
-messageLabel92
+messageLabel95
 B
-<controllers.grafico.gui.PrenotazioneGUIController.annullaBtn94
+<controllers.grafico.gui.PrenotazioneGUIController.annullaBtn97
 
-(44:5)-(44:37)95
+(44:5)-(44:37)98
 
 
-annullaBtn96
-
-Button98
+annullaBtn99
+
+Button101
 D
-=controllers.grafico.gui.PrenotazioneGUIController.confermaBtn100
+=controllers.grafico.gui.PrenotazioneGUIController.confermaBtn103
 
-(45:5)-(45:38)101
+(45:5)-(45:38)104
 
-confermaBtn102
+confermaBtn105
 @
-9controllers.grafico.gui.PrenotazioneGUIController.session104
+9controllers.grafico.gui.PrenotazioneGUIController.session107
 
-(47:5)-(47:29)105
+(47:5)-(47:29)108
 
-session106
+session109
 
-misc.Session108
+misc.Session111
 O
-Hcontrollers.grafico.gui.PrenotazioneGUIController.appuntamentoController110
+Hcontrollers.grafico.gui.PrenotazioneGUIController.appuntamentoController113
 
-(48:5)-(48:59)111
+(48:5)-(48:59)114
 
-appuntamentoController112
+appuntamentoController115
 5
-.controllers.applicativo.AppuntamentoController114
+.controllers.applicativo.AppuntamentoController117
 Q
-Jcontrollers.grafico.gui.PrenotazioneGUIController.appuntamentoDaModificare116
+Jcontrollers.grafico.gui.PrenotazioneGUIController.appuntamentoDaModificare119
 
-(49:5)-(49:55)117
+(49:5)-(49:55)120
 
-appuntamentoDaModificare118
+appuntamentoDaModificare121
 (
-!engclasses.beans.AppuntamentoBean120
+!engclasses.beans.AppuntamentoBean123
 C
-<controllers.grafico.gui.PrenotazioneGUIController.isModifica122
+<controllers.grafico.gui.PrenotazioneGUIController.isModifica125
 
-(50:5)-(50:40)123
+(50:5)-(50:40)126
 
 
-isModifica124
+isModifica127
 F
-?controllers.grafico.gui.PrenotazioneGUIController.consulenteDAO126
+?controllers.grafico.gui.PrenotazioneGUIController.consulenteDAO129
 
-(52:5)-(52:41)127
+(52:5)-(52:41)130
 
-consulenteDAO128
+consulenteDAO131
 '
- engclasses.dao.api.ConsulenteDAO130
+ engclasses.dao.api.ConsulenteDAO133
 C
-<controllers.grafico.gui.PrenotazioneGUIController.consulenti132
+<controllers.grafico.gui.PrenotazioneGUIController.consulenti135
 
-(53:5)-(53:41)133
+(53:5)-(53:41)136
 
 
-consulenti134
+consulenti137
 
-model.Consulente136
+model.Consulente139
 F
-?controllers.grafico.gui.PrenotazioneGUIController#initialize()V138
+?controllers.grafico.gui.PrenotazioneGUIController#initialize()V141
 
-method139
+method142
 
-(55:5)-(90:6)140
+(55:5)-(90:6)143
 
 
-initialize141
+initialize144
 
 
-references142
+references145
 
-returns143
+returns146
 /
-(misc.Session#getInstance()Lmisc/Session;145
+(misc.Session#getInstance()Lmisc/Session;148
 
-calls146
+calls149
 
-misc.PersistenceType148
+misc.PersistenceType151
 >
-7misc.Session#getPersistenceType()Lmisc/PersistenceType;150
+7misc.Session#getPersistenceType()Lmisc/PersistenceType;153
 (
-!engclasses.dao.factory.DAOFactory152
+!engclasses.dao.factory.DAOFactory155
 n
-gengclasses.dao.factory.DAOFactory#getFactory(Lmisc/PersistenceType;)Lengclasses/dao/factory/DAOFactory;154
+gengclasses.dao.factory.DAOFactory#getFactory(Lmisc/PersistenceType;)Lengclasses/dao/factory/DAOFactory;157
 ]
-Vengclasses.dao.factory.DAOFactory#getConsulenteDAO()Lengclasses/dao/api/ConsulenteDAO;156
+Vengclasses.dao.factory.DAOFactory#getConsulenteDAO()Lengclasses/dao/api/ConsulenteDAO;159
 Q
-Jcontrollers.grafico.gui.PrenotazioneGUIController#popolaComboConsulenti()V158
+Jcontrollers.grafico.gui.PrenotazioneGUIController#popolaComboConsulenti()V161
 U
-Ncontrollers.grafico.gui.PrenotazioneGUIController#popolaComboTipoConsulenza()V160
+Ncontrollers.grafico.gui.PrenotazioneGUIController#popolaComboTipoConsulenza()V163
 L
-Econtrollers.grafico.gui.PrenotazioneGUIController#popolaComboOrari()V162
+Econtrollers.grafico.gui.PrenotazioneGUIController#popolaComboOrari()V165
 
-	!Unknown!164
+	!Unknown!167
 
-	protected165
+	protected168
 
-(71:63)-(77:10)166
+(71:63)-(77:10)169
 
-(92:5)-(114:6)167
+(92:5)-(114:6)170
 
-popolaComboConsulenti168
+popolaComboConsulenti171
 D
-=engclasses.dao.api.ConsulenteDAO#trovaTutti()Ljava/util/List;170
+=engclasses.dao.api.ConsulenteDAO#trovaTutti()Ljava/util/List;173
 ?
-8engclasses.exceptions.DatabaseOperazioneFallitaException172
+8engclasses.exceptions.DatabaseOperazioneFallitaException175
 ^
-Wcontrollers.grafico.gui.PrenotazioneGUIController#mostraMessaggio(Ljava/lang/String;Z)V174
+Wcontrollers.grafico.gui.PrenotazioneGUIController#mostraMessaggio(Ljava/lang/String;Z)V177
 
-model.Utente176
+model.Utente179
 /
-(model.Utente#getNome()Ljava/lang/String;178
+(model.Utente#getNome()Ljava/lang/String;181
 2
-+model.Utente#getCognome()Ljava/lang/String;180
++model.Utente#getCognome()Ljava/lang/String;183
 3
-,model.Utente#getUsername()Ljava/lang/String;182
+,model.Utente#getUsername()Ljava/lang/String;185
 
-(116:5)-(119:6)183
+(116:5)-(119:6)186
  
-popolaComboTipoConsulenza184
+popolaComboTipoConsulenza187
 9
-2misc.TipoConsulenza#values()[Lmisc/TipoConsulenza;186
+2misc.TipoConsulenza#values()[Lmisc/TipoConsulenza;189
 
-(121:5)-(135:6)187
+(121:5)-(135:6)190
 
-popolaComboOrari188
+popolaComboOrari191
 L
-Econtrollers.grafico.gui.PrenotazioneGUIController#aggiornaInfoTipo()V190
+Econtrollers.grafico.gui.PrenotazioneGUIController#aggiornaInfoTipo()V193
 
-(137:5)-(144:6)191
+(137:5)-(144:6)194
 
-aggiornaInfoTipo192
+aggiornaInfoTipo195
 =
-6misc.TipoConsulenza#getDescrizione()Ljava/lang/String;194
+6misc.TipoConsulenza#getDescrizione()Ljava/lang/String;197
 M
-Fcontrollers.grafico.gui.PrenotazioneGUIController#suggerisciOraFine()V196
+Fcontrollers.grafico.gui.PrenotazioneGUIController#suggerisciOraFine()V199
 
-(146:5)-(166:6)197
+(146:5)-(166:6)200
 
-suggerisciOraFine198
+suggerisciOraFine201
 h
-acontrollers.applicativo.AppuntamentoController#getDurataPredefinitaMinuti(Lmisc/TipoConsulenza;)I200
+acontrollers.applicativo.AppuntamentoController#getDurataPredefinitaMinuti(Lmisc/TipoConsulenza;)I203
 S
-Lcontrollers.grafico.gui.PrenotazioneGUIController#aggiornaVisibilitaLuogo()V202
+Lcontrollers.grafico.gui.PrenotazioneGUIController#aggiornaVisibilitaLuogo()V205
 
-(168:5)-(177:6)203
+(168:5)-(177:6)206
 
-aggiornaVisibilitaLuogo204
+aggiornaVisibilitaLuogo207
 !
-misc.TipoConsulenza.ONLINE206
+misc.TipoConsulenza.ONLINE209
 %
-misc.TipoConsulenza.IN_UFFICIO208
+misc.TipoConsulenza.IN_UFFICIO211
 $
-misc.TipoConsulenza.SUL_CAMPO210
+misc.TipoConsulenza.SUL_CAMPO213
 z
-scontrollers.grafico.gui.PrenotazioneGUIController#setAppuntamentoDaModificare(Lengclasses/beans/AppuntamentoBean;)V212
+scontrollers.grafico.gui.PrenotazioneGUIController#setAppuntamentoDaModificare(Lengclasses/beans/AppuntamentoBean;)V215
 
-(182:5)-(215:6)213
+(182:5)-(215:6)216
 "
-setAppuntamentoDaModificare214
+setAppuntamentoDaModificare217
 
-	has param215
+	has param218
 3
-,model.Utente#getIdUtente()Ljava/lang/String;217
+,model.Utente#getIdUtente()Ljava/lang/String;220
 L
-Eengclasses.beans.AppuntamentoBean#getIdConsulente()Ljava/lang/String;219
+Eengclasses.beans.AppuntamentoBean#getIdConsulente()Ljava/lang/String;222
 Q
-Jengclasses.beans.AppuntamentoBean#getTipoConsulenza()Lmisc/TipoConsulenza;221
+Jengclasses.beans.AppuntamentoBean#getTipoConsulenza()Lmisc/TipoConsulenza;224
 G
-@engclasses.beans.AppuntamentoBean#getData()Ljava/time/LocalDate;223
+@engclasses.beans.AppuntamentoBean#getData()Ljava/time/LocalDate;226
 L
-Eengclasses.beans.AppuntamentoBean#getOraInizio()Ljava/time/LocalTime;225
+Eengclasses.beans.AppuntamentoBean#getOraInizio()Ljava/time/LocalTime;228
 J
-Cengclasses.beans.AppuntamentoBean#getOraFine()Ljava/time/LocalTime;227
+Cengclasses.beans.AppuntamentoBean#getOraFine()Ljava/time/LocalTime;230
 E
->engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;229
+>engclasses.beans.AppuntamentoBean#getLuogo()Ljava/lang/String;232
 D
-=engclasses.beans.AppuntamentoBean#getNote()Ljava/lang/String;231
+=engclasses.beans.AppuntamentoBean#getNote()Ljava/lang/String;234
 F
-?controllers.grafico.gui.PrenotazioneGUIController#onConferma()V233
+?controllers.grafico.gui.PrenotazioneGUIController#onConferma()V236
 
-(217:5)-(245:6)234
+(217:5)-(245:6)237
 
 
-onConferma235
+onConferma238
 G
-@controllers.grafico.gui.PrenotazioneGUIController#validaCampi()Z237
+@controllers.grafico.gui.PrenotazioneGUIController#validaCampi()Z240
 f
-_controllers.grafico.gui.PrenotazioneGUIController#creaBean()Lengclasses/beans/AppuntamentoBean;239
+_controllers.grafico.gui.PrenotazioneGUIController#creaBean()Lengclasses/beans/AppuntamentoBean;242
 O
-Hengclasses.beans.AppuntamentoBean#setIdAppuntamento(Ljava/lang/String;)V241
+Hengclasses.beans.AppuntamentoBean#setIdAppuntamento(Ljava/lang/String;)V244
 N
-Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;243
+Gengclasses.beans.AppuntamentoBean#getIdAppuntamento()Ljava/lang/String;246
 ì
-ãcontrollers.applicativo.AppuntamentoController#modificaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;245
+ãcontrollers.applicativo.AppuntamentoController#modificaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;248
 í
-äcontrollers.applicativo.AppuntamentoController#prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;247
+äcontrollers.applicativo.AppuntamentoController#prenotaAppuntamento(Lengclasses/beans/AppuntamentoBean;)Lengclasses/beans/AppuntamentoBean;250
 I
-Bcontrollers.grafico.gui.PrenotazioneGUIController#tornaAllaHome()V249
+Bcontrollers.grafico.gui.PrenotazioneGUIController#tornaAllaHome()V252
 
-misc.MessageConstants251
+misc.MessageConstants254
 ,
-%misc.MessageConstants.ERRORE_GENERICO253
+%misc.MessageConstants.ERRORE_GENERICO256
 
-(247:5)-(263:6)254
+(247:5)-(263:6)257
 
-validaCampi255
+validaCampi258
 ç
-Öcontrollers.applicativo.AppuntamentoController#validaCampiPrenotazione(ZLmisc/TipoConsulenza;ZZZLjava/lang/String;)Ljava/lang/String;257
+Öcontrollers.applicativo.AppuntamentoController#validaCampiPrenotazione(ZLmisc/TipoConsulenza;ZZZLjava/lang/String;)Ljava/lang/String;260
 
-(265:5)-(301:6)258
+(265:5)-(301:6)261
 
-creaBean259
+creaBean262
 4
--misc.Session#getUtenteLoggato()Lmodel/Utente;261
+-misc.Session#getUtenteLoggato()Lmodel/Utente;264
 J
-Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V263
+Cengclasses.beans.AppuntamentoBean#setIdCliente(Ljava/lang/String;)V266
 M
-Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V265
+Fengclasses.beans.AppuntamentoBean#setIdConsulente(Ljava/lang/String;)V268
 R
-Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V267
+Kengclasses.beans.AppuntamentoBean#setTipoConsulenza(Lmisc/TipoConsulenza;)V270
 H
-Aengclasses.beans.AppuntamentoBean#setData(Ljava/time/LocalDate;)V269
+Aengclasses.beans.AppuntamentoBean#setData(Ljava/time/LocalDate;)V272
 M
-Fengclasses.beans.AppuntamentoBean#setOraInizio(Ljava/time/LocalTime;)V271
+Fengclasses.beans.AppuntamentoBean#setOraInizio(Ljava/time/LocalTime;)V274
 K
-Dengclasses.beans.AppuntamentoBean#setOraFine(Ljava/time/LocalTime;)V273
+Dengclasses.beans.AppuntamentoBean#setOraFine(Ljava/time/LocalTime;)V276
 F
-?engclasses.beans.AppuntamentoBean#setLuogo(Ljava/lang/String;)V275
+?engclasses.beans.AppuntamentoBean#setLuogo(Ljava/lang/String;)V278
 E
->engclasses.beans.AppuntamentoBean#setNote(Ljava/lang/String;)V277
+>engclasses.beans.AppuntamentoBean#setNote(Ljava/lang/String;)V280
 E
->controllers.grafico.gui.PrenotazioneGUIController#onAnnulla()V279
+>controllers.grafico.gui.PrenotazioneGUIController#onAnnulla()V282
 
-(303:5)-(306:6)280
+(303:5)-(306:6)283
 
-	onAnnulla281
+	onAnnulla284
 
-(308:5)-(311:6)282
+(308:5)-(311:6)285
 
-tornaAllaHome283
+tornaAllaHome286
 1
-*engclasses.pattern.viewfactory.ViewManager285
+*engclasses.pattern.viewfactory.ViewManager288
 H
-Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V287
+Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V290
 
-misc.ViewType289
+misc.ViewType292
 
-misc.ViewType.MAIN291
+misc.ViewType.MAIN294
 
-(313:5)-(320:6)292
+(313:5)-(320:6)295
 
-mostraMessaggio293
+mostraMessaggio296
 
-misc.CSSConstants295
+misc.CSSConstants298
 )
-"misc.CSSConstants.ERROR_TEXT_STYLE297J
+"misc.CSSConstants.ERROR_TEXT_STYLE300J
 
 1
 12
@@ -411,33 +415,33 @@ Aengclasses.pattern.viewfactory.ViewManager#goTo(Lmisc/ViewType;)V287
 4 Z
 
 5
-5768jÙ"
+5768jç#
 
-199
-19920025
+202
+20220319
 
-216
-21621725
+219
+21922019
 
-144
-14414525
+147
+14714819
 H
-163A
-16316410 *
+166A
+16616710 *
 1G? M(
-2137:5B
+2140:5B
 
 11
-165
+168
 
 13
-166
+169
 
-175
-17517625
+178
+17817919
 
-49
-495025
+52
+525319
 G
 8B
 8910 *
@@ -455,46 +459,49 @@ G
 15
 16
 R
-121K
-12112219 *
+124K
+12412524 *
 12 2(28:5B&
 
 
 11
-20
+25
 
 13
-123
+126
 
 15
-124
+127
 
-135
-13513625
+138
+13813919
 
-205
-20520625
+208
+20820919
 
-97
-979825
+17
+171819
 
-177
-17717825
+100
+10010119
 
-230
-23023125
+180
+18018119
 
-129
-12913025
+233
+23323419
+
+132
+13213319
 
-43
-434425
+46
+464719
 
-149
-14915025
+152
+15215319
 U
-211N
-211212139 *
+214N
+214215142 *
 1∂ ∂(,28:5B&
 
 
@@ -502,2211 +509,2217 @@ U
 12
 
 13
-213
+216
 
 15
-214
+217
 U
-173N
-173174139 *
+176N
+176177142 *
 1π π(!28:5B&
 
 
 11
-20
+25
 
 13
-292
+295
 
 15
-293
+296
 
-266
-26626725
+269
+26927019
 
-179
-17918025
+182
+18218319
 S
-157L
-157158139 *
+160L
+160161142 *
 1\ \('28:5B&
 
 
 11
-20
+25
 
 13
-167
+170
 
 15
-168
+171
 R
-115K
-11511619 *
+118K
+11811924 *
 11 1(628:5B&
 
 
 11
-20
+25
 
 13
-117
+120
 
 15
-118
+121
 S
-161L
-161162139 *
+164L
+164165142 *
 1y y("28:5B&
 
 
 11
-20
+25
 
 13
-187
+190
 
 15
-188
+191
 
-218
-21821925
+221
+22122219
 
-244
-24424525
+247
+24724819
 
-55
-555625
+58
+585919
 U
-236N
-236237139 *
+239N
+239240142 *
 1˜ ˜( 28:5B&
 
 
 11
-20
+25
 
 13
-254
+257
 
 15
-255
+258
 
-286
-28628725
+289
+28929019
 
-37
-373825
+40
+404119
 
-185
-18518625
+188
+18818919
 M
-17G
-171819 *
+22G
+222324 *
 1! ('28:5B$
 
 
 11
-20
+25
 
 
 13
-21
+26
 
 
 15
-22
+27
 U
-238N
-238239139 *
+241N
+241242142 *
 1â â(&28:5B&
 
 
 11
-20
+25
 
 13
-258
+261
 
 15
-259
+262
 
-224
-22422525
+227
+22722819
 U
-232N
-232233139 *
+235N
+235236142 *
 1⁄ ⁄(28:5B&
 
 
 11
-20
+25
 
 13
-234
+237
 
 15
-235
+238
 
-23
-232425
+28
+282919
 U
-201N
-201202139 *
+204N
+204205142 *
 1® ®()28:5B&
 
 
 11
-20
+25
 
 13
-203
+206
 
 15
-204
+207
 
-288
-28828925
+291
+29129219
 
-252
-25225325
+255
+25525619
 M
-39G
-394019 *
+42G
+424324 *
 1!$ !(328:5B$
 
 
 11
-20
+25
 
 
 13
-41
+44
 
 
 15
-42
+45
 M
-73G
-737419 *
+76G
+767724 *
 1( (('28:5B$
 
 
 11
-20
+25
 
 
 13
-75
+78
 
 
 15
-76
+79
 
-270
-27027125
+273
+27327419
 M
-69G
-697019 *
+72G
+727324 *
 1'$ '(328:5B$
 
 
 11
-20
+25
 
 
 13
-71
+74
 
 
 15
-72
+75
 U
-189N
-189190139 *
+192N
+192193142 *
 1â â("28:5B&
 
 
 11
-20
+25
 
 13
-191
+194
 
 15
-192
+195
 
-276
-27627725
+279
+27928019
 U
-278N
-278279139 *
+281N
+281282142 *
 1∞ ∞(28:5B&
 
 
 11
-20
+25
 
 13
-280
+283
 
 15
-281
+284
 
-264
-26426525
+267
+26726819
 
-268
-26826925
+271
+27127219
 
-242
-24224325
+245
+24524619
 M
-93G
-939419 *
+96G
+969724 *
 1, ,($28:5B$
 
 
 11
-20
+25
 
 
 13
-95
+98
 
 
 15
-96
+99
 
-119
-11912025
+122
+12212319
 
-169
-16917025
+172
+17217319
 
-220
-22022125
+223
+22322419
 
-83
-838425
+86
+868719
 
-246
-24624725
+249
+24925019
 M
-79G
-798019 *
+82G
+828324 *
 1) )($28:5B$
 
 
 11
-20
+25
 
 
 13
-81
+84
 
 
 15
-82
+85
 M
-85G
-858619 *
+88G
+888924 *
 1* *(&28:5B$
 
 
 11
-20
+25
 
 
 13
-87
+90
 
 
 15
-88
+91
 
-32
-323325
+35
+353619
 
-107
-10710825
+110
+11011119
 
-113
-11311425
+116
+11611719
 M
-65G
-656619 *
+68G
+686924 *
 1&$ &(028:5B$
 
 
 11
-20
+25
 
 
 13
-67
+70
 
 
 15
-68
+71
 
-250
-25025125
+253
+25325419
 R
-103K
-10310419 *
+106K
+10610724 *
 1/ /(28:5B&
 
 
 11
-20
+25
 
 13
-105
+108
 
 15
-106
+109
 R
-131K
-13113219 *
+134K
+13413524 *
 15 5((28:5B&
 
 
 11
-20
+25
 
 13
-133
+136
 
 15
-134
+137
 
-77
-777825
+80
+808119
 
-153
-15315425
+156
+15615719
 M
-89G
-899019 *
+92G
+929324 *
 1+ +(%28:5B$
 
 
 11
-20
+25
 
 
 13
-91
+94
 
 
 15
-92
+95
 
-262
-26226325
+265
+26526619
 M
-51G
-515219 *
+54G
+545524 *
 1# #((28:5B$
 
 
 11
-20
+25
 
 
 13
-53
+56
 
 
 15
-54
+57
 
-284
-28428525
+287
+28728819
 
-294
-29429525
+297
+29729819
 
-155
-15515625
+158
+15815919
 S
-159L
-159160139 *
+162L
+162163142 *
 1t t(+28:5B&
 
 
 11
-20
+25
 
 13
-183
+186
 
 15
-184
+187
 R
-125K
-12512619 *
+128K
+12812924 *
 14 4((28:5B&
 
 
 11
-20
+25
 
 13
-127
+130
 
 15
-128
+131
 
-260
-26026125
+263
+26326419
 
-290
-29029125
+293
+29329419
 
-181
-18118225
+184
+18418519
 
-207
-20720825
+210
+21021119
 
-256
-25625725
-P
-99J
-9910019 *
+259
+25926019
+R
+102K
+10210324 *
 1- -(%28:5B&
 
 
 11
-20
+25
 
 13
-101
+104
 
 15
-102
+105
 
-296
-29629725
+299
+29930019
 
-34
-343525
+37
+373819
 
-226
-22622725
+229
+22923019
 M
-45G
-454619 *
+48G
+484924 *
 1", "(?28:5B$
 
 
 11
-20
+25
 
 
 13
-47
+50
 
 
 15
-48
+51
 R
-109K
-10911019 *
+112K
+11211324 *
 10$ 0(:28:5B&
 
 
 11
-20
+25
 
 13
-111
+114
 
 15
-112
+115
 
-151
-15115225
+154
+15415519
 S
-137L
-137138139 *
+140L
+140141142 *
 18 8(28:5B&
 
 
 11
-20
+25
 
 13
-140
+143
 
 15
-141
+144
 U
-248N
-248249139 *
+251N
+251252142 *
 1¥ ¥(28:5B&
 
 
 11
-20
+25
 
 13
-282
+285
 
 15
-283
+286
 M
-57G
-575819 *
+60G
+606124 *
 1$$ $(228:5B$
 
 
 11
-20
+25
 
 
 13
-59
+62
 
 
 15
-60
+63
 
-228
-22822925
+231
+23123219
 
-171
-17117225
+174
+17417519
 
-209
-20921025
+212
+21221319
 
-222
-22222325
+225
+22522619
 
-272
-27227325
+275
+27527619
 
-240
-24024125
+243
+24324419
 M
-28G
-282919 *
+31G
+313224 *
 1   ($28:5B$
 
 
 11
-20
+25
 
 
 13
-30
+33
 
 
 15
-31
+34
 
-193
-19319425
+196
+19619719
 U
-195N
-195196139 *
+198N
+198199142 *
 1í í(#28:5B&
 
 
 11
-20
+25
 
 13
-197
+200
 
 15
-198
+201
 
-274
-27427525
+277
+27727819
 M
-61G
-616219 *
+64G
+646524 *
 1%$ %(528:5B$
 
 
 11
-20
+25
 
 
 13
-63
+66
 
 
 15
-64
+67
 
-147
-14714825rÿw
+150
+15015119röx
+
+81720*
+10 (A
+
+81721*
+10 (A
 
-172326*
+222830*
 1 ( 
 
-172327*
+222821*
 1 ( 
 
-172327*
+222821*
 1! ('
 
-17827*
+22821*
 1B ([
 
-283226*
+313530*
 1   (
 
-283436*
+313739*
 1   (
 
 
-283727*
+314021*
 1   (
 
 
-283227*
+313521*
 1   (
 
-283227*
+313521*
 1   ($
 
-394326*
+424630*
 1! !(#
 
-393436*
+423739*
 1! !(
 
 
-393727*
+424021*
 1! !(
 
 
-394327*
+424621*
 1! !(
 
-394327*
+424621*
 1!$ !(3
 
-454326*
+484630*
 1" "(+
 
-453436*
+483739*
 1" "(
 
 
-453727*
+484021*
 1" "(
 
 
-454327*
+484621*
 1" "(
 
-454927*
+485221*
 1" "(*
 
-454327*
+484621*
 1", "(?
 
-515526*
+545830*
 1# #(
 
-513436*
+543739*
 1# #(
 
 
-513727*
+544021*
 1# #(
 
 
-515527*
+545821*
 1# #(
 
-515527*
+545821*
 1# #((
 
-574326*
+604630*
 1$ $(#
 
-573436*
+603739*
 1$ $(
 
 
-573727*
+604021*
 1$ $(
 
 
-574327*
+604621*
 1$ $(
 
-574327*
+604621*
 1$$ $(2
 
-614326*
+644630*
 1% %(#
 
-613436*
+643739*
 1% %(
 
 
-613727*
+644021*
 1% %(
 
 
-614327*
+644621*
 1% %(
 
-614327*
+644621*
 1%$ %(5
 
-654326*
+684630*
 1& &(#
 
-653436*
+683739*
 1& &(
 
 
-653727*
+684021*
 1& &(
 
 
-654327*
+684621*
 1& &(
 
-654327*
+684621*
 1&$ &(0
 
-694326*
+724630*
 1' '(#
 
-693436*
+723739*
 1' '(
 
 
-693727*
+724021*
 1' '(
 
 
-694327*
+724621*
 1' '(
 
-694327*
+724621*
 1'$ '(3
 
-737726*
+768030*
 1( ((
 
-733436*
+763739*
 1( ((
 
 
-733727*
+764021*
 1( ((
 
 
-737727*
+768021*
 1( ((
 
-737727*
+768021*
 1( (('
 
-798326*
+828630*
 1) )(
 
-793436*
+823739*
 1) )(
 
 
-793727*
+824021*
 1) )(
 
 
-798327*
+828621*
 1) )(
 
-798327*
+828621*
 1) )($
 
-853226*
+883530*
 1* *(
 
-853436*
+883739*
 1* *(
 
 
-853727*
+884021*
 1* *(
 
 
-853227*
+883521*
 1* *(
 
-853227*
+883521*
 1* *(&
 
-893226*
+923530*
 1+ +(
 
-893436*
+923739*
 1+ +(
 
 
-893727*
+924021*
 1+ +(
 
 
-893227*
+923521*
 1+ +(
 
-893227*
+923521*
 1+ +(%
-
-939726*
+
+9610030*
 1, ,(
 
-933436*
+963739*
 1, ,(
 
 
-933727*
+964021*
 1, ,(
 
-
-939727*
+
+9610021*
 1, ,(
-
-939727*
+
+9610021*
 1, ,($
-
-999726*
+
+10210030*
 1- -(
-
-993436*
+
+1023739*
 1- -(
 
-
-993727*
+
+1024021*
 1- -(
 
-
-999727*
+
+10210021*
 1- -(
-
-999727*
+
+10210021*
 1- -(%
 
-10310726*
+10611030*
 1/ /(
 
-10310727*
+10611021*
 1/ /(
 
-10310727*
+10611021*
 1/ /(
 
-10911326*
+11211630*
 10 0(#
 
-10911327*
+11211621*
 10 0(#
 
-10911327*
+11211621*
 10$ 0(:
 
-11511926*
+11812230*
 11 1(
 
-11511927*
+11812221*
 11 1(
 
-11511927*
+11812221*
 11 1(6
 
-12512926*
+12813230*
 14 4(
 
-12512927*
+12813221*
 14 4(
 
-12512927*
+12813221*
 14 4((
 
-13113527*
+13413821*
 15 5(
 
-1373436*
+1403739*
 17 7(
 
 
-1373727*
+1404021*
 17 7(
 
 
-13710727*
+14011021*
 19	 9(
 
-137103142*
+140106145*
 19	 9(
 
-137107143*
+140110146*
 19 9(&
 
-137107142*
+140110145*
 19 9(&
 
-137144146*
+140147149*
 19 9(&
 
-13710727*
+14011021*
 19 9(
 
-13711327*
+14011621*
 1:	 :(
 
-137109142*
+140112145*
 1:	 :(
 
-137113146*
+140116149*
 1:& :(<
 
-13710727*
+14011021*
 1:= :(D
 
-137103142*
+140106145*
 1:= :(D
 
-13714726*
+14015030*
 1= =((
 
-13714727*
+14015021*
 1=	 =(
 
-137147143*
+140150146*
 1=+ =(E
 
-137107142*
+140110145*
 1=+ =(E
 
-137149146*
+140152149*
 1=3 =(E
 
-137103142*
+140106145*
 1=+ =(2
 
-13710727*
+14011021*
 1=+ =(2
 
-137103142*
+140106145*
 1=+ =(2
 
-13715126*
+14015430*
 1> >(
 
-13715127*
+14015421*
 1>	 >(
 
-137151143*
+140154146*
 1> >(3
 
-137151142*
+140154145*
 1> >(3
 
-137153146*
+140156149*
 1>) >(3
 
-13715127*
+14015421*
 1> >((
 
-13712927*
+14013221*
 1?	 ?(
 
-137125142*
+140128145*
 1?	 ?(
 
-137129143*
+140132146*
 1? ?(1
 
-137151142*
+140154145*
 1? ?(1
 
-137155146*
+140158149*
 1?! ?(1
 
-1378142*
+1408145*
 1B	 B(
 
-137157146*
+140160149*
 1B	 B(
 
-1378142*
+1408145*
 1C	 C("
 
-137159146*
+140162149*
 1C	 C("
 
-1378142*
+1408145*
 1D	 D(
 
-137161146*
+140164149*
 1D	 D(
 
-13751142*
+14054145*
 1G	 G(
 
-1375527*
+1405821*
 1G	 G(
 
-13751142*
+14054145*
 1G	 G(
 
-13745142*
+14048145*
 1P	 P(
 
-1374327*
+1404621*
 1P	 P(
 
-13745142*
+14048145*
 1P	 P(
 
-13757142*
+14060145*
 1S	 S(
 
-1374327*
+1404621*
 1S	 S(
 
-13757142*
+14060145*
 1S	 S(
 
-13761142*
+14064145*
 1T	 T(
 
-1374327*
+1404621*
 1T	 T(
 
-13761142*
+14064145*
 1T	 T(
 
-13745142*
+14048145*
 1U	 U(
 
-1374327*
+1404621*
 1U	 U(
 
-13745142*
+14048145*
 1U	 U(
 
-15739142*
+16042145*
 1]	 ](
 
-1574327*
+1604621*
 1]	 ](
 
-15739142*
+16042145*
 1]	 ](
 
-157131142*
+160134145*
 1a a(
 
-157129142*
+160132145*
 1a a(2
 
-157169146*
+160172149*
 1a( a(2
 
-157125142*
+160128145*
 1a a('
 
-15712927*
+16013221*
 1a a('
 
-157125142*
+160128145*
 1a a('
 
-15717126*
+16017430*
 1b5 b(6
 
-15717127*
+16017421*
 1b b(4
 
-157131142*
+160134145*
 1c c(
 
-1578142*
+1608145*
 1d d(
 
-157173146*
+160176149*
 1d d(
 
-15717142*
+16022145*
 1e e(
 
-1572327*
+1602821*
 1e e(
 
-15717142*
+16022145*
 1e e(
 
-157131142*
+160134145*
 1h h(
 
-157131142*
+160134145*
 1h h(
 
-15739142*
+16042145*
 1i i(
 
-1574327*
+1604621*
 1i i(
 
-15739142*
+16042145*
 1i i(
 
-15739142*
+16042145*
 1j j(
 
-1574327*
+1604621*
 1j j(
 
-15739142*
+16042145*
 1j j(
 
-15713526*
+16013830*
 1l l(!
 
-15713527*
+16013821*
 1l l(
 
-157131142*
+160134145*
 1l$ l(.
 
-157175142*
+160178145*
 1n& n(2
 
-157177146*
+160180149*
 1n+ n(2
 
-157175142*
+160178145*
 1n= n(L
 
-157179146*
+160182149*
 1nB n(L
 
-157175142*
+160178145*
 1nY n(i
 
-157181146*
+160184149*
 1n^ n(i
 
-15739142*
+16042145*
 1o o( 
 
-1574327*
+1604621*
 1o o( 
 
-15739142*
+16042145*
 1o o( 
 
-15945142*
+16248145*
 1u	 u(
 
-1594327*
+1624621*
 1u	 u(
 
-15945142*
+16248145*
 1u	 u(
 
-15945142*
+16248145*
 1v	 v(
 
-1594327*
+1624621*
 1v	 v(
 
-15945142*
+16248145*
 1v	 v(
 
-15949143*
+16252146*
 1v/ v(D
 
-15949142*
+16252145*
 1v/ v(D
 
-159185146*
+162188149*
 1v> v(D
 
-1594927*
+1625221*
 1v/ v(=
 
-16157142*
+16460145*
 1} }(
 
-1614327*
+1644621*
 1} }(
 
-16157142*
+16460145*
 1} }(
 
-16165142*
+16468145*
 1~ ~(
 
-1614327*
+1644621*
 1~ ~(
 
-16165142*
+16468145*
 1~ ~(
 
-16161142*
+16464145*
 1Ñ Ñ(
 
-1614327*
+1644621*
 1Ñ Ñ(
 
-16161142*
+16464145*
 1Ñ Ñ(
 
-16169142*
+16472145*
 1Ö Ö(
 
-1614327*
+1644621*
 1Ö Ö(
 
-16169142*
+16472145*
 1Ö Ö(
 
-1894926*
+1925230*
 1ä ä(
 
-1894927*
+1925221*
 1ä	 ä(
 
-18945142*
+19248145*
 1ä ä(2
 
-1894327*
+1924621*
 1ä ä(2
 
-18945142*
+19248145*
 1ä ä(2
 
-18985142*
+19288145*
 1å å(
 
-1893227*
+1923521*
 1å å(
 
-18985142*
+19288145*
 1å å(
 
-18949142*
+19252145*
 1å# å(6
 
-189193146*
+192196149*
 1å( å(6
 
-18985142*
+19288145*
 1é é(
 
-1893227*
+1923521*
 1é é(
 
-18985142*
+19288145*
 1é é(
 
-19557142*
+19860145*
 1ì ì(
 
-1954327*
+1984621*
 1ì ì(
 
-19557142*
+19860145*
 1ì ì(
 
-19561142*
+19864145*
 1ì2 ì(C
 
-1954327*
+1984621*
 1ì2 ì(C
 
-19561142*
+19864145*
 1ì2 ì(C
 
-19557142*
+19860145*
 1ò. ò(<
 
-1954327*
+1984621*
 1ò. ò(<
 
-19557142*
+19860145*
 1ò. ò(<
 
-19561142*
+19864145*
 1ô. ô(?
 
-1954327*
+1984621*
 1ô. ô(?
 
-19561142*
+19864145*
 1ô. ô(?
 
-195113142*
+198116145*
 1ú  ú(Q
 
-195199146*
+198202149*
 1ú7 ú(Q
 
-195109142*
+198112145*
 1ú  ú(6
 
-19511327*
+19811621*
 1ú  ú(6
 
-195109142*
+198112145*
 1ú  ú(6
 
-19545142*
+19848145*
 1úR ú(e
 
-1954327*
+1984621*
 1úR ú(e
 
-19545142*
+19848145*
 1úR ú(e
 
-19565142*
+19868145*
 1° °(
 
-1954327*
+1984621*
 1° °(
 
-19565142*
+19868145*
 1° °(
 
-19569142*
+19872145*
 1¢ ¢(
 
-1954327*
+1984621*
 1¢ ¢(
 
-19569142*
+19872145*
 1¢ ¢(
 
-2014926*
+2045230*
 1© ©(
 
-2014927*
+2045221*
 1©	 ©(
 
-20145142*
+20448145*
 1© ©(2
 
-2014327*
+2044621*
 1© ©(2
 
-20145142*
+20448145*
 1© ©(2
 
-2014927*
+2045221*
 1™ ™(#
 
-2014927*
+2045221*
 1™$ ™(*
 
-201205142*
+204208145*
 1™$ ™(*
 
-20173142*
+20476145*
 1´ ´(
 
-2017727*
+2048021*
 1´ ´(
 
-20173142*
+20476145*
 1´ ´(
 
-2014927*
+2045221*
 1¨ ¨(*
 
-2014927*
+2045221*
 1¨+ ¨(5
 
-201207142*
+204210145*
 1¨+ ¨(5
 
-20173142*
+20476145*
 1≠ ≠(
 
-2017727*
+2048021*
 1≠ ≠(
 
-20173142*
+20476145*
 1≠ ≠(
 
-2014927*
+2045221*
 1Æ Æ(*
 
-2014927*
+2045221*
 1Æ+ Æ(4
 
-201209142*
+204212145*
 1Æ+ Æ(4
 
-20173142*
+20476145*
 1Ø Ø(
 
-2017727*
+2048021*
 1Ø Ø(
 
-20173142*
+20476145*
 1Ø Ø(
 
-211119215*
+214122218*
 1∂- ∂(=
 
-21111926*
+21412230*
 1∂> ∂(J
 
-21111927*
+21412221*
 1∂- ∂(=
 
-211827*
+214821*
 1∑	 ∑(
 
-2118142*
+2148145*
 1∑	 ∑(
 
-21111927*
+21412221*
 1∑ ∑(&
 
-211115142*
+214118145*
 1∑ ∑(&
 
-211827*
+214821*
 1∏	 ∏(
 
-2118142*
+2148145*
 1∏	 ∏(
 
-211121142*
+214124145*
 1∏ ∏(
 
-21128142*
+21431145*
 1∫	 ∫(
 
-2113227*
+2143521*
 1∫	 ∫(
 
-21128142*
+21431145*
 1∫	 ∫(
-
-21199142*
-1ª	 ª(
-
-2119727*
+
+214102145*
 1ª	 ª(
 
-21199142*
+21410021*
 1ª	 ª(
 
-211131142*
+214102145*
+1ª	 ª(
+
+214134145*
 1ø ø('
 
-211131142*
+214134145*
 1ø ø('
 
-211175142*
+214178145*
 1¿ ¿(.
 
-211216146*
+214219149*
 1¿# ¿(.
 
-211135143*
+214138146*
 1¿ ¿(
 
-211131142*
+214134145*
 1¿ ¿(
 
-211131142*
+214134145*
 1¿ ¿(
 
-211119142*
+214122145*
 1¿8 ¿(T
 
-211218146*
+214221149*
 1¿E ¿(T
 
-21139142*
+21442145*
 1¡ ¡( 
 
-2114327*
+2144621*
 1¡ ¡( 
 
-21139142*
+21442145*
 1¡ ¡( 
 
-21145142*
+21448145*
 1∆	 ∆(
 
-2114327*
+2144621*
 1∆	 ∆(
 
-21145142*
+21448145*
 1∆	 ∆(
 
-21149143*
+21452146*
 1∆& ∆(D
 
-211119142*
+214122145*
 1∆& ∆(D
 
-211220146*
+214223149*
 1∆3 ∆(D
 
-21151142*
+21454145*
 1«	 «(
 
-2115527*
+2145821*
 1«	 «(
 
-21151142*
+21454145*
 1«	 «(
 
-211119142*
+214122145*
 1« «(1
 
-211222146*
+214225149*
 1«* «(1
 
-211119142*
+214122145*
 1… …(&
 
-211224146*
+214227149*
 1… …(&
 
-21157142*
+21460145*
 1   (
 
-2114327*
+2144621*
 1   (
 
-21157142*
+21460145*
 1   (
 
-211119142*
+214122145*
 1 ;  (T
 
-211224146*
+214227149*
 1 H  (T
 
-21161142*
+21464145*
 1À À(
 
-2114327*
+2144621*
 1À À(
 
-21161142*
+21464145*
 1À À(
 
-211119142*
+214122145*
 1À> À(W
 
-211224146*
+214227149*
 1ÀK À(W
 
-211119142*
+214122145*
 1Õ Õ($
 
-211226146*
+214229149*
 1Õ Õ($
 
-21165142*
+21468145*
 1Œ Œ(
 
-2114327*
+2144621*
 1Œ Œ(
 
-21165142*
+21468145*
 1Œ Œ(
 
-211119142*
+214122145*
 1Œ9 Œ(P
 
-211226146*
+214229149*
 1ŒF Œ(P
 
-21169142*
+21472145*
 1œ œ(
 
-2114327*
+2144621*
 1œ œ(
 
-21169142*
+21472145*
 1œ œ(
 
-211119142*
+214122145*
 1œ< œ(S
 
-211226146*
+214229149*
 1œI œ(S
 
-21173142*
+21476145*
 1“	 “(
 
-2117727*
+2148021*
 1“	 “(
 
-21173142*
+21476145*
 1“	 “(
 
-211119142*
+214122145*
 1“ “(1
 
-211228146*
+214231149*
 1“) “(1
 
-21179142*
+21482145*
 1”	 ”(
 
-2118327*
+2148621*
 1”	 ”(
 
-21179142*
+21482145*
 1”	 ”(
 
-211119142*
+214122145*
 1” ”(.
 
-211230146*
+214233149*
 1”' ”(.
 
-2118142*
+2148145*
 1’	 ’(
 
-211189146*
+214192149*
 1’	 ’(
 
-2118142*
+2148145*
 1÷	 ÷( 
 
-211201146*
+214204149*
 1÷	 ÷( 
 
-2323436*
+2353739*
 1Ÿ Ÿ(
 
 
-2323727*
+2354021*
 1Ÿ Ÿ(
 
 
-2328142*
+2358145*
 1‹ ‹(
 
-232236146*
+235239149*
 1‹ ‹(
 
-23211926*
+23512230*
 1· ·("
 
-23211927*
+23512221*
 1· ·(
 
-232119143*
+235122146*
 1·% ·(-
 
-2328142*
+2358145*
 1·% ·(-
 
-232238146*
+235241149*
 1·% ·(-
 
-232121142*
+235124145*
 1„ „(
 
-232119142*
+235122145*
 1‰ ‰('
 
-232240146*
+235243149*
 1‰ ‰('
 
-232119142*
+235122145*
 1‰( ‰(R
 
-232242146*
+235245149*
 1‰A ‰(R
 
-232115142*
+235118145*
 1‰( ‰(@
 
-23211927*
+23512221*
 1‰( ‰(@
 
-232115142*
+235118145*
 1‰( ‰(@
 
-232119143*
+235122146*
 1Â Â(<
 
-232113142*
+235116145*
 1Â Â(<
 
-232244146*
+235247149*
 1Â( Â(<
 
-232109142*
+235112145*
 1Â Â('
 
-23211327*
+23511621*
 1Â Â('
 
-232109142*
+235112145*
 1Â Â('
 
-2328142*
+2358145*
 1Ê Ê( 
 
-232173146*
+235176149*
 1Ê Ê( 
 
-232119143*
+235122146*
 1Ë Ë(;
 
-232113142*
+235116145*
 1Ë Ë(;
 
-232246146*
+235249149*
 1Ë( Ë(;
 
-232109142*
+235112145*
 1Ë Ë('
 
-23211327*
+23511621*
 1Ë Ë('
 
-232109142*
+235112145*
 1Ë Ë('
 
-2328142*
+2358145*
 1È È( 
 
-232173146*
+235176149*
 1È È( 
 
-2328142*
+2358145*
 1Ì Ì(
 
-232248146*
+235251149*
 1Ì Ì(
 
-2328142*
+2358145*
 1 (
 
-232173146*
+235176149*
 1 (
 
-2328142*
+2358145*
 1Ú Ú(
 
-232173146*
+235176149*
 1Ú Ú(
 
-23225027*
+23525321*
 1Ú Ú(-
 
-232252142*
+235255145*
 1Ú. Ú(=
 
-23217142*
+23522145*
 1Û Û(
 
-2322327*
+2352821*
 1Û Û(
 
-23217142*
+23522145*
 1Û Û(
 
-236113142*
+239116145*
 1˘ ˘(G
 
-236256146*
+239259149*
 1˘0 ˘(G
 
-236109142*
+239112145*
 1˘ ˘(/
 
-23611327*
+23911621*
 1˘ ˘(/
 
-236109142*
+239112145*
 1˘ ˘(/
 
-23639142*
+23942145*
 1˙ ˙( 
 
-2364327*
+2394621*
 1˙ ˙( 
 
-23639142*
+23942145*
 1˙ ˙( 
 
-23645142*
+23948145*
 1˚ ˚($
 
-2364327*
+2394621*
 1˚ ˚($
 
-23645142*
+23948145*
 1˚ ˚($
 
-23651142*
+23954145*
 1¸ ¸(
 
-2365527*
+2395821*
 1¸ ¸(
 
-23651142*
+23954145*
 1¸ ¸(
 
-23657142*
+23960145*
 1˝ ˝(
 
-2364327*
+2394621*
 1˝ ˝(
 
-23657142*
+23960145*
 1˝ ˝(
 
-23661142*
+23964145*
 1˝6 ˝(G
 
-2364327*
+2394621*
 1˝6 ˝(G
 
-23661142*
+23964145*
 1˝6 ˝(G
 
-23665142*
+23968145*
 1˛ ˛(
 
-2364327*
+2394621*
 1˛ ˛(
 
-23665142*
+23968145*
 1˛ ˛(
 
-23669142*
+23972145*
 1˛4 ˛(C
 
-2364327*
+2394621*
 1˛4 ˛(C
 
-23669142*
+23972145*
 1˛4 ˛(C
 
-23673142*
+23976145*
 1ˇ ˇ(
 
-2367727*
+2398021*
 1ˇ ˇ(
 
-23673142*
+23976145*
 1ˇ ˇ(
 
-2368142*
+2398145*
 1É É(
 
-236173146*
+239176149*
 1É É(
 
-238119143*
+241122146*
 1â â(
 
-23811927*
+24112221*
 1â â(
 
-23811926*
+24112230*
 1ä ä(
 
-23811927*
+24112221*
 1ä	 ä(
 
-238119146*
+241122149*
 1ä% ä(5
 
-23817526*
+24117830*
 1ç ç(
 
-23817527*
+24117821*
 1ç	 ç(
 
-238175143*
+241178146*
 1ç ç(1
 
-238107142*
+241110145*
 1ç ç(1
 
-238260146*
+241263149*
 1ç! ç(1
 
-238103142*
+241106145*
 1ç ç( 
 
-23810727*
+24111021*
 1ç ç( 
 
-238103142*
+241106145*
 1ç ç( 
 
-238119142*
+241122145*
 1è è(
 
-238262146*
+241265149*
 1è è(
 
-238175142*
+241178145*
 1è è(1
 
-238216146*
+241219149*
 1è& è(1
 
-238119142*
+241122145*
 1í í(
 
-238262146*
+241265149*
 1í í(
 
-23839142*
+24142145*
 1ñ ñ(,
 
-2384327*
+2414621*
 1ñ ñ(,
 
-23839142*
+24142145*
 1ñ ñ(,
 
-238131142*
+241134145*
 1ó3 ó(=
 
-238131142*
+241134145*
 1ó3 ó(=
 
-23813526*
+24113830*
 1ò ò(-
 
-23813527*
+24113821*
 1ò ò(
 
-238135143*
+241138146*
 1ò0 ò(>
 
-238131142*
+241134145*
 1ò0 ò(:
 
-238131142*
+241134145*
 1ò0 ò(:
 
-238119142*
+241122145*
 1ô ô(!
 
-238264146*
+241267149*
 1ô ô(!
 
-238175142*
+241178145*
 1ô" ô(C
 
-238216146*
+241219149*
 1ô8 ô(C
 
-238119142*
+241122145*
 1ú	 ú(
 
-238266146*
+241269149*
 1ú ú(
 
-23845142*
+24148145*
 1ú  ú(3
 
-2384327*
+2414621*
 1ú  ú(3
 
-23845142*
+24148145*
 1ú  ú(3
 
-238119142*
+241122145*
 1ù	 ù(
 
-238268146*
+241271149*
 1ù ù(
 
-23851142*
+24154145*
 1ù ù( 
 
-2385527*
+2415821*
 1ù ù( 
 
-23851142*
+24154145*
 1ù ù( 
 
-23857142*
+24160145*
 1†* †(8
 
-2384327*
+2414621*
 1†* †(8
 
-23857142*
+24160145*
 1†* †(8
 
-23861142*
+24164145*
 1°* °(;
 
-2384327*
+2414621*
 1°* °(;
 
-23861142*
+24164145*
 1°* °(;
 
-238119142*
+241122145*
 1¢	 ¢(
 
-238270146*
+241273149*
 1¢ ¢(
 
-23865142*
+24168145*
 1•( •(4
 
-2384327*
+2414621*
 1•( •(4
 
-23865142*
+24168145*
 1•( •(4
 
-23869142*
+24172145*
 1¶( ¶(7
 
-2384327*
+2414621*
 1¶( ¶(7
 
-23869142*
+24172145*
 1¶( ¶(7
 
-238119142*
+241122145*
 1ß	 ß(
 
-238272146*
+241275149*
 1ß ß(
 
-238119142*
+241122145*
 1©	 ©(
 
-238274146*
+241277149*
 1© ©(
 
-23873142*
+24176145*
 1© ©(!
 
-2387727*
+2418021*
 1© ©(!
 
-23873142*
+24176145*
 1© ©(!
 
-23873142*
+24176145*
 1©6 ©(@
 
-2387727*
+2418021*
 1©6 ©(@
 
-23873142*
+24176145*
 1©6 ©(@
 
-238119142*
+241122145*
 1™	 ™(
 
-238276146*
+241279149*
 1™ ™(
 
-23879142*
+24182145*
 1™ ™(
 
-2388327*
+2418621*
 1™ ™(
 
-23879142*
+24182145*
 1™ ™(
 
-23879142*
+24182145*
 1™3 ™(;
 
-2388327*
+2418621*
 1™3 ™(;
 
-23879142*
+24182145*
 1™3 ™(;
 
-2783436*
+2813739*
 1Ø Ø(
 
 
-2783727*
+2814021*
 1Ø Ø(
 
 
-2788142*
+2818145*
 1±	 ±(
 
-278248146*
+281251149*
 1±	 ±(
 
-248284142*
+251287145*
 1∂	 ∂(8
 
-248286146*
+251289149*
 1∂4 ∂(8
 
-24828427*
+25128721*
 1∂( ∂(3
 
-24828827*
+25129121*
 1∂> ∂(F
 
-24828827*
+25129121*
 1∂G ∂(K
 
-248290142*
+251293145*
 1∂G ∂(K
 
-17389142*
+17692145*
 1∫	 ∫(
 
-1733227*
+1763521*
 1∫	 ∫(
 
-17389142*
+17692145*
 1∫	 ∫(
 
-17389142*
+17692145*
 1º º(
 
-1733227*
+1763521*
 1º º(
 
-17389142*
+17692145*
 1º º(
 
-17329427*
+17629721*
 1º# º(/
 
-173296142*
+176299145*
 1º0 º(@
 
-17389142*
+17692145*
 1æ æ(
 
-1733227*
+1763521*
 1æ æ(
 
-17389142*
+17692145*
 1æ æ(

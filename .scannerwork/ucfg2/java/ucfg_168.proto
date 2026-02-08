@@ -1,213 +1,111 @@
 
-àcontrollers.grafico.cli.RegistrazioneCLIController#creaBean(Lmisc/TipoUtente;Lmisc/PersistenceType;)Lengclasses/beans/RegistrazioneBean;q
-g/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/cli/RegistrazioneCLIController.java[ [(&"1*Ï(
-1^! ^(8ZX
-^% ^(6(
-%0"engclasses.beans.RegistrazioneBean""engclasses.beans.RegistrazioneBeanâ
-Ü
-^! ^(8
-%1",engclasses.beans.RegistrazioneBean#<init>()V*F
-
-__unknown_file (*
-(
-%0"engclasses.beans.RegistrazioneBeaná
-Ñ
-^ ^(9*
-bean"engclasses.beans.RegistrazioneBean"__id*F
-
-__unknown_file (*
-(
-%0"engclasses.beans.RegistrazioneBeanñ
-ì
-` `(#
-%2view.cli.RegistrazioneCLIView"__id*\
-
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view¥±
-` `(&
-%3java.lang.String"<view.cli.RegistrazioneCLIView#chiediNome()Ljava/lang/String;*A
-
-__unknown_file (%
-#
-%2view.cli.RegistrazioneCLIView2chiediNome()˜Ù
-` `('
+]engclasses.dao.filesystem.OffertaDAOFile#aggiornaStato(Ljava/lang/String;Ljava/lang/String;)Zg
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java^ ^( "startingBlock*†
+2a a(⁄◊
+a a((
 
-%4void"?engclasses.beans.RegistrazioneBean#setNome(Ljava/lang/String;)V*H
+%3void"+model.Offerta#setStato(Ljava/lang/String;)V*6
 
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*4
+__unknown_file (
 
-__unknown_file (
-
-%3java.lang.String2setNome(Ljava/lang/String;)ñ
-ì
-a a(#
-%5view.cli.RegistrazioneCLIView"__id*\
+offertamodel.Offerta*<
 
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view∫∑
-a a(,
-%6java.lang.String"?view.cli.RegistrazioneCLIView#chiediCognome()Ljava/lang/String;*A
-
-__unknown_file (%
-#
-%5view.cli.RegistrazioneCLIView2chiediCognome()˝˙
-a a(-
+__unknown_file ( 
+
 
-%7void"Bengclasses.beans.RegistrazioneBean#setCognome(Ljava/lang/String;)V*H
+nuovoStatojava.lang.String2setStato(Ljava/lang/String;)ü
+ú
+b b( 
+%4boolean"7engclasses.dao.filesystem.OffertaDAOFile#salvaSuFile()Z*H
 
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*4
+__unknown_file (,*
+(engclasses.dao.filesystem.OffertaDAOFile"
+b b(!
+""*ç
+3_ _(!~
+|
+_ _(!
+%0java.util.Map"__id*U
 
-__unknown_file (
-
-%6java.lang.String2setCognome(Ljava/lang/String;)ñ
-ì
-b b(#
-%8view.cli.RegistrazioneCLIView"__id*\
+__unknown_file (9*7*
+(engclasses.dao.filesystem.OffertaDAOFile"	
+offerteú
+ô
+_ _(0
+%1model.Offerta"__mapGet*1
 
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-viewºπ
-b b(.
-%9java.lang.String"@view.cli.RegistrazioneCLIView#chiediUsername()Ljava/lang/String;*A
-
-__unknown_file (%
-#
-%8view.cli.RegistrazioneCLIView2chiediUsername()Ä˝
-b b(/
-%10void"Cengclasses.beans.RegistrazioneBean#setUsername(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*4
-
-__unknown_file (
-
-%9java.lang.String2setUsername(Ljava/lang/String;)ó
-î
-c c($
-%11view.cli.RegistrazioneCLIView"__id*\
-
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view∏µ
-c c((
-%12java.lang.String"=view.cli.RegistrazioneCLIView#chiediEmail()Ljava/lang/String;*B
-
-__unknown_file (&
-$
-%11view.cli.RegistrazioneCLIView2chiediEmail()˚¯
-c c()
-%13void"@engclasses.beans.RegistrazioneBean#setEmail(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%12java.lang.String2setEmail(Ljava/lang/String;)ó
-î
-d d($
-%14view.cli.RegistrazioneCLIView"__id*\
-
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-viewæª
-d d(.
-%15java.lang.String"@view.cli.RegistrazioneCLIView#chiediPassword()Ljava/lang/String;*B
-
-__unknown_file (&
-$
-%14view.cli.RegistrazioneCLIView2chiediPassword()Å˛
-d d(/
-%16void"Cengclasses.beans.RegistrazioneBean#setPassword(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%15java.lang.String2setPassword(Ljava/lang/String;)ó
-î
-e  e($$
-%17view.cli.RegistrazioneCLIView"__id*\
-
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-viewŒÀ
-e  e(=
-%18java.lang.String"Hview.cli.RegistrazioneCLIView#chiediConfermaPassword()Ljava/lang/String;*B
-
-__unknown_file (&
-$
-%17view.cli.RegistrazioneCLIView2chiediConfermaPassword()èå
-e e(>
-%19void"Jengclasses.beans.RegistrazioneBean#setConfirmPassword(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%18java.lang.String2&setConfirmPassword(Ljava/lang/String;)ó
-î
-f f($
-%20view.cli.RegistrazioneCLIView"__id*\
-
-__unknown_file (@*>4
-2controllers.grafico.cli.RegistrazioneCLIController"
-view∏µ
-f f((
-%21java.lang.String"=view.cli.RegistrazioneCLIView#chiediCitta()Ljava/lang/String;*B
-
-__unknown_file (&
-$
-%20view.cli.RegistrazioneCLIView2chiediCitta()˚¯
-f f()
-%22void"@engclasses.beans.RegistrazioneBean#setCitta(Ljava/lang/String;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*5
-
-__unknown_file (
-
-%21java.lang.String2setCitta(Ljava/lang/String;)âÜ
-j j(&
-%23void"Dengclasses.beans.RegistrazioneBean#setTipoUtente(Lmisc/TipoUtente;)V*H
-
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*;
+__unknown_file (
+
+%0java.util.Map*;
 
 __unknown_file (
 
-
-tipoUtentemisc.TipoUtente2 setTipoUtente(Lmisc/TipoUtente;)ß§
-k k(0
-%24void"Nengclasses.beans.RegistrazioneBean#setPersistenceType(Lmisc/PersistenceType;)V*H
+	idOffertajava.lang.String_
+]
+_ _(1
+offertamodel.Offerta"__id*1
 
-__unknown_file (,
-*
-bean"engclasses.beans.RegistrazioneBean*E
+__unknown_file (
+
+%1model.Offertav
+t
+` `(
+%2boolean"	__compare*
+` `(
+!=*&
+` `(
 
-__unknown_file ()
-'
-persistenceTypemisc.PersistenceType2*setPersistenceType(Lmisc/PersistenceType;)"8
-m m(,
-*
-bean"engclasses.beans.RegistrazioneBean:)
-[' [(=
+offertamodel.Offerta*
+` `(
+""*
+2
+1*Ñ
+startingBlock^  ^(Eê
+ç
+] ](
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	idOffertajava.lang.String]
+[
+^( ^(1
+	idOffertajava.lang.String"__annotation*"
+
+__unknown_file (
+
+%5ë
+é
+] ](
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
 
-tipoUtentemisc.TipoUtente:3
-\' \(F'
-persistenceTypemisc.PersistenceTypeB64
-2controllers.grafico.cli.RegistrazioneCLIController
+nuovoStatojava.lang.String^
+\
+^: ^(D
+
+nuovoStatojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+3*!
+1d d("
+d d(
+"":)
+^! ^(2
+	idOffertajava.lang.String:*
+^3 ^(D
+
+nuovoStatojava.lang.StringB,*
+(engclasses.dao.filesystem.OffertaDAOFileHX

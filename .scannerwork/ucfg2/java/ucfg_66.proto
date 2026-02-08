@@ -1,18 +1,16 @@
 
-,model.Annuncio#getTitolo()Ljava/lang/String;O
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaç ç("1*°
+0model.Annuncio#getIdAnnuncio()Ljava/lang/String;O
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaÉ É("1*ƒ
 1
-é é(h
-f
+Ñ Ñ(äá
 
-é é(
-%0java.lang.String"__id*:
+Ñ Ñ(
+%0java.lang.String"(model.Annuncio#getId()Ljava/lang/String;*.
 
-__unknown_file (*
-model.Annuncio"
-titolo"&
+__unknown_file (
+model.Annuncio2getId()"&
 
-é é(
+Ñ Ñ(
 
 %0java.lang.StringB
 model.AnnuncioH

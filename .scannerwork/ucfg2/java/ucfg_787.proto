@@ -1,68 +1,39 @@
 
-lcontrollers.applicativo.AppuntamentoController#getAppuntamentiConsulente(Ljava/lang/String;)Ljava/util/List;o
-c/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/applicativo/AppuntamentoController.java£" £(;"1*¨
-
-1
-¤* ¤(4ž
-›
-
-¤* ¤(4'
-%0!engclasses.dao.factory.DAOFactory"__id*^
+8__sonar_lambda_67$engclasses.dao.memory.OffertaDAOMemorye
+[/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/OffertaDAOMemory.java  (I"startingBlock*¼
+startingBlock  (I›
+˜
 
-__unknown_file (B*@0
-.controllers.applicativo.AppuntamentoController"
+__unknown_file (
 
-daoFactoryòï
+idAnnunciojava.lang.String"__id*V
+
+__unknown_file (:*8(
+&engclasses.dao.memory.OffertaDAOMemory"
 
-¤* ¤(I(
-%1"engclasses.dao.api.AppuntamentoDAO"Zengclasses.dao.factory.DAOFactory#getAppuntamentoDAO()Lengclasses/dao/api/AppuntamentoDAO;*E
+idAnnuncio*
+1*£
+1% (/™–
+7 (H
+%1java.lang.String"/model.Offerta#getIdAnnuncio()Ljava/lang/String;*0
 
-__unknown_file ()
-'
-%0!engclasses.dao.factory.DAOFactory2getAppuntamentoDAO()”
-‘
-
-¤ ¤(J5
-appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO"__id*F
-
-__unknown_file (*
-(
-%1"engclasses.dao.api.AppuntamentoDAO½º
-
-¥* ¥(Z
-%2java.util.List"Yengclasses.dao.api.AppuntamentoDAO#trovaPerConsulente(Ljava/lang/String;)Ljava/util/List;*S
-
-__unknown_file (7
-5
-appuntamentoDAO"engclasses.dao.api.AppuntamentoDAO*>
-
-__unknown_file ("
- 
-idConsulentejava.lang.String2&trovaPerConsulente(Ljava/lang/String;)h
-f
-
-¥ ¥([
-appuntamentijava.util.List"__id*2
-
-__unknown_file (
-
-%2java.util.List™
-–
-
-¦ ¦(0
-%3java.util.List"dcontrollers.applicativo.AppuntamentoController#convertiListaInBean(Ljava/util/List;)Ljava/util/List;*N
-
-__unknown_file (20
-.controllers.applicativo.AppuntamentoController*<
+__unknown_file (
+
+omodel.Offerta2getIdAnnuncio()Ú×
+% (I
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
 
 __unknown_file ( 
 
-appuntamentijava.util.List"$
 
-¦ ¦(1
-
-%3java.util.List:.
+idAnnunciojava.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2equals(Ljava/lang/Object;)"
+% (I
 
-£< £(O 
-idConsulentejava.lang.StringB20
-.controllers.applicativo.AppuntamentoControllerH
+%2boolean:
+  (!
+omodel.OffertaB 
+java.util.function.Predicate

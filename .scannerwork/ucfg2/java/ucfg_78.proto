@@ -1,35 +1,9 @@
 
-model.Annuncio#isScaduto()ZO
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaø ø("1*¨
+#model.Annuncio#getQuantitaTotale()IO
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java± ±( "1*%
 1
-¿ ¿(è
-å
+≤ ≤("
 
-¿ ¿(
-%0java.time.LocalDate".java.time.LocalDate#now()Ljava/time/LocalDate;*3
-
-__unknown_file ("
-java.time.LocalDateq
-o
-
-¿' ¿(8
-%1java.time.LocalDate"__id*@
-
-__unknown_file ($*"
-model.Annuncio"
-dataScadenzaˇ¸
-
-¿ ¿(9
-%2boolean"@java.time.LocalDate#isAfter(Ljava/time/chrono/ChronoLocalDate;)Z*7
-
-__unknown_file (
-
-%0java.time.LocalDate*7
-
-__unknown_file (
-
-%1java.time.LocalDate2+isAfter(Ljava/time/chrono/ChronoLocalDate;)"
-
-¿ ¿(:
+≤ ≤(
 ""B
 model.AnnuncioHX

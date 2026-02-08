@@ -1,74 +1,86 @@
 
-Iengclasses.dao.memory.UtenteDAOMemory#esisteUsername(Ljava/lang/String;)Zd
-Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/memory/UtenteDAOMemory.java (!"startingBlock*é
-startingBlock! (2è
-å
- (
-%7"
+cengclasses.dao.factory.DAOFileFactory#getUtenteDAO(Lmisc/TipoUtente;)Lengclasses/dao/api/UtenteDAO;d
+Z/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/factory/DAOFileFactory.java (!"startingBlock*Ö
+2 (M
+K
+ (
+%0misc.TipoUtente"__id*"
+
+__unknown_file (
+""M
+K
+ (
+%1misc.TipoUtente"__id*"
+
+__unknown_file (
+""M
+K
+ (
+%2misc.TipoUtente"__id*"
+
+__unknown_file (
+""*	
+3
+4
+5*û
+3 (7lj
+# (41
+%7+engclasses.dao.filesystem.ConsulenteDAOFile"+engclasses.dao.filesystem.ConsulenteDAOFileõ
+ò
+ (6
+%8"5engclasses.dao.filesystem.ConsulenteDAOFile#<init>()V*O
+
+__unknown_file (3
+1
+%7+engclasses.dao.filesystem.ConsulenteDAOFile*
+1*Ñ
+startingBlock! (2ä
+á
+ (
+%9"
 __annotate*2
 
 __unknown_file (
-java.lang.Override*:
+java.lang.Override*5
 
-__unknown_file (
-
-usernamejava.lang.String\
-Z
-) (1
-usernamejava.lang.String"__annotation*"
+__unknown_file (
+
+tipomisc.TipoUtenteW
+U
+- (1
+tipomisc.TipoUtente"__annotation*"
 
 __unknown_file (
 
-%7*
-1*Ô
-1 (K
-I
- (
-%0java.util.Map"__id*"
+%9*
+2*ö
+4 (5jh
+" (20
+%5*engclasses.dao.filesystem.VenditoreDAOFile"*engclasses.dao.filesystem.VenditoreDAOFileô
+ñ
+ (4
+%6"4engclasses.dao.filesystem.VenditoreDAOFile#<init>()V*N
 
-__unknown_file (
-""îë
- ($
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()®•
- (-
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%1java.util.Collection2stream()ù
+__unknown_file (2
+0
+%5*engclasses.dao.filesystem.VenditoreDAOFile*
+1*¢
+5 (9nl
+$ (62
+%3,engclasses.dao.filesystem.AgricoltoreDAOFile",engclasses.dao.filesystem.AgricoltoreDAOFileù
 ö
- (I"
-%3java.util.function.Predicate"__declareFunction*W
+  (8
+%4"6engclasses.dao.filesystem.AgricoltoreDAOFile#<init>()V*P
 
-__unknown_file (;9
-7__sonar_lambda_38$engclasses.dao.memory.UtenteDAOMemoryë
-é
-
-__unknown_file (0
-"
-%3java.util.function.Predicate"
-
-username"__id*:
-
-__unknown_file (
-
-usernamejava.lang.StringàÖ
- (J
-%6boolean"Ajava.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z*;
-
-__unknown_file (
-
-%2java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%3java.util.function.Predicate2(anyMatch(Ljava/util/function/Predicate;)"
- (K
-"":(
-" (1
-usernamejava.lang.StringB)'
-%engclasses.dao.memory.UtenteDAOMemoryHX
+__unknown_file (4
+2
+%3,engclasses.dao.filesystem.AgricoltoreDAOFile*
+1*!
+1 (
+"
+ (
+
+"":#
+" (1
+tipomisc.TipoUtenteB)'
+%engclasses.dao.factory.DAOFileFactoryH

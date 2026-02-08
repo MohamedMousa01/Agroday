@@ -1,15 +1,18 @@
 
-model.Annuncio#getQuantita()IO
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java¥ ¥("1*´
+:model.Annuncio#getDataPubblicazione()Ljava/time/LocalDate;O
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java› ›()"1*²
 1
-¦ ¦($Œ‰
+œ œ( v
+t
 
-¦ ¦(&	
-%0int"'model.Annuncio#getQuantitaDesiderata()I*.
+œ œ( 
+%0java.time.LocalDate"__id*E
 
-__unknown_file (
-model.Annuncio2getQuantitaDesiderata()"
+__unknown_file ()*'
+model.Annuncio"
+dataPubblicazione")
 
-¦ ¦('
-""B
-model.AnnuncioHX
+œ œ(!
+
+%0java.time.LocalDateB
+model.AnnuncioH

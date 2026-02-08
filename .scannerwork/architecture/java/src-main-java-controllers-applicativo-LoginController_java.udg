@@ -1,5 +1,5 @@
 
-1.0MohamedMousa01_AgrodayJavaFrontend"1770198475589*java2.BÕ
+1.0MohamedMousa01_AgrodayJavaFrontend"1770206317335*java2.BÖ
 ?
 :src/main/java/controllers/applicativo/LoginController.java2
 	
@@ -22,7 +22,7 @@
 
 full-range13
 
-(14:1)-(93:2)14
+(14:1)-(95:2)14
 
 simple-name15
 
@@ -112,9 +112,13 @@ bengclasses.dao.UtenteDAOFactory#getUtenteDAO(Lmisc/PersistenceType;)Lengclasses
 .
 (misc.Session#getInstance()Lmisc/Session;81
 
-(80:5)-(90:6)82
+(80:5)-(92:6)82
 
-validaCampiLogin83J
+validaCampiLogin83
+
+misc.ValidationUtils85
+c
+]misc.ValidationUtils#validateNotEmpty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;87J
 
 1
 12
@@ -124,7 +128,7 @@ bengclasses.dao.UtenteDAOFactory#getUtenteDAO(Lmisc/PersistenceType;)Lengclasses
 4 Z
 
 5
-5768jÐ
+5768jø
 
 54
 545525
@@ -144,6 +148,9 @@ M
 
 15
 22
+
+86
+868725
 
 66
 666725
@@ -172,6 +179,9 @@ G
 
 58
 585925
+
+84
+848525
 M
 74G
 747530 *
@@ -277,7 +287,7 @@ M
 646525
 
 45
-454625r„
+454625r¦
 
 172326*
 1 (
@@ -563,3 +573,21 @@ M
 
 704333*
 1I I(,
+
+748434*
+1S! S(F
+
+748633*
+1S6 S(F
+
+748427*
+1S& S(5
+
+748434*
+1W! W(F
+
+748633*
+1W6 W(F
+
+748427*
+1W& W(5

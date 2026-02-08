@@ -1,10 +1,17 @@
 
-Dmodel.Annuncio$Builder#quantitaDesiderata(I)Lmodel/Annuncio$Builder;M
-C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.javaF F()"1*5
-1G& G(8"&
-I I(
-model.Annuncio$Builder: 
+Rmodel.Annuncio$Builder#dataScadenza(Ljava/time/LocalDate;)Lmodel/Annuncio$Builder;M
+C/Users/mohamedmousa/Desktop/prova/src/main/java/model/Annuncio.java< <(#"1*¹
+1=  =(,
+
+= =(,*
+model.Annuncio$Builder"
+dataScadenza"__id*A
 
-__unknown_file (
-""B
+__unknown_file (%
+#
+dataScadenzajava.time.LocalDate"&
+> >(
+model.Annuncio$Builder:/
+<$ <(:#
+dataScadenzajava.time.LocalDateB
 model.Annuncio$BuilderH

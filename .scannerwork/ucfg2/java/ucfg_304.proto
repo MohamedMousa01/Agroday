@@ -1,13 +1,13 @@
 
-8model.AppuntamentoSulCampo#getDurataPredefinitaMinuti()IY
-O/Users/mohamedmousa/Desktop/prova/src/main/java/model/AppuntamentoSulCampo.java; ;(0"1*d
-1< <((A
+Tengclasses.pattern.factory.AppuntamentoSulCampoFactory#getDurataPredefinitaMinuti()Iu
+k/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/pattern/factory/AppuntamentoSulCampoFactory.java ()"1*d
+1 ((A
 ?
-< <((	
+ ((	
 %0int"__id*"
 
 __unknown_file (
 """
-< <()
-""B"
-model.AppuntamentoSulCampoHX
+ ()
+""B:8
+6engclasses.pattern.factory.AppuntamentoSulCampoFactoryHX

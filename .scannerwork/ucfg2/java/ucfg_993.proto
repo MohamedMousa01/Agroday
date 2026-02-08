@@ -1,18 +1,18 @@
 
-=engclasses.beans.AppuntamentoBean#getNote()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java∏ ∏("1*≤
+Gengclasses.beans.AppuntamentoBean#getCognomeCliente()Ljava/lang/String;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java (#"1*æ
 1
-π π(y
-w
+Ò Ò(Ñ
+Å
 
-π π(
-%0java.lang.String"__id*K
+Ò Ò(
+%0java.lang.String"__id*U
 
-__unknown_file (/*-#
-!engclasses.beans.AppuntamentoBean"
-note"&
+__unknown_file (9*7#
+!engclasses.beans.AppuntamentoBean"
+cognomeCliente"&
 
-π π(
+Ò Ò(
 
 %0java.lang.StringB%#
 !engclasses.beans.AppuntamentoBeanH

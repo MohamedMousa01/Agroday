@@ -22,7 +22,7 @@ import java.net.URI;
 /**
  * Controller grafico per la visualizzazione dei dettagli di un appuntamento.
  */
-public class DettaglioAppuntamentoGUIController {
+public class DettaglioAppuntamentoGUIController extends BaseGUIController {
 
     @FXML private Label statoLabel;
     @FXML private Label idLabel;

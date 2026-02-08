@@ -1,91 +1,101 @@
 
-^engclasses.dao.filesystem.OffertaDAOFile#trovaPerVenditore(Ljava/lang/String;)Ljava/util/List;g
-]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.javaP P(*"startingBlock*†
-startingBlockP* P(Dò
-ï
-O O(
-%9"
-__annotate*2
+Fengclasses.dao.filesystem.OffertaDAOFile#caricaDaFile()Ljava/util/Map;g
+]/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/dao/filesystem/OffertaDAOFile.java! (-"11*4
+5! !(:"%
+! !(;
+
+%10java.lang.Object*∏
+6   (Us
+q
+   (U 
+oisjava.io.ObjectInputStream"__id*=
 
-__unknown_file (
-java.lang.Override*C
-
-__unknown_file ('
-%
-usernameVenditorejava.lang.Stringe
-c
-P2 P(C%
-usernameVenditorejava.lang.String"__annotation*"
-
-__unknown_file (
-
-%9*
-1*∑
-1Q Q(~
-|
-Q Q(
-%0java.util.Map"__id*U
-
-__unknown_file (9*7*
-(engclasses.dao.filesystem.OffertaDAOFile"	
-offerteîë
-Q Q(
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*1
-
-__unknown_file (
-
-%0java.util.Map2values()®•
-Q Q((
-%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*8
-
-__unknown_file (
-
-%1java.util.Collection2stream()†
-ù
-R R(O"
-%3java.util.function.Predicate"__declareFunction*Z
-
-__unknown_file (><
-:__sonar_lambda_10$engclasses.dao.filesystem.OffertaDAOFile£
-†
-
-__unknown_file (9
-"
-%3java.util.function.Predicate"
-usernameVenditore"__id*C
-
-__unknown_file ('
-%
-usernameVenditorejava.lang.String¨©
-Q R(P
-%6java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
-
-__unknown_file (
-
-%2java.util.stream.Stream*@
-
-__unknown_file ($
-"
-%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)Æ
-´
-S S(, 
-%7java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*;
-
-__unknown_file ("
-java.util.stream.Collectorsòï
-Q S(-
-%8java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*;
-
-__unknown_file (
-
-%6java.util.stream.Stream*>
+__unknown_file (!
+
+%8java.io.ObjectInputStreamÆ´
+!* !(:
+%10java.lang.Object"8java.io.ObjectInputStream#readObject()Ljava/lang/Object;*>
 
 __unknown_file ("
  
-%7java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)""
-Q S(.
+oisjava.io.ObjectInputStream2readObject()*
+5*®
+7 %  (UHF
+ )  (:
+%8java.io.ObjectInputStream"java.io.ObjectInputStream…
+∆
+ %  (U
+%9"8java.io.ObjectInputStream#<init>(Ljava/io/InputStream;)V*=
+
+__unknown_file (!
+
+%8java.io.ObjectInputStream*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*
+6*ê
+8 O  (SDB
+ ?  (N
+%6java.io.FileInputStream"java.io.FileInputStreamµ
+≤
+ ;  (T
+%7"/java.io.FileInputStream#<init>(Ljava/io/File;)V*;
+
+__unknown_file (
+
+%6java.io.FileInputStream*2
+
+__unknown_file (
 
-%8java.util.List:1
-P+ P(C%
-usernameVenditorejava.lang.StringB,*
-(engclasses.dao.filesystem.OffertaDAOFileH
+filejava.io.File*
+7*◊
+10 ("86
+ ( 
+%4java.util.HashMap"java.util.HashMapf
+d
+ ("
+%5"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%4java.util.HashMap"%
+ (#
+
+%4java.util.HashMap*ó
+11 (&W
+U
+ (&
+%0java.lang.String"__id*+
+
+__unknown_file (
+offerte.dat.,
+ (
+%1java.io.File"java.io.File•
+¢
+ ('
+%2"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%1java.io.File*4
+
+__unknown_file (
+
+%0java.lang.StringZ
+X
+ ((
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%1java.io.Fileqo
+ (
+%3boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+8
+10B,*
+(engclasses.dao.filesystem.OffertaDAOFile

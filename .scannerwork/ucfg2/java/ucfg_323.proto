@@ -1,37 +1,16 @@
 
-H__sonar_lambda_17$controllers.grafico.gui.VisualizzaAnnunciGUIControlleru
-k/Users/mohamedmousa/Desktop/prova/src/main/java/controllers/grafico/gui/VisualizzaAnnunciGUIController.javaY  Y(C"startingBlock*È
-startingBlockY  Y(C§
-¤
+6model.Partecipazione#getIdAnnuncio()Ljava/lang/String;S
+I/Users/mohamedmousa/Desktop/prova/src/main/java/model/Partecipazione.java$ $("1*¥
+1% %(p
+n
+% %(
+%0java.lang.String"__id*D
 
-__unknown_file (
-usernamejava.lang.String"__id*d
-
-__unknown_file (H*F8
-6controllers.grafico.gui.VisualizzaAnnunciGUIController"
+__unknown_file ((*&
+model.Partecipazione"
 
-username*
-1*½
-1Y% Y(&²¯
-Y% Y(2
-%10java.lang.String";engclasses.beans.AnnuncioBean#getAutore()Ljava/lang/String;*@
-
-__unknown_file ($
-"
-aengclasses.beans.AnnuncioBean2getAutore()Ú×
-Y% Y(C
-%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
-
-__unknown_file (
-
-%10java.lang.String*:
-
-__unknown_file (
-
-usernamejava.lang.String2equals(Ljava/lang/Object;)"
-Y% Y(C
-
-%11boolean:.
-Y  Y(!"
-aengclasses.beans.AnnuncioBeanB 
-java.util.function.Predicate
+idAnnuncio"$
+% %(
+
+%0java.lang.StringB
+model.PartecipazioneH

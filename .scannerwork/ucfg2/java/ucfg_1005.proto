@@ -1,184 +1,18 @@
 
->engclasses.beans.AppuntamentoBean#toString()Ljava/lang/String;b
-V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.javaÈ È("1*±
+Eengclasses.beans.AppuntamentoBean#getOraInizio()Ljava/time/LocalTime;b
+V/Users/mohamedmousa/Desktop/prova/src/main/java/engclasses/beans/AppuntamentoBean.java† †(!"1*æ
 1
-Í Í("m
-k
+° °(Å
+
 
-Í Î(
-%0java.lang.String"__concat*#
-
-Í Í("
-AppuntamentoBean{*
-
-Î Î(
-id='Ñ
-Å
-
-Î Î('
-%1java.lang.String"__id*U
+° °(
+%0java.time.LocalTime"__id*P
 
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-idAppuntamentoÄ
-~
+__unknown_file (4*2#
+!engclasses.beans.AppuntamentoBean"
+	oraInizio")
 
-Í Î('
-%2java.lang.String"__concat*&
-
-Í Î(
-
-%0java.lang.String*&
-
-Î Î('
-
-%1java.lang.Stringn
-l
-
-Í Î(.
-%3java.lang.String"__concat*&
-
-Í Î('
-
-%2java.lang.String*
-
-Î* Î(.
-\'s
-q
-
-Í Ï(
-%4java.lang.String"__concat*&
-
-Í Î(.
-
-%3java.lang.String*
-
-Ï Ï(	
-, tipo=á
-Ñ
-
-Ï Ï(*
-%5misc.TipoConsulenza"__id*U
-
-__unknown_file (9*7#
-!engclasses.beans.AppuntamentoBean"
-tipoConsulenzaÑ
-Å
-
-Í Ï(*
-%6java.lang.String"__concat*&
-
-Í Ï(
-
-%4java.lang.String*)
-
-Ï Ï(*
+° °(
 
-%5misc.TipoConsulenzat
-r
-
-Í Ì(
-%7java.lang.String"__concat*&
-
-Í Ï(*
-
-%6java.lang.String*
-
-Ì Ì(
-
-, stato=Ä
-~
-
-Ì Ì("
-%8misc.StatoAppuntamento"__id*L
-
-__unknown_file (0*.#
-!engclasses.beans.AppuntamentoBean"
-statoá
-Ñ
-
-Í Ì("
-%9java.lang.String"__concat*&
-
-Í Ì(
-
-%7java.lang.String*,
-
-Ì Ì("
-
-%8misc.StatoAppuntamentot
-r
-
-Í Ó(
-%10java.lang.String"__concat*&
-
-Í Ì("
-
-%9java.lang.String*
-
-Ó Ó(	
-, data=…∆
-
-Ó Ó(/
-%11java.lang.String"Gengclasses.beans.AppuntamentoBean#getDataFormattata()Ljava/lang/String;*A
-
-__unknown_file (%#
-!engclasses.beans.AppuntamentoBean2getDataFormattata()Ñ
-Å
-
-Í Ó(/
-%12java.lang.String"__concat*'
-
-Í Ó(
-
-%10java.lang.String*'
-
-Ó Ó(/
-
-%11java.lang.Stringt
-r
-
-Í Ô(
-%13java.lang.String"__concat*'
-
-Í Ó(/
-
-%12java.lang.String*
-
-Ô Ô(
-
-, ora=Õ 
-
-Ô Ô(0
-%14java.lang.String"Iengclasses.beans.AppuntamentoBean#getIntervalloOrario()Ljava/lang/String;*A
-
-__unknown_file (%#
-!engclasses.beans.AppuntamentoBean2getIntervalloOrario()Ñ
-Å
-
-Í Ô(0
-%15java.lang.String"__concat*'
-
-Í Ô(
-
-%13java.lang.String*'
-
-Ô Ô(0
-
-%14java.lang.Stringo
-m
-
-Í (
-%16java.lang.String"__concat*'
-
-Í Ô(0
-
-%15java.lang.String*
-
- (
-}"'
-
-Í (
-
-%16java.lang.StringB%#
+%0java.time.LocalTimeB%#
 !engclasses.beans.AppuntamentoBeanH

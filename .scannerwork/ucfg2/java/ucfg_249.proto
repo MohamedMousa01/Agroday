@@ -1,18 +1,18 @@
 
-.model.Appuntamento#getNote()Ljava/lang/String;S
-G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java© ©("1*£
+5model.Appuntamento#getStato()Lmisc/StatoAppuntamento;S
+G/Users/mohamedmousa/Desktop/prova/src/main/java/model/Appuntamento.java… …(%"1*°
 1
-ª ª(j
-h
+† †(q
+o
 
-ª ª(
-%0java.lang.String"__id*<
+† †(
+%0misc.StatoAppuntamento"__id*=
 
-__unknown_file ( *
-model.Appuntamento"
-note"&
+__unknown_file (!*
+model.Appuntamento"
+stato",
 
-ª ª(
-
-%0java.lang.StringB
+† †(
+
+%0misc.StatoAppuntamentoB
 model.AppuntamentoH
